@@ -1,0 +1,26 @@
+backend:
+  name: jr-health-gitea
+  app_id: todo
+  branch: master
+  repo: PreNudge/prenudge-health-profile
+
+media_folder: static/media
+public_folder: /media
+collections:
+  - name: categories
+    label: Categories
+    label_singular: 'Category'
+    folder: profile/categories
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Template
+        name: template
+        widget: hidden
+        default: category
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: markdown
