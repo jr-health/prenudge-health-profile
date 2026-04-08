@@ -1,8 +1,16 @@
 backend:
-  name: jr-health-gitea
-  app_id: todo
-  branch: master
+  name: gitea
+  app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
+#  api_root: https://health.joanneum.at/git/api/v1
+#  base_url: https://health.joanneum.at/git
+  api_root: http://localhost:8010/git/api/v1
+  base_url: http://localhost:8010/git
+  auth_endpoint: https://health.joanneum.at/git/login/oauth/authorize
+  branch: main
   repo: PreNudge/prenudge-health-profile
+
+# The Gitea backend does not support editorial workflow.
+#publish_mode: editorial_workflow
 
 media_folder: static/media
 public_folder: /media
@@ -10,14 +18,18 @@ collections:
   - name: categories
     label: Categories
     label_singular: 'Category'
-    folder: profile/categories
-    create: true
-    slug: '{{slug}}'
+    folder: hp-categories
+    create: true # <--- Diese Zeile MUSS vorhanden sein
+    extension: "json" # Erzwingt die Endung .json statt .md
+    format: "json"    # Sagt dem CMS, dass es JSON-Daten schreiben soll    create: true
+    slug: "{{id_tech}}"  # Dateiname wird die technische ID    fields:
+#    slug: '{{slug}}'
     fields:
       - label: Template
         name: template
         widget: hidden
         default: category
+      - { label: "Technische ID", name: "id_tech", widget: "string" }
       - label: Title
         name: title
         widget: string
