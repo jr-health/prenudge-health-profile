@@ -11,6 +11,8 @@
     "template": "observation",
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "dimension": "endurance-oriented-activity",
-    "title": "Minutes of moderate or vigorous physical activity (per week)"
+    "title": "Minutes of moderate or vigorous physical activity (per week)",
+    "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+    "description": ""
   }
 }
