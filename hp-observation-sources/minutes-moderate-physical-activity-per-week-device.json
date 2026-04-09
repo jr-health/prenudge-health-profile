@@ -17,6 +17,10 @@
     "observation": "minutes-moderate-physical-activity-per-week",
     "source-type": "device",
     "frequency": "Weekly",
-    "title": "Device (cell phone/wearable)"
+    "title": "Device (cell phone/wearable)",
+    "fhir-ig": {
+      "display": "This is a wrong URL - points to Observation - Alcohol (https://fhir.hl7.at/prenudge/appdata/r4/StructureDefinition/at-prenudge-alcoholuse-observation)",
+      "url": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html"
+    }
   }
 }
