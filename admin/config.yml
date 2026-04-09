@@ -12,27 +12,44 @@ backend:
 # The Gitea backend does not support editorial workflow.
 #publish_mode: editorial_workflow
 
-media_folder: static/media
+media_folder: media
 public_folder: /media
+
+i18n:
+  # 'single_file' speichert de und en zusammen in einer JSON-Datei.
+  # Das ist für deine API am einfachsten zu verarbeiten.
+  structure: single_file
+  locales: [de, en]
+  default_locale: de
+
 collections:
   - name: categories
     label: Categories
     label_singular: 'Category'
     folder: hp-categories
     create: true # <--- Diese Zeile MUSS vorhanden sein
+    i18n: true # Aktiviert i18n für diese gesamte Collection
     extension: "json" # Erzwingt die Endung .json statt .md
     format: "json"    # Sagt dem CMS, dass es JSON-Daten schreiben soll    create: true
     slug: "{{id_tech}}"  # Dateiname wird die technische ID    fields:
-#    slug: '{{slug}}'
     fields:
       - label: Template
         name: template
         widget: hidden
         default: category
-      - { label: "Technische ID", name: "id_tech", widget: "string" }
+        i18n: duplicate
+      - label: "Technische ID"
+        name: id_tech
+        widget: string
+        i18n: duplicate
       - label: Title
         name: title
         widget: string
+        # 'duplicate' kopiert den Wert von 'de' nach 'en',
+        # falls 'en' noch leer ist (gut für technische Werte).
+        i18n: translate
       - label: Description
         name: description
         widget: markdown
+        # Feld ist übersetzbar
+        i18n: translate
