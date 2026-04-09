@@ -5,7 +5,11 @@
     "observation": "minutes-moderate-physical-activity-per-week",
     "title": "Gerät (Handy/Wearable)",
     "source-type": "device",
-    "frequency": "Wöchentlich"
+    "frequency": "Wöchentlich",
+    "fhir-ig": {
+      "url": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html",
+      "display": "Das ist eine falsche URL - auf Observation - Alkohol (https://fhir.hl7.at/prenudge/appdata/r4/StructureDefinition/at-prenudge-alcoholuse-observation)"
+    }
   },
   "en": {
     "template": "observation-source",
