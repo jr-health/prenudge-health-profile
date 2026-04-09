@@ -1,0 +1,337 @@
+{
+  "version": "0.1.1-draft",
+  "subject_areas": [
+    {
+      "key": "risk-and-protective-factors",
+      "name": "Risikofaktoren / Protektive Faktoren"
+    },
+    {
+      "key": "self-management",
+      "name": "Selbstmanagement"
+    },
+    {
+      "key": "outcomes",
+      "name": "Outcomes"
+    }
+  ],
+  "categories": [
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "physical-activity",
+      "name": "Körperliche Aktivität"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "smoking",
+      "name": "Rauchen"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "alcohol",
+      "name": "Alkohol"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "sleep",
+      "name": "Schlaf"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "nutrition",
+      "name": "Ernährung"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "sociodemographic-data",
+      "name": "Soziodemographische Daten"
+    },
+    {
+      "subject_area_key": "risk-and-protective-factors",
+      "key": "psychosocial-factors",
+      "name": "Psychosoziale Faktoren"
+    },
+    {
+      "subject_area_key": "self-management",
+      "key": "anthropometry",
+      "name": "Anthropometrie"
+    },
+    {
+      "subject_area_key": "outcomes",
+      "key": "quality-of-life",
+      "name": "Lebensqualität"
+    },
+    {
+      "subject_area_key": "outcomes",
+      "key": "work",
+      "name": "Arbeit"
+    }
+  ],
+  "dimensions": [
+    {
+      "category_key": "physical-activity",
+      "key": "endurance-oriented-activity",
+      "name": "Ausdauerorientierte Aktivität"
+    },
+    {
+      "category_key": "physical-activity",
+      "key": "muscle-strengthening-exercises",
+      "name": "Muskelkräftigende Übungen"
+    },
+    {
+      "category_key": "physical-activity",
+      "key": "daily-activity",
+      "name": "Alltagsaktivität"
+    },
+    {
+      "category_key": "physical-activity",
+      "key": "sitting",
+      "name": "Sitzen"
+    },
+    {
+      "category_key": "smoking",
+      "key": "smoking-status",
+      "name": "Raucherstatus"
+    },
+    {
+      "category_key": "alcohol",
+      "key": "alcohol-consumption",
+      "name": "Häufigkeit und Menge von Alkoholkonsum"
+    },
+    {
+      "category_key": "sleep",
+      "key": "sleep-duration",
+      "name": "Schlafdauer"
+    },
+    {
+      "category_key": "sleep",
+      "key": "sleep-quality",
+      "name": "Schlafqualität"
+    },
+    {
+      "category_key": "nutrition",
+      "key": "eating-habits",
+      "name": "Ernährungsmuster"
+    },
+    {
+      "category_key": "sociodemographic-data",
+      "key": "age",
+      "name": "Alter"
+    },
+    {
+      "category_key": "sociodemographic-data",
+      "key": "gender",
+      "name": "Geschlecht"
+    },
+    {
+      "category_key": "sociodemographic-data",
+      "key": "socioeconomic-status",
+      "name": "Sozio-ökonomischer Status"
+    },
+    {
+      "category_key": "psychosocial-factors",
+      "key": "emotional-burden",
+      "name": "Emotionale Belastung"
+    },
+    {
+      "category_key": "psychosocial-factors",
+      "key": "chronic-stress",
+      "name": "Chronischer Stress"
+    },
+    {
+      "category_key": "anthropometry",
+      "key": "biometrics",
+      "name": "Körpergröße, Körpergewicht"
+    },
+    {
+      "category_key": "quality-of-life",
+      "key": "well-being",
+      "name": "Körperliche, mentale, soziale, umweltbezogene Lebensqualtität"
+    },
+    {
+      "category_key": "work",
+      "key": "ability-to-work",
+      "name": "Arbeitsfähigkeit"
+    }
+
+  ],
+  "observations": [
+    {
+      "dimension_key": "endurance-oriented-activity",
+      "key": "minutes-moderate-physical-activity-per-week",
+      "name": "Minuten moderate oder intensive körperliche Aktivität (pro Woche)",
+      "target_info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - https://fgoe.org/medien/reihewissen/bewegungsempfehlungen"
+    },
+    {
+      "dimension_key": "muscle-strengthening-exercises",
+      "key": "muscle-strengthening-exercises-units-per-week",
+      "name": "Anzahl der Einheiten (pro Woche)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "daily-activity",
+      "key": "steps-per-day",
+      "name": "Schrittzahl (pro Tag)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "sitting",
+      "key": "sitting-hours-per-day",
+      "name": "Stunden (pro Tag)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "smoking-status",
+      "key": "current-smoking-status",
+      "name": "Aktueller Rauchstatus (Nichtraucher:in, Ex-Raucher:in, Raucher:in)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "alcohol-consumption",
+      "key": "alcohol-consumption-frequency",
+      "name": "Häufigkeit des Alkoholkonsums (in letzten 12 Monaten)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "alcohol-consumption",
+      "key": "alcohol-consumption-units-per-day-or-week",
+      "name": "Menge des Alkoholkonsums (pro Tag und/oder Woche)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "sleep-duration",
+      "key": "average-sleep-duration-per-night",
+      "name": "Durchschnittliche Schlafdauer (pro Nacht)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "sleep-quality",
+      "key": "self-reported-sleep-quality",
+      "name": "Selbstangabene Einschätzung der Schlafqualität",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "eating-habits",
+      "key": "daily-servings-of-fruits-and-vegetables-per-day",
+      "name": "(Durchschnittliche) Portionen Gemüse und Obst pro Tag",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "eating-habits",
+      "key": "frequency-of-consumption-of-sugar-and-salty-foods",
+      "name": "Konsumhäufigkeit von zucker- und salzreichen Lebensmitteln",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "age",
+      "key": "age-in-years",
+      "name": "Alter in Jahren",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "gender",
+      "key": "gender-identification",
+      "name": "Geschlecht",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "socioeconomic-status",
+      "key": "highest-level-of-education-completed",
+      "name": "Höchste abgeschlossene Schulbildung",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "emotional-burden",
+      "key": "self-reported-emotional-burden",
+      "name": "Selbstbericht über emotionale Belastung",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "chronic-stress",
+      "key": "selfreported-stress",
+      "name": "Selbstbericht über Stress",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "biometrics",
+      "key": "body-mass-index",
+      "name": "Body-Mass-Index (kg/m2)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "well-being",
+      "key": "quality-of-life-score",
+      "name": "Lebensqualität (Score)",
+      "target_info": ""
+    },
+    {
+      "dimension_key": "ability-to-work",
+      "key": "workability-score",
+      "name": "Workability (Score)",
+      "target_info": ""
+    }
+  ],
+  "observation_sources": [
+    {
+      "observation_key": "minutes-moderate-physical-activity-per-week",
+      "key": "minutes-moderate-physical-activity-per-week-device",
+      "name": "Gerät (Handy/Wearable)",
+      "source_type": "device",
+      "frequency": "Wöchentlich",
+      "fhir_ig": {
+        "display": "",
+        "link": ""
+      },
+      "dataproviders": [
+        "dccx",
+        "medicus-ai",
+        "telbiomed"
+      ]
+    },
+    {
+      "observation_key": "minutes-moderate-physical-activity-per-week",
+      "key": "minutes-moderate-physical-activity-per-week-questionnair",
+      "name": "Fragebogen",
+      "source_type": "questionnaire",
+      "frequency": "Optimum: alle drei Monate, Minimum: 2x pro Jahr",
+      "dataproviders": [
+        "kurvenkratzer",
+        "medicus-ai",
+        "telbiomed"
+      ]
+    },
+    {
+      "observation_key": "muscle-strengthening-exercises-units-per-week",
+      "key": "muscle-strengthening-exercises-units-per-week-device",
+      "name": "Gerät (Handy/Wearable)",
+      "source_type": "device",
+      "frequency": "EHIS-PAQ - Optimum: alle drei Monate, Minimum: 2x Pro Jahr",
+      "fhir_ig": {
+        "display": "",
+        "link": ""
+      },
+      "dataproviders": [
+        "dccx",
+        "kurvenkratzer",
+        "medicus-ai",
+        "telbiomed"
+      ]
+    },
+    {
+      "observation_key": "muscle-strengthening-exercises-units-per-week",
+      "key": "muscle-strengthening-exercises-units-per-week-questionnaire",
+      "name": "Fragebogen",
+      "source_type": "questionnaire",
+      "frequency": "Wöchentlich",
+      "fhir_ig": {
+        "display": "",
+        "link": ""
+      },
+      "dataproviders": [
+        "dccx",
+        "kurvenkratzer",
+        "medicus-ai",
+        "telbiomed"
+      ]
+    }
+  ]
+}

@@ -58,6 +58,7 @@ collections:
     extension: json
     format: json
     slug: "{{id_tech}}"
+    summary: "{{title}} [{{subject-area}}]"
     fields:
       - label: Template
         name: template
@@ -95,6 +96,7 @@ collections:
     extension: json
     format: json
     slug: "{{id_tech}}"
+    summary: "{{title}} [{{category}}]"
     fields:
       - label: Template
         name: template
@@ -132,6 +134,7 @@ collections:
     extension: json
     format: json
     slug: "{{id_tech}}"
+    summary: "{{title}} [{{dimension}}]"
     fields:
       - label: Template
         name: template
@@ -164,3 +167,64 @@ collections:
         required: false
         widget: markdown
         i18n: translate
+
+  - name: observation-sources
+    label: "Observation Sources"
+    label_singular: "Observation Source"
+    folder: hp-observation-sources
+    create: true
+    i18n: true
+    extension: json
+    format: json
+    slug: "{{id_tech}}"
+    summary: "{{title}} [{{observation}}]"
+    fields:
+      - label: Template
+        name: template
+        widget: hidden
+        default: observation-source
+        i18n: duplicate
+      - label: "Technische ID"
+        name: id_tech
+        widget: string
+        i18n: duplicate
+      - label: Observation
+        name: observation
+        widget: relation
+        collection: observations
+        search_fields: [id_tech, title, description]
+        value_field: id_tech
+        display_fields: ["{{title}} - {{id_tech}}"]
+        i18n: duplicate
+      - label: Title
+        name: title
+        widget: string
+        i18n: translate
+      - label: Description
+        name: description
+        required: false
+        widget: markdown
+        i18n: translate
+      - label: Source Type
+        name: source-type
+        widget: select
+        options: ["device", "questionnaire"]
+        i18n: duplicate
+      - label: Frequency
+        name: frequency
+        widget: text
+        i18n: translate
+      - label: FHIR-IG
+        name: fhir-ig
+        required: false
+        widget: object
+        i18n: true
+        fields:
+          - label: "Display"
+            name: display
+            widget: text
+            i18n: translate
+          - label: "URL"
+            name: url
+            widget: string
+            i18n: duplicate
