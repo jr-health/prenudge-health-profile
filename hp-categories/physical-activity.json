@@ -1,14 +1,14 @@
 {
   "de": {
+    "template": "category",
     "id_tech": "physical-activity",
-    "title": "Körperliche Aktivität",
-    "description": "",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Körperliche Aktivität"
   },
   "en": {
+    "template": "category",
     "id_tech": "physical-activity",
-    "title": "Physical Activity",
-    "description": "",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Physical Activity"
   }
 }

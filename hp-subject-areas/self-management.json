@@ -2,13 +2,11 @@
   "de": {
     "template": "subject-area",
     "id_tech": "self-management",
-    "title": "Selbstmanagement",
-    "description": ""
+    "title": "Selbstmanagement"
   },
   "en": {
     "template": "subject-area",
     "id_tech": "self-management",
-    "title": "Selbstmanagement",
-    "description": ""
+    "title": "Selbstmanagement"
   }
 }

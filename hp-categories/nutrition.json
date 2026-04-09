@@ -2,15 +2,13 @@
   "de": {
     "template": "category",
     "id_tech": "nutrition",
-    "title": "Ernährung",
-    "description": "",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Ernährung"
   },
   "en": {
     "template": "category",
     "id_tech": "nutrition",
-    "title": "Nutrition",
-    "description": "",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Nutrition"
   }
 }

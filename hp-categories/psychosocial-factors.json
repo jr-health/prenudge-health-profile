@@ -2,14 +2,13 @@
   "de": {
     "template": "category",
     "id_tech": "psychosocial-factors",
-    "title": "Psychosoziale Faktoren",
-    "description": "descr",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Psychosoziale Faktoren"
   },
   "en": {
     "template": "category",
     "id_tech": "psychosocial-factors",
-    "title": "Psychosocial Factors",
-    "subject-area": "risk-and-protective-factors"
+    "subject-area": "risk-and-protective-factors",
+    "title": "Psychosocial Factors"
   }
 }
