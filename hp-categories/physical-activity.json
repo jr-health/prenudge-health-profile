@@ -2,11 +2,13 @@
   "de": {
     "id_tech": "physical-activity",
     "title": "Körperliche Aktivität",
-    "description": ""
+    "description": "",
+    "subject-area": "risk-and-protective-factors"
   },
   "en": {
     "id_tech": "physical-activity",
     "title": "Physical Activity",
-    "description": ""
+    "description": "",
+    "subject-area": "risk-and-protective-factors"
   }
 }

@@ -45,6 +45,7 @@ collections:
         i18n: translate              # falls 'en' noch leer ist (gut für technische Werte).
       - label: Description
         name: description
+        required: false
         widget: markdown
         i18n: translate             # 'translate' Feld muss ueberesetzt werden
 
@@ -74,11 +75,13 @@ collections:
         search_fields: [id_tech, title, description]
         value_field: id_tech
         display_fields: ["{{id_tech}} - {{title}}"]
+        i18n: duplicate
       - label: Title
         name: title
         widget: string
         i18n: translate
       - label: Description
         name: description
+        required: false
         widget: markdown
         i18n: translate
