@@ -1,0 +1,12 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "nutrition",
+    "title": "Ernährung",
+    "description": "Das ist die Beschreibung"
+  },
+  "en": {
+    "title": "Nutrition",
+    "description": "This ist the description"
+  }
+}
