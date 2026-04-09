@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "observation",
+    "id_tech": "minutes-moderate-physical-activity-per-week",
+    "dimension": "endurance-oriented-activity",
+    "title": "Minuten moderate oder intensive körperliche Aktivität (pro Woche)",
+    "target-info": "",
+    "description": ""
+  },
+  "en": {
+    "template": "observation",
+    "id_tech": "minutes-moderate-physical-activity-per-week",
+    "dimension": "endurance-oriented-activity",
+    "title": "Minutes of moderate or vigorous physical activity (per week)"
+  }
+}
