@@ -3,10 +3,12 @@
     "template": "category",
     "id_tech": "nutrition",
     "title": "Ernährung",
-    "description": "Das ist die Beschreibung"
+    "description": ""
   },
   "en": {
+    "template": "category",
+    "id_tech": "nutrition",
     "title": "Nutrition",
-    "description": "This ist the description"
+    "description": ""
   }
 }

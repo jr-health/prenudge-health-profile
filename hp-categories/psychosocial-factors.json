@@ -1,0 +1,13 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "psychosocial-factors",
+    "title": "Psychosoziale Faktoren",
+    "description": "descr"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "psychosocial-factors",
+    "title": "Psychosocial Factors"
+  }
+}
