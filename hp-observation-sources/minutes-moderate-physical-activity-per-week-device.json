@@ -1,0 +1,18 @@
+{
+  "de": {
+    "template": "observation-source",
+    "id_tech": "minutes-moderate-physical-activity-per-week-device",
+    "observation": "minutes-moderate-physical-activity-per-week",
+    "title": "Gerät (Handy/Wearable)",
+    "source-type": "device",
+    "frequency": "Wöchentlich"
+  },
+  "en": {
+    "template": "observation-source",
+    "id_tech": "minutes-moderate-physical-activity-per-week-device",
+    "observation": "minutes-moderate-physical-activity-per-week",
+    "source-type": "device",
+    "frequency": "Weekly",
+    "title": "Device (cell phone/wearable)"
+  }
+}
