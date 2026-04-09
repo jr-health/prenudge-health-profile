@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "dimension",
+    "id_tech": "endurance-oriented-activity",
+    "title": "Ausdauerorientierte Aktivität",
+    "description": "",
+    "category": "physical-activity"
+  },
+  "en": {
+    "template": "dimension",
+    "id_tech": "endurance-oriented-activity",
+    "title": "Endurance Oriented Activity",
+    "description": "",
+    "category": "physical-activity"
+  }
+}

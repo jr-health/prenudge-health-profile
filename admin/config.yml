@@ -74,7 +74,44 @@ collections:
         collection: subject-areas
         search_fields: [id_tech, title, description]
         value_field: id_tech
-        display_fields: ["{{id_tech}} - {{title}}"]
+        display_fields: ["{{title}} - {{id_tech}}"]
+        i18n: duplicate
+      - label: Title
+        name: title
+        widget: string
+        i18n: translate
+      - label: Description
+        name: description
+        required: false
+        widget: markdown
+        i18n: translate
+
+  - name: dimensions
+    label: Dimensions
+    label_singular: "Dimension"
+    folder: hp-dimensions
+    create: true
+    i18n: true
+    extension: json
+    format: json
+    slug: "{{id_tech}}"
+    fields:
+      - label: Template
+        name: template
+        widget: hidden
+        default: dimension
+        i18n: duplicate
+      - label: "Technische ID"
+        name: id_tech
+        widget: string
+        i18n: duplicate
+      - label: Category
+        name: category
+        widget: relation
+        collection: categories
+        search_fields: [id_tech, title, description]
+        value_field: id_tech
+        display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
       - label: Title
         name: title
