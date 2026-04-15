@@ -153,6 +153,14 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+      - label: Category
+        name: category
+        widget: relation
+        collection: categories
+        search_fields: [id_tech, title, description]
+        value_field: id_tech
+        display_fields: ["{{title}} - {{id_tech}}"]
+        i18n: duplicate
       - label: Title
         name: title
         widget: string
