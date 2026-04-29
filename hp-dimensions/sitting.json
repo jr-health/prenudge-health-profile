@@ -1,0 +1,14 @@
+{
+  "de": {
+    "template": "dimension",
+    "title": "Sitzen",
+    "category": "physical-activity",
+    "id_tech": "sitting"
+  },
+  "en": {
+    "template": "dimension",
+    "category": "physical-activity",
+    "title": "Sitting",
+    "id_tech": "sitting"
+  }
+}

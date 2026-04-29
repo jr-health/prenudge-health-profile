@@ -1,0 +1,15 @@
+{
+  "de": {
+    "template": "dimension",
+    "id_tech": "consumption-frequency",
+    "category": "alcohol",
+    "title": "Konsumhäufigkeit",
+    "description": "``"
+  },
+  "en": {
+    "template": "dimension",
+    "title": "Consumption frequency",
+    "id_tech": "consumption-frequency",
+    "category": "alcohol"
+  }
+}

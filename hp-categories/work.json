@@ -1,0 +1,14 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "work",
+    "subject-area": "outcomes",
+    "title": "Arbeit"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "work",
+    "subject-area": "outcomes",
+    "title": "Workability"
+  }
+}

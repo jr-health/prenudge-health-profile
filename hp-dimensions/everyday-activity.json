@@ -1,0 +1,14 @@
+{
+  "de": {
+    "template": "dimension",
+    "title": "Alltagsaktivität",
+    "id_tech": "everyday-activity",
+    "category": "physical-activity"
+  },
+  "en": {
+    "template": "dimension",
+    "title": "Everyday Activity",
+    "id_tech": "everyday-activity",
+    "category": "physical-activity"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "de": {
+    "template": "category",
+    "subject-area": "outcomes",
+    "title": "Lebensqualität",
+    "id_tech": "quality-of-life"
+  },
+  "en": {
+    "template": "category",
+    "subject-area": "outcomes",
+    "title": "Quality of Life",
+    "id_tech": "quality-of-life"
+  }
+}

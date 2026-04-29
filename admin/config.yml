@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: gitea
   app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
@@ -29,25 +31,32 @@ collections:
     extension: json                 # Erzwingt die Endung .json statt .md
     format: json                    # Sagt dem CMS, dass es JSON-Daten schreiben soll
     slug: "{{id_tech}}"             # Dateiname wird die technische ID
+
     fields:
       - label: Template             # Damit in jedem JSON File erkennbar ist, von welchem Typ/Template es ist.
         name: template
         widget: hidden
         default: subject-area
         i18n: duplicate             # 'duplicate' kopiert den Wert von 'de' nach 'en',
+
       - label: "Technische ID"
         name: id_tech
-        widget: string
+        widget: id_tech_auto
         i18n: duplicate
+        pattern: ['^[a-z0-9\-]+$', "Nur Kleinbuchstaben, Zahlen und Bindestriche erlaubt"]
+
       - label: Title
         name: title
         widget: string
-        i18n: translate              # falls 'en' noch leer ist (gut für technische Werte).
+        i18n: translate # falls 'en' noch leer ist (gut für technische Werte).
+        required: true
+
       - label: Description
         name: description
         required: false
         widget: markdown
-        i18n: translate             # 'translate' Feld muss ueberesetzt werden
+        i18n: translate # 'translate' Feld muss ueberesetzt werden
+
 
   - name: categories
     label: Categories
@@ -59,16 +68,19 @@ collections:
     format: json
     slug: "{{id_tech}}"
     summary: "{{title}} [{{subject-area}}]"
+
     fields:
       - label: Template
         name: template
         widget: hidden
         default: category
         i18n: duplicate
+
       - label: "Technische ID"
         name: id_tech
         widget: string
         i18n: duplicate
+
       - label: Subject Area
         name: subject-area
         widget: relation
@@ -77,19 +89,21 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+
       - label: Title
         name: title
         widget: string
         i18n: translate
+
       - label: Description
         name: description
         required: false
         widget: markdown
         i18n: translate
 
-  - name: dimensions
-    label: Dimensions
-    label_singular: "Dimension"
+  - label: Indicator Dimensions
+    name: dimensions
+    label_singular: "Indicator Dimension"
     folder: hp-dimensions
     create: true
     i18n: true
@@ -103,10 +117,12 @@ collections:
         widget: hidden
         default: dimension
         i18n: duplicate
+
       - label: "Technische ID"
         name: id_tech
         widget: string
         i18n: duplicate
+
       - label: Category
         name: category
         widget: relation
@@ -115,10 +131,12 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+
       - label: Title
         name: title
         widget: string
         i18n: translate
+
       - label: Description
         name: description
         required: false
@@ -134,18 +152,20 @@ collections:
     extension: json
     format: json
     slug: "{{id_tech}}"
-    summary: "{{title}} [{{dimension}}]"
+    summary: "{{title}} [{{dimension}}] [{{category}}]"
     fields:
       - label: Template
         name: template
         widget: hidden
         default: observation
         i18n: duplicate
+
       - label: "Technische ID"
         name: id_tech
         widget: string
         i18n: duplicate
-      - label: Dimension
+
+      - label: Indicator Dimension
         name: dimension
         widget: relation
         collection: dimensions
@@ -153,6 +173,7 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+
       - label: Category
         name: category
         widget: relation
@@ -161,20 +182,56 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+
       - label: Title
         name: title
         widget: string
         i18n: translate
-      - label: Description
-        name: description
+
+      - label: Unit
+        name: unit
+        widget: string
+        i18n: translate
+
+      - label: Data Format
+        name: data_format
+        widget: select
+        i18n: duplicate
+        options:
+          - label: Numeric (float)
+            value: numeric
+          - label: Integer
+            value: integer
+          - label: Categorical
+            value: categorical
+          - label: Boolean
+            value: boolean
+          - label: Date
+            value: date
+          - label: Time
+            value: time
+          - label: DateTime
+            value: datetime
+          - label: Text
+            value: text
+          - label: Percentage
+            value: percentage
+          - label: Score / Index
+            value: score
+
+      - label: Specific norms
+        name: specific-norms
         required: false
         widget: markdown
         i18n: translate
-      - label: Target information
-        name: target-info
+
+      - label: "Source/References"
+        name: source
+        default: "Scientific publication, guideline, or official recommendation underpinning the measurement instrument (e.g., WHO guidelines, NIH toolkit)"
         required: false
         widget: markdown
         i18n: translate
+
 
   - name: observation-sources
     label: "Observation Sources"

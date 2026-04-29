@@ -1,0 +1,14 @@
+{
+  "de": {
+    "template": "dimension",
+    "title": "Schlafqualität",
+    "id_tech": "sleep-quality",
+    "category": "sleep"
+  },
+  "en": {
+    "template": "dimension",
+    "title": "Sleep Quality",
+    "id_tech": "sleep-quality",
+    "category": "sleep"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "de": {
+    "template": "category",
+    "title": "Anthropometrie",
+    "id_tech": "anthropometry",
+    "subject-area": "self-management"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "anthropometry",
+    "subject-area": "self-management"
+  }
+}
