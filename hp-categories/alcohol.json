@@ -1,15 +1,24 @@
 {
   "de": {
+    "color": "#00a256",
+    "icon_upload": "/media/wine_white.png",
+    "subject-area": "risk-and-protective-factors",
+    "icon_lucide": "wine",
+    "title": "Alkohol",
+    "icon": "/media/heart-plus.png",
     "template": "category",
     "id_tech": "alcohol",
-    "title": "Alkohol",
-    "subject-area": "risk-and-protective-factors"
+    "key": "alcohol"
   },
   "en": {
+    "color": "#00a256",
+    "icon_upload": "/media/wine_white.png",
+    "subject-area": "risk-and-protective-factors",
+    "icon_lucide": "wine",
+    "title": "Alcohol",
     "template": "category",
     "id_tech": "alcohol",
-    "subject-area": "risk-and-protective-factors",
-    "title": "Alcohol",
-    "description": ""
+    "description": "",
+    "key": "alcohol"
   }
 }

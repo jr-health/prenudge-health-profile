@@ -3,12 +3,20 @@
     "template": "category",
     "id_tech": "nutrition",
     "subject-area": "risk-and-protective-factors",
-    "title": "Ernährung"
+    "title": "Ernährung",
+    "key": "nutrition",
+    "icon_lucide": "apple",
+    "icon_upload": "/media/apple.png",
+    "color": "#f2c57c"
   },
   "en": {
     "template": "category",
     "id_tech": "nutrition",
     "subject-area": "risk-and-protective-factors",
-    "title": "Nutrition"
+    "title": "Nutrition",
+    "key": "nutrition",
+    "icon_lucide": "apple",
+    "icon_upload": "/media/apple.png",
+    "color": "#f2c57c"
   }
 }

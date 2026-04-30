@@ -3,12 +3,20 @@
     "template": "category",
     "id_tech": "smoking",
     "subject-area": "risk-and-protective-factors",
-    "title": "Rauchen"
+    "title": "Rauchen",
+    "key": "smoking",
+    "color": "#004e64",
+    "icon_upload": "/media/cigarette-off.png",
+    "icon_lucide": "cigarette-off"
   },
   "en": {
     "template": "category",
     "id_tech": "smoking",
     "subject-area": "risk-and-protective-factors",
-    "title": "Smoking"
+    "title": "Smoking",
+    "key": "smoking",
+    "color": "#004e64",
+    "icon_upload": "/media/cigarette-off.png",
+    "icon_lucide": "cigarette-off"
   }
 }

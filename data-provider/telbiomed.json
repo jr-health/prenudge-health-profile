@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "category",
+    "description": "",
+    "key": "telbiomed",
+    "name": "TELBIOMED",
+    "app-name": "Digitale Präventionsambulanz"
+  },
+  "en": {
+    "template": "category",
+    "description": "",
+    "key": "telbiomed",
+    "name": "TELBIOMED",
+    "app-name": "Digitale Präventionsambulanz"
+  }
+}

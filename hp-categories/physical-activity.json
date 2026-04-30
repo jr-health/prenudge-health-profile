@@ -3,12 +3,20 @@
     "template": "category",
     "id_tech": "physical-activity",
     "subject-area": "risk-and-protective-factors",
-    "title": "Körperliche Aktivität"
+    "title": "Körperliche Aktivität",
+    "key": "physical-activity",
+    "icon_lucide": "dumbbell",
+    "color": "#9bc6a0",
+    "icon_upload": "/media/dumbbell.png"
   },
   "en": {
     "template": "category",
     "id_tech": "physical-activity",
     "subject-area": "risk-and-protective-factors",
-    "title": "Physical Activity"
+    "title": "Physical Activity",
+    "key": "physical-activity",
+    "icon_lucide": "dumbbell",
+    "color": "#9bc6a0",
+    "icon_upload": "/media/dumbbell.png"
   }
 }

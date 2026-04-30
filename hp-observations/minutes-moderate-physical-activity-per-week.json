@@ -1,18 +1,34 @@
 {
   "de": {
+    "unit": "min",
+    "dimension": "everyday-activity",
+    "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+    "data_format": "integer",
+    "population": "",
+    "title": "Schrittzahl (pro Tag)",
+    "measurement-instrument": [
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "url": "test",
+        "note": "test"
+      }
+    ],
     "template": "observation",
     "id_tech": "minutes-moderate-physical-activity-per-week",
-    "dimension": "endurance-oriented-activity",
-    "title": "Minuten moderate oder intensive körperliche Aktivität (pro Woche)",
-    "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
-    "description": ""
+    "description": "",
+    "category": "physical-activity",
+    "key": "steps-per-day"
   },
   "en": {
+    "dimension": "everyday-activity",
+    "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+    "data_format": "integer",
+    "population": "",
+    "title": "Steps (per day)",
     "template": "observation",
     "id_tech": "minutes-moderate-physical-activity-per-week",
-    "dimension": "endurance-oriented-activity",
-    "title": "Minutes of moderate or vigorous physical activity (per week)",
-    "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
-    "description": ""
+    "description": "",
+    "category": "physical-activity",
+    "key": "steps-per-day"
   }
 }

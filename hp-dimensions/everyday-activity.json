@@ -3,12 +3,14 @@
     "template": "dimension",
     "title": "Alltagsaktivität",
     "id_tech": "everyday-activity",
-    "category": "physical-activity"
+    "category": "physical-activity",
+    "key": "everyday-activity"
   },
   "en": {
     "template": "dimension",
     "title": "Everyday Activity",
     "id_tech": "everyday-activity",
-    "category": "physical-activity"
+    "category": "physical-activity",
+    "key": "everyday-activity"
   }
 }

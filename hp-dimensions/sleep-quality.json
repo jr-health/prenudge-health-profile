@@ -3,12 +3,14 @@
     "template": "dimension",
     "title": "Schlafqualität",
     "id_tech": "sleep-quality",
-    "category": "sleep"
+    "category": "sleep",
+    "key": "sleep-quality"
   },
   "en": {
     "template": "dimension",
     "title": "Sleep Quality",
     "id_tech": "sleep-quality",
-    "category": "sleep"
+    "category": "sleep",
+    "key": "sleep-quality"
   }
 }

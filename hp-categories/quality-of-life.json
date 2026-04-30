@@ -3,12 +3,20 @@
     "template": "category",
     "subject-area": "outcomes",
     "title": "Lebensqualität",
-    "id_tech": "quality-of-life"
+    "id_tech": "quality-of-life",
+    "key": "quality-of-life",
+    "color": "#f8e4bf",
+    "icon_lucide": "heart-plus",
+    "icon_upload": "/media/heart-plus.png"
   },
   "en": {
     "template": "category",
     "subject-area": "outcomes",
     "title": "Quality of Life",
-    "id_tech": "quality-of-life"
+    "id_tech": "quality-of-life",
+    "key": "quality-of-life",
+    "color": "#f8e4bf",
+    "icon_lucide": "heart-plus",
+    "icon_upload": "/media/heart-plus.png"
   }
 }

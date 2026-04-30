@@ -4,12 +4,14 @@
     "id_tech": "consumption-frequency",
     "category": "alcohol",
     "title": "Konsumhäufigkeit",
-    "description": "``"
+    "description": "``",
+    "key": "consumption-frequency"
   },
   "en": {
     "template": "dimension",
     "title": "Consumption frequency",
     "id_tech": "consumption-frequency",
-    "category": "alcohol"
+    "category": "alcohol",
+    "key": "consumption-frequency"
   }
 }

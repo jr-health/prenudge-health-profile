@@ -3,12 +3,14 @@
     "template": "dimension",
     "title": "Sitzen",
     "category": "physical-activity",
-    "id_tech": "sitting"
+    "id_tech": "sitting",
+    "key": "sitting"
   },
   "en": {
     "template": "dimension",
     "category": "physical-activity",
     "title": "Sitting",
-    "id_tech": "sitting"
+    "id_tech": "sitting",
+    "key": "sitting"
   }
 }
