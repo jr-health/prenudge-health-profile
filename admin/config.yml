@@ -256,12 +256,97 @@ collections:
         # required: false
         widget: "list"
         i18n: true
-        summary: "{{source-type}} · {{questionnaire}}"
+        summary: " · {{source-type}} · {{questionnaire}}"
         fields:
           - label: "Source Type · Measurement Method"
             name: source-type
             widget: select
             options: ["Wearable device / sensor · automated", "Questionnaire · manual (self-reported)"]
+            i18n: duplicate
+          - label: "Unit"
+            name: unit
+            widget: string
+            i18n: translate
+          - label: "Data format"
+            name: data-format
+            widget: string
+            i18n: translate
+          - label: "Datatype"
+            name: data-type
+            widget: select
+            options: ["numeric", "integer", "categorial", "date", "datetime", "time", "boolean"]
+            i18n: duplicate
+          - label: "Range of values"
+            name: range-of-vales
+            widget: string
+            i18n: duplicate
+          - label: "Acquisition frequency"
+            name: acquisition-frequency
+            widget: string
+            i18n: duplicate
+          - label: "Recommended monitoring frequency"
+            name: recommended-monitoring-frequency
+            widget: string
+            i18n: duplicate
+          - label: "Specific norms"
+            name: norms
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{specific-norm}}"
+            fields:
+              - label: "Specific norm"
+                name: specific-norm
+                widget: richtext
+                required: false
+                hint: "e.g., age or gender specific"
+          - label: "Questionnaire(s)"
+            name: questionnaires
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{questionnaire}}"
+            fields:
+              - label: "Questionnaire"
+                name: questionnaire
+                widget: string
+                required: false
+              - label: "Specific questions"
+                name: specific-questions
+                widget: richtext
+                required: false
+          - label: "Scoring algorithm"
+            name: scoring-algorithm
+            widget: richtext
+            required: false
+          - label: "Source/reference"
+            name: sources
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{source-description}}}"
+            fields:
+              - label: "Source description"
+                name: source-description
+                widget: string
+                required: false
+              - label: "Source URL"
+                name: system
+                widget: string
+                required: true
+          - label: "Link to PreNUDGE FHIR Implementation Guide"
+            name: pn-fhir-ig-link
+            widget: string
+            required: true
+          - label: "PreNUDGE FHIR Implementation Guide Status"
+            name: pn-fhir-ig-status
+            widget: select
+            options: [ "published", "planned", "open", "amendment needed"]
+            i18n: duplicate
+          - label: "PreNUDGE Sunburst Chart Status"
+            name: vis-status
+            widget: select
+            options: [ "published", "planned", "open", "amendment needed" ]
             i18n: duplicate
 
       - label: "Terminology Codes"
@@ -287,6 +372,12 @@ collections:
             widget: "string"
             required: false
             hint: "Human-readable label (optional but recommended)"
+
+      - label: "Citizen information"
+        name: citizen-info
+        required: false
+        widget: richtext
+        i18n: translate
 
 #  - name: observation-sources
 #    label: "Observation Sources"
