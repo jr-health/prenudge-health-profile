@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "dimension",
+    "title": "Schlafdauer",
+    "id_tech": "sleep-duration",
+    "category": "sleep",
+    "key": "sleep-duration"
+  },
+  "en": {
+    "template": "dimension",
+    "title": "Sleep duration",
+    "id_tech": "sleep-duration",
+    "category": "sleep",
+    "key": "sleep-duration"
+  }
+}

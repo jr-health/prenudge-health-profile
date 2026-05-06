@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "socio-demographic-data",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Soziodemografische Daten",
+    "key": "sociodemographic-data",
+    "color": "#e28913",
+    "icon_upload": "/media/person-standing-white.png",
+    "icon_lucide": "person-standing"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "socio-demographic-data",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Sociodemographic Data",
+    "key": "sociodemographic-data",
+    "color": "#e28913",
+    "icon_upload": "/media/person-standing-white.png",
+    "icon_lucide": "person-standing"
+  }
+}

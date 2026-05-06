@@ -3,12 +3,14 @@
     "template": "dimension",
     "id_tech": "endurance-oriented-activity",
     "title": "Ausdauerorientierte Aktivität",
-    "category": "physical-activity"
+    "category": "physical-activity",
+    "key": "endurance-oriented-activity"
   },
   "en": {
     "template": "dimension",
     "id_tech": "endurance-oriented-activity",
     "title": "Endurance Oriented Activity",
-    "category": "physical-activity"
+    "category": "physical-activity",
+    "key": "endurance-oriented-activity"
   }
 }

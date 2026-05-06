@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "category",
+    "description": "",
+    "key": "pandocs",
+    "name": "dccx",
+    "app-name": "pandocs"
+  },
+  "en": {
+    "template": "category",
+    "description": "",
+    "key": "pandocs",
+    "name": "dccx",
+    "app-name": "pandocs"
+  }
+}

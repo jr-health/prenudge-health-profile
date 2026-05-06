@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "category",
+    "description": "",
+    "key": "kurvenkratzer",
+    "name": "Kurvenkratzer GmbH",
+    "app-name": "OnkoBuddy"
+  },
+  "en": {
+    "template": "category",
+    "description": "",
+    "key": "kurvenkratzer",
+    "name": "Kurvenkratzer GmbH",
+    "app-name": "OnkoBuddy"
+  }
+}

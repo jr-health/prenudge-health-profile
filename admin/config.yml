@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: gitea
   app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
@@ -20,110 +22,176 @@ i18n:
 
 collections:
 
-  - name: subject-areas
-    label: Subject Areas
-    label_singular: "Subject Area"
-    folder: hp-subject-areas
-    create: true                    # Damit der 'Erstellen Button' angezeigt wird.
-    i18n: true                      # Aktiviert i18n für diese gesamte Collection
-    extension: json                 # Erzwingt die Endung .json statt .md
-    format: json                    # Sagt dem CMS, dass es JSON-Daten schreiben soll
-    slug: "{{id_tech}}"             # Dateiname wird die technische ID
-    fields:
-      - label: Template             # Damit in jedem JSON File erkennbar ist, von welchem Typ/Template es ist.
-        name: template
-        widget: hidden
-        default: subject-area
-        i18n: duplicate             # 'duplicate' kopiert den Wert von 'de' nach 'en',
-      - label: "Technische ID"
-        name: id_tech
-        widget: string
-        i18n: duplicate
-      - label: Title
-        name: title
-        widget: string
-        i18n: translate              # falls 'en' noch leer ist (gut für technische Werte).
-      - label: Description
-        name: description
-        required: false
-        widget: markdown
-        i18n: translate             # 'translate' Feld muss ueberesetzt werden
+#  - name: subject-areas
+#    label: Subject Areas
+#    label_singular: "Subject Area"
+#    folder: hp-subject-areas
+#    create: true                    # Damit der 'Erstellen Button' angezeigt wird.
+#    i18n: true                      # Aktiviert i18n für diese gesamte Collection
+#    extension: json                 # Erzwingt die Endung .json statt .md
+#    format: json                    # Sagt dem CMS, dass es JSON-Daten schreiben soll
+#    slug: "{{id_tech}}"             # Dateiname wird die technische ID
+#
+#    fields:
+#      - label: Template             # Damit in jedem JSON File erkennbar ist, von welchem Typ/Template es ist.
+#        name: template
+#        widget: hidden
+#        default: subject-area
+#        i18n: duplicate             # 'duplicate' kopiert den Wert von 'de' nach 'en',
+#
+#      - label: "Technische ID"
+#        name: id_tech
+#        widget: id_tech_auto
+#        i18n: duplicate
+#        pattern: ['^[a-z0-9\-]+$', "Nur Kleinbuchstaben, Zahlen und Bindestriche erlaubt"]
+#
+#      - label: Title
+#        name: title
+#        widget: string
+#        i18n: translate # falls 'en' noch leer ist (gut für technische Werte).
+#        required: true
+#
+#      - label: Description
+#        name: description
+#        required: false
+#        widget: markdown
+#        i18n: translate # 'translate' Feld muss ueberesetzt werden
+
 
   - name: categories
-    label: Categories
+    label: "Categories"
     label_singular: "Category"
     folder: hp-categories
     create: true
     i18n: true
     extension: json
     format: json
-    slug: "{{id_tech}}"
-    summary: "{{title}} [{{subject-area}}]"
+    slug: "{{key}}"
+    # summary: "{{title}} [{{subject-area}}]"
+    summary: "{{title}}"
+
     fields:
       - label: Template
         name: template
         widget: hidden
         default: category
         i18n: duplicate
-      - label: "Technische ID"
-        name: id_tech
+
+      - label: "Category Key"
+        name: key
         widget: string
         i18n: duplicate
-      - label: Subject Area
-        name: subject-area
-        widget: relation
-        collection: subject-areas
-        search_fields: [id_tech, title, description]
-        value_field: id_tech
-        display_fields: ["{{title}} - {{id_tech}}"]
-        i18n: duplicate
-      - label: Title
+
+#      - label: Subject Area
+#        name: subject-area
+#        widget: relation
+#        collection: subject-areas
+#        search_fields: [id_tech, title, description]
+#        value_field: id_tech
+#        display_fields: ["{{title}} - {{key}}"]
+#        i18n: duplicate
+
+      - label: "Category Title"
         name: title
         widget: string
         i18n: translate
+
+      - label: "Lucide Icon Name"
+        name: "icon_lucide"
+        required: false
+        widget: "string"
+        i18n: duplicate
+
+      - label: "Icon Upload"
+        name: "icon_upload"
+        required: false
+        widget: "image"
+        i18n: duplicate
+        media_library:
+          config:
+            multiple: false
+
+      - label: "Color"
+        name: color
+        widget: "color"
+        allowInput: true
+        required: false
+        i18n: duplicate
+
       - label: Description
         name: description
         required: false
-        widget: markdown
+        widget: richtext
         i18n: translate
 
-  - name: dimensions
-    label: Dimensions
-    label_singular: "Dimension"
+  - label: "Indicator Dimensions"
+    name: dimensions
+    label_singular: "Indicator Dimension"
     folder: hp-dimensions
     create: true
     i18n: true
     extension: json
     format: json
-    slug: "{{id_tech}}"
-    summary: "{{title}} [{{category}}]"
+    slug: "{{key}}"
+    summary: "{{title}} · {{category}}"
+    sortable_fields: ["category", "title"]
     fields:
       - label: Template
         name: template
         widget: hidden
         default: dimension
         i18n: duplicate
-      - label: "Technische ID"
-        name: id_tech
+
+      - label: "Indicator dimension key"
+        name: key
         widget: string
         i18n: duplicate
-      - label: Category
+
+      - label: "Category"
         name: category
         widget: relation
         collection: categories
-        search_fields: [id_tech, title, description]
-        value_field: id_tech
-        display_fields: ["{{title}} - {{id_tech}}"]
+        search_fields: [key, title, description]
+        value_field: key
+        display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
-      - label: Title
+
+      - label: "Indicator dimension Title"
         name: title
         widget: string
         i18n: translate
-      - label: Description
+
+      - label: "Indicator dimension Description"
         name: description
         required: false
-        widget: markdown
+        widget: richtext
         i18n: translate
+
+      - label: "Verified Austrian Health Information"
+        name: verified-health-links
+        # required: false
+        widget: "list"
+        i18n: true
+        summary: "{{title}} · {{url}}"
+        fields:
+          - label: "Link Title"
+            name: "title"
+            widget: "string"
+            required: true
+            i18n: translate
+
+          - label: "URL"
+            name: "url"
+            widget: "string"
+            required: true
+            i18n: duplicate
+
+          - label: "Short Note"
+            name: "note"
+            widget: "text"
+            required: false
+            i18n: translate
+
 
   - name: observations
     label: Observations
@@ -134,26 +202,41 @@ collections:
     extension: json
     format: json
     slug: "{{id_tech}}"
-    summary: "{{title}} [{{dimension}}]"
+    summary: "{{title}} · {{dimension}} · {{category}}"
+    sortable_fields: ["category", "title", "dimension"]
     fields:
       - label: Template
         name: template
         widget: hidden
         default: observation
         i18n: duplicate
-      - label: "Technische ID"
-        name: id_tech
+
+      - label: "Observation key"
+        name: key
         widget: string
         i18n: duplicate
-      - label: Dimension
+
+      - label: "Observation Title"
+        name: title
+        widget: string
+        i18n: translate
+
+      - label: "Observation Description"
+        name: description
+        required: false
+        widget: richtext
+        i18n: translate
+
+      - label: "Indicator Dimension"
         name: dimension
         widget: relation
         collection: dimensions
-        search_fields: [id_tech, title, description]
-        value_field: id_tech
-        display_fields: ["{{title}} - {{id_tech}}"]
+        search_fields: [key, title, description]
+        value_field: key
+        display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
-      - label: Category
+
+      - label: "Category"
         name: category
         widget: relation
         collection: categories
@@ -161,78 +244,249 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
-      - label: Title
-        name: title
-        widget: string
-        i18n: translate
-      - label: Description
-        name: description
+
+      - label: "Population"
+        name: population
         required: false
-        widget: markdown
-        i18n: translate
-      - label: Target information
-        name: target-info
-        required: false
-        widget: markdown
+        widget: richtext
         i18n: translate
 
-  - name: observation-sources
-    label: "Observation Sources"
-    label_singular: "Observation Source"
-    folder: hp-observation-sources
+      - label: "Measurement instrument"
+        name: measurement-instrument
+        # required: false
+        widget: "list"
+        i18n: true
+        summary: " · {{source-type}} · {{questionnaire}}"
+        fields:
+          - label: "Source Type · Measurement Method"
+            name: source-type
+            widget: select
+            options: ["Wearable device / sensor · automated", "Questionnaire · manual (self-reported)"]
+            i18n: duplicate
+          - label: "Unit"
+            name: unit
+            widget: string
+            i18n: translate
+          - label: "Data format"
+            name: data-format
+            widget: string
+            i18n: translate
+          - label: "Datatype"
+            name: data-type
+            widget: select
+            options: ["numeric", "integer", "categorial", "date", "datetime", "time", "boolean"]
+            i18n: duplicate
+          - label: "Range of values"
+            name: range-of-vales
+            widget: string
+            i18n: duplicate
+          - label: "Acquisition frequency"
+            name: acquisition-frequency
+            widget: string
+            i18n: duplicate
+          - label: "Recommended monitoring frequency"
+            name: recommended-monitoring-frequency
+            widget: string
+            i18n: duplicate
+          - label: "Specific norms"
+            name: norms
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{specific-norm}}"
+            fields:
+              - label: "Specific norm"
+                name: specific-norm
+                widget: richtext
+                required: false
+                hint: "e.g., age or gender specific"
+          - label: "Questionnaire(s)"
+            name: questionnaires
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{questionnaire}}"
+            fields:
+              - label: "Questionnaire"
+                name: questionnaire
+                widget: string
+                required: false
+              - label: "Specific questions"
+                name: specific-questions
+                widget: richtext
+                required: false
+          - label: "Scoring algorithm"
+            name: scoring-algorithm
+            widget: richtext
+            required: false
+          - label: "Source/reference"
+            name: sources
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{source-description}}}"
+            fields:
+              - label: "Source description"
+                name: source-description
+                widget: string
+                required: false
+              - label: "Source URL"
+                name: system
+                widget: string
+                required: true
+          - label: "Link to PreNUDGE FHIR Implementation Guide"
+            name: pn-fhir-ig-link
+            widget: string
+            required: true
+          - label: "PreNUDGE FHIR Implementation Guide Status"
+            name: pn-fhir-ig-status
+            widget: select
+            options: [ "published", "planned", "open", "amendment needed"]
+            i18n: duplicate
+          - label: "PreNUDGE Sunburst Chart Status"
+            name: vis-status
+            widget: select
+            options: [ "published", "planned", "open", "amendment needed" ]
+            i18n: duplicate
+
+      - label: "Terminology Codes"
+        name: "terminology-codes"
+        widget: "list"
+        required: false
+        i18n: false
+        summary: "{{system}} · {{code}}"
+        fields:
+          - label: "System URL"
+            name: system
+            widget: "string"
+            required: true
+            hint: "e.g. http://loinc.org, http://snomed.info/sct"
+
+          - label: "Code"
+            name: code
+            widget: "string"
+            required: true
+
+          - label: "Display / Description"
+            name: display
+            widget: "string"
+            required: false
+            hint: "Human-readable label (optional but recommended)"
+
+      - label: "Citizen information"
+        name: citizen-info
+        required: false
+        widget: richtext
+        i18n: translate
+
+#  - name: observation-sources
+#    label: "Observation Sources"
+#    label_singular: "Observation Source"
+#    folder: hp-observation-sources
+#    create: true
+#    i18n: true
+#    extension: json
+#    format: json
+#    slug: "{{id_tech}}"
+#    summary: "{{title}} [{{observation}}]"
+#    fields:
+#      - label: Template
+#        name: template
+#        widget: hidden
+#        default: observation-source
+#        i18n: duplicate
+#      - label: "Technische ID"
+#        name: id_tech
+#        widget: string
+#        i18n: duplicate
+#      - label: Observation
+#        name: observation
+#        widget: relation
+#        collection: observations
+#        search_fields: [id_tech, title, description]
+#        value_field: id_tech
+#        display_fields: ["{{title}} - {{id_tech}}"]
+#        i18n: duplicate
+#      - label: Title
+#        name: title
+#        widget: string
+#        i18n: translate
+#      - label: Description
+#        name: description
+#        required: false
+#        widget: richtext
+#        i18n: translate
+#      - label: Source Type
+#        name: source-type
+#        widget: select
+#        options: ["device", "questionnaire"]
+#        i18n: duplicate
+#      - label: Frequency
+#        name: frequency
+#        widget: text
+#        i18n: translate
+#      - label: FHIR-IG
+#        name: fhir-ig
+#        required: false
+#        widget: object
+#        i18n: true
+#        fields:
+#          - label: "Display"
+#            name: display
+#            widget: text
+#            i18n: translate
+#          - label: "URL"
+#            name: url
+#            widget: string
+#            i18n: duplicate
+
+  - name: data-provider
+    label: "Data/App Provider"
+    label_singular: "Data/App Provider"
+    folder: data-provider
     create: true
     i18n: true
     extension: json
     format: json
-    slug: "{{id_tech}}"
-    summary: "{{title}} [{{observation}}]"
+    slug: "{{key}}"
+    summary: "{{app-name}} · {{name}}"
+
     fields:
       - label: Template
         name: template
         widget: hidden
-        default: observation-source
+        default: category
         i18n: duplicate
-      - label: "Technische ID"
-        name: id_tech
+
+      - label: "Data/App Provider Key"
+        name: key
         widget: string
         i18n: duplicate
-      - label: Observation
-        name: observation
-        widget: relation
-        collection: observations
-        search_fields: [id_tech, title, description]
-        value_field: id_tech
-        display_fields: ["{{title}} - {{id_tech}}"]
-        i18n: duplicate
-      - label: Title
-        name: title
+
+      - label: "Data/App Provider Name"
+        name: name
         widget: string
-        i18n: translate
-      - label: Description
+        i18n: duplicate
+
+      - label: "Application Name"
+        name: app-name
+        widget: string
+        i18n: duplicate
+
+      - label: "Company Description"
         name: description
         required: false
-        widget: markdown
+        widget: richtext
         i18n: translate
-      - label: Source Type
-        name: source-type
-        widget: select
-        options: ["device", "questionnaire"]
-        i18n: duplicate
-      - label: Frequency
-        name: frequency
-        widget: text
-        i18n: translate
-      - label: FHIR-IG
-        name: fhir-ig
+
+      - label: "Company Logo"
+        name: logo
         required: false
-        widget: object
-        i18n: true
-        fields:
-          - label: "Display"
-            name: display
-            widget: text
-            i18n: translate
-          - label: "URL"
-            name: url
-            widget: string
-            i18n: duplicate
+        widget: "image"
+        i18n: duplicate
+
+      - label: "App Logo"
+        name: app-logo
+        required: false
+        widget: "image"
+        i18n: duplicate

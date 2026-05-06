@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "work",
+    "subject-area": "outcomes",
+    "title": "Arbeit",
+    "key": "workability",
+    "icon_lucide": "briefcase-business",
+    "icon_upload": "/media/briefcase-business.png",
+    "color": "#9bc6a0"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "work",
+    "subject-area": "outcomes",
+    "title": "Workability",
+    "key": "workability",
+    "icon_lucide": "briefcase-business",
+    "icon_upload": "/media/briefcase-business.png",
+    "color": "#9bc6a0"
+  }
+}

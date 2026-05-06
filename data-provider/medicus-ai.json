@@ -1,0 +1,16 @@
+{
+  "de": {
+    "template": "category",
+    "description": "",
+    "key": "medicus-ai",
+    "name": "medicus.ai",
+    "app-name": "medicus.ai"
+  },
+  "en": {
+    "template": "category",
+    "description": "",
+    "key": "medicus-ai",
+    "name": "medicus.ai",
+    "app-name": "medicus.ai"
+  }
+}

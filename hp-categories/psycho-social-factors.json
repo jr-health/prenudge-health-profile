@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "psycho-social-factors",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Psychosoziale Faktoren",
+    "key": "psychosocial-factors",
+    "color": "#6e4e69",
+    "icon_upload": "/media/brain-circuit-white.png",
+    "icon_lucide": "brain-circuit-white"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "psycho-social-factors",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Psychosocial Factors",
+    "key": "psychosocial-factors",
+    "color": "#6e4e69",
+    "icon_upload": "/media/brain-circuit-white.png",
+    "icon_lucide": "brain-circuit-white"
+  }
+}

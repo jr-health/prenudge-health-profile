@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "id_tech": "sleep",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Schlaf",
+    "key": "sleep",
+    "icon_lucide": "bed",
+    "icon_upload": "/media/bed_white.png",
+    "color": "#007ba7"
+  },
+  "en": {
+    "template": "category",
+    "id_tech": "sleep",
+    "subject-area": "risk-and-protective-factors",
+    "title": "Sleep",
+    "key": "sleep",
+    "icon_lucide": "bed",
+    "icon_upload": "/media/bed_white.png",
+    "color": "#007ba7"
+  }
+}
