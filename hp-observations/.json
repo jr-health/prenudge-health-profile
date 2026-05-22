@@ -33,11 +33,11 @@
         "sources": [
           {
             "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
-            "source-description": "Norm"
+            "source-description": "Norm?"
           }
         ],
         "data-format": "min",
-        "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden",
+        "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
         "data-type": "integer",
         "vis-status": "published"
       },
