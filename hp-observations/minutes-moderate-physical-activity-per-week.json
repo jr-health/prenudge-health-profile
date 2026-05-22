@@ -5,14 +5,9 @@
     "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
     "data_format": "integer",
     "population": "",
+    "citizen-info": "",
     "title": "Schrittzahl (pro Tag)",
-    "measurement-instrument": [
-      {
-        "source-type": "Wearable device / sensor · automated",
-        "url": "test",
-        "note": "test"
-      }
-    ],
+    "measurement-instrument": [],
     "template": "observation",
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "description": "",
@@ -24,6 +19,7 @@
     "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
     "data_format": "integer",
     "population": "",
+    "citizen-info": "",
     "title": "Steps (per day)",
     "template": "observation",
     "id_tech": "minutes-moderate-physical-activity-per-week",
