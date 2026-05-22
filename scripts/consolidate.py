@@ -7,6 +7,7 @@ Relations are resolved and embedded; orphaned entries are collected separately.
 
 Usage:
     python scripts/consolidate.py
+    python scripts/consolidate.py --version 1.2.0
     python scripts/consolidate.py --indent 2
     python scripts/consolidate.py --out path/to/output.json
 """
@@ -38,7 +39,7 @@ def clean(entry: dict) -> dict:
     return {k: v for k, v in entry.items() if not k.startswith("_")}
 
 
-def consolidate() -> dict:
+def consolidate(version: str | None = None) -> dict:
     categories = load_collection("hp-categories")
     dimensions = load_collection("hp-dimensions")
     observations = load_collection("hp-observations")
@@ -90,6 +91,7 @@ def consolidate() -> dict:
         built_categories.append(built_cat)
 
     result = {
+        "version": version or "unreleased",
         "generated": datetime.now(timezone.utc).isoformat(),
         "categories": built_categories,
         "data_providers": [clean(p) for p in data_providers],
@@ -107,10 +109,11 @@ def main():
     parser = argparse.ArgumentParser(description="Consolidate Health Profile JSONs")
     parser.add_argument("--out", default=str(ROOT / "health-profile.json"), help="Output file path")
     parser.add_argument("--indent", type=int, default=2, help="JSON indent (default: 2)")
+    parser.add_argument("--version", default=None, help="Semantic version to embed, e.g. 1.2.0")
     args = parser.parse_args()
 
     print("Consolidating Health Profile data...")
-    result = consolidate()
+    result = consolidate(version=args.version)
 
     out_path = Path(args.out)
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=args.indent), encoding="utf-8")
@@ -120,6 +123,7 @@ def main():
     obs_count = sum(len(d["observations"]) for c in result["categories"] for d in c["dimensions"])
     prov_count = len(result["data_providers"])
 
+    print(f"  Version: {result['version']}")
     print(f"  {cat_count} categories, {dim_count} dimensions, {obs_count} observations, {prov_count} data providers")
     print(f"  Written to: {out_path}")
 

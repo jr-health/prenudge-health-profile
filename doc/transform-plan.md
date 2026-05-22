@@ -80,12 +80,29 @@ Jeder Renderer liest die Roh-JSONs selbst. Für den Sunburst bedeutet das viele 
 
 ---
 
+## Versionierung
+
+Das `health-profile.json` wird mit Semantic Versioning versioniert. Die Version wird beim Generieren per `--version`-Argument übergeben und ist im JSON-Output unter `"version"` sichtbar.
+
+Releases werden als **Git Tags** (`v1.2.0`) auf Gitea angelegt. Gitea erzeugt daraus automatisch einen Download-Link für das JSON-Artefakt. Der Release-Prozess ist in `doc/release.md` beschrieben.
+
+### SemVer-Definition für Health Profile Metadata
+
+| | Änderungstyp | Beispiele |
+|---|---|---|
+| **MAJOR** | Breaking — Konsumenten (Scripts, Apps) müssen angepasst werden | Key umbenannt; Feld entfernt; Feldtyp geändert (String → Liste); Collection-Struktur grundlegend geändert |
+| **MINOR** | Additiv — bestehende Konsumenten funktionieren weiter | Neue Category / Dimension / Observation; neues optionales Feld; neue Collection aktiviert |
+| **PATCH** | Inhaltliche Korrektur — kein Struktureinfluss | Tipp-/Inhaltsfehler; falscher FHIR-Code; Link aktualisiert; leeres Pflichtfeld befüllt; kaputte Referenz repariert |
+
+---
+
 ## Verzeichnisstruktur (geplant)
 
 ```
 prenudge-health-profile/
 ├── scripts/
 │   ├── consolidate.py
+│   ├── validate.py
 │   ├── render_doc.py
 │   ├── render_html.py
 │   └── render_svg.py
@@ -96,5 +113,6 @@ prenudge-health-profile/
 │       └── browse.html.j2
 ├── health-profile.json       ← generiert, aber eingecheckt
 └── doc/
-    └── transform-plan.md     ← dieses Dokument
+    ├── transform-plan.md     ← dieses Dokument
+    └── release.md            ← Release-Workflow
 ```
