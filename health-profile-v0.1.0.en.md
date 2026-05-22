@@ -12,6 +12,7 @@ _Version: 0.1.0 | Generated: 2026-05-22_
 - [Nutrition](#nutrition)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
+    - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
   - [Everyday Activity](#everyday-activity)
     - [Steps (per day)](#steps-per-day)
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
@@ -61,7 +62,20 @@ _No dimensions recorded._
 
 ### Endurance Oriented Activity
 
-_No observations recorded._
+#### Minutes in moderate and vigouros physical activity
+
+*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*
+
+##### Terminology Codes
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
+| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
+
+##### Citizen Information
+
+Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.
 
 ### Everyday Activity
 
@@ -142,6 +156,7 @@ _All editing days:_
 | Date | Author |
 |---|---|
 | 2026-05-22 | Thomas Truskaller |
+| 2026-05-22 | Theresa Weitlaner |
 | 2026-05-06 | Thomas Truskaller |
 | 2026-05-05 | Theresa.Weitlaner |
 | 2026-04-30 | Theresa.Weitlaner |

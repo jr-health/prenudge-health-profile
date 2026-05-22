@@ -12,6 +12,7 @@ _Version: 0.1.0 | Generiert: 2026-05-22_
 - [Ernährung](#ernährung)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
+    - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
@@ -63,17 +64,84 @@ _Keine Dimensionen erfasst._
 
 ### Ausdauerorientierte Aktivität
 
-_Keine Beobachtungen erfasst._
+#### Minuten in moderater und intensiver körperlichen Aktivität
+
+Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).
+
+**Zielpopulation:** general population
+
+##### Messinstrumente
+
+**Messinstrument 1** — Wearable device / sensor · automated
+- **Einheit:** min/week
+- **Datenformat:** min
+- **Datentyp:** integer
+- **Wertebereich:** min: 0 max: >48h/day
+- **Erfassungsfrequenz:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
+- **Empfohlene Monitoringfrequenz:** pro Tag/täglich
+- **FHIR IG Link:** -
+- **FHIR IG Status:** planned
+- **Sunburst-Chart Status:** published
+
+**Spezifische Normen:**
+- adults >=18 years: >=150 min /week
+
+**Scoring-Algorithmus:** vigorous Intensitätsminuten x2
+
+**Quellen:**
+- [Norm?](Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/)
+
+**Messinstrument 2** — Questionnaire · manual (self-reported)
+- **Einheit:** -
+- **Datenformat:** -
+- **Datentyp:** categorial
+- **Wertebereich:** -
+- **Erfassungsfrequenz:** Alle 3 Monate
+- **Empfohlene Monitoringfrequenz:** Alle 6 Monate = 2x im Jahr
+- **FHIR IG Link:** -
+- **FHIR IG Status:** planned
+- **Sunburst-Chart Status:** published
+
+**Fragebögen:**
+- **EHIS-PAQ (Q4-Q7)**: Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  
+
+Antwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  
+
+3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche 
+
+Q5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? 
+
+Antwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  
+
+2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr 
+
+Q6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  
+
+Antwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche 
+
+Q7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   
+
+Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
+
+**Quellen:**
+- [EHIS-PAQ Fragebogen](Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/)
+
+##### Terminologiecodes
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
+| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
+
+##### Bürgerinformation
+
+Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.
 
 ### Alltagsaktivität
 
 #### Schrittzahl (pro Tag)
 
 **Zielwert / Empfehlung:** Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>
-
-##### Messinstrumente
-
-**Messinstrument 1** — Wearable device / sensor · automated
 
 ### Muskelkräftigende Übungen
 
@@ -148,6 +216,7 @@ _Alle Bearbeitungstage:_
 | Datum | Bearbeiter |
 |---|---|
 | 2026-05-22 | Thomas Truskaller |
+| 2026-05-22 | Theresa Weitlaner |
 | 2026-05-06 | Thomas Truskaller |
 | 2026-05-05 | Theresa.Weitlaner |
 | 2026-04-30 | Theresa.Weitlaner |

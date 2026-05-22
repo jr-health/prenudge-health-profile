@@ -1,12 +1,16 @@
 {
   "version": "0.1.0",
-  "generated": "2026-05-22T14:24:14.409745+00:00",
+  "generated": "2026-05-22T15:22:48.178568+00:00",
   "activity": {
     "since": null,
     "entries": [
       {
         "date": "2026-05-22",
         "author": "Thomas Truskaller"
+      },
+      {
+        "date": "2026-05-22",
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-05-06",
@@ -170,7 +174,93 @@
             "category": "physical-activity",
             "key": "endurance-oriented-activity"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "dimension": "endurance-oriented-activity",
+                "terminology-codes": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "77593-2",
+                    "display": "Physical activity - minutes per week at vigorous intensity"
+                  },
+                  {
+                    "system": "http://loinc.org",
+                    "code": "77592-4",
+                    "display": "Moderate physical activity [IPAQ]"
+                  }
+                ],
+                "population": "general population",
+                "citizen-info": "Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.",
+                "title": "Minuten in moderater und intensiver körperlichen Aktivität",
+                "measurement-instrument": [
+                  {
+                    "unit": "min/week",
+                    "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "range-of-vales": "min: 0 max: >48h/day",
+                    "source-type": "Wearable device / sensor · automated",
+                    "pn-fhir-ig-status": "planned",
+                    "scoring-algorithm": "vigorous Intensitätsminuten x2",
+                    "pn-fhir-ig-link": "-",
+                    "norms": [
+                      {
+                        "specific-norm": "adults >=18 years: >=150 min /week"
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "source-description": "Norm?"
+                      }
+                    ],
+                    "data-format": "min",
+                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
+                    "data-type": "integer",
+                    "vis-status": "published"
+                  },
+                  {
+                    "unit": "-",
+                    "recommended-monitoring-frequency": "Alle 6 Monate = 2x im Jahr",
+                    "range-of-vales": "-",
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "pn-fhir-ig-status": "planned",
+                    "questionnaires": [
+                      {
+                        "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche",
+                        "questionnaire": "EHIS-PAQ (Q4-Q7)"
+                      }
+                    ],
+                    "scoring-algorithm": "",
+                    "pn-fhir-ig-link": "-",
+                    "sources": [
+                      {
+                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "source-description": "EHIS-PAQ Fragebogen"
+                      }
+                    ],
+                    "data-format": "-",
+                    "acquisition-frequency": "Alle 3 Monate",
+                    "data-type": "categorial",
+                    "vis-status": "published"
+                  }
+                ],
+                "template": "observation",
+                "description": "Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).",
+                "category": "physical-activity",
+                "key": "minutes-moderate-physical-activity"
+              },
+              "en": {
+                "template": "observation",
+                "description": "*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*",
+                "population": "",
+                "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
+                "key": "minutes-moderate-physical-activity",
+                "title": "Minutes in moderate and vigouros physical activity",
+                "dimension": "endurance-oriented-activity",
+                "category": "physical-activity"
+              }
+            }
+          ]
         },
         {
           "de": {
@@ -195,14 +285,9 @@
                 "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
                 "data_format": "integer",
                 "population": "",
+                "citizen-info": "",
                 "title": "Schrittzahl (pro Tag)",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Wearable device / sensor · automated",
-                    "url": "test",
-                    "note": "test"
-                  }
-                ],
+                "measurement-instrument": [],
                 "template": "observation",
                 "id_tech": "minutes-moderate-physical-activity-per-week",
                 "description": "",
@@ -214,6 +299,7 @@
                 "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
                 "data_format": "integer",
                 "population": "",
+                "citizen-info": "",
                 "title": "Steps (per day)",
                 "template": "observation",
                 "id_tech": "minutes-moderate-physical-activity-per-week",
