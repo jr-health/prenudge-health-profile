@@ -23,7 +23,7 @@
         "range-of-vales": "min: 0 max: >48h/day",
         "source-type": "Wearable device / sensor · automated",
         "pn-fhir-ig-status": "planned",
-        "scoring-algorithm": "\\-",
+        "scoring-algorithm": "vigorous Intensitätsminuten x2",
         "pn-fhir-ig-link": "-",
         "norms": [
           {
