@@ -40,6 +40,27 @@
         "acquisition-frequency": "pro Tag/täglich",
         "data-type": "integer",
         "vis-status": "published"
+      },
+      {
+        "recommended-monitoring-frequency": "Alle 6 Monate = 2x im Jahr",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "pn-fhir-ig-status": "planned",
+        "questionnaires": [
+          {
+            "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche",
+            "questionnaire": "EHIS-PAQ (Q4-Q7)"
+          }
+        ],
+        "scoring-algorithm": "",
+        "pn-fhir-ig-link": "",
+        "sources": [
+          {
+            "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "source-description": "EHIS-PAQ Fragebogen"
+          }
+        ],
+        "acquisition-frequency": "Alle 3 Monate",
+        "vis-status": "published"
       }
     ],
     "template": "observation",
