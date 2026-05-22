@@ -19,7 +19,7 @@
     "measurement-instrument": [
       {
         "unit": "min/week",
-        "recommended-monitoring-frequency": "pro Woche/wöchentlich?",
+        "recommended-monitoring-frequency": "pro Tag/täglich",
         "range-of-vales": "min: 0 max: >48h/day",
         "source-type": "Wearable device / sensor · automated",
         "pn-fhir-ig-status": "planned",
@@ -37,12 +37,14 @@
           }
         ],
         "data-format": "min",
-        "acquisition-frequency": "pro Tag/täglich",
+        "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden",
         "data-type": "integer",
         "vis-status": "published"
       },
       {
+        "unit": "-",
         "recommended-monitoring-frequency": "Alle 6 Monate = 2x im Jahr",
+        "range-of-vales": "-",
         "source-type": "Questionnaire · manual (self-reported)",
         "pn-fhir-ig-status": "planned",
         "questionnaires": [
@@ -52,14 +54,16 @@
           }
         ],
         "scoring-algorithm": "",
-        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-link": "-",
         "sources": [
           {
             "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
             "source-description": "EHIS-PAQ Fragebogen"
           }
         ],
+        "data-format": "-",
         "acquisition-frequency": "Alle 3 Monate",
+        "data-type": "categorial",
         "vis-status": "published"
       }
     ],
