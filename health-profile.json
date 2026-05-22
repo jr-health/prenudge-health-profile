@@ -1,0 +1,479 @@
+{
+  "generated": "2026-05-22T13:32:43.516833+00:00",
+  "categories": [
+    {
+      "de": {
+        "color": "#00a256",
+        "icon_upload": "/media/wine_white.png",
+        "subject-area": "risk-and-protective-factors",
+        "icon_lucide": "wine",
+        "title": "Alkohol",
+        "icon": "/media/heart-plus.png",
+        "template": "category",
+        "id_tech": "alcohol",
+        "key": "alcohol"
+      },
+      "en": {
+        "color": "#00a256",
+        "icon_upload": "/media/wine_white.png",
+        "subject-area": "risk-and-protective-factors",
+        "icon_lucide": "wine",
+        "title": "Alcohol",
+        "template": "category",
+        "id_tech": "alcohol",
+        "description": "",
+        "key": "alcohol"
+      },
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "id_tech": "consumption-frequency",
+            "category": "alcohol",
+            "title": "Konsumhäufigkeit",
+            "description": "``",
+            "key": "consumption-frequency"
+          },
+          "en": {
+            "template": "dimension",
+            "title": "Consumption frequency",
+            "id_tech": "consumption-frequency",
+            "category": "alcohol",
+            "key": "consumption-frequency"
+          },
+          "observations": []
+        }
+      ]
+    },
+    {
+      "de": {
+        "template": "category",
+        "title": "Anthropometrie",
+        "id_tech": "anthropometry",
+        "subject-area": "self-management",
+        "key": "anthropometry",
+        "icon_lucide": "ruler-dimension-line",
+        "icon_upload": "/media/ruler-dimension-line.png",
+        "color": "#e0d3de"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "anthropometry",
+        "subject-area": "self-management",
+        "title": "Anthropometry",
+        "key": "anthropometry",
+        "icon_lucide": "ruler-dimension-line",
+        "icon_upload": "/media/ruler-dimension-line.png",
+        "color": "#e0d3de"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "nutrition",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Ernährung",
+        "key": "nutrition",
+        "icon_lucide": "apple",
+        "icon_upload": "/media/apple.png",
+        "color": "#f2c57c"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "nutrition",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Nutrition",
+        "key": "nutrition",
+        "icon_lucide": "apple",
+        "icon_upload": "/media/apple.png",
+        "color": "#f2c57c"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "physical-activity",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Körperliche Aktivität",
+        "key": "physical-activity",
+        "icon_lucide": "dumbbell",
+        "color": "#9bc6a0",
+        "icon_upload": "/media/dumbbell.png"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "physical-activity",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Physical Activity",
+        "key": "physical-activity",
+        "icon_lucide": "dumbbell",
+        "color": "#9bc6a0",
+        "icon_upload": "/media/dumbbell.png"
+      },
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "id_tech": "endurance-oriented-activity",
+            "title": "Ausdauerorientierte Aktivität",
+            "category": "physical-activity",
+            "key": "endurance-oriented-activity"
+          },
+          "en": {
+            "template": "dimension",
+            "id_tech": "endurance-oriented-activity",
+            "title": "Endurance Oriented Activity",
+            "category": "physical-activity",
+            "key": "endurance-oriented-activity"
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Alltagsaktivität",
+            "id_tech": "everyday-activity",
+            "category": "physical-activity",
+            "key": "everyday-activity"
+          },
+          "en": {
+            "template": "dimension",
+            "title": "Everyday Activity",
+            "id_tech": "everyday-activity",
+            "category": "physical-activity",
+            "key": "everyday-activity"
+          },
+          "observations": [
+            {
+              "de": {
+                "unit": "min",
+                "dimension": "everyday-activity",
+                "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+                "data_format": "integer",
+                "population": "",
+                "title": "Schrittzahl (pro Tag)",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "url": "test",
+                    "note": "test"
+                  }
+                ],
+                "template": "observation",
+                "id_tech": "minutes-moderate-physical-activity-per-week",
+                "description": "",
+                "category": "physical-activity",
+                "key": "steps-per-day"
+              },
+              "en": {
+                "dimension": "everyday-activity",
+                "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+                "data_format": "integer",
+                "population": "",
+                "title": "Steps (per day)",
+                "template": "observation",
+                "id_tech": "minutes-moderate-physical-activity-per-week",
+                "description": "",
+                "category": "physical-activity",
+                "key": "steps-per-day"
+              }
+            }
+          ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Muskelkräftigende Übungen",
+            "category": "physical-activity",
+            "id_tech": "muscle-strengthening-exercises",
+            "key": "muscle-strengthening-exercises"
+          },
+          "en": {
+            "template": "dimension",
+            "category": "physical-activity",
+            "title": "Muscle-strengthening Exercises",
+            "id_tech": "muscle-strengthening-exercises",
+            "key": "muscle-strengthening-exercises"
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Sitzen",
+            "category": "physical-activity",
+            "id_tech": "sitting",
+            "key": "sitting"
+          },
+          "en": {
+            "template": "dimension",
+            "category": "physical-activity",
+            "title": "Sitting",
+            "id_tech": "sitting",
+            "key": "sitting"
+          },
+          "observations": []
+        }
+      ]
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "psycho-social-factors",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Psychosoziale Faktoren",
+        "key": "psychosocial-factors",
+        "color": "#6e4e69",
+        "icon_upload": "/media/brain-circuit-white.png",
+        "icon_lucide": "brain-circuit-white"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "psycho-social-factors",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Psychosocial Factors",
+        "key": "psychosocial-factors",
+        "color": "#6e4e69",
+        "icon_upload": "/media/brain-circuit-white.png",
+        "icon_lucide": "brain-circuit-white"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "subject-area": "outcomes",
+        "title": "Lebensqualität",
+        "id_tech": "quality-of-life",
+        "key": "quality-of-life",
+        "color": "#f8e4bf",
+        "icon_lucide": "heart-plus",
+        "icon_upload": "/media/heart-plus.png"
+      },
+      "en": {
+        "template": "category",
+        "subject-area": "outcomes",
+        "title": "Quality of Life",
+        "id_tech": "quality-of-life",
+        "key": "quality-of-life",
+        "color": "#f8e4bf",
+        "icon_lucide": "heart-plus",
+        "icon_upload": "/media/heart-plus.png"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "sleep",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Schlaf",
+        "key": "sleep",
+        "icon_lucide": "bed",
+        "icon_upload": "/media/bed_white.png",
+        "color": "#007ba7"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "sleep",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Sleep",
+        "key": "sleep",
+        "icon_lucide": "bed",
+        "icon_upload": "/media/bed_white.png",
+        "color": "#007ba7"
+      },
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Schlafdauer",
+            "id_tech": "sleep-duration",
+            "category": "sleep",
+            "key": "sleep-duration"
+          },
+          "en": {
+            "template": "dimension",
+            "title": "Sleep duration",
+            "id_tech": "sleep-duration",
+            "category": "sleep",
+            "key": "sleep-duration"
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Schlafqualität",
+            "id_tech": "sleep-quality",
+            "category": "sleep",
+            "key": "sleep-quality"
+          },
+          "en": {
+            "template": "dimension",
+            "title": "Sleep Quality",
+            "id_tech": "sleep-quality",
+            "category": "sleep",
+            "key": "sleep-quality"
+          },
+          "observations": []
+        }
+      ]
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "smoking",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Rauchen",
+        "key": "smoking",
+        "color": "#004e64",
+        "icon_upload": "/media/cigarette-off.png",
+        "icon_lucide": "cigarette-off"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "smoking",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Smoking",
+        "key": "smoking",
+        "color": "#004e64",
+        "icon_upload": "/media/cigarette-off.png",
+        "icon_lucide": "cigarette-off"
+      },
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "title": "Raucherstatus",
+            "category": "smoking",
+            "id_tech": "smoking-status",
+            "key": "smoking-status"
+          },
+          "en": {
+            "template": "dimension",
+            "category": "smoking",
+            "title": "Smoking Status",
+            "id_tech": "smoking-status",
+            "key": "smoking-status"
+          },
+          "observations": []
+        }
+      ]
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "socio-demographic-data",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Soziodemografische Daten",
+        "key": "sociodemographic-data",
+        "color": "#e28913",
+        "icon_upload": "/media/person-standing-white.png",
+        "icon_lucide": "person-standing"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "socio-demographic-data",
+        "subject-area": "risk-and-protective-factors",
+        "title": "Sociodemographic Data",
+        "key": "sociodemographic-data",
+        "color": "#e28913",
+        "icon_upload": "/media/person-standing-white.png",
+        "icon_lucide": "person-standing"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "id_tech": "work",
+        "subject-area": "outcomes",
+        "title": "Arbeit",
+        "key": "workability",
+        "icon_lucide": "briefcase-business",
+        "icon_upload": "/media/briefcase-business.png",
+        "color": "#9bc6a0"
+      },
+      "en": {
+        "template": "category",
+        "id_tech": "work",
+        "subject-area": "outcomes",
+        "title": "Workability",
+        "key": "workability",
+        "icon_lucide": "briefcase-business",
+        "icon_upload": "/media/briefcase-business.png",
+        "color": "#9bc6a0"
+      },
+      "dimensions": []
+    }
+  ],
+  "data_providers": [
+    {
+      "de": {
+        "template": "category",
+        "description": "",
+        "key": "kurvenkratzer",
+        "name": "Kurvenkratzer GmbH",
+        "app-name": "OnkoBuddy"
+      },
+      "en": {
+        "template": "category",
+        "description": "",
+        "key": "kurvenkratzer",
+        "name": "Kurvenkratzer GmbH",
+        "app-name": "OnkoBuddy"
+      }
+    },
+    {
+      "de": {
+        "template": "category",
+        "description": "",
+        "key": "medicus-ai",
+        "name": "medicus.ai",
+        "app-name": "medicus.ai"
+      },
+      "en": {
+        "template": "category",
+        "description": "",
+        "key": "medicus-ai",
+        "name": "medicus.ai",
+        "app-name": "medicus.ai"
+      }
+    },
+    {
+      "de": {
+        "template": "category",
+        "description": "",
+        "key": "pandocs",
+        "name": "dccx",
+        "app-name": "pandocs"
+      },
+      "en": {
+        "template": "category",
+        "description": "",
+        "key": "pandocs",
+        "name": "dccx",
+        "app-name": "pandocs"
+      }
+    },
+    {
+      "de": {
+        "template": "category",
+        "description": "",
+        "key": "telbiomed",
+        "name": "TELBIOMED",
+        "app-name": "Digitale Präventionsambulanz"
+      },
+      "en": {
+        "template": "category",
+        "description": "",
+        "key": "telbiomed",
+        "name": "TELBIOMED",
+        "app-name": "Digitale Präventionsambulanz"
+      }
+    }
+  ]
+}
