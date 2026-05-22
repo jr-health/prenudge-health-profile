@@ -68,12 +68,14 @@
       }
     ],
     "template": "observation",
+    "id_tech": "minutes-moderate-physical-activity",
     "description": "Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).",
     "category": "physical-activity",
     "key": "minutes-moderate-physical-activity"
   },
   "en": {
     "template": "observation",
+    "id_tech": "minutes-moderate-physical-activity",
     "description": "*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*",
     "population": "",
     "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
