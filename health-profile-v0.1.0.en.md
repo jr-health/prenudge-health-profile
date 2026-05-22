@@ -25,28 +25,13 @@ _Version: 0.1.0 | Generated: 2026-05-22_
   - [Smoking Status](#smoking-status)
 - [Sociodemographic Data](#sociodemographic-data)
 - [Workability](#workability)
-
----
-
-## Edit History
-
-_All editing days:_
-
-| Date | Author |
-|---|---|
-| 2026-05-22 | Thomas Truskaller |
-| 2026-05-06 | Thomas Truskaller |
-| 2026-05-05 | Theresa.Weitlaner |
-| 2026-04-30 | Theresa.Weitlaner |
-| 2026-04-29 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa Weitlaner |
-| 2026-04-09 | Thomas Truskaller |
-| 2026-04-08 | Thomas Truskaller |
+- [Edit History](#edit-history)
 
 ---
 
 ## Alcohol
+
+<img src="media/wine_white.png" alt="Alcohol" width="48" style="background-color: #00a256; padding: 6px; border-radius: 6px;">
 
 ### Consumption frequency
 
@@ -56,17 +41,23 @@ _No observations recorded._
 
 ## Anthropometry
 
+<img src="media/ruler-dimension-line.png" alt="Anthropometry" width="48" style="background-color: #e0d3de; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
 
 ## Nutrition
 
+<img src="media/apple.png" alt="Nutrition" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
 
 ## Physical Activity
+
+<img src="media/dumbbell.png" alt="Physical Activity" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
 
 ### Endurance Oriented Activity
 
@@ -90,17 +81,23 @@ _No observations recorded._
 
 ## Psychosocial Factors
 
+<img src="media/brain-circuit-white.png" alt="Psychosocial Factors" width="48" style="background-color: #6e4e69; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
 
 ## Quality of Life
 
+<img src="media/heart-plus.png" alt="Quality of Life" width="48" style="background-color: #f8e4bf; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
 
 ## Sleep
+
+<img src="media/bed_white.png" alt="Sleep" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
 
 ### Sleep duration
 
@@ -114,6 +111,8 @@ _No observations recorded._
 
 ## Smoking
 
+<img src="media/cigarette-off.png" alt="Smoking" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
+
 ### Smoking Status
 
 _No observations recorded._
@@ -122,12 +121,32 @@ _No observations recorded._
 
 ## Sociodemographic Data
 
+<img src="media/person-standing-white.png" alt="Sociodemographic Data" width="48" style="background-color: #e28913; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
 
 ## Workability
 
+<img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---
+
+## Edit History
+
+_All editing days:_
+
+| Date | Author |
+|---|---|
+| 2026-05-22 | Thomas Truskaller |
+| 2026-05-06 | Thomas Truskaller |
+| 2026-05-05 | Theresa.Weitlaner |
+| 2026-04-30 | Theresa.Weitlaner |
+| 2026-04-29 | Theresa.Weitlaner |
+| 2026-04-15 | Theresa.Weitlaner |
+| 2026-04-15 | Theresa Weitlaner |
+| 2026-04-09 | Thomas Truskaller |
+| 2026-04-08 | Thomas Truskaller |

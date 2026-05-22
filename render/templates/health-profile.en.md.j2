@@ -18,32 +18,19 @@ _Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
 {% endfor %}
 {% endfor %}
 {% endfor %}
-
----
-{% set activity = profile.activity %}
-{% if activity and activity.entries %}
-
-## Edit History
-{% if activity.since %}
-
-_Changes since version {{ activity.since }}:_
-{% else %}
-
-_All editing days:_
+{% if profile.activity and profile.activity.entries %}
+- [Edit History](#edit-history)
 {% endif %}
 
-| Date | Author |
-|---|---|
-{% for e in activity.entries %}
-| {{ e.date }} | {{ e.author }} |
-{% endfor %}
-
 ---
-{% endif %}
 {% for cat in profile.categories %}
 {% set c = cat.en %}
 
 ## {{ c.title | default(cat.de.title) }}
+{% if c.icon_upload %}
+
+<img src="{{ c.icon_upload.lstrip('/') }}" alt="{{ c.title | default(cat.de.title) }}" width="48" style="background-color: {{ c.color | default('#cccccc') }}; padding: 6px; border-radius: 6px;">
+{% endif %}
 {% if c.description %}
 
 {{ c.description }}
@@ -177,3 +164,21 @@ _No observations recorded._
 
 ---
 {% endfor %}
+{% set activity = profile.activity %}
+{% if activity and activity.entries %}
+
+## Edit History
+{% if activity.since %}
+
+_Changes since version {{ activity.since }}:_
+{% else %}
+
+_All editing days:_
+{% endif %}
+
+| Date | Author |
+|---|---|
+{% for e in activity.entries %}
+| {{ e.date }} | {{ e.author }} |
+{% endfor %}
+{% endif %}

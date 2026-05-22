@@ -18,32 +18,19 @@ _Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
 {% endfor %}
 {% endfor %}
 {% endfor %}
-
----
-{% set activity = profile.activity %}
-{% if activity and activity.entries %}
-
-## Bearbeitungshistorie
-{% if activity.since %}
-
-_Änderungen seit Version {{ activity.since }}:_
-{% else %}
-
-_Alle Bearbeitungstage:_
+{% if profile.activity and profile.activity.entries %}
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 {% endif %}
 
-| Datum | Bearbeiter |
-|---|---|
-{% for e in activity.entries %}
-| {{ e.date }} | {{ e.author }} |
-{% endfor %}
-
 ---
-{% endif %}
 {% for cat in profile.categories %}
 {% set c = cat.de %}
 
 ## {{ c.title | default(cat.en.title) }}
+{% if c.icon_upload %}
+
+<img src="{{ c.icon_upload.lstrip('/') }}" alt="{{ c.title | default(cat.en.title) }}" width="48" style="background-color: {{ c.color | default('#cccccc') }}; padding: 6px; border-radius: 6px;">
+{% endif %}
 {% if c.description %}
 
 {{ c.description }}
@@ -177,3 +164,21 @@ _Keine Beobachtungen erfasst._
 
 ---
 {% endfor %}
+{% set activity = profile.activity %}
+{% if activity and activity.entries %}
+
+## Bearbeitungshistorie
+{% if activity.since %}
+
+_Änderungen seit Version {{ activity.since }}:_
+{% else %}
+
+_Alle Bearbeitungstage:_
+{% endif %}
+
+| Datum | Bearbeiter |
+|---|---|
+{% for e in activity.entries %}
+| {{ e.date }} | {{ e.author }} |
+{% endfor %}
+{% endif %}
