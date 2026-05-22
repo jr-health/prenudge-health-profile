@@ -14,10 +14,45 @@ Usage:
 
 import json
 import argparse
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
+
+
+def git_activity() -> dict:
+    """Return deduplicated list of (date, author) entries since the last git tag."""
+    try:
+        last_tag = subprocess.check_output(
+            ["git", "describe", "--tags", "--abbrev=0"],
+            cwd=ROOT, text=True, stderr=subprocess.DEVNULL,
+        ).strip()
+        rev_range = f"{last_tag}..HEAD"
+    except subprocess.CalledProcessError:
+        last_tag = None
+        rev_range = "HEAD"
+
+    try:
+        raw = subprocess.check_output(
+            ["git", "log", rev_range, "--format=%ad|%an", "--date=short"],
+            cwd=ROOT, text=True,
+        ).strip()
+    except subprocess.CalledProcessError:
+        return {"since": last_tag, "entries": []}
+
+    seen: set[tuple] = set()
+    entries = []
+    for line in raw.splitlines():
+        if "|" not in line:
+            continue
+        date, author = line.split("|", 1)
+        key = (date.strip(), author.strip())
+        if key not in seen:
+            seen.add(key)
+            entries.append({"date": date.strip(), "author": author.strip()})
+
+    return {"since": last_tag, "entries": entries}
 
 
 def load_collection(folder: str) -> list[dict]:
@@ -93,6 +128,7 @@ def consolidate(version: str | None = None) -> dict:
     result = {
         "version": version or "unreleased",
         "generated": datetime.now(timezone.utc).isoformat(),
+        "activity": git_activity(),
         "categories": built_categories,
         "data_providers": [clean(p) for p in data_providers],
     }

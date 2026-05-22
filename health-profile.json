@@ -1,6 +1,47 @@
 {
   "version": "0.1.0",
-  "generated": "2026-05-22T13:51:43.075597+00:00",
+  "generated": "2026-05-22T14:24:14.409745+00:00",
+  "activity": {
+    "since": null,
+    "entries": [
+      {
+        "date": "2026-05-22",
+        "author": "Thomas Truskaller"
+      },
+      {
+        "date": "2026-05-06",
+        "author": "Thomas Truskaller"
+      },
+      {
+        "date": "2026-05-05",
+        "author": "Theresa.Weitlaner"
+      },
+      {
+        "date": "2026-04-30",
+        "author": "Theresa.Weitlaner"
+      },
+      {
+        "date": "2026-04-29",
+        "author": "Theresa.Weitlaner"
+      },
+      {
+        "date": "2026-04-15",
+        "author": "Theresa.Weitlaner"
+      },
+      {
+        "date": "2026-04-15",
+        "author": "Theresa Weitlaner"
+      },
+      {
+        "date": "2026-04-09",
+        "author": "Thomas Truskaller"
+      },
+      {
+        "date": "2026-04-08",
+        "author": "Thomas Truskaller"
+      }
+    ]
+  },
   "categories": [
     {
       "de": {

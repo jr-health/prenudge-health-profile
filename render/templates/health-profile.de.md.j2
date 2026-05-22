@@ -1,0 +1,179 @@
+# PreNUDGE Gesundheitsprofil — Katalog
+
+_Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
+
+---
+
+## Inhaltsverzeichnis
+
+{% for cat in profile.categories %}
+{% set c = cat.de %}
+- [{{ c.title | default(cat.en.title) }}](#{{ c.title | default(cat.en.title) | anchor }})
+{% for dim in cat.dimensions %}
+{% set d = dim.de %}
+  - [{{ d.title | default(dim.en.title) }}](#{{ d.title | default(dim.en.title) | anchor }})
+{% for obs in dim.observations %}
+{% set o = obs.de %}
+    - [{{ o.title | default(obs.en.title) }}](#{{ o.title | default(obs.en.title) | anchor }})
+{% endfor %}
+{% endfor %}
+{% endfor %}
+
+---
+{% set activity = profile.activity %}
+{% if activity and activity.entries %}
+
+## Bearbeitungshistorie
+{% if activity.since %}
+
+_Änderungen seit Version {{ activity.since }}:_
+{% else %}
+
+_Alle Bearbeitungstage:_
+{% endif %}
+
+| Datum | Bearbeiter |
+|---|---|
+{% for e in activity.entries %}
+| {{ e.date }} | {{ e.author }} |
+{% endfor %}
+
+---
+{% endif %}
+{% for cat in profile.categories %}
+{% set c = cat.de %}
+
+## {{ c.title | default(cat.en.title) }}
+{% if c.description %}
+
+{{ c.description }}
+{% endif %}
+{% if not cat.dimensions %}
+
+_Keine Dimensionen erfasst._
+{% endif %}
+{% for dim in cat.dimensions %}
+{% set d = dim.de %}
+
+### {{ d.title | default(dim.en.title) }}
+{% if d.description %}
+
+{{ d.description }}
+{% endif %}
+{% set links = d.get('verified-health-links', []) %}
+{% if links %}
+
+**Verifizierte Gesundheitsinformation:**
+{% for link in links %}
+- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if not dim.observations %}
+
+_Keine Beobachtungen erfasst._
+{% endif %}
+{% for obs in dim.observations %}
+{% set o = obs.de %}
+
+#### {{ o.title | default(obs.en.title) }}
+{% if o.description %}
+
+{{ o.description }}
+{% endif %}
+{% if o.population %}
+
+**Zielpopulation:** {{ o.population }}
+{% endif %}
+{% if o.get('target-info') %}
+
+**Zielwert / Empfehlung:** {{ o['target-info'] }}
+{% endif %}
+{% set instruments = o.get('measurement-instrument', []) %}
+{% if instruments %}
+
+##### Messinstrumente
+{% for instr in instruments %}
+
+**Messinstrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
+
+{% if instr.get('unit') %}
+- **Einheit:** {{ instr.unit }}
+{% endif %}
+{% if instr.get('data-format') or instr.get('data_format') %}
+- **Datenformat:** {{ instr.get('data-format') or instr.get('data_format') }}
+{% endif %}
+{% if instr.get('data-type') %}
+- **Datentyp:** {{ instr['data-type'] }}
+{% endif %}
+{% if instr.get('range-of-vales') %}
+- **Wertebereich:** {{ instr['range-of-vales'] }}
+{% endif %}
+{% if instr.get('acquisition-frequency') %}
+- **Erfassungsfrequenz:** {{ instr['acquisition-frequency'] }}
+{% endif %}
+{% if instr.get('recommended-monitoring-frequency') %}
+- **Empfohlene Monitoringfrequenz:** {{ instr['recommended-monitoring-frequency'] }}
+{% endif %}
+{% if instr.get('pn-fhir-ig-link') %}
+- **FHIR IG Link:** {{ instr['pn-fhir-ig-link'] }}
+{% endif %}
+{% if instr.get('pn-fhir-ig-status') %}
+- **FHIR IG Status:** {{ instr['pn-fhir-ig-status'] }}
+{% endif %}
+{% if instr.get('vis-status') %}
+- **Sunburst-Chart Status:** {{ instr['vis-status'] }}
+{% endif %}
+{% if instr.get('norms') %}
+
+**Spezifische Normen:**
+{% for n in instr.get('norms', []) %}
+{% if n.get('specific-norm') %}
+- {{ n['specific-norm'] }}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% if instr.get('questionnaires') %}
+
+**Fragebögen:**
+{% for q in instr.get('questionnaires', []) %}
+- **{{ q.get('questionnaire', '') }}**{% if q.get('specific-questions') %}: {{ q['specific-questions'] }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if instr.get('scoring-algorithm') %}
+
+**Scoring-Algorithmus:** {{ instr['scoring-algorithm'] }}
+{% endif %}
+{% if instr.get('sources') %}
+
+**Quellen:**
+{% for s in instr.get('sources', []) %}
+- {% if s.get('source-description') %}[{{ s['source-description'] }}]({{ s.get('system', '') }}){% else %}{{ s.get('system', '') }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% set codes = o.get('terminology-codes') or obs.en.get('terminology-codes', []) %}
+{% if codes %}
+
+##### Terminologiecodes
+
+| System | Code | Bezeichnung |
+|---|---|---|
+{% for tc in codes %}
+| {{ tc.get('system', '') }} | {{ tc.get('code', '') }} | {{ tc.get('display', '') }} |
+{% endfor %}
+{% endif %}
+{% if o.get('citizen-info') %}
+
+##### Bürgerinformation
+
+{{ o['citizen-info'] }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+---
+{% endfor %}
