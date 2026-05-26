@@ -1,6 +1,6 @@
 local_backend: true
 
-logo_url: https://health.joanneum.at/git/PreNudge/prenudge-health-profile/raw/branch/main/media/MetadatenIcon.png
+# logo_url: https://health.joanneum.at/git/PreNudge/prenudge-health-profile/raw/branch/main/media/MetadatenIcon.png
 
 backend:
   name: gitea
