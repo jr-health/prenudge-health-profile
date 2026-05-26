@@ -96,11 +96,11 @@ collections:
         widget: string
         i18n: translate
 
-      - label: "Lucide Icon Name"
-        name: "icon_lucide"
-        required: false
-        widget: "string"
-        i18n: duplicate
+#      - label: "Lucide Icon Name"
+#        name: "icon_lucide"
+#        required: false
+#        widget: "string"
+#        i18n: duplicate
 
       - label: "Icon Upload"
         name: "icon_upload"
@@ -118,11 +118,24 @@ collections:
         required: false
         i18n: duplicate
 
-      - label: Description
-        name: description
+      - label: "Category description (professional)"
+        name: description-professional
         required: false
         widget: richtext
         i18n: translate
+
+      - label: "Category description (layman)"
+        name: description-laymen
+        required: false
+        widget: richtext
+        i18n: translate
+
+      - label: "Comments / Discussion Section for MUG & MUW"
+        name: discussion
+        required: false
+        widget: richtext
+        i18n: duplicate
+
 
   - label: "Indicator Dimensions"
     name: dimensions
@@ -161,15 +174,21 @@ collections:
         widget: string
         i18n: translate
 
-      - label: "Indicator dimension Description"
-        name: description
+      - label: "Indicator dimension Description (professional)"
+        name: description_professional
         required: false
         widget: richtext
         i18n: translate
 
-      - label: "Verified Austrian Health Information"
+      - label: "Indicator dimension Description (layman)"
+        name: description_layman
+        required: false
+        widget: richtext
+        i18n: translate
+
+      - label: "Verified Austrian Health Information (gesundheit.gv.at)"
         name: verified-health-links
-        # required: false
+        required: false
         widget: "list"
         i18n: true
         summary: "{{title}} · {{url}}"
@@ -177,13 +196,13 @@ collections:
           - label: "Link Title"
             name: "title"
             widget: "string"
-            required: true
+            required: false
             i18n: translate
 
           - label: "URL"
             name: "url"
             widget: "string"
-            required: true
+            required: false
             i18n: duplicate
 
           - label: "Short Note"
@@ -192,6 +211,11 @@ collections:
             required: false
             i18n: translate
 
+      - label: "Comments / Discussion Section for MUG & MUW"
+        name: discussion
+        required: false
+        widget: richtext
+        i18n: duplicate
 
   - name: observations
     label: Observations
@@ -221,8 +245,15 @@ collections:
         widget: string
         i18n: translate
 
-      - label: "Observation Description"
+      - label: "Observation Description (professional)"
         name: description
+        required: false
+        hint: "Include information about the population, ... when relevant."
+        widget: richtext
+        i18n: translate
+
+      - label: "Citizen information (layman)"
+        name: citizen-info
         required: false
         widget: richtext
         i18n: translate
@@ -245,57 +276,170 @@ collections:
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
 
-      - label: "Population"
-        name: population
+      - label: "Measurement instrument: Wearable device / sensor · automated"
+        name: measurement-instrument-device
         required: false
-        widget: richtext
-        i18n: translate
-
-      - label: "Measurement instrument"
-        name: measurement-instrument
-        # required: false
         widget: "list"
         i18n: true
-        summary: " · {{source-type}} · {{questionnaire}}"
+        summary: " · Wearable device / sensor · {{device}}"
         fields:
-          - label: "Source Type · Measurement Method"
-            name: source-type
-            widget: select
-            options: ["Wearable device / sensor · automated", "Questionnaire · manual (self-reported)"]
-            i18n: duplicate
           - label: "Unit"
             name: unit
+            required: false
             widget: string
             i18n: translate
           - label: "Data format"
             name: data-format
+            required: false
             widget: string
             i18n: translate
           - label: "Datatype"
             name: data-type
+            required: false
             widget: select
             options: ["numeric", "integer", "categorial", "date", "datetime", "time", "boolean"]
             i18n: duplicate
           - label: "Range of values"
             name: range-of-vales
-            widget: string
+            required: false
+            widget: text
             i18n: duplicate
           - label: "Acquisition frequency"
             name: acquisition-frequency
-            widget: string
+            required: false
+            widget: text
             i18n: duplicate
           - label: "Recommended monitoring frequency"
             name: recommended-monitoring-frequency
-            widget: string
+            required: false
+            widget: text
             i18n: duplicate
-          - label: "Specific norms"
+          - label: "Recommendations"
             name: norms
             widget: "list"
             required: false
             i18n: false
             summary: "{{specific-norm}}"
             fields:
-              - label: "Specific norm"
+              - label: "Specific recommendations"
+                name: specific-norm
+                widget: richtext
+                required: false
+                hint: "e.g., age or gender specific"
+          - label: "Wearable, Devices, Sensors"
+            name: questionnaires
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{device}}"
+            fields:
+              - label: "Wearable · devices · sensors"
+                name: device
+                widget: string
+                required: false
+          - label: "Scoring algorithm"
+            name: scoring-algorithm
+            widget: richtext
+            required: false
+          - label: "Source/reference"
+            name: sources
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{source-description}}}"
+            fields:
+              - label: "Source description"
+                name: source-description
+                widget: string
+                required: false
+              - label: "Source URL"
+                name: system
+                widget: string
+                required: true
+          - label: "Link to PreNUDGE FHIR Implementation Guide"
+            name: pn-fhir-ig-link
+            widget: string
+            required: false
+          - label: "PreNUDGE FHIR Implementation Guide Status"
+            name: pn-fhir-ig-status
+            widget: select
+            options: [ "draft", "open", "planned", "published", "amendment needed"]
+            default: "draft"
+            i18n: duplicate
+          - label: "PreNUDGE Sunburst Chart Status"
+            name: vis-status
+            widget: select
+            options: [ "draft", "open", "planned", "published", "amendment needed" ]
+            default: "draft"
+            i18n: duplicate
+          - label: "Terminology Codes"
+            name: "terminology-codes"
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{system}} · {{code}}"
+            fields:
+              - label: "System URL"
+                name: system
+                widget: "string"
+                required: true
+                hint: "e.g. http://loinc.org, http://snomed.info/sct"
+              - label: "Code"
+                name: code
+                widget: "string"
+                required: true
+              - label: "Display / Description"
+                name: display
+                widget: "string"
+                required: false
+                hint: "Human-readable label (optional but recommended)"
+
+      - label: "Measurement instrument: Questionnaire · manual (self-reported)"
+        name: measurement-instrument-questionnaire
+        required: false
+        widget: "list"
+        i18n: true
+        summary: " · {{source-type}} · {{questionnaire}}"
+        fields:
+          - label: "Unit"
+            name: unit
+            required: false
+            widget: string
+            i18n: translate
+          - label: "Data format"
+            name: data-format
+            required: false
+            widget: string
+            i18n: translate
+          - label: "Datatype"
+            name: data-type
+            required: false
+            widget: select
+            options: [ "numeric", "integer", "categorial", "date", "datetime", "time", "boolean" ]
+            i18n: duplicate
+          - label: "Range of values"
+            name: range-of-vales
+            required: false
+            widget: text
+            i18n: duplicate
+          - label: "Acquisition frequency"
+            name: acquisition-frequency
+            required: false
+            widget: text
+            i18n: duplicate
+          - label: "Recommended monitoring frequency"
+            name: recommended-monitoring-frequency
+            required: false
+            widget: text
+            i18n: duplicate
+          - label: "Recommendations"
+            name: norms
+            widget: "list"
+            required: false
+            i18n: false
+            summary: "{{specific-norm}}"
+            fields:
+              - label: "Specific recommendations"
                 name: specific-norm
                 widget: richtext
                 required: false
@@ -337,48 +481,46 @@ collections:
           - label: "Link to PreNUDGE FHIR Implementation Guide"
             name: pn-fhir-ig-link
             widget: string
-            required: true
+            required: false
           - label: "PreNUDGE FHIR Implementation Guide Status"
             name: pn-fhir-ig-status
             widget: select
-            options: [ "published", "planned", "open", "amendment needed"]
+            options: [ "draft", "open", "planned", "published", "amendment needed" ]
+            default: "draft"
             i18n: duplicate
           - label: "PreNUDGE Sunburst Chart Status"
             name: vis-status
             widget: select
-            options: [ "published", "planned", "open", "amendment needed" ]
+            options: [ "draft", "open", "planned", "published", "amendment needed" ]
+            default: "draft"
             i18n: duplicate
-
-      - label: "Terminology Codes"
-        name: "terminology-codes"
-        widget: "list"
-        required: false
-        i18n: false
-        summary: "{{system}} · {{code}}"
-        fields:
-          - label: "System URL"
-            name: system
-            widget: "string"
-            required: true
-            hint: "e.g. http://loinc.org, http://snomed.info/sct"
-
-          - label: "Code"
-            name: code
-            widget: "string"
-            required: true
-
-          - label: "Display / Description"
-            name: display
-            widget: "string"
+          - label: "Terminology Codes"
+            name: "terminology-codes"
+            widget: "list"
             required: false
-            hint: "Human-readable label (optional but recommended)"
+            i18n: false
+            summary: "{{system}} · {{code}}"
+            fields:
+              - label: "System URL"
+                name: system
+                widget: "string"
+                required: true
+                hint: "e.g. http://loinc.org, http://snomed.info/sct"
+              - label: "Code"
+                name: code
+                widget: "string"
+                required: true
+              - label: "Display / Description"
+                name: display
+                widget: "string"
+                required: false
+                hint: "Human-readable label (optional but recommended)"
 
-      - label: "Citizen information"
-        name: citizen-info
+      - label: "Comments / Discussion Section for MUG & MUW"
+        name: discussion
         required: false
         widget: richtext
-        i18n: translate
-
+        i18n: duplicate
 #  - name: observation-sources
 #    label: "Observation Sources"
 #    label_singular: "Observation Source"
