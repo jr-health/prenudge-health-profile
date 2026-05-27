@@ -282,9 +282,9 @@ collections:
         name: category
         widget: relation
         collection: categories
-        search_fields: [id_tech, title, description]
-        value_field: id_tech
-        display_fields: ["{{title}} - {{id_tech}}"]
+        search_fields: [key, title, description]
+        value_field: key
+        display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
         hint: 'Assignment of previously defined “PreNUDGE category"'
 
@@ -302,7 +302,7 @@ collections:
         name: measurement-instrument
         required: false
         widget: "list"
-        i18n: dublicate
+        i18n: duplicate
         summary: " · {{source-type}} · {{device}}{{questionnaire}} · "
         fields:
           - label: "Source Type · Measurement Method (MED)"
