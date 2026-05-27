@@ -43,7 +43,7 @@ collections:
 #
 #      - label: "Technische ID"
 #        name: id_tech
-#        widget: id_tech_auto
+#        widget: string
 #        i18n: duplicate
 #        pattern: ['^[a-z0-9\-]+$', "Nur Kleinbuchstaben, Zahlen und Bindestriche erlaubt"]
 #
@@ -79,12 +79,14 @@ collections:
         default: category
         i18n: duplicate
 
-      - label: "Category Key"
+      - label: "Category Key (TECH)"
         name: key
         widget: string
         i18n: duplicate
+        hint: "Machine-readable category identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
-#      - label: Subject Area
+      #      - label: Subject Area
 #        name: subject-area
 #        widget: relation
 #        collection: subject-areas
@@ -93,10 +95,11 @@ collections:
 #        display_fields: ["{{title}} - {{key}}"]
 #        i18n: duplicate
 
-      - label: "Category Title"
+      - label: "Category Title (MED)"
         name: title
         widget: string
         i18n: translate
+        hint: 'Human-readable title of “PreNUDGE category”'
 
 #      - label: "Lucide Icon Name"
 #        name: "icon_lucide"
@@ -104,7 +107,7 @@ collections:
 #        widget: "string"
 #        i18n: duplicate
 
-      - label: "Icon Upload"
+      - label: "Icon Upload (TECH)"
         name: "icon_upload"
         required: false
         widget: "image"
@@ -112,27 +115,31 @@ collections:
         media_library:
           config:
             multiple: false
+        hint: "Representative icon (e.g., Lucide) for the category"
 
-      - label: "Color"
+      - label: "Color (TECH)"
         name: color
         widget: "color"
         allowInput: true
         required: false
         i18n: duplicate
+        hint: 'Assigned "PreNUDGE hex category" color code according to corporate design guide'
 
-      - label: "Category description (professional)"
+      - label: "Category description (professional) (MED)"
         name: description-professional
         required: false
         widget: richtext
         i18n: translate
+        hint: "Category description for healthcare professionals"
 
-      - label: "Category description (layman)"
+      - label: "Category description (layman) (MED)"
         name: description-laymen
         required: false
         widget: richtext
         i18n: translate
+        hint: "Category description in layman language for citizens"
 
-      - label: "Comments / Discussion Section for MUG & MUW"
+      - label: "Comments / Discussion Section for MED"
         name: discussion
         required: false
         widget: richtext
@@ -157,12 +164,14 @@ collections:
         default: dimension
         i18n: duplicate
 
-      - label: "Indicator dimension key"
+      - label: "Indicator dimension key (TECH)"
         name: key
         widget: string
         i18n: duplicate
+        hint: "Machine-readable indicator dimension identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
-      - label: "Category"
+      - label: "Category (MED)"
         name: category
         widget: relation
         collection: categories
@@ -170,30 +179,35 @@ collections:
         value_field: key
         display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
+        hint: 'Assignment of previously defined “PreNUDGE category"'
 
-      - label: "Indicator dimension Title"
+      - label: "Indicator dimension Title (MED)"
         name: title
         widget: string
         i18n: translate
+        hint: 'Human-readable title of “PreNUDGE indicator dimension”'
 
-      - label: "Indicator dimension Description (professional)"
+      - label: "Indicator dimension Description (professional) (MED)"
         name: description_professional
         required: false
         widget: richtext
         i18n: translate
+        hint: "Indicator dimension description for healthcare professionals"
 
-      - label: "Indicator dimension Description (layman)"
+      - label: "Indicator dimension Description (layman) (MED)"
         name: description_layman
         required: false
         widget: richtext
         i18n: translate
+        hint: "Indicator dimension description in layman language for citizens"
 
-      - label: "Verified Austrian Health Information (gesundheit.gv.at)"
+      - label: "Verified Austrian Health Information (MED)"
         name: verified-health-links
         required: false
         widget: "list"
-        i18n: true
+        i18n: duplicate
         summary: "{{title}} · {{url}}"
+        hint: "Links to relevant information on gesundheit.gv.at"
         fields:
           - label: "Link Title"
             name: "title"
@@ -213,7 +227,7 @@ collections:
             required: false
             i18n: translate
 
-      - label: "Comments / Discussion Section for MUG & MUW"
+      - label: "Comments / Discussion Section for MED"
         name: discussion
         required: false
         widget: richtext
@@ -227,7 +241,7 @@ collections:
     i18n: true
     extension: json
     format: json
-    slug: "{{id_tech}}"
+    slug: "{{key}}"
     summary: "{{title}} · {{dimension}} · {{category}}"
     sortable_fields: ["category", "title", "dimension"]
     fields:
@@ -237,39 +251,34 @@ collections:
         default: observation
         i18n: duplicate
 
-      - label: "Observation key"
+      - label: "Observation key (TECH)"
         name: key
         widget: string
         i18n: duplicate
+        hint: "Machine-readable observation identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
-      - label: "Observation Title"
+      - label: "Observation Title (MED)"
         name: title
         widget: string
         i18n: translate
+        hint: 'Human-readable title of “PreNUDGE observation”'
 
-      - label: "Observation Description (professional)"
+      - label: "Observation Description (professional) (MED)"
         name: description
         required: false
-        hint: "Include information about the population, ... when relevant."
+        hint: "Observation description for healthcare professionals; include population ... information when relevant."
         widget: richtext
         i18n: translate
 
-      - label: "Citizen information (layman)"
+      - label: "Citizen information (layman) (MED)"
         name: citizen-info
         required: false
         widget: richtext
         i18n: translate
+        hint: "Simple lay-language explanation of why this health indicator is important for prevention."
 
-      - label: "Indicator Dimension"
-        name: dimension
-        widget: relation
-        collection: dimensions
-        search_fields: [key, title, description]
-        value_field: key
-        display_fields: ["{{title}} - {{key}}"]
-        i18n: duplicate
-
-      - label: "Category"
+      - label: "Category (MED)"
         name: category
         widget: relation
         collection: categories
@@ -277,241 +286,180 @@ collections:
         value_field: id_tech
         display_fields: ["{{title}} - {{id_tech}}"]
         i18n: duplicate
+        hint: 'Assignment of previously defined “PreNUDGE category"'
 
-      - label: "Measurement instrument: Wearable device / sensor · automated"
-        name: measurement-instrument-device
+      - label: "Indicator Dimension (MED)"
+        name: dimension
+        widget: relation
+        collection: dimensions
+        search_fields: [ key, title, description ]
+        value_field: key
+        display_fields: [ "{{title}} - {{key}}" ]
+        i18n: duplicate
+        hint: 'Assignment of previously defined “PreNUDGE indicator dimension"'
+
+      - label: "Measurement instrument (MED+TECH)"
+        name: measurement-instrument
         required: false
         widget: "list"
-        i18n: true
-        summary: " · Wearable device / sensor · {{device}}"
+        i18n: dublicate
+        summary: " · {{source-type}} · {{device}}{{questionnaire}} · "
         fields:
-          - label: "Wearable, Devices, Sensors"
-            name: questionnaires
-            widget: "list"
+          - label: "Source Type · Measurement Method (MED)"
+            name: source-type
+            widget: select
+            options: [ "Wearable device / sensor · automated", "Questionnaire · manual (self-reported)" ]
+            i18n: duplicate
+            hint: "Select"
+          - label: "Measurement instrument (device/questionnaire) (MED)"
+            name: device
+            widget: string
             required: false
-            i18n: false
-            summary: "{{device}}"
-            fields:
-              - label: "Wearable · devices · sensors"
-                name: device
-                widget: string
-                required: false
-          - label: "Unit"
+            hint: "Wearable (medical) device, sensor, etc. for acquisition: e.g. smartphone / questionnaire name e.g. WHOQOL-BREF"
+          - label: "Measurement method specification (MED)"
+            name: specific-questions
+            widget: richtext
+            required: false
+            i18n: translate
+            hint: "Details of the measurement method e.g., specific questions and answer options"
+          - label: "Unit (MED)"
             name: unit
             required: false
             widget: string
             i18n: translate
-          - label: "Data format"
+            hint: "Physical unit or scale (e.g., hours, days, score)"
+          - label: "Data format (MED)"
             name: data-format
             required: false
             widget: string
             i18n: translate
-          - label: "Datatype"
+            hint: "Typical data formats used in a medical context for this observation (e.g., values are typically measured with an accuracy of two decimals)"
+          - label: "Datatype (TECH)"
             name: data-type
             required: false
             widget: select
             options: ["numeric", "integer", "categorial", "date", "datetime", "time", "boolean"]
             i18n: duplicate
-          - label: "Range of values"
+            hint: 'Technical data type derived from “medical” data format'
+          - label: "Range of values (MED)"
             name: range-of-vales
             required: false
             widget: text
             i18n: duplicate
-          - label: "Acquisition frequency"
+            hint: "Minimal and maximal (physiologically) feasible values"
+          - label: "Acquisition frequency (MED)"
             name: acquisition-frequency
             required: false
             widget: text
             i18n: duplicate
-          - label: "Recommended monitoring frequency"
+            hint: "Minimum observation frequency required for qualification and meaningful data interpretation."
+          - label: "Recommended monitoring frequency (MED)"
             name: recommended-monitoring-frequency
             required: false
             widget: text
             i18n: duplicate
-          - label: "Recommendations"
+            hint: "Recommended optimal measurement frequency based on clinical or research guidance to support better data interpretation."
+          - label: "Recommendations (MED)"
             name: norms
             widget: "list"
             required: false
-            i18n: false
+            i18n: duplicate
             summary: "{{specific-norm}}"
+            hint: "Reference ranges stratified by gender, age, etc."
             fields:
               - label: "Specific recommendations"
                 name: specific-norm
                 widget: richtext
                 required: false
-                hint: "e.g., age or gender specific"
-          - label: "Scoring algorithm"
+          - label: "Scoring algorithm (MED)"
             name: scoring-algorithm
             widget: richtext
             required: false
-          - label: "Source/reference"
+            hint: "Method used to transform raw data into a score/aggregate (e.g., sum, mean, inverse scoring)"
+          - label: "Source/reference (MED)"
             name: sources
             widget: "list"
             required: false
-            i18n: false
+            i18n: duplicate
             summary: "{{source-description}}}"
+            hint: "Scientific publication, (interpretation) guidelines, or official recommendation underpinning the measurement instrument (e.g., WHO guidelines, NIH toolkit), acquisition frequency, specific norms, range of values, scoring algorithm; context, domain and intended interpretation of observations etc."
             fields:
               - label: "Source description"
                 name: source-description
                 widget: string
                 required: false
+                i18n: translate
+                hint: "e.g. Österreichische Bewegungsempfehlungen"
               - label: "Source URL"
                 name: system
                 widget: string
                 required: true
-          - label: "Link to PreNUDGE FHIR Implementation Guide"
+                i18n: duplicate
+                hint: "e.g., https://fgoe.org/medien/reihewissen/bewegungsempfehlungen"
+          - label: "Link to PreNUDGE FHIR Implementation Guide (TECH)"
             name: pn-fhir-ig-link
             widget: string
             required: false
-          - label: "PreNUDGE FHIR Implementation Guide Status"
+            i18n: duplicate
+            hint: "URL linking to corresponding PreNUDGE FHIR IG profile, if available"
+          - label: "PreNUDGE FHIR Implementation Guide Status (MED+TECH)"
             name: pn-fhir-ig-status
             widget: select
             options: [ "draft", "open", "planned", "published", "amendment needed"]
             default: "draft"
             i18n: duplicate
-          - label: "PreNUDGE Sunburst Chart Status"
+            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
+          - label: "PreNUDGE Sunburst Chart Status (MED+TECH)"
             name: vis-status
             widget: select
             options: [ "draft", "open", "planned", "published", "amendment needed" ]
             default: "draft"
             i18n: duplicate
-          - label: "Terminology Codes"
+            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
+          - label: "Terminology Codes (TECH)"
             name: "terminology-codes"
             widget: "list"
             required: false
-            i18n: false
+            i18n: duplicate
             summary: "{{system}} · {{code}}"
             fields:
               - label: "System URL"
                 name: system
                 widget: "string"
                 required: true
+                i18n: duplicate
                 hint: "e.g. http://loinc.org, http://snomed.info/sct"
               - label: "Code"
                 name: code
                 widget: "string"
                 required: true
+                i18n: duplicate
               - label: "Display / Description"
                 name: display
+                i18n: translate
                 widget: "string"
                 required: false
                 hint: "Human-readable label (optional but recommended)"
-
-      - label: "Measurement instrument: Questionnaire · manual (self-reported)"
-        name: measurement-instrument-questionnaire
-        required: false
-        widget: "list"
-        i18n: true
-        summary: " · Questionnaire · {{questionnaire}}"
-        fields:
-          - label: "Questionnaire"
-            name: questionnaire
-            widget: string
-            required: false
-          - label: "Specific questions"
-            name: specific-questions
+          - label: "App Provider qualification requirment (TECH)"
+            name: qualification
             widget: richtext
             required: false
-          - label: "Unit"
-            name: unit
-            required: false
-            widget: string
             i18n: translate
-          - label: "Data format"
-            name: data-format
+            hint: "Derived specific requirements that app providers must meet to connect to the PreNUDGE platform"
+          - label: "Qualified app providers (TECH)"
+            name: app-providers
+            widget: relation
+            collection: data-provider
+            search_fields: [ key, name, app-name ]
+            value_field: key
+            display_fields: [ "{{app-name}} · {{name}}" ]
+            multiple: true
             required: false
-            widget: string
-            i18n: translate
-          - label: "Datatype"
-            name: data-type
-            required: false
-            widget: select
-            options: [ "numeric", "integer", "categorial", "date", "datetime", "time", "boolean" ]
             i18n: duplicate
-          - label: "Range of values"
-            name: range-of-vales
-            required: false
-            widget: text
-            i18n: duplicate
-          - label: "Acquisition frequency"
-            name: acquisition-frequency
-            required: false
-            widget: text
-            i18n: duplicate
-          - label: "Recommended monitoring frequency"
-            name: recommended-monitoring-frequency
-            required: false
-            widget: text
-            i18n: duplicate
-          - label: "Recommendations"
-            name: norms
-            widget: "list"
-            required: false
-            i18n: false
-            summary: "{{specific-norm}}"
-            fields:
-              - label: "Specific recommendations"
-                name: specific-norm
-                widget: richtext
-                required: false
-                hint: "e.g., age or gender specific"
-          - label: "Scoring algorithm"
-            name: scoring-algorithm
-            widget: richtext
-            required: false
-          - label: "Source/reference"
-            name: sources
-            widget: "list"
-            required: false
-            i18n: false
-            summary: "{{source-description}}}"
-            fields:
-              - label: "Source description"
-                name: source-description
-                widget: string
-                required: false
-              - label: "Source URL"
-                name: system
-                widget: string
-                required: true
-          - label: "Link to PreNUDGE FHIR Implementation Guide"
-            name: pn-fhir-ig-link
-            widget: string
-            required: false
-          - label: "PreNUDGE FHIR Implementation Guide Status"
-            name: pn-fhir-ig-status
-            widget: select
-            options: [ "draft", "open", "planned", "published", "amendment needed" ]
-            default: "draft"
-            i18n: duplicate
-          - label: "PreNUDGE Sunburst Chart Status"
-            name: vis-status
-            widget: select
-            options: [ "draft", "open", "planned", "published", "amendment needed" ]
-            default: "draft"
-            i18n: duplicate
-          - label: "Terminology Codes"
-            name: "terminology-codes"
-            widget: "list"
-            required: false
-            i18n: false
-            summary: "{{system}} · {{code}}"
-            fields:
-              - label: "System URL"
-                name: system
-                widget: "string"
-                required: true
-                hint: "e.g. http://loinc.org, http://snomed.info/sct"
-              - label: "Code"
-                name: code
-                widget: "string"
-                required: true
-              - label: "Display / Description"
-                name: display
-                widget: "string"
-                required: false
-                hint: "Human-readable label (optional but recommended)"
+            hint: "Applications within the PreNUDGE ecosystem that collect or provide this health indicator"
 
-      - label: "Comments / Discussion Section for MUG & MUW"
+
+      - label: "Comments / Discussion Section for MED"
         name: discussion
         required: false
         widget: richtext
