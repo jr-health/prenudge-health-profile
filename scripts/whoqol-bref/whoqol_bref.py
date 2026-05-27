@@ -24,6 +24,7 @@ Aufruf:
 from __future__ import annotations
 import csv
 import sys
+import re
 
 # ---------------------------------------------------------------------------
 # Konstanten
@@ -32,9 +33,10 @@ import sys
 REVERSED_ITEMS: set[int] = {3, 4, 26}
 
 DOMAINS: dict[str, tuple[list[int], int]] = {
-    "Physische Gesundheit":     ([3, 4, 10, 15, 16, 17, 18], 6),
-    "Psychisches Wohlbefinden": ([5, 6, 7, 11, 19, 26],      5),
-    "Soziale Beziehungen":      ([20, 21, 22],                2),
+    "Allgemein":                ([1, 2],                         1),
+    "Physische Gesundheit":     ([3, 4, 10, 15, 16, 17, 18],     6),
+    "Psychisches Wohlbefinden": ([5, 6, 7, 11, 19, 26],          5),
+    "Soziale Beziehungen":      ([20, 21, 22],                   2),
     "Umwelt":                   ([8, 9, 12, 13, 14, 23, 24, 25], 6),
 }
 
@@ -47,8 +49,9 @@ TOTAL_ITEMS     = 26
 # ---------------------------------------------------------------------------
 
 def parse_inline(raw: str) -> dict[int, int | None]:
-    """Kommagetrennte Antwortzeile: '3,4,2,1,...'  (leer oder '.' = fehlend)"""
-    parts = [p.strip() for p in raw.split(",")]
+    """Komma- oder semikolongetrennte Antwortzeile: '3;4,2;1,...' (leer oder '.' = fehlend)"""
+    # Splittet bei jedem Komma ODER Semikolon
+    parts = [p.strip() for p in re.split(r"[,;]", raw)]
     if len(parts) != TOTAL_ITEMS:
         raise ValueError(f"Erwartet {TOTAL_ITEMS} Werte, erhalten: {len(parts)}")
     answers: dict[int, int | None] = {}

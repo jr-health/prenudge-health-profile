@@ -29,6 +29,7 @@ CSV_PATH = Path(__file__).parent / "whoqol_bref_testdaten.csv"
 
 # Mapping E_-Spalte → Domänenname
 DOMAIN_COLS: dict[str, str] = {
+    "Allgemein":                "E_G1",
     "Physische Gesundheit":     "E_D1",
     "Psychisches Wohlbefinden": "E_D2",
     "Soziale Beziehungen":      "E_D3",
@@ -184,10 +185,10 @@ class TestCsvDatasets(unittest.TestCase):
         cls.rows = _load_csv()
 
     def test_csv_row_count(self):
-        self.assertEqual(len(self.rows), 20)
+        self.assertEqual(len(self.rows), 21)
 
     def test_csv_has_expected_columns(self):
-        required = {f"F{i}" for i in range(1, 27)} | {"E_Gueltig", "E_F1", "E_F2",
+        required = {f"F{i}" for i in range(1, 27)} | {"E_Gueltig", "E_G1",
                                                         "E_D1", "E_D2", "E_D3", "E_D4"}
         actual = set(self.rows[0].keys())
         self.assertTrue(required.issubset(actual),
@@ -205,17 +206,6 @@ class TestCsvDatasets(unittest.TestCase):
                 self.assertEqual(
                     result["is_valid"], expected_valid,
                     f"Gültigkeit: erwartet {'gültig' if expected_valid else 'ungültig'}")
-
-                # F1 / F2
-                for key, col in [("f1_score", "E_F1"), ("f2_score", "E_F2")]:
-                    exp = row.get(col, "").strip()
-                    got = result[key]
-                    if exp:
-                        self.assertIsNotNone(got, f"{col} sollte nicht None sein")
-                        self.assertAlmostEqual(got, float(exp), places=1,
-                                               msg=f"{col}: erwartet {exp}, erhalten {got}")
-                    else:
-                        self.assertIsNone(got, f"{col} sollte None sein")
 
                 # Domänen
                 for domain_name, e_col in DOMAIN_COLS.items():
