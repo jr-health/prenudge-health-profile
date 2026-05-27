@@ -175,7 +175,7 @@ collections:
         name: category
         widget: relation
         collection: categories
-        search_fields: [key, title, description]
+        search_fields: [key, title]
         value_field: key
         display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
@@ -205,7 +205,7 @@ collections:
         name: verified-health-links
         required: false
         widget: "list"
-        i18n: duplicate
+        i18n: true
         summary: "{{title}} · {{url}}"
         hint: "Links to relevant information on gesundheit.gv.at"
         fields:
@@ -282,7 +282,7 @@ collections:
         name: category
         widget: relation
         collection: categories
-        search_fields: [key, title, description]
+        search_fields: [key, title]
         value_field: key
         display_fields: ["{{title}} - {{key}}"]
         i18n: duplicate
@@ -292,7 +292,7 @@ collections:
         name: dimension
         widget: relation
         collection: dimensions
-        search_fields: [ key, title, description ]
+        search_fields: [ key, title]
         value_field: key
         display_fields: [ "{{title}} - {{key}}" ]
         i18n: duplicate
@@ -302,7 +302,7 @@ collections:
         name: measurement-instrument
         required: false
         widget: "list"
-        i18n: duplicate
+        i18n: true
         summary: " · {{source-type}} · {{device}}{{questionnaire}} · "
         fields:
           - label: "Source Type · Measurement Method (MED)"
@@ -363,7 +363,7 @@ collections:
             name: norms
             widget: "list"
             required: false
-            i18n: duplicate
+            i18n: true
             summary: "{{specific-norm}}"
             hint: "Reference ranges stratified by gender, age, etc."
             fields:
@@ -380,8 +380,8 @@ collections:
             name: sources
             widget: "list"
             required: false
-            i18n: duplicate
-            summary: "{{source-description}}}"
+            i18n: true
+            summary: "{{source-description}}"
             hint: "Scientific publication, (interpretation) guidelines, or official recommendation underpinning the measurement instrument (e.g., WHO guidelines, NIH toolkit), acquisition frequency, specific norms, range of values, scoring algorithm; context, domain and intended interpretation of observations etc."
             fields:
               - label: "Source description"
@@ -420,7 +420,7 @@ collections:
             name: "terminology-codes"
             widget: "list"
             required: false
-            i18n: duplicate
+            i18n: true
             summary: "{{system}} · {{code}}"
             fields:
               - label: "System URL"
