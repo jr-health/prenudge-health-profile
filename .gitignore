@@ -3,3 +3,7 @@
 
 # Claude Code memory
 .claude/
+
+# Python
+__pycache__/
+*.pyc
