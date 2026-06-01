@@ -1,0 +1,18 @@
+{
+  "de": {
+    "template": "category",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "",
+    "key": "test",
+    "title": "Test"
+  },
+  "en": {
+    "template": "category",
+    "discussion": "",
+    "description-professional": "",
+    "description-laymen": "",
+    "key": "test",
+    "title": "test"
+  }
+}
