@@ -3,13 +3,12 @@ local_backend: true
 # logo_url: https://health.joanneum.at/git/PreNudge/prenudge-health-profile/raw/branch/main/media/MetadatenIcon.png
 
 backend:
-  name: gitea
-  app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
-  api_root: https://health.joanneum.at/git/api/v1
-  base_url: https://health.joanneum.at/git
-  auth_endpoint: https://health.joanneum.at/git/login/oauth/authorize
+  name: github
+  # app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
+  # api_root: https://health.joanneum.at/git/api/v1
+  base_url: https://sveltia-cms-auth.jr-health.workers.dev
   branch: main
-  repo: PreNudge/prenudge-health-profile
+  repo: jr-health/prenudge-health-profile
 
 
 #publish_mode: editorial_workflow   # The Gitea backend does not support editorial workflow.
