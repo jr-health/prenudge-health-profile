@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "test-sveltia",
+    "title": "Sveltia",
+    "description": "",
+    "citizen-info": "",
+    "category": "alcohol",
+    "dimension": "consumption-frequency",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "test-sveltia",
+    "title": "Test Sveltia",
+    "description": "",
+    "citizen-info": "",
+    "category": "alcohol",
+    "dimension": "consumption-frequency",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
