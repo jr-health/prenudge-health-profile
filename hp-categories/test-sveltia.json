@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "key": "test-sveltia",
+    "title": "Test Sveltia",
+    "icon_upload": "",
+    "color": "",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  },
+  "en": {
+    "template": "category",
+    "key": "test-sveltia",
+    "title": "Test Sveltia",
+    "icon_upload": "",
+    "color": "",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  }
+}
