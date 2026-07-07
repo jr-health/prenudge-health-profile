@@ -4,8 +4,6 @@ local_backend: true
 
 backend:
   name: github
-  # app_id: bf2506c8-ea2f-40c8-b315-59b39c02e7ae
-  # api_root: https://health.joanneum.at/git/api/v1
   base_url: https://sveltia-cms-auth.jr-health.workers.dev
   branch: main
   repo: jr-health/prenudge-health-profile
