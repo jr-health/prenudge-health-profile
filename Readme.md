@@ -2,7 +2,7 @@
 
 To manage the [PreNUDGE Health Profile Catalogue](https://ig.dev.prenudge.at/admin/index.html) follow the link.
 
-## Decap CMS
+## Sveltia CMS
 
-Uses [Decap CMS - https://decapcms.org/](https://decapcms.org/) for managing the catalogue content.
+Uses [Sveltia CMS - https://sveltiacms.app](https://sveltiacms.app) for managing the catalogue content.
 
