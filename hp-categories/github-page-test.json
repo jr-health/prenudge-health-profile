@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "key": "github-page-test",
+    "title": "GitHub Page Test",
+    "icon_upload": "/media/MetadatenIcon.png",
+    "color": "#eaebec",
+    "description-professional": "Test category to test added github action workflow",
+    "description-laymen": "",
+    "discussion": ""
+  },
+  "en": {
+    "template": "category",
+    "key": "github-page-test",
+    "title": "GitHub Page Test",
+    "icon_upload": "/media/MetadatenIcon.png",
+    "color": "#eaebec",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  }
+}
