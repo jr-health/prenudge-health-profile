@@ -53,8 +53,10 @@ Data / App Providers (data-provider/)
 
 ## Editing Content
 
-Content is edited via the CMS UI at `/admin/`. The catalogue editor is currently hosted at
-<https://ig.dev.prenudge.at/admin/index.html>.
+Content is edited via the CMS UI at `/admin/`. The catalogue editor is hosted both on a
+separate, manually maintained instance and, as of this pipeline, on GitHub Pages (deployed
+via `.github/workflows/pages.yml`) — the manually maintained instance remains authoritative;
+GitHub Pages is an additional, automatically deployed mirror.
 
 - **Production backend:** GitHub repo `jr-health/prenudge-health-profile` (branch `main`),
   authenticated through the `sveltia-cms-auth` Cloudflare Worker.

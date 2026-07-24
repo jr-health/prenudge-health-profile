@@ -7,3 +7,6 @@
 # Python
 __pycache__/
 *.pyc
+
+# Local clone of the sveltia-cms-auth worker source (deployed separately via wrangler)
+sveltia-cms-auth/

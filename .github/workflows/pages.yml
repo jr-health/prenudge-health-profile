@@ -1,0 +1,64 @@
+name: Deploy GitHub Pages
+
+# Phase 1: manuell per workflow_dispatch ausgelöst.
+# Phase 4 ergänzt einen workflow_run-Trigger, sobald release.yml existiert
+# (siehe doc/github-actions-plan.md, Design-Entscheidung 5) — die Page soll
+# dann den released Stand zeigen, nicht jeden Push auf main.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build _site
+        run: |
+          mkdir -p _site/render
+          cp -r admin _site/admin
+          cp -r media _site/media
+          cp health-profile.json _site/health-profile.json
+          cp render/sunburst.html _site/render/sunburst.html
+          cat > _site/index.html <<'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>PreNUDGE Health Profile</title>
+          </head>
+          <body>
+            <h1>PreNUDGE Health Profile</h1>
+            <ul>
+              <li><a href="render/sunburst.html">Sunburst visualization</a></li>
+              <li><a href="admin/index.html">CMS editor</a></li>
+            </ul>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
