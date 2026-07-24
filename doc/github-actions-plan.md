@@ -129,26 +129,28 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ### Phase 1 — GitHub Pages Grundgerüst & CMS-Spiegel
 
-1. ~~GitHub → Settings → Pages → Source auf **„GitHub Actions"** stellen (kein `gh-pages`-Branch, kein `/docs`-Ordner).~~ — **erledigt** (2026-07-24).
-2. Neuen Workflow `.github/workflows/pages.yml` anlegen (Trigger: nach erfolgreichem `release.yml`-Lauf, z. B. via `workflow_run`, + `workflow_dispatch` als manuelles Handventil — **nicht** bei jedem Push auf `main`, siehe Design-Entscheidung 5), der einen `_site/`-Ordner baut:
+1. ✅ GitHub → Settings → Pages → Source auf **„GitHub Actions"** stellen (kein `gh-pages`-Branch, kein `/docs`-Ordner). — **erledigt** (2026-07-24).
+2. ✅ Neuen Workflow `.github/workflows/pages.yml` anlegen (Trigger vorerst `workflow_dispatch`; `workflow_run` von `release.yml` folgt in Phase 4, siehe Design-Entscheidung 5), der einen `_site/`-Ordner baut:
    - `admin/` 1:1 nach `_site/admin/` (identischer CMS-Editor wie auf `ig.dev.prenudge.at`)
    - `media/` nach `_site/media/` (Icons, CMS-Logo)
    - `health-profile.json` nach `_site/health-profile.json`
    - `render/sunburst.html` in die Page einbinden (siehe Phase 3 für die genaue Landing-Page-Struktur)
    - Veröffentlichung via `actions/upload-pages-artifact@v3` + `actions/deploy-pages@v4`
    - Workflow-Permissions: `pages: write`, `id-token: write`
-3. Prüfen, ob am Cloudflare Worker `sveltia-cms-auth` eine `ALLOWED_DOMAINS`-Variable gesetzt ist; falls ja, die neue `*.github.io`- bzw. Custom-Domain ergänzen.
+   — **erledigt** (2026-07-24): `.github/workflows/pages.yml` angelegt und committed; Feinschliff der Landing Page folgt in Phase 3.
+3. ✅ Prüfen, ob am Cloudflare Worker `sveltia-cms-auth` eine `ALLOWED_DOMAINS`-Variable gesetzt ist; falls ja, die neue `*.github.io`- bzw. Custom-Domain ergänzen. — **erledigt** (2026-07-24): `jr-health.github.io` ist als erlaubte Domain hinterlegt. Ausreichend, da der Worker (`handleAuth` in `sveltia-cms-auth/src/index.js`) nur den vom CMS gesendeten `site_id`-Hostnamen exakt matcht, nicht Pfad oder Protokoll — der Pfad `/prenudge-health-profile/` der Project Page spielt daher keine Rolle. Bei einer späteren Custom Domain müsste diese zusätzlich ergänzt werden.
 4. Smoke-Test: CMS unter der neuen GitHub-Pages-URL öffnen, Login testen, Teständerung speichern, prüfen dass sie als Commit auf `main` landet — identisch zum Verhalten auf `ig.dev.prenudge.at`.
-5. ~~`sveltia-cms-auth/` aus dem Arbeitsverzeichnis entfernen oder in `.gitignore` aufnehmen~~ — **erledigt** (2026-07-23): Eintrag in der Root-`.gitignore` ergänzt, bestehender Worker bleibt unverändert in Betrieb.
-6. Klarstellen (z. B. in `README.md`), dass `ig.dev.prenudge.at` weiterhin der manuell gepflegte Host ist und GitHub Pages ein zusätzlicher, automatisiert deployter Spiegel ist — damit künftig klar ist, welcher Weg wofür zuständig ist.
+5. ✅ `sveltia-cms-auth/` aus dem Arbeitsverzeichnis entfernen oder in `.gitignore` aufnehmen — **erledigt** (2026-07-23): Eintrag in der Root-`.gitignore` ergänzt, bestehender Worker bleibt unverändert in Betrieb.
+6. ✅ Klarstellen (z. B. in `README.md`), dass `ig.dev.prenudge.at` weiterhin der manuell gepflegte Host ist und GitHub Pages ein zusätzlicher, automatisiert deployter Spiegel ist — damit künftig klar ist, welcher Weg wofür zuständig ist. — **erledigt** (2026-07-24): README-Hinweis ergänzt, ohne die interne Domain öffentlich zu nennen (siehe Design-Entscheidung 1 / Public-Repo-Rücksicht).
 
 ### Phase 2 — GitHub Actions Pipeline (Validate → Consolidate → Render)
 
-7. **Voraussetzung — Templates an aktuelles Schema anpassen:** `render/templates/health-profile.{de,en}.md.j2` korrigieren, bevor die Pipeline produktiv geschaltet wird (siehe "Bekannter Template/Schema-Drift" oben):
-   - categories: `c.description` → `c['description-professional']` und `c['description-laymen']` (Design offen: beide Texte anzeigen, oder nur einen? siehe Offene Punkte)
-   - dimensions: `d.description` → `d['description_professional']` und `d['description_layman']`
-   - observations: `o.population` / `o['target-info']` entweder entfernen (da nicht mehr im Schema) oder die Felder in `admin/config.yml` wieder aufnehmen, falls sie fachlich weiterhin gebraucht werden — Entscheidung liegt beim Fachbereich.
-   - Nach der Anpassung: `render_doc.py` gegen ein paar befüllte Testeinträge laufen lassen und den erzeugten Markdown-Report visuell prüfen.
+7. ✅ **Voraussetzung — Templates an aktuelles Schema anpassen:** `render/templates/health-profile.{de,en}.md.j2` korrigieren, bevor die Pipeline produktiv geschaltet wird (siehe "Bekannter Template/Schema-Drift" oben):
+   - categories: `c.description` → `c['description-professional']` und `c['description-laymen']`, beide nacheinander mit Zwischenüberschrift ("Beschreibung für Fachpersonal:" / "Information für Bevölkerung:")
+   - dimensions: `d.description` → `d['description_professional']` und `d['description_layman']`, gleiches Muster
+   - observations: `o.population` / `o['target-info']` entfernt (Testdaten zeigten reale Altlast-Inhalte in 2 Dateien, aber laut Nutzer aktuell reine Testdaten — Verlust akzeptiert)
+   - observations: `o.description`/`o['citizen-info']` zusätzlich mit denselben Zwischenüberschriften ("Beschreibung für Fachpersonal:" / "Information für Bevölkerung:") versehen und direkt untereinander an den Anfang des Beobachtungsblocks verschoben (vorher stand die Bürgerinformation ganz am Ende, nach allen Messinstrument-Details, und war dadurch leicht zu übersehen)
+   — **erledigt** (2026-07-24): Templates angepasst und lokal via `.\scripts\update-local.ps1` gegen echte Observation-Daten ("Minuten in moderater und intensiver körperlichen Aktivität") getestet — Report sieht wie erwartet aus. Categories/Dimensions-Zweig strukturell identisch, aber noch ohne befüllte Testdaten verifiziert.
 8. `.github/workflows/update-profile.yml` neu anlegen, nach Vorbild von `.gitea/workflows/update-profile.yml`, mit folgenden Anpassungen:
    - `permissions: contents: write` explizit setzen (GitHub braucht das, Gitea nicht)
    - Trigger/Pfad-Filter unverändert übernehmen (`hp-categories/**`, `hp-dimensions/**`, `hp-observations/**`, `data-provider/**`, `scripts/**`, `render/templates/**`)

@@ -31,9 +31,17 @@ _Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
 
 <img src="{{ c.icon_upload.lstrip('/') }}" alt="{{ c.title | default(cat.de.title) }}" width="48" style="background-color: {{ c.color | default('#cccccc') }}; padding: 6px; border-radius: 6px;">
 {% endif %}
-{% if c.description %}
+{% if c.get('description-professional') %}
 
-{{ c.description }}
+**Description for Healthcare Professionals:**
+
+{{ c['description-professional'] }}
+{% endif %}
+{% if c.get('description-laymen') %}
+
+**Information for the Public:**
+
+{{ c['description-laymen'] }}
 {% endif %}
 {% if not cat.dimensions %}
 
@@ -43,9 +51,17 @@ _No dimensions recorded._
 {% set d = dim.en %}
 
 ### {{ d.title | default(dim.de.title) }}
-{% if d.description %}
+{% if d.get('description_professional') %}
 
-{{ d.description }}
+**Description for Healthcare Professionals:**
+
+{{ d['description_professional'] }}
+{% endif %}
+{% if d.get('description_layman') %}
+
+**Information for the Public:**
+
+{{ d['description_layman'] }}
 {% endif %}
 {% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
 {% if links %}
@@ -66,15 +82,15 @@ _No observations recorded._
 #### {{ o.title | default(obs.de.title) }}
 {% if o.description %}
 
+**Description for Healthcare Professionals:**
+
 {{ o.description }}
 {% endif %}
-{% if o.population %}
+{% if o.get('citizen-info') %}
 
-**Target Population:** {{ o.population }}
-{% endif %}
-{% if o.get('target-info') %}
+**Information for the Public:**
 
-**Target Value / Recommendation:** {{ o['target-info'] }}
+{{ o['citizen-info'] }}
 {% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
@@ -152,12 +168,6 @@ _No observations recorded._
 {% for tc in codes %}
 | {{ tc.get('system', '') }} | {{ tc.get('code', '') }} | {{ tc.get('display', '') }} |
 {% endfor %}
-{% endif %}
-{% if o.get('citizen-info') %}
-
-##### Citizen Information
-
-{{ o['citizen-info'] }}
 {% endif %}
 {% endfor %}
 {% endfor %}

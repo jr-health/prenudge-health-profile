@@ -31,9 +31,17 @@ _Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
 
 <img src="{{ c.icon_upload.lstrip('/') }}" alt="{{ c.title | default(cat.en.title) }}" width="48" style="background-color: {{ c.color | default('#cccccc') }}; padding: 6px; border-radius: 6px;">
 {% endif %}
-{% if c.description %}
+{% if c.get('description-professional') %}
 
-{{ c.description }}
+**Beschreibung für Fachpersonal:**
+
+{{ c['description-professional'] }}
+{% endif %}
+{% if c.get('description-laymen') %}
+
+**Information für Bevölkerung:**
+
+{{ c['description-laymen'] }}
 {% endif %}
 {% if not cat.dimensions %}
 
@@ -43,9 +51,17 @@ _Keine Dimensionen erfasst._
 {% set d = dim.de %}
 
 ### {{ d.title | default(dim.en.title) }}
-{% if d.description %}
+{% if d.get('description_professional') %}
 
-{{ d.description }}
+**Beschreibung für Fachpersonal:**
+
+{{ d['description_professional'] }}
+{% endif %}
+{% if d.get('description_layman') %}
+
+**Information für Bevölkerung:**
+
+{{ d['description_layman'] }}
 {% endif %}
 {% set links = d.get('verified-health-links', []) %}
 {% if links %}
@@ -66,15 +82,15 @@ _Keine Beobachtungen erfasst._
 #### {{ o.title | default(obs.en.title) }}
 {% if o.description %}
 
+**Beschreibung für Fachpersonal:**
+
 {{ o.description }}
 {% endif %}
-{% if o.population %}
+{% if o.get('citizen-info') %}
 
-**Zielpopulation:** {{ o.population }}
-{% endif %}
-{% if o.get('target-info') %}
+**Information für Bevölkerung:**
 
-**Zielwert / Empfehlung:** {{ o['target-info'] }}
+{{ o['citizen-info'] }}
 {% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
@@ -152,12 +168,6 @@ _Keine Beobachtungen erfasst._
 {% for tc in codes %}
 | {{ tc.get('system', '') }} | {{ tc.get('code', '') }} | {{ tc.get('display', '') }} |
 {% endfor %}
-{% endif %}
-{% if o.get('citizen-info') %}
-
-##### Bürgerinformation
-
-{{ o['citizen-info'] }}
 {% endif %}
 {% endfor %}
 {% endfor %}

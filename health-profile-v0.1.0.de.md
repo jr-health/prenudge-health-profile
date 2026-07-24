@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.0 | Generiert: 2026-05-22_
+_Version: 0.1.0 | Generiert: 2026-07-24_
 
 ---
 
@@ -36,8 +36,6 @@ _Version: 0.1.0 | Generiert: 2026-05-22_
 
 ### Konsumhäufigkeit
 
-``
-
 _Keine Beobachtungen erfasst._
 
 ---
@@ -66,9 +64,13 @@ _Keine Dimensionen erfasst._
 
 #### Minuten in moderater und intensiver körperlichen Aktivität
 
+**Beschreibung für Fachpersonal:**
+
 Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).
 
-**Zielpopulation:** general population
+**Information für Bevölkerung:**
+
+Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.
 
 ##### Messinstrumente
 
@@ -133,15 +135,9 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 | http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
 | http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
 
-##### Bürgerinformation
-
-Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.
-
 ### Alltagsaktivität
 
 #### Schrittzahl (pro Tag)
-
-**Zielwert / Empfehlung:** Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>
 
 ### Muskelkräftigende Übungen
 
@@ -215,6 +211,17 @@ _Alle Bearbeitungstage:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-07-24 | Theresa.Weitlaner |
+| 2026-07-08 | Theresa.Weitlaner |
+| 2026-07-07 | trtjrhealth |
+| 2026-07-06 | Theresa.Weitlaner |
+| 2026-07-06 | Theresa Weitlaner |
+| 2026-06-01 | Theresa Weitlaner |
+| 2026-06-01 | mirna.ban |
+| 2026-05-27 | Thomas Truskaller |
+| 2026-05-27 | Theresa.Weitlaner |
+| 2026-05-26 | Theresa.Weitlaner |
+| 2026-05-26 | Thomas Truskaller |
 | 2026-05-22 | Thomas Truskaller |
 | 2026-05-22 | Theresa Weitlaner |
 | 2026-05-06 | Thomas Truskaller |

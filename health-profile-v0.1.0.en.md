@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.0 | Generated: 2026-05-22_
+_Version: 0.1.0 | Generated: 2026-07-24_
 
 ---
 
@@ -64,7 +64,13 @@ _No dimensions recorded._
 
 #### Minutes in moderate and vigouros physical activity
 
+**Description for Healthcare Professionals:**
+
 *Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*
+
+**Information for the Public:**
+
+Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.
 
 ##### Terminology Codes
 
@@ -73,15 +79,9 @@ _No dimensions recorded._
 | http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
 | http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
 
-##### Citizen Information
-
-Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.
-
 ### Everyday Activity
 
 #### Steps (per day)
-
-**Target Value / Recommendation:** At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>
 
 ### Muscle-strengthening Exercises
 
@@ -155,6 +155,17 @@ _All editing days:_
 
 | Date | Author |
 |---|---|
+| 2026-07-24 | Theresa.Weitlaner |
+| 2026-07-08 | Theresa.Weitlaner |
+| 2026-07-07 | trtjrhealth |
+| 2026-07-06 | Theresa.Weitlaner |
+| 2026-07-06 | Theresa Weitlaner |
+| 2026-06-01 | Theresa Weitlaner |
+| 2026-06-01 | mirna.ban |
+| 2026-05-27 | Thomas Truskaller |
+| 2026-05-27 | Theresa.Weitlaner |
+| 2026-05-26 | Theresa.Weitlaner |
+| 2026-05-26 | Thomas Truskaller |
 | 2026-05-22 | Thomas Truskaller |
 | 2026-05-22 | Theresa Weitlaner |
 | 2026-05-06 | Thomas Truskaller |

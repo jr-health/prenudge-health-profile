@@ -47,7 +47,7 @@ Write-Host "Version: $Version"
 # ── Validate ──────────────────────────────────────────────────────────────────
 
 Write-Step "Referenzintegritaet pruefen (validate.py)"
-py scripts/validate.py --strict
+python scripts/validate.py --strict
 if ($LASTEXITCODE -ne 0) {
     Write-Fail "Validierung fehlgeschlagen -- Abbruch."
     exit 1
@@ -57,7 +57,7 @@ Write-Ok "Keine Fehler gefunden."
 # ── Consolidate ───────────────────────────────────────────────────────────────
 
 Write-Step "JSON konsolidieren (consolidate.py)"
-py scripts/consolidate.py --version $Version
+python scripts/consolidate.py --version $Version
 if ($LASTEXITCODE -ne 0) {
     Write-Fail "consolidate.py fehlgeschlagen -- Abbruch."
     exit 1
@@ -67,7 +67,7 @@ Write-Ok "health-profile.json aktualisiert."
 # ── Render Markdown ───────────────────────────────────────────────────────────
 
 Write-Step "Markdown-Reports generieren (render_doc.py)"
-py scripts/render_doc.py --version $Version
+python scripts/render_doc.py --version $Version
 if ($LASTEXITCODE -ne 0) {
     Write-Fail "render_doc.py fehlgeschlagen -- Abbruch."
     exit 1
