@@ -159,7 +159,7 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
    — **erledigt** (2026-07-24): Datei angelegt; Push-Trigger vorerst auskommentiert (nur `workflow_dispatch` aktiv), bis Schritt 10 erfolgreich getestet wurde.
 9. ✅ Prüfen, ob auf `main` Branch-Protection-Regeln aktiv sind (z. B. „Require pull request before merging"). Falls ja: Bot als Bypass-Actor erlauben, oder Commit über einen PAT statt `GITHUB_TOKEN` durchführen. — **erledigt** (2026-07-24): Laut GitHub-Einstellungen sind keine Classic Branch Protections für `main` konfiguriert — der Commit-back des Workflows mit dem Standard-`GITHUB_TOKEN` sollte also ohne Bypass/PAT funktionieren.
 10. ✅ Workflow einmal manuell (`workflow_dispatch`) testen, bevor er auf Push scharf geschaltet wird. — **erledigt** (2026-07-24): Testlauf grün, `github-actions[bot]` hat `health-profile.json` + beide Reports mit `chore: regenerate health profile v0.1.0 [skip ci]` zurückcommitted. Push-Trigger daraufhin aktiviert.
-11. Entscheiden, ob `.gitea/workflows/update-profile.yml` und die Gitea-Runner-Infrastruktur parallel weiterlaufen (falls `health.joanneum.at/git` noch aktiv genutzt wird) oder stillgelegt werden — liegt außerhalb dieses Plans.
+11. ✅ Entscheiden, ob `.gitea/workflows/update-profile.yml` und die Gitea-Runner-Infrastruktur parallel weiterlaufen (falls `health.joanneum.at/git` noch aktiv genutzt wird) oder stillgelegt werden — liegt außerhalb dieses Plans. — **erledigt** (2026-07-24): Das Gitea-Repository ist aktuell eingefroren und wird nicht weiter bearbeitet — es bleibt unverändert auf dem Stand vor der GitHub-Migration. `.gitea/workflows/update-profile.yml` wurde daher aus diesem Repo entfernt.
 
 ### Phase 3 — Sammel-/Browse-Ansicht + Sunburst auf der Page
 
@@ -192,17 +192,8 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ## Offene Punkte
 
-- `ALLOWED_DOMAINS` am Cloudflare Worker prüfen/erweitern (Phase 1.3)
-- Branch-Protection auf `main` prüfen — Bot-Bypass nötig? (Phase 2.9)
 - Browse-Ansicht (Phase 3.12) — ja/nein noch nicht final entschieden
 - asciidoctor/pandoc-Installation im Workflow: `apt-get` vs. vorgefertigte Actions
-- Ob der Gitea-Workflow parallel weiterlaufen soll oder abgelöst wird (Phase 2.11)
-- **Neu:** Template/Schema-Drift (Phase 2.7) — fachliche Entscheidung nötig, wie
-  `description-professional`/`description-laymen` (categories) und
-  `description_professional`/`description_layman` (dimensions) gemeinsam im Bericht
-  dargestellt werden sollen (z. B. beide nacheinander mit Zwischenüberschrift, oder nur
-  eine Variante zeigen). Ebenso: sollen `population`/`target-info` bei Observations wieder
-  ins Schema aufgenommen werden, oder ist das endgültig obsolet?
 - **Neu:** Genaue Umsetzung des `pages.yml`-Triggers nach Release (Phase 1.2 / Phase 4.19)
   — `workflow_run` (wartet auf erfolgreichen `release.yml`-Lauf) ist der naheliegende
   Ansatz, alternativ könnte `release.yml` `pages.yml` auch direkt per
