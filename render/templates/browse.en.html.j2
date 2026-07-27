@@ -70,6 +70,15 @@
     font-size: 14px;
   }
   footer a { color: #666; }
+  .disclaimer {
+    background: #fff3cd;
+    border: 1px solid #ffe69c;
+    color: #664d03;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+  }
 </style>
 </head>
 <body>
@@ -88,6 +97,8 @@
   Version {{ profile.version }} · Generated: {{ profile.generated[:10] }}{% if profile.commit %} ·
   Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}
 </p>
+
+<p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 
 <table>
   <thead>
