@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>PräNUDGE Gesundheitsprofil — Übersicht</title>
+<style>
+  body {
+    font-family: Calibri, Verdana, Geneva, sans-serif;
+    margin: 2rem;
+    color: #1a1a1a;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  header img { height: 48px; }
+  h1 { margin: 0; color: #004E64; }
+  .lang-switch {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .lang-switch a {
+    padding: 4px 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #999;
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.04em;
+  }
+  .lang-switch a.active { background: #004E64; color: #fff; }
+  .meta { color: #666; margin-bottom: 1.5rem; }
+  .meta a { color: #666; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+  }
+  tr:nth-child(even) { background: #fafafa; }
+  .swatch {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 2px;
+    margin-right: 0.4em;
+    vertical-align: middle;
+  }
+  td div + div { margin-top: 0.3em; }
+  footer {
+    margin-top: 2rem;
+    color: #666;
+    font-size: 14px;
+  }
+  footer a { color: #666; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a href="https://prenudge.at/"><img src="../media/PräNUDGE_Logo.png" alt="PräNUDGE"></a>
+    <h1>PräNUDGE Gesundheitsprofil — Übersicht</h1>
+  </div>
+  <nav class="lang-switch">
+    <a href="browse.de.html" class="active">DE</a>
+    <a href="browse.en.html">EN</a>
+  </nav>
+</header>
+<p class="meta">
+  Version 0.1.0 · Generiert: 2026-07-27 ·
+  Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/2684f2f823c98e57656ae5c978d220903b13feb0">2684f2f</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategorie</th>
+      <th>Indikator-Dimension</th>
+      <th>Beobachtung</th>
+      <th>Source Type</th>
+      <th>FHIR IG Status</th>
+      <th>Sunburst-Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-category="physical-activity" data-dimension="endurance-oriented-activity" data-observation="minutes-moderate-physical-activity" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned" data-vis-status="published">
+      <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
+      <td>Ausdauerorientierte Aktivität</td>
+      <td>Minuten in moderater und intensiver körperlichen Aktivität</td>
+      <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>planned</div></td>
+      <td><div>published</div></td>
+    </tr>
+    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="steps-per-day" data-source-type="" data-fhir-status="" data-vis-status="">
+      <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
+      <td>Alltagsaktivität</td>
+      <td>Schrittzahl (pro Tag)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<footer>
+  <a href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a>
+</footer>
+
+</body>
+</html>
