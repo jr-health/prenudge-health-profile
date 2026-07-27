@@ -1,13 +1,20 @@
 name: Release
 
-# Runs on version tags (vX.Y.Z). Builds health-profile.json, the
-# Markdown reports, and Word exports (via AsciiDoc -> DocBook -> Pandoc),
-# then publishes them as a GitHub Release. Does not commit anything
-# back to the repo - see doc/github-actions-plan.md, Design-Entscheidung 4.
+# Runs on version tags (vX.Y.Z), or manually via workflow_dispatch with
+# an explicit version input (creates/updates that tag + release too -
+# not a dry run). Builds health-profile.json, the Markdown reports, and
+# Word exports (via AsciiDoc -> DocBook -> Pandoc), then publishes them
+# as a GitHub Release. Does not commit anything back to the repo - see
+# doc/github-actions-plan.md, Design-Entscheidung 4.
 on:
   push:
     tags:
       - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version without leading v, e.g. 0.1.0 (creates/updates this tag + release)'
+        required: true
 
 permissions:
   contents: write
@@ -32,11 +39,15 @@ jobs:
       - name: Install asciidoctor
         run: gem install asciidoctor --no-document
 
-      - name: Determine version from tag
+      - name: Determine version
         id: version
         run: |
-          TAG="${GITHUB_REF_NAME}"
-          echo "value=${TAG#v}" >> $GITHUB_OUTPUT
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            echo "value=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            TAG="${GITHUB_REF_NAME}"
+            echo "value=${TAG#v}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Validate references
         run: python scripts/validate.py --strict
@@ -65,6 +76,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ steps.version.outputs.value }}
           files: |
             health-profile.json
             health-profile-v${{ steps.version.outputs.value }}.de.md
