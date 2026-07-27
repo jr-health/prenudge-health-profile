@@ -2,20 +2,16 @@ name: Update Health Profile
 
 # Runs when data files, scripts, or templates change.
 # Generated files are committed back with [skip ci] to avoid loops.
-#
-# Push trigger is commented out until Phase 2, Schritt 10 (manueller
-# workflow_dispatch-Testlauf) erfolgreich war und Schritt 9
-# (Branch-Protection-Check) geklärt ist — siehe doc/github-actions-plan.md.
 on:
-  # push:
-  #   branches: [main]
-  #   paths:
-  #     - 'hp-categories/**'
-  #     - 'hp-dimensions/**'
-  #     - 'hp-observations/**'
-  #     - 'data-provider/**'
-  #     - 'scripts/**'
-  #     - 'render/templates/**'
+  push:
+    branches: [main]
+    paths:
+      - 'hp-categories/**'
+      - 'hp-dimensions/**'
+      - 'hp-observations/**'
+      - 'data-provider/**'
+      - 'scripts/**'
+      - 'render/templates/**'
   workflow_dispatch: {}
 
 permissions:

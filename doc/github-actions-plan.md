@@ -158,7 +158,7 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
    - Schritte (validate.py --strict, consolidate.py, render_doc.py, Commit mit `[skip ci]`) unverändert übernehmen
    — **erledigt** (2026-07-24): Datei angelegt; Push-Trigger vorerst auskommentiert (nur `workflow_dispatch` aktiv), bis Schritt 10 erfolgreich getestet wurde.
 9. ✅ Prüfen, ob auf `main` Branch-Protection-Regeln aktiv sind (z. B. „Require pull request before merging"). Falls ja: Bot als Bypass-Actor erlauben, oder Commit über einen PAT statt `GITHUB_TOKEN` durchführen. — **erledigt** (2026-07-24): Laut GitHub-Einstellungen sind keine Classic Branch Protections für `main` konfiguriert — der Commit-back des Workflows mit dem Standard-`GITHUB_TOKEN` sollte also ohne Bypass/PAT funktionieren.
-10. Workflow einmal manuell (`workflow_dispatch`) testen, bevor er auf Push scharf geschaltet wird.
+10. ✅ Workflow einmal manuell (`workflow_dispatch`) testen, bevor er auf Push scharf geschaltet wird. — **erledigt** (2026-07-24): Testlauf grün, `github-actions[bot]` hat `health-profile.json` + beide Reports mit `chore: regenerate health profile v0.1.0 [skip ci]` zurückcommitted. Push-Trigger daraufhin aktiviert.
 11. Entscheiden, ob `.gitea/workflows/update-profile.yml` und die Gitea-Runner-Infrastruktur parallel weiterlaufen (falls `health.joanneum.at/git` noch aktiv genutzt wird) oder stillgelegt werden — liegt außerhalb dieses Plans.
 
 ### Phase 3 — Sammel-/Browse-Ansicht + Sunburst auf der Page
