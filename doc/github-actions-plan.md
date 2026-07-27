@@ -183,14 +183,17 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
     Beim ersten echten Testlauf in GitHub Actions (nicht nur lokal wie in Schritt 18) zwei Fehler gefunden und behoben: (1) `gem install asciidoctor` schlug ohne `sudo` mit `Gem::FilePermissionError` fehl — der Runner-User hat keine Schreibrechte auf das System-Ruby-Gem-Verzeichnis, anders als bei einer lokalen Ruby-Installation. (2) Die ursprüngliche Annahme "`pandoc` ist auf `ubuntu-latest` vorinstalliert" war **falsch** — `pandoc: command not found`; jetzt per `sudo apt-get install -y pandoc` explizit installiert.
 20. ✅ Downloadlinks auf der Landing Page zeigen auf
     `https://github.com/jr-health/prenudge-health-profile/releases/latest/download/health-profile-v<version>.<lang>.docx`
-    — bleibt stabil, auch unabhängig vom genauen Pages-Rebuild-Zeitpunkt. — **erledigt** (2026-07-24): Platzhalter-`index.html` in `pages.yml` zeigt jetzt zusätzlich zwei Downloadlinks (DE/EN) auf genau dieses stabile `releases/latest/download/...`-Muster.
-21. `doc/release.md` um den neuen Word-Export-Schritt ergänzen.
+    — bleibt stabil, auch unabhängig vom genauen Pages-Rebuild-Zeitpunkt. — **erledigt** (2026-07-24): Platzhalter-`index.html` in `pages.yml` zeigt jetzt einen Downloadlink-Bereich ("Download Health Profile Metadata (DE | EN)") auf genau dieses stabile `releases/latest/download/...`-Muster. Beim ersten echten Test einen Bug gefunden und behoben: Die Version für den Link wurde ursprünglich aus dem committeten `health-profile.json` gelesen — da `release.yml` aber nichts zurückcommittet (Design-Entscheidung 4), konnte das von der tatsächlich released Version abweichen (v. a. beim Testen per `workflow_dispatch` mit frei gewählter Version). Jetzt wird die Version per `gh release view` direkt vom tatsächlichen GitHub-Release abgefragt. Zusätzlich: Branding-Angleichung an die Browse-Seiten (Logo `PräNUDGE_Logo.png`, `#004E64`, Verdana, "PreNUDGE Consortium"-Footer), "CMS editor" → "Metadata CMS Editor" umbenannt.
+21. ✅ `doc/release.md` um den neuen Word-Export-Schritt ergänzen. — **erledigt** (2026-07-24): `doc/release.md` überarbeitet — beschreibt jetzt den automatisierten `release.yml`-Ablauf (inkl. Word-Export-Schritt: AsciiDoc → DocBook → Pandoc) statt des alten manuellen Gitea-Prozesses.
 
 ### Phase 5 — Test & Abnahme
 
 22. Laufenden Arbeitsstand durchspielen: CMS-Änderung → Push → `update-profile.yml` regeneriert `health-profile.json`/Berichte → lokal per `python -m http.server` + `render/sunburst.html` reviewen (kein Pages-Deploy in diesem Schritt).
 23. Release-Zyklus durchspielen: Tag pushen → `release.yml` → Release mit Assets → `pages.yml` läuft automatisch an → Sunburst/Downloadlinks auf der Page zeigen den neuen Stand.
 24. Rollback-Check: `ig.dev.prenudge.at` läuft unabhängig weiter (da ohnehin nie von dieser Pipeline berührt), falls GitHub Pages/Actions ausfällt.
+25. `README.md` auf den aktuellen Stand bringen — beschreibt aktuell noch nicht die vollständige GitHub-Actions-/Pages-/Release-Pipeline, die im Zuge dieses Plans entstanden ist.
+26. Landing Page (`_site/index.html`) inhaltlich/gestalterisch überarbeiten — über die reine Branding-Angleichung aus Schritt 20 hinaus (echtes Layout statt Platzhalter-Listen, siehe Offene Punkte).
+27. Word-Reports (`.docx`) nochmal durchsehen, sobald mehr echte Gesundheitsindikatoren erfasst sind — aktuelle Testdaten sind zu dünn, um Layout/Tabellenstruktur abschließend zu beurteilen (siehe auch Rückmeldung beim AsciiDoc-Ausarbeiten in Schritt 16/17).
 
 ## Offene Punkte
 

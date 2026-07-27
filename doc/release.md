@@ -1,6 +1,6 @@
 # Release-Workflow
 
-Releases basieren auf **Git Tags** (`v1.2.0`) auf Gitea. Das `health-profile.json` enthält immer ein `version`-Feld, damit Konsumenten die Version ohne Git-Kenntnisse erkennen können.
+Releases basieren auf **Git Tags** (`v1.2.0`) auf GitHub. Das `health-profile.json` enthält immer ein `version`-Feld, damit Konsumenten die Version ohne Git-Kenntnisse erkennen können.
 
 ## SemVer-Definition
 
@@ -14,45 +14,50 @@ Releases basieren auf **Git Tags** (`v1.2.0`) auf Gitea. Das `health-profile.jso
 
 ## Release-Schritte
 
-### 1. Validierung
+Der komplette Release-Prozess läuft automatisiert über `.github/workflows/release.yml` —
+validieren, konsolidieren, Markdown-/AsciiDoc-Reports erzeugen, daraus den Word-Export bauen,
+und alles als GitHub Release veröffentlichen. Manuell bleibt nur die Versionsentscheidung
+selbst und das Auslösen des Workflows.
 
-Vor jedem Release Referenzintegrität prüfen — Fehler müssen vor dem Release behoben werden:
+### 1. Version bestimmen
 
-```
-py scripts/validate.py --strict
-```
+Siehe "Versionsnummer bestimmen" unten — welche SemVer-Kategorie (MAJOR/MINOR/PATCH) passt zu
+den Änderungen seit dem letzten Release?
 
-### 2. Konsolidierung mit Versionsnummer
+### 2. Release auslösen
 
-```
-py scripts/consolidate.py --version 1.2.0
-```
+Zwei gleichwertige Wege:
 
-Das erzeugt `health-profile.json` mit `"version": "1.2.0"` im Header.
-
-### 3. Committen
-
-```
-git add health-profile.json
-git commit -m "Release v1.2.0"
-```
-
-### 4. Tag setzen und pushen
-
+**a) Per Tag** (Standardweg):
 ```
 git tag v1.2.0
-git push origin main
 git push origin v1.2.0
 ```
 
-Gitea erzeugt aus dem Tag automatisch einen Release-Eintrag mit Download-Link für das Repository-Archiv.
+**b) Manuell über die GitHub-UI** (z. B. zum Testen, ohne lokal einen Tag zu setzen):
+Unter **Actions → Release → Run workflow** die Versionsnummer (ohne führendes `v`) eingeben.
+Erzeugt/aktualisiert denselben Tag und dasselbe Release wie Variante (a).
 
-### 5. Gitea Release vervollständigen (optional)
+### 3. Was der Workflow automatisch macht
 
-Unter **Releases → Draft a new release** auf Gitea:
-- Tag `v1.2.0` auswählen
-- Release Notes eintragen (was hat sich geändert, welche SemVer-Kategorie)
-- `health-profile.json` als zusätzliches Artefakt anhängen
+| Schritt | Was passiert |
+|---|---|
+| Validate | `validate.py --strict` — bricht bei kaputten Referenzen ab |
+| Consolidate | `consolidate.py --version <Version>` → `health-profile.json` |
+| Markdown | `render_doc.py` → `health-profile-v<Version>.{de,en}.md` |
+| AsciiDoc | `render_adoc.py` → `health-profile-v<Version>.{de,en}.adoc` |
+| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage) → `health-profile-v<Version>.{de,en}.docx` |
+| Release | GitHub Release erstellen/aktualisieren mit Assets: `health-profile.json`, beide `.md`, beide `.docx` |
+
+Der Workflow committet dabei **nichts** zurück ins Repo (siehe `doc/github-actions-plan.md`,
+Design-Entscheidung 4) — die Release-Assets liegen ausschließlich am GitHub Release selbst,
+nicht im Quellcode-Baum.
+
+### 4. GitHub Page aktualisiert sich automatisch
+
+Ein erfolgreicher `release.yml`-Lauf löst automatisch `pages.yml` aus (siehe
+Design-Entscheidung 5) — Sunburst, Browse-Ansicht und die Download-Links auf der Landing Page
+zeigen danach den neuen Release-Stand. Kein manueller Schritt nötig.
 
 ---
 
