@@ -21,6 +21,16 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 
 
+def git_commit_sha() -> str | None:
+    """Return the current HEAD commit SHA, i.e. the source commit this profile was built from."""
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL,
+        ).strip()
+    except subprocess.CalledProcessError:
+        return None
+
+
 def git_activity() -> dict:
     """Return deduplicated list of (date, author) entries since the last git tag."""
     try:
@@ -128,6 +138,7 @@ def consolidate(version: str | None = None) -> dict:
     result = {
         "version": version or "unreleased",
         "generated": datetime.now(timezone.utc).isoformat(),
+        "commit": git_commit_sha(),
         "activity": git_activity(),
         "categories": built_categories,
         "data_providers": [clean(p) for p in data_providers],

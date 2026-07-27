@@ -163,10 +163,10 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ### Phase 3 — Sammel-/Browse-Ansicht + Sunburst auf der Page
 
-12. Offener Punkt (siehe unten): zusätzlich zur Sunburst-Visualisierung eine tabellarische Browse-Ansicht (`scripts/render_html.py`, in `doc/transform-plan.md` vorgesehen, bisher nicht umgesetzt)?
-13. Falls ja: `scripts/render_html.py` + `render/templates/browse.html.j2` bauen (Jinja2, analog `render_doc.py`), Output nach `_site/browse.html`.
-14. Landing Page `_site/index.html` erstellen: verlinkt Sunburst, ggf. Browse-Ansicht, Downloadlinks (Markdown, Word — siehe Phase 4), zeigt Version/Stand aus `health-profile.json` (`version`, `generated`).
-15. `pages.yml` (Phase 1) um den Build-Schritt für `render_html.py` erweitern, falls Punkt 13 umgesetzt wird.
+12. ✅ Offener Punkt (siehe unten): zusätzlich zur Sunburst-Visualisierung eine tabellarische Browse-Ansicht (`scripts/render_html.py`, in `doc/transform-plan.md` vorgesehen, bisher nicht umgesetzt)? — **erledigt** (2026-07-24): Ja — als eigenes Design-Dokument `doc/browse-view-plan.md` ausgearbeitet und als Stufe 1 (MVP) umgesetzt.
+13. ✅ Falls ja: `scripts/render_html.py` + `render/templates/browse.html.j2` bauen (Jinja2, analog `render_doc.py`), Output nach `_site/browse.html`. — **erledigt** (2026-07-24): `scripts/render_html.py` + `render/templates/browse.{de,en}.html.j2` gebaut. Output sind zwei lokalisierte Dateien `render/browse.de.html` / `render/browse.en.html` (statt einer einzelnen `browse.html`), inkl. DE/EN-Sprachumschalter, Category/Dimension/Observation/Source-Type/FHIR-IG-Status/Sunburst-Status-Spalten, Commit-Link, Logo + Footer-Link zu `prenudge.at`, Corporate-Design-Farbe/-Schrift. Details und offene Ideen für Stufe 2 (Suche/Filter) siehe `doc/browse-view-plan.md`.
+14. ✅ Landing Page `_site/index.html` erstellen: verlinkt Sunburst, ggf. Browse-Ansicht, Downloadlinks (Markdown, Word — siehe Phase 4), zeigt Version/Stand aus `health-profile.json` (`version`, `generated`). — **teilweise erledigt** (2026-07-24): Die Platzhalter-`index.html` in `pages.yml` verlinkt Sunburst, Browse (DE/EN) und CMS-Admin, und zeigt jetzt zusätzlich Version/Stand aus `health-profile.json` (via `jq` im Build-Schritt). Offen bleibt nur: Downloadlinks — die hängen an Phase 4 (Word-Export), die noch nicht umgesetzt ist. Eine richtige, gestaltete Landing Page (statt Platzhalter) folgt später.
+15. ✅ `pages.yml` (Phase 1) um den Build-Schritt für `render_html.py` erweitern, falls Punkt 13 umgesetzt wird. — **erledigt** (2026-07-24): `_site/`-Build kopiert jetzt zusätzlich `render/browse.de.html` und `render/browse.en.html`.
 
 ### Phase 4 — Word-Export über AsciiDoc, gebunden an Releases
 
@@ -192,8 +192,11 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ## Offene Punkte
 
-- Browse-Ansicht (Phase 3.12) — ja/nein noch nicht final entschieden
 - asciidoctor/pandoc-Installation im Workflow: `apt-get` vs. vorgefertigte Actions
+- Landing Page `_site/index.html` (Phase 3.14): Downloadlinks fehlen noch (hängen an Phase 4); echte Gestaltung statt Platzhalter folgt später
+- **Neu:** Ideen für Browse-Ansicht Stufe 2+ (Suche/Filter, Pagination, Collapsables,
+  kombinierter Export-Button CSV/Word) sind in `doc/browse-view-plan.md` festgehalten, aber
+  noch nicht umgesetzt/final spezifiziert
 - **Neu:** Genaue Umsetzung des `pages.yml`-Triggers nach Release (Phase 1.2 / Phase 4.19)
   — `workflow_run` (wartet auf erfolgreichen `release.yml`-Lauf) ist der naheliegende
   Ansatz, alternativ könnte `release.yml` `pages.yml` auch direkt per

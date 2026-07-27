@@ -74,6 +74,16 @@ if ($LASTEXITCODE -ne 0) {
 }
 Write-Ok "health-profile-v$Version.de.md und .en.md aktualisiert."
 
+# ── Render Browse-Ansicht ─────────────────────────────────────────────────────
+
+Write-Step "Browse-Ansicht generieren (render_html.py)"
+python scripts/render_html.py
+if ($LASTEXITCODE -ne 0) {
+    Write-Fail "render_html.py fehlgeschlagen -- Abbruch."
+    exit 1
+}
+Write-Ok "render/browse.de.html und .en.html aktualisiert."
+
 # ── Zusammenfassung ───────────────────────────────────────────────────────────
 
 Write-Host ""
