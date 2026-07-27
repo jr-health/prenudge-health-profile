@@ -56,22 +56,46 @@ jobs:
           <!DOCTYPE html>
           <html lang="en">
           <head>
-            <meta charset="utf-8">
-            <title>PreNUDGE Health Profile</title>
+          <meta charset="utf-8">
+          <title>PreNUDGE Health Profile</title>
+          <style>
+            body {
+              font-family: Verdana, Geneva, sans-serif;
+              margin: 2rem;
+              color: #1a1a1a;
+            }
+            header {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              margin-bottom: 0.25rem;
+            }
+            header img { height: 48px; }
+            h1 { margin: 0; color: #004E64; }
+            .meta { color: #666; margin-bottom: 1.5rem; }
+            ul { line-height: 1.8; }
+            a { color: #004E64; }
+          </style>
           </head>
           <body>
+
+          <header>
+            <a href="https://prenudge.at/"><img src="media/MetadatenIcon.png" alt="PreNUDGE"></a>
             <h1>PreNUDGE Health Profile</h1>
-            <p>Version $VERSION · Generated: $GENERATED</p>
-            <ul>
-              <li><a href="render/sunburst.html">Sunburst visualization</a></li>
-              <li><a href="render/browse.de.html">Browse (DE)</a></li>
-              <li><a href="render/browse.en.html">Browse (EN)</a></li>
-              <li><a href="admin/index.html">CMS editor</a></li>
-            </ul>
-            <ul>
-              <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.de.docx">Download report (DE, Word)</a></li>
-              <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.en.docx">Download report (EN, Word)</a></li>
-            </ul>
+          </header>
+          <p class="meta">Version $VERSION · Generated: $GENERATED</p>
+
+          <ul>
+            <li><a href="render/sunburst.html">Sunburst visualization</a></li>
+            <li><a href="render/browse.de.html">Browse (DE)</a></li>
+            <li><a href="render/browse.en.html">Browse (EN)</a></li>
+            <li><a href="admin/index.html">CMS editor</a></li>
+          </ul>
+          <ul>
+            <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.de.docx">Download report (DE, Word)</a></li>
+            <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.en.docx">Download report (EN, Word)</a></li>
+          </ul>
+
           </body>
           </html>
           EOF
