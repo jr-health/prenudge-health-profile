@@ -29,6 +29,14 @@ jobs:
         with:
           ref: ${{ github.event.workflow_run.head_sha || github.ref }}
 
+      - name: Determine latest release version
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName)
+          echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+
       - name: Build _site
         run: |
           mkdir -p _site/render
@@ -41,6 +49,7 @@ jobs:
 
           VERSION=$(jq -r '.version // "unreleased"' health-profile.json)
           GENERATED=$(jq -r '.generated // ""' health-profile.json | cut -c1-10)
+          RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
 
           cat > _site/index.html <<EOF
@@ -60,8 +69,8 @@ jobs:
               <li><a href="admin/index.html">CMS editor</a></li>
             </ul>
             <ul>
-              <li><a href="$RELEASE_BASE/health-profile-v$VERSION.de.docx">Download report (DE, Word)</a></li>
-              <li><a href="$RELEASE_BASE/health-profile-v$VERSION.en.docx">Download report (EN, Word)</a></li>
+              <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.de.docx">Download report (DE, Word)</a></li>
+              <li><a href="$RELEASE_BASE/health-profile-v$RELEASE_VERSION.en.docx">Download report (EN, Word)</a></li>
             </ul>
           </body>
           </html>
