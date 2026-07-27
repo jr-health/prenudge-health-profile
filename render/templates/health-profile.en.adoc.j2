@@ -1,0 +1,192 @@
+= PreNUDGE Health Profile — Catalogue
+
+_Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
+
+'''
+
+== Table of Contents
+
+{% for cat in profile.categories %}
+{% set c = cat.en %}
+* <<{{ c.title | default(cat.de.title) | anchor }},{{ c.title | default(cat.de.title) }}>>
+{% for dim in cat.dimensions %}
+{% set d = dim.en %}
+** <<{{ d.title | default(dim.de.title) | anchor }},{{ d.title | default(dim.de.title) }}>>
+{% for obs in dim.observations %}
+{% set o = obs.en %}
+*** <<{{ o.title | default(obs.de.title) | anchor }},{{ o.title | default(obs.de.title) }}>>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if profile.activity and profile.activity.entries %}
+* <<edit-history,Edit History>>
+{% endif %}
+
+'''
+{% for cat in profile.categories %}
+{% set c = cat.en %}
+
+[[{{ c.title | default(cat.de.title) | anchor }}]]
+== {% if c.icon_upload %}image:{{ c.icon_upload.lstrip('/') }}[{{ c.title | default(cat.de.title) }},24] {% endif %}{{ c.title | default(cat.de.title) }}
+{% if c.get('description-professional') %}
+
+*Description for Healthcare Professionals:*
+
+{{ c['description-professional'] }}
+{% endif %}
+{% if c.get('description-laymen') %}
+
+*Information for the Public:*
+
+{{ c['description-laymen'] }}
+{% endif %}
+{% if not cat.dimensions %}
+
+_No dimensions recorded._
+{% endif %}
+{% for dim in cat.dimensions %}
+{% set d = dim.en %}
+
+[[{{ d.title | default(dim.de.title) | anchor }}]]
+=== {{ d.title | default(dim.de.title) }}
+{% if d.get('description_professional') %}
+
+*Description for Healthcare Professionals:*
+
+{{ d['description_professional'] }}
+{% endif %}
+{% if d.get('description_layman') %}
+
+*Information for the Public:*
+
+{{ d['description_layman'] }}
+{% endif %}
+{% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
+{% if links %}
+
+*Verified Health Information:*
+
+{% for link in links %}
+* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if not dim.observations %}
+
+_No observations recorded._
+{% endif %}
+{% for obs in dim.observations %}
+{% set o = obs.en %}
+
+[[{{ o.title | default(obs.de.title) | anchor }}]]
+==== {{ o.title | default(obs.de.title) }}
+{% if o.description %}
+
+*Description for Healthcare Professionals:*
+
+{{ o.description }}
+{% endif %}
+{% if o.get('citizen-info') %}
+
+*Information for the Public:*
+
+{{ o['citizen-info'] }}
+{% endif %}
+{% set instruments = o.get('measurement-instrument', []) %}
+{% if instruments %}
+
+===== Measurement Instruments
+{% set codes = o.get('terminology-codes') or obs.de.get('terminology-codes', []) %}
+{% for instr in instruments %}
+{% set instr_label = instr.get('source-type') or 'Measurement Instrument' %}
+{% if instr.get('device') %}{% set instr_label = instr_label ~ ' - ' ~ instr['device'] %}{% endif %}
+
+*{{ instr_label }}*
+
+[cols="1,3"]
+|===
+| Field | Value
+
+| *Source Type*
+| {{ instr.get('source-type') or '-' }}
+
+| *Device / Instrument*
+| {{ instr.get('device') or '-' }}
+
+| *Measurement Method Specification*
+| {{ instr.get('specific-questions') or '-' }}
+
+| *Unit*
+| {{ instr.get('unit') or '-' }}
+
+| *Data Format*
+| {{ (instr.get('data-format') or instr.get('data_format')) or '-' }}
+
+| *Data Type*
+| {{ instr.get('data-type') or '-' }}
+
+| *Range of Values*
+| {{ instr.get('range-of-vales') or '-' }}
+
+| *Acquisition Frequency*
+| {{ instr.get('acquisition-frequency') or '-' }}
+
+| *Recommended Monitoring Frequency*
+| {{ instr.get('recommended-monitoring-frequency') or '-' }}
+
+| *Specific Norms*
+a| {% set norms = instr.get('norms', []) %}{% if norms %}{% for n in norms %}{% if n.get('specific-norm') %}* {{ n['specific-norm'] }}
+{% endif %}{% endfor %}{% else %}-
+{% endif %}
+
+| *Scoring Algorithm*
+| {{ instr.get('scoring-algorithm') or '-' }}
+
+| *Sources*
+a| {% set srcs = instr.get('sources', []) %}{% if srcs %}{% for s in srcs %}{% set sys = s.get('system', '') %}{% set is_url = sys.startswith('http') and ' ' not in sys %}* {% if s.get('source-description') %}{{ s['source-description'] }}{% if is_url %} — link:{{ sys }}[{{ sys }}]{% elif sys %} — {{ sys }}{% endif %}{% else %}{% if is_url %}link:{{ sys }}[{{ sys }}]{% else %}{{ sys }}{% endif %}{% endif %}
+{% endfor %}{% else %}-
+{% endif %}
+
+| *Terminology Codes*
+a| {% if codes %}{% for tc in codes %}* {% if tc.get('system', '').startswith('http') %}link:{{ tc['system'] }}[{{ tc['system'] }}]{% else %}{{ tc.get('system', '') }}{% endif %} · {{ tc.get('code', '') }} · {{ tc.get('display', '') }}
+{% endfor %}{% else %}-
+{% endif %}
+
+| *FHIR IG Link*
+| {{ instr.get('pn-fhir-ig-link') or '-' }}
+
+| *FHIR IG Status*
+| {{ instr.get('pn-fhir-ig-status') or '-' }}
+
+| *Sunburst Chart Status*
+| {{ instr.get('vis-status') or '-' }}
+|===
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+'''
+{% endfor %}
+{% set activity = profile.activity %}
+{% if activity and activity.entries %}
+
+[[edit-history]]
+== Edit History
+{% if activity.since %}
+
+_Changes since version {{ activity.since }}:_
+{% else %}
+
+_All editing days:_
+{% endif %}
+
+[options="header",cols="1,2"]
+|===
+| Date | Author
+
+{% for e in activity.entries %}
+| {{ e.date }} | {{ e.author }}
+{% endfor %}
+|===
+{% endif %}

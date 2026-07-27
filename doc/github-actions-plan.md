@@ -170,9 +170,9 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ### Phase 4 — Word-Export über AsciiDoc, gebunden an Releases
 
-16. Neue Jinja2-Templates `render/templates/health-profile.de.adoc.j2` und `.en.adoc.j2` anlegen (Struktur analog zu den — dann korrigierten — `.md.j2`-Templates aus Phase 2, Schritt 7).
-17. `scripts/render_doc.py` um ein Ausgabeformat erweitern (z. B. `--format md,adoc`) oder separates `scripts/render_adoc.py` schreiben.
-18. Konvertierungs-Toolchain: `asciidoctor health-profile-vX.Y.Z.<lang>.adoc -b docbook -o -.xml | pandoc -f docbook -t docx -o health-profile-vX.Y.Z.<lang>.docx`.
+16. ✅ Neue Jinja2-Templates `render/templates/health-profile.de.adoc.j2` und `.en.adoc.j2` anlegen (Struktur analog zu den — dann korrigierten — `.md.j2`-Templates aus Phase 2, Schritt 7). — **erledigt** (2026-07-24): Templates angelegt, 1:1 strukturell analog (gleiche Sektionen/Reihenfolge/Fallbacks wie die `.md.j2`-Templates), inkl. expliziter `[[anchor]]`-IDs (via denselben `anchor`-Jinja-Filter) für die manuelle Inhaltsverzeichnis-Verlinkung. Noch nicht lauffähig getestet — dafür fehlen noch `scripts/render_adoc.py`/die Erweiterung von `render_doc.py` (Schritt 17) und die Konvertierungskette (Schritt 18). Bekannte Einschränkung: Rich-Text-Felder aus dem CMS liefern Markdown-artigen Inhalt (z. B. `[text](url)`-Links, `- `-Listen); das passt direkt für die `.md.j2`-Reports, aber AsciiDoc-Linksyntax (`link:url[text]`) und Listensyntax (`* item`) unterscheiden sich — bei reinem Fettdruck (`**text**`) kein Problem (in AsciiDoc auch gültig), bei Links/Listen innerhalb von Rich-Text-Feldern aber ein Real-Risiko für falsch gerendertes Word-Dokument. Zu prüfen, sobald in Schritt 17/18 gegen echte Testdaten gerendert wird.
+17. ✅ `scripts/render_doc.py` um ein Ausgabeformat erweitern (z. B. `--format md,adoc`) oder separates `scripts/render_adoc.py` schreiben. — **erledigt** (2026-07-24): Separates `scripts/render_adoc.py` geschrieben (analog `render_doc.py`, gleicher `anchor`-Filter), statt `render_doc.py` zu erweitern — konsistent mit dem bereits für die Browse-Ansicht etablierten Muster "ein Skript pro Ausgabeformat" (`render_html.py`). Output: `health-profile-vX.Y.Z.<lang>.adoc` im Repo-Root, analog zu den `.md`-Reports. **Bewusst nicht** in `update-profile.yml` eingebunden — laut Design-Entscheidung 4 soll die AsciiDoc/Word-Erzeugung nur beim Release laufen, nicht bei jedem Push; Einbindung erfolgt erst in `release.yml` (Schritt 19).
+18. ✅ Konvertierungs-Toolchain: `asciidoctor health-profile-vX.Y.Z.<lang>.adoc -b docbook -o -.xml | pandoc -f docbook -t docx -o health-profile-vX.Y.Z.<lang>.docx`. — **erledigt** (2026-07-24): Manuell End-to-End verifiziert (lokal `asciidoctor` per `gem install` ergänzt, `pandoc` war schon vorhanden). Titel/Überschriften 1–4 werden korrekt auf die Styles der Corporate-Vorlage (`render/templates/PräNUDGE Berichtsvorlage.docx`) gemappt, Aufzählungen (auch in Tabellenzellen) werden zu echten Word-Listen. Tabellen fielen zunächst auf Pandocs generischen `Table`-Style zurück (Vorlage hatte keinen Style exakt namens `Table`) — behoben durch einen geklonten Tabellen-Style (gleiche Formatierung wie `Table Grid`/„Tabellenraster", nur unter dem Namen `Table`), direkt in die `.docx` gepatcht und erneut verifiziert. Noch nicht in ein Skript/Workflow gegossen — folgt in Schritt 19 (`release.yml`).
 19. Neuen Workflow `.github/workflows/release.yml` anlegen (Trigger: `push: tags: ['v*.*.*']`):
     - Checkout, Setup Python, Installation `asciidoctor` (Ruby) + `pandoc`
     - `validate.py --strict`, `consolidate.py --version <Tag ohne "v">`, `render_doc.py`
@@ -197,6 +197,17 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 - **Neu:** Ideen für Browse-Ansicht Stufe 2+ (Suche/Filter, Pagination, Collapsables,
   kombinierter Export-Button CSV/Word) sind in `doc/browse-view-plan.md` festgehalten, aber
   noch nicht umgesetzt/final spezifiziert
+- **Neu:** Beim Ausarbeiten der AsciiDoc-Templates (Schritt 16) entdeckt: `terminology-codes`
+  ist laut aktuellem `admin/config.yml` dem Messinstrument zugeordnet (verschachteltes Feld),
+  in den bestehenden JSON-Daten (z. B. `hp-observations/minutes-moderate-physical-activity.json`)
+  aber weiterhin auf Observation-Ebene abgelegt. Templates (Markdown **und** AsciiDoc) lesen
+  bewusst weiterhin von der Observation-Ebene, um bestehende Inhalte nicht unsichtbar zu
+  machen — echte Migration der Daten auf Messinstrument-Ebene wäre nötig, falls das
+  behoben werden soll.
+- **Neu:** `qualification` (App-Provider-Anforderung) und `app-providers` (Qualifizierte
+  App-Provider) sind Felder pro Messinstrument in `admin/config.yml`, werden aber in keinem
+  der Report-Templates (Markdown, AsciiDoc) gerendert — fachlich zu klären, ob das gewünscht
+  ist.
 - **Neu:** Genaue Umsetzung des `pages.yml`-Triggers nach Release (Phase 1.2 / Phase 4.19)
   — `workflow_run` (wartet auf erfolgreichen `release.yml`-Lauf) ist der naheliegende
   Ansatz, alternativ könnte `release.yml` `pages.yml` auch direkt per
