@@ -1,105 +1,13 @@
 {
   "version": "0.1.0",
-  "generated": "2026-07-27T15:11:23.951227+00:00",
-  "commit": "e7cc623fca20480eb9246fbbd4b24d182612d25d",
+  "generated": "2026-07-27T17:10:11.433482+00:00",
+  "commit": "ae71989b3862e731267d486371d8c94012e11be0",
   "activity": {
-    "since": null,
+    "since": "v0.0.1-test",
     "entries": [
       {
         "date": "2026-07-27",
         "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-27",
-        "author": "github-actions[bot]"
-      },
-      {
-        "date": "2026-07-24",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-24",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-07-08",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-07",
-        "author": "trtjrhealth"
-      },
-      {
-        "date": "2026-07-06",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-06",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-06-01",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-06-01",
-        "author": "mirna.ban"
-      },
-      {
-        "date": "2026-05-27",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-27",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-05-26",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-05-26",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-22",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-22",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-05-06",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-05",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-30",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-29",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-15",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-15",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-04-09",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-04-08",
-        "author": "Thomas Truskaller"
       }
     ]
   },

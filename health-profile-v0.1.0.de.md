@@ -207,31 +207,8 @@ _Keine Dimensionen erfasst._
 
 ## Bearbeitungshistorie
 
-_Alle Bearbeitungstage:_
+_Änderungen seit Version v0.0.1-test:_
 
 | Datum | Bearbeiter |
 |---|---|
 | 2026-07-27 | Theresa.Weitlaner |
-| 2026-07-27 | github-actions[bot] |
-| 2026-07-24 | Theresa.Weitlaner |
-| 2026-07-24 | Theresa Weitlaner |
-| 2026-07-08 | Theresa.Weitlaner |
-| 2026-07-07 | trtjrhealth |
-| 2026-07-06 | Theresa.Weitlaner |
-| 2026-07-06 | Theresa Weitlaner |
-| 2026-06-01 | Theresa Weitlaner |
-| 2026-06-01 | mirna.ban |
-| 2026-05-27 | Thomas Truskaller |
-| 2026-05-27 | Theresa.Weitlaner |
-| 2026-05-26 | Theresa.Weitlaner |
-| 2026-05-26 | Thomas Truskaller |
-| 2026-05-22 | Thomas Truskaller |
-| 2026-05-22 | Theresa Weitlaner |
-| 2026-05-06 | Thomas Truskaller |
-| 2026-05-05 | Theresa.Weitlaner |
-| 2026-04-30 | Theresa.Weitlaner |
-| 2026-04-29 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa Weitlaner |
-| 2026-04-09 | Thomas Truskaller |
-| 2026-04-08 | Thomas Truskaller |
