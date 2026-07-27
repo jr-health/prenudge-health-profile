@@ -1,10 +1,13 @@
 name: Deploy GitHub Pages
 
-# Phase 1: manuell per workflow_dispatch ausgelöst.
-# Phase 4 ergänzt einen workflow_run-Trigger, sobald release.yml existiert
-# (siehe doc/github-actions-plan.md, Design-Entscheidung 5) — die Page soll
-# dann den released Stand zeigen, nicht jeden Push auf main.
+# Runs after a successful Release (workflow_run), or manually via
+# workflow_dispatch as a manual fallback — deliberately NOT on every
+# push to main. The Page shows the released state, not the working
+# state (see doc/github-actions-plan.md, Design-Entscheidung 5).
 on:
+  workflow_run:
+    workflows: ["Release"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -18,10 +21,13 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.ref }}
 
       - name: Build _site
         run: |
@@ -35,6 +41,7 @@ jobs:
 
           VERSION=$(jq -r '.version // "unreleased"' health-profile.json)
           GENERATED=$(jq -r '.generated // ""' health-profile.json | cut -c1-10)
+          RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
 
           cat > _site/index.html <<EOF
           <!DOCTYPE html>
@@ -51,6 +58,10 @@ jobs:
               <li><a href="render/browse.de.html">Browse (DE)</a></li>
               <li><a href="render/browse.en.html">Browse (EN)</a></li>
               <li><a href="admin/index.html">CMS editor</a></li>
+            </ul>
+            <ul>
+              <li><a href="$RELEASE_BASE/health-profile-v$VERSION.de.docx">Download report (DE, Word)</a></li>
+              <li><a href="$RELEASE_BASE/health-profile-v$VERSION.en.docx">Download report (EN, Word)</a></li>
             </ul>
           </body>
           </html>

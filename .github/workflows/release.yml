@@ -1,0 +1,73 @@
+name: Release
+
+# Runs on version tags (vX.Y.Z). Builds health-profile.json, the
+# Markdown reports, and Word exports (via AsciiDoc -> DocBook -> Pandoc),
+# then publishes them as a GitHub Release. Does not commit anything
+# back to the repo - see doc/github-actions-plan.md, Design-Entscheidung 4.
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # needed for git log (activity history)
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: pip install jinja2
+
+      - name: Install asciidoctor
+        run: gem install asciidoctor --no-document
+
+      - name: Determine version from tag
+        id: version
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          echo "value=${TAG#v}" >> $GITHUB_OUTPUT
+
+      - name: Validate references
+        run: python scripts/validate.py --strict
+
+      - name: Consolidate JSON
+        run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
+
+      - name: Render Markdown reports
+        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }}
+
+      - name: Render AsciiDoc
+        run: python scripts/render_adoc.py --version ${{ steps.version.outputs.value }}
+
+      - name: Convert AsciiDoc to Word via DocBook
+        run: |
+          set -e
+          VERSION="${{ steps.version.outputs.value }}"
+          for lang in de en; do
+            asciidoctor "health-profile-v${VERSION}.${lang}.adoc" -b docbook -o "/tmp/health-profile-v${VERSION}.${lang}.xml"
+            pandoc -f docbook -t docx \
+              --reference-doc="render/templates/PräNUDGE Berichtsvorlage.docx" \
+              -o "health-profile-v${VERSION}.${lang}.docx" \
+              "/tmp/health-profile-v${VERSION}.${lang}.xml"
+          done
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            health-profile.json
+            health-profile-v${{ steps.version.outputs.value }}.de.md
+            health-profile-v${{ steps.version.outputs.value }}.en.md
+            health-profile-v${{ steps.version.outputs.value }}.de.docx
+            health-profile-v${{ steps.version.outputs.value }}.en.docx
