@@ -151,12 +151,13 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
    - observations: `o.population` / `o['target-info']` entfernt (Testdaten zeigten reale Altlast-Inhalte in 2 Dateien, aber laut Nutzer aktuell reine Testdaten — Verlust akzeptiert)
    - observations: `o.description`/`o['citizen-info']` zusätzlich mit denselben Zwischenüberschriften ("Beschreibung für Fachpersonal:" / "Information für Bevölkerung:") versehen und direkt untereinander an den Anfang des Beobachtungsblocks verschoben (vorher stand die Bürgerinformation ganz am Ende, nach allen Messinstrument-Details, und war dadurch leicht zu übersehen)
    — **erledigt** (2026-07-24): Templates angepasst und lokal via `.\scripts\update-local.ps1` gegen echte Observation-Daten ("Minuten in moderater und intensiver körperlichen Aktivität") getestet — Report sieht wie erwartet aus. Categories/Dimensions-Zweig strukturell identisch, aber noch ohne befüllte Testdaten verifiziert.
-8. `.github/workflows/update-profile.yml` neu anlegen, nach Vorbild von `.gitea/workflows/update-profile.yml`, mit folgenden Anpassungen:
+8. ✅ `.github/workflows/update-profile.yml` neu anlegen, nach Vorbild von `.gitea/workflows/update-profile.yml`, mit folgenden Anpassungen:
    - `permissions: contents: write` explizit setzen (GitHub braucht das, Gitea nicht)
    - Trigger/Pfad-Filter unverändert übernehmen (`hp-categories/**`, `hp-dimensions/**`, `hp-observations/**`, `data-provider/**`, `scripts/**`, `render/templates/**`)
    - Committer-Identität auf `github-actions[bot]` ändern
    - Schritte (validate.py --strict, consolidate.py, render_doc.py, Commit mit `[skip ci]`) unverändert übernehmen
-9. Prüfen, ob auf `main` Branch-Protection-Regeln aktiv sind (z. B. „Require pull request before merging"). Falls ja: Bot als Bypass-Actor erlauben, oder Commit über einen PAT statt `GITHUB_TOKEN` durchführen.
+   — **erledigt** (2026-07-24): Datei angelegt; Push-Trigger vorerst auskommentiert (nur `workflow_dispatch` aktiv), bis Schritt 10 erfolgreich getestet wurde.
+9. ✅ Prüfen, ob auf `main` Branch-Protection-Regeln aktiv sind (z. B. „Require pull request before merging"). Falls ja: Bot als Bypass-Actor erlauben, oder Commit über einen PAT statt `GITHUB_TOKEN` durchführen. — **erledigt** (2026-07-24): Laut GitHub-Einstellungen sind keine Classic Branch Protections für `main` konfiguriert — der Commit-back des Workflows mit dem Standard-`GITHUB_TOKEN` sollte also ohne Bypass/PAT funktionieren.
 10. Workflow einmal manuell (`workflow_dispatch`) testen, bevor er auf Push scharf geschaltet wird.
 11. Entscheiden, ob `.gitea/workflows/update-profile.yml` und die Gitea-Runner-Infrastruktur parallel weiterlaufen (falls `health.joanneum.at/git` noch aktiv genutzt wird) oder stillgelegt werden — liegt außerhalb dieses Plans.
 

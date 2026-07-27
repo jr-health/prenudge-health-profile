@@ -1,0 +1,74 @@
+name: Update Health Profile
+
+# Runs when data files, scripts, or templates change.
+# Generated files are committed back with [skip ci] to avoid loops.
+#
+# Push trigger is commented out until Phase 2, Schritt 10 (manueller
+# workflow_dispatch-Testlauf) erfolgreich war und Schritt 9
+# (Branch-Protection-Check) geklärt ist — siehe doc/github-actions-plan.md.
+on:
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'hp-categories/**'
+  #     - 'hp-dimensions/**'
+  #     - 'hp-observations/**'
+  #     - 'data-provider/**'
+  #     - 'scripts/**'
+  #     - 'render/templates/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # needed for git log (activity history)
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install jinja2
+
+      - name: Validate references
+        run: python scripts/validate.py --strict
+
+      - name: Read current version from JSON
+        id: version
+        run: |
+          VERSION=$(python -c "
+          import json, sys
+          try:
+              d = json.load(open('health-profile.json'))
+              print(d.get('version', 'unreleased'))
+          except Exception:
+              print('unreleased')
+          ")
+          echo "value=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Consolidate JSON
+        run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
+
+      - name: Render Markdown reports
+        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }}
+
+      - name: Commit generated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add health-profile.json "health-profile-v${{ steps.version.outputs.value }}.de.md" "health-profile-v${{ steps.version.outputs.value }}.en.md"
+          if git diff --staged --quiet; then
+            echo "Nothing changed, skipping commit."
+          else
+            git commit -m "chore: regenerate health profile v${{ steps.version.outputs.value }} [skip ci]"
+            git push
+          fi
