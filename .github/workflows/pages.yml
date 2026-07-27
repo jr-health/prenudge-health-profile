@@ -30,7 +30,13 @@ jobs:
           cp -r media _site/media
           cp health-profile.json _site/health-profile.json
           cp render/sunburst.html _site/render/sunburst.html
-          cat > _site/index.html <<'EOF'
+          cp render/browse.de.html _site/render/browse.de.html
+          cp render/browse.en.html _site/render/browse.en.html
+
+          VERSION=$(jq -r '.version // "unreleased"' health-profile.json)
+          GENERATED=$(jq -r '.generated // ""' health-profile.json | cut -c1-10)
+
+          cat > _site/index.html <<EOF
           <!DOCTYPE html>
           <html lang="en">
           <head>
@@ -39,8 +45,11 @@ jobs:
           </head>
           <body>
             <h1>PreNUDGE Health Profile</h1>
+            <p>Version $VERSION · Generated: $GENERATED</p>
             <ul>
               <li><a href="render/sunburst.html">Sunburst visualization</a></li>
+              <li><a href="render/browse.de.html">Browse (DE)</a></li>
+              <li><a href="render/browse.en.html">Browse (EN)</a></li>
               <li><a href="admin/index.html">CMS editor</a></li>
             </ul>
           </body>

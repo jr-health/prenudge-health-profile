@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PreNUDGE Health Profile — Browse</title>
+<style>
+  body {
+    font-family: Calibri, Verdana, Geneva, sans-serif;
+    margin: 2rem;
+    color: #1a1a1a;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  header img { height: 48px; }
+  h1 { margin: 0; color: #004E64; }
+  .lang-switch {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .lang-switch a {
+    padding: 4px 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #999;
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.04em;
+  }
+  .lang-switch a.active { background: #004E64; color: #fff; }
+  .meta { color: #666; margin-bottom: 1.5rem; }
+  .meta a { color: #666; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+  }
+  tr:nth-child(even) { background: #fafafa; }
+  .swatch {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 2px;
+    margin-right: 0.4em;
+    vertical-align: middle;
+  }
+  td div + div { margin-top: 0.3em; }
+  footer {
+    margin-top: 2rem;
+    color: #666;
+    font-size: 14px;
+  }
+  footer a { color: #666; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a href="https://prenudge.at/"><img src="../media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
+    <h1>PreNUDGE Health Profile — Browse</h1>
+  </div>
+  <nav class="lang-switch">
+    <a href="browse.de.html">DE</a>
+    <a href="browse.en.html" class="active">EN</a>
+  </nav>
+</header>
+<p class="meta">
+  Version {{ profile.version }} · Generated: {{ profile.generated[:10] }}{% if profile.commit %} ·
+  Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Indicator Dimension</th>
+      <th>Observation</th>
+      <th>Source Type</th>
+      <th>FHIR IG Status</th>
+      <th>Sunburst Status</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for cat in profile.categories %}
+{% set c = cat.en %}
+{% for dim in cat.dimensions %}
+{% set d = dim.en %}
+{% for obs in dim.observations %}
+{% set o = obs.en %}
+{% set instruments = o.get('measurement-instrument', []) or obs.de.get('measurement-instrument', []) %}
+{% set ns = namespace(source_types=[], fhir_statuses=[], vis_statuses=[]) %}
+{% for instr in instruments %}
+{% if instr.get('source-type') and instr['source-type'] not in ns.source_types %}
+{% set ns.source_types = ns.source_types + [instr['source-type']] %}
+{% endif %}
+{% if instr.get('pn-fhir-ig-status') and instr['pn-fhir-ig-status'] not in ns.fhir_statuses %}
+{% set ns.fhir_statuses = ns.fhir_statuses + [instr['pn-fhir-ig-status']] %}
+{% endif %}
+{% if instr.get('vis-status') and instr['vis-status'] not in ns.vis_statuses %}
+{% set ns.vis_statuses = ns.vis_statuses + [instr['vis-status']] %}
+{% endif %}
+{% endfor %}
+    <tr data-category="{{ c.key | default(cat.de.key) }}" data-dimension="{{ d.key | default(dim.de.key) }}" data-observation="{{ o.key | default(obs.de.key) }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
+      <td><span class="swatch" style="background-color: {{ c.color | default(cat.de.color) | default('#cccccc') }};"></span>{{ c.title | default(cat.de.title) }}</td>
+      <td>{{ d.title | default(dim.de.title) }}</td>
+      <td>{{ o.title | default(obs.de.title) }}</td>
+      <td>{% for st in ns.source_types %}<div>{{ st }}</div>{% endfor %}</td>
+      <td>{% for st in ns.fhir_statuses %}<div>{{ st }}</div>{% endfor %}</td>
+      <td>{% for st in ns.vis_statuses %}<div>{{ st }}</div>{% endfor %}</td>
+    </tr>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+  </tbody>
+</table>
+
+<footer>
+  <a href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
+</footer>
+
+</body>
+</html>
