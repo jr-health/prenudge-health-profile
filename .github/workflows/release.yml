@@ -39,6 +39,11 @@ jobs:
       - name: Install asciidoctor
         run: sudo gem install asciidoctor --no-document
 
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Determine version
         id: version
         run: |
