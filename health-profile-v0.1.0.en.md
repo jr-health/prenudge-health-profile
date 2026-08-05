@@ -78,6 +78,33 @@ _No dimensions recorded._
 
 Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Wearable device / sensor · automated
+- **Data Type:** integer
+- **Range of Values:** min: 0 max: >48h/day
+- **Acquisition Frequency:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
+- **Recommended Monitoring Frequency:** pro Tag/täglich
+- **FHIR IG Link:** -
+- **FHIR IG Status:** planned
+- **Sunburst Chart Status:** published
+
+**Sources:**
+- Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/
+
+**Measurement Instrument 2** — Questionnaire · manual (self-reported)
+- **Range of Values:** für Q7: 
+min: in Minuten 0
+max: in Minuten: 15.120/Woche
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
+- **FHIR IG Status:** amendment needed
+- **Sunburst Chart Status:** published
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/26634120/
+
 ##### Terminology Codes
 
 | System | Code | Display |
@@ -162,3 +189,4 @@ _Changes since version v0.1.1:_
 | Date | Author |
 |---|---|
 | 2026-08-05 | Theresa Weitlaner |
+| 2026-08-05 | github-actions[bot] |

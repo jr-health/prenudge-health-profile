@@ -93,11 +93,13 @@ Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlun
 
 **Beschreibung für Fachpersonal:**
 
-Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).
+Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…
+
+Population: erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.
+Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…
 
 ##### Messinstrumente
 
@@ -122,14 +124,18 @@ Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder R
 
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** -
-- **Datenformat:** -
-- **Datentyp:** categorial
-- **Wertebereich:** -
-- **Erfassungsfrequenz:** Alle 3 Monate
-- **Empfohlene Monitoringfrequenz:** Alle 6 Monate = 2x im Jahr
-- **FHIR IG Link:** -
-- **FHIR IG Status:** planned
+- **Datenformat:** Q4: Kategoriell (7 Antwortmöglichkeiten)  Q5: Kategoriell (5 Antwortmöglichkeiten)  Q6: Kategoriell (8 Antwortmöglichkeiten)  Q7: Angabe in Stunden und Minuten
+- **Wertebereich:** für Q7: 
+min: in Minuten 0
+max: in Minuten: 15.120/Woche
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
+- **FHIR IG Status:** amendment needed
 - **Sunburst-Chart Status:** published
+
+**Spezifische Normen:**
+- 150 min-300 min körperliche Aktivität
 
 **Fragebögen:**
 - **EHIS-PAQ (Q4-Q7)**: Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  
@@ -152,8 +158,10 @@ Q7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, F
 
 Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
+**Scoring-Algorithmus:** _Q7: Stunden in Minuten umrechnen_
+
 **Quellen:**
-- [EHIS-PAQ Fragebogen](Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/)
+- [European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
 ##### Terminologiecodes
 
@@ -239,3 +247,4 @@ _Änderungen seit Version v0.1.1:_
 | Datum | Bearbeiter |
 |---|---|
 | 2026-08-05 | Theresa Weitlaner |
+| 2026-08-05 | github-actions[bot] |
