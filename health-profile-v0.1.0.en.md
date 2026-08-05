@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.0 | Generated: 2026-07-27_
+_Version: 0.1.0 | Generated: 2026-08-05_
 
 ---
 
@@ -61,6 +61,12 @@ _No dimensions recorded._
 <img src="media/dumbbell.png" alt="Physical Activity" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
 
 ### Endurance Oriented Activity
+
+**Verified Health Information:**
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
+- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
+- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
 
 #### Minutes in moderate and vigouros physical activity
 
@@ -151,8 +157,8 @@ _No dimensions recorded._
 
 ## Edit History
 
-_Changes since version v0.0.1-test:_
+_Changes since version v0.1.1:_
 
 | Date | Author |
 |---|---|
-| 2026-07-27 | Theresa.Weitlaner |
+| 2026-08-05 | Theresa Weitlaner |
