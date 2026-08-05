@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "generated": "2026-08-05T13:19:09.758326+00:00",
-  "commit": "ab5df70d168fc5f26e77d690bb768c982f54531b",
+  "generated": "2026-08-05T13:43:09.819441+00:00",
+  "commit": "a6326b11177beacd9f86cd07ebb57b57d60e13c4",
   "activity": {
     "since": "v0.1.1",
     "entries": [
@@ -109,23 +109,27 @@
     {
       "de": {
         "template": "category",
-        "id_tech": "physical-activity",
-        "subject-area": "risk-and-protective-factors",
-        "title": "Körperliche Aktivität",
         "key": "physical-activity",
-        "icon_lucide": "dumbbell",
+        "title": "Körperliche Aktivität",
+        "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
-        "icon_upload": "/media/dumbbell.png"
+        "description-professional": "Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:\n\n1. Ausdauerorientierte Aktivität\n2. Muskelkräftigende Übungen\n3. Alltagsaktivität sowie\n4. Sitzen",
+        "description-laymen": "Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:\n\n1. Ausdauerorientierte Aktivität\n2. Muskelkräftigende Übungen\n3. Alltagsaktivität sowie\n4. Sitzen",
+        "discussion": "",
+        "subject-area": "risk-and-protective-factors",
+        "id_tech": "physical-activity",
+        "icon_lucide": "dumbbell"
       },
       "en": {
         "template": "category",
-        "id_tech": "physical-activity",
-        "subject-area": "risk-and-protective-factors",
-        "title": "Physical Activity",
         "key": "physical-activity",
-        "icon_lucide": "dumbbell",
+        "title": "Physical Activity",
+        "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
-        "icon_upload": "/media/dumbbell.png"
+        "discussion": "",
+        "subject-area": "risk-and-protective-factors",
+        "id_tech": "physical-activity",
+        "icon_lucide": "dumbbell"
       },
       "dimensions": [
         {

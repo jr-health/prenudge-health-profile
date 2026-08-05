@@ -60,6 +60,24 @@ _Keine Dimensionen erfasst._
 
 <img src="media/dumbbell.png" alt="Körperliche Aktivität" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
 
+**Beschreibung für Fachpersonal:**
+
+Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:
+
+1. Ausdauerorientierte Aktivität
+2. Muskelkräftigende Übungen
+3. Alltagsaktivität sowie
+4. Sitzen
+
+**Information für Bevölkerung:**
+
+Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:
+
+1. Ausdauerorientierte Aktivität
+2. Muskelkräftigende Übungen
+3. Alltagsaktivität sowie
+4. Sitzen
+
 ### Ausdauerorientierte Aktivität
 
 **Beschreibung für Fachpersonal:**
