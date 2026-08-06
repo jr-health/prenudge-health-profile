@@ -38,11 +38,12 @@ Data / App Providers (data-provider/)
 | `admin/widgets/` | Custom `id_tech_auto` widget (registered but not currently used — see note) |
 | `hp-categories/`, `hp-dimensions/`, `hp-observations/` | Source content (one JSON per entry) |
 | `data-provider/` | Data / app providers in the PreNUDGE ecosystem |
-| `scripts/` | Python pipeline + local update helper |
-| `render/` | `sunburst.html` visualization and Markdown Jinja2 templates |
+| `media/` | Images (logos, icons) referenced by content and the CMS media library |
+| `scripts/` | Python pipeline (`validate.py`, `consolidate.py`, `render_doc.py`, `render_adoc.py`, `render_html.py`) + local update helper |
+| `render/` | `sunburst.html` and `browse.{de,en}.html` visualizations, plus Jinja2 templates and the Word style reference in `render/templates/` |
 | `health-profile.json` | Generated consolidated profile (do not edit by hand) |
-| `health-profile-v*.md` | Generated German / English reports |
-| `.gitea/workflows/` | Legacy Gitea Actions CI (does not run on GitHub — see note below) |
+| `health-profile-v*.md` | Generated German / English Markdown reports |
+| `.github/workflows/` | GitHub Actions CI — see "Automation" below |
 | `doc/` | Setup, release, and transform notes |
 
 > **Note on the custom widget:** `admin/widgets/slug-from-title.js` registers an
@@ -84,17 +85,24 @@ The scripts turn the distributed JSON files into the consolidated profile and re
 python scripts/validate.py       # check referential integrity + i18n key consistency
 python scripts/consolidate.py    # build health-profile.json (categories → … → observations)
 python scripts/render_doc.py     # render versioned de/en Markdown reports (needs jinja2)
+python scripts/render_html.py    # render the de/en browse view (render/browse.{de,en}.html)
+python scripts/render_adoc.py    # render versioned de/en AsciiDoc (feeds the Word export)
 ```
 
-On Windows, `scripts/update-local.ps1` runs validation and regeneration in one step:
+On Windows, `scripts/update-local.ps1` runs validation, consolidation, Markdown rendering, and
+the browse view regeneration in one step:
 
 ```powershell
 .\scripts\update-local.ps1            # or: .\scripts\update-local.ps1 -Version 1.2.0
 ```
 
-> **⚠️ CI setup is still open on GitHub.** The existing workflow
-> (`.gitea/workflows/update-profile.yml`) targets **Gitea Actions** and does not run on
-> GitHub. A GitHub Actions workflow (e.g. `.github/workflows/`) still needs to be set up to
-> regenerate these files automatically on push to `main`. Until then, run the pipeline
-> locally (see above) and commit the generated files. See `doc/ci-setup.md` for the original
-> Gitea runner setup and `doc/release.md` for the release flow.
+## Automation (GitHub Actions)
+
+| Workflow | Trigger | Does |
+|---|---|---|
+| `update-profile.yml` | Push to `main` touching content, `scripts/`, or `render/templates/` | Validates, consolidates, renders Markdown + the browse view, commits the generated files back (`[skip ci]`) |
+| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
+| `pages.yml` | After a successful `Release` run, or manual dispatch | Builds the GitHub Pages landing page (sunburst, browse view, CMS editor, download links to the latest release's Word exports) |
+
+See `doc/release.md` for the full release/versioning process and `doc/github-actions-plan.md`
+for the design rationale.
