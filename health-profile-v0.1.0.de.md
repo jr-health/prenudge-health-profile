@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.0 | Generiert: 2026-07-27_
+_Version: 0.1.0 | Generiert: 2026-08-05_
 
 ---
 
@@ -60,17 +60,64 @@ _Keine Dimensionen erfasst._
 
 <img src="media/dumbbell.png" alt="Körperliche Aktivität" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
 
+**Beschreibung für Fachpersonal:**
+
+Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:
+
+1. Ausdauerorientierte Aktivität
+2. Muskelkräftigende Übungen
+3. Alltagsaktivität sowie
+4. Sitzen
+
+**Information für Bevölkerung:**
+
+Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:
+
+1. Ausdauerorientierte Aktivität
+2. Muskelkräftigende Übungen
+3. Alltagsaktivität sowie
+4. Sitzen
+
 ### Ausdauerorientierte Aktivität
+
+**Beschreibung für Fachpersonal:**
+
+Definition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)
+
+„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020) 
+
+Weiterführende Links:
+
+1. Österreichische Bewegungsempfehlungen: [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)
+2. WHO guidelines on physical activity and sedentary behaviour: [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)
+3. Die Bewegungsrevolution (Gesundheitsfonds Steiermark): [https://diebewegungsrevolution.at/bewegung-tipps/](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)
+4. S2k Leitlinie: Sportmedizinische Vorsorgeuntersuchung: [https://register.awmf.org/assets/guidelines/066-002l_S2k_Sportmedizinische-Vorsorgeuntersuchung_2024-04.pdf](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)
+
+Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von **ausdauerorientierter Bewegung mit mittlerer Intensität** im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) **ODER** „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität **ODER** eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).
+
+**Information für Bevölkerung:**
+
+“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).
+
+„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)
+
+**Verifizierte Gesundheitsinformation:**
+- [Österreichische Bewegungsempfehlungen](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [Broschüre Bewegung:](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
+- [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/)
+- [WHO guidelines on physical activity and sedentary behaviour](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
 
 #### Minuten in moderater und intensiver körperlichen Aktivität
 
 **Beschreibung für Fachpersonal:**
 
-Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).
+Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…
+
+Population: erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.
+Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…
 
 ##### Messinstrumente
 
@@ -95,14 +142,18 @@ Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder R
 
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** -
-- **Datenformat:** -
-- **Datentyp:** categorial
-- **Wertebereich:** -
-- **Erfassungsfrequenz:** Alle 3 Monate
-- **Empfohlene Monitoringfrequenz:** Alle 6 Monate = 2x im Jahr
-- **FHIR IG Link:** -
-- **FHIR IG Status:** planned
+- **Datenformat:** Q4: Kategoriell (7 Antwortmöglichkeiten)  Q5: Kategoriell (5 Antwortmöglichkeiten)  Q6: Kategoriell (8 Antwortmöglichkeiten)  Q7: Angabe in Stunden und Minuten
+- **Wertebereich:** für Q7: 
+min: in Minuten 0
+max: in Minuten: 15.120/Woche
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
+- **FHIR IG Status:** amendment needed
 - **Sunburst-Chart Status:** published
+
+**Spezifische Normen:**
+- 150 min-300 min körperliche Aktivität
 
 **Fragebögen:**
 - **EHIS-PAQ (Q4-Q7)**: Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  
@@ -125,8 +176,10 @@ Q7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, F
 
 Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
+**Scoring-Algorithmus:** _Q7: Stunden in Minuten umrechnen_
+
 **Quellen:**
-- [EHIS-PAQ Fragebogen](Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/)
+- [European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
 ##### Terminologiecodes
 
@@ -207,31 +260,9 @@ _Keine Dimensionen erfasst._
 
 ## Bearbeitungshistorie
 
-_Alle Bearbeitungstage:_
+_Änderungen seit Version v0.1.1:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-07-27 | Theresa.Weitlaner |
-| 2026-07-27 | github-actions[bot] |
-| 2026-07-24 | Theresa.Weitlaner |
-| 2026-07-24 | Theresa Weitlaner |
-| 2026-07-08 | Theresa.Weitlaner |
-| 2026-07-07 | trtjrhealth |
-| 2026-07-06 | Theresa.Weitlaner |
-| 2026-07-06 | Theresa Weitlaner |
-| 2026-06-01 | Theresa Weitlaner |
-| 2026-06-01 | mirna.ban |
-| 2026-05-27 | Thomas Truskaller |
-| 2026-05-27 | Theresa.Weitlaner |
-| 2026-05-26 | Theresa.Weitlaner |
-| 2026-05-26 | Thomas Truskaller |
-| 2026-05-22 | Thomas Truskaller |
-| 2026-05-22 | Theresa Weitlaner |
-| 2026-05-06 | Thomas Truskaller |
-| 2026-05-05 | Theresa.Weitlaner |
-| 2026-04-30 | Theresa.Weitlaner |
-| 2026-04-29 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa Weitlaner |
-| 2026-04-09 | Thomas Truskaller |
-| 2026-04-08 | Thomas Truskaller |
+| 2026-08-05 | Theresa Weitlaner |
+| 2026-08-05 | github-actions[bot] |

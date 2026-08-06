@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.0 | Generated: 2026-07-27_
+_Version: 0.1.0 | Generated: 2026-08-05_
 
 ---
 
@@ -62,6 +62,12 @@ _No dimensions recorded._
 
 ### Endurance Oriented Activity
 
+**Verified Health Information:**
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
+- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
+- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
+
 #### Minutes in moderate and vigouros physical activity
 
 **Description for Healthcare Professionals:**
@@ -71,6 +77,33 @@ _No dimensions recorded._
 **Information for the Public:**
 
 Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Wearable device / sensor · automated
+- **Data Type:** integer
+- **Range of Values:** min: 0 max: >48h/day
+- **Acquisition Frequency:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
+- **Recommended Monitoring Frequency:** pro Tag/täglich
+- **FHIR IG Link:** -
+- **FHIR IG Status:** planned
+- **Sunburst Chart Status:** published
+
+**Sources:**
+- Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/
+
+**Measurement Instrument 2** — Questionnaire · manual (self-reported)
+- **Range of Values:** für Q7: 
+min: in Minuten 0
+max: in Minuten: 15.120/Woche
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
+- **FHIR IG Status:** amendment needed
+- **Sunburst Chart Status:** published
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/26634120/
 
 ##### Terminology Codes
 
@@ -151,31 +184,9 @@ _No dimensions recorded._
 
 ## Edit History
 
-_All editing days:_
+_Changes since version v0.1.1:_
 
 | Date | Author |
 |---|---|
-| 2026-07-27 | Theresa.Weitlaner |
-| 2026-07-27 | github-actions[bot] |
-| 2026-07-24 | Theresa.Weitlaner |
-| 2026-07-24 | Theresa Weitlaner |
-| 2026-07-08 | Theresa.Weitlaner |
-| 2026-07-07 | trtjrhealth |
-| 2026-07-06 | Theresa.Weitlaner |
-| 2026-07-06 | Theresa Weitlaner |
-| 2026-06-01 | Theresa Weitlaner |
-| 2026-06-01 | mirna.ban |
-| 2026-05-27 | Thomas Truskaller |
-| 2026-05-27 | Theresa.Weitlaner |
-| 2026-05-26 | Theresa.Weitlaner |
-| 2026-05-26 | Thomas Truskaller |
-| 2026-05-22 | Thomas Truskaller |
-| 2026-05-22 | Theresa Weitlaner |
-| 2026-05-06 | Thomas Truskaller |
-| 2026-05-05 | Theresa.Weitlaner |
-| 2026-04-30 | Theresa.Weitlaner |
-| 2026-04-29 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa.Weitlaner |
-| 2026-04-15 | Theresa Weitlaner |
-| 2026-04-09 | Thomas Truskaller |
-| 2026-04-08 | Thomas Truskaller |
+| 2026-08-05 | Theresa Weitlaner |
+| 2026-08-05 | github-actions[bot] |

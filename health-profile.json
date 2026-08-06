@@ -1,105 +1,17 @@
 {
   "version": "0.1.0",
-  "generated": "2026-07-27T15:11:23.951227+00:00",
-  "commit": "e7cc623fca20480eb9246fbbd4b24d182612d25d",
+  "generated": "2026-08-05T13:43:09.819441+00:00",
+  "commit": "a6326b11177beacd9f86cd07ebb57b57d60e13c4",
   "activity": {
-    "since": null,
+    "since": "v0.1.1",
     "entries": [
       {
-        "date": "2026-07-27",
-        "author": "Theresa.Weitlaner"
+        "date": "2026-08-05",
+        "author": "Theresa Weitlaner"
       },
       {
-        "date": "2026-07-27",
+        "date": "2026-08-05",
         "author": "github-actions[bot]"
-      },
-      {
-        "date": "2026-07-24",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-24",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-07-08",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-07",
-        "author": "trtjrhealth"
-      },
-      {
-        "date": "2026-07-06",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-07-06",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-06-01",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-06-01",
-        "author": "mirna.ban"
-      },
-      {
-        "date": "2026-05-27",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-27",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-05-26",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-05-26",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-22",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-22",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-05-06",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-05-05",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-30",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-29",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-15",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-04-15",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-04-09",
-        "author": "Thomas Truskaller"
-      },
-      {
-        "date": "2026-04-08",
-        "author": "Thomas Truskaller"
       }
     ]
   },
@@ -197,44 +109,156 @@
     {
       "de": {
         "template": "category",
-        "id_tech": "physical-activity",
-        "subject-area": "risk-and-protective-factors",
-        "title": "Körperliche Aktivität",
         "key": "physical-activity",
-        "icon_lucide": "dumbbell",
+        "title": "Körperliche Aktivität",
+        "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
-        "icon_upload": "/media/dumbbell.png"
+        "description-professional": "Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:\n\n1. Ausdauerorientierte Aktivität\n2. Muskelkräftigende Übungen\n3. Alltagsaktivität sowie\n4. Sitzen",
+        "description-laymen": "Dieser Abschnitt behandelt die Kategorie der körperlichen Aktivität zu welcher die folgenden Gesundheitsindikatoren gehören:\n\n1. Ausdauerorientierte Aktivität\n2. Muskelkräftigende Übungen\n3. Alltagsaktivität sowie\n4. Sitzen",
+        "discussion": "",
+        "subject-area": "risk-and-protective-factors",
+        "id_tech": "physical-activity",
+        "icon_lucide": "dumbbell"
       },
       "en": {
         "template": "category",
-        "id_tech": "physical-activity",
-        "subject-area": "risk-and-protective-factors",
-        "title": "Physical Activity",
         "key": "physical-activity",
-        "icon_lucide": "dumbbell",
+        "title": "Physical Activity",
+        "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
-        "icon_upload": "/media/dumbbell.png"
+        "discussion": "",
+        "subject-area": "risk-and-protective-factors",
+        "id_tech": "physical-activity",
+        "icon_lucide": "dumbbell"
       },
       "dimensions": [
         {
           "de": {
             "template": "dimension",
-            "id_tech": "endurance-oriented-activity",
-            "title": "Ausdauerorientierte Aktivität",
+            "key": "endurance-oriented-activity",
             "category": "physical-activity",
-            "key": "endurance-oriented-activity"
+            "title": "Ausdauerorientierte Aktivität",
+            "description_professional": "Definition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020) \n\nWeiterführende Links:\n\n1. Österreichische Bewegungsempfehlungen: [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)\n2. WHO guidelines on physical activity and sedentary behaviour: [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)\n3. Die Bewegungsrevolution (Gesundheitsfonds Steiermark): [https://diebewegungsrevolution.at/bewegung-tipps/](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)\n4. S2k Leitlinie: Sportmedizinische Vorsorgeuntersuchung: [https://register.awmf.org/assets/guidelines/066-002l_S2k_Sportmedizinische-Vorsorgeuntersuchung_2024-04.pdf](https://oo.joanneum.at/9.3.1-083df4d793887baa7db4b00b0e6b489c/web-apps/apps/documenteditor/main/index.html?_dc=9.3.1-10&lang=de-DE&customer=ONLYOFFICE&type=desktop&frameEditorId=iframeEditor&isForm=false&compact=true&parentOrigin=https://nxc.joanneum.at&uitheme=theme-system&fileType=docx)\n\nEmpfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von **ausdauerorientierter Bewegung mit mittlerer Intensität** im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) **ODER** „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität **ODER** eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
+            "description_layman": "“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)",
+            "verified-health-links": [
+              {
+                "title": "Österreichische Bewegungsempfehlungen",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "note": ""
+              },
+              {
+                "title": "Broschüre Bewegung:",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "note": ""
+              },
+              {
+                "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+                "note": ""
+              },
+              {
+                "title": "WHO guidelines on physical activity and sedentary behaviour",
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "endurance-oriented-activity"
           },
           "en": {
             "template": "dimension",
-            "id_tech": "endurance-oriented-activity",
-            "title": "Endurance Oriented Activity",
+            "key": "endurance-oriented-activity",
             "category": "physical-activity",
-            "key": "endurance-oriented-activity"
+            "title": "Endurance Oriented Activity",
+            "verified-health-links": [
+              {
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf"
+              },
+              {
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf"
+              },
+              {
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/"
+              },
+              {
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content"
+              }
+            ],
+            "discussion": "",
+            "id_tech": "endurance-oriented-activity"
           },
           "observations": [
             {
               "de": {
+                "template": "observation",
+                "key": "minutes-moderate-physical-activity",
+                "title": "Minuten in moderater und intensiver körperlichen Aktivität",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\nPopulation: erwachsene Allgemeinbevölkerung",
+                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
+                "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "min/week",
+                    "data-format": "min",
+                    "data-type": "integer",
+                    "range-of-vales": "min: 0 max: >48h/day",
+                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
+                    "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "norms": [
+                      {
+                        "specific-norm": "adults >=18 years: >=150 min /week"
+                      }
+                    ],
+                    "scoring-algorithm": "vigorous Intensitätsminuten x2",
+                    "sources": [
+                      {
+                        "source-description": "Norm?",
+                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "-",
+                    "pn-fhir-ig-status": "planned",
+                    "vis-status": "published"
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
+                    "specific-questions": "**Fragebogen: EHIS-PAQ (Q4, Q5, Q6, Q7)** \n **Q4 (=PE4 ATHIS): An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q5(=PE5 ATHIS): Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag\n 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr\n **Q6(=PE6 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus? Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern oder Badminton**\n _Antwortmöglichkeiten_: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q7(=PE7 ATHIS): Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?** \n _Antwortmöglichkeit:_ ___ Stunden und ___ Minuten pro Woche",
+                    "unit": "-",
+                    "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)  Q5: Kategoriell (5 Antwortmöglichkeiten)  Q6: Kategoriell (8 Antwortmöglichkeiten)  Q7: Angabe in Stunden und Minuten",
+                    "data-type": "",
+                    "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "alle 3 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "150 min-300 min körperliche Aktivität"
+                      }
+                    ],
+                    "scoring-algorithm": "_Q7: Stunden in Minuten umrechnen_",
+                    "sources": [
+                      {
+                        "source-description": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
+                    "pn-fhir-ig-status": "amendment needed",
+                    "vis-status": "published",
+                    "qualification": "",
+                    "questionnaires": [
+                      {
+                        "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche",
+                        "questionnaire": "EHIS-PAQ (Q4-Q7)"
+                      }
+                    ]
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)",
                 "terminology-codes": [
                   {
                     "system": "http://loinc.org",
@@ -248,75 +272,51 @@
                   }
                 ],
                 "population": "general population",
-                "citizen-info": "Regelmäßige evidenzbasierte körperliche Aktivität, wie zügiges Gehen oder Radfahren, stärkt Herz und Lunge, verbessert den Stoffwechsel und hilft, Krankheiten wie Type 2 Diabetes und Cardiovascular Disease vorzubeugen. Sie unterstützt außerdem das psychische Wohlbefinden und trägt dazu bei, Mobilität und Selbstständigkeit im Alter zu erhalten.",
-                "title": "Minuten in moderater und intensiver körperlichen Aktivität",
-                "measurement-instrument": [
-                  {
-                    "unit": "min/week",
-                    "recommended-monitoring-frequency": "pro Tag/täglich",
-                    "range-of-vales": "min: 0 max: >48h/day",
-                    "source-type": "Wearable device / sensor · automated",
-                    "pn-fhir-ig-status": "planned",
-                    "scoring-algorithm": "vigorous Intensitätsminuten x2",
-                    "pn-fhir-ig-link": "-",
-                    "norms": [
-                      {
-                        "specific-norm": "adults >=18 years: >=150 min /week"
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
-                        "source-description": "Norm?"
-                      }
-                    ],
-                    "data-format": "min",
-                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
-                    "data-type": "integer",
-                    "vis-status": "published"
-                  },
-                  {
-                    "unit": "-",
-                    "recommended-monitoring-frequency": "Alle 6 Monate = 2x im Jahr",
-                    "range-of-vales": "-",
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "pn-fhir-ig-status": "planned",
-                    "questionnaires": [
-                      {
-                        "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche",
-                        "questionnaire": "EHIS-PAQ (Q4-Q7)"
-                      }
-                    ],
-                    "scoring-algorithm": "",
-                    "pn-fhir-ig-link": "-",
-                    "sources": [
-                      {
-                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/",
-                        "source-description": "EHIS-PAQ Fragebogen"
-                      }
-                    ],
-                    "data-format": "-",
-                    "acquisition-frequency": "Alle 3 Monate",
-                    "data-type": "categorial",
-                    "vis-status": "published"
-                  }
-                ],
-                "template": "observation",
-                "id_tech": "minutes-moderate-physical-activity",
-                "description": "Die dimensionsbasierte Ausdauer-Indikatorvariable für körperliche Aktivität umfasst die gesamte wöchentliche Dauer moderater und intensiver aerober Aktivität sowie die Einhaltung der empfohlenen Grenzwerte (≥150 Minuten moderate oder ≥75 Minuten intensive Aktivität pro Woche).",
-                "category": "physical-activity",
-                "key": "minutes-moderate-physical-activity"
+                "id_tech": "minutes-moderate-physical-activity"
               },
               "en": {
                 "template": "observation",
-                "id_tech": "minutes-moderate-physical-activity",
-                "description": "*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*",
-                "population": "",
-                "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
                 "key": "minutes-moderate-physical-activity",
                 "title": "Minutes in moderate and vigouros physical activity",
+                "description": "*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*",
+                "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
+                "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
-                "category": "physical-activity"
+                "measurement-instrument": [
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "data-type": "integer",
+                    "range-of-vales": "min: 0 max: >48h/day",
+                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
+                    "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "sources": [
+                      {
+                        "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "-",
+                    "pn-fhir-ig-status": "planned",
+                    "vis-status": "published"
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "alle 3 Monate",
+                    "sources": [
+                      {
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
+                    "pn-fhir-ig-status": "amendment needed",
+                    "vis-status": "published"
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)",
+                "id_tech": "minutes-moderate-physical-activity",
+                "population": ""
               }
             }
           ]
