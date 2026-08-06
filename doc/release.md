@@ -59,6 +59,11 @@ Ein erfolgreicher `release.yml`-Lauf löst automatisch `pages.yml` aus (siehe
 Design-Entscheidung 5) — Sunburst, Browse-Ansicht und die Download-Links auf der Landing Page
 zeigen danach den neuen Release-Stand. Kein manueller Schritt nötig.
 
+Die Anzeige "Version … · Generated: …" auf der Landing Page liest dafür `health-profile.json`
+nicht aus dem `main`-Checkout (der Stand dort bleibt wegen Schritt 3 unverändert), sondern lädt
+sie per `gh release download` direkt vom soeben erstellten Release-Asset — nur dort steht die
+zur Version passende `generated`-Zeitangabe.
+
 ---
 
 ## Versionsnummer bestimmen

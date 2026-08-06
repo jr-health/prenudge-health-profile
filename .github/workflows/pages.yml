@@ -38,19 +38,26 @@ jobs:
           echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
 
       - name: Build _site
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p _site/render
           cp -r admin _site/admin
           cp -r media _site/media
-          cp health-profile.json _site/health-profile.json
           cp render/sunburst.html _site/render/sunburst.html
           cp render/browse.de.html _site/render/browse.de.html
           cp render/browse.en.html _site/render/browse.en.html
 
-          VERSION=$(jq -r '.version // "unreleased"' health-profile.json)
-          GENERATED=$(jq -r '.generated // ""' health-profile.json | cut -c1-10)
           RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
+
+          # health-profile.json is NOT taken from the checkout: release.yml never commits
+          # its regenerated version/date back to main, so the repo copy is stale. The
+          # release asset is the only place that has the version/date matching this release.
+          gh release download "v${RELEASE_VERSION}" --repo ${{ github.repository }} \
+            --pattern health-profile.json --dir _site --clobber
+
+          GENERATED=$(jq -r '.generated // ""' _site/health-profile.json | cut -c1-10)
 
           cat > _site/index.html <<EOF
           <!DOCTYPE html>
@@ -98,7 +105,7 @@ jobs:
             <a href="https://prenudge.at/"><img src="media/PräNUDGE_Logo.png" alt="PreNUDGE"></a>
             <h1>PreNUDGE Health Profile</h1>
           </header>
-          <p class="meta">Version $VERSION · Generated: $GENERATED</p>
+          <p class="meta">Version $RELEASE_VERSION · Generated: $GENERATED</p>
 
           <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 

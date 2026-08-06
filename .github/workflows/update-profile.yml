@@ -1,6 +1,8 @@
 name: Update Health Profile
 
-# Runs when data files, scripts, or templates change.
+# Runs when data files, scripts, or templates change, or after a Release
+# completes (so main's health-profile.json picks up the new version/date
+# even if no content changed since - release.yml itself never commits).
 # Generated files are committed back with [skip ci] to avoid loops.
 on:
   push:
@@ -12,6 +14,9 @@ on:
       - 'data-provider/**'
       - 'scripts/**'
       - 'render/templates/**'
+  workflow_run:
+    workflows: ["Release"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -19,13 +24,15 @@ permissions:
 
 jobs:
   update:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # needed for git log (activity history)
+          ref: main                # workflow_run doesn't default to this branch
+          fetch-depth: 0          # needed for git log (activity history) and git tag lookup
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,18 +45,12 @@ jobs:
       - name: Validate references
         run: python scripts/validate.py --strict
 
-      - name: Read current version from JSON
+      - name: Read version from latest release tag
         id: version
         run: |
-          VERSION=$(python -c "
-          import json, sys
-          try:
-              d = json.load(open('health-profile.json'))
-              print(d.get('version', 'unreleased'))
-          except Exception:
-              print('unreleased')
-          ")
-          echo "value=$VERSION" >> $GITHUB_OUTPUT
+          TAG=$(git tag --sort=-version:refname | head -1)
+          VERSION="${TAG#v}"
+          echo "value=${VERSION:-unreleased}" >> $GITHUB_OUTPUT
 
       - name: Consolidate JSON
         run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
