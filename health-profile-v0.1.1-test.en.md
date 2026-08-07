@@ -63,10 +63,10 @@ _No dimensions recorded._
 ### Endurance Oriented Activity
 
 **Verified Health Information:**
-- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
-- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
-- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
-- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf) _(Audience: Healthcare professionals, Laymen / citizens)_
+- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf) _(Audience: Laymen / citizens)_
+- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/) _(Audience: Healthcare professionals, Laymen / citizens)_
+- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content) _(Audience: Healthcare professionals)_
 
 #### Minutes in moderate and vigouros physical activity
 
@@ -188,7 +188,8 @@ _Changes since version v0.1.1-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-07 | Theresa Weitlaner |
 | 2026-08-07 | Theresa.Weitlaner |
+| 2026-08-07 | github-actions[bot] |
+| 2026-08-07 | Theresa Weitlaner |
 | 2026-08-06 | Theresa.Weitlaner |
 | 2026-08-06 | github-actions[bot] |

@@ -95,10 +95,10 @@ Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlun
 „Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)
 
 **Verifizierte Gesundheitsinformation:**
-- [Österreichische Bewegungsempfehlungen](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
-- [Broschüre Bewegung](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
-- [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/)
-- [WHO guidelines on physical activity and sedentary behaviour](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
+- [Österreichische Bewegungsempfehlungen](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf) _(Zielgruppe: Healthcare professionals, Laymen / citizens)_
+- [Broschüre Bewegung](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf) _(Zielgruppe: Laymen / citizens)_
+- [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/) _(Zielgruppe: Healthcare professionals, Laymen / citizens)_
+- [WHO guidelines on physical activity and sedentary behaviour](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content) _(Zielgruppe: Healthcare professionals)_
 
 #### Minuten in moderater und intensiver körperlichen Aktivität
 
@@ -107,6 +107,8 @@ Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlun
 Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…
 
 Population: erwachsene Allgemeinbevölkerung
+
+**Population:** general population
 
 **Information für Bevölkerung:**
 
@@ -257,7 +259,8 @@ _Änderungen seit Version v0.1.1-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-07 | Theresa Weitlaner |
 | 2026-08-07 | Theresa.Weitlaner |
+| 2026-08-07 | github-actions[bot] |
+| 2026-08-07 | Theresa Weitlaner |
 | 2026-08-06 | Theresa.Weitlaner |
 | 2026-08-06 | github-actions[bot] |
