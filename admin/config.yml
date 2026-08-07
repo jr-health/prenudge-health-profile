@@ -1,6 +1,6 @@
 local_backend: true
 
-# logo_url: https://health.joanneum.at/git/PreNudge/prenudge-health-profile/raw/branch/main/media/MetadatenIcon.png
+logo_url: ../media/MetadatenIcon.png
 
 backend:
   name: github
@@ -198,7 +198,7 @@ collections:
         i18n: translate
         hint: "Indicator dimension description in layman language for citizens"
 
-      - label: "Verified Austrian Health Information (MED)"
+      - label: "Further information/links (MED)"
         name: verified-health-links
         required: false
         widget: "list"
