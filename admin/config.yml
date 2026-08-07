@@ -1,5 +1,7 @@
 local_backend: true
 
+app_title: PreNUDGE Metadata CMS Editor
+
 logo_url: ../media/MetadatenIcon.png
 
 backend:
@@ -203,7 +205,7 @@ collections:
         required: false
         widget: "list"
         i18n: true
-        summary: "{{title}} · {{url}}"
+        summary: "{{title}} · {{audience}}"
         hint: "Links to relevant information on gesundheit.gv.at"
         fields:
           - label: "Link Title"
@@ -217,6 +219,15 @@ collections:
             widget: "string"
             required: false
             i18n: duplicate
+
+          - label: "Audience"
+            name: "audience"
+            widget: "select"
+            options: ["Healthcare professionals", "Laymen / citizens"]
+            multiple: true
+            required: false
+            i18n: duplicate
+            hint: "Who is this link intended for? Select all that apply."
 
           - label: "Short Note"
             name: "note"
@@ -248,7 +259,7 @@ collections:
         default: observation
         i18n: duplicate
 
-      - label: "Observation key (TECH)"
+      - label: "Observation key (MED/TECH)"
         name: key
         widget: string
         i18n: duplicate
@@ -264,16 +275,9 @@ collections:
       - label: "Observation Description (professional) (MED)"
         name: description
         required: false
-        hint: "Observation description for healthcare professionals; include population ... information when relevant."
+        hint: "Observation description for healthcare professionals"
         widget: richtext
         i18n: translate
-
-      - label: "Citizen information (layman) (MED)"
-        name: citizen-info
-        required: false
-        widget: richtext
-        i18n: translate
-        hint: "Simple lay-language explanation of why this health indicator is important for prevention."
 
       - label: "Category (MED)"
         name: category
@@ -294,6 +298,20 @@ collections:
         display_fields: [ "{{title}} - {{key}}" ]
         i18n: duplicate
         hint: 'Assignment of previously defined “PreNUDGE indicator dimension"'
+
+      - label: "Population (MED)"
+        name: population
+        required: false
+        hint: "Population for which this observation is relevant, when applicable"
+        widget: text
+        i18n: translate
+
+      - label: "Citizen information (layman) (MED)"
+        name: citizen-info
+        required: false
+        widget: richtext
+        i18n: translate
+        hint: "Simple lay-language explanation of why this health indicator is important for prevention."
 
       - label: "Measurement instrument (MED+TECH)"
         name: measurement-instrument
@@ -322,13 +340,13 @@ collections:
           - label: "Unit (MED)"
             name: unit
             required: false
-            widget: string
+            widget: text
             i18n: translate
             hint: "Physical unit or scale (e.g., hours, days, score)"
           - label: "Data format (MED)"
             name: data-format
             required: false
-            widget: string
+            widget: text
             i18n: translate
             hint: "Typical data formats used in a medical context for this observation (e.g., values are typically measured with an accuracy of two decimals)"
           - label: "Datatype (TECH)"
@@ -393,27 +411,7 @@ collections:
                 required: true
                 i18n: duplicate
                 hint: "e.g., https://fgoe.org/medien/reihewissen/bewegungsempfehlungen"
-          - label: "Link to PreNUDGE FHIR Implementation Guide (TECH)"
-            name: pn-fhir-ig-link
-            widget: string
-            required: false
-            i18n: duplicate
-            hint: "URL linking to corresponding PreNUDGE FHIR IG profile, if available"
-          - label: "PreNUDGE FHIR Implementation Guide Status (MED+TECH)"
-            name: pn-fhir-ig-status
-            widget: select
-            options: [ "draft", "open", "planned", "published", "amendment needed"]
-            default: "draft"
-            i18n: duplicate
-            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
-          - label: "PreNUDGE Sunburst Chart Status (MED+TECH)"
-            name: vis-status
-            widget: select
-            options: [ "draft", "open", "planned", "published", "amendment needed" ]
-            default: "draft"
-            i18n: duplicate
-            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
-          - label: "Terminology Codes (TECH)"
+          - label: "Terminology Codes (TECH/APCA)"
             name: "terminology-codes"
             widget: "list"
             required: false
@@ -437,6 +435,26 @@ collections:
                 widget: "string"
                 required: false
                 hint: "Human-readable label (optional but recommended)"
+          - label: "Link to PreNUDGE FHIR Implementation Guide (TECH)"
+            name: pn-fhir-ig-link
+            widget: string
+            required: false
+            i18n: duplicate
+            hint: "URL linking to corresponding PreNUDGE FHIR IG profile, if available"
+          - label: "PreNUDGE FHIR Implementation Guide Status (MED+TECH)"
+            name: pn-fhir-ig-status
+            widget: select
+            options: [ "draft", "open", "planned", "published", "amendment needed"]
+            default: "draft"
+            i18n: duplicate
+            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
+          - label: "PreNUDGE Sunburst Chart Status (MED+TECH)"
+            name: vis-status
+            widget: select
+            options: [ "draft", "open", "planned", "published", "amendment needed" ]
+            default: "draft"
+            i18n: duplicate
+            hint: "draft = completely newly added health indicator MED is still working on it (=default); open = completely newly added health indicator, currently not considered for IG implementation; planned = next candidate to be implemented in IG/implementation in IG ongoing; published = implemented in IG; amendment needed = health indicator already implemented in the IG but there was a change in the metadata and IG needs to be checked"
           - label: "App Provider qualification requirment (TECH)"
             name: qualification
             widget: richtext
