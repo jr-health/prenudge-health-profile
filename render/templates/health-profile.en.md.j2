@@ -68,7 +68,7 @@ _No dimensions recorded._
 
 **Verified Health Information:**
 {% for link in links %}
-- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('audience') %} _(Audience: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -86,6 +86,10 @@ _No observations recorded._
 
 {{ o.description }}
 {% endif %}
+{% if o.get('population') %}
+
+**Population:** {{ o['population'] }}
+{% endif %}
 {% if o.get('citizen-info') %}
 
 **Information for the Public:**
@@ -101,10 +105,10 @@ _No observations recorded._
 **Measurement Instrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
 
 {% if instr.get('unit') %}
-- **Unit:** {{ instr.unit }}
+- **Unit:** {{ instr.get('unit') | replace('\n', ' ') | trim }}
 {% endif %}
 {% if instr.get('data-format') or instr.get('data_format') %}
-- **Data Format:** {{ instr.get('data-format') or instr.get('data_format') }}
+- **Data Format:** {{ (instr.get('data-format') or instr.get('data_format')) | replace('\n', ' ') | trim }}
 {% endif %}
 {% if instr.get('data-type') %}
 - **Data Type:** {{ instr['data-type'] }}

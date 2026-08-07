@@ -67,7 +67,7 @@ _No dimensions recorded._
 *Verified Health Information:*
 
 {% for link in links %}
-* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('audience') %} _(Audience: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -85,6 +85,10 @@ _No observations recorded._
 *Description for Healthcare Professionals:*
 
 {{ o.description }}
+{% endif %}
+{% if o.get('population') %}
+
+*Population:* {{ o['population'] }}
 {% endif %}
 {% if o.get('citizen-info') %}
 
@@ -117,10 +121,12 @@ _No observations recorded._
 | {{ instr.get('specific-questions') or '-' }}
 
 | *Unit*
-| {{ instr.get('unit') or '-' }}
+{% set unit_val = instr.get('unit') %}
+| {{ (unit_val | replace('\n', ' ') | trim) if unit_val else '-' }}
 
 | *Data Format*
-| {{ (instr.get('data-format') or instr.get('data_format')) or '-' }}
+{% set data_format_val = instr.get('data-format') or instr.get('data_format') %}
+| {{ (data_format_val | replace('\n', ' ') | trim) if data_format_val else '-' }}
 
 | *Data Type*
 | {{ instr.get('data-type') or '-' }}
