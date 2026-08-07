@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.1-test | Generated: 2026-08-06_
+_Version: 0.1.1-test | Generated: 2026-08-07_
 
 ---
 
@@ -26,6 +26,7 @@ _Version: 0.1.1-test | Generated: 2026-08-06_
   - [Smoking Status](#smoking-status)
 - [Sociodemographic Data](#sociodemographic-data)
 - [Workability](#workability)
+- [Edit History](#edit-history)
 
 ---
 
@@ -180,3 +181,14 @@ _No dimensions recorded._
 _No dimensions recorded._
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.1-test:_
+
+| Date | Author |
+|---|---|
+| 2026-08-07 | Theresa Weitlaner |
+| 2026-08-07 | Theresa.Weitlaner |
+| 2026-08-06 | Theresa.Weitlaner |
+| 2026-08-06 | github-actions[bot] |
