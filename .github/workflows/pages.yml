@@ -1,14 +1,21 @@
 name: Deploy GitHub Pages
 
-# Runs after a successful Release (workflow_run), or manually via
-# workflow_dispatch as a manual fallback — deliberately NOT on every
-# push to main. The Page shows the released state, not the working
-# state (see doc/github-actions-plan.md, Design-Entscheidung 5).
+# Runs after a successful Release (workflow_run), manually via
+# workflow_dispatch, or on a push that touches admin/** (so CMS schema
+# changes reach the Page promptly). The admin/ mirror always reflects
+# the triggering checkout (may run ahead of the last release via CMS
+# edits) while sunburst/browse/downloads are re-pinned to the latest
+# release below — see doc/github-actions-plan.md, Design-Entscheidung 5
+# and "Pinning sunburst/browse to the release".
 on:
   workflow_run:
     workflows: ["Release"]
     types: [completed]
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - 'admin/**'
 
 permissions:
   contents: read
@@ -21,7 +28,7 @@ concurrency:
 
 jobs:
   build:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,6 +43,13 @@ jobs:
         run: |
           TAG=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName)
           echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout released commit for sunburst/browse
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.release.outputs.tag }}
+          path: released
 
       - name: Build _site
         env:
@@ -44,9 +58,13 @@ jobs:
           mkdir -p _site/render
           cp -r admin _site/admin
           cp -r media _site/media
-          cp render/sunburst.html _site/render/sunburst.html
-          cp render/browse.de.html _site/render/browse.de.html
-          cp render/browse.en.html _site/render/browse.en.html
+          # sunburst/browse come from the released commit (./released), not the
+          # checkout above, so they never drift ahead of the health-profile.json/
+          # docx downloaded below — even when this run was triggered by an
+          # unreleased admin/ change.
+          cp released/render/sunburst.html _site/render/sunburst.html
+          cp released/render/browse.de.html _site/render/browse.de.html
+          cp released/render/browse.en.html _site/render/browse.en.html
 
           RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
