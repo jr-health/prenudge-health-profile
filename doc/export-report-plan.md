@@ -2,13 +2,44 @@
 
 Dieses Dokument sammelt offene Fragen, bekannte Risiken und künftige Findings rund um die
 generierten Export-Reports (Markdown, AsciiDoc, Word/`.docx` — Phase 2 und Phase 4 in
-`doc/github-actions-plan.md`) — Phase 5, Schritt 27. Anders als `doc/browse-view-plan.md`/
-`doc/landing-page-plan.md` ist das hier **kein** abgeschlossener Design-Plan mit
+`doc/github-actions-plan.md`) — Phase 5, Schritt 27. Anders als `doc/interactive-catalogue-plan.md`
+(zusammengeführt aus den früheren `doc/browse-view-plan.md`/`doc/landing-page-plan.md`) ist das hier **kein** abgeschlossener Design-Plan mit
 Design-Entscheidungen, sondern ein lebendes Backlog: Der eigentliche Review kann erst
 sinnvoll stattfinden, sobald mehr echte Gesundheitsindikatoren im Katalog erfasst sind —
 aktuelle Testdaten sind zu dünn, um Layout/Tabellenstruktur abschließend zu beurteilen. Bis
 dahin werden hier Beobachtungen/Risiken gesammelt, die beim eigentlichen Review als
 Checkliste dienen — unabhängig vom konkreten Ausgabeformat.
+
+## Zielgruppenspezifische Report-Varianten (geplante Ausbaustufe)
+
+Vision (2026-08-13, aus `doc/interactive-catalogue-plan.md` hierher verschoben, da inhaltlich
+eine Export-Report-Frage): Perspektivisch soll es nicht nur eine Version des
+Gesundheitsprofil-Berichts geben, sondern mehrere, je nach Zielgruppe — der Download-Bereich
+auf der Landing Page (siehe `doc/interactive-catalogue-plan.md`) würde dann pro Zielgruppe
+verlinken.
+
+**Ausbaustufe 1:**
+- Healthcare Professionals
+- Bürger:innen
+- Entwickler:innen
+
+**Ausbaustufe 2 (später):**
+- Sekundärdatennutzer:innen
+- Krankheitsbildspezifisch
+
+**Noch offen:**
+- Welche Felder/welcher Detailgrad pro Zielgruppe? (z. B. vermutlich brauchen
+  Entwickler:innen technische Felder wie FHIR-Codes/`id_tech`/Messinstrument-Details,
+  während Bürger:innen eher vereinfachte, IDs-freie Beschreibungen bräuchten — noch nicht
+  fachlich spezifiziert.)
+- Technische Umsetzung: separate Templates pro Zielgruppe (analog den heutigen
+  `health-profile.{de,en}.md.j2`/`.adoc.j2`) oder ein gemeinsames Template mit
+  Zielgruppen-Parameter zur Feld-Filterung? Vermutlich eher separate Templates, da sich
+  vermutlich nicht nur einzelne Felder unterscheiden, sondern auch Struktur/Gliederung — noch
+  nicht entschieden.
+- Kein Blocker für die Umsetzungsphasen A–D in `doc/interactive-catalogue-plan.md` — der
+  Download-Bereich kann mit der aktuell einzigen Version starten, Zielgruppen-Varianten
+  werden unabhängig davon nachgezogen, sobald die obigen Punkte geklärt sind.
 
 ## Warum noch kein Review möglich ist
 
