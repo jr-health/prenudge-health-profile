@@ -30,6 +30,7 @@ _Version: 0.1.2-test | Generated: 2026-08-13_
   - [Gender](#gender)
   - [Socio-economic Status](#socio-economic-status)
 - [Workability](#workability)
+- [Edit History](#edit-history)
 
 ---
 
@@ -199,3 +200,12 @@ _No observations recorded._
 _No dimensions recorded._
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.2-test:_
+
+| Date | Author |
+|---|---|
+| 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-13 | github-actions[bot] |

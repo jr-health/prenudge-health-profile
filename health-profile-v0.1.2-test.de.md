@@ -30,6 +30,7 @@ _Version: 0.1.2-test | Generiert: 2026-08-13_
   - [Geschlecht](#geschlecht)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
 - [Arbeit](#arbeit)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -270,3 +271,12 @@ _Keine Beobachtungen erfasst._
 _Keine Dimensionen erfasst._
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.2-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-13 | github-actions[bot] |
