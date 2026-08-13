@@ -3,7 +3,12 @@ name: Update Health Profile
 # Runs when data files, scripts, or templates change, or after a Release
 # completes (so main's health-profile.json picks up the new version/date
 # even if no content changed since - release.yml itself never commits).
-# Generated files are committed back with [skip ci] to avoid loops.
+# Generated files are committed back without [skip ci] - the path filter
+# above already excludes those files, so the commit-back can't re-trigger
+# this workflow via push. [skip ci] used to be added as a second safety
+# net, but it also silently suppressed EVERY workflow (including
+# release.yml) for any tag later pushed at that exact commit - see
+# doc/github-actions-plan.md, Phase 5, Schritt 23.
 on:
   push:
     branches: [main]
@@ -69,6 +74,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nothing changed, skipping commit."
           else
-            git commit -m "chore: regenerate health profile v${{ steps.version.outputs.value }} [skip ci]"
+            git commit -m "chore: regenerate health profile v${{ steps.version.outputs.value }}"
             git push
           fi
