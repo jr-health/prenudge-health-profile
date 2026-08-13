@@ -158,6 +158,17 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
    - Committer-Identität auf `github-actions[bot]` ändern
    - Schritte (validate.py --strict, consolidate.py, render_doc.py, Commit mit `[skip ci]`) unverändert übernehmen
    — **erledigt** (2026-07-24): Datei angelegt; Push-Trigger vorerst auskommentiert (nur `workflow_dispatch` aktiv), bis Schritt 10 erfolgreich getestet wurde.
+   **Nachtrag (2026-08-13):** Die committeten Markdown-Reports hießen ursprünglich
+   `health-profile-v<Version>.{de,en}.md` — bei jedem Release/Test-Tag kam eine neue,
+   versionierte Datei dazu, ohne dass alte je entfernt wurden (8 Dateien nach nur 3 echten
+   Versionen, plus 2 kaputte Duplikate durch einen früheren Doppel-"v"-Bug). `render_doc.py`
+   bekam ein `--latest`-Flag; `update-profile.yml` committet damit jetzt die unversionierten
+   `health-profile.{de,en}.md` (analog zu `health-profile.json`, das ja auch nie versioniert
+   war) — die Versionshistorie bleibt über Git-Log und die GitHub-Release-Assets erhalten,
+   die `.md` (und `.docx`) sowieso schon pro Release ablegen (siehe Schritt 19/20). Alle acht
+   alten versionierten Dateien aus dem Repo entfernt. `release.yml` (Schritt 19) ruft
+   `render_doc.py` bewusst weiterhin **ohne** `--latest` auf, da dort der versionierte Name
+   für das Release-Asset gebraucht wird.
 9. ✅ Prüfen, ob auf `main` Branch-Protection-Regeln aktiv sind (z. B. „Require pull request before merging"). Falls ja: Bot als Bypass-Actor erlauben, oder Commit über einen PAT statt `GITHUB_TOKEN` durchführen. — **erledigt** (2026-07-24): Laut GitHub-Einstellungen sind keine Classic Branch Protections für `main` konfiguriert — der Commit-back des Workflows mit dem Standard-`GITHUB_TOKEN` sollte also ohne Bypass/PAT funktionieren.
 10. ✅ Workflow einmal manuell (`workflow_dispatch`) testen, bevor er auf Push scharf geschaltet wird. — **erledigt** (2026-07-24): Testlauf grün, `github-actions[bot]` hat `health-profile.json` + beide Reports mit `chore: regenerate health profile v0.1.0 [skip ci]` zurückcommitted. Push-Trigger daraufhin aktiviert.
 11. ✅ Entscheiden, ob `.gitea/workflows/update-profile.yml` und die Gitea-Runner-Infrastruktur parallel weiterlaufen (falls `health.joanneum.at/git` noch aktiv genutzt wird) oder stillgelegt werden — liegt außerhalb dieses Plans. — **erledigt** (2026-07-24): Das Gitea-Repository ist aktuell eingefroren und wird nicht weiter bearbeitet — es bleibt unverändert auf dem Stand vor der GitHub-Migration. `.gitea/workflows/update-profile.yml` wurde daher aus diesem Repo entfernt.

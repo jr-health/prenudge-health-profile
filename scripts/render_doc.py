@@ -1,14 +1,20 @@
 """
-Renders health-profile.json into versioned Markdown documents via Jinja2 templates.
+Renders health-profile.json into Markdown documents via Jinja2 templates.
 
 Templates:  render/templates/health-profile.de.md.j2
             render/templates/health-profile.en.md.j2
-Output:     health-profile-v<version>.de.md
-            health-profile-v<version>.en.md
+Output:     health-profile-v<version>.de.md / .en.md (default)
+            health-profile.de.md / .en.md (with --latest)
+
+--latest writes the unversioned filename instead - used for the copy committed to the
+repo by update-profile.yml, so the git tree doesn't accumulate one file pair per release
+forever (see doc/export-report-plan.md). release.yml keeps using the versioned filename
+(without --latest) since that's what's attached to the GitHub Release as a per-version asset.
 
 Usage:
     python scripts/render_doc.py
     python scripts/render_doc.py --version 1.2.0
+    python scripts/render_doc.py --version 1.2.0 --latest
     python scripts/render_doc.py --src path/to/health-profile.json
     python scripts/render_doc.py --out-dir doc/output
 
@@ -39,6 +45,8 @@ def main():
     parser.add_argument("--src", default=str(ROOT / "health-profile.json"), help="Input JSON file")
     parser.add_argument("--out-dir", default=str(ROOT), help="Output directory")
     parser.add_argument("--version", default=None, help="Override version (default: taken from JSON)")
+    parser.add_argument("--latest", action="store_true",
+                         help="Write health-profile.<locale>.md instead of health-profile-v<version>.<locale>.md")
     args = parser.parse_args()
 
     src = Path(args.src)
@@ -62,7 +70,8 @@ def main():
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.md.j2")
         content = template.render(profile=profile)
-        out_path = out_dir / f"health-profile-v{version}.{locale}.md"
+        filename = f"health-profile.{locale}.md" if args.latest else f"health-profile-v{version}.{locale}.md"
+        out_path = out_dir / filename
         out_path.write_text(content, encoding="utf-8")
         print(f"  Written: {out_path}")
 

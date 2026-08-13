@@ -61,7 +61,7 @@ jobs:
         run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
 
       - name: Render Markdown reports
-        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }}
+        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }} --latest
 
       - name: Render browse view
         run: python scripts/render_html.py
@@ -70,7 +70,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add health-profile.json "health-profile-v${{ steps.version.outputs.value }}.de.md" "health-profile-v${{ steps.version.outputs.value }}.en.md" render/browse.de.html render/browse.en.html
+          git add health-profile.json health-profile.de.md health-profile.en.md render/browse.de.html render/browse.en.html
           if git diff --staged --quiet; then
             echo "Nothing changed, skipping commit."
           else

@@ -42,7 +42,7 @@ Data / App Providers (data-provider/)
 | `scripts/` | Python pipeline (`validate.py`, `consolidate.py`, `render_doc.py`, `render_adoc.py`, `render_html.py`) + local update helper |
 | `render/` | `sunburst.html` and `browse.{de,en}.html` visualizations, plus Jinja2 templates and the Word style reference in `render/templates/` |
 | `health-profile.json` | Generated consolidated profile (do not edit by hand) |
-| `health-profile-v*.md` | Generated German / English Markdown reports |
+| `health-profile.{de,en}.md` | Generated German / English Markdown reports (always the latest state — versioned copies live as GitHub Release assets, not in the repo) |
 | `.github/workflows/` | GitHub Actions CI — see "Automation" below |
 | `doc/` | Setup, release, and transform notes |
 

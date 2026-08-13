@@ -67,12 +67,12 @@ Write-Ok "health-profile.json aktualisiert."
 # ── Render Markdown ───────────────────────────────────────────────────────────
 
 Write-Step "Markdown-Reports generieren (render_doc.py)"
-python scripts/render_doc.py --version $Version
+python scripts/render_doc.py --version $Version --latest
 if ($LASTEXITCODE -ne 0) {
     Write-Fail "render_doc.py fehlgeschlagen -- Abbruch."
     exit 1
 }
-Write-Ok "health-profile-v$Version.de.md und .en.md aktualisiert."
+Write-Ok "health-profile.de.md und .en.md aktualisiert."
 
 # ── Render Browse-Ansicht ─────────────────────────────────────────────────────
 
