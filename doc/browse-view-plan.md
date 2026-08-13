@@ -100,6 +100,14 @@ spezifiziert, wenn Stufe 2 ansteht.
     client-seitiger Live-Export nach Word (z. B. über eine JS-Bibliothek wie `docx.js`) wäre
     technisch möglich, aber eine eigenständige, neue Umsetzung mit vermutlich geringerer
     Qualität als die Pandoc-Kette — eigene Entscheidung, falls das gewünscht ist.
+- **Sunburst — `vis-status` auswerten:** Das Feld `vis-status` (pro Measurement Instrument,
+  Werte u. a. `draft`/`published`) ist laut Hint-Text im Schema für genau diesen Zweck
+  gedacht ("PreNUDGE Sunburst Chart Status"), wird aber von `render/sunburst.html` aktuell
+  nicht ausgewertet. Könnte ergänzend zur Release-Gate-Entscheidung (Design-Entscheidung 5 in
+  `doc/github-actions-plan.md`) genutzt werden, um selbst innerhalb eines Releases einzelne
+  noch nicht fertige Einträge aus dem Sunburst auszublenden — kein Blocker für den Start, da
+  vorerst kein Eintrag öffentlich sichtbar wird, der nicht zumindest durch einen Release
+  gelaufen ist.
 
 ## Nicht-Ziele (vorerst)
 

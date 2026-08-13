@@ -189,34 +189,11 @@ ausschließlich durch einen tatsächlichen Release angestoßen.
 
 ### Phase 5 — Test & Abnahme
 
-22. Laufenden Arbeitsstand durchspielen: CMS-Änderung → Push → `update-profile.yml` regeneriert `health-profile.json`/Berichte → lokal per `python -m http.server` + `render/sunburst.html` reviewen (kein Pages-Deploy in diesem Schritt).
-23. Release-Zyklus durchspielen: Tag pushen → `release.yml` → Release mit Assets → `pages.yml` läuft automatisch an → Sunburst/Downloadlinks auf der Page zeigen den neuen Stand.
-24. Rollback-Check: `ig.dev.prenudge.at` läuft unabhängig weiter (da ohnehin nie von dieser Pipeline berührt), falls GitHub Pages/Actions ausfällt.
-25. `README.md` auf den aktuellen Stand bringen — beschreibt aktuell noch nicht die vollständige GitHub-Actions-/Pages-/Release-Pipeline, die im Zuge dieses Plans entstanden ist.
-26. Landing Page (`_site/index.html`) inhaltlich/gestalterisch überarbeiten — über die reine Branding-Angleichung aus Schritt 20 hinaus (echtes Layout statt Platzhalter-Listen, siehe Offene Punkte).
-27. Word-Reports (`.docx`) nochmal durchsehen, sobald mehr echte Gesundheitsindikatoren erfasst sind — aktuelle Testdaten sind zu dünn, um Layout/Tabellenstruktur abschließend zu beurteilen (siehe auch Rückmeldung beim AsciiDoc-Ausarbeiten in Schritt 16/17).
-
-## Offene Punkte
-
-- Landing Page `_site/index.html` (Phase 3.14): echte Gestaltung statt Platzhalter folgt später (Downloadlinks sind jetzt drin, siehe Schritt 20)
-- **Neu:** Ideen für Browse-Ansicht Stufe 2+ (Suche/Filter, Pagination, Collapsables,
-  kombinierter Export-Button CSV/Word) sind in `doc/browse-view-plan.md` festgehalten, aber
-  noch nicht umgesetzt/final spezifiziert
-- **Neu:** Beim Ausarbeiten der AsciiDoc-Templates (Schritt 16) entdeckt: `terminology-codes`
-  ist laut aktuellem `admin/config.yml` dem Messinstrument zugeordnet (verschachteltes Feld),
-  in den bestehenden JSON-Daten (z. B. `hp-observations/minutes-moderate-physical-activity.json`)
-  aber weiterhin auf Observation-Ebene abgelegt. Templates (Markdown **und** AsciiDoc) lesen
-  bewusst weiterhin von der Observation-Ebene, um bestehende Inhalte nicht unsichtbar zu
-  machen — echte Migration der Daten auf Messinstrument-Ebene wäre nötig, falls das
-  behoben werden soll.
-- **Neu:** `qualification` (App-Provider-Anforderung) und `app-providers` (Qualifizierte
-  App-Provider) sind Felder pro Messinstrument in `admin/config.yml`, werden aber in keinem
-  der Report-Templates (Markdown, AsciiDoc) gerendert — fachlich zu klären, ob das gewünscht
-  ist.
-- **Neu (später, optional):** Das Feld `vis-status` (pro Measurement Instrument, Werte
-  u. a. `draft`/`published`) ist laut Hint-Text im Schema für genau diesen Zweck gedacht
-  ("PreNUDGE Sunburst Chart Status"), wird aber von `render/sunburst.html` aktuell nicht
-  ausgewertet. Könnte ergänzend zur Release-Gate-Entscheidung (Design-Entscheidung 5)
-  genutzt werden, um selbst innerhalb eines Releases einzelne noch nicht fertige Einträge
-  aus dem Sunburst auszublenden — kein Blocker für den Start, da vorerst kein Eintrag
-  öffentlich sichtbar wird, der nicht zumindest durch einen Release gelaufen ist.
+22. ✅ Laufenden Arbeitsstand durchspielen: CMS-Änderung → Push → `update-profile.yml` regeneriert `health-profile.json`/Berichte → lokal per `python -m http.server` + `render/sunburst.html` reviewen (kein Pages-Deploy in diesem Schritt). — **erledigt** (2026-08-13): Vier neue Indicator Dimensions (`age`, `dietary-pattern`, `gender`, `socio-economic-status`) über die lokale CMS-Instanz angelegt, Commit `868a92f` auf `main` gepusht. `update-profile.yml` lief grün durch und hat per Bot-Commit `3ed72c7` (`chore: regenerate health profile v0.1.1-test [skip ci]`) `health-profile.json`, beide Markdown-Reports und die Browse-Views aktualisiert.
+23. ✅ Release-Zyklus durchspielen: Tag pushen → `release.yml` → Release mit Assets → `pages.yml` läuft automatisch an → Sunburst/Downloadlinks auf der Page zeigen den neuen Stand. — **erledigt** (2026-08-13): Test-Tag `v0.1.2-test` gepusht, `release.yml` lief grün (Run erstellt Release `v0.1.2-test` mit allen 5 Assets: `health-profile.json`, beide `.md`, beide `.docx`), `pages.yml` sprang automatisch per `workflow_run` an und deployte erfolgreich. Live-Page zeigt „Version 0.1.2-test", Generiert `2026-08-13`, funktionierende Downloadlinks.
+    **Dabei entdeckter Bug (bisher unbekannter Gotcha) — an der Wurzel behoben:** Ein Tag, der exakt auf einen Bot-Regenerate-Commit von `update-profile.yml` zeigt (Message enthielt `[skip ci]`), unterdrückte bei GitHub Actions **alle** Workflow-Läufe des Push-Events — nicht nur den ursprünglich gemeinten `update-profile.yml`-Lauf, sondern auch `release.yml`. Der erste Testversuch (Tag auf dem `[skip ci]`-Commit `3ed72c7`) löste dadurch **keinen** Release-Lauf aus, trotz korrektem Trigger-Pattern (`v*.*.*`), aktivem Workflow und unrestriktiven Actions-Permissions — verifiziert über die GitHub-API (`/actions/runs`, `/actions/workflows`, `/actions/permissions`) und den öffentlichen GitHub-Statuspage (keine Störung). Nach Neusetzen des Tags auf den vorherigen Commit (ohne `[skip ci]` in der Message) lief `release.yml` sofort korrekt an.
+    **Root-Cause-Fix** (2026-08-13): `[skip ci]` in der Bot-Commit-Message (`update-profile.yml`) war für seinen eigentlichen Zweck (Loop-Prävention) redundant — der bestehende Pfad-Filter (`hp-categories/**`, `hp-dimensions/**`, `hp-observations/**`, `data-provider/**`, `scripts/**`, `render/templates/**`) schließt die vom Bot committeten Dateien (`health-profile.json`, `health-profile-v*.md`, `render/browse.*.html`) bereits vollständig aus — ein erneuter `push`-Lauf war also auch ohne `[skip ci]` nie möglich. Geprüft, dass kein anderer Workflow auf die Zeichenfolge angewiesen ist (kein `if: contains(..., '[skip ci]')` irgendwo im Repo). `[skip ci]` daher aus `update-profile.yml` entfernt (Commit-Message, Kommentar) und aus `doc/ci-setup.md`/`README.md` rausgenommen — damit kann künftig **jeder** Commit, auch ein Bot-Regenerate-Commit, gefahrlos als Tag-Ziel verwendet werden.
+24. Rollback-Check: `ig.dev.prenudge.at` läuft unabhängig weiter (da ohnehin nie von dieser Pipeline berührt), falls GitHub Pages/Actions ausfällt. — **Code-seitig verifiziert** (2026-08-13): Keiner der drei Workflows (`update-profile.yml`, `release.yml`, `pages.yml`) referenziert oder deployt nach `ig.dev.prenudge.at`. **Noch offen:** praktische Bestätigung, dass der Host aktuell tatsächlich unabhängig erreichbar/funktionsfähig ist — noch nicht durchgeführt, muss nachgeholt werden.
+25. ✅ `README.md` auf den aktuellen Stand bringen — beschreibt aktuell noch nicht die vollständige GitHub-Actions-/Pages-/Release-Pipeline, die im Zuge dieses Plans entstanden ist. — **erledigt** (2026-08-06, Commit `f92b2bb`): README beschreibt jetzt Datenmodell, Repository-Layout, lokale Build-Pipeline und alle drei Workflows (`update-profile.yml`, `release.yml`, `pages.yml`) inkl. Trigger/Wirkung, mit Verweis auf `doc/release.md` und `doc/github-actions-plan.md`.
+26. Landing Page (`_site/index.html`) inhaltlich/gestalterisch überarbeiten — über die reine Branding-Angleichung aus Schritt 20 hinaus (echtes Layout statt Platzhalter-Listen). — **ausgelagert** in `doc/landing-page-plan.md` (2026-08-13): Ausgangslage, offene Fragen und Ideen dort festgehalten, analog zu `doc/browse-view-plan.md`. Umsetzung erfolgt erst, sobald dort Einigkeit besteht.
+27. Word-Reports (`.docx`) nochmal durchsehen, sobald mehr echte Gesundheitsindikatoren erfasst sind — aktuelle Testdaten sind zu dünn, um Layout/Tabellenstruktur abschließend zu beurteilen (siehe auch Rückmeldung beim AsciiDoc-Ausarbeiten in Schritt 16/17). — **ausgelagert** in `doc/export-report-plan.md` (2026-08-13): als lebendes Backlog angelegt (kein abgeschlossener Plan wie bei Browse/Landing Page), da hier laut Rückmeldung noch einiges dazukommen wird, bevor überhaupt ein sinnvoller Review möglich ist.
