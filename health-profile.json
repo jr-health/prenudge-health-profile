@@ -1,9 +1,9 @@
 {
-  "version": "v0.1.2-test",
-  "generated": "2026-08-13T13:02:49.833561+00:00",
-  "commit": "e55884567c3cbce77e8510632c65a2756a38599f",
+  "version": "0.1.2-test",
+  "generated": "2026-08-13T13:05:47.291130+00:00",
+  "commit": "b2eec27de09edfee8f78730ec12a72470e4b4607",
   "activity": {
-    "since": "vv0.1.2-test",
+    "since": "v0.1.2-test",
     "entries": []
   },
   "categories": [
