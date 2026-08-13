@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>PräNUDGE Gesundheitsprofil</title>
+<style>
+  body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 2rem;
+    color: #1a1a1a;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .header-left { display: flex; align-items: center; gap: 1rem; }
+  header img { height: 48px; }
+  h1 { margin: 0; color: #004E64; }
+  .lang-switch {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .lang-switch a {
+    padding: 4px 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #999;
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.04em;
+  }
+  .lang-switch a.active { background: #004E64; color: #fff; }
+  .meta { color: #666; margin-bottom: 1.5rem; }
+  ul { line-height: 1.8; }
+  a { color: #004E64; }
+  footer {
+    margin-top: 2rem;
+    color: #666;
+    font-size: 14px;
+  }
+  footer a { color: #666; }
+  .disclaimer {
+    background: #fff3cd;
+    border: 1px solid #ffe69c;
+    color: #664d03;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a href="https://prenudge.at/"><img src="media/PräNUDGE_Logo.png" alt="PräNUDGE"></a>
+    <h1>PräNUDGE Gesundheitsprofil</h1>
+  </div>
+  <nav class="lang-switch">
+    <a href="index.html">EN</a>
+    <a href="index.de.html" class="active">DE</a>
+  </nav>
+</header>
+<p class="meta">Version {{ version }} · Generiert: {{ generated }}</p>
+
+<p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
+
+<ul>
+  <li><a href="render/sunburst.html">Sunburst-Visualisierung</a></li>
+  <li>Browse (<a href="render/browse.de.html">DE</a> | <a href="render/browse.en.html">EN</a>)</li>
+  <li><a href="admin/index.html">Metadaten-CMS-Editor</a></li>
+</ul>
+<ul>
+  <li>Download Gesundheitsprofil-Metadaten (<a href="{{ release_base }}/health-profile-v{{ version }}.de.docx">DE</a> | <a href="{{ release_base }}/health-profile-v{{ version }}.en.docx">EN</a>)</li>
+</ul>
+
+<footer>
+  <a href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a>
+</footer>
+
+</body>
+</html>

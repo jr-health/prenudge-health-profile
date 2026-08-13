@@ -70,17 +70,29 @@ Zielgruppen-Spezifikation in `doc/export-report-plan.md`. Phase F läuft nebenhe
 Zeitpunkt. Checkboxen werden abgehakt, sobald der jeweilige Schritt umgesetzt und verifiziert
 ist.
 
-### Phase A — Landing Page aus `pages.yml` auslagern (Grundlage)
+### Phase A — Landing Page aus `pages.yml` auslagern (Grundlage) — ✅ erledigt (2026-08-13)
 
-- [ ] `render/templates/index.{de,en}.html.j2` anlegen, aktuellen Inhalt aus dem
-      `cat`-Block in `pages.yml` 1:1 übernehmen (reiner Refactor, keine optische Änderung)
-- [ ] Neues Render-Skript (z. B. `scripts/render_index.py`, analog `render_html.py`), das die
-      Templates rendert
-- [ ] DE/EN-Sprachumschalter ergänzen (Design-Entscheidung 3), analog Browse-Seiten
-- [ ] `pages.yml`: `cat`-Block durch Aufruf des neuen Render-Skripts ersetzen;
-      `update-profile.yml` ggf. um den Render-Schritt ergänzen (analog Browse-Tabelle)
-- [ ] Lokal verifizieren: `python -m http.server` + `render/index.de.html`/`.en.html` öffnen,
-      Inhalt inhaltlich identisch zur bisherigen Live-Page
+- [x] `render/templates/index.{de,en}.html.j2` angelegt, Inhalt aus dem alten `cat`-Block in
+      `pages.yml` übernommen (reiner Refactor, keine optische Änderung außer der DE-Variante)
+- [x] Neues Render-Skript `scripts/render_index.py` (analog `render_html.py`) — nimmt
+      `--version`/`--generated`/`--release-base` als CLI-Args entgegen (statt aus
+      `health-profile.json` zu lesen), da diese Werte in `pages.yml` erst zur Build-Zeit aus
+      dem echten GitHub-Release ermittelt werden, nicht aus dem Repo-Checkout
+- [x] DE/EN-Sprachumschalter ergänzt (Design-Entscheidung 3), analog Browse-Seiten — Output
+      ist `index.html` (EN, Standard-Pages-Root) + `index.de.html`, mit Lang-Switch-Nav
+- [x] `pages.yml`: `cat`-Block durch `python scripts/render_index.py ...` ersetzt; dafür
+      `Set up Python`/`Install dependencies`-Schritte ergänzt (Jinja2). Kein Schritt in
+      `update-profile.yml` nötig — die Landing Page wird ausschließlich in `pages.yml` zur
+      Build-Zeit gerendert, nicht bei jedem Push committed (anders als die Browse-Tabelle)
+- [x] Lokal verifiziert: Skript gerendert, per `python -m http.server` (Miniconda-Python)
+      serviert, beide Sprachvarianten + Logo-Assets liefern HTTP 200, Inhalt entspricht
+      1:1 der bisherigen Live-Page (nur Version/Datum als Platzhalterwerte getestet)
+
+**Nebenbei gefunden und behoben:** Die bisherige EN-Vorlage referenzierte
+`media/PräNUDGE_Logo.png` (Umlaut-Datei) im `<img src>`, aber `alt="PreNUDGE"` (ohne Umlaut)
+— inkonsistent mit der bereits etablierten Konvention der Browse-Seiten (EN nutzt
+`PreNUDGE_Logo.png` ohne Umlaut, DE nutzt `PräNUDGE_Logo.png` mit Umlaut). In den neuen
+Templates an die Browse-Konvention angeglichen.
 
 ### Phase B — Wireframe & Layout-/Navigation-Entscheidung
 

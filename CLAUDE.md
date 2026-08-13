@@ -79,3 +79,4 @@ A new field is not automatically picked up by the templates — it must be added
 - **Measurement instruments**: embedded as a list within each observation (not a separate collection)
 - **FHIR codes**: stored in `terminology-codes` list with `system`, `code`, and `display` fields
 - **Status fields**: `pn-fhir-ig-status` and `vis-status` use `["published", "planned", "open", "amendment needed"]`
+- **Bilingual branding**: German pages use the wording "PräNUDGE" and `media/PräNUDGE_Logo.png`; English pages use "PreNUDGE" and `media/PreNUDGE_Logo.png` (no umlaut). See `render/templates/browse.{de,en}.html.j2` and `index.{de,en}.html.j2`.
