@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "socio-economic-status",
+    "category": "sociodemographic-data",
+    "title": "Sozio-ökonomischer Status",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "socio-economic-status",
+    "category": "sociodemographic-data",
+    "title": "Socio-economic Status",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}

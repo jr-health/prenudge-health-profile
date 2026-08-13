@@ -1,17 +1,25 @@
 {
   "de": {
     "template": "dimension",
-    "id_tech": "consumption-frequency",
+    "key": "consumption-frequency",
     "category": "alcohol",
     "title": "Konsumhäufigkeit",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": "",
     "description": "``",
-    "key": "consumption-frequency"
+    "id_tech": "consumption-frequency"
   },
   "en": {
     "template": "dimension",
-    "title": "Consumption frequency",
-    "id_tech": "consumption-frequency",
+    "key": "consumption-frequency",
     "category": "alcohol",
-    "key": "consumption-frequency"
+    "title": "Consumption frequency",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": "",
+    "id_tech": "consumption-frequency"
   }
 }

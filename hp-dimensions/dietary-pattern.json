@@ -1,0 +1,33 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "dietary-pattern",
+    "category": "nutrition",
+    "title": "Ernährungsmuster",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "dietary-pattern",
+    "category": "nutrition",
+    "title": "Dietary pattern",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      {
+        "url": ""
+      }
+    ],
+    "discussion": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "age",
+    "category": "sociodemographic-data",
+    "title": "Alter",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "age",
+    "category": "sociodemographic-data",
+    "title": "Age",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}

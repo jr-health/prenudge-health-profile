@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "gender",
+    "category": "sociodemographic-data",
+    "title": "Geschlecht",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "gender",
+    "category": "sociodemographic-data",
+    "title": "Gender",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
