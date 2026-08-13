@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.1-test | Generated: 2026-08-07_
+_Version: 0.1.1-test | Generated: 2026-08-13_
 
 ---
 
@@ -188,8 +188,9 @@ _Changes since version v0.1.1-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-07 | Theresa.Weitlaner |
+| 2026-08-13 | Theresa.Weitlaner |
 | 2026-08-07 | github-actions[bot] |
+| 2026-08-07 | Theresa.Weitlaner |
 | 2026-08-07 | Theresa Weitlaner |
 | 2026-08-06 | Theresa.Weitlaner |
 | 2026-08-06 | github-actions[bot] |
