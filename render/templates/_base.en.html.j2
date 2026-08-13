@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}PreNUDGE Health Profile{% endblock %}</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    color: #1a1a1a;
+    background: #f5f5f5;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .layout { display: flex; width: 100%; }
+
+  aside.sidebar {
+    flex: 0 0 220px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 100vh;
+    transition: flex-basis 0.18s ease, padding 0.18s ease;
+    overflow: hidden;
+  }
+  aside.sidebar.collapsed {
+    flex: 0 0 64px;
+    padding: 1.25rem 0.6rem;
+  }
+
+  .sidebar-top { display: flex; flex-direction: column; gap: 0.5rem; }
+  .collapse-row { display: flex; justify-content: flex-end; }
+  .brand { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; overflow: hidden; }
+  .brand img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .brand h1 { margin: 0; font-size: 1rem; color: #004E64; line-height: 1.2; text-align: center; white-space: nowrap; }
+
+  .collapse-btn {
+    flex: 0 0 auto;
+    width: 28px; height: 28px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #666;
+  }
+  .collapse-btn:hover { background: #f0f0f0; }
+  .collapse-btn svg { width: 16px; height: 16px; }
+  .collapse-btn .icon-closed { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-open { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-closed { display: block; }
+
+  nav.primary { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; }
+  nav.primary a, nav.primary span.nav-disabled {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: #555; text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  nav.primary a svg, nav.primary span.nav-disabled svg, .cms-link svg {
+    flex: 0 0 18px;
+    width: 18px; height: 18px;
+  }
+  nav.primary a.active { color: #004E64; background: #eef5f7; border-color: #004E64; font-weight: 600; }
+  nav.primary span.nav-disabled { color: #bbb; cursor: not-allowed; }
+  nav.primary hr.nav-separator { width: 100%; border: none; border-top: 1px solid #eee; margin: 0.3rem 0; }
+
+  .cms-link {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: #004E64; text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    white-space: nowrap; overflow: hidden;
+  }
+  .cms-link:hover { background: #eef5f7; }
+
+  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 0.6rem; }
+  .lang-switch {
+    display: inline-flex;
+    align-self: flex-start;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .lang-switch a {
+    padding: 3px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .lang-switch a.active { background: #004E64; color: #fff; }
+  .consortium-link {
+    font-size: 0.75rem;
+    color: #888;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .consortium-link:hover { color: #004E64; }
+  aside.sidebar.collapsed .consortium-link { display: none; }
+
+  .meta-bar {
+    width: 100%;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  /* collapsed state: hide text labels, keep icons/logo centered */
+  aside.sidebar.collapsed .brand h1,
+  aside.sidebar.collapsed nav.primary a span.label,
+  aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
+  aside.sidebar.collapsed .cms-link span.label,
+  aside.sidebar.collapsed .lang-switch { display: none; }
+  aside.sidebar.collapsed nav.primary a,
+  aside.sidebar.collapsed nav.primary span.nav-disabled { justify-content: center; padding: 0.5rem; }
+  aside.sidebar.collapsed .cms-link { justify-content: center; }
+
+  main { flex: 1; padding: 1.5rem 2rem; display: flex; flex-direction: column; }
+  .panels-row { display: flex; gap: 1.5rem; align-items: flex-start; }
+
+  .panel {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .link-card {
+    flex: 1 1 0;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .link-card:hover { border-color: #004E64; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+  .link-card h2 { margin: 0 0 0.4rem; font-size: 1.05rem; color: #004E64; }
+  .link-card p { margin: 0; font-size: 0.9rem; color: #666; }
+
+  .disclaimer {
+    background: #fff3cd;
+    border: 1px solid #ffe69c;
+    color: #664d03;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+  }
+
+  @media (max-width: 780px) {
+    .layout { flex-direction: column; }
+    aside.sidebar, aside.sidebar.collapsed {
+      flex: 0 0 auto;
+      flex-direction: row;
+      align-items: center;
+      min-height: auto;
+      overflow-x: auto;
+      gap: 1rem;
+      width: 100%;
+      padding: 1rem;
+    }
+    aside.sidebar.collapsed .brand h1,
+    aside.sidebar.collapsed nav.primary a span.label,
+    aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
+    aside.sidebar.collapsed .cms-link span.label { display: inline; }
+    .collapse-row { display: none; }
+    .brand { flex-direction: row; align-items: center; }
+    .brand img { width: 28px; height: 28px; flex: 0 0 28px; }
+    nav.primary { flex-direction: row; }
+    nav.primary hr.nav-separator { display: none; }
+    .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
+    .panels-row { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <div class="collapse-row">
+        <button class="collapse-btn" id="collapse-btn" onclick="document.getElementById('sidebar').classList.toggle('collapsed')" title="Collapse/expand sidebar">
+          <!-- Lucide "panel-left-close" (ISC License, https://lucide.dev) -->
+          <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m16 15-3-3 3-3"/></svg>
+          <!-- Lucide "panel-left-open" (ISC License, https://lucide.dev) -->
+          <svg class="icon-closed" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m14 9 3 3-3 3"/></svg>
+        </button>
+      </div>
+      <div class="brand">
+        <a href="https://prenudge.at/"><img src="media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
+        <h1>Health Profile</h1>
+      </div>
+    </div>
+    <nav class="primary">
+      <a href="{{ nav_explore_href }}" class="{{ 'active' if active == 'explore' else '' }}">
+        <!-- Lucide "chart-pie" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
+        <span class="label">Explore</span>
+      </a>
+      <a href="{{ nav_downloads_href }}" class="{{ 'active' if active == 'downloads' else '' }}">
+        <!-- Lucide "download" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+        <span class="label">Downloads</span>
+      </a>
+      <span class="nav-disabled" title="Coming soon">
+        <!-- Lucide "history" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+        <span class="label">Release History</span>
+      </span>
+      <hr class="nav-separator">
+      <a class="cms-link" href="admin/index.html">
+        <!-- Lucide "database" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+        <span class="label">Metadata Editor</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="lang-switch"><a href="{{ href_en }}" class="active">EN</a><a href="{{ href_de }}">DE</a></div>
+      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
+    </div>
+  </aside>
+
+  <main>
+    <p class="meta-bar">Version {{ version }} · Generated: {{ generated }}</p>
+    {% block content %}{% endblock %}
+  </main>
+</div>
+
+</body>
+</html>

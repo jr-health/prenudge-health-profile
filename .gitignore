@@ -10,3 +10,12 @@ __pycache__/
 
 # Local clone of the sveltia-cms-auth worker source (deployed separately via wrangler)
 sveltia-cms-auth/
+
+# Local preview output of scripts/render_index.py (only ever built into _site/ in CI,
+# never committed to the repo root) - see doc/interactive-catalogue-plan.md
+/index.html
+/index.de.html
+/downloads.en.html
+/downloads.de.html
+/_site/
+/_site_test/

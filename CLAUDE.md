@@ -80,3 +80,6 @@ A new field is not automatically picked up by the templates — it must be added
 - **FHIR codes**: stored in `terminology-codes` list with `system`, `code`, and `display` fields
 - **Status fields**: `pn-fhir-ig-status` and `vis-status` use `["published", "planned", "open", "amendment needed"]`
 - **Bilingual branding**: German pages use the wording "PräNUDGE" and `media/PräNUDGE_Logo.png`; English pages use "PreNUDGE" and `media/PreNUDGE_Logo.png` (no umlaut). See `render/templates/browse.{de,en}.html.j2` and `index.{de,en}.html.j2`.
+- **Corporate color palette** (2026-08-13): `#004E64` (Midnight green) is the established accent used across existing pages (headings, active nav state, links) — keep using it for that role. Full palette, for when more colors are needed (e.g. category swatches, charts):
+  - Primary (logo): `#00A256` Pigment green, `#9BC6A0` Celadon
+  - Secondary: `#004E64` Midnight green, `#007BA7` Deep Cerulean, `#6E4E69` Random Violet, `#E0D3DE` Pale purple, `#F2C57C` Sunset, `#E28913` Golden Bell, `#F8E4BF` Givry, `#C5DDC8` Random Mint

@@ -1,0 +1,14 @@
+{% extends "_base.de.html.j2" %}
+{% block title %}PräNUDGE Gesundheitsprofil — Downloads{% endblock %}
+{% block content %}
+<p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
+<div class="panel">
+  <h2 style="margin-top:0; color:#004E64;">Download Gesundheitsprofil-Metadaten</h2>
+  <p style="margin-bottom:0.3rem; color:#666; font-size:0.85rem;">Word (.docx)</p>
+  <p>
+    <a href="{{ release_base }}/health-profile-v{{ version }}.de.docx">DE</a>
+    ·
+    <a href="{{ release_base }}/health-profile-v{{ version }}.en.docx">EN</a>
+  </p>
+</div>
+{% endblock %}

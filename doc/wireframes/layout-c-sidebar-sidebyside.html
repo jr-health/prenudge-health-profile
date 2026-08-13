@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wireframe C — Sidebar (einklappbar) + Sunburst/Tabelle nebeneinander</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    color: #1a1a1a;
+    background: #f5f5f5;
+    display: flex;
+    min-height: 100vh;
+  }
+  .wireframe-note {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    font-size: 13px;
+    z-index: 10;
+  }
+  .wireframe-note b { color: #ffd966; }
+
+  .layout { display: flex; width: 100%; margin-top: 2.6rem; }
+
+  aside.sidebar {
+    flex: 0 0 220px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: calc(100vh - 2.6rem);
+    transition: flex-basis 0.18s ease, padding 0.18s ease;
+    overflow: hidden;
+  }
+  aside.sidebar.collapsed {
+    flex: 0 0 64px;
+    padding: 1.25rem 0.6rem;
+  }
+
+  .sidebar-top { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+  .brand { display: flex; align-items: center; gap: 0.6rem; overflow: hidden; }
+  .brand .logo-placeholder {
+    width: 32px; height: 32px;
+    flex: 0 0 32px;
+    background: #004E64;
+    border-radius: 6px;
+  }
+  .brand h1 { margin: 0; font-size: 1rem; color: #004E64; line-height: 1.2; white-space: nowrap; }
+
+  .collapse-btn {
+    flex: 0 0 auto;
+    width: 28px; height: 28px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #666;
+  }
+  .collapse-btn:hover { background: #f0f0f0; }
+  .collapse-btn svg { width: 16px; height: 16px; }
+  .collapse-btn .icon-closed { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-open { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-closed { display: block; }
+
+  nav.primary { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; }
+  nav.primary a {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: #555; text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  nav.primary a svg, .cms-link svg {
+    flex: 0 0 18px;
+    width: 18px; height: 18px;
+  }
+  nav.primary a.active { color: #004E64; background: #eef5f7; border-color: #004E64; font-weight: 600; }
+
+  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 0.6rem; }
+  .cms-link {
+    display: flex; align-items: center; gap: 0.6rem;
+    font-size: 0.8rem; color: #004E64;
+    white-space: nowrap; overflow: hidden;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+  }
+  .cms-link:hover { background: #eef5f7; }
+  .lang-switch {
+    display: inline-flex;
+    align-self: flex-start;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .lang-switch span {
+    padding: 3px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+  }
+  .lang-switch span.active { background: #004E64; color: #fff; }
+  .consortium-link {
+    font-size: 0.75rem;
+    color: #888;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .consortium-link:hover { color: #004E64; }
+  aside.sidebar.collapsed .consortium-link { display: none; }
+
+  .meta-bar {
+    width: 100%;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  /* collapsed state: hide text labels, keep icons/logo centered */
+  aside.sidebar.collapsed .brand h1,
+  aside.sidebar.collapsed nav.primary a span.label,
+  aside.sidebar.collapsed .cms-link span.label,
+  aside.sidebar.collapsed .lang-switch { display: none; }
+  aside.sidebar.collapsed .brand { justify-content: center; }
+  aside.sidebar.collapsed .sidebar-top { flex-direction: column; gap: 0.75rem; }
+  aside.sidebar.collapsed nav.primary a { justify-content: center; padding: 0.5rem; }
+  aside.sidebar.collapsed .cms-link { justify-content: center; }
+
+  main { flex: 1; padding: 1.5rem 2rem; display: flex; flex-direction: column; }
+  .panels-row { display: flex; gap: 1.5rem; align-items: flex-start; }
+
+  .panel {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+
+  .sunburst-panel {
+    flex: 0 0 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 420px;
+  }
+  .sunburst-placeholder {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: conic-gradient(#00A256 0deg 90deg, #007BA7 90deg 170deg, #6E4E69 170deg 230deg, #E28913 230deg 310deg, #C5DDC8 310deg 360deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .sunburst-placeholder span {
+    background: #fff;
+    border-radius: 50%;
+    width: 85px; height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .panel-caption { margin-top: 1rem; font-size: 0.8rem; color: #888; text-align: center; }
+
+  .table-panel { flex: 1 1 58%; }
+  .table-panel h2 { margin: 0 0 0.75rem; font-size: 1rem; color: #004E64; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { border: 1px solid #eee; padding: 0.5rem 0.6rem; text-align: left; }
+  th { background: #f5f5f5; }
+  tr.highlighted { background: #fff8e1; }
+  .swatch { display: inline-block; width: 0.75em; height: 0.75em; border-radius: 2px; margin-right: 0.4em; vertical-align: middle; }
+
+  @media (max-width: 780px) {
+    .layout { flex-direction: column; }
+    aside.sidebar, aside.sidebar.collapsed {
+      flex: 0 0 auto;
+      flex-direction: row;
+      align-items: center;
+      min-height: auto;
+      overflow-x: auto;
+      gap: 1rem;
+      width: 100%;
+      padding: 1rem;
+    }
+    aside.sidebar.collapsed .brand h1,
+    aside.sidebar.collapsed nav.primary a span.label,
+    aside.sidebar.collapsed .cms-link span.label { display: inline; }
+    nav.primary { flex-direction: row; }
+    .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
+    .panels-row { flex-direction: column; }
+    .sunburst-panel { flex: 1 1 auto; width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wireframe-note">
+  <b>Wireframe C — Platzhalter, keine echten Daten.</b>
+  Einklappbare Sidebar (Button oben rechts in der Sidebar) + Sunburst/Tabelle nebeneinander. Der Collapse-Button funktioniert bereits (reines Vanilla JS). Browserfenster schmaler ziehen (&lt; 780px) für das Mobile-Verhalten.
+</div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <div class="brand">
+        <div class="logo-placeholder"></div>
+        <h1>PreNUDGE Health Profile</h1>
+      </div>
+      <button class="collapse-btn" id="collapse-btn" onclick="document.getElementById('sidebar').classList.toggle('collapsed')" title="Sidebar ein-/ausklappen">
+        <!-- Lucide "panel-left-close" (ISC License, https://lucide.dev) -->
+        <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m16 15-3-3 3-3"/></svg>
+        <!-- Lucide "panel-left-open" (ISC License, https://lucide.dev) -->
+        <svg class="icon-closed" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m14 9 3 3-3 3"/></svg>
+      </button>
+    </div>
+    <nav class="primary">
+      <a href="#" class="active">
+        <!-- Lucide "chart-pie" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
+        <span class="label">Sunburst &amp; Tabelle</span>
+      </a>
+      <a href="#">
+        <!-- Lucide "download" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+        <span class="label">Downloads</span>
+      </a>
+      <a href="#">
+        <!-- Lucide "history" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+        <span class="label">Release-Historie</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <a class="cms-link" href="#">
+        <!-- Lucide "database" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+        <span class="label">Metadata CMS Editor</span>
+      </a>
+      <div class="lang-switch"><span class="active">EN</span><span>DE</span></div>
+      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
+    </div>
+  </aside>
+
+  <main>
+    <p class="meta-bar">Version 0.1.2-test · Generated: 2026-08-13</p>
+    <div class="panels-row">
+    <div class="panel sunburst-panel">
+      <div class="sunburst-placeholder"><span>Sunburst-Visualisierung (Platzhalter)</span></div>
+      <p class="panel-caption">Klick auf ein Segment filtert die Tabelle rechts (Design-Entscheidung 6)</p>
+    </div>
+
+    <div class="panel table-panel">
+      <h2>Observations</h2>
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Dimension</th><th>Observation</th><th>Source Type</th></tr>
+        </thead>
+        <tbody>
+          <tr class="highlighted"><td><span class="swatch" style="background:#00A256"></span>Physical Activity</td><td>Minutes moderate activity</td><td>Weekly moderate activity</td><td>Wearable / Questionnaire</td></tr>
+          <tr><td><span class="swatch" style="background:#007BA7"></span>Nutrition</td><td>Consumption frequency</td><td>Vegetable intake</td><td>Questionnaire</td></tr>
+          <tr><td><span class="swatch" style="background:#6E4E69"></span>Sleep</td><td>Sleep duration</td><td>Nightly sleep hours</td><td>Wearable</td></tr>
+          <tr><td><span class="swatch" style="background:#E28913"></span>Mental Health</td><td>Mood</td><td>Daily mood rating</td><td>App</td></tr>
+        </tbody>
+      </table>
+      <p class="panel-caption" style="text-align:left; margin-top: 0.75rem;">Hervorgehobene Zeile = aktuell im Sunburst ausgewähltes Segment (Platzhalter-Zustand)</p>
+    </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
