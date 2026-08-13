@@ -10,6 +10,7 @@ _Version: 0.1.1-test | Generiert: 2026-08-13_
   - [Konsumhäufigkeit](#konsumhäufigkeit)
 - [Anthropometrie](#anthropometrie)
 - [Ernährung](#ernährung)
+  - [Ernährungsmuster](#ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
@@ -25,6 +26,9 @@ _Version: 0.1.1-test | Generiert: 2026-08-13_
 - [Rauchen](#rauchen)
   - [Raucherstatus](#raucherstatus)
 - [Soziodemografische Daten](#soziodemografische-daten)
+  - [Alter](#alter)
+  - [Geschlecht](#geschlecht)
+  - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
 - [Arbeit](#arbeit)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
@@ -52,7 +56,12 @@ _Keine Dimensionen erfasst._
 
 <img src="media/apple.png" alt="Ernährung" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Ernährungsmuster
+
+**Verifizierte Gesundheitsinformation:**
+- []()
+
+_Keine Beobachtungen erfasst._
 
 ---
 
@@ -241,7 +250,17 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/person-standing-white.png" alt="Soziodemografische Daten" width="48" style="background-color: #e28913; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Alter
+
+_Keine Beobachtungen erfasst._
+
+### Geschlecht
+
+_Keine Beobachtungen erfasst._
+
+### Sozio-ökonomischer Status
+
+_Keine Beobachtungen erfasst._
 
 ---
 
@@ -260,6 +279,7 @@ _Änderungen seit Version v0.1.1-test:_
 | Datum | Bearbeiter |
 |---|---|
 | 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-13 | github-actions[bot] |
 | 2026-08-07 | github-actions[bot] |
 | 2026-08-07 | Theresa.Weitlaner |
 | 2026-08-07 | Theresa Weitlaner |

@@ -1,13 +1,17 @@
 {
   "version": "0.1.1-test",
-  "generated": "2026-08-13T09:21:59.920698+00:00",
-  "commit": "8653e161b0ca5c204b2fe3cf9c4df9b72a6bd380",
+  "generated": "2026-08-13T10:53:31.567147+00:00",
+  "commit": "868a92fb3168ce4e0a0a283ac80e06e454f743c2",
   "activity": {
     "since": "v0.1.1-test",
     "entries": [
       {
         "date": "2026-08-13",
         "author": "Theresa.Weitlaner"
+      },
+      {
+        "date": "2026-08-13",
+        "author": "github-actions[bot]"
       },
       {
         "date": "2026-08-07",
@@ -59,18 +63,26 @@
         {
           "de": {
             "template": "dimension",
-            "id_tech": "consumption-frequency",
+            "key": "consumption-frequency",
             "category": "alcohol",
             "title": "Konsumhäufigkeit",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": "",
             "description": "``",
-            "key": "consumption-frequency"
+            "id_tech": "consumption-frequency"
           },
           "en": {
             "template": "dimension",
-            "title": "Consumption frequency",
-            "id_tech": "consumption-frequency",
+            "key": "consumption-frequency",
             "category": "alcohol",
-            "key": "consumption-frequency"
+            "title": "Consumption frequency",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": "",
+            "id_tech": "consumption-frequency"
           },
           "observations": []
         }
@@ -120,7 +132,42 @@
         "icon_upload": "/media/apple.png",
         "color": "#f2c57c"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "dietary-pattern",
+            "category": "nutrition",
+            "title": "Ernährungsmuster",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "dietary-pattern",
+            "category": "nutrition",
+            "title": "Dietary pattern",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "url": ""
+              }
+            ],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {
@@ -615,7 +662,77 @@
         "icon_upload": "/media/person-standing-white.png",
         "icon_lucide": "person-standing"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "age",
+            "category": "sociodemographic-data",
+            "title": "Alter",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "age",
+            "category": "sociodemographic-data",
+            "title": "Age",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "gender",
+            "category": "sociodemographic-data",
+            "title": "Geschlecht",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "gender",
+            "category": "sociodemographic-data",
+            "title": "Gender",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "socio-economic-status",
+            "category": "sociodemographic-data",
+            "title": "Sozio-ökonomischer Status",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "socio-economic-status",
+            "category": "sociodemographic-data",
+            "title": "Socio-economic Status",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {

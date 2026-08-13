@@ -10,6 +10,7 @@ _Version: 0.1.1-test | Generated: 2026-08-13_
   - [Consumption frequency](#consumption-frequency)
 - [Anthropometry](#anthropometry)
 - [Nutrition](#nutrition)
+  - [Dietary pattern](#dietary-pattern)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -25,6 +26,9 @@ _Version: 0.1.1-test | Generated: 2026-08-13_
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
 - [Sociodemographic Data](#sociodemographic-data)
+  - [Age](#age)
+  - [Gender](#gender)
+  - [Socio-economic Status](#socio-economic-status)
 - [Workability](#workability)
 - [Edit History](#edit-history)
 
@@ -52,7 +56,12 @@ _No dimensions recorded._
 
 <img src="media/apple.png" alt="Nutrition" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Dietary pattern
+
+**Verified Health Information:**
+- []()
+
+_No observations recorded._
 
 ---
 
@@ -170,7 +179,17 @@ _No observations recorded._
 
 <img src="media/person-standing-white.png" alt="Sociodemographic Data" width="48" style="background-color: #e28913; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Age
+
+_No observations recorded._
+
+### Gender
+
+_No observations recorded._
+
+### Socio-economic Status
+
+_No observations recorded._
 
 ---
 
@@ -189,6 +208,7 @@ _Changes since version v0.1.1-test:_
 | Date | Author |
 |---|---|
 | 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-13 | github-actions[bot] |
 | 2026-08-07 | github-actions[bot] |
 | 2026-08-07 | Theresa.Weitlaner |
 | 2026-08-07 | Theresa Weitlaner |
