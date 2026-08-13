@@ -55,6 +55,14 @@ Fields marked `i18n: duplicate` share the same value across locales (e.g., `key`
 
 To change what fields appear in the CMS editor or how data is structured, edit `admin/config.yml`.
 
+### Adding/Changing Fields
+
+When adding, renaming, or removing a field in `admin/config.yml` (especially in the `observations` collection), check whether it needs to be reflected in `render/templates/`:
+- `health-profile.{de,en}.{md,adoc}.j2` — render individual field values (e.g. `population`, `citizen-info`)
+- `browse.{de,en}.html.j2` — currently only render category/dimension-level summary data, not observation detail fields
+
+A new field is not automatically picked up by the templates — it must be added explicitly (e.g. `{% if o.get('field-name') %}...{% endif %}`).
+
 ### Custom Widget
 
 `admin/widgets/slug-from-title.js` registers the `id_tech_auto` widget, which auto-generates a kebab-case technical ID from the English title field. It is loaded via a `<script>` tag in `admin/index.html`.

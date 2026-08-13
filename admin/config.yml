@@ -306,6 +306,15 @@ collections:
         widget: text
         i18n: translate
 
+      - label: "Disease Association (MED)"
+        name: disease-association
+        widget: select
+        options: ["Diabetes Mellitus Type 2", "COPD", "Colorectal Cancer", "Depression"]
+        multiple: true
+        required: false
+        i18n: duplicate
+        hint: "Assignment to one or more of the four PreNUDGE disease areas"
+
       - label: "Citizen information (layman) (MED)"
         name: citizen-info
         required: false

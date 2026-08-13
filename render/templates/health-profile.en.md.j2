@@ -90,6 +90,10 @@ _No observations recorded._
 
 **Population:** {{ o['population'] }}
 {% endif %}
+{% if o.get('disease-association') %}
+
+**Disease Association:** {{ o['disease-association'] | join(', ') }}
+{% endif %}
 {% if o.get('citizen-info') %}
 
 **Information for the Public:**
