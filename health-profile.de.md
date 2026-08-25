@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.2-test | Generiert: 2026-08-13_
+_Version: 0.1.2-test | Generiert: 2026-08-25_
 
 ---
 
@@ -9,6 +9,7 @@ _Version: 0.1.2-test | Generiert: 2026-08-13_
 - [Alkohol](#alkohol)
   - [Konsumhäufigkeit](#konsumhäufigkeit)
 - [Anthropometrie](#anthropometrie)
+  - [Größe, Gewicht](#größe-gewicht)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
@@ -48,7 +49,9 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/ruler-dimension-line.png" alt="Anthropometrie" width="48" style="background-color: #e0d3de; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Größe, Gewicht
+
+_Keine Beobachtungen erfasst._
 
 ---
 
@@ -278,5 +281,6 @@ _Änderungen seit Version v0.1.2-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-25 | Theresa Weitlaner |
 | 2026-08-13 | github-actions[bot] |
+| 2026-08-13 | Theresa.Weitlaner |
