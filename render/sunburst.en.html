@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}PräNUDGE Gesundheitsprofil{% endblock %}</title>
+<title>PreNUDGE Health Profile — Sunburst</title>
 <style>
   * { box-sizing: border-box; }
   body {
@@ -288,7 +288,7 @@
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-top">
       <div class="collapse-row">
-        <button class="collapse-btn" id="collapse-btn" onclick="document.getElementById('sidebar').classList.toggle('collapsed')" title="Sidebar ein-/ausklappen">
+        <button class="collapse-btn" id="collapse-btn" onclick="document.getElementById('sidebar').classList.toggle('collapsed')" title="Collapse/expand sidebar">
           <!-- Lucide "panel-left-close" (ISC License, https://lucide.dev) -->
           <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m16 15-3-3 3-3"/></svg>
           <!-- Lucide "panel-left-open" (ISC License, https://lucide.dev) -->
@@ -296,54 +296,67 @@
         </button>
       </div>
       <div class="brand">
-        <a href="https://prenudge.at/"><img src="{{ base_path }}media/PräNUDGE_Logo.png" alt="PräNUDGE"></a>
-        <h1>Gesundheitsprofil</h1>
+        <a href="https://prenudge.at/"><img src="../media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
+        <h1>Health Profile</h1>
       </div>
     </div>
     <nav class="primary">
-      <a href="{{ nav_explore_href }}" class="{{ 'active' if active in ['explore', 'sunburst', 'table'] else '' }}">
+      <a href="../index.html" class="active">
         <!-- Lucide "search" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
-        <span class="label">Entdecken</span>
+        <span class="label">Explore</span>
       </a>
-      <a href="{{ nav_sunburst_href }}" class="nav-sub {{ 'active' if active == 'sunburst' else '' }}">
+      <a href="sunburst.en.html" class="nav-sub active">
         <!-- Lucide "chart-pie" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
         <span class="label">Sunburst</span>
       </a>
-      <a href="{{ nav_table_href }}" class="nav-sub {{ 'active' if active == 'table' else '' }}">
+      <a href="browse.en.html" class="nav-sub ">
         <!-- Lucide "table" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
-        <span class="label">Tabelle</span>
+        <span class="label">Table</span>
       </a>
-      <a href="{{ nav_downloads_href }}" class="{{ 'active' if active == 'downloads' else '' }}">
+      <a href="../downloads.en.html" class="">
         <!-- Lucide "download" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
         <span class="label">Downloads</span>
       </a>
-      <span class="nav-disabled" title="In Vorbereitung">
+      <span class="nav-disabled" title="Coming soon">
         <!-- Lucide "history" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
-        <span class="label">Release-Historie</span>
+        <span class="label">Release History</span>
       </span>
       <hr class="nav-separator">
-      <a class="cms-link" href="{{ base_path }}admin/index.html">
+      <a class="cms-link" href="../admin/index.html">
         <!-- Lucide "database" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
-        <span class="label">Metadaten Editor</span>
+        <span class="label">Metadata Editor</span>
       </a>
     </nav>
     <div class="sidebar-footer">
-      <div class="lang-switch"><a href="{{ href_en }}">EN</a><a href="{{ href_de }}" class="active">DE</a></div>
-      <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a>
+      <div class="lang-switch"><a href="sunburst.en.html" class="active">EN</a><a href="sunburst.de.html">DE</a></div>
+      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
     </div>
   </aside>
 
   <main>
-    {% block page_title %}{% endblock %}
-    <p class="meta-bar">Version {{ version }} · Generiert: {{ generated }}{% if profile.commit %} ·
-      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}</p>
-    {% block content %}{% endblock %}
+<h1 class="page-title">Sunburst — PreNUDGE Health Profile</h1>    <p class="meta-bar">Version 0.1.2-test · Generated: 2026-08-13 ·
+      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/38c19540e58cb461c26b17d290fa3c0ce073566e">38c1954</a></p>
+<p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
+<div class="panel sunburst-panel sunburst-standalone">
+  <div id="chart-wrap" data-profile-src="../health-profile.json" data-locale="en">
+    <svg id="chart"></svg>
+    <div id="center">
+      <img id="center-icon" alt="">
+      <div id="center-title"></div>
+      <div id="center-hint"></div>
+    </div>
+  </div>
+  <p id="hint"></p>
+  <div id="tooltip"></div>
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="sunburst.js"></script>
   </main>
 </div>
 

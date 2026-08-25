@@ -2,74 +2,248 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PreNUDGE Health Profile — Browse</title>
 <style>
+  * { box-sizing: border-box; }
   body {
-    font-family: Calibri, Verdana, Geneva, sans-serif;
-    margin: 2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
     color: #1a1a1a;
-  }
-  header {
+    background: #f5f5f5;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.25rem;
+    min-height: 100vh;
   }
-  .header-left { display: flex; align-items: center; gap: 1rem; }
-  header img { height: 48px; }
-  h1 { margin: 0; color: #004E64; }
+
+  .layout { display: flex; width: 100%; }
+
+  aside.sidebar {
+    flex: 0 0 220px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 100vh;
+    transition: flex-basis 0.18s ease, padding 0.18s ease;
+    overflow: hidden;
+  }
+  aside.sidebar.collapsed {
+    flex: 0 0 64px;
+    padding: 1.25rem 0.6rem;
+  }
+
+  .sidebar-top { display: flex; flex-direction: column; gap: 0.5rem; }
+  .collapse-row { display: flex; justify-content: flex-end; }
+  .brand { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; overflow: hidden; }
+  .brand img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .brand h1 { margin: 0; font-size: 1rem; color: #004E64; line-height: 1.2; text-align: center; white-space: nowrap; }
+
+  .collapse-btn {
+    flex: 0 0 auto;
+    width: 28px; height: 28px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #666;
+  }
+  .collapse-btn:hover { background: #f0f0f0; }
+  .collapse-btn svg { width: 16px; height: 16px; }
+  .collapse-btn .icon-closed { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-open { display: none; }
+  aside.sidebar.collapsed .collapse-btn .icon-closed { display: block; }
+
+  nav.primary { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; }
+  nav.primary a, nav.primary span.nav-disabled {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: #555; text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  nav.primary a svg, nav.primary span.nav-disabled svg, .cms-link svg {
+    flex: 0 0 18px;
+    width: 18px; height: 18px;
+  }
+  nav.primary a.active { color: #004E64; background: #eef5f7; border-color: #004E64; font-weight: 600; }
+  nav.primary span.nav-disabled { color: #bbb; cursor: not-allowed; }
+  nav.primary hr.nav-separator { width: 100%; border: none; border-top: 1px solid #eee; margin: 0.3rem 0; }
+  nav.primary a.nav-sub { padding: 0.35rem 0.6rem 0.35rem 2.4rem; font-size: 0.8rem; color: #888; }
+  nav.primary a.nav-sub:hover { color: #004E64; background: #f5f9fa; }
+  nav.primary a.nav-sub svg { width: 15px; height: 15px; }
+
+  .cms-link {
+    display: flex; align-items: center; gap: 0.6rem;
+    color: #004E64; text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    white-space: nowrap; overflow: hidden;
+  }
+  .cms-link:hover { background: #eef5f7; }
+
+  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 0.6rem; }
   .lang-switch {
     display: inline-flex;
+    align-self: flex-start;
     border-radius: 20px;
     overflow: hidden;
     border: 1.5px solid #ddd;
     background: #fff;
   }
   .lang-switch a {
-    padding: 4px 16px;
-    font-size: 0.8rem;
+    padding: 3px 12px;
+    font-size: 0.75rem;
     font-weight: 600;
-    text-decoration: none;
     color: #999;
-    transition: background 0.15s, color 0.15s;
-    letter-spacing: 0.04em;
+    white-space: nowrap;
+    text-decoration: none;
   }
   .lang-switch a.active { background: #004E64; color: #fff; }
-  .meta { color: #666; margin-bottom: 1.5rem; }
-  .meta a { color: #666; }
-  table {
+  .consortium-link {
+    font-size: 0.75rem;
+    color: #888;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .consortium-link:hover { color: #004E64; }
+  aside.sidebar.collapsed .consortium-link { display: none; }
+
+  .meta-bar {
+    width: 100%;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  .meta-bar a { color: #666; }
+  .page-title { margin: 0 0 0.4rem; font-size: 1.3rem; color: #004E64; }
+
+  /* collapsed state: hide text labels, keep icons/logo centered */
+  aside.sidebar.collapsed .brand h1,
+  aside.sidebar.collapsed nav.primary a span.label,
+  aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
+  aside.sidebar.collapsed .cms-link span.label,
+  aside.sidebar.collapsed .lang-switch { display: none; }
+  aside.sidebar.collapsed nav.primary a,
+  aside.sidebar.collapsed nav.primary span.nav-disabled { justify-content: center; padding: 0.5rem; }
+  aside.sidebar.collapsed .cms-link { justify-content: center; }
+
+  main { flex: 1; padding: 1.5rem 2rem; display: flex; flex-direction: column; }
+  .panels-row { display: flex; gap: 1.5rem; align-items: flex-start; }
+
+  .panel {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .link-card {
+    flex: 1 1 0;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .link-card:hover { border-color: #004E64; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+  .link-card h2 { margin: 0 0 0.4rem; font-size: 1.05rem; color: #004E64; }
+  .link-card p { margin: 0; font-size: 0.9rem; color: #666; }
+
+  .sunburst-panel {
+    flex: 0 0 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sunburst-panel svg { width: 100%; height: auto; }
+  .sunburst-standalone { flex-basis: auto; max-width: min(820px, 80vh); margin: 0 auto; }
+  #chart-wrap { position: relative; }
+  .arc path { stroke: white; stroke-width: 1px; transition: opacity 0.15s; cursor: pointer; }
+  .arc path:hover { opacity: 0.8; }
+  .arc-label { font-size: 11px; fill: #333; pointer-events: none; user-select: none; }
+  #center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+    width: 88px;
+  }
+  #center-title { font-size: 11px; font-weight: 600; color: #222; line-height: 1.2; }
+  #center-hint { font-size: 9px; color: #bbb; margin-top: 3px; }
+  #center-icon { display: none; width: 26px; height: 26px; margin: 0 auto 4px; }
+  #center.center-tinted #center-title { color: #fff; }
+  #center.center-tinted #center-hint { color: rgba(255, 255, 255, 0.85); }
+  /* percentages instead of fixed px: #chart-wrap scales with the SVG's
+     responsive width (embedded 42%-column vs. the larger standalone page),
+     but this absolutely-positioned HTML overlay otherwise wouldn't. */
+  #center.center-root { width: 16%; }
+  #center.center-root #center-icon { width: 92%; height: auto; margin: 0 auto; }
+  #center.center-root #center-title,
+  #center.center-root #center-hint { display: none; }
+  #tooltip {
+    position: fixed;
+    background: rgba(20,20,20,0.88);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s;
+    max-width: 260px;
+    z-index: 100;
+  }
+  #tooltip .path { color: #aaa; font-size: 11px; }
+  #hint { margin-top: 1rem; font-size: 0.75rem; color: #aaa; text-align: center; }
+  .table-panel { flex: 1 1 58%; min-width: 0; overflow-x: auto; }
+  .table-panel table {
     border-collapse: collapse;
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
   }
-  th, td {
-    border: 1px solid #ddd;
-    padding: 0.5rem 0.75rem;
+  .table-panel th, .table-panel td {
+    border: 1px solid #eee;
+    padding: 0.5rem 0.6rem;
     text-align: left;
     vertical-align: top;
   }
-  th {
-    background: #f5f5f5;
-    position: sticky;
-    top: 0;
-  }
-  tr:nth-child(even) { background: #fafafa; }
-  .swatch {
+  .table-panel th { background: #f5f5f5; }
+  .table-panel .swatch {
     display: inline-block;
-    width: 0.8em;
-    height: 0.8em;
+    width: 0.75em;
+    height: 0.75em;
     border-radius: 2px;
     margin-right: 0.4em;
     vertical-align: middle;
   }
-  td div + div { margin-top: 0.3em; }
-  footer {
-    margin-top: 2rem;
-    color: #666;
-    font-size: 14px;
+  .panel-caption { margin-top: 0.75rem; font-size: 0.8rem; color: #888; text-align: center; }
+  .table-panel .panel-caption { text-align: left; }
+  .pill-link {
+    display: inline-flex;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1.5px solid #ddd;
+    background: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
   }
-  footer a { color: #666; }
+  .pill-link:hover { border-color: #004E64; color: #004E64; }
+
   .disclaimer {
     background: #fff3cd;
     border: 1px solid #ffe69c;
@@ -79,27 +253,98 @@
     margin-bottom: 1.5rem;
     font-size: 14px;
   }
+
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    aside.sidebar, aside.sidebar.collapsed {
+      flex: 0 0 auto;
+      flex-direction: row;
+      align-items: center;
+      min-height: auto;
+      overflow-x: auto;
+      gap: 1rem;
+      width: 100%;
+      padding: 1rem;
+    }
+    aside.sidebar.collapsed .brand h1,
+    aside.sidebar.collapsed nav.primary a span.label,
+    aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
+    aside.sidebar.collapsed .cms-link span.label { display: inline; }
+    .collapse-row { display: none; }
+    .brand { flex-direction: row; align-items: center; }
+    .brand img { width: 28px; height: 28px; flex: 0 0 28px; }
+    nav.primary { flex-direction: row; }
+    nav.primary hr.nav-separator { display: none; }
+    nav.primary a.nav-sub { padding: 0.5rem 0.6rem; }
+    .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
+    .panels-row { flex-direction: column; }
+    .sunburst-panel { flex: 1 1 auto; width: 100%; }
+  }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="header-left">
-    <a href="https://prenudge.at/"><img src="../media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
-    <h1>PreNUDGE Health Profile — Browse</h1>
-  </div>
-  <nav class="lang-switch">
-    <a href="browse.de.html">DE</a>
-    <a href="browse.en.html" class="active">EN</a>
-  </nav>
-</header>
-<p class="meta">
-  Version 0.1.2-test · Generated: 2026-08-13 ·
-  Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/38c19540e58cb461c26b17d290fa3c0ce073566e">38c1954</a></p>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <div class="collapse-row">
+        <button class="collapse-btn" id="collapse-btn" onclick="document.getElementById('sidebar').classList.toggle('collapsed')" title="Collapse/expand sidebar">
+          <!-- Lucide "panel-left-close" (ISC License, https://lucide.dev) -->
+          <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m16 15-3-3 3-3"/></svg>
+          <!-- Lucide "panel-left-open" (ISC License, https://lucide.dev) -->
+          <svg class="icon-closed" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m14 9 3 3-3 3"/></svg>
+        </button>
+      </div>
+      <div class="brand">
+        <a href="https://prenudge.at/"><img src="../media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
+        <h1>Health Profile</h1>
+      </div>
+    </div>
+    <nav class="primary">
+      <a href="../index.html" class="active">
+        <!-- Lucide "search" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        <span class="label">Explore</span>
+      </a>
+      <a href="sunburst.en.html" class="nav-sub ">
+        <!-- Lucide "chart-pie" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
+        <span class="label">Sunburst</span>
+      </a>
+      <a href="browse.en.html" class="nav-sub active">
+        <!-- Lucide "table" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
+        <span class="label">Table</span>
+      </a>
+      <a href="../downloads.en.html" class="">
+        <!-- Lucide "download" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+        <span class="label">Downloads</span>
+      </a>
+      <span class="nav-disabled" title="Coming soon">
+        <!-- Lucide "history" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+        <span class="label">Release History</span>
+      </span>
+      <hr class="nav-separator">
+      <a class="cms-link" href="../admin/index.html">
+        <!-- Lucide "database" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+        <span class="label">Metadata Editor</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="lang-switch"><a href="browse.en.html" class="active">EN</a><a href="browse.de.html">DE</a></div>
+      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
+    </div>
+  </aside>
 
+  <main>
+<h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <p class="meta-bar">Version 0.1.2-test · Generated: 2026-08-13 ·
+      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/38c19540e58cb461c26b17d290fa3c0ce073566e">38c1954</a></p>
 <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
-
-<table>
+<div class="panel table-panel">
+<table id="browse-table">
   <thead>
     <tr>
       <th>Category</th>
@@ -107,7 +352,6 @@
       <th>Observation</th>
       <th>Source Type</th>
       <th>FHIR IG Status</th>
-      <th>Sunburst Status</th>
     </tr>
   </thead>
   <tbody>
@@ -117,7 +361,6 @@
       <td>Minutes in moderate and vigouros physical activity</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>planned</div><div>amendment needed</div></td>
-      <td><div>published</div></td>
     </tr>
     <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="steps-per-day" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
@@ -125,14 +368,12 @@
       <td>Steps (per day)</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>
-
-<footer>
-  <a href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
-</footer>
+</div>
+  </main>
+</div>
 
 </body>
 </html>

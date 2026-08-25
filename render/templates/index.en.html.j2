@@ -1,14 +1,27 @@
 {% extends "_base.en.html.j2" %}
+{% block page_title %}<h1 class="page-title">Explore — PreNUDGE Health Profile</h1>{% endblock %}
 {% block content %}
 <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 <div class="panels-row">
-  <a class="panel link-card" href="render/sunburst.html">
-    <h2>Sunburst Visualization</h2>
-    <p>Interactive overview of Categories, Dimensions, and Observations.</p>
-  </a>
-  <a class="panel link-card" href="render/browse.en.html">
-    <h2>Browse</h2>
-    <p>All Observations as a searchable table.</p>
-  </a>
+  <div class="panel sunburst-panel">
+    <div id="chart-wrap" data-profile-src="health-profile.json" data-locale="en">
+      <svg id="chart"></svg>
+      <div id="center">
+        <img id="center-icon" alt="">
+        <div id="center-title"></div>
+        <div id="center-hint"></div>
+      </div>
+    </div>
+    <p id="hint"></p>
+    <div id="tooltip"></div>
+    <p class="panel-caption"><a class="pill-link" href="{{ nav_sunburst_href }}">Full-page view ↗</a></p>
+  </div>
+  <div class="panel table-panel">
+    {% include "_browse_table.en.html.j2" %}
+    <p class="panel-caption"><a class="pill-link" href="{{ nav_table_href }}">Full table ↗</a></p>
+  </div>
 </div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="render/sunburst.js"></script>
+<script src="render/browse.js"></script>
 {% endblock %}

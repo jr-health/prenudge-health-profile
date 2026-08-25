@@ -1,0 +1,42 @@
+<table id="browse-table">
+  <thead>
+    <tr>
+      <th>Kategorie</th>
+      <th>Indikator-Dimension</th>
+      <th>Beobachtung</th>
+      <th>Source Type</th>
+      <th>FHIR IG Status</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for cat in profile.categories %}
+{% set c = cat.de %}
+{% for dim in cat.dimensions %}
+{% set d = dim.de %}
+{% for obs in dim.observations %}
+{% set o = obs.de %}
+{% set instruments = o.get('measurement-instrument', []) %}
+{% set ns = namespace(source_types=[], fhir_statuses=[], vis_statuses=[]) %}
+{% for instr in instruments %}
+{% if instr.get('source-type') and instr['source-type'] not in ns.source_types %}
+{% set ns.source_types = ns.source_types + [instr['source-type']] %}
+{% endif %}
+{% if instr.get('pn-fhir-ig-status') and instr['pn-fhir-ig-status'] not in ns.fhir_statuses %}
+{% set ns.fhir_statuses = ns.fhir_statuses + [instr['pn-fhir-ig-status']] %}
+{% endif %}
+{% if instr.get('vis-status') and instr['vis-status'] not in ns.vis_statuses %}
+{% set ns.vis_statuses = ns.vis_statuses + [instr['vis-status']] %}
+{% endif %}
+{% endfor %}
+    <tr data-category="{{ c.key }}" data-dimension="{{ d.key }}" data-observation="{{ o.key }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
+      <td><span class="swatch" style="background-color: {{ c.color | default('#cccccc') }};"></span>{{ c.title | default(cat.en.title) }}</td>
+      <td>{{ d.title | default(dim.en.title) }}</td>
+      <td>{{ o.title | default(obs.en.title) }}</td>
+      <td>{% for st in ns.source_types %}<div>{{ st }}</div>{% endfor %}</td>
+      <td>{% for st in ns.fhir_statuses %}<div>{{ st }}</div>{% endfor %}</td>
+    </tr>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+  </tbody>
+</table>

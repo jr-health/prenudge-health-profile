@@ -70,9 +70,12 @@ jobs:
           # checkout above, so they never drift ahead of the health-profile.json/
           # docx downloaded below — even when this run was triggered by an
           # unreleased admin/ change.
-          cp released/render/sunburst.html _site/render/sunburst.html
+          cp released/render/sunburst.de.html _site/render/sunburst.de.html
+          cp released/render/sunburst.en.html _site/render/sunburst.en.html
+          cp released/render/sunburst.js _site/render/sunburst.js
           cp released/render/browse.de.html _site/render/browse.de.html
           cp released/render/browse.en.html _site/render/browse.en.html
+          cp released/render/browse.js _site/render/browse.js
 
           RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
@@ -89,6 +92,7 @@ jobs:
             --version "$RELEASE_VERSION" \
             --generated "$GENERATED" \
             --release-base "$RELEASE_BASE" \
+            --profile _site/health-profile.json \
             --out-dir _site
 
       - name: Upload artifact

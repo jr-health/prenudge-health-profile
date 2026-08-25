@@ -63,14 +63,14 @@ jobs:
       - name: Render Markdown reports
         run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }} --latest
 
-      - name: Render browse view
+      - name: Render browse/sunburst views
         run: python scripts/render_html.py
 
       - name: Commit generated files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add health-profile.json health-profile.de.md health-profile.en.md render/browse.de.html render/browse.en.html
+          git add health-profile.json health-profile.de.md health-profile.en.md render/browse.de.html render/browse.en.html render/sunburst.de.html render/sunburst.en.html
           if git diff --staged --quiet; then
             echo "Nothing changed, skipping commit."
           else

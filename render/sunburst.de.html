@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}PräNUDGE Gesundheitsprofil{% endblock %}</title>
+<title>PräNUDGE Gesundheitsprofil — Sunburst</title>
 <style>
   * { box-sizing: border-box; }
   body {
@@ -296,27 +296,27 @@
         </button>
       </div>
       <div class="brand">
-        <a href="https://prenudge.at/"><img src="{{ base_path }}media/PräNUDGE_Logo.png" alt="PräNUDGE"></a>
+        <a href="https://prenudge.at/"><img src="../media/PräNUDGE_Logo.png" alt="PräNUDGE"></a>
         <h1>Gesundheitsprofil</h1>
       </div>
     </div>
     <nav class="primary">
-      <a href="{{ nav_explore_href }}" class="{{ 'active' if active in ['explore', 'sunburst', 'table'] else '' }}">
+      <a href="../index.html" class="active">
         <!-- Lucide "search" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
         <span class="label">Entdecken</span>
       </a>
-      <a href="{{ nav_sunburst_href }}" class="nav-sub {{ 'active' if active == 'sunburst' else '' }}">
+      <a href="sunburst.de.html" class="nav-sub active">
         <!-- Lucide "chart-pie" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
         <span class="label">Sunburst</span>
       </a>
-      <a href="{{ nav_table_href }}" class="nav-sub {{ 'active' if active == 'table' else '' }}">
+      <a href="browse.de.html" class="nav-sub ">
         <!-- Lucide "table" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
         <span class="label">Tabelle</span>
       </a>
-      <a href="{{ nav_downloads_href }}" class="{{ 'active' if active == 'downloads' else '' }}">
+      <a href="../downloads.de.html" class="">
         <!-- Lucide "download" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
         <span class="label">Downloads</span>
@@ -327,23 +327,36 @@
         <span class="label">Release-Historie</span>
       </span>
       <hr class="nav-separator">
-      <a class="cms-link" href="{{ base_path }}admin/index.html">
+      <a class="cms-link" href="../admin/index.html">
         <!-- Lucide "database" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
         <span class="label">Metadaten Editor</span>
       </a>
     </nav>
     <div class="sidebar-footer">
-      <div class="lang-switch"><a href="{{ href_en }}">EN</a><a href="{{ href_de }}" class="active">DE</a></div>
+      <div class="lang-switch"><a href="sunburst.en.html">EN</a><a href="sunburst.de.html" class="active">DE</a></div>
       <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a>
     </div>
   </aside>
 
   <main>
-    {% block page_title %}{% endblock %}
-    <p class="meta-bar">Version {{ version }} · Generiert: {{ generated }}{% if profile.commit %} ·
-      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}</p>
-    {% block content %}{% endblock %}
+<h1 class="page-title">Sunburst — PräNUDGE Gesundheitsprofil</h1>    <p class="meta-bar">Version 0.1.2-test · Generiert: 2026-08-13 ·
+      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/38c19540e58cb461c26b17d290fa3c0ce073566e">38c1954</a></p>
+<p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
+<div class="panel sunburst-panel sunburst-standalone">
+  <div id="chart-wrap" data-profile-src="../health-profile.json" data-locale="de">
+    <svg id="chart"></svg>
+    <div id="center">
+      <img id="center-icon" alt="">
+      <div id="center-title"></div>
+      <div id="center-hint"></div>
+    </div>
+  </div>
+  <p id="hint"></p>
+  <div id="tooltip"></div>
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="sunburst.js"></script>
   </main>
 </div>
 

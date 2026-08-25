@@ -1,14 +1,27 @@
 {% extends "_base.de.html.j2" %}
+{% block page_title %}<h1 class="page-title">Entdecken — PräNUDGE Gesundheitsprofil</h1>{% endblock %}
 {% block content %}
 <p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
 <div class="panels-row">
-  <a class="panel link-card" href="render/sunburst.html">
-    <h2>Sunburst-Visualisierung</h2>
-    <p>Interaktive Übersicht über Categories, Dimensions und Observations.</p>
-  </a>
-  <a class="panel link-card" href="render/browse.de.html">
-    <h2>Übersicht (Browse)</h2>
-    <p>Alle Observations als durchsuchbare Tabelle.</p>
-  </a>
+  <div class="panel sunburst-panel">
+    <div id="chart-wrap" data-profile-src="health-profile.json" data-locale="de">
+      <svg id="chart"></svg>
+      <div id="center">
+        <img id="center-icon" alt="">
+        <div id="center-title"></div>
+        <div id="center-hint"></div>
+      </div>
+    </div>
+    <p id="hint"></p>
+    <div id="tooltip"></div>
+    <p class="panel-caption"><a class="pill-link" href="{{ nav_sunburst_href }}">Vollbild-Ansicht ↗</a></p>
+  </div>
+  <div class="panel table-panel">
+    {% include "_browse_table.de.html.j2" %}
+    <p class="panel-caption"><a class="pill-link" href="{{ nav_table_href }}">Vollständige Tabelle ↗</a></p>
+  </div>
 </div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="render/sunburst.js"></script>
+<script src="render/browse.js"></script>
 {% endblock %}

@@ -148,19 +148,83 @@ Templates an die Browse-Konvention angeglichen.
   (war dort zuvor gar nicht vorhanden) sowie einen Format-Hinweis "Word (.docx)" vor den
   DE/EN-Links
 
-### Phase C — Sunburst↔Tabelle-Kopplung (Kernfeature)
+### Phase C — Sunburst↔Tabelle-Kopplung (Kernfeature) — ✅ Kernumsetzung erledigt (2026-08-25)
 
-- [ ] Voraussetzung klären (siehe Design-Entscheidung 9): `render/sunburst.html` und
-      `render/browse.{de,en}.html` haben eigenen Header/Disclaimer/Logo — für ein echtes
-      Nebeneinander auf der Explore-Seite braucht `sunburst.html` vermutlich einen schlanken
-      Embed-Modus (Chart ohne Seiten-Chrome), sonst doppelte Header beim Einbetten
-- [ ] `render/sunburst.html` erweitern: Segment-Klick löst Event aus (Category-/Dimension-Key)
-- [ ] `render/browse.js` (Stufe 2 der Browse-Tabelle, siehe unten) auf dieses Event reagieren
-      lassen — Zeilen per vorhandenem `data-*`-Attribut filtern/hervorheben
-- [ ] Erste Version ohne Detailansicht ausliefern und verifizieren (lokal + einmal live)
-- [ ] Danach optional: Detailansicht mit zusätzlichen `health-profile.json`-Feldern ergänzen
+- [x] Voraussetzung geklärt (siehe Design-Entscheidung 9): **kein `<iframe>`/Embed-Modus mit
+      `postMessage`**. Stattdessen wurde die D3-Logik aus `sunburst.html` in eine
+      eigenständige `render/sunburst.js` extrahiert, parametrisiert über
+      `data-profile-src`/`data-locale`-Attribute am `#chart-wrap`-Element. `sunburst.html`
+      bleibt als eigenständige, verlinkbare Seite mit eigenem Header/Disclaimer/DE-EN-Toggle
+      bestehen und lädt dieselbe `sunburst.js`; die Explore-Seite bindet nur die
+      Chart-Markup (SVG/Center/Tooltip, ohne Header-Chrome) plus dasselbe Script ein — echtes
+      gleichdokumentiges DOM, entspricht Design-Entscheidung 6 wörtlich ("ein Script auf
+      derselben Seite reagiert"). Analog wurde die Tabellen-Zeilen-Schleife aus
+      `browse.{de,en}.html.j2` in `render/templates/_browse_table.{de,en}.html.j2`
+      extrahiert und per `{% include %}` sowohl von den Standalone-Browse-Seiten als auch
+      von der Explore-Seite genutzt (keine Logik-Duplikation).
+- [x] `render/sunburst.js`: `clicked()` löst nach dem bestehenden Zoom-Code zusätzlich
+      `document.dispatchEvent(new CustomEvent("hp:select", {detail: {category, dimension, observation}}))`
+      aus (Werte = `key`-Feld je Tiefe aus `p.ancestors()`, root-Klick → alle `null`). Dafür
+      bekam `buildHierarchy()` zusätzlich das sprachunabhängige `key`-Feld je Node (vorher
+      wurden dort nur Titel gespeichert).
+- [x] `render/browse.js` (neu, Stufe 2 der Browse-Tabelle) hört auf `hp:select` und blendet
+      `#browse-table tbody tr`-Zeilen per `element.style.display` ein/aus, deren
+      `data-category`/`data-dimension`/`data-observation`-Attribute nicht zum Event-Detail
+      passen (Design-Entscheidung 6, exakter Mechanismus — Hide/Show, nicht nur Hervorheben).
+- [x] Explore-Seite (`index.{de,en}.html.j2`) auf das in Phase B abgenommene Wireframe-C-Layout
+      umgestellt: `.sunburst-panel` (42%, Chart eingebettet, kein eigener Header/Toggle, Link
+      "Vollbild-Ansicht ↗" auf die Standalone-Seite bleibt) neben `.table-panel` (58%,
+      `_browse_table`-Include, Link "Vollständige Tabelle ↗"). CSS dafür 1:1 aus
+      `doc/wireframes/layout-c-sidebar-sidebyside.html` in `_base.{de,en}.html.j2` übernommen,
+      inkl. Mobile-Override (Sunburst-Panel volle Breite unter 780px).
+- [x] `scripts/render_index.py` liest jetzt zusätzlich `health-profile.json` (neues
+      `--profile`-Arg) und reicht es als `profile` in den Template-Kontext, damit die
+      Explore-Seite die `_browse_table`-Partial befüllen kann; `pages.yml` zeigt `--profile`
+      auf das frisch heruntergeladene Release-Asset in `_site/`, nicht auf den ggf. veralteten
+      Checkout. `pages.yml` kopiert zusätzlich `sunburst.js`/`browse.js` aus dem
+      `released`-Checkout (gleiche Pinning-Logik wie `sunburst.html`/`browse.*.html`).
+- [x] Lokal verifiziert: `render_html.py`-Diff der Browse-Seiten war nach der Extraktion nur
+      die neu ergänzte `id="browse-table"` (keine sonstige Output-Änderung); lokaler Testbuild
+      mit `render_index.py --profile health-profile.json --out-dir _site_test` + `http.server`
+      lieferte für `index.html`/`index.de.html`/`render/sunburst.js`/`render/browse.js`/
+      `render/browse.{de,en}.html`/`health-profile.json` HTTP 200; Tabellenzeilen im
+      Explore-Seiten-HTML tragen die erwarteten `data-category`/`data-dimension`/
+      `data-observation`-Werte; `node --check` auf beiden neuen JS-Dateien ohne Fehler.
+- [x] Klick-Verhalten im Browser von Nutzer:in bestätigt (2026-08-25): Sunburst-Segment
+      filtert die Tabelle korrekt, Klick auf die Mitte hebt den Filter wieder auf. Danach in
+      mehreren Feinjustierungsrunden verbessert: horizontale (nicht rotierte) Labels mit
+      Mehrzeilen-Umbruch statt Kürzung (`render/sunburst.js`, `layoutLines()`/`fitLabel()`);
+      Radial-Skala korrigiert (`radiusAt()`, dynamisch aus `root.height` statt fixem
+      `RADIUS`-Konstante) — die äußerste Beobachtungs-Ring lag vorher teils außerhalb des
+      sichtbaren `viewBox` und wurde abgeschnitten; Center-Kreis verkleinert; Seitentitel
+      ("Explore — …"/"Downloads — …") oberhalb der Versionszeile ergänzt (neuer
+      `page_title`-Block in `_base.{de,en}.html.j2`); Sidebar-Unterlinks "Sunburst"/"Table"
+      unter dem Explore-Nav-Punkt ergänzt (klappen mit der Sidebar mit, eigene Icons).
+      `pages.yml`-Live-Lauf weiterhin nicht gegengeprüft (kein Browser-/CI-Zugriff in dieser
+      Session) — bitte vor dem nächsten Release-Test einmal live prüfen.
+- [x] Sidebar auch auf den Standalone-Seiten ergänzt (2026-08-25, Folgeanfrage nach obiger
+      Bestätigung): `render/sunburst.html` (statische Einzeldatei mit eigenem
+      Header/Disclaimer/DE-EN-Toggle) ersetzt durch zwei Jinja-Templates
+      `render/templates/sunburst.{de,en}.html.j2`, die wie `browse.{de,en}.html.j2`
+      `_base.{de,en}.html.j2` extenden — beide bekommen dadurch dieselbe Sidebar
+      (Navigation, Sprachumschalter, Metadaten-Editor-Link, Versions-/Commit-Zeile) wie
+      Explore/Downloads. Der interne JS-Sprachtoggle aus `sunburst.js` entfällt für diese
+      Seiten zugunsten des Sidebar-Sprachumschalters (`data-locale`-Attribut, bereits seit
+      der Explore-Einbettung vorhanden — keine neue JS-Logik nötig). URL-Wechsel:
+      `render/sunburst.html` → `render/sunburst.de.html`/`render/sunburst.en.html` (analog
+      zu Browse). Da `_base` bisher nur von Root-Seiten (Explore/Downloads) genutzt wurde,
+      waren Pfade dort fest relativ zum Site-Root verdrahtet (Logo, CMS-Editor-Link,
+      Sunburst-/Table-Unterlinks) — jetzt über neue Kontextvariablen parametrisiert
+      (`base_path`, `nav_sunburst_href`, `nav_table_href`), je nachdem ob die Seite am Root
+      oder unter `render/` liegt. `scripts/render_html.py` rendert jetzt beide Seitentypen
+      (Browse **und** Sunburst) mit vollem Sidebar-Kontext; `pages.yml`/`update-profile.yml`
+      entsprechend um die neuen Dateinamen ergänzt. Lokal verifiziert: alle vier Seiten +
+      referenzierte Assets liefern HTTP 200, aktiver Nav-Zustand (auch der neuen
+      Sunburst-/Table-Unterlinks) stimmt je Seite, `node --check` auf beiden JS-Dateien ohne
+      Fehler — Browser-Check (Sidebar-Interaktion auf den Standalone-Seiten) noch ausständig.
+- [ ] Optional: Detailansicht mit zusätzlichen `health-profile.json`-Feldern ergänzen
       (Weg A oder B aus Design-Entscheidung 6, je nachdem was sich beim Bauen als sinnvoller
-      zeigt)
+      zeigt) — bewusst nicht Teil dieser ersten Version.
 
 ### Phase D — Release-Historie-Seite
 
@@ -227,8 +291,25 @@ Sunburst-Auswahl (siehe Design-Entscheidung 6, umgesetzt in Umsetzungsplan Phase
     einzelnen Bericht zu verlinken — noch nicht spezifiziert.
 - **Sunburst — `vis-status` auswerten:** Das Feld `vis-status` (pro Measurement Instrument,
   z. B. `draft`/`published`) ist laut Schema-Hint dafür gedacht, wird von
-  `render/sunburst.html` aber noch nicht ausgewertet. Könnte genutzt werden, um innerhalb
+  `render/sunburst.js` aber noch nicht ausgewertet. Könnte genutzt werden, um innerhalb
   eines Releases einzelne noch nicht fertige Einträge aus dem Sunburst auszublenden.
+- **Zusätzliche Visualisierung bei wachsender Anzahl an Gesundheitsindikatoren (2026-08-25):**
+  Ein Sunburst wird mit deutlich mehr Categories/Dimensions/Observations schnell unübersichtlich
+  (viele dünne Segmente, lange Labels kollidieren) — falls der Katalog spürbar wächst, könnte
+  eine zweite, komplementäre Ansicht sinnvoll werden, die dieselbe Hierarchie eher listenartig/
+  aufklappbar statt radial darstellt (bessere Lesbarkeit langer Titel, einfacheres Scannen tief
+  verschachtelter Zweige). Als Vorbild/Anregung von Nutzer:in genannt:
+  - [Highcharts "Treegraph — Boxes"](https://www.highcharts.com/demo/highcharts/treegraph-boxes)
+    — als UX-Referenz (Baum mit Box-Knoten statt Radial-Segmenten), nicht als Bibliothek: neue
+    Abhängigkeit würde der No-Build-/Vanilla-JS-Entscheidung widersprechen (Design-Entscheidung
+    5) und Highcharts ist zudem für kommerzielle Nutzung lizenzpflichtig.
+  - [D3 Hierarchy-Sammlung auf Observable](https://observablehq.com/collection/@d3/d3-hierarchy)
+    als D3-eigene Alternative (bereits im Stack, siehe `render/sunburst.js`) — z. B. ein
+    `d3.tree()`/`d3.cluster()`-Layout (indentierter oder horizontaler Baum) auf denselben
+    `buildHierarchy()`-Daten, die der Sunburst schon nutzt. Nicht zwingend als Ersatz gedacht,
+    eher als zweite Ansicht (z. B. wählbar über die Sidebar) für den Fall, dass der Sunburst
+    bei größerer Datenmenge nicht mehr die beste erste Anlaufstelle ist. Noch nicht geplant —
+    nur festgehalten, bis der tatsächliche Umfang des Katalogs das nötig macht.
 - Kurzbeschreibung des PreNUDGE-Projekts/Katalogs für Erstbesucher:innen ohne Vorwissen.
 
 ## Nicht-Ziele (vorerst)

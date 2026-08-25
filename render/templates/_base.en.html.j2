@@ -77,6 +77,9 @@
   nav.primary a.active { color: #004E64; background: #eef5f7; border-color: #004E64; font-weight: 600; }
   nav.primary span.nav-disabled { color: #bbb; cursor: not-allowed; }
   nav.primary hr.nav-separator { width: 100%; border: none; border-top: 1px solid #eee; margin: 0.3rem 0; }
+  nav.primary a.nav-sub { padding: 0.35rem 0.6rem 0.35rem 2.4rem; font-size: 0.8rem; color: #888; }
+  nav.primary a.nav-sub:hover { color: #004E64; background: #f5f9fa; }
+  nav.primary a.nav-sub svg { width: 15px; height: 15px; }
 
   .cms-link {
     display: flex; align-items: center; gap: 0.6rem;
@@ -122,6 +125,8 @@
     color: #666;
     margin-bottom: 1rem;
   }
+  .meta-bar a { color: #666; }
+  .page-title { margin: 0 0 0.4rem; font-size: 1.3rem; color: #004E64; }
 
   /* collapsed state: hide text labels, keep icons/logo centered */
   aside.sidebar.collapsed .brand h1,
@@ -153,6 +158,92 @@
   .link-card h2 { margin: 0 0 0.4rem; font-size: 1.05rem; color: #004E64; }
   .link-card p { margin: 0; font-size: 0.9rem; color: #666; }
 
+  .sunburst-panel {
+    flex: 0 0 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sunburst-panel svg { width: 100%; height: auto; }
+  .sunburst-standalone { flex-basis: auto; max-width: min(820px, 80vh); margin: 0 auto; }
+  #chart-wrap { position: relative; }
+  .arc path { stroke: white; stroke-width: 1px; transition: opacity 0.15s; cursor: pointer; }
+  .arc path:hover { opacity: 0.8; }
+  .arc-label { font-size: 11px; fill: #333; pointer-events: none; user-select: none; }
+  #center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+    width: 88px;
+  }
+  #center-title { font-size: 11px; font-weight: 600; color: #222; line-height: 1.2; }
+  #center-hint { font-size: 9px; color: #bbb; margin-top: 3px; }
+  #center-icon { display: none; width: 26px; height: 26px; margin: 0 auto 4px; }
+  #center.center-tinted #center-title { color: #fff; }
+  #center.center-tinted #center-hint { color: rgba(255, 255, 255, 0.85); }
+  /* percentages instead of fixed px: #chart-wrap scales with the SVG's
+     responsive width (embedded 42%-column vs. the larger standalone page),
+     but this absolutely-positioned HTML overlay otherwise wouldn't. */
+  #center.center-root { width: 16%; }
+  #center.center-root #center-icon { width: 92%; height: auto; margin: 0 auto; }
+  #center.center-root #center-title,
+  #center.center-root #center-hint { display: none; }
+  #tooltip {
+    position: fixed;
+    background: rgba(20,20,20,0.88);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s;
+    max-width: 260px;
+    z-index: 100;
+  }
+  #tooltip .path { color: #aaa; font-size: 11px; }
+  #hint { margin-top: 1rem; font-size: 0.75rem; color: #aaa; text-align: center; }
+  .table-panel { flex: 1 1 58%; min-width: 0; overflow-x: auto; }
+  .table-panel table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+  }
+  .table-panel th, .table-panel td {
+    border: 1px solid #eee;
+    padding: 0.5rem 0.6rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .table-panel th { background: #f5f5f5; }
+  .table-panel .swatch {
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 2px;
+    margin-right: 0.4em;
+    vertical-align: middle;
+  }
+  .panel-caption { margin-top: 0.75rem; font-size: 0.8rem; color: #888; text-align: center; }
+  .table-panel .panel-caption { text-align: left; }
+  .pill-link {
+    display: inline-flex;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1.5px solid #ddd;
+    background: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .pill-link:hover { border-color: #004E64; color: #004E64; }
+
   .disclaimer {
     background: #fff3cd;
     border: 1px solid #ffe69c;
@@ -163,7 +254,7 @@
     font-size: 14px;
   }
 
-  @media (max-width: 780px) {
+  @media (max-width: 900px) {
     .layout { flex-direction: column; }
     aside.sidebar, aside.sidebar.collapsed {
       flex: 0 0 auto;
@@ -184,8 +275,10 @@
     .brand img { width: 28px; height: 28px; flex: 0 0 28px; }
     nav.primary { flex-direction: row; }
     nav.primary hr.nav-separator { display: none; }
+    nav.primary a.nav-sub { padding: 0.5rem 0.6rem; }
     .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
     .panels-row { flex-direction: column; }
+    .sunburst-panel { flex: 1 1 auto; width: 100%; }
   }
 </style>
 </head>
@@ -203,15 +296,25 @@
         </button>
       </div>
       <div class="brand">
-        <a href="https://prenudge.at/"><img src="media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
+        <a href="https://prenudge.at/"><img src="{{ base_path }}media/PreNUDGE_Logo.png" alt="PreNUDGE"></a>
         <h1>Health Profile</h1>
       </div>
     </div>
     <nav class="primary">
-      <a href="{{ nav_explore_href }}" class="{{ 'active' if active == 'explore' else '' }}">
+      <a href="{{ nav_explore_href }}" class="{{ 'active' if active in ['explore', 'sunburst', 'table'] else '' }}">
+        <!-- Lucide "search" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        <span class="label">Explore</span>
+      </a>
+      <a href="{{ nav_sunburst_href }}" class="nav-sub {{ 'active' if active == 'sunburst' else '' }}">
         <!-- Lucide "chart-pie" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
-        <span class="label">Explore</span>
+        <span class="label">Sunburst</span>
+      </a>
+      <a href="{{ nav_table_href }}" class="nav-sub {{ 'active' if active == 'table' else '' }}">
+        <!-- Lucide "table" -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
+        <span class="label">Table</span>
       </a>
       <a href="{{ nav_downloads_href }}" class="{{ 'active' if active == 'downloads' else '' }}">
         <!-- Lucide "download" -->
@@ -224,7 +327,7 @@
         <span class="label">Release History</span>
       </span>
       <hr class="nav-separator">
-      <a class="cms-link" href="admin/index.html">
+      <a class="cms-link" href="{{ base_path }}admin/index.html">
         <!-- Lucide "database" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
         <span class="label">Metadata Editor</span>
@@ -237,7 +340,9 @@
   </aside>
 
   <main>
-    <p class="meta-bar">Version {{ version }} · Generated: {{ generated }}</p>
+    {% block page_title %}{% endblock %}
+    <p class="meta-bar">Version {{ version }} · Generated: {{ generated }}{% if profile.commit %} ·
+      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}</p>
     {% block content %}{% endblock %}
   </main>
 </div>
