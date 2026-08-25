@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.2-test | Generated: 2026-08-13_
+_Version: 0.1.2-test | Generated: 2026-08-25_
 
 ---
 
@@ -9,6 +9,7 @@ _Version: 0.1.2-test | Generated: 2026-08-13_
 - [Alcohol](#alcohol)
   - [Consumption frequency](#consumption-frequency)
 - [Anthropometry](#anthropometry)
+  - [Height, weight](#height-weight)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
 - [Physical Activity](#physical-activity)
@@ -48,7 +49,9 @@ _No observations recorded._
 
 <img src="media/ruler-dimension-line.png" alt="Anthropometry" width="48" style="background-color: #e0d3de; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Height, weight
+
+_No observations recorded._
 
 ---
 
@@ -195,7 +198,7 @@ _No observations recorded._
 
 ## Workability
 
-<img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
+<img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 _No dimensions recorded._
 
@@ -207,5 +210,7 @@ _Changes since version v0.1.2-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-13 | Theresa.Weitlaner |
+| 2026-08-25 | Theresa Weitlaner |
+| 2026-08-25 | github-actions[bot] |
 | 2026-08-13 | github-actions[bot] |
+| 2026-08-13 | Theresa.Weitlaner |

@@ -1,17 +1,25 @@
 {
   "version": "0.1.2-test",
-  "generated": "2026-08-13T14:09:15.763223+00:00",
-  "commit": "38c19540e58cb461c26b17d290fa3c0ce073566e",
+  "generated": "2026-08-25T12:37:20.910393+00:00",
+  "commit": "1e689ec983bbf5553c9352af5ad94c95a4551a16",
   "activity": {
     "since": "v0.1.2-test",
     "entries": [
       {
-        "date": "2026-08-13",
-        "author": "Theresa.Weitlaner"
+        "date": "2026-08-25",
+        "author": "Theresa Weitlaner"
+      },
+      {
+        "date": "2026-08-25",
+        "author": "github-actions[bot]"
       },
       {
         "date": "2026-08-13",
         "author": "github-actions[bot]"
+      },
+      {
+        "date": "2026-08-13",
+        "author": "Theresa.Weitlaner"
       }
     ]
   },
@@ -89,7 +97,31 @@
         "icon_upload": "/media/ruler-dimension-line.png",
         "color": "#e0d3de"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "heigth-weight",
+            "category": "anthropometry",
+            "title": "Größe, Gewicht",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "heigth-weight",
+            "category": "anthropometry",
+            "title": "Height, weight",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {
@@ -717,23 +749,29 @@
     {
       "de": {
         "template": "category",
-        "id_tech": "work",
-        "subject-area": "outcomes",
-        "title": "Arbeit",
         "key": "workability",
-        "icon_lucide": "briefcase-business",
+        "title": "Arbeit",
         "icon_upload": "/media/briefcase-business.png",
-        "color": "#9bc6a0"
+        "color": "#C5DDC8",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "subject-area": "outcomes",
+        "id_tech": "work",
+        "icon_lucide": "briefcase-business"
       },
       "en": {
         "template": "category",
-        "id_tech": "work",
-        "subject-area": "outcomes",
-        "title": "Workability",
         "key": "workability",
-        "icon_lucide": "briefcase-business",
+        "title": "Workability",
         "icon_upload": "/media/briefcase-business.png",
-        "color": "#9bc6a0"
+        "color": "#C5DDC8",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "subject-area": "outcomes",
+        "id_tech": "work",
+        "icon_lucide": "briefcase-business"
       },
       "dimensions": []
     }
