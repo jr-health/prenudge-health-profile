@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "heigth-weight",
+    "category": "anthropometry",
+    "title": "Größe, Gewicht",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "heigth-weight",
+    "category": "anthropometry",
+    "title": "Height, weight",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
