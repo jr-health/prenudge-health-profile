@@ -210,7 +210,8 @@ _Changes since version v0.1.2-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-25 | Theresa Weitlaner |
+| 2026-08-25 | Theresa.Weitlaner |
 | 2026-08-25 | github-actions[bot] |
+| 2026-08-25 | Theresa Weitlaner |
 | 2026-08-13 | github-actions[bot] |
 | 2026-08-13 | Theresa.Weitlaner |

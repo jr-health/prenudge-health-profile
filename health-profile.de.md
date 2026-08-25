@@ -281,7 +281,8 @@ _Änderungen seit Version v0.1.2-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-25 | Theresa Weitlaner |
+| 2026-08-25 | Theresa.Weitlaner |
 | 2026-08-25 | github-actions[bot] |
+| 2026-08-25 | Theresa Weitlaner |
 | 2026-08-13 | github-actions[bot] |
 | 2026-08-13 | Theresa.Weitlaner |
