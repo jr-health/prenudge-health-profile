@@ -1,31 +1,10 @@
 {
-  "version": "0.1.2-test",
-  "generated": "2026-08-25T15:14:29.307079+00:00",
-  "commit": "e0dc9f5abb1b45f663cf51655b179135fd23d318",
+  "version": "0.1.3-test",
+  "generated": "2026-08-25T15:17:31.086367+00:00",
+  "commit": "d4b7b15ce6ecf81dcf98e7e7a6a0515004d6487c",
   "activity": {
-    "since": "v0.1.2-test",
-    "entries": [
-      {
-        "date": "2026-08-25",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-08-25",
-        "author": "github-actions[bot]"
-      },
-      {
-        "date": "2026-08-25",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-08-13",
-        "author": "github-actions[bot]"
-      },
-      {
-        "date": "2026-08-13",
-        "author": "Theresa.Weitlaner"
-      }
-    ]
+    "since": "v0.1.3-test",
+    "entries": []
   },
   "categories": [
     {
