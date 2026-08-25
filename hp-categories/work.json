@@ -1,22 +1,28 @@
 {
   "de": {
     "template": "category",
-    "id_tech": "work",
-    "subject-area": "outcomes",
-    "title": "Arbeit",
     "key": "workability",
-    "icon_lucide": "briefcase-business",
+    "title": "Arbeit",
     "icon_upload": "/media/briefcase-business.png",
-    "color": "#9bc6a0"
+    "color": "#C5DDC8",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "",
+    "subject-area": "outcomes",
+    "id_tech": "work",
+    "icon_lucide": "briefcase-business"
   },
   "en": {
     "template": "category",
-    "id_tech": "work",
-    "subject-area": "outcomes",
-    "title": "Workability",
     "key": "workability",
-    "icon_lucide": "briefcase-business",
+    "title": "Workability",
     "icon_upload": "/media/briefcase-business.png",
-    "color": "#9bc6a0"
+    "color": "#C5DDC8",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "",
+    "subject-area": "outcomes",
+    "id_tech": "work",
+    "icon_lucide": "briefcase-business"
   }
 }
