@@ -198,7 +198,7 @@ _No observations recorded._
 
 ## Workability
 
-<img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #9bc6a0; padding: 6px; border-radius: 6px;">
+<img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 _No dimensions recorded._
 
@@ -211,5 +211,6 @@ _Changes since version v0.1.2-test:_
 | Date | Author |
 |---|---|
 | 2026-08-25 | Theresa Weitlaner |
+| 2026-08-25 | github-actions[bot] |
 | 2026-08-13 | github-actions[bot] |
 | 2026-08-13 | Theresa.Weitlaner |

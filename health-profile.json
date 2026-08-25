@@ -1,13 +1,17 @@
 {
   "version": "0.1.2-test",
-  "generated": "2026-08-25T12:07:35.250294+00:00",
-  "commit": "c3eb40d058165b83cc9c7d5abe3684e01e77348c",
+  "generated": "2026-08-25T12:37:20.910393+00:00",
+  "commit": "1e689ec983bbf5553c9352af5ad94c95a4551a16",
   "activity": {
     "since": "v0.1.2-test",
     "entries": [
       {
         "date": "2026-08-25",
         "author": "Theresa Weitlaner"
+      },
+      {
+        "date": "2026-08-25",
+        "author": "github-actions[bot]"
       },
       {
         "date": "2026-08-13",
@@ -745,23 +749,29 @@
     {
       "de": {
         "template": "category",
-        "id_tech": "work",
-        "subject-area": "outcomes",
-        "title": "Arbeit",
         "key": "workability",
-        "icon_lucide": "briefcase-business",
+        "title": "Arbeit",
         "icon_upload": "/media/briefcase-business.png",
-        "color": "#9bc6a0"
+        "color": "#C5DDC8",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "subject-area": "outcomes",
+        "id_tech": "work",
+        "icon_lucide": "briefcase-business"
       },
       "en": {
         "template": "category",
-        "id_tech": "work",
-        "subject-area": "outcomes",
-        "title": "Workability",
         "key": "workability",
-        "icon_lucide": "briefcase-business",
+        "title": "Workability",
         "icon_upload": "/media/briefcase-business.png",
-        "color": "#9bc6a0"
+        "color": "#C5DDC8",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "subject-area": "outcomes",
+        "id_tech": "work",
+        "icon_lucide": "briefcase-business"
       },
       "dimensions": []
     }
