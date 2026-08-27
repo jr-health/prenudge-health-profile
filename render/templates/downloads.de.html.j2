@@ -6,21 +6,9 @@
 <div class="panel">
   <p style="margin-bottom:0.3rem; color:#666; font-size:0.85rem;">Word (.docx)</p>
   <p>
-    <a href="{{ release_base }}/health-profile-v{{ version }}-{{ generated }}.de.docx" data-download-template="health-profile-v{{ version }}-{date}.de.docx">DE</a>
+    <a href="{{ release_base }}/health-profile-v{{ version }}-{{ generated }}.de.docx">DE</a>
     ·
-    <a href="{{ release_base }}/health-profile-v{{ version }}-{{ generated }}.en.docx" data-download-template="health-profile-v{{ version }}-{date}.en.docx">EN</a>
+    <a href="{{ release_base }}/health-profile-v{{ version }}-{{ generated }}.en.docx">EN</a>
   </p>
 </div>
-<script>
-  // Suggest today's date in the saved filename instead of the release date - the
-  // asset on GitHub keeps its fixed release-dated name, this only affects what the
-  // browser proposes when saving. Some browsers may still use the server's own
-  // filename (Content-Disposition) instead.
-  (function () {
-    var today = new Date().toISOString().slice(0, 10);
-    document.querySelectorAll('a[data-download-template]').forEach(function (a) {
-      a.setAttribute('download', a.getAttribute('data-download-template').replace('{date}', today));
-    });
-  })();
-</script>
 {% endblock %}
