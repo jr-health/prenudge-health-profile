@@ -44,9 +44,9 @@ Erzeugt/aktualisiert denselben Tag und dasselbe Release wie Variante (a).
 |---|---|
 | Validate | `validate.py --strict` — bricht bei kaputten Referenzen ab |
 | Consolidate | `consolidate.py --version <Version>` → `health-profile.json` |
-| Markdown | `render_doc.py` → `health-profile-v<Version>.{de,en}.md` |
-| AsciiDoc | `render_adoc.py` → `health-profile-v<Version>.{de,en}.adoc` |
-| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage, `--toc` für ein echtes Word-Inhaltsverzeichnis) → `health-profile-v<Version>.{de,en}.docx` |
+| Markdown | `render_doc.py` → `health-profile-v<Version>-<Datum>.{de,en}.md` |
+| AsciiDoc | `render_adoc.py` → `health-profile-v<Version>-<Datum>.{de,en}.adoc` |
+| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage, `--toc` für ein echtes Word-Inhaltsverzeichnis) → `health-profile-v<Version>-<Datum>.{de,en}.docx` |
 | Cover/Footer | `scripts/inject_cover_page.py` (braucht `python-docx`) ersetzt Pandocs generischen Titel-Absatz durch das echte Deckblatt aus der Stilvorlage (Titel/Version/Datum, PreNUDGE-Consortium-Link) und befüllt Version/Datum in beiden Fußzeilen (Deckblatt- und Standard-Fußzeile) |
 | Release | GitHub Release erstellen/aktualisieren mit Assets: `health-profile.json`, beide `.md`, beide `.docx` |
 
@@ -57,8 +57,11 @@ nicht im Quellcode-Baum.
 Das im Word-Export gezeigte Datum ("Generiert: …") ist bewusst das Datum des **releaseten
 Commits** (`git log -1 --date=short`), nicht der Build-Zeitpunkt — ein späterer erneuter
 `workflow_dispatch`-Lauf auf demselben Tag ändert das Datum im Bericht also nicht. Dasselbe
-Datum wird sowohl an `render_adoc.py --generated` als auch an `inject_cover_page.py
---generated` durchgereicht, damit `.adoc` und `.docx` konsistent bleiben.
+Datum wird an `render_doc.py --generated`, `render_adoc.py --generated` und
+`inject_cover_page.py --generated` durchgereicht, damit `.md`/`.adoc`/`.docx` konsistent
+bleiben — und steht seit 2026-08-27 auch im jeweiligen Dateinamen
+(`health-profile-v<Version>-<Datum>.{de,en}.{md,adoc,docx}`), damit mehrere
+heruntergeladene Versionen sich nicht gegenseitig überschreiben.
 
 ### 4. GitHub Page aktualisiert sich automatisch
 

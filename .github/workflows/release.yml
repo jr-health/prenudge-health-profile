@@ -64,7 +64,7 @@ jobs:
         run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
 
       - name: Render Markdown reports
-        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }}
+        run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
 
       - name: Render AsciiDoc
         run: python scripts/render_adoc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
@@ -74,9 +74,10 @@ jobs:
           set -e
           VERSION="${{ steps.version.outputs.value }}"
           GENERATED="${{ steps.version.outputs.generated }}"
+          STEM="health-profile-v${VERSION}-${GENERATED}"
           REFERENCE_DOCX="render/templates/PräNUDGE Berichtsvorlage.docx"
           for lang in de en; do
-            asciidoctor "health-profile-v${VERSION}.${lang}.adoc" -b docbook -o "/tmp/health-profile-v${VERSION}.${lang}.xml"
+            asciidoctor "${STEM}.${lang}.adoc" -b docbook -o "/tmp/${STEM}.${lang}.xml"
             if [ "$lang" = "de" ]; then
               toc_title="Inhaltsverzeichnis"
               title="PreNUDGE Gesundheitsprofil — Katalog"
@@ -88,9 +89,9 @@ jobs:
               --toc --toc-depth=3 \
               -M toc-title="$toc_title" \
               --reference-doc="$REFERENCE_DOCX" \
-              -o "health-profile-v${VERSION}.${lang}.docx" \
-              "/tmp/health-profile-v${VERSION}.${lang}.xml"
-            python scripts/inject_cover_page.py "health-profile-v${VERSION}.${lang}.docx" \
+              -o "${STEM}.${lang}.docx" \
+              "/tmp/${STEM}.${lang}.xml"
+            python scripts/inject_cover_page.py "${STEM}.${lang}.docx" \
               --reference "$REFERENCE_DOCX" \
               --title "$title" --version "$VERSION" --generated "$GENERATED" --lang "$lang"
           done
@@ -101,7 +102,7 @@ jobs:
           tag_name: v${{ steps.version.outputs.value }}
           files: |
             health-profile.json
-            health-profile-v${{ steps.version.outputs.value }}.de.md
-            health-profile-v${{ steps.version.outputs.value }}.en.md
-            health-profile-v${{ steps.version.outputs.value }}.de.docx
-            health-profile-v${{ steps.version.outputs.value }}.en.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.de.md
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.en.md
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.de.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.en.docx

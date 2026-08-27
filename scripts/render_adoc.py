@@ -5,8 +5,8 @@ Jinja2 -> .adoc -> asciidoctor -> docbook -> pandoc -> .docx
 
 Templates:  render/templates/health-profile.de.adoc.j2
             render/templates/health-profile.en.adoc.j2
-Output:     health-profile-v<version>.de.adoc
-            health-profile-v<version>.en.adoc
+Output:     health-profile-v<version>-<generated>.de.adoc
+            health-profile-v<version>-<generated>.en.adoc
 
 Usage:
     python scripts/render_adoc.py
@@ -56,6 +56,7 @@ def main():
         profile["generated"] = args.generated
 
     version = profile.get("version", "unreleased")
+    generated = profile.get("generated", "")[:10] or "undated"
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -68,7 +69,7 @@ def main():
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.adoc.j2")
         content = template.render(profile=profile)
-        out_path = out_dir / f"health-profile-v{version}.{locale}.adoc"
+        out_path = out_dir / f"health-profile-v{version}-{generated}.{locale}.adoc"
         out_path.write_text(content, encoding="utf-8")
         print(f"  Written: {out_path}")
 

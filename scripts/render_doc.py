@@ -3,7 +3,7 @@ Renders health-profile.json into Markdown documents via Jinja2 templates.
 
 Templates:  render/templates/health-profile.de.md.j2
             render/templates/health-profile.en.md.j2
-Output:     health-profile-v<version>.de.md / .en.md (default)
+Output:     health-profile-v<version>-<generated>.de.md / .en.md (default)
             health-profile.de.md / .en.md (with --latest)
 
 --latest writes the unversioned filename instead - used for the copy committed to the
@@ -45,8 +45,9 @@ def main():
     parser.add_argument("--src", default=str(ROOT / "health-profile.json"), help="Input JSON file")
     parser.add_argument("--out-dir", default=str(ROOT), help="Output directory")
     parser.add_argument("--version", default=None, help="Override version (default: taken from JSON)")
+    parser.add_argument("--generated", default=None, help="Override generation date, e.g. 2026-08-13 (default: taken from JSON)")
     parser.add_argument("--latest", action="store_true",
-                         help="Write health-profile.<locale>.md instead of health-profile-v<version>.<locale>.md")
+                         help="Write health-profile.<locale>.md instead of health-profile-v<version>-<generated>.<locale>.md")
     args = parser.parse_args()
 
     src = Path(args.src)
@@ -56,8 +57,11 @@ def main():
     profile = json.loads(src.read_text(encoding="utf-8"))
     if args.version:
         profile["version"] = args.version
+    if args.generated:
+        profile["generated"] = args.generated
 
     version = profile.get("version", "unreleased")
+    generated = profile.get("generated", "")[:10] or "undated"
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -70,7 +74,7 @@ def main():
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.md.j2")
         content = template.render(profile=profile)
-        filename = f"health-profile.{locale}.md" if args.latest else f"health-profile-v{version}.{locale}.md"
+        filename = f"health-profile.{locale}.md" if args.latest else f"health-profile-v{version}-{generated}.{locale}.md"
         out_path = out_dir / filename
         out_path.write_text(content, encoding="utf-8")
         print(f"  Written: {out_path}")

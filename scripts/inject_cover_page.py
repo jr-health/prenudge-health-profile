@@ -16,7 +16,7 @@ correct however it's viewed. The title-page footer's date was a live DATE field
 doesn't silently change every time someone opens the file.
 
 Usage:
-    python scripts/inject_cover_page.py health-profile-v1.2.0.de.docx \
+    python scripts/inject_cover_page.py health-profile-v1.2.0-2026-08-26.de.docx \
         --reference "render/templates/PräNUDGE Berichtsvorlage.docx" \
         --title "PreNUDGE Gesundheitsprofil — Katalog" \
         --version 1.2.0 --generated 2026-08-26 --lang de
