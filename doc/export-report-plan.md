@@ -75,12 +75,72 @@ verlinken.
   Fachlich zu klären, ob das gewünscht ist — falls ja, Templates entsprechend erweitern.
 - **Corporate-Table-Style-Patch (Schritt 18, nur Word):** Der `Table`-Style in
   `render/templates/PräNUDGE Berichtsvorlage.docx` wurde manuell in die `.docx`-Vorlage
-  gepatcht (geklont von `Table Grid`). Bei mehreren/größeren Tabellen (z. B. viele
-  Messinstrumente mit vielen `terminology-codes`) noch nicht in der Breite getestet.
+  gepatcht (geklont von `Table Grid`). **Update 2026-08-27:** Style um `firstRow` (fett),
+  `band1Horz`/`band2Horz` (abwechselnd hellgrau/weiß), hellgraue Rahmenfarbe und
+  `tblCellMar` (mehr Zeilenabstand) erweitert (siehe "Word-Export-Überarbeitung" unten). Bei
+  mehreren/größeren Tabellen (z. B. viele Messinstrumente mit vielen `terminology-codes`)
+  weiterhin nicht in der Breite getestet — nur gegen dieselben dünnen Testdaten wie zuvor.
 - **Neu (2026-08, `disease-association`-Feld):** Wurde laut Commit `8653e16` bereits allen
   Observation-Templates (Markdown und AsciiDoc) hinzugefügt — beim nächsten Review mit echten
   Daten gegenprüfen, ob es in Markdown-Report **und** `.docx` korrekt erscheint (bisher nur an
   Testdaten verifiziert, nicht an einem inhaltlich befüllten Fall).
+
+## Word-Export-Überarbeitung (2026-08-27, erledigt)
+
+Auf Basis von direktem Feedback am gerenderten `.docx` wurde die Word-Ausgabe überarbeitet.
+Zusammenfassung, weil die Details (insbesondere die zwei OOXML-Fallstricke unten) sonst
+leicht erneut "entdeckt" werden müssten:
+
+- Icons in den Kategorie-Überschriften entfernt (DE+EN).
+- Inhaltsverzeichnis: von einer manuell gebauten Aufzählungsliste auf ein echtes
+  Word-Feld umgestellt (`pandoc --toc --toc-depth=3`, lokalisierter Titel via `-M
+  toc-title=…`). Dafür fehlte der Vorlage ein `toc 3`-Style (`Verzeichnis3`, geklont von
+  `Verzeichnis2`) — ergänzt.
+- Messinstrument-Bezeichnungen sind jetzt echte Heading-5-Absätze (`======` in AsciiDoc)
+  statt fettem Fließtext — nummeriert sich über die bereits vorhandene
+  Gliederungsnummerierung der Vorlage automatisch mit (kein neuer Style nötig, Heading 5
+  war schon vollständig verdrahtet).
+- „Verifizierte Gesundheitsinformation" umgebaut: Links stehen jetzt direkt unter
+  „Beschreibung für Fachpersonal:", aufgeteilt nach Zielgruppe in zwei Listen
+  („Weiterführende Links für Fachpersonal" / „…für Bürger:innen", die zweite nach
+  „Information für Bevölkerung").
+- Bearbeitungshistorie: `github-actions[bot]`-Commits werden in `consolidate.py`
+  herausgefiltert.
+- **Echtes Deckblatt statt Pandoc-Platzhalter:** Pandoc erzeugt aus dem AsciiDoc-Titel nur
+  einen generischen "Title"-Absatz — kein echtes Deckblatt mit Logo/Layout, weil
+  `--reference-doc` nur Styles kopiert, keinen Body-Inhalt. Neues Skript
+  `scripts/inject_cover_page.py` (braucht `python-docx`) kopiert nach dem `pandoc`-Lauf
+  das echte Deckblatt (Logo, Titel, Version/Datum, Link zum PreNUDGE Consortium) aus der
+  Referenzvorlage in die generierte `.docx` und befüllt außerdem Version/Datum in beiden
+  Fußzeilen (Deckblatt- und Standard-Fußzeile).
+- Das angezeigte Datum ist das Datum des releaseten Commits (`git log -1 --date=short`),
+  nicht der Build-Zeitpunkt — an `render_adoc.py`/`inject_cover_page.py` per `--generated`
+  durchgereicht (siehe `doc/release.md`).
+
+**Zwei nicht offensichtliche OOXML-Fallstricke, an denen unterwegs echte
+"Word hat unlesbaren Inhalt gefunden"-Reparaturdialoge auftraten** — relevant, falls an
+`inject_cover_page.py` oder der Referenzvorlage weitergearbeitet wird:
+
+1. **Leere Links → kaputte Hyperlink-Relationship:** Ein `verified-health-links`-Eintrag
+   mit leerer `url` (Restdaten aus einem nie ausgefüllten CMS-Listeneintrag, in
+   `hp-dimensions/dietary-pattern.json`) rendert als `link:[]` im AsciiDoc → Word-Beziehung
+   mit leerem `Target` → Reparaturdialog. Templates filtern Links ohne `url` jetzt heraus
+   (siehe Abschnitt "Rich-Text-Syntax-Mismatch" oben, verwandtes Risiko).
+2. **`w:dataBinding` auf ein `customXml`-Teil, das im Zielpaket gar nicht existiert:** Die
+   Titel-/Autor-Inhaltssteuerelemente auf dem Deckblatt der Referenzvorlage sind an
+   `docProps/core.xml` gebunden (`w:dataBinding` → `customXml/item1.xml`). Nur den
+   sichtbaren Text zu ersetzen reicht nicht — die Bindung zeigt weiterhin auf ein
+   `customXml`-Teil, das im von Pandoc erzeugten Paket nie existiert hat. Word erkennt das
+   beim Öffnen als unlesbar. Fix: `inject_cover_page.py` entfernt die
+   Inhaltssteuerelemente vollständig (`unwrap_sdt`) und lässt nur den reinen Text übrig.
+   Ebenso zu beachten: Textfelder/Formen in Word liegen fast immer doppelt vor
+   (`mc:AlternateContent` mit `Choice`/`Fallback` für neuere/ältere Word-Versionen) — das
+   sieht beim ersten Blick in die XML wie ein versehentliches Duplikat aus, ist aber
+   Standardverhalten und beide Zweige müssen befüllt werden.
+
+Zusätzlich entdeckt und behoben: Die Fußzeile des Deckblatts enthielt ein echtes,
+aktualisierbares Word-`DATE`-Feld statt eines festen Werts — hätte bei jedem Öffnen das
+_aktuelle_ Datum angezeigt statt des Release-Datums. Jetzt durch festen Text ersetzt.
 
 ## Vorgehen, sobald genug echte Daten vorliegen
 

@@ -102,7 +102,7 @@ the browse view regeneration in one step:
 | Workflow | Trigger | Does |
 |---|---|---|
 | `update-profile.yml` | Push to `main` touching content, `scripts/`, or `render/templates/` | Validates, consolidates, renders Markdown + the browse view, commits the generated files back |
-| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
+| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`), then injects the real cover page/footers into the `.docx` (`scripts/inject_cover_page.py`, needs `python-docx`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
 | `pages.yml` | After a successful `Release` run, or manual dispatch | Builds the GitHub Pages landing page (sunburst, browse view, CMS editor, download links to the latest release's Word exports) |
 
 See `doc/release.md` for the full release/versioning process and `doc/github-actions-plan.md`

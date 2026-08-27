@@ -46,12 +46,19 @@ Erzeugt/aktualisiert denselben Tag und dasselbe Release wie Variante (a).
 | Consolidate | `consolidate.py --version <Version>` → `health-profile.json` |
 | Markdown | `render_doc.py` → `health-profile-v<Version>.{de,en}.md` |
 | AsciiDoc | `render_adoc.py` → `health-profile-v<Version>.{de,en}.adoc` |
-| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage) → `health-profile-v<Version>.{de,en}.docx` |
+| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage, `--toc` für ein echtes Word-Inhaltsverzeichnis) → `health-profile-v<Version>.{de,en}.docx` |
+| Cover/Footer | `scripts/inject_cover_page.py` (braucht `python-docx`) ersetzt Pandocs generischen Titel-Absatz durch das echte Deckblatt aus der Stilvorlage (Titel/Version/Datum, PreNUDGE-Consortium-Link) und befüllt Version/Datum in beiden Fußzeilen (Deckblatt- und Standard-Fußzeile) |
 | Release | GitHub Release erstellen/aktualisieren mit Assets: `health-profile.json`, beide `.md`, beide `.docx` |
 
 Der Workflow committet dabei **nichts** zurück ins Repo (siehe `doc/github-actions-plan.md`,
 Design-Entscheidung 4) — die Release-Assets liegen ausschließlich am GitHub Release selbst,
 nicht im Quellcode-Baum.
+
+Das im Word-Export gezeigte Datum ("Generiert: …") ist bewusst das Datum des **releaseten
+Commits** (`git log -1 --date=short`), nicht der Build-Zeitpunkt — ein späterer erneuter
+`workflow_dispatch`-Lauf auf demselben Tag ändert das Datum im Bericht also nicht. Dasselbe
+Datum wird sowohl an `render_adoc.py --generated` als auch an `inject_cover_page.py
+--generated` durchgereicht, damit `.adoc` und `.docx` konsistent bleiben.
 
 ### 4. GitHub Page aktualisiert sich automatisch
 

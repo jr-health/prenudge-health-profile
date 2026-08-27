@@ -34,7 +34,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Python dependencies
-        run: pip install jinja2
+        run: pip install jinja2 python-docx
 
       - name: Install asciidoctor
         run: sudo gem install asciidoctor --no-document
@@ -53,6 +53,9 @@ jobs:
             TAG="${GITHUB_REF_NAME}"
             echo "value=${TAG#v}" >> $GITHUB_OUTPUT
           fi
+          # Date of the released commit, not the build time - so re-running/re-tagging
+          # later doesn't silently shift the date shown in the reports.
+          echo "generated=$(git log -1 --format=%ad --date=short)" >> $GITHUB_OUTPUT
 
       - name: Validate references
         run: python scripts/validate.py --strict
@@ -64,18 +67,32 @@ jobs:
         run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }}
 
       - name: Render AsciiDoc
-        run: python scripts/render_adoc.py --version ${{ steps.version.outputs.value }}
+        run: python scripts/render_adoc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
 
       - name: Convert AsciiDoc to Word via DocBook
         run: |
           set -e
           VERSION="${{ steps.version.outputs.value }}"
+          GENERATED="${{ steps.version.outputs.generated }}"
+          REFERENCE_DOCX="render/templates/PräNUDGE Berichtsvorlage.docx"
           for lang in de en; do
             asciidoctor "health-profile-v${VERSION}.${lang}.adoc" -b docbook -o "/tmp/health-profile-v${VERSION}.${lang}.xml"
+            if [ "$lang" = "de" ]; then
+              toc_title="Inhaltsverzeichnis"
+              title="PreNUDGE Gesundheitsprofil — Katalog"
+            else
+              toc_title="Table of Contents"
+              title="PreNUDGE Health Profile — Catalogue"
+            fi
             pandoc -f docbook -t docx \
-              --reference-doc="render/templates/PräNUDGE Berichtsvorlage.docx" \
+              --toc --toc-depth=3 \
+              -M toc-title="$toc_title" \
+              --reference-doc="$REFERENCE_DOCX" \
               -o "health-profile-v${VERSION}.${lang}.docx" \
               "/tmp/health-profile-v${VERSION}.${lang}.xml"
+            python scripts/inject_cover_page.py "health-profile-v${VERSION}.${lang}.docx" \
+              --reference "$REFERENCE_DOCX" \
+              --title "$title" --version "$VERSION" --generated "$GENERATED" --lang "$lang"
           done
 
       - name: Create GitHub Release

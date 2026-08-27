@@ -57,10 +57,13 @@ def git_activity() -> dict:
         if "|" not in line:
             continue
         date, author = line.split("|", 1)
-        key = (date.strip(), author.strip())
+        date, author = date.strip(), author.strip()
+        if author == "github-actions[bot]":
+            continue
+        key = (date, author)
         if key not in seen:
             seen.add(key)
-            entries.append({"date": date.strip(), "author": author.strip()})
+            entries.append({"date": date, "author": author})
 
     return {"since": last_tag, "entries": entries}
 

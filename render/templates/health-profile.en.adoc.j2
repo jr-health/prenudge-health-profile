@@ -1,33 +1,12 @@
 = PreNUDGE Health Profile — Catalogue
 
-_Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
+_Version {{ profile.version }} · Generated: {{ profile.generated[:10] }}_
 
-'''
-
-== Table of Contents
-
-{% for cat in profile.categories %}
-{% set c = cat.en %}
-* <<{{ c.title | default(cat.de.title) | anchor }},{{ c.title | default(cat.de.title) }}>>
-{% for dim in cat.dimensions %}
-{% set d = dim.en %}
-** <<{{ d.title | default(dim.de.title) | anchor }},{{ d.title | default(dim.de.title) }}>>
-{% for obs in dim.observations %}
-{% set o = obs.en %}
-*** <<{{ o.title | default(obs.de.title) | anchor }},{{ o.title | default(obs.de.title) }}>>
-{% endfor %}
-{% endfor %}
-{% endfor %}
-{% if profile.activity and profile.activity.entries %}
-* <<edit-history,Edit History>>
-{% endif %}
-
-'''
 {% for cat in profile.categories %}
 {% set c = cat.en %}
 
 [[{{ c.title | default(cat.de.title) | anchor }}]]
-== {% if c.icon_upload %}image:{{ c.icon_upload.lstrip('/') }}[{{ c.title | default(cat.de.title) }},24] {% endif %}{{ c.title | default(cat.de.title) }}
+== {{ c.title | default(cat.de.title) }}
 {% if c.get('description-professional') %}
 
 *Description for Healthcare Professionals:*
@@ -55,19 +34,37 @@ _No dimensions recorded._
 
 {{ d['description_professional'] }}
 {% endif %}
+{% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
+{% set prof_links = [] %}
+{% set citizen_links = [] %}
+{% for link in links %}
+{% if link.get('url') %}
+{% set audience = link.get('audience') or [] %}
+{% if not audience or 'Healthcare professionals' in audience %}{% set _ = prof_links.append(link) %}{% endif %}
+{% if not audience or 'Laymen / citizens' in audience %}{% set _ = citizen_links.append(link) %}{% endif %}
+{% endif %}
+{% endfor %}
+{% if prof_links %}
+
+*Further Links for Healthcare Professionals:*
+
+{% for link in prof_links %}
+* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+
+{% endfor %}
+{% endif %}
 {% if d.get('description_layman') %}
 
 *Information for the Public:*
 
 {{ d['description_layman'] }}
 {% endif %}
-{% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
-{% if links %}
+{% if citizen_links %}
 
-*Verified Health Information:*
+*Further Links for the Public:*
 
-{% for link in links %}
-* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('audience') %} _(Audience: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+{% for link in citizen_links %}
+* link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
 
 {% endfor %}
 {% endif %}
@@ -109,7 +106,7 @@ _No observations recorded._
 {% set instr_label = instr.get('source-type') or 'Measurement Instrument' %}
 {% if instr.get('device') %}{% set instr_label = instr_label ~ ' - ' ~ instr['device'] %}{% endif %}
 
-*{{ instr_label }}*
+====== {{ instr_label }}
 
 [cols="1,3"]
 |===

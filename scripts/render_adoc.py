@@ -11,6 +11,7 @@ Output:     health-profile-v<version>.de.adoc
 Usage:
     python scripts/render_adoc.py
     python scripts/render_adoc.py --version 1.2.0
+    python scripts/render_adoc.py --version 1.2.0 --generated 2026-08-13
     python scripts/render_adoc.py --src path/to/health-profile.json
     python scripts/render_adoc.py --out-dir doc/output
 
@@ -41,6 +42,7 @@ def main():
     parser.add_argument("--src", default=str(ROOT / "health-profile.json"), help="Input JSON file")
     parser.add_argument("--out-dir", default=str(ROOT), help="Output directory")
     parser.add_argument("--version", default=None, help="Override version (default: taken from JSON)")
+    parser.add_argument("--generated", default=None, help="Override generation date, e.g. 2026-08-13 (default: taken from JSON)")
     args = parser.parse_args()
 
     src = Path(args.src)
@@ -50,6 +52,8 @@ def main():
     profile = json.loads(src.read_text(encoding="utf-8"))
     if args.version:
         profile["version"] = args.version
+    if args.generated:
+        profile["generated"] = args.generated
 
     version = profile.get("version", "unreleased")
 
