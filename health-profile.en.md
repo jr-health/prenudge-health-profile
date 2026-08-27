@@ -31,6 +31,7 @@ _Version: 0.1.4-test | Generated: 2026-08-27_
   - [Gender](#gender)
   - [Socio-economic Status](#socio-economic-status)
 - [Workability](#workability)
+- [Edit History](#edit-history)
 
 ---
 
@@ -202,3 +203,11 @@ _No observations recorded._
 _No dimensions recorded._
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.4-test:_
+
+| Date | Author |
+|---|---|
+| 2026-08-27 | Theresa.Weitlaner |
