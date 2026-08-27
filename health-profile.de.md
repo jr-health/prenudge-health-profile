@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.3-test | Generiert: 2026-08-27_
+_Version: 0.1.4-test | Generiert: 2026-08-27_
 
 ---
 
@@ -31,7 +31,6 @@ _Version: 0.1.3-test | Generiert: 2026-08-27_
   - [Geschlecht](#geschlecht)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
 - [Arbeit](#arbeit)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -274,11 +273,3 @@ _Keine Beobachtungen erfasst._
 _Keine Dimensionen erfasst._
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.3-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-08-27 | Theresa.Weitlaner |
