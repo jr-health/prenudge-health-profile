@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:57:42.264279+00:00",
-  "commit": "fb8818cba5c187b20f50f48f12c222746541ce42",
+  "generated": "2026-08-28T08:57:57.912961+00:00",
+  "commit": "7e290647cfdb22330da3188af13a29b7a659de0a",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -1317,7 +1317,7 @@
               "de": {
                 "template": "observation",
                 "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
-                "title": "Häufigkeit der Einhaltung von schlaffördernden Routinen",
+                "title": "schlaffördernden Routinen (Häufigkeit/Woche)",
                 "description": "",
                 "category": "sleep",
                 "dimension": "schlafhygiene",

@@ -42,7 +42,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
   - [Schlafhygiene](#schlafhygiene)
-    - [Häufigkeit der Einhaltung von schlaffördernden Routinen](#häufigkeit-der-einhaltung-von-schlaffördernden-routinen)
+    - [schlaffördernden Routinen (Häufigkeit/Woche)](#schlaffördernden-routinen-häufigkeitwoche)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
@@ -355,7 +355,7 @@ _Keine Dimensionen erfasst._
 
 ### Schlafhygiene
 
-#### Häufigkeit der Einhaltung von schlaffördernden Routinen
+#### schlaffördernden Routinen (Häufigkeit/Woche)
 
 ### Schlafdauer
 
@@ -452,6 +452,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
