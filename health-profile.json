@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:57:57.912961+00:00",
-  "commit": "7e290647cfdb22330da3188af13a29b7a659de0a",
+  "generated": "2026-08-28T08:58:24.934087+00:00",
+  "commit": "3a3bbd52571293e75834b11dc888ea6dfa1a959c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1380,7 +1380,7 @@
               "de": {
                 "template": "observation",
                 "key": "einschlafzeit",
-                "title": "Dauer der Einschlafzeit",
+                "title": "Dauer der Einschlafzeit (durchschnittliche Minuten)",
                 "description": "",
                 "category": "sleep",
                 "dimension": "sleep-quality",

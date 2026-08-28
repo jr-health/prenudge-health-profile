@@ -45,7 +45,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [schlaffördernden Routinen (Häufigkeit/Woche)](#schlaffördernden-routinen-häufigkeitwoche)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
-    - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
+    - [Dauer der Einschlafzeit (durchschnittliche Minuten)](#dauer-der-einschlafzeit-durchschnittliche-minuten)
 - [Rauchen](#rauchen)
   - [E-Zigaretten/Tabakerhitzer](#e-zigarettentabakerhitzer)
     - [E-Zigaretten/Tabakerhitzer (Anzahl/Woche)](#e-zigarettentabakerhitzer-anzahlwoche)
@@ -363,7 +363,7 @@ _Keine Beobachtungen erfasst._
 
 ### Schlafqualität
 
-#### Dauer der Einschlafzeit
+#### Dauer der Einschlafzeit (durchschnittliche Minuten)
 
 ---
 
