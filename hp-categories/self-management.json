@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "key": "self-management",
+    "title": "Selbstmanagement",
+    "icon_upload": "",
+    "color": "#c7d2d3",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  },
+  "en": {
+    "template": "category",
+    "key": "self-management",
+    "title": "Self-management",
+    "icon_upload": "",
+    "color": "#c7d2d3",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  }
+}
