@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
+- [Sexualität](#sexualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
@@ -390,6 +391,14 @@ _Keine Dimensionen erfasst._
 ## Selbstmanagement
 
 <img src="media/notebook-pen.png" alt="Selbstmanagement" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
+
+_Keine Dimensionen erfasst._
+
+---
+
+## Sexualität
+
+<img src="media/venus-and-mars.png" alt="Sexualität" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
 
 _Keine Dimensionen erfasst._
 

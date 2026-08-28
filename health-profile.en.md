@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
 - [Self-management](#self-management)
+- [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
     - [self_reports_chronotype](#self_reports_chronotype)
@@ -310,6 +311,14 @@ _No dimensions recorded._
 ## Self-management
 
 <img src="media/notebook-pen.png" alt="Self-management" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
+
+_No dimensions recorded._
+
+---
+
+## Sexuality
+
+<img src="media/venus-and-mars.png" alt="Sexuality" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
 
 _No dimensions recorded._
 

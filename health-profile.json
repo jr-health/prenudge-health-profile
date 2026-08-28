@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:47:30.281937+00:00",
-  "commit": "068bef28a1f0499c3808aa37e45763efcfc83ba4",
+  "generated": "2026-08-28T11:51:58.844309+00:00",
+  "commit": "cd67511d0264d88dcaa3ef7e30fd15bd0dabfc80",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1607,6 +1607,29 @@
         "title": "Self-management",
         "icon_upload": "/media/notebook-pen.png",
         "color": "#c7d2d3",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": ""
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "key": "sexuality",
+        "title": "Sexualität",
+        "icon_upload": "/media/venus-and-mars.png",
+        "color": "#D6C6C2",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": ""
+      },
+      "en": {
+        "template": "category",
+        "key": "sexuality",
+        "title": "Sexuality",
+        "icon_upload": "/media/venus-and-mars.png",
+        "color": "#D6C6C2",
         "description-professional": "",
         "description-laymen": "",
         "discussion": ""
