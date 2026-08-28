@@ -1,7 +1,7 @@
 {
   "de": {
     "template": "category",
-    "key": "workability",
+    "key": "work",
     "title": "Arbeit",
     "icon_upload": "/media/briefcase-business.png",
     "color": "#C5DDC8",
@@ -14,7 +14,7 @@
   },
   "en": {
     "template": "category",
-    "key": "workability",
+    "key": "work",
     "title": "Workability",
     "icon_upload": "/media/briefcase-business.png",
     "color": "#C5DDC8",
