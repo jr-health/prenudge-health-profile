@@ -481,6 +481,7 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
+| 2026-08-28 | Theresa.Weitlaner |
 | 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
