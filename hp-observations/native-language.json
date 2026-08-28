@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "native-language",
+    "title": "Muttersprache",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "socio-economic-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "native-language",
+    "title": "Native language",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "socio-economic-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
