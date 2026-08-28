@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "category",
+    "key": "sexuality",
+    "title": "Sexualität",
+    "icon_upload": "/media/venus-and-mars.png",
+    "color": "#D6C6C2",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  },
+  "en": {
+    "template": "category",
+    "key": "sexuality",
+    "title": "Sexuality",
+    "icon_upload": "/media/venus-and-mars.png",
+    "color": "#D6C6C2",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": ""
+  }
+}
