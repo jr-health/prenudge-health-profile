@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:25:03.589694+00:00",
-  "commit": "c59f5a12c20b68ccc33ef0e25ce7762eb17caea3",
+  "generated": "2026-08-28T12:26:24.849796+00:00",
+  "commit": "98ea939a8e1d9a2ee6124b1fc45a5431be241f8f",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1714,6 +1714,34 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "documentation-of-blood-glucose-level",
+                "title": "Dokumentation von Blutzuckerwert (mmol/l?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "documentation-of-blood-glucose-level",
+                "title": "Independent documentation of blood glucose level (mmol/l?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
             {
               "de": {
                 "template": "observation",

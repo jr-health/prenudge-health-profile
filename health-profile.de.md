@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Selbstüberwachung](#selbstüberwachung)
+    - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
     - [Eigenständige Dokumentation von Körpergewicht (kg)](#eigenständige-dokumentation-von-körpergewicht-kg)
     - [Eigenständige Dokumentation von Herzfrequenz (bpm?)](#eigenständige-dokumentation-von-herzfrequenz-bpm)
@@ -414,6 +415,8 @@ _Keine Dimensionen erfasst._
 #### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
 ### Selbstüberwachung
+
+#### Dokumentation von Blutzuckerwert (mmol/l?)
 
 #### Eigenständige Dokumentation von Blutdruck (mmHg?)
 

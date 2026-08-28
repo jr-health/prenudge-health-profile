@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Health literacy](#health-literacy)
     - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
   - [Self-monitoring](#self-monitoring)
+    - [Independent documentation of blood glucose level (mmol/l?)](#independent-documentation-of-blood-glucose-level-mmoll)
     - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
     - [Independent documentation of body weight (kg)](#independent-documentation-of-body-weight-kg)
     - [Independent documentation of heart rate (bpm?)](#independent-documentation-of-heart-rate-bpm)
@@ -334,6 +335,8 @@ _No dimensions recorded._
 #### Reporting symptoms or changes to healthcare professionals
 
 ### Self-monitoring
+
+#### Independent documentation of blood glucose level (mmol/l?)
 
 #### Independent documentation of blood pressure (mmHg?)
 
