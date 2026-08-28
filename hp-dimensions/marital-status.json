@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "marital-status",
+    "category": "sociodemographic-data",
+    "title": "Familienstand",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "marital-status",
+    "category": "sociodemographic-data",
+    "title": "Marital status",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
