@@ -25,7 +25,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [moderater und intensiver körperlichen Aktivität (Minuten/Woche)](#moderater-und-intensiver-körperlichen-aktivität-minutenwoche)
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
-    - [leicht körperlicher Aktivität (Minuten pro Tag)](#leicht-körperlicher-aktivität-minuten-pro-tag)
+    - [leicht körperlicher Aktivität (Minuten/Tag)](#leicht-körperlicher-aktivität-minutentag)
   - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
     - [Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)](#beweglichkeitsflexibilitätseinheiten-einheitenwoche)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
@@ -276,7 +276,7 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 #### Schrittzahl (pro Tag)
 
-#### leicht körperlicher Aktivität (Minuten pro Tag)
+#### leicht körperlicher Aktivität (Minuten/Tag)
 
 ##### Messinstrumente
 

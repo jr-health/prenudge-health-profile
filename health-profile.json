@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:02:42.999690+00:00",
-  "commit": "0295de5491b8dfb8440d2a0b182aa572bb39b313",
+  "generated": "2026-08-28T09:06:03.959932+00:00",
+  "commit": "cc53d8c5aef8258c733abd4b02f716c6ab8bb3de",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -820,7 +820,7 @@
               "de": {
                 "template": "observation",
                 "key": "zeit-leichte-koerperliche-aktivitaet",
-                "title": "leicht körperlicher Aktivität (Minuten pro Tag)",
+                "title": "leicht körperlicher Aktivität (Minuten/Tag)",
                 "description": "",
                 "category": "physical-activity",
                 "dimension": "everyday-activity",
