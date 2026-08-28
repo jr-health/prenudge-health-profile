@@ -54,6 +54,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Quality of Life](#quality-of-life)
 - [Self-management](#self-management)
   - [Communication/Understanding](#communicationunderstanding)
+    - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
@@ -317,7 +318,7 @@ _No dimensions recorded._
 
 ### Communication/Understanding
 
-_No observations recorded._
+#### Reporting symptoms or changes to healthcare professionals
 
 ### Technology use
 

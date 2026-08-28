@@ -54,6 +54,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
   - [Kommunikation/Verständnis](#kommunikationverständnis)
+    - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
@@ -397,7 +398,7 @@ _Keine Dimensionen erfasst._
 
 ### Kommunikation/Verständnis
 
-_Keine Beobachtungen erfasst._
+#### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
 ### Technologieeinsatz
 
