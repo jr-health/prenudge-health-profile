@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Größe, Gewicht](#größe-gewicht)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
+    - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
     - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
@@ -93,6 +94,8 @@ _Keine Beobachtungen erfasst._
 
 **Verifizierte Gesundheitsinformation:**
 - []()
+
+#### Fisch/Fleisch (Portionen/Woche)
 
 #### Getreide-Erdäpfel-Portionen-Tag
 
@@ -397,6 +400,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Height, weight](#height-weight)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
+    - [fish-meat portions week](#fish-meat-portions-week)
     - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
     - [Legume portions per week](#legume-portions-per-week)
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
@@ -93,6 +94,8 @@ _No observations recorded._
 
 **Verified Health Information:**
 - []()
+
+#### fish-meat portions week
 
 #### Cereales Potatoes Portions per day
 
@@ -325,6 +328,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
