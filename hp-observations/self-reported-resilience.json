@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "self-reported-resilience",
+    "title": "Selbstbericht über Resilienz",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "coping-ability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "self-reported-resilience",
+    "title": "Self-reported resilience",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "coping-ability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
