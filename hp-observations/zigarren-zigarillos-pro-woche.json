@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "zigarren-zigarillos-pro-woche",
+    "title": "Zigarren/Zigarillos pro Woche",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigarren-zigarillos",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "zigarren-zigarillos-pro-woche",
+    "title": "cigarres or cigarrilos per week",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigarren-zigarillos",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
