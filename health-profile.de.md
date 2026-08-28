@@ -60,6 +60,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
   - [Sexuelle Zufriedenheit](#sexuelle-zufriedenheit)
+    - [Selbstberichtete sexuelle Zufriedenheit](#selbstberichtete-sexuelle-zufriedenheit)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
@@ -420,7 +421,7 @@ _Keine Dimensionen erfasst._
 
 ### Sexuelle Zufriedenheit
 
-_Keine Beobachtungen erfasst._
+#### Selbstberichtete sexuelle Zufriedenheit
 
 ---
 

@@ -60,6 +60,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
   - [Sexual satisfaction](#sexual-satisfaction)
+    - [Self-reported sexual satisfaction](#self-reported-sexual-satisfaction)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
     - [self_reports_chronotype](#self_reports_chronotype)
@@ -340,7 +341,7 @@ _No dimensions recorded._
 
 ### Sexual satisfaction
 
-_No observations recorded._
+#### Self-reported sexual satisfaction
 
 ---
 

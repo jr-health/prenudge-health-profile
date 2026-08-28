@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:12:17.918402+00:00",
-  "commit": "65d4be6fa9fc0ade3c2a900536baf47bab8e1e86",
+  "generated": "2026-08-28T12:13:11.777684+00:00",
+  "commit": "ec286f1aa712b18c019a71d15118b64d5f27d8bb",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1789,7 +1789,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "self-reported-sexual-satisfaction",
+                "title": "Selbstberichtete sexuelle Zufriedenheit",
+                "description": "",
+                "category": "sexuality",
+                "dimension": "sexual-satisfaction",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "self-reported-sexual-satisfaction",
+                "title": "Self-reported sexual satisfaction",
+                "description": "",
+                "category": "sexuality",
+                "dimension": "sexual-satisfaction",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
