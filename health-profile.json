@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:09:43.557033+00:00",
-  "commit": "a9c55e6abc49016ce80b0bd34a0c62155c342a5e",
+  "generated": "2026-08-28T11:11:51.990119+00:00",
+  "commit": "c781475cb61de54f427c8ba03f7601aedf11588d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1403,6 +1403,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "susceptibility-to-infection",
+            "category": "psychosocial-factors",
+            "title": "Infektanfälligkeit",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "susceptibility-to-infection",
+            "category": "psychosocial-factors",
+            "title": "Susceptibility to infection",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

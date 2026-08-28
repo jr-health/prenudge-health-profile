@@ -45,6 +45,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Number of close relationships](#number-of-close-relationships)
     - [Self-reported social integration](#self-reported-social-integration)
     - [Subjective sense of support](#subjective-sense-of-support)
+  - [Susceptibility to infection](#susceptibility-to-infection)
   - [Weight changes](#weight-changes)
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
@@ -281,6 +282,10 @@ _No observations recorded._
 #### Self-reported social integration
 
 #### Subjective sense of support
+
+### Susceptibility to infection
+
+_No observations recorded._
 
 ### Weight changes
 

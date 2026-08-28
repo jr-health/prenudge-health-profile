@@ -45,6 +45,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Anzahl enger Bezugspersonen](#anzahl-enger-bezugspersonen)
     - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
     - [Subjektives Empfinden von Unterstützung](#subjektives-empfinden-von-unterstützung)
+  - [Infektanfälligkeit](#infektanfälligkeit)
   - [Gewichtsveränderungen](#gewichtsveränderungen)
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
@@ -361,6 +362,10 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Selbstbericht über sozialer Einbindung
 
 #### Subjektives Empfinden von Unterstützung
+
+### Infektanfälligkeit
+
+_Keine Beobachtungen erfasst._
 
 ### Gewichtsveränderungen
 
