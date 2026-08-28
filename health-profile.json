@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:22:59.314969+00:00",
-  "commit": "cd4367f22c1404c3d7840a109cd4868dc44fd571",
+  "generated": "2026-08-28T11:44:38.822480+00:00",
+  "commit": "24938a1fb2f8d78f47a3d74d9c25c6930caa34b5",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1587,6 +1587,29 @@
         "color": "#f8e4bf",
         "icon_lucide": "heart-plus",
         "icon_upload": "/media/heart-plus.png"
+      },
+      "dimensions": []
+    },
+    {
+      "de": {
+        "template": "category",
+        "key": "self-management",
+        "title": "Selbstmanagement",
+        "icon_upload": "",
+        "color": "#c7d2d3",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": ""
+      },
+      "en": {
+        "template": "category",
+        "key": "self-management",
+        "title": "Self-management",
+        "icon_upload": "",
+        "color": "#c7d2d3",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": ""
       },
       "dimensions": []
     },

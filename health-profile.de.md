@@ -52,6 +52,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Gewichtsveränderungen](#gewichtsveränderungen)
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
+- [Selbstmanagement](#selbstmanagement)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
@@ -381,6 +382,12 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 ## Lebensqualität
 
 <img src="media/heart-plus.png" alt="Lebensqualität" width="48" style="background-color: #f8e4bf; padding: 6px; border-radius: 6px;">
+
+_Keine Dimensionen erfasst._
+
+---
+
+## Selbstmanagement
 
 _Keine Dimensionen erfasst._
 
