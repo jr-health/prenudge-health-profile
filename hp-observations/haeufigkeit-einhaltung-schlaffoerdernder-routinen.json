@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
-    "title": "Häufigkeit der Einhaltung von schlaffördernden Routinen",
+    "title": "schlaffördernden Routinen (Häufigkeit/Woche)",
     "description": "",
     "category": "sleep",
     "dimension": "schlafhygiene",
