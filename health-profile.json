@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:22:47.729797+00:00",
-  "commit": "c5867dd9e4203b00b0a6439b2cf8a9e2bf818d6d",
+  "generated": "2026-08-28T08:26:02.602276+00:00",
+  "commit": "fd96fedbbc9b2ba051f625d6e66b61b1963ba618",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -818,7 +818,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+                "title": "Pfeife/Wasserpfeife Anzahl pro Woche",
+                "description": "",
+                "category": "smoking",
+                "dimension": "pfeife-wasserpfeife",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+                "title": "pipe hookah numbers per week",
+                "description": "",
+                "category": "smoking",
+                "dimension": "pfeife-wasserpfeife",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

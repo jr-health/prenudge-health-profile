@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Smoking](#smoking)
   - [Anzahl pro Woche](#anzahl-pro-woche)
   - [pipe hookah](#pipe-hookah)
+    - [pipe hookah numbers per week](#pipe-hookah-numbers-per-week)
   - [Smoking Status](#smoking-status)
   - [cigarettes](#cigarettes)
     - [motivation to quit](#motivation-to-quit)
@@ -217,7 +218,7 @@ _No observations recorded._
 
 ### pipe hookah
 
-_No observations recorded._
+#### pipe hookah numbers per week
 
 ### Smoking Status
 
