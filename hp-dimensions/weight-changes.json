@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "weight-changes",
+    "category": "psychosocial-factors",
+    "title": "Gewichtsveränderungen",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "weight-changes",
+    "category": "psychosocial-factors",
+    "title": "Weight changes",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
