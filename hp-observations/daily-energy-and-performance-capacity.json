@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "daily-energy-and-performance-capacity",
+    "title": "Tägliche Energie & Leistungsfähigkeit",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "fatigue-decline-in-performance",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "daily-energy-and-performance-capacity",
+    "title": "Daily energy and performance capacity",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "fatigue-decline-in-performance",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
