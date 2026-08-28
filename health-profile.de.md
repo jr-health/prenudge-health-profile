@@ -25,6 +25,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
+  - [Chronotyp](#chronotyp)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
@@ -272,6 +273,10 @@ _Keine Dimensionen erfasst._
 ## Schlaf
 
 <img src="media/bed_white.png" alt="Schlaf" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
+
+### Chronotyp
+
+_Keine Beobachtungen erfasst._
 
 ### Schlafdauer
 

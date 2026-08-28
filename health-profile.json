@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:31:20.795154+00:00",
-  "commit": "3e570b885925eb299effa3a2e38759456622f69b",
+  "generated": "2026-08-28T08:32:18.340748+00:00",
+  "commit": "784a6ff39d7b54e00dc872190549d4eb85b4ea9b",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -716,6 +716,29 @@
         "color": "#007ba7"
       },
       "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "chronotyp",
+            "category": "sleep",
+            "title": "Chronotyp",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "chronotyp",
+            "category": "sleep",
+            "title": "chronotype",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
         {
           "de": {
             "template": "dimension",

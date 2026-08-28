@@ -25,6 +25,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Psychosocial Factors](#psychosocial-factors)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
+  - [chronotype](#chronotype)
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
     - [time taken to fall asleep](#time-taken-to-fall-asleep)
@@ -200,6 +201,10 @@ _No dimensions recorded._
 ## Sleep
 
 <img src="media/bed_white.png" alt="Sleep" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
+
+### chronotype
+
+_No observations recorded._
 
 ### Sleep duration
 
