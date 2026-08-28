@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
-    "title": "Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)",
+    "title": "Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)",
     "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
