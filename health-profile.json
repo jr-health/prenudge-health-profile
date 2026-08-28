@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:33:52.688551+00:00",
-  "commit": "0605e4e749248237fd981ba56d68ea1f468282d0",
+  "generated": "2026-08-28T08:34:47.294129+00:00",
+  "commit": "d551ae08f0662765193e87b63b6a68343e15e20d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -767,6 +767,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "schlafhygiene",
+            "category": "sleep",
+            "title": "Schlafhygiene",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "schlafhygiene",
+            "category": "sleep",
+            "title": "sleephygiene",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

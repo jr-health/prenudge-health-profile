@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
+  - [Schlafhygiene](#schlafhygiene)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
@@ -279,6 +280,10 @@ _Keine Dimensionen erfasst._
 ### Chronotyp
 
 #### Selbstberichteter Chronotyp
+
+### Schlafhygiene
+
+_Keine Beobachtungen erfasst._
 
 ### Schlafdauer
 

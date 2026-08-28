@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
     - [self_reports_chronotype](#self_reports_chronotype)
+  - [sleephygiene](#sleephygiene)
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
     - [time taken to fall asleep](#time-taken-to-fall-asleep)
@@ -207,6 +208,10 @@ _No dimensions recorded._
 ### chronotype
 
 #### self_reports_chronotype
+
+### sleephygiene
+
+_No observations recorded._
 
 ### Sleep duration
 
