@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:56:02.152474+00:00",
-  "commit": "ecde8383f6e9ea177a31956d83d05ef7f85de52b",
+  "generated": "2026-08-28T08:56:31.550400+00:00",
+  "commit": "b5c4258cef02644abde668118f282443b2a5e7d3",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -390,7 +390,7 @@
               "de": {
                 "template": "observation",
                 "key": "stark-verarbeitete-lebensmittel",
-                "title": "stark verarbeitete Lebensmittel",
+                "title": "stark verarbeitete Lebensmittel (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
@@ -434,13 +434,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

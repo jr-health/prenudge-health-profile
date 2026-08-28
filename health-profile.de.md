@@ -17,7 +17,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdäpfel-portionentag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
-    - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
+    - [stark verarbeitete Lebensmittel (Portionen/Tag)](#stark-verarbeitete-lebensmittel-portionentag)
   - [Gesamtmuster Ernährung](#gesamtmuster-ernährung)
   - [gesundheitsfördernde Ernährungsmuster](#gesundheitsfördernde-ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
@@ -126,7 +126,7 @@ _Keine Beobachtungen erfasst._
 
 #### Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)
 
-#### stark verarbeitete Lebensmittel
+#### stark verarbeitete Lebensmittel (Portionen/Tag)
 
 ##### Messinstrumente
 
