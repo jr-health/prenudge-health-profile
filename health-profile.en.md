@@ -46,6 +46,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Self-reported social integration](#self-reported-social-integration)
     - [Subjective sense of support](#subjective-sense-of-support)
   - [Weight changes](#weight-changes)
+    - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -283,7 +284,7 @@ _No observations recorded._
 
 ### Weight changes
 
-_No observations recorded._
+#### Change in body weight over defined periods (kg)
 
 ---
 

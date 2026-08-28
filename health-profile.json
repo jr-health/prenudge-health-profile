@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:06:49.955593+00:00",
-  "commit": "868872b41e8fe085b73dd9ea8d5ddea551304c48",
+  "generated": "2026-08-28T11:09:13.376733+00:00",
+  "commit": "c988922e5a068c61ae7390c2a10f374d00636234",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1425,7 +1425,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "change-in-body-weight",
+                "title": "Veränderung des Körpergewichts über definierte Zeiträume (Kg)",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "weight-changes",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "change-in-body-weight",
+                "title": "Change in body weight over defined periods (kg)",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "weight-changes",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
