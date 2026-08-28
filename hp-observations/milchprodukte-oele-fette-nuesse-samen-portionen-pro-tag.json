@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+    "title": "Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+    "title": "Dairy products, oils, fats, nuts, and seeds – portions per day",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
