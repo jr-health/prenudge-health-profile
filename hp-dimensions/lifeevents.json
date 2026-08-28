@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "lifeevents",
+    "category": "psychosocial-factors",
+    "title": "Lebensereignisse",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "lifeevents",
+    "category": "psychosocial-factors",
+    "title": "Life events",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
