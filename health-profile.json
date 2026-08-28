@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:54:37.857978+00:00",
-  "commit": "b20edd6563eb8d1ff16d22a782b74ccbbdfaa439",
+  "generated": "2026-08-28T08:55:09.997380+00:00",
+  "commit": "08d1961f41873d642714724f41c70dd55a35a1f6",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -602,11 +602,13 @@
               "de": {
                 "template": "observation",
                 "key": "minutes-moderate-physical-activity",
-                "title": "Minuten in moderater und intensiver körperlichen Aktivität",
+                "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
                 "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\nPopulation: erwachsene Allgemeinbevölkerung",
-                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
+                "population": "general population",
+                "disease-association": [],
+                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
@@ -630,9 +632,12 @@
                         "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "-",
                     "pn-fhir-ig-status": "planned",
-                    "vis-status": "published"
+                    "vis-status": "published",
+                    "qualification": "",
+                    "app-providers": []
                   },
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -656,77 +661,95 @@
                         "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
                     "pn-fhir-ig-status": "amendment needed",
                     "vis-status": "published",
                     "qualification": "",
+                    "app-providers": [],
                     "questionnaires": [
                       {
-                        "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche",
-                        "questionnaire": "EHIS-PAQ (Q4-Q7)"
+                        "questionnaire": "EHIS-PAQ (Q4-Q7)",
+                        "specific-questions": "Q4: An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?  \n\nAntwortmöglichkeit: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche  \n\n3 Tage pro Woche;  4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ5: Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen? \n\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag;  30 – 59 Minuten pro Tag;  1 Stunde bis unter 2 Stunden pro Tag  \n\n2 Stunden bis unter 3 Stunden pro Tag;  3 Stunden pro Tag oder mehr \n\nQ6: An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne  Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?  Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern  oder Badminton  \n\nAntwortmöglichkeiten: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche \n\nQ7: Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder  körperlicher Aktivität in der Freizeit?   \n\nAntwortmöglichkeit:  \\_\\_\\_ Stunden und \\_\\_\\_ Minuten pro Woche"
                       }
                     ]
                   }
                 ],
                 "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)",
+                "id_tech": "minutes-moderate-physical-activity",
                 "terminology-codes": [
                   {
-                    "system": "http://loinc.org",
+                    "display": "Physical activity - minutes per week at vigorous intensity",
                     "code": "77593-2",
-                    "display": "Physical activity - minutes per week at vigorous intensity"
+                    "system": "http://loinc.org"
                   },
                   {
-                    "system": "http://loinc.org",
+                    "display": "Moderate physical activity [IPAQ]",
                     "code": "77592-4",
-                    "display": "Moderate physical activity [IPAQ]"
+                    "system": "http://loinc.org"
                   }
-                ],
-                "population": "general population",
-                "id_tech": "minutes-moderate-physical-activity"
+                ]
               },
               "en": {
                 "template": "observation",
                 "key": "minutes-moderate-physical-activity",
                 "title": "Minutes in moderate and vigouros physical activity",
-                "description": "*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*",
-                "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
+                "description": "_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "Regular endenced-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "integer",
                     "range-of-vales": "min: 0 max: >48h/day",
                     "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
                     "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "-",
                     "pn-fhir-ig-status": "planned",
-                    "vis-status": "published"
+                    "vis-status": "published",
+                    "qualification": "",
+                    "app-providers": []
                   },
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
                     "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "alle 3 Monate",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
                     "pn-fhir-ig-status": "amendment needed",
-                    "vis-status": "published"
+                    "vis-status": "published",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)",
-                "id_tech": "minutes-moderate-physical-activity",
-                "population": ""
+                "id_tech": "minutes-moderate-physical-activity"
               }
             }
           ]

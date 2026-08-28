@@ -22,7 +22,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [gesundheitsfördernde Ernährungsmuster](#gesundheitsfördernde-ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
-    - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
+    - [moderater und intensiver körperlichen Aktivität (Minuten/Woche)](#moderater-und-intensiver-körperlichen-aktivität-minutenwoche)
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
     - [leicht körperlicher Aktivität (Minuten pro Tag)](#leicht-körperlicher-aktivität-minuten-pro-tag)
@@ -187,7 +187,7 @@ Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlun
 - [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/) _(Zielgruppe: Healthcare professionals, Laymen / citizens)_
 - [WHO guidelines on physical activity and sedentary behaviour](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content) _(Zielgruppe: Healthcare professionals)_
 
-#### Minuten in moderater und intensiver körperlichen Aktivität
+#### moderater und intensiver körperlichen Aktivität (Minuten/Woche)
 
 **Beschreibung für Fachpersonal:**
 

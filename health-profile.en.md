@@ -159,7 +159,7 @@ _No observations recorded._
 
 **Description for Healthcare Professionals:**
 
-*Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week).*
+_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._
 
 **Information for the Public:**
 
