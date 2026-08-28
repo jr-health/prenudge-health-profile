@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Herkunft](#herkunft)
     - [Ethnische Zugehörigkeit](#ethnische-zugehörigkeit)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
+    - [Berufliche Situation Einkommen](#berufliche-situation-einkommen)
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
@@ -357,6 +358,8 @@ _Keine Beobachtungen erfasst._
 
 ### Sozio-ökonomischer Status
 
+#### Berufliche Situation Einkommen
+
 #### Muttersprache
 
 ---
@@ -375,6 +378,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

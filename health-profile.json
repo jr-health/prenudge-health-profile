@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:36:53.564802+00:00",
-  "commit": "a2e963b56c9f0b9d75b4d7a8f88c537a30d947a0",
+  "generated": "2026-08-28T08:38:03.088131+00:00",
+  "commit": "4b0d513526eab7d8a4bafdbb8b327f9cae14df71",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1452,6 +1452,34 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "employment-status-income",
+                "title": "Berufliche Situation Einkommen",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "employment-status-income",
+                "title": "Employment status / Income",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
             {
               "de": {
                 "template": "observation",

@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Origin](#origin)
     - [Ethnicity](#ethnicity)
   - [Socio-economic Status](#socio-economic-status)
+    - [Employment status / Income](#employment-status-income)
     - [Native language](#native-language)
 - [Workability](#workability)
 - [Edit History](#edit-history)
@@ -285,6 +286,8 @@ _No observations recorded._
 
 ### Socio-economic Status
 
+#### Employment status / Income
+
 #### Native language
 
 ---
@@ -303,6 +306,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
