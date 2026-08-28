@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "huelsenfruechte-portionen-pro-woche",
+    "title": "Hülsenfrüchte (Portionen/Woche)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "huelsenfruechte-portionen-pro-woche",
+    "title": "Legume portions per week",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
