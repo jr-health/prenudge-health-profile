@@ -59,6 +59,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
+  - [Sexual satisfaction](#sexual-satisfaction)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
     - [self_reports_chronotype](#self_reports_chronotype)
@@ -337,7 +338,9 @@ _No dimensions recorded._
 
 <img src="media/venus-and-mars.png" alt="Sexuality" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Sexual satisfaction
+
+_No observations recorded._
 
 ---
 

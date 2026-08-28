@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:09:58.659313+00:00",
-  "commit": "bd70ae643c0c7a52e120c857d15ac5d1aca81d30",
+  "generated": "2026-08-28T12:12:17.918402+00:00",
+  "commit": "65d4be6fa9fc0ade3c2a900536baf47bab8e1e86",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1767,7 +1767,31 @@
         "description-laymen": "",
         "discussion": ""
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "sexual-satisfaction",
+            "category": "sexuality",
+            "title": "Sexuelle Zufriedenheit",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "sexual-satisfaction",
+            "category": "sexuality",
+            "title": "Sexual satisfaction",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {
