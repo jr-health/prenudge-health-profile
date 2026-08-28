@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:24:19.269013+00:00",
-  "commit": "fb67cae7e5c786300e0896a68a6e6f1fed42d8c7",
+  "generated": "2026-08-28T12:25:03.589694+00:00",
+  "commit": "c59f5a12c20b68ccc33ef0e25ce7762eb17caea3",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1760,6 +1760,34 @@
                 "template": "observation",
                 "key": "documentation-of-body-weight",
                 "title": "Independent documentation of body weight (kg)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "documentation-of-heart-rate",
+                "title": "Eigenständige Dokumentation von Herzfrequenz (bpm?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "documentation-of-heart-rate",
+                "title": "Independent documentation of heart rate (bpm?)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
