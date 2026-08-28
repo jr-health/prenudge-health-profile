@@ -95,6 +95,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Native language](#native-language)
 - [Workability](#workability)
   - [Workability](#workability)
+    - [Impairment of employment](#impairment-of-employment)
     - [Work absence days](#work-absence-days)
 - [Edit History](#edit-history)
 
@@ -439,6 +440,8 @@ _No observations recorded._
 <img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 ### Workability
+
+#### Impairment of employment
 
 #### Work absence days
 

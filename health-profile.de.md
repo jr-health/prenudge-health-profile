@@ -95,6 +95,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
   - [Arbeitsfähigkeit](#arbeitsfähigkeit)
+    - [Beeinträchtigung der Erwerbstätigkeit](#beeinträchtigung-der-erwerbstätigkeit)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
@@ -519,6 +520,8 @@ _Keine Beobachtungen erfasst._
 <img src="media/briefcase-business.png" alt="Arbeit" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 ### Arbeitsfähigkeit
+
+#### Beeinträchtigung der Erwerbstätigkeit
 
 #### Arbeitsausfalltage
 
