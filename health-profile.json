@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:01:55.445491+00:00",
-  "commit": "3a10c3622a395521e9453571786e1fe4a00ec45c",
+  "generated": "2026-08-28T11:04:03.477151+00:00",
+  "commit": "d27d42307de7c3511549b095b04803e15409a46c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1213,7 +1213,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "daily-energy-and-performance-capacity",
+                "title": "Tägliche Energie & Leistungsfähigkeit",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "fatigue-decline-in-performance",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "daily-energy-and-performance-capacity",
+                "title": "Daily energy and performance capacity",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "fatigue-decline-in-performance",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

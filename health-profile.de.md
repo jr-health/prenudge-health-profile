@@ -38,6 +38,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Fähigkeit zum Coping](#fähigkeit-zum-coping)
     - [Selbstbericht über Resilienz](#selbstbericht-über-resilienz)
   - [Müdigkeit / Leistungsabfall](#müdigkeit-leistungsabfall)
+    - [Tägliche Energie & Leistungsfähigkeit](#tägliche-energie-leistungsfähigkeit)
   - [Lebensereignisse](#lebensereignisse)
     - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
   - [Einsamkeit / Soziale Unterstützung](#einsamkeit-soziale-unterstützung)
@@ -341,7 +342,7 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 ### Müdigkeit / Leistungsabfall
 
-_Keine Beobachtungen erfasst._
+#### Tägliche Energie & Leistungsfähigkeit
 
 ### Lebensereignisse
 

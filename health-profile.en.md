@@ -38,6 +38,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Coping ability](#coping-ability)
     - [Self-reported resilience](#self-reported-resilience)
   - [Fatigue / Decline in performance](#fatigue-decline-in-performance)
+    - [Daily energy and performance capacity](#daily-energy-and-performance-capacity)
   - [Life events](#life-events)
     - [Self-reported significant life events](#self-reported-significant-life-events)
   - [Loneliness / Social support](#loneliness-social-support)
@@ -265,7 +266,7 @@ _No observations recorded._
 
 ### Fatigue / Decline in performance
 
-_No observations recorded._
+#### Daily energy and performance capacity
 
 ### Life events
 
