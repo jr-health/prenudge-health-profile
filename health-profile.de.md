@@ -28,6 +28,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
 - [Rauchen](#rauchen)
+  - [Pfeife-Wasserpfeife](#pfeife-wasserpfeife)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten_Anzahl](#zigaretten_anzahl)
     - [Entwoehnungsmotivation](#entwoehnungsmotivation)
@@ -39,6 +40,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
+  - [Herkunft](#herkunft)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
@@ -279,6 +281,10 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/cigarette-off.png" alt="Rauchen" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
 
+### Pfeife-Wasserpfeife
+
+_Keine Beobachtungen erfasst._
+
 ### Raucherstatus
 
 _Keine Beobachtungen erfasst._
@@ -315,6 +321,10 @@ _Keine Beobachtungen erfasst._
 _Keine Beobachtungen erfasst._
 
 ### Geschlecht
+
+_Keine Beobachtungen erfasst._
+
+### Herkunft
 
 _Keine Beobachtungen erfasst._
 

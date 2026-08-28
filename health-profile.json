@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:18:29.436483+00:00",
-  "commit": "06f14e7a43768701671da5d61a556818e85d629d",
+  "generated": "2026-08-28T08:19:49.529714+00:00",
+  "commit": "ddda0ec5db494cc14ebbe10b4a6121720885692d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -777,6 +777,29 @@
         {
           "de": {
             "template": "dimension",
+            "key": "pfeife-wasserpfeife",
+            "category": "smoking",
+            "title": "Pfeife-Wasserpfeife",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "pfeife-wasserpfeife",
+            "category": "smoking",
+            "title": "pipe hookah",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
             "title": "Raucherstatus",
             "category": "smoking",
             "id_tech": "smoking-status",
@@ -1082,6 +1105,29 @@
             "key": "gender",
             "category": "sociodemographic-data",
             "title": "Gender",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "origin",
+            "category": "sociodemographic-data",
+            "title": "Herkunft",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "origin",
+            "category": "sociodemographic-data",
+            "title": "Origin",
             "description_professional": "",
             "description_layman": "",
             "verified-health-links": [],

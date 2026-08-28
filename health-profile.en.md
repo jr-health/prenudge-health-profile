@@ -28,6 +28,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
 - [Smoking](#smoking)
+  - [pipe hookah](#pipe-hookah)
   - [Smoking Status](#smoking-status)
   - [cigarettes](#cigarettes)
     - [motivation to quit](#motivation-to-quit)
@@ -39,6 +40,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
+  - [Origin](#origin)
   - [Socio-economic Status](#socio-economic-status)
     - [Native language](#native-language)
 - [Workability](#workability)
@@ -207,6 +209,10 @@ _No observations recorded._
 
 <img src="media/cigarette-off.png" alt="Smoking" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
 
+### pipe hookah
+
+_No observations recorded._
+
 ### Smoking Status
 
 _No observations recorded._
@@ -243,6 +249,10 @@ _No observations recorded._
 _No observations recorded._
 
 ### Gender
+
+_No observations recorded._
+
+### Origin
 
 _No observations recorded._
 
