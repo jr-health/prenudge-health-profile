@@ -348,8 +348,6 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 #### Selbstbericht über sozialer Einbindung
 
-**Population:** Anzahl enger Bezugspersonen, subjektives Empfinden von Unterstützung
-
 ---
 
 ## Lebensqualität

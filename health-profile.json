@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T10:21:36.574948+00:00",
-  "commit": "18dcaf0318ae5c78ccd20d8a784b33c162ca3b51",
+  "generated": "2026-08-28T10:51:51.981492+00:00",
+  "commit": "326e0deb006cddb130d44b6016f4761588e2171a",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1274,7 +1274,7 @@
                 "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "loneliness-social-support",
-                "population": "Anzahl enger Bezugspersonen, subjektives Empfinden von Unterstützung",
+                "population": "",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [],
