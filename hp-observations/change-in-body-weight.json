@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "change-in-body-weight",
+    "title": "Veränderung des Körpergewichts über definierte Zeiträume (Kg)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "weight-changes",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "change-in-body-weight",
+    "title": "Change in body weight over defined periods (kg)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "weight-changes",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
