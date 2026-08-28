@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
+  - [Technologieeinsatz](#technologieeinsatz)
 - [Sexualität](#sexualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -392,7 +393,9 @@ _Keine Dimensionen erfasst._
 
 <img src="media/notebook-pen.png" alt="Selbstmanagement" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Technologieeinsatz
+
+_Keine Beobachtungen erfasst._
 
 ---
 

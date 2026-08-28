@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:51:58.844309+00:00",
-  "commit": "cd67511d0264d88dcaa3ef7e30fd15bd0dabfc80",
+  "generated": "2026-08-28T11:54:26.594801+00:00",
+  "commit": "4f7b7f4ba638c7bc24be2ca2c8e75a2f803222f2",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1611,7 +1611,31 @@
         "description-laymen": "",
         "discussion": ""
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "technology-use",
+            "category": "self-management",
+            "title": "Technologieeinsatz",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "technology-use",
+            "category": "self-management",
+            "title": "Technology use",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {

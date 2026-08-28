@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
 - [Self-management](#self-management)
+  - [Technology use](#technology-use)
 - [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -312,7 +313,9 @@ _No dimensions recorded._
 
 <img src="media/notebook-pen.png" alt="Self-management" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Technology use
+
+_No observations recorded._
 
 ---
 
