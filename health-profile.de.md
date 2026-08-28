@@ -36,6 +36,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
     - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
   - [Lebensereignisse](#lebensereignisse)
+    - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -328,7 +329,11 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 ### Lebensereignisse
 
-_Keine Beobachtungen erfasst._
+#### Selbstbericht über bedeutende Lebensereignisse
+
+**Information für Bevölkerung:**
+
+Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schweren Erkrankung) (ja/nein)
 
 ---
 
@@ -447,6 +452,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

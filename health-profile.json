@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:57:28.370794+00:00",
-  "commit": "37465ed532c7da5ecc2c5291da85fde1b9b5f7a9",
+  "generated": "2026-08-28T08:57:42.264279+00:00",
+  "commit": "fb8818cba5c187b20f50f48f12c222746541ce42",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1161,7 +1161,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "self-reported-significant-life-events",
+                "title": "Selbstbericht über bedeutende Lebensereignisse",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "lifeevents",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schweren Erkrankung) (ja/nein)",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "self-reported-significant-life-events",
+                "title": "Self-reported significant life events",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "lifeevents",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

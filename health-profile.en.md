@@ -36,6 +36,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
     - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
   - [Life events](#life-events)
+    - [Self-reported significant life events](#self-reported-significant-life-events)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -252,7 +253,7 @@ _No observations recorded._
 
 ### Life events
 
-_No observations recorded._
+#### Self-reported significant life events
 
 ---
 
@@ -371,6 +372,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
