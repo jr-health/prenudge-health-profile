@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
   - [cigarettes](#cigarettes)
+    - [attempts to give up](#attempts-to-give-up)
     - [nicotine addiction](#nicotine-addiction)
     - [Pack Years](#pack-years)
 - [Sociodemographic Data](#sociodemographic-data)
@@ -208,6 +209,8 @@ _No observations recorded._
 _No observations recorded._
 
 ### cigarettes
+
+#### attempts to give up
 
 #### nicotine addiction
 

@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Rauchen](#rauchen)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten_Anzahl](#zigaretten_anzahl)
+    - [Entwoehnungsversuche](#entwoehnungsversuche)
     - [nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
 - [Soziodemografische Daten](#soziodemografische-daten)
@@ -280,6 +281,8 @@ _Keine Beobachtungen erfasst._
 _Keine Beobachtungen erfasst._
 
 ### Zigaretten_Anzahl
+
+#### Entwoehnungsversuche
 
 #### nikotinabhängigkeit
 
