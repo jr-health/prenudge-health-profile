@@ -67,6 +67,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
   - [Wohnumfeld](#wohnumfeld)
+    - [Wohnform (Eigenheim, Mietwohnung, Sonstiges)](#wohnform-eigenheim-mietwohnung-sonstiges)
     - [Wohnortgröße (Stadt/Land)](#wohnortgröße-stadtland)
   - [Familienstand](#familienstand)
     - [ledig, verheiratet, in Partnerschaft, getrennt, verwitwet](#ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
@@ -433,6 +434,8 @@ _Keine Beobachtungen erfasst._
 _Keine Beobachtungen erfasst._
 
 ### Wohnumfeld
+
+#### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
 #### Wohnortgröße (Stadt/Land)
 

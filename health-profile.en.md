@@ -67,6 +67,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Age](#age)
   - [Gender](#gender)
   - [Living environment](#living-environment)
+    - [Housing type (owned home, rented apartment, other)](#housing-type-owned-home-rented-apartment-other)
     - [Residence (urban/rural)](#residence-urbanrural)
   - [Marital status](#marital-status)
     - [single, married, in a partnership, separated, widowed](#single-married-in-a-partnership-separated-widowed)
@@ -351,6 +352,8 @@ _No observations recorded._
 _No observations recorded._
 
 ### Living environment
+
+#### Housing type (owned home, rented apartment, other)
 
 #### Residence (urban/rural)
 

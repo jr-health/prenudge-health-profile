@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T10:18:36.430289+00:00",
-  "commit": "c57e7f33150159e61b3c77c1488c7e98d7680afe",
+  "generated": "2026-08-28T10:21:36.574948+00:00",
+  "commit": "18dcaf0318ae5c78ccd20d8a784b33c162ca3b51",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1975,6 +1975,34 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "housing-type",
+                "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "living-environment",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "housing-type",
+                "title": "Housing type (owned home, rented apartment, other)",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "living-environment",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
             {
               "de": {
                 "template": "observation",
