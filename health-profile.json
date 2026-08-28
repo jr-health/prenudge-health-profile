@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T10:58:48.890093+00:00",
-  "commit": "9b73724f94cd063dca403c554311fab14dd099c9",
+  "generated": "2026-08-28T11:01:55.445491+00:00",
+  "commit": "3a10c3622a395521e9453571786e1fe4a00ec45c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1191,6 +1191,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "fatigue-decline-in-performance",
+            "category": "psychosocial-factors",
+            "title": "Müdigkeit / Leistungsabfall",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "fatigue-decline-in-performance",
+            "category": "psychosocial-factors",
+            "title": "Fatigue / Decline in performance",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

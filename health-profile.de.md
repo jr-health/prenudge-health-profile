@@ -37,6 +37,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
   - [Fähigkeit zum Coping](#fähigkeit-zum-coping)
     - [Selbstbericht über Resilienz](#selbstbericht-über-resilienz)
+  - [Müdigkeit / Leistungsabfall](#müdigkeit-leistungsabfall)
   - [Lebensereignisse](#lebensereignisse)
     - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
   - [Einsamkeit / Soziale Unterstützung](#einsamkeit-soziale-unterstützung)
@@ -337,6 +338,10 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 ### Fähigkeit zum Coping
 
 #### Selbstbericht über Resilienz
+
+### Müdigkeit / Leistungsabfall
+
+_Keine Beobachtungen erfasst._
 
 ### Lebensereignisse
 
