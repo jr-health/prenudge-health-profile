@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "zigarren-zigarillos-pro-woche",
-    "title": "Zigarren/Zigarillos pro Woche",
+    "title": "Zigarren/Zigarillos (Anzahl/Woche)",
     "description": "",
     "category": "smoking",
     "dimension": "zigarren-zigarillos",
