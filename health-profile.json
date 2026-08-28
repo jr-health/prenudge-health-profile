@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:55:09.997380+00:00",
-  "commit": "08d1961f41873d642714724f41c70dd55a35a1f6",
+  "generated": "2026-08-28T08:55:34.017684+00:00",
+  "commit": "2d8c2cd2a6a915a056eeb19b905364f706b7554a",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1115,6 +1115,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "lifeevents",
+            "category": "psychosocial-factors",
+            "title": "Lebensereignisse",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "lifeevents",
+            "category": "psychosocial-factors",
+            "title": "Life events",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },
@@ -1380,7 +1403,7 @@
               "de": {
                 "template": "observation",
                 "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
-                "title": "E-Zigaretten/Tabakerhitzer Anzahl pro woche",
+                "title": "E-Zigaretten/Tabakerhitzer (Anzahl/Woche)",
                 "description": "",
                 "category": "smoking",
                 "dimension": "e-zigaretten-tabakerhitzer",

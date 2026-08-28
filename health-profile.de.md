@@ -35,6 +35,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
   - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
     - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
+  - [Lebensereignisse](#lebensereignisse)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -46,7 +47,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
 - [Rauchen](#rauchen)
   - [E-Zigaretten/Tabakerhitzer](#e-zigarettentabakerhitzer)
-    - [E-Zigaretten/Tabakerhitzer Anzahl pro woche](#e-zigarettentabakerhitzer-anzahl-pro-woche)
+    - [E-Zigaretten/Tabakerhitzer (Anzahl/Woche)](#e-zigarettentabakerhitzer-anzahlwoche)
   - [Pfeife/Wasserpfeife](#pfeifewasserpfeife)
     - [Pfeife/Wasserpfeife Anzahl pro Woche](#pfeifewasserpfeife-anzahl-pro-woche)
   - [Raucherstatus](#raucherstatus)
@@ -325,6 +326,10 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 #### Selbstbericht über traumatische Erfahrungen
 
+### Lebensereignisse
+
+_Keine Beobachtungen erfasst._
+
 ---
 
 ## Lebensqualität
@@ -363,7 +368,7 @@ _Keine Beobachtungen erfasst._
 
 ### E-Zigaretten/Tabakerhitzer
 
-#### E-Zigaretten/Tabakerhitzer Anzahl pro woche
+#### E-Zigaretten/Tabakerhitzer (Anzahl/Woche)
 
 ### Pfeife/Wasserpfeife
 
@@ -442,6 +447,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
