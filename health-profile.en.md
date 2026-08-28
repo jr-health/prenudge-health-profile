@@ -56,6 +56,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Communication/Understanding](#communicationunderstanding)
     - [Health literacy](#health-literacy)
     - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
+  - [Self-monitoring](#self-monitoring)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
@@ -328,6 +329,10 @@ _No dimensions recorded._
 #### Health literacy
 
 #### Reporting symptoms or changes to healthcare professionals
+
+### Self-monitoring
+
+_No observations recorded._
 
 ### Technology use
 

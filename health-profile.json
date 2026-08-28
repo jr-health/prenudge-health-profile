@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:13:11.777684+00:00",
-  "commit": "ec286f1aa712b18c019a71d15118b64d5f27d8bb",
+  "generated": "2026-08-28T12:17:20.581848+00:00",
+  "commit": "6302e9404fe4b99a1349211c6cef9a5d7c2bb603",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1691,6 +1691,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "self-monitoring",
+            "category": "self-management",
+            "title": "Selbstüberwachung",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "self-monitoring",
+            "category": "self-management",
+            "title": "Self-monitoring",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {
