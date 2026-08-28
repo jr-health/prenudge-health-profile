@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "self-reported-social-integration",
+    "title": "Selbstbericht über sozialer Einbindung",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "Anzahl enger Bezugspersonen, subjektives Empfinden von Unterstützung",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "self-reported-social-integration",
+    "title": "Self-reported social integration",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
