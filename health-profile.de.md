@@ -18,6 +18,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
+  - [Gesamtmuster Ernährung](#gesamtmuster-ernährung)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
@@ -128,6 +129,10 @@ _Keine Beobachtungen erfasst._
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+### Gesamtmuster Ernährung
+
+_Keine Beobachtungen erfasst._
 
 ---
 
@@ -426,6 +431,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

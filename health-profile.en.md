@@ -18,6 +18,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Legume portions per week](#legume-portions-per-week)
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
+  - [nutritional pattern](#nutritional-pattern)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -128,6 +129,10 @@ _No observations recorded._
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### nutritional pattern
+
+_No observations recorded._
 
 ---
 
@@ -350,6 +355,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

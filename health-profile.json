@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:49:02.593414+00:00",
-  "commit": "c94820e801717b23d536cfa3bee41750cd3e509c",
+  "generated": "2026-08-28T08:50:06.333842+00:00",
+  "commit": "c025f96daf12035fad5433a46a41b2a286d88c61",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -439,6 +439,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "gesamtmuster-ernaehrung",
+            "category": "nutrition",
+            "title": "Gesamtmuster Ernährung",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "gesamtmuster-ernaehrung",
+            "category": "nutrition",
+            "title": "nutritional pattern",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },
