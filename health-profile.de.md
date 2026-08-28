@@ -29,6 +29,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Schlafqualität](#schlafqualität)
 - [Rauchen](#rauchen)
   - [e-zigaretten-tabakerhitzer](#e-zigaretten-tabakerhitzer)
+    - [E-Zigaretten/Tabakerhitzer Anzahl pro woche](#e-zigarettentabakerhitzer-anzahl-pro-woche)
   - [Pfeife-Wasserpfeife](#pfeife-wasserpfeife)
     - [Pfeife/Wasserpfeife Anzahl pro Woche](#pfeifewasserpfeife-anzahl-pro-woche)
   - [Raucherstatus](#raucherstatus)
@@ -287,7 +288,7 @@ _Keine Beobachtungen erfasst._
 
 ### e-zigaretten-tabakerhitzer
 
-_Keine Beobachtungen erfasst._
+#### E-Zigaretten/Tabakerhitzer Anzahl pro woche
 
 ### Pfeife-Wasserpfeife
 
@@ -360,6 +361,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

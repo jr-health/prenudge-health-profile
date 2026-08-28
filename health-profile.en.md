@@ -29,6 +29,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sleep Quality](#sleep-quality)
 - [Smoking](#smoking)
   - [Anzahl pro Woche](#anzahl-pro-woche)
+    - [e-cigarettes tabacco heaters-number-per-week](#e-cigarettes-tabacco-heaters-number-per-week)
   - [pipe hookah](#pipe-hookah)
     - [pipe hookah numbers per week](#pipe-hookah-numbers-per-week)
   - [Smoking Status](#smoking-status)
@@ -215,7 +216,7 @@ _No observations recorded._
 
 ### Anzahl pro Woche
 
-_No observations recorded._
+#### e-cigarettes tabacco heaters-number-per-week
 
 ### pipe hookah
 
@@ -288,6 +289,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

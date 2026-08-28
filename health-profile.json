@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:28:06.382975+00:00",
-  "commit": "125aa1523e48eb42b5d5f8b349f6ee6808dceea3",
+  "generated": "2026-08-28T08:28:44.373433+00:00",
+  "commit": "95a6c150e93e1b4657c7d02783bc265bcec3d70c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -795,7 +795,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+                "title": "E-Zigaretten/Tabakerhitzer Anzahl pro woche",
+                "description": "",
+                "category": "smoking",
+                "dimension": "e-zigaretten-tabakerhitzer",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+                "title": "e-cigarettes tabacco heaters-number-per-week",
+                "description": "",
+                "category": "smoking",
+                "dimension": "e-zigaretten-tabakerhitzer",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {
