@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "sexual-satisfaction",
+    "category": "sexuality",
+    "title": "Sexuelle Zufriedenheit",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "sexual-satisfaction",
+    "category": "sexuality",
+    "title": "Sexual satisfaction",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
