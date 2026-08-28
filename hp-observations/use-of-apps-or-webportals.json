@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "use-of-apps-or-webportals",
+    "title": "Nutzung von Apps oder Webportalen",
+    "description": "",
+    "category": "self-management",
+    "dimension": "technology-use",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "use-of-apps-or-webportals",
+    "title": "Use of apps or web portals",
+    "description": "",
+    "category": "self-management",
+    "dimension": "technology-use",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
