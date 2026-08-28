@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "self-reported-significant-life-events",
+    "title": "Selbstbericht über bedeutende Lebensereignisse",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "lifeevents",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schweren Erkrankung) (ja/nein)",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "self-reported-significant-life-events",
+    "title": "Self-reported significant life events",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "lifeevents",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
