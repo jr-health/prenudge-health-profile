@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:51:31.964728+00:00",
-  "commit": "9788007360e47b0ddd15e96d6c3a51d37d29030f",
+  "generated": "2026-08-28T08:51:54.759459+00:00",
+  "commit": "f02c1305ddaf93c59cdd184918f06784c8d7e2f5",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1299,7 +1299,7 @@
             "template": "dimension",
             "key": "e-zigaretten-tabakerhitzer",
             "category": "smoking",
-            "title": "e-zigaretten-tabakerhitzer",
+            "title": "E-zigaretten Tabakerhitzer",
             "description_professional": "",
             "description_layman": "",
             "verified-health-links": [],
