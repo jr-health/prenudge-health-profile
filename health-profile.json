@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:06:30.357657+00:00",
-  "commit": "9706bb05c61b1564a815b2965e425460f8e6407e",
+  "generated": "2026-08-28T12:06:53.523316+00:00",
+  "commit": "9c39e5856786a2819b60366542b0fccba2500233",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -2716,7 +2716,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "work-absence-days",
+                "title": "Arbeitsausfalltage",
+                "description": "",
+                "category": "work",
+                "dimension": "workability",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "work-absence-days",
+                "title": "Work absence days",
+                "description": "",
+                "category": "work",
+                "dimension": "workability",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     }

@@ -95,6 +95,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
   - [Arbeitsfähigkeit](#arbeitsfähigkeit)
+    - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
@@ -519,7 +520,7 @@ _Keine Beobachtungen erfasst._
 
 ### Arbeitsfähigkeit
 
-_Keine Beobachtungen erfasst._
+#### Arbeitsausfalltage
 
 ---
 
