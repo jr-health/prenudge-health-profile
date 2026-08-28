@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:51:54.759459+00:00",
-  "commit": "f02c1305ddaf93c59cdd184918f06784c8d7e2f5",
+  "generated": "2026-08-28T08:52:10.161158+00:00",
+  "commit": "bba1d616cfd620ace03b7391fa90f16676904ae5",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1351,7 +1351,7 @@
             "template": "dimension",
             "key": "pfeife-wasserpfeife",
             "category": "smoking",
-            "title": "Pfeife-Wasserpfeife",
+            "title": "Pfeife/Wasserpfeife",
             "description_professional": "",
             "description_layman": "",
             "verified-health-links": [],

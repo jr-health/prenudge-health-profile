@@ -46,7 +46,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Rauchen](#rauchen)
   - [E-zigaretten Tabakerhitzer](#e-zigaretten-tabakerhitzer)
     - [E-Zigaretten/Tabakerhitzer Anzahl pro woche](#e-zigarettentabakerhitzer-anzahl-pro-woche)
-  - [Pfeife-Wasserpfeife](#pfeife-wasserpfeife)
+  - [Pfeife/Wasserpfeife](#pfeifewasserpfeife)
     - [Pfeife/Wasserpfeife Anzahl pro Woche](#pfeifewasserpfeife-anzahl-pro-woche)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten](#zigaretten)
@@ -364,7 +364,7 @@ _Keine Beobachtungen erfasst._
 
 #### E-Zigaretten/Tabakerhitzer Anzahl pro woche
 
-### Pfeife-Wasserpfeife
+### Pfeife/Wasserpfeife
 
 #### Pfeife/Wasserpfeife Anzahl pro Woche
 
