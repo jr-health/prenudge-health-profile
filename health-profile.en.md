@@ -29,8 +29,8 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sleep Quality](#sleep-quality)
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
-    - [Pack Years](#pack-years)
   - [cigarettes](#cigarettes)
+    - [Pack Years](#pack-years)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
@@ -204,6 +204,10 @@ _No observations recorded._
 
 ### Smoking Status
 
+_No observations recorded._
+
+### cigarettes
+
 #### Pack Years
 
 ##### Measurement Instruments
@@ -212,10 +216,6 @@ _No observations recorded._
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
-
-### cigarettes
-
-_No observations recorded._
 
 ---
 

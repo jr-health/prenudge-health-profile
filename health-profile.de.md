@@ -29,8 +29,8 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Schlafqualität](#schlafqualität)
 - [Rauchen](#rauchen)
   - [Raucherstatus](#raucherstatus)
-    - [Pack years](#pack-years)
   - [Zigaretten_Anzahl](#zigaretten_anzahl)
+    - [Pack years](#pack-years)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
@@ -276,6 +276,10 @@ _Keine Beobachtungen erfasst._
 
 ### Raucherstatus
 
+_Keine Beobachtungen erfasst._
+
+### Zigaretten_Anzahl
+
 #### Pack years
 
 ##### Messinstrumente
@@ -284,10 +288,6 @@ _Keine Beobachtungen erfasst._
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
-
-### Zigaretten_Anzahl
-
-_Keine Beobachtungen erfasst._
 
 ---
 

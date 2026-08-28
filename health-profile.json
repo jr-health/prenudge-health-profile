@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:55:09.725701+00:00",
-  "commit": "3f968d9792b1ee9c172839f7b454d0eeb659a2e5",
+  "generated": "2026-08-28T07:55:26.966127+00:00",
+  "commit": "9e93497a09b85170db2bf7b0d03018f0e45125b6",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -789,6 +789,29 @@
             "id_tech": "smoking-status",
             "key": "smoking-status"
           },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "zigaretten",
+            "category": "smoking",
+            "title": "Zigaretten_Anzahl",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "zigaretten",
+            "category": "smoking",
+            "title": "cigarettes",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
           "observations": [
             {
               "de": {
@@ -797,7 +820,7 @@
                 "title": "Pack years",
                 "description": "",
                 "category": "smoking",
-                "dimension": "smoking-status",
+                "dimension": "zigaretten",
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
@@ -831,49 +854,34 @@
                 "title": "Pack Years",
                 "description": "",
                 "category": "smoking",
-                "dimension": "smoking-status",
+                "dimension": "zigaretten",
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
               }
             }
           ]
-        },
-        {
-          "de": {
-            "template": "dimension",
-            "key": "zigaretten",
-            "category": "smoking",
-            "title": "Zigaretten_Anzahl",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "en": {
-            "template": "dimension",
-            "key": "zigaretten",
-            "category": "smoking",
-            "title": "cigarettes",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "observations": []
         }
       ]
     },
