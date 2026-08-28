@@ -10,6 +10,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Konsumhäufigkeit](#konsumhäufigkeit)
 - [Anthropometrie](#anthropometrie)
   - [Größe, Gewicht](#größe-gewicht)
+    - [Taillenumfang (cm)](#taillenumfang-cm)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
     - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
@@ -105,7 +106,7 @@ _Keine Beobachtungen erfasst._
 
 ### Größe, Gewicht
 
-_Keine Beobachtungen erfasst._
+#### Taillenumfang (cm)
 
 ---
 

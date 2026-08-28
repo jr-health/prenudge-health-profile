@@ -10,6 +10,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Consumption frequency](#consumption-frequency)
 - [Anthropometry](#anthropometry)
   - [Height, weight](#height-weight)
+    - [Waist circumference (cm)](#waist-circumference-cm)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
     - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
@@ -105,7 +106,7 @@ _No observations recorded._
 
 ### Height, weight
 
-_No observations recorded._
+#### Waist circumference (cm)
 
 ---
 

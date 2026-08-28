@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:13:44.430937+00:00",
-  "commit": "ef7095e6bc4b3d0f2a2fe24cbbdf871cc57e2b08",
+  "generated": "2026-08-28T11:19:52.186210+00:00",
+  "commit": "3090f9b0ab4ecb22e4460de8cc24b0dfb14c9f4d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -115,7 +115,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "waist-circumference",
+                "title": "Taillenumfang (cm)",
+                "description": "",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "waist-circumference",
+                "title": "Waist circumference (cm)",
+                "description": "",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
