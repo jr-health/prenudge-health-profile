@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "zeit-leichte-koerperliche-aktivitaet",
-    "title": "leicht körperlicher Aktivität (Minuten pro Tag)",
+    "title": "leicht körperlicher Aktivität (Minuten/Tag)",
     "description": "",
     "category": "physical-activity",
     "dimension": "everyday-activity",
