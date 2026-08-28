@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "self-reported-traumatic-experiences",
+    "title": "Selbstbericht über traumatische Erfahrungen",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "adverse-childhood-experiences",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "self-reported-traumatic-experiences",
+    "title": "Self-reported traumatic experiences",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "adverse-childhood-experiences",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
