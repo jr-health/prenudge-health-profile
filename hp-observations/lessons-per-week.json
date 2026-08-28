@@ -9,7 +9,28 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "EHIS",
+        "specific-questions": "Frage hinein! Antwortmöglichkeiten",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "2x/year",
+        "recommended-monitoring-frequency": "1/month",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
     "discussion": ""
   },
   "en": {
@@ -22,7 +43,18 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "2x/year",
+        "recommended-monitoring-frequency": "1/month",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
     "discussion": ""
   }
 }
