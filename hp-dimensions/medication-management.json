@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "medication-management",
+    "category": "self-management",
+    "title": "Medikamentenmanagement",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "medication-management",
+    "category": "self-management",
+    "title": "Medication management",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
