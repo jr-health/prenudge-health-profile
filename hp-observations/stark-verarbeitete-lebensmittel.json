@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "stark-verarbeitete-lebensmittel",
-    "title": "stark verarbeitete Lebensmittel",
+    "title": "stark verarbeitete Lebensmittel (Portionen/Tag)",
     "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
@@ -46,13 +46,21 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
