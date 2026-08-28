@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "communication-understanding",
+    "category": "self-management",
+    "title": "Kommunikation/Verständnis",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "communication-understanding",
+    "category": "self-management",
+    "title": "Communication/Understanding",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
