@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+    "category": "nutrition",
+    "title": "gesundheitsfördernde Ernährungsmuster",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+    "category": "nutrition",
+    "title": "health enhancing nutritional patterns",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
