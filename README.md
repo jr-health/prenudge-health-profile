@@ -29,6 +29,27 @@ Data / App Providers (data-provider/)
   and a `category`).
 - Technical IDs and keys are **kebab-case** (e.g. `physical-activity`, `body-weight`).
 
+### Data sets (`dataset-scope`)
+
+Categories, indicator dimensions, and observations each carry a `dataset-scope` field
+(`Minimalset` or `Extension`), maintained in the CMS directly below the key field. It splits
+the catalogue into a **minimal set** and an **extended set**; the two are always subsets of the
+full catalogue.
+
+Filtering rule — implemented once in `scripts/consolidate.py` (`filter_tree`) and mirrored in
+`render/scope.js` (`filterProfile`) for the interactive views:
+
+> Every level is selected by its **own** `dataset-scope`, and is additionally kept when any of
+> its descendants was selected.
+
+Both halves matter. Without the first, a `Minimalset` dimension disappears the moment all of
+its observations happen to be extensions — which is the common case, since most observations
+were added after the dimensions they hang under. Without the second, a selected observation
+could be orphaned by an ancestor flagged the other way.
+
+**Keep the two implementations in sync** — otherwise the sunburst/table on the website would
+disagree with the correspondingly scoped `.docx` export.
+
 ## Repository Layout
 
 | Path | Contents |
@@ -41,6 +62,7 @@ Data / App Providers (data-provider/)
 | `media/` | Images (logos, icons) referenced by content and the CMS media library |
 | `scripts/` | Python pipeline (`validate.py`, `consolidate.py`, `render_doc.py`, `render_adoc.py`, `render_html.py`) + local update helper |
 | `render/` | `sunburst.html` and `browse.{de,en}.html` visualizations, plus Jinja2 templates and the Word style reference in `render/templates/` |
+| `render/scope.js` | Shared data-set filtering + the Minimal/Extended/All switch; must be loaded before `sunburst.js` and `browse.js` |
 | `health-profile.json` | Generated consolidated profile (do not edit by hand) |
 | `health-profile.{de,en}.md` | Generated German / English Markdown reports (always the latest state — versioned copies live as GitHub Release assets, not in the repo) |
 | `.github/workflows/` | GitHub Actions CI — see "Automation" below |
@@ -90,6 +112,17 @@ python scripts/render_html.py    # render the de/en browse view (render/browse.{
 python scripts/render_adoc.py    # render versioned de/en AsciiDoc (feeds the Word export)
 ```
 
+`consolidate.py` and `render_adoc.py` take the data-set arguments used by the release:
+
+```bash
+python scripts/consolidate.py --scope minimalset --out /tmp/hp-minimalset.json
+python scripts/render_adoc.py --src /tmp/hp-minimalset.json --suffix=-minimalset
+```
+
+`--scope` defaults to `combined` (the full catalogue, unfiltered), so the default output is
+unchanged. Pass `--suffix` with `=` — the value starts with a hyphen and argparse would
+otherwise read it as the next option.
+
 On Windows, `scripts/update-local.ps1` runs validation, consolidation, Markdown rendering, and
 the browse view regeneration in one step:
 
@@ -102,7 +135,7 @@ the browse view regeneration in one step:
 | Workflow | Trigger | Does |
 |---|---|---|
 | `update-profile.yml` | Push to `main` touching content, `scripts/`, or `render/templates/` | Validates, consolidates, renders Markdown + the browse view, commits the generated files back |
-| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`), then injects the real cover page/footers into the `.docx` (`scripts/inject_cover_page.py`, needs `python-docx`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
+| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`) **once per data set** (combined, minimalset, extended × de/en = six `.docx`), then injects the real cover page/footers into each (`scripts/inject_cover_page.py`, needs `python-docx`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
 | `pages.yml` | After a successful `Release` run, or manual dispatch | Builds the GitHub Pages landing page (sunburst, browse view, CMS editor, download links to the latest release's Word exports) |
 
 See `doc/release.md` for the full release/versioning process and `doc/github-actions-plan.md`

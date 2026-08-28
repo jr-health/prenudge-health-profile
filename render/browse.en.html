@@ -91,10 +91,9 @@
   }
   .cms-link:hover { background: #eef5f7; }
 
-  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 0.6rem; }
   .lang-switch {
     display: inline-flex;
-    align-self: flex-start;
+    flex: 0 0 auto;
     border-radius: 20px;
     overflow: hidden;
     border: 1.5px solid #ddd;
@@ -109,31 +108,25 @@
     text-decoration: none;
   }
   .lang-switch a.active { background: #004E64; color: #fff; }
-  .consortium-link {
-    font-size: 0.75rem;
-    color: #888;
-    white-space: nowrap;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  .consortium-link:hover { color: #004E64; }
-  aside.sidebar.collapsed .consortium-link { display: none; }
-
   .meta-bar {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     font-size: 0.85rem;
     color: #666;
     margin-bottom: 1rem;
   }
+  .meta-bar .meta-text { margin: 0; flex: 1 1 auto; min-width: 0; }
   .meta-bar a { color: #666; }
+  .meta-bar a:hover { color: #004E64; }
   .page-title { margin: 0 0 0.4rem; font-size: 1.3rem; color: #004E64; }
 
   /* collapsed state: hide text labels, keep icons/logo centered */
   aside.sidebar.collapsed .brand h1,
   aside.sidebar.collapsed nav.primary a span.label,
   aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
-  aside.sidebar.collapsed .cms-link span.label,
-  aside.sidebar.collapsed .lang-switch { display: none; }
+  aside.sidebar.collapsed .cms-link span.label { display: none; }
   aside.sidebar.collapsed nav.primary a,
   aside.sidebar.collapsed nav.primary span.nav-disabled { justify-content: center; padding: 0.5rem; }
   aside.sidebar.collapsed .cms-link { justify-content: center; }
@@ -219,6 +212,37 @@
     vertical-align: top;
   }
   .table-panel th { background: #f5f5f5; }
+  .table-panel tbody tr { transition: background-color 0.12s; }
+  .table-panel tbody tr:hover { background: #f5f5f5; }
+
+  .table-pager {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  .pager-btn {
+    font-family: inherit;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: #666;
+    background: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .pager-btn:hover:not(:disabled) { border-color: #004E64; color: #004E64; }
+  .pager-btn:disabled { color: #ddd; cursor: default; }
+  .pager-btn:focus-visible { outline: 2px solid #004E64; outline-offset: 1px; }
   .table-panel .swatch {
     display: inline-block;
     width: 0.75em;
@@ -254,6 +278,44 @@
     font-size: 14px;
   }
 
+  .scope-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  /* segmented control, same pill idiom as .lang-switch - all three sets stay
+     visible so the minimal/extended split is discoverable without opening a menu */
+  .scope-switch {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .scope-switch button {
+    font-family: inherit;
+    padding: 3px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .scope-switch button:hover { color: #004E64; }
+  .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
+  .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  #chart-empty {
+    margin: 2rem 0;
+    font-size: 0.85rem;
+    color: #888;
+    text-align: center;
+  }
+
   @media (max-width: 900px) {
     .layout { flex-direction: column; }
     aside.sidebar, aside.sidebar.collapsed {
@@ -276,7 +338,7 @@
     nav.primary { flex-direction: row; }
     nav.primary hr.nav-separator { display: none; }
     nav.primary a.nav-sub { padding: 0.5rem 0.6rem; }
-    .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
+    .meta-bar { flex-wrap: wrap; gap: 0.5rem; }
     .panels-row { flex-direction: column; }
     .sunburst-panel { flex: 1 1 auto; width: 100%; }
   }
@@ -301,17 +363,17 @@
       </div>
     </div>
     <nav class="primary">
-      <a href="../index.html" class="active">
+      <a data-keep-scope href="../index.html" class="active">
         <!-- Lucide "search" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
         <span class="label">Explore</span>
       </a>
-      <a href="sunburst.en.html" class="nav-sub ">
+      <a data-keep-scope href="sunburst.en.html" class="nav-sub ">
         <!-- Lucide "chart-pie" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
         <span class="label">Sunburst</span>
       </a>
-      <a href="browse.en.html" class="nav-sub active">
+      <a data-keep-scope href="browse.en.html" class="nav-sub active">
         <!-- Lucide "table" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
         <span class="label">Table</span>
@@ -333,15 +395,23 @@
         <span class="label">Metadata Editor</span>
       </a>
     </nav>
-    <div class="sidebar-footer">
-      <div class="lang-switch"><a href="browse.en.html" class="active">EN</a><a href="browse.de.html">DE</a></div>
-      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
-    </div>
   </aside>
 
   <main>
-<h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <p class="meta-bar">Version 0.1.4-test · Generated: 2026-08-28 ·
-      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/1f6fabef1eaa2c7f94e7624a06c3ab75a747634d">1f6fabe</a></p>
+<h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <div class="meta-bar">
+      <p class="meta-text">Version 0.1.4-test · Generated: 2026-08-28 ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/311c495d22eb7582bbbc2e9a5e757eae153a5e9b">311c495</a> ·
+        <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
+      <div class="lang-switch"><a data-keep-scope href="browse.en.html" class="active">EN</a><a data-keep-scope href="browse.de.html">DE</a></div>
+    </div>
+<div class="scope-bar">
+  <span id="scope-label">Data set</span>
+  <div class="scope-switch" id="scope-switch" role="group" aria-labelledby="scope-label">
+    <button type="button" data-scope="combined" aria-pressed="false">All</button>
+    <button type="button" data-scope="minimalset" aria-pressed="true">Minimal</button>
+    <button type="button" data-scope="extended" aria-pressed="false">Extended</button>
+  </div>
+</div>
 <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 <div class="panel table-panel">
 <table id="browse-table">
@@ -355,350 +425,350 @@
     </tr>
   </thead>
   <tbody>
-    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-circumference" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-circumference" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
       <td>Height, weight</td>
       <td>Waist circumference (cm)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-to-hip-ratio" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-to-hip-ratio" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
       <td>Height, weight</td>
       <td>Waist-to-hip ratio (WHR)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="alkoholfreie-ungesuesste-getraenke-glaeser-tag" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="alkoholfreie-ungesuesste-getraenke-glaeser-tag" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>Non-alcoholic, unsweetened drinks (glasses/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="fisch-fleisch-portionen-woche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="fisch-fleisch-portionen-woche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>fish-meat portions week</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="getreide-erdaepfel-portionen-pro-tag" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="getreide-erdaepfel-portionen-pro-tag" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>Cereales Potatoes Portions per day</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="huelsenfruechte-portionen-pro-woche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="huelsenfruechte-portionen-pro-woche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>Legume portions per week</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>Dairy products, oils, fats, nuts, and seeds – portions per day</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="stark-verarbeitete-lebensmittel" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="stark-verarbeitete-lebensmittel" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>stark verarbeitete Lebensmittel</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="endurance-oriented-activity" data-observation="minutes-moderate-physical-activity" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
+    <tr data-category="physical-activity" data-dimension="endurance-oriented-activity" data-observation="minutes-moderate-physical-activity" data-scope="minimalset" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
       <td>Endurance Oriented Activity</td>
       <td>Minutes in moderate and vigouros physical activity</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>planned</div><div>amendment needed</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="steps-per-day" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="steps-per-day" data-scope="minimalset" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
       <td>Everyday Activity</td>
       <td>Steps (per day)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="zeit-leichte-koerperliche-aktivitaet" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="zeit-leichte-koerperliche-aktivitaet" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
       <td>Everyday Activity</td>
       <td>Time of light physical activity per day</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="flexibility-and-balance" data-observation="lessons-per-week" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-dimension="flexibility-and-balance" data-observation="lessons-per-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
       <td>Flexibility and Balance</td>
       <td>lessons per week</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="access-to-care" data-observation="potential-access-barriers" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="access-to-care" data-observation="potential-access-barriers" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Access to care</td>
       <td>Potential access barriers</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="adverse-childhood-experiences" data-observation="self-reported-traumatic-experiences" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="adverse-childhood-experiences" data-observation="self-reported-traumatic-experiences" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Adverse childhood experiences (ACEs)</td>
       <td>Self-reported traumatic experiences</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="coping-ability" data-observation="self-reported-resilience" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="coping-ability" data-observation="self-reported-resilience" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Coping ability</td>
       <td>Self-reported resilience</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="fatigue-decline-in-performance" data-observation="daily-energy-and-performance-capacity" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="fatigue-decline-in-performance" data-observation="daily-energy-and-performance-capacity" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Fatigue / Decline in performance</td>
       <td>Daily energy and performance capacity</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="lifeevents" data-observation="self-reported-significant-life-events" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="lifeevents" data-observation="self-reported-significant-life-events" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Life events</td>
       <td>Self-reported significant life events</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="number-of-close-relationships" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="number-of-close-relationships" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Loneliness / Social support</td>
       <td>Number of close relationships</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="self-reported-social-integration" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="self-reported-social-integration" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Loneliness / Social support</td>
       <td>Self-reported social integration</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="subjective-sense-of-support" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="subjective-sense-of-support" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Loneliness / Social support</td>
       <td>Subjective sense of support</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="susceptibility-to-infection" data-observation="number-of-infections" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="susceptibility-to-infection" data-observation="number-of-infections" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Susceptibility to infection</td>
       <td>Number of infections within a defined period</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="weight-changes" data-observation="change-in-body-weight" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="psychosocial-factors" data-dimension="weight-changes" data-observation="change-in-body-weight" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Weight changes</td>
       <td>Change in body weight over defined periods (kg)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="health-literacy" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="health-literacy" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Communication/Understanding</td>
       <td>Health literacy</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="reporting-symptoms-or-changes" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="reporting-symptoms-or-changes" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Communication/Understanding</td>
       <td>Reporting symptoms or changes to healthcare professionals</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="medication-management" data-observation="monitoring-of-medication-and-vaccination-status" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="medication-management" data-observation="monitoring-of-medication-and-vaccination-status" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Medication management</td>
       <td>Independent monitoring of medication and vaccination status</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-glucose-level" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-glucose-level" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Self-monitoring</td>
       <td>Independent documentation of blood glucose level (mmol/l?)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-pressure" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-pressure" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Self-monitoring</td>
       <td>Independent documentation of blood pressure (mmHg?)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-body-weight" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-body-weight" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Self-monitoring</td>
       <td>Independent documentation of body weight (kg)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-heart-rate" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-heart-rate" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Self-monitoring</td>
       <td>Independent documentation of heart rate (bpm?)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="self-management" data-dimension="technology-use" data-observation="use-of-apps-or-webportals" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="self-management" data-dimension="technology-use" data-observation="use-of-apps-or-webportals" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
       <td>Technology use</td>
       <td>Use of apps or web portals</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sexuality" data-dimension="sexual-satisfaction" data-observation="self-reported-sexual-satisfaction" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sexuality" data-dimension="sexual-satisfaction" data-observation="self-reported-sexual-satisfaction" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #D6C6C2;"></span>Sexuality</td>
       <td>Sexual satisfaction</td>
       <td>Self-reported sexual satisfaction</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sleep" data-dimension="chronotyp" data-observation="selbstberichteter-chronotyp" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sleep" data-dimension="chronotyp" data-observation="selbstberichteter-chronotyp" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
       <td>chronotype</td>
       <td>self_reports_chronotype</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sleep" data-dimension="schlafhygiene" data-observation="haeufigkeit-einhaltung-schlaffoerdernder-routinen" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sleep" data-dimension="schlafhygiene" data-observation="haeufigkeit-einhaltung-schlaffoerdernder-routinen" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
       <td>sleephygiene</td>
       <td>Frequency of adherence to sleep-promoting routines</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sleep" data-dimension="sleep-quality" data-observation="einschlafzeit" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sleep" data-dimension="sleep-quality" data-observation="einschlafzeit" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
       <td>Sleep Quality</td>
       <td>time taken to fall asleep</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="e-zigaretten-tabakerhitzer" data-observation="e-zigaretten-tabakerhitzer-anzahl-pro-woche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="e-zigaretten-tabakerhitzer" data-observation="e-zigaretten-tabakerhitzer-anzahl-pro-woche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>Anzahl pro Woche</td>
       <td>e-cigarettes tabacco heaters-number-per-week</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="pfeife-wasserpfeife" data-observation="pfeife-wasserpfeife-anzahl-pro-woche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="pfeife-wasserpfeife" data-observation="pfeife-wasserpfeife-anzahl-pro-woche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>pipe hookah</td>
       <td>pipe hookah numbers per week</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsmotivation" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsmotivation" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>cigarettes</td>
       <td>motivation to quit</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsversuche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsversuche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>cigarettes</td>
       <td>attempts to give up</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="nikotinabhaengigkeit" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="zigaretten" data-observation="nikotinabhaengigkeit" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>cigarettes</td>
       <td>nicotine addiction</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="pack-years" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-dimension="zigaretten" data-observation="pack-years" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>cigarettes</td>
       <td>Pack Years</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigarren-zigarillos" data-observation="zigarren-zigarillos-pro-woche" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="smoking" data-dimension="zigarren-zigarillos" data-observation="zigarren-zigarillos-pro-woche" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>cigars and cigarillos</td>
       <td>cigarres or cigarrilos per week</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="housing-type" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="housing-type" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Living environment</td>
       <td>Housing type (owned home, rented apartment, other)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="residence" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="residence" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Living environment</td>
       <td>Residence (urban/rural)</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="marital-status" data-observation="single-married-partnership-separated-widowed" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="marital-status" data-observation="single-married-partnership-separated-widowed" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Marital status</td>
       <td>single, married, in a partnership, separated, widowed</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="origin" data-observation="ethnicity" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="origin" data-observation="ethnicity" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Origin</td>
       <td>Ethnicity</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="employment-status-income" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="employment-status-income" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Socio-economic Status</td>
       <td>Employment status / Income</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="native-language" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="native-language" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Socio-economic Status</td>
       <td>Native language</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="impairment-of-employment" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="work" data-dimension="workability" data-observation="impairment-of-employment" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
       <td>Workability</td>
       <td>Impairment of employment</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="loss-of-income" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="work" data-dimension="workability" data-observation="loss-of-income" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
       <td>Workability</td>
       <td>loss of income</td>
       <td></td>
       <td></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="work-absence-days" data-source-type="" data-fhir-status="" data-vis-status="">
+    <tr data-category="work" data-dimension="workability" data-observation="work-absence-days" data-scope="extended" data-source-type="" data-fhir-status="" data-vis-status="">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
       <td>Workability</td>
       <td>Work absence days</td>
@@ -707,7 +777,16 @@
     </tr>
   </tbody>
 </table>
+<div class="table-pager">
+  <button type="button" class="pager-btn" id="pager-prev" aria-label="Previous page">‹</button>
+  <span id="pager-status" aria-live="polite"
+        data-format="{from}–{to} of {total} observations"
+        data-empty="No observations match this selection"></span>
+  <button type="button" class="pager-btn" id="pager-next" aria-label="Next page">›</button>
 </div>
+</div>
+<script src="scope.js"></script>
+<script src="browse.js"></script>
   </main>
 </div>
 

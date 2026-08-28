@@ -5,6 +5,7 @@
     "subject-area": "risk-and-protective-factors",
     "title": "Soziodemografische Daten",
     "key": "sociodemographic-data",
+    "dataset-scope": "Minimalset",
     "color": "#e28913",
     "icon_upload": "/media/person-standing-white.png",
     "icon_lucide": "person-standing"
@@ -15,6 +16,7 @@
     "subject-area": "risk-and-protective-factors",
     "title": "Sociodemographic Data",
     "key": "sociodemographic-data",
+    "dataset-scope": "Minimalset",
     "color": "#e28913",
     "icon_upload": "/media/person-standing-white.png",
     "icon_lucide": "person-standing"

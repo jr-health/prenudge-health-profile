@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "marital-status",
+    "dataset-scope": "Extension",
     "category": "sociodemographic-data",
     "title": "Familienstand",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "marital-status",
+    "dataset-scope": "Extension",
     "category": "sociodemographic-data",
     "title": "Marital status",
     "description_professional": "",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "technology-use",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Technologieeinsatz",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "technology-use",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Technology use",
     "description_professional": "",

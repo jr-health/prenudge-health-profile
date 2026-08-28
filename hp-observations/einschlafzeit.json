@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "einschlafzeit",
+    "dataset-scope": "Extension",
     "title": "Dauer der Einschlafzeit (durchschnittliche Minuten)",
     "description": "",
     "category": "sleep",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "einschlafzeit",
+    "dataset-scope": "Extension",
     "title": "time taken to fall asleep",
     "description": "",
     "category": "sleep",

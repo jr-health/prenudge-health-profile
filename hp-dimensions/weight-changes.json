@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "weight-changes",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Gewichtsveränderungen",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "weight-changes",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Weight changes",
     "description_professional": "",

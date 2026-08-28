@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "change-in-body-weight",
+    "dataset-scope": "Extension",
     "title": "Veränderung des Körpergewichts über definierte Zeiträume (kg)",
     "description": "",
     "category": "psychosocial-factors",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "change-in-body-weight",
+    "dataset-scope": "Extension",
     "title": "Change in body weight over defined periods (kg)",
     "description": "",
     "category": "psychosocial-factors",

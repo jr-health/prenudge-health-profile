@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "socio-economic-status",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Sozio-ökonomischer Status",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "socio-economic-status",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Socio-economic Status",
     "description_professional": "",

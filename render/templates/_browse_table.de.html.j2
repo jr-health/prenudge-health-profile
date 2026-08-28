@@ -16,6 +16,8 @@
 {% for obs in dim.observations %}
 {% set o = obs.de %}
 {% set instruments = o.get('measurement-instrument', []) %}
+{% set scope_ids = {'Minimalset': 'minimalset', 'Extension': 'extended'} %}
+{% set obs_scope = scope_ids.get(o.get('dataset-scope'), '') %}
 {% set ns = namespace(source_types=[], fhir_statuses=[], vis_statuses=[]) %}
 {% for instr in instruments %}
 {% if instr.get('source-type') and instr['source-type'] not in ns.source_types %}
@@ -28,7 +30,7 @@
 {% set ns.vis_statuses = ns.vis_statuses + [instr['vis-status']] %}
 {% endif %}
 {% endfor %}
-    <tr data-category="{{ c.key }}" data-dimension="{{ d.key }}" data-observation="{{ o.key }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
+    <tr data-category="{{ c.key }}" data-dimension="{{ d.key }}" data-observation="{{ o.key }}" data-scope="{{ obs_scope }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
       <td><span class="swatch" style="background-color: {{ c.color | default('#cccccc') }};"></span>{{ c.title | default(cat.en.title) }}</td>
       <td>{{ d.title | default(dim.en.title) }}</td>
       <td>{{ o.title | default(obs.en.title) }}</td>
@@ -40,3 +42,12 @@
 {% endfor %}
   </tbody>
 </table>
+{# Statustext ist datengetrieben, damit browse.js sprachunabhängig bleibt - das
+   englische Partial liefert dieselben Platzhalter mit englischem Wortlaut. #}
+<div class="table-pager">
+  <button type="button" class="pager-btn" id="pager-prev" aria-label="Vorherige Seite">‹</button>
+  <span id="pager-status" aria-live="polite"
+        data-format="{from}–{to} von {total} Observations"
+        data-empty="Keine Observations für diese Auswahl"></span>
+  <button type="button" class="pager-btn" id="pager-next" aria-label="Nächste Seite">›</button>
+</div>

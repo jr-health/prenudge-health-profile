@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "alkoholfreie-ungesuesste-getraenke-glaeser-tag",
+    "dataset-scope": "Extension",
     "title": "Alkoholfreie, ungesüßte Getränke (Gläser/Tag)",
     "description": "",
     "category": "nutrition",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "alkoholfreie-ungesuesste-getraenke-glaeser-tag",
+    "dataset-scope": "Extension",
     "title": "Non-alcoholic, unsweetened drinks (glasses/day)",
     "description": "",
     "category": "nutrition",

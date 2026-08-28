@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "selbstberichteter-chronotyp",
+    "dataset-scope": "Extension",
     "title": "Selbstberichteter Chronotyp",
     "description": "",
     "category": "sleep",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "selbstberichteter-chronotyp",
+    "dataset-scope": "Extension",
     "title": "self_reports_chronotype",
     "description": "",
     "category": "sleep",

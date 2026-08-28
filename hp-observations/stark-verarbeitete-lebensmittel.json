@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "stark-verarbeitete-lebensmittel",
+    "dataset-scope": "Extension",
     "title": "stark verarbeitete Lebensmittel (Portionen/Tag)",
     "description": "",
     "category": "nutrition",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "stark-verarbeitete-lebensmittel",
+    "dataset-scope": "Extension",
     "title": "stark verarbeitete Lebensmittel",
     "description": "",
     "category": "nutrition",

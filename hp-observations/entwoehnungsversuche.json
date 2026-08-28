@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "entwoehnungsversuche",
+    "dataset-scope": "Extension",
     "title": "Entwöhnungsversuche (Anzahl/Jahr)",
     "description": "",
     "category": "smoking",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "entwoehnungsversuche",
+    "dataset-scope": "Extension",
     "title": "attempts to give up",
     "description": "",
     "category": "smoking",

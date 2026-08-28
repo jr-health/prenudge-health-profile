@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "e-zigaretten-tabakerhitzer",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "E-Zigaretten/Tabakerhitzer",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "e-zigaretten-tabakerhitzer",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "Anzahl pro Woche",
     "description_professional": "",

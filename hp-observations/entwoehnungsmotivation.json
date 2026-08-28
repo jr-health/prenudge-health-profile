@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "entwoehnungsmotivation",
+    "dataset-scope": "Extension",
     "title": "Entwöhnungsmotivation",
     "description": "",
     "category": "smoking",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "entwoehnungsmotivation",
+    "dataset-scope": "Extension",
     "title": "motivation to quit",
     "description": "",
     "category": "smoking",

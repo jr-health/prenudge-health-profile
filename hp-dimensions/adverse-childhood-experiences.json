@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "adverse-childhood-experiences",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Traumatische Kindheitserfahrungen",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "adverse-childhood-experiences",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Adverse childhood experiences (ACEs)",
     "description_professional": "",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "medication-management",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Medikamentenmanagement",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "medication-management",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Medication management",
     "description_professional": "",

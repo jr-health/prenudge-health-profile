@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "zeit-leichte-koerperliche-aktivitaet",
+    "dataset-scope": "Extension",
     "title": "leicht körperlicher Aktivität (Minuten/Tag)",
     "description": "",
     "category": "physical-activity",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "zeit-leichte-koerperliche-aktivitaet",
+    "dataset-scope": "Extension",
     "title": "Time of light physical activity per day",
     "description": "",
     "category": "physical-activity",

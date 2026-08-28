@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "residence",
+    "dataset-scope": "Extension",
     "title": "Wohnortgröße (Stadt/Land)",
     "description": "",
     "category": "sociodemographic-data",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "residence",
+    "dataset-scope": "Extension",
     "title": "Residence (urban/rural)",
     "description": "",
     "category": "sociodemographic-data",

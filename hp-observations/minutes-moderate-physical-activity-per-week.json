@@ -12,7 +12,8 @@
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "description": "",
     "category": "physical-activity",
-    "key": "steps-per-day"
+    "key": "steps-per-day",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "dimension": "everyday-activity",
@@ -25,6 +26,7 @@
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "description": "",
     "category": "physical-activity",
-    "key": "steps-per-day"
+    "key": "steps-per-day",
+    "dataset-scope": "Minimalset"
   }
 }

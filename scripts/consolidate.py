@@ -5,9 +5,14 @@ hierarchical health-profile.json at the project root.
 Structure: categories -> dimensions -> observations
 Relations are resolved and embedded; orphaned entries are collected separately.
 
+--scope restricts the output to one data set, based on the `dataset-scope`
+field maintained in the CMS (see admin/config.yml). See SCOPES / scope_of()
+below for the filter rule.
+
 Usage:
     python scripts/consolidate.py
     python scripts/consolidate.py --version 1.2.0
+    python scripts/consolidate.py --scope minimalset
     python scripts/consolidate.py --indent 2
     python scripts/consolidate.py --out path/to/output.json
 """
@@ -19,6 +24,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
+
+# --scope values. "combined" is the full catalogue (no filtering at all), so
+# minimalset/extended are always strict subsets of it and the combined export
+# stays identical to what was produced before scopes existed.
+COMBINED = "combined"
+SCOPES = (COMBINED, "minimalset", "extended")
+
+# Maps the CMS select's option strings (admin/config.yml, field `dataset-scope`)
+# onto the --scope values used here and in the filenames.
+SCOPE_VALUES = {"Minimalset": "minimalset", "Extension": "extended"}
 
 
 def git_commit_sha() -> str | None:
@@ -87,7 +102,53 @@ def clean(entry: dict) -> dict:
     return {k: v for k, v in entry.items() if not k.startswith("_")}
 
 
-def consolidate(version: str | None = None) -> dict:
+def scope_of(entry: dict) -> str | None:
+    """
+    The entry's own --scope value, or None if it carries no (recognised)
+    `dataset-scope`. `dataset-scope` is an i18n: duplicate field, so de and en
+    always hold the same value and either may be read.
+    """
+    raw = entry.get("de", {}).get("dataset-scope") or entry.get("en", {}).get("dataset-scope")
+    return SCOPE_VALUES.get(raw)
+
+
+def in_scope(entry: dict, scope: str) -> bool:
+    return scope == COMBINED or scope_of(entry) == scope
+
+
+def filter_tree(categories: list[dict], scope: str) -> list[dict]:
+    """
+    Restrict an already-built category tree to one scope.
+
+    Every level is selected by its own `dataset-scope`, and an entry is kept as
+    well when any of its descendants was selected - so a category or dimension
+    belongs to the set it is flagged for even while all of its observations
+    still sit in the other set, and a selected observation is never orphaned by
+    an ancestor flagged the other way.
+
+    Selecting ancestors by their descendants alone is not enough: most
+    observations were added after the categories and dimensions they hang
+    under, so a leaf-only rule drops a Minimalset dimension the moment its
+    observations happen to all be extensions.
+    """
+    if scope == COMBINED:
+        return categories
+
+    kept_categories = []
+    for cat in categories:
+        kept_dims = []
+        for dim in cat["dimensions"]:
+            kept_obs = [o for o in dim["observations"] if in_scope(o, scope)]
+            if kept_obs or in_scope(dim, scope):
+                kept_dims.append({**dim, "observations": kept_obs})
+
+        if kept_dims or in_scope(cat, scope):
+            kept_categories.append({**cat, "dimensions": kept_dims})
+
+    return kept_categories
+
+
+def consolidate(version: str | None = None, scope: str = COMBINED) -> dict:
     categories = load_collection("hp-categories")
     dimensions = load_collection("hp-dimensions")
     observations = load_collection("hp-observations")
@@ -141,11 +202,17 @@ def consolidate(version: str | None = None) -> dict:
     result = {
         "version": version or "unreleased",
         "generated": datetime.now(timezone.utc).isoformat(),
+        "scope": scope,
         "commit": git_commit_sha(),
         "activity": git_activity(),
-        "categories": built_categories,
+        "categories": filter_tree(built_categories, scope),
         "data_providers": [clean(p) for p in data_providers],
     }
+
+    # Orphans are filtered on their own value - they have no resolved ancestor
+    # to be kept by, and (for dimensions) no resolved children to be kept for.
+    orphaned_dimensions = [d for d in orphaned_dimensions if in_scope(d, scope)]
+    orphaned_observations = [o for o in orphaned_observations if in_scope(o, scope)]
 
     if orphaned_dimensions:
         result["orphaned_dimensions"] = orphaned_dimensions
@@ -160,10 +227,12 @@ def main():
     parser.add_argument("--out", default=str(ROOT / "health-profile.json"), help="Output file path")
     parser.add_argument("--indent", type=int, default=2, help="JSON indent (default: 2)")
     parser.add_argument("--version", default=None, help="Semantic version to embed, e.g. 1.2.0")
+    parser.add_argument("--scope", default=COMBINED, choices=SCOPES,
+                        help=f"Data set to emit (default: {COMBINED} = the full catalogue)")
     args = parser.parse_args()
 
     print("Consolidating Health Profile data...")
-    result = consolidate(version=args.version)
+    result = consolidate(version=args.version, scope=args.scope)
 
     out_path = Path(args.out)
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=args.indent), encoding="utf-8")
@@ -174,6 +243,7 @@ def main():
     prov_count = len(result["data_providers"])
 
     print(f"  Version: {result['version']}")
+    print(f"  Scope:   {result['scope']}")
     print(f"  {cat_count} categories, {dim_count} dimensions, {obs_count} observations, {prov_count} data providers")
     print(f"  Written to: {out_path}")
 

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "chronotyp",
+    "dataset-scope": "Extension",
     "category": "sleep",
     "title": "Chronotyp",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "chronotyp",
+    "dataset-scope": "Extension",
     "category": "sleep",
     "title": "chronotype",
     "description_professional": "",

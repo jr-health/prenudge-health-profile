@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "waist-to-hip-ratio",
+    "dataset-scope": "Extension",
     "title": "Hüft-Taillen-Verhältnis (WHR)",
     "description": "",
     "category": "anthropometry",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "waist-to-hip-ratio",
+    "dataset-scope": "Extension",
     "title": "Waist-to-hip ratio (WHR)",
     "description": "",
     "category": "anthropometry",

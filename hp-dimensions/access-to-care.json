@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "access-to-care",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Zugang zu Versorgung",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "access-to-care",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Access to care",
     "description_professional": "",

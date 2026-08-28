@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "sexual-satisfaction",
+    "dataset-scope": "Extension",
     "category": "sexuality",
     "title": "Sexuelle Zufriedenheit",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "sexual-satisfaction",
+    "dataset-scope": "Extension",
     "category": "sexuality",
     "title": "Sexual satisfaction",
     "description_professional": "",

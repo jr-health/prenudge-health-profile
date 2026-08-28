@@ -4,13 +4,15 @@
     "title": "Raucherstatus",
     "category": "smoking",
     "id_tech": "smoking-status",
-    "key": "smoking-status"
+    "key": "smoking-status",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "template": "dimension",
     "category": "smoking",
     "title": "Smoking Status",
     "id_tech": "smoking-status",
-    "key": "smoking-status"
+    "key": "smoking-status",
+    "dataset-scope": "Minimalset"
   }
 }

@@ -1,5 +1,15 @@
 {% extends "_base.de.html.j2" %}
 {% block page_title %}<h1 class="page-title">Entdecken — PräNUDGE Gesundheitsprofil</h1>{% endblock %}
+{% block toolbar %}
+<div class="scope-bar">
+  <span id="scope-label">Datensatz</span>
+  <div class="scope-switch" id="scope-switch" role="group" aria-labelledby="scope-label">
+    <button type="button" data-scope="combined" aria-pressed="false">Gesamt</button>
+    <button type="button" data-scope="minimalset" aria-pressed="true">Minimalset</button>
+    <button type="button" data-scope="extended" aria-pressed="false">Erweitert</button>
+  </div>
+</div>
+{% endblock %}
 {% block content %}
 <p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
 <div class="panels-row">
@@ -12,16 +22,18 @@
         <div id="center-hint"></div>
       </div>
     </div>
+    <p id="chart-empty" style="display:none">Keine Einträge in diesem Datensatz.</p>
     <p id="hint"></p>
     <div id="tooltip"></div>
-    <p class="panel-caption"><a class="pill-link" href="{{ nav_sunburst_href }}">Vollbild-Ansicht ↗</a></p>
+    <p class="panel-caption"><a class="pill-link" data-keep-scope href="{{ nav_sunburst_href }}">Vollbild-Ansicht ↗</a></p>
   </div>
   <div class="panel table-panel">
     {% include "_browse_table.de.html.j2" %}
-    <p class="panel-caption"><a class="pill-link" href="{{ nav_table_href }}">Vollständige Tabelle ↗</a></p>
+    <p class="panel-caption"><a class="pill-link" data-keep-scope href="{{ nav_table_href }}">Vollständige Tabelle ↗</a></p>
   </div>
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="render/scope.js"></script>
 <script src="render/sunburst.js"></script>
 <script src="render/browse.js"></script>
 {% endblock %}

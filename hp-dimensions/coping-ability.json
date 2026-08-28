@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "coping-ability",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Fähigkeit zum Coping",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "coping-ability",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Coping ability",
     "description_professional": "",

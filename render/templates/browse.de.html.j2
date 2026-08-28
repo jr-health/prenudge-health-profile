@@ -1,9 +1,21 @@
 {% extends "_base.de.html.j2" %}
 {% block title %}PräNUDGE Gesundheitsprofil — Übersicht{% endblock %}
 {% block page_title %}<h1 class="page-title">Tabelle — PräNUDGE Gesundheitsprofil</h1>{% endblock %}
+{% block toolbar %}
+<div class="scope-bar">
+  <span id="scope-label">Datensatz</span>
+  <div class="scope-switch" id="scope-switch" role="group" aria-labelledby="scope-label">
+    <button type="button" data-scope="combined" aria-pressed="false">Gesamt</button>
+    <button type="button" data-scope="minimalset" aria-pressed="true">Minimalset</button>
+    <button type="button" data-scope="extended" aria-pressed="false">Erweitert</button>
+  </div>
+</div>
+{% endblock %}
 {% block content %}
 <p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
 <div class="panel table-panel">
   {% include "_browse_table.de.html.j2" %}
 </div>
+<script src="scope.js"></script>
+<script src="browse.js"></script>
 {% endblock %}

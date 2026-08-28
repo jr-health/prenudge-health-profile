@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "communication-understanding",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Kommunikation/Verständnis",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "communication-understanding",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Communication/Understanding",
     "description_professional": "",

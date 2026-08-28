@@ -5,14 +5,19 @@ Jinja2 -> .adoc -> asciidoctor -> docbook -> pandoc -> .docx
 
 Templates:  render/templates/health-profile.de.adoc.j2
             render/templates/health-profile.en.adoc.j2
-Output:     health-profile-v<version>-<generated>.de.adoc
-            health-profile-v<version>-<generated>.en.adoc
+Output:     health-profile-v<version>-<generated><suffix>.de.adoc
+            health-profile-v<version>-<generated><suffix>.en.adoc
+
+--suffix tags the filename with the data set the input JSON was consolidated
+for (see scripts/consolidate.py --scope). The combined export passes no suffix,
+so its filename stays exactly as it was before scopes existed.
 
 Usage:
     python scripts/render_adoc.py
     python scripts/render_adoc.py --version 1.2.0
     python scripts/render_adoc.py --version 1.2.0 --generated 2026-08-13
     python scripts/render_adoc.py --src path/to/health-profile.json
+    python scripts/render_adoc.py --suffix -minimalset
     python scripts/render_adoc.py --out-dir doc/output
 
 Requires:
@@ -43,6 +48,7 @@ def main():
     parser.add_argument("--out-dir", default=str(ROOT), help="Output directory")
     parser.add_argument("--version", default=None, help="Override version (default: taken from JSON)")
     parser.add_argument("--generated", default=None, help="Override generation date, e.g. 2026-08-13 (default: taken from JSON)")
+    parser.add_argument("--suffix", default="", help="Filename suffix after the date, e.g. -minimalset (default: none)")
     args = parser.parse_args()
 
     src = Path(args.src)
@@ -69,7 +75,7 @@ def main():
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.adoc.j2")
         content = template.render(profile=profile)
-        out_path = out_dir / f"health-profile-v{version}-{generated}.{locale}.adoc"
+        out_path = out_dir / f"health-profile-v{version}-{generated}{args.suffix}.{locale}.adoc"
         out_path.write_text(content, encoding="utf-8")
         print(f"  Written: {out_path}")
 

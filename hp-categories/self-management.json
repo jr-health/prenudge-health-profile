@@ -2,6 +2,7 @@
   "de": {
     "template": "category",
     "key": "self-management",
+    "dataset-scope": "Extension",
     "title": "Selbstmanagement",
     "icon_upload": "/media/notebook-pen.png",
     "color": "#c7d2d3",
@@ -12,6 +13,7 @@
   "en": {
     "template": "category",
     "key": "self-management",
+    "dataset-scope": "Extension",
     "title": "Self-management",
     "icon_upload": "/media/notebook-pen.png",
     "color": "#c7d2d3",

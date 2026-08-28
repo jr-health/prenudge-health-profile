@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "lessons-per-week",
+    "dataset-scope": "Extension",
     "title": "Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)",
     "description": "",
     "category": "physical-activity",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "lessons-per-week",
+    "dataset-scope": "Extension",
     "title": "lessons per week",
     "description": "",
     "category": "physical-activity",

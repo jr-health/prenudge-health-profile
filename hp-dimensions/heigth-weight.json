@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "heigth-weight",
+    "dataset-scope": "Minimalset",
     "category": "anthropometry",
     "title": "Größe, Gewicht",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "heigth-weight",
+    "dataset-scope": "Minimalset",
     "category": "anthropometry",
     "title": "Height, weight",
     "description_professional": "",

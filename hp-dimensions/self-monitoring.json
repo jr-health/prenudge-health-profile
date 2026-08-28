@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "self-monitoring",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Selbstüberwachung",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "self-monitoring",
+    "dataset-scope": "Extension",
     "category": "self-management",
     "title": "Self-monitoring",
     "description_professional": "",

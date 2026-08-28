@@ -4,13 +4,15 @@
     "title": "Muskelkräftigende Übungen",
     "category": "physical-activity",
     "id_tech": "muscle-strengthening-exercises",
-    "key": "muscle-strengthening-exercises"
+    "key": "muscle-strengthening-exercises",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "template": "dimension",
     "category": "physical-activity",
     "title": "Muscle-strengthening Exercises",
     "id_tech": "muscle-strengthening-exercises",
-    "key": "muscle-strengthening-exercises"
+    "key": "muscle-strengthening-exercises",
+    "dataset-scope": "Minimalset"
   }
 }

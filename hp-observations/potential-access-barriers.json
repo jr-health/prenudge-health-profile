@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "potential-access-barriers",
+    "dataset-scope": "Extension",
     "title": "Potenzielle Zugangshindernisse",
     "description": "",
     "category": "sociodemographic-data",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "potential-access-barriers",
+    "dataset-scope": "Extension",
     "title": "Potential access barriers",
     "description": "",
     "category": "sociodemographic-data",

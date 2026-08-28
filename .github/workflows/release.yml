@@ -66,34 +66,64 @@ jobs:
       - name: Render Markdown reports
         run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
 
-      - name: Render AsciiDoc
-        run: python scripts/render_adoc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
-
-      - name: Convert AsciiDoc to Word via DocBook
+      # One Word export per data set (see scripts/consolidate.py --scope), in both
+      # languages. The combined set is built from the health-profile.json already
+      # consolidated above and keeps the unsuffixed filename, so existing download
+      # links stay valid; minimalset/extended are consolidated into their own
+      # temporary JSON and get a filename suffix.
+      - name: Render AsciiDoc and convert to Word via DocBook
         run: |
           set -e
           VERSION="${{ steps.version.outputs.value }}"
           GENERATED="${{ steps.version.outputs.generated }}"
-          STEM="health-profile-v${VERSION}-${GENERATED}"
           REFERENCE_DOCX="render/templates/PräNUDGE Berichtsvorlage.docx"
-          for lang in de en; do
-            asciidoctor "${STEM}.${lang}.adoc" -b docbook -o "/tmp/${STEM}.${lang}.xml"
-            if [ "$lang" = "de" ]; then
-              toc_title="Inhaltsverzeichnis"
-              title="PreNUDGE Gesundheitsprofil — Katalog"
+
+          for scope in combined minimalset extended; do
+            if [ "$scope" = "combined" ]; then
+              suffix=""
+              src="health-profile.json"
             else
-              toc_title="Table of Contents"
-              title="PreNUDGE Health Profile — Catalogue"
+              suffix="-${scope}"
+              src="/tmp/health-profile-${scope}.json"
+              python scripts/consolidate.py --version "$VERSION" --scope "$scope" --out "$src"
             fi
-            pandoc -f docbook -t docx \
-              --toc --toc-depth=3 \
-              -M toc-title="$toc_title" \
-              --reference-doc="$REFERENCE_DOCX" \
-              -o "${STEM}.${lang}.docx" \
-              "/tmp/${STEM}.${lang}.xml"
-            python scripts/inject_cover_page.py "${STEM}.${lang}.docx" \
-              --reference "$REFERENCE_DOCX" \
-              --title "$title" --version "$VERSION" --generated "$GENERATED" --lang "$lang"
+
+            # --suffix=... (equals form): the value starts with a hyphen, which
+            # argparse would otherwise parse as the next option.
+            python scripts/render_adoc.py \
+              --src "$src" \
+              --version "$VERSION" \
+              --generated "$GENERATED" \
+              --suffix="$suffix"
+
+            STEM="health-profile-v${VERSION}-${GENERATED}${suffix}"
+            for lang in de en; do
+              asciidoctor "${STEM}.${lang}.adoc" -b docbook -o "/tmp/${STEM}.${lang}.xml"
+              if [ "$lang" = "de" ]; then
+                toc_title="Inhaltsverzeichnis"
+                title="PreNUDGE Gesundheitsprofil — Katalog"
+                case "$scope" in
+                  minimalset) title="${title} (Minimalset)" ;;
+                  extended)   title="${title} (Erweiterter Datensatz)" ;;
+                esac
+              else
+                toc_title="Table of Contents"
+                title="PreNUDGE Health Profile — Catalogue"
+                case "$scope" in
+                  minimalset) title="${title} (Minimal Set)" ;;
+                  extended)   title="${title} (Extended Set)" ;;
+                esac
+              fi
+              pandoc -f docbook -t docx \
+                --toc --toc-depth=3 \
+                -M toc-title="$toc_title" \
+                --reference-doc="$REFERENCE_DOCX" \
+                -o "${STEM}.${lang}.docx" \
+                "/tmp/${STEM}.${lang}.xml"
+              python scripts/inject_cover_page.py "${STEM}.${lang}.docx" \
+                --reference "$REFERENCE_DOCX" \
+                --title "$title" --version "$VERSION" --generated "$GENERATED" --lang "$lang"
+            done
           done
 
       - name: Create GitHub Release
@@ -106,3 +136,7 @@ jobs:
             health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.en.md
             health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.de.docx
             health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.en.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}-minimalset.de.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}-minimalset.en.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}-extended.de.docx
+            health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}-extended.en.docx

@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "subjective-sense-of-support",
+    "dataset-scope": "Extension",
     "title": "Subjektives Empfinden von Unterstützung",
     "description": "",
     "category": "psychosocial-factors",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "subjective-sense-of-support",
+    "dataset-scope": "Extension",
     "title": "Subjective sense of support",
     "description": "",
     "category": "psychosocial-factors",

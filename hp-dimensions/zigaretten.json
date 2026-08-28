@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "zigaretten",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "Zigaretten",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "zigaretten",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "cigarettes",
     "description_professional": "",

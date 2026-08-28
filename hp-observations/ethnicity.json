@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "ethnicity",
+    "dataset-scope": "Extension",
     "title": "Ethnische Zugehörigkeit",
     "description": "",
     "category": "sociodemographic-data",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "ethnicity",
+    "dataset-scope": "Extension",
     "title": "Ethnicity",
     "description": "",
     "category": "sociodemographic-data",

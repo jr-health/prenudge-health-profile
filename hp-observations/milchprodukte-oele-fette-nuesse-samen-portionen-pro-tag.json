@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+    "dataset-scope": "Extension",
     "title": "Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)",
     "description": "",
     "category": "nutrition",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+    "dataset-scope": "Extension",
     "title": "Dairy products, oils, fats, nuts, and seeds – portions per day",
     "description": "",
     "category": "nutrition",

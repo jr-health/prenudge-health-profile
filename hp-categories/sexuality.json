@@ -2,6 +2,7 @@
   "de": {
     "template": "category",
     "key": "sexuality",
+    "dataset-scope": "Extension",
     "title": "Sexualität",
     "icon_upload": "/media/venus-and-mars.png",
     "color": "#D6C6C2",
@@ -12,6 +13,7 @@
   "en": {
     "template": "category",
     "key": "sexuality",
+    "dataset-scope": "Extension",
     "title": "Sexuality",
     "icon_upload": "/media/venus-and-mars.png",
     "color": "#D6C6C2",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "endurance-oriented-activity",
+    "dataset-scope": "Minimalset",
     "category": "physical-activity",
     "title": "Ausdauerorientierte Aktivität",
     "description_professional": "Definition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020) \n\nEmpfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von **ausdauerorientierter Bewegung mit mittlerer Intensität** im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) **ODER** „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität **ODER** eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
@@ -48,6 +49,7 @@
   "en": {
     "template": "dimension",
     "key": "endurance-oriented-activity",
+    "dataset-scope": "Minimalset",
     "category": "physical-activity",
     "title": "Endurance Oriented Activity",
     "verified-health-links": [

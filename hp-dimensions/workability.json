@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "workability",
+    "dataset-scope": "Extension",
     "category": "work",
     "title": "Arbeitsfähigkeit",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "workability",
+    "dataset-scope": "Extension",
     "category": "work",
     "title": "Workability",
     "description_professional": "",

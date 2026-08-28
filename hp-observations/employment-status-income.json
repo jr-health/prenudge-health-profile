@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "employment-status-income",
+    "dataset-scope": "Extension",
     "title": "Berufliche Situation Einkommen",
     "description": "",
     "category": "sociodemographic-data",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "employment-status-income",
+    "dataset-scope": "Extension",
     "title": "Employment status / Income",
     "description": "",
     "category": "sociodemographic-data",

@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "housing-type",
+    "dataset-scope": "Extension",
     "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
     "description": "",
     "category": "sociodemographic-data",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "housing-type",
+    "dataset-scope": "Extension",
     "title": "Housing type (owned home, rented apartment, other)",
     "description": "",
     "category": "sociodemographic-data",

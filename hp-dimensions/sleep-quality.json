@@ -4,13 +4,15 @@
     "title": "Schlafqualität",
     "id_tech": "sleep-quality",
     "category": "sleep",
-    "key": "sleep-quality"
+    "key": "sleep-quality",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "template": "dimension",
     "title": "Sleep Quality",
     "id_tech": "sleep-quality",
     "category": "sleep",
-    "key": "sleep-quality"
+    "key": "sleep-quality",
+    "dataset-scope": "Minimalset"
   }
 }

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "loneliness-social-support",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Einsamkeit / Soziale Unterstützung",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "loneliness-social-support",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Loneliness / Social support",
     "description_professional": "",

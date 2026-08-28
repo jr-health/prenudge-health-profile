@@ -352,14 +352,30 @@ function dispatchSelect(p) {
 
 // ── main ──────────────────────────────────────────────────────────────────
 
-d3.json(profileSrc).then(profile => {
+// Kept so the chart can be rebuilt against a different data set without
+// re-fetching (see the "hp:scope" listener at the bottom).
+let fullProfile = null;
 
-  const metaEl = document.getElementById("meta");
-  if (metaEl) {
-    metaEl.textContent = `Version ${profile.version} · ${profile.generated.slice(0, 10)}`;
-  }
+// Not just "render": this is a classic script sharing one global scope with
+// scope.js and browse.js, so a generic name here is a collision waiting to
+// happen - and the call below is async, so the clash would only surface at
+// runtime as a chart that never draws.
+function renderSunburst(profile) {
+
   const hintEl = document.getElementById("hint");
   if (hintEl) hintEl.textContent = I18N[currentLocale].hint;
+
+  // rebuilt from scratch on every scope change - drop the previous chart's
+  // arcs/labels/icons/center circle rather than layering new <g>s over them.
+  d3.select("#chart").selectAll("*").remove();
+  const emptyEl = document.getElementById("chart-empty");
+  if (emptyEl) emptyEl.style.display = profile.categories.length ? "none" : "";
+  if (!profile.categories.length) {
+    document.dispatchEvent(new CustomEvent("hp:select", {
+      detail: { category: null, dimension: null, observation: null },
+    }));
+    return;
+  }
 
   const root = d3.hierarchy(buildHierarchy(profile))
     .sum(d => d.children ? 0 : d.value || 1)
@@ -371,7 +387,10 @@ d3.json(profileSrc).then(profile => {
   // out to be — so the outermost ring's outer edge always lands on SIZE/2,
   // never beyond it (a hardcoded per-ring radius clipped the leaf ring
   // before).
-  ringThickness = (SIZE / 2 - HOLE_RADIUS - CENTER_GAP) / root.height;
+  // clamped: a filtered data set can leave the tree shallower than the usual
+  // three levels (a category whose dimensions are all in the other set keeps
+  // no children), and root.height would be 0 for a single-level tree.
+  ringThickness = (SIZE / 2 - HOLE_RADIUS - CENTER_GAP) / Math.max(root.height, 1);
 
   d3.partition().size([2 * Math.PI, root.height + 1])(root);
   root.each(d => d.current = { x0: d.x0, x1: d.x1, y0: d.y0, y1: d.y1 });
@@ -511,10 +530,28 @@ d3.json(profileSrc).then(profile => {
     dispatchSelect(p);
   }
 
+}
+
+d3.json(profileSrc).then(profile => {
+  fullProfile = profile;
+
+  const metaEl = document.getElementById("meta");
+  if (metaEl) {
+    metaEl.textContent = `Version ${profile.version} · ${profile.generated.slice(0, 10)}`;
+  }
+
+  // current() rather than a plain "combined": the switch may already have
+  // been changed while the profile JSON was still in flight.
+  renderSunburst(HPScope.filterProfile(profile, HPScope.current()));
 }).catch(err => {
   document.body.innerHTML =
     `<p style="color:red;padding:2rem">Fehler beim Laden von ${profileSrc}:<br>
      <code>${err}</code><br><br>
      Bitte den Server aus dem Projektroot starten:<br>
      <code>py -m http.server</code></p>`;
+});
+
+document.addEventListener("hp:scope", event => {
+  if (!fullProfile) return;
+  renderSunburst(HPScope.filterProfile(fullProfile, event.detail.scope));
 });

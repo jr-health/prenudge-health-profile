@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "fatigue-decline-in-performance",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Müdigkeit / Leistungsabfall",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "fatigue-decline-in-performance",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Fatigue / Decline in performance",
     "description_professional": "",

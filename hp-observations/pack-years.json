@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "pack-years",
+    "dataset-scope": "Extension",
     "title": "Pack years",
     "description": "",
     "category": "smoking",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "pack-years",
+    "dataset-scope": "Extension",
     "title": "Pack Years",
     "description": "",
     "category": "smoking",

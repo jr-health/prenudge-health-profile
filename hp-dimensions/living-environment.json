@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "living-environment",
+    "dataset-scope": "Extension",
     "category": "sociodemographic-data",
     "title": "Wohnumfeld",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "living-environment",
+    "dataset-scope": "Extension",
     "category": "sociodemographic-data",
     "title": "Living environment",
     "description_professional": "",

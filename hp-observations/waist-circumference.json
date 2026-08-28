@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "waist-circumference",
+    "dataset-scope": "Extension",
     "title": "Taillenumfang (cm)",
     "description": "",
     "category": "anthropometry",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "waist-circumference",
+    "dataset-scope": "Extension",
     "title": "Waist circumference (cm)",
     "description": "",
     "category": "anthropometry",

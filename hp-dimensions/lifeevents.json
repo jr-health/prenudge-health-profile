@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "lifeevents",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Lebensereignisse",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "lifeevents",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Life events",
     "description_professional": "",

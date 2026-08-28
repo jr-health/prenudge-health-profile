@@ -4,13 +4,15 @@
     "title": "Schlafdauer",
     "id_tech": "sleep-duration",
     "category": "sleep",
-    "key": "sleep-duration"
+    "key": "sleep-duration",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "template": "dimension",
     "title": "Sleep duration",
     "id_tech": "sleep-duration",
     "category": "sleep",
-    "key": "sleep-duration"
+    "key": "sleep-duration",
+    "dataset-scope": "Minimalset"
   }
 }

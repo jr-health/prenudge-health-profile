@@ -4,13 +4,15 @@
     "title": "Sitzen",
     "category": "physical-activity",
     "id_tech": "sitting",
-    "key": "sitting"
+    "key": "sitting",
+    "dataset-scope": "Minimalset"
   },
   "en": {
     "template": "dimension",
     "category": "physical-activity",
     "title": "Sitting",
     "id_tech": "sitting",
-    "key": "sitting"
+    "key": "sitting",
+    "dataset-scope": "Minimalset"
   }
 }

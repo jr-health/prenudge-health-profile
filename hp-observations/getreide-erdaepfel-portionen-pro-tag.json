@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "getreide-erdaepfel-portionen-pro-tag",
+    "dataset-scope": "Extension",
     "title": "Getreide/Erdäpfel (Portionen/Tag)",
     "description": "",
     "category": "nutrition",
@@ -36,6 +37,7 @@
   "en": {
     "template": "observation",
     "key": "getreide-erdaepfel-portionen-pro-tag",
+    "dataset-scope": "Extension",
     "title": "Cereales Potatoes Portions per day",
     "description": "",
     "category": "nutrition",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "gesamtmuster-ernaehrung",
+    "dataset-scope": "Extension",
     "category": "nutrition",
     "title": "Gesamtmuster Ernährung",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "gesamtmuster-ernaehrung",
+    "dataset-scope": "Extension",
     "category": "nutrition",
     "title": "nutritional pattern",
     "description_professional": "",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+    "dataset-scope": "Extension",
     "category": "nutrition",
     "title": "gesundheitsfördernde Ernährungsmuster",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+    "dataset-scope": "Extension",
     "category": "nutrition",
     "title": "health enhancing nutritional patterns",
     "description_professional": "",

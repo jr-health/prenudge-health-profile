@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "flexibility-and-balance",
+    "dataset-scope": "Extension",
     "category": "physical-activity",
     "title": "Flexibilitäts- und Gleichgewichtstraining",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "flexibility-and-balance",
+    "dataset-scope": "Extension",
     "category": "physical-activity",
     "title": "Flexibility and Balance",
     "description_professional": "",

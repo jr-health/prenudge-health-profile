@@ -1,5 +1,15 @@
 {% extends "_base.en.html.j2" %}
 {% block page_title %}<h1 class="page-title">Explore — PreNUDGE Health Profile</h1>{% endblock %}
+{% block toolbar %}
+<div class="scope-bar">
+  <span id="scope-label">Data set</span>
+  <div class="scope-switch" id="scope-switch" role="group" aria-labelledby="scope-label">
+    <button type="button" data-scope="combined" aria-pressed="false">All</button>
+    <button type="button" data-scope="minimalset" aria-pressed="true">Minimal</button>
+    <button type="button" data-scope="extended" aria-pressed="false">Extended</button>
+  </div>
+</div>
+{% endblock %}
 {% block content %}
 <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 <div class="panels-row">
@@ -12,16 +22,18 @@
         <div id="center-hint"></div>
       </div>
     </div>
+    <p id="chart-empty" style="display:none">No entries in this data set.</p>
     <p id="hint"></p>
     <div id="tooltip"></div>
-    <p class="panel-caption"><a class="pill-link" href="{{ nav_sunburst_href }}">Full-page view ↗</a></p>
+    <p class="panel-caption"><a class="pill-link" data-keep-scope href="{{ nav_sunburst_href }}">Full-page view ↗</a></p>
   </div>
   <div class="panel table-panel">
     {% include "_browse_table.en.html.j2" %}
-    <p class="panel-caption"><a class="pill-link" href="{{ nav_table_href }}">Full table ↗</a></p>
+    <p class="panel-caption"><a class="pill-link" data-keep-scope href="{{ nav_table_href }}">Full table ↗</a></p>
   </div>
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="render/scope.js"></script>
 <script src="render/sunburst.js"></script>
 <script src="render/browse.js"></script>
 {% endblock %}

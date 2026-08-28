@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "self-reported-significant-life-events",
+    "dataset-scope": "Extension",
     "title": "Selbstbericht über bedeutende Lebensereignisse",
     "description": "",
     "category": "psychosocial-factors",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "self-reported-significant-life-events",
+    "dataset-scope": "Extension",
     "title": "Self-reported significant life events",
     "description": "",
     "category": "psychosocial-factors",

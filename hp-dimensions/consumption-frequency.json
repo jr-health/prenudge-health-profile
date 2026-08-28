@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "consumption-frequency",
+    "dataset-scope": "Minimalset",
     "category": "alcohol",
     "title": "Konsumhäufigkeit",
     "description_professional": "",
@@ -14,6 +15,7 @@
   "en": {
     "template": "dimension",
     "key": "consumption-frequency",
+    "dataset-scope": "Minimalset",
     "category": "alcohol",
     "title": "Consumption frequency",
     "description_professional": "",

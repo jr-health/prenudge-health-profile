@@ -60,8 +60,38 @@ To change what fields appear in the CMS editor or how data is structured, edit `
 When adding, renaming, or removing a field in `admin/config.yml` (especially in the `observations` collection), check whether it needs to be reflected in `render/templates/`:
 - `health-profile.{de,en}.{md,adoc}.j2` — render individual field values (e.g. `population`, `citizen-info`)
 - `browse.{de,en}.html.j2` — currently only render category/dimension-level summary data, not observation detail fields
+- `_browse_table.{de,en}.html.j2` — the shared table partial; emits per-row `data-*` attributes that `browse.js` filters on
 
 A new field is not automatically picked up by the templates — it must be added explicitly (e.g. `{% if o.get('field-name') %}...{% endif %}`).
+
+### Data Sets (`dataset-scope`)
+
+Categories, dimensions, and observations each carry a `dataset-scope` select
+(`Minimalset` / `Extension`), defined in `admin/config.yml` right after the key field.
+
+The filter rule lives in **two places that must stay in sync**:
+- `scripts/consolidate.py` → `filter_tree()` (drives `--scope` and the `.docx` exports)
+- `render/scope.js` → `filterProfile()` (drives the sunburst and table on the website)
+
+Rule: *every level is selected by its own `dataset-scope`, and is additionally kept when any
+descendant was selected.* A leaf-only rule is wrong here — most observations were added after
+their dimensions, so a `Minimalset` dimension whose observations are all extensions would
+vanish from the minimal set entirely.
+
+### Front-end scripts are classic scripts, not modules
+
+`render/scope.js`, `sunburst.js`, and `browse.js` are loaded as plain `<script>` tags and
+**share one global scope**. `scope.js` and `browse.js` are wrapped in IIFEs; `sunburst.js`
+still exposes ~21 globals (`renderSunburst`, `buildHierarchy`, …).
+
+A generic top-level name in a later script silently overwrites an earlier one. This already
+happened once: a `function render()` in `browse.js` replaced the sunburst's `render()`, and
+because the sunburst calls it asynchronously (after `d3.json` resolves) the only symptom was
+a chart that never drew — no error. Wrap new scripts in an IIFE.
+
+Load order matters: `scope.js` must come before `sunburst.js` and `browse.js`, which both call
+`HPScope`. `pages.yml` copies these files **by name** — a new `render/*.js` must be added
+there or it will be missing on GitHub Pages while working fine locally.
 
 ### Custom Widget
 

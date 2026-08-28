@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "impairment-of-employment",
+    "dataset-scope": "Extension",
     "title": "Beeinträchtigung der Erwerbstätigkeit",
     "description": "",
     "category": "work",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "impairment-of-employment",
+    "dataset-scope": "Extension",
     "title": "Impairment of employment",
     "description": "",
     "category": "work",

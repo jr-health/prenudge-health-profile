@@ -76,6 +76,9 @@ jobs:
           cp released/render/browse.de.html _site/render/browse.de.html
           cp released/render/browse.en.html _site/render/browse.en.html
           cp released/render/browse.js _site/render/browse.js
+          # shared by sunburst.js and browse.js - both fail with an undefined
+          # HPScope if this one is missing.
+          cp released/render/scope.js _site/render/scope.js
 
           RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"

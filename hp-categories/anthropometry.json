@@ -5,6 +5,7 @@
     "id_tech": "anthropometry",
     "subject-area": "self-management",
     "key": "anthropometry",
+    "dataset-scope": "Minimalset",
     "icon_lucide": "ruler-dimension-line",
     "icon_upload": "/media/ruler-dimension-line.png",
     "color": "#e0d3de"
@@ -15,6 +16,7 @@
     "subject-area": "self-management",
     "title": "Anthropometry",
     "key": "anthropometry",
+    "dataset-scope": "Minimalset",
     "icon_lucide": "ruler-dimension-line",
     "icon_upload": "/media/ruler-dimension-line.png",
     "color": "#e0d3de"

@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "self-reported-traumatic-experiences",
+    "dataset-scope": "Extension",
     "title": "Selbstbericht über traumatische Erfahrungen",
     "description": "",
     "category": "psychosocial-factors",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "self-reported-traumatic-experiences",
+    "dataset-scope": "Extension",
     "title": "Self-reported traumatic experiences",
     "description": "",
     "category": "psychosocial-factors",

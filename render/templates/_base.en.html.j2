@@ -91,10 +91,9 @@
   }
   .cms-link:hover { background: #eef5f7; }
 
-  .sidebar-footer { margin-top: auto; display: flex; flex-direction: column; gap: 0.6rem; }
   .lang-switch {
     display: inline-flex;
-    align-self: flex-start;
+    flex: 0 0 auto;
     border-radius: 20px;
     overflow: hidden;
     border: 1.5px solid #ddd;
@@ -109,31 +108,25 @@
     text-decoration: none;
   }
   .lang-switch a.active { background: #004E64; color: #fff; }
-  .consortium-link {
-    font-size: 0.75rem;
-    color: #888;
-    white-space: nowrap;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  .consortium-link:hover { color: #004E64; }
-  aside.sidebar.collapsed .consortium-link { display: none; }
-
   .meta-bar {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     font-size: 0.85rem;
     color: #666;
     margin-bottom: 1rem;
   }
+  .meta-bar .meta-text { margin: 0; flex: 1 1 auto; min-width: 0; }
   .meta-bar a { color: #666; }
+  .meta-bar a:hover { color: #004E64; }
   .page-title { margin: 0 0 0.4rem; font-size: 1.3rem; color: #004E64; }
 
   /* collapsed state: hide text labels, keep icons/logo centered */
   aside.sidebar.collapsed .brand h1,
   aside.sidebar.collapsed nav.primary a span.label,
   aside.sidebar.collapsed nav.primary span.nav-disabled span.label,
-  aside.sidebar.collapsed .cms-link span.label,
-  aside.sidebar.collapsed .lang-switch { display: none; }
+  aside.sidebar.collapsed .cms-link span.label { display: none; }
   aside.sidebar.collapsed nav.primary a,
   aside.sidebar.collapsed nav.primary span.nav-disabled { justify-content: center; padding: 0.5rem; }
   aside.sidebar.collapsed .cms-link { justify-content: center; }
@@ -219,6 +212,37 @@
     vertical-align: top;
   }
   .table-panel th { background: #f5f5f5; }
+  .table-panel tbody tr { transition: background-color 0.12s; }
+  .table-panel tbody tr:hover { background: #f5f5f5; }
+
+  .table-pager {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  .pager-btn {
+    font-family: inherit;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: #666;
+    background: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .pager-btn:hover:not(:disabled) { border-color: #004E64; color: #004E64; }
+  .pager-btn:disabled { color: #ddd; cursor: default; }
+  .pager-btn:focus-visible { outline: 2px solid #004E64; outline-offset: 1px; }
   .table-panel .swatch {
     display: inline-block;
     width: 0.75em;
@@ -254,6 +278,44 @@
     font-size: 14px;
   }
 
+  .scope-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  /* segmented control, same pill idiom as .lang-switch - all three sets stay
+     visible so the minimal/extended split is discoverable without opening a menu */
+  .scope-switch {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .scope-switch button {
+    font-family: inherit;
+    padding: 3px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #999;
+    white-space: nowrap;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .scope-switch button:hover { color: #004E64; }
+  .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
+  .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  #chart-empty {
+    margin: 2rem 0;
+    font-size: 0.85rem;
+    color: #888;
+    text-align: center;
+  }
+
   @media (max-width: 900px) {
     .layout { flex-direction: column; }
     aside.sidebar, aside.sidebar.collapsed {
@@ -276,7 +338,7 @@
     nav.primary { flex-direction: row; }
     nav.primary hr.nav-separator { display: none; }
     nav.primary a.nav-sub { padding: 0.5rem 0.6rem; }
-    .sidebar-footer { margin-top: 0; flex-direction: row; margin-left: auto; }
+    .meta-bar { flex-wrap: wrap; gap: 0.5rem; }
     .panels-row { flex-direction: column; }
     .sunburst-panel { flex: 1 1 auto; width: 100%; }
   }
@@ -301,17 +363,17 @@
       </div>
     </div>
     <nav class="primary">
-      <a href="{{ nav_explore_href }}" class="{{ 'active' if active in ['explore', 'sunburst', 'table'] else '' }}">
+      <a data-keep-scope href="{{ nav_explore_href }}" class="{{ 'active' if active in ['explore', 'sunburst', 'table'] else '' }}">
         <!-- Lucide "search" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
         <span class="label">Explore</span>
       </a>
-      <a href="{{ nav_sunburst_href }}" class="nav-sub {{ 'active' if active == 'sunburst' else '' }}">
+      <a data-keep-scope href="{{ nav_sunburst_href }}" class="nav-sub {{ 'active' if active == 'sunburst' else '' }}">
         <!-- Lucide "chart-pie" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/></svg>
         <span class="label">Sunburst</span>
       </a>
-      <a href="{{ nav_table_href }}" class="nav-sub {{ 'active' if active == 'table' else '' }}">
+      <a data-keep-scope href="{{ nav_table_href }}" class="nav-sub {{ 'active' if active == 'table' else '' }}">
         <!-- Lucide "table" -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/></svg>
         <span class="label">Table</span>
@@ -333,16 +395,20 @@
         <span class="label">Metadata Editor</span>
       </a>
     </nav>
-    <div class="sidebar-footer">
-      <div class="lang-switch"><a href="{{ href_en }}" class="active">EN</a><a href="{{ href_de }}">DE</a></div>
-      <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a>
-    </div>
   </aside>
 
   <main>
     {% block page_title %}{% endblock %}
-    <p class="meta-bar">Version {{ version }} · Generated: {{ generated }}{% if profile.commit %} ·
-      Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %}</p>
+    {# Language switch lives here, not in the sidebar: the sidebar footer sat below
+       the fold on long pages and was hidden outright when the sidebar collapsed.
+       The consortium link sits with the version/date as the catalogue's author. #}
+    <div class="meta-bar">
+      <p class="meta-text">Version {{ version }} · Generated: {{ generated }}{% if profile.commit %} ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/{{ profile.commit }}">{{ profile.commit[:7] }}</a>{% endif %} ·
+        <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
+      <div class="lang-switch"><a data-keep-scope href="{{ href_en }}" class="active">EN</a><a data-keep-scope href="{{ href_de }}">DE</a></div>
+    </div>
+    {% block toolbar %}{% endblock %}
     {% block content %}{% endblock %}
   </main>
 </div>

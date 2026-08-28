@@ -7,7 +7,7 @@ Releases basieren auf **Git Tags** (`v1.2.0`) auf GitHub. Das `health-profile.js
 | | Änderungstyp | Beispiele |
 |---|---|---|
 | **MAJOR** | Breaking — Konsumenten müssen angepasst werden | Key umbenannt; Feld entfernt; Feldtyp geändert (String → Liste); Collection-Struktur grundlegend geändert |
-| **MINOR** | Additiv — bestehende Konsumenten funktionieren weiter | Neue Category / Dimension / Observation; neues optionales Feld; neue Collection aktiviert |
+| **MINOR** | Additiv — bestehende Konsumenten funktionieren weiter | Neue Category / Dimension / Observation; neues optionales Feld (z. B. `dataset-scope`); neue Collection aktiviert |
 | **PATCH** | Inhaltliche Korrektur — kein Struktureinfluss | Tipp-/Inhaltsfehler; falscher FHIR-Code; Link aktualisiert; leeres Pflichtfeld befüllt; kaputte Referenz repariert |
 
 ---
@@ -45,10 +45,25 @@ Erzeugt/aktualisiert denselben Tag und dasselbe Release wie Variante (a).
 | Validate | `validate.py --strict` — bricht bei kaputten Referenzen ab |
 | Consolidate | `consolidate.py --version <Version>` → `health-profile.json` |
 | Markdown | `render_doc.py` → `health-profile-v<Version>-<Datum>.{de,en}.md` |
-| AsciiDoc | `render_adoc.py` → `health-profile-v<Version>-<Datum>.{de,en}.adoc` |
-| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage, `--toc` für ein echtes Word-Inhaltsverzeichnis) → `health-profile-v<Version>-<Datum>.{de,en}.docx` |
+| AsciiDoc | `render_adoc.py` → `health-profile-v<Version>-<Datum>[-<Datensatz>].{de,en}.adoc` |
+| Word-Export | `asciidoctor` (AsciiDoc → DocBook) → `pandoc` (mit `render/templates/PräNUDGE Berichtsvorlage.docx` als Stilvorlage, `--toc` für ein echtes Word-Inhaltsverzeichnis) → `health-profile-v<Version>-<Datum>[-<Datensatz>].{de,en}.docx` |
 | Cover/Footer | `scripts/inject_cover_page.py` (braucht `python-docx`) ersetzt Pandocs generischen Titel-Absatz durch das echte Deckblatt aus der Stilvorlage (Titel/Version/Datum, PreNUDGE-Consortium-Link) und befüllt Version/Datum in beiden Fußzeilen (Deckblatt- und Standard-Fußzeile) |
-| Release | GitHub Release erstellen/aktualisieren mit Assets: `health-profile.json`, beide `.md`, beide `.docx` |
+| Release | GitHub Release erstellen/aktualisieren mit Assets: `health-profile.json`, beide `.md`, **sechs** `.docx` |
+
+#### Word-Export pro Datensatz
+
+Der Word-Export läuft seit 2026-08-28 dreimal — einmal je Datensatz (siehe `dataset-scope`
+im README) — mal zwei Sprachen, also **sechs `.docx`**:
+
+| Datensatz | `consolidate.py --scope` | Dateiname |
+|---|---|---|
+| Gesamt | `combined` (Default, ungefiltert) | `health-profile-v<Version>-<Datum>.{de,en}.docx` |
+| Minimalset | `minimalset` | `health-profile-v<Version>-<Datum>-minimalset.{de,en}.docx` |
+| Erweitert | `extended` | `health-profile-v<Version>-<Datum>-extended.{de,en}.docx` |
+
+Der Gesamt-Export behält bewusst den **unveränderten Dateinamen ohne Suffix**, damit
+bestehende Download-Links und die Downloads-Seite weiter funktionieren. Das Deckblatt der
+beiden gefilterten Exporte trägt den Datensatz im Titel (z. B. „… — Katalog (Minimalset)").
 
 Der Workflow committet dabei **nichts** zurück ins Repo (siehe `doc/github-actions-plan.md`,
 Design-Entscheidung 4) — die Release-Assets liegen ausschließlich am GitHub Release selbst,

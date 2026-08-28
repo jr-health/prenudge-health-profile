@@ -19,3 +19,11 @@ sveltia-cms-auth/
 /downloads.de.html
 /_site/
 /_site_test/
+
+# Versioned reports/exports: these are GitHub Release assets, never repo content
+# (see README "Repository Layout"). They land in the repo root when the release
+# chain is run locally, and in docx-preview/ via the local Word-export preview.
+/health-profile-v*.md
+/health-profile-v*.adoc
+/health-profile-v*.docx
+/docx-preview/

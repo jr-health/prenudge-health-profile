@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "schlafhygiene",
+    "dataset-scope": "Extension",
     "category": "sleep",
     "title": "Schlafhygiene",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "schlafhygiene",
+    "dataset-scope": "Extension",
     "category": "sleep",
     "title": "sleephygiene",
     "description_professional": "",

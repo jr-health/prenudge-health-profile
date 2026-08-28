@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "minutes-moderate-physical-activity",
+    "dataset-scope": "Minimalset",
     "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
     "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\nPopulation: erwachsene Allgemeinbevölkerung",
     "category": "physical-activity",
@@ -93,6 +94,7 @@
   "en": {
     "template": "observation",
     "key": "minutes-moderate-physical-activity",
+    "dataset-scope": "Minimalset",
     "title": "Minutes in moderate and vigouros physical activity",
     "description": "_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._",
     "category": "physical-activity",

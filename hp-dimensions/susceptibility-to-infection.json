@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "susceptibility-to-infection",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Infektanfälligkeit",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "susceptibility-to-infection",
+    "dataset-scope": "Extension",
     "category": "psychosocial-factors",
     "title": "Susceptibility to infection",
     "description_professional": "",

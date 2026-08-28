@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "huelsenfruechte-portionen-pro-woche",
+    "dataset-scope": "Extension",
     "title": "Hülsenfrüchte (Portionen/Woche)",
     "description": "",
     "category": "nutrition",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "huelsenfruechte-portionen-pro-woche",
+    "dataset-scope": "Extension",
     "title": "Legume portions per week",
     "description": "",
     "category": "nutrition",

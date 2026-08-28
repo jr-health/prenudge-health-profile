@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "zigarren-zigarillos-pro-woche",
+    "dataset-scope": "Extension",
     "title": "Zigarren/Zigarillos (Anzahl/Woche)",
     "description": "",
     "category": "smoking",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "zigarren-zigarillos-pro-woche",
+    "dataset-scope": "Extension",
     "title": "cigarres or cigarrilos per week",
     "description": "",
     "category": "smoking",

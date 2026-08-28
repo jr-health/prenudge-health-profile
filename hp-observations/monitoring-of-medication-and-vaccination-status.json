@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "monitoring-of-medication-and-vaccination-status",
+    "dataset-scope": "Extension",
     "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
     "description": "",
     "category": "self-management",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "monitoring-of-medication-and-vaccination-status",
+    "dataset-scope": "Extension",
     "title": "Independent monitoring of medication and vaccination status",
     "description": "",
     "category": "self-management",

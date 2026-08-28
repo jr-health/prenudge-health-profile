@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "gender",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Geschlecht",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "gender",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Gender",
     "description_professional": "",

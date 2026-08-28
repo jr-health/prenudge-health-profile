@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "loss-of-income",
+    "dataset-scope": "Extension",
     "title": "Einkommensverlust",
     "description": "",
     "category": "work",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "loss-of-income",
+    "dataset-scope": "Extension",
     "title": "loss of income",
     "description": "",
     "category": "work",

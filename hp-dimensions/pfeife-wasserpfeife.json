@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "pfeife-wasserpfeife",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "Pfeife/Wasserpfeife",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "pfeife-wasserpfeife",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "pipe hookah",
     "description_professional": "",

@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "age",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Alter",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "age",
+    "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Age",
     "description_professional": "",

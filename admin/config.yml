@@ -85,6 +85,13 @@ collections:
         hint: "Machine-readable category identifier; kebab-case slug derived from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
+      - label: "Minimalset / Extension (MED/TECH)"
+        name: dataset-scope
+        widget: select
+        options: ["Minimalset", "Extension"]
+        i18n: duplicate
+        hint: "Whether this category belongs to the PreNUDGE minimal data set or a later extension"
+
       #      - label: Subject Area
 #        name: subject-area
 #        widget: relation
@@ -169,6 +176,13 @@ collections:
         i18n: duplicate
         hint: "Machine-readable indicator dimension identifier; kebab-case slug derived from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
+
+      - label: "Minimalset / Extension (MED/TECH)"
+        name: dataset-scope
+        widget: select
+        options: ["Minimalset", "Extension"]
+        i18n: duplicate
+        hint: "Whether this indicator dimension belongs to the PreNUDGE minimal data set or a later extension"
 
       - label: "Category (MED)"
         name: category
@@ -265,6 +279,13 @@ collections:
         i18n: duplicate
         hint: "Machine-readable observation identifier; kebab-case slug derived from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
+
+      - label: "Minimalset / Extension (MED/TECH)"
+        name: dataset-scope
+        widget: select
+        options: ["Minimalset", "Extension"]
+        i18n: duplicate
+        hint: "Whether this observation belongs to the PreNUDGE minimal data set or a later extension"
 
       - label: "Observation Title (MED)"
         name: title

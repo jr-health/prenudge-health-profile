@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+    "dataset-scope": "Extension",
     "title": "schlaffördernden Routinen (Häufigkeit/Woche)",
     "description": "",
     "category": "sleep",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+    "dataset-scope": "Extension",
     "title": "Frequency of adherence to sleep-promoting routines",
     "description": "",
     "category": "sleep",

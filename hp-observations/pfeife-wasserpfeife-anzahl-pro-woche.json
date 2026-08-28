@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+    "dataset-scope": "Extension",
     "title": "Pfeife/Wasserpfeife (Anzahl/Woche)",
     "description": "",
     "category": "smoking",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+    "dataset-scope": "Extension",
     "title": "pipe hookah numbers per week",
     "description": "",
     "category": "smoking",

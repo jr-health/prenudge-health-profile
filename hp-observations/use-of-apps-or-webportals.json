@@ -2,6 +2,7 @@
   "de": {
     "template": "observation",
     "key": "use-of-apps-or-webportals",
+    "dataset-scope": "Extension",
     "title": "Nutzung von Apps oder Webportalen",
     "description": "",
     "category": "self-management",
@@ -15,6 +16,7 @@
   "en": {
     "template": "observation",
     "key": "use-of-apps-or-webportals",
+    "dataset-scope": "Extension",
     "title": "Use of apps or web portals",
     "description": "",
     "category": "self-management",

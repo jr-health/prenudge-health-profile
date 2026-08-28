@@ -1,7 +1,8 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:28:08.650383+00:00",
-  "commit": "1f6fabef1eaa2c7f94e7624a06c3ab75a747634d",
+  "generated": "2026-08-28T15:39:20.675592+00:00",
+  "scope": "combined",
+  "commit": "311c495d22eb7582bbbc2e9a5e757eae153a5e9b",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -30,7 +31,8 @@
         "icon": "/media/heart-plus.png",
         "template": "category",
         "id_tech": "alcohol",
-        "key": "alcohol"
+        "key": "alcohol",
+        "dataset-scope": "Minimalset"
       },
       "en": {
         "color": "#00a256",
@@ -41,13 +43,15 @@
         "template": "category",
         "id_tech": "alcohol",
         "description": "",
-        "key": "alcohol"
+        "key": "alcohol",
+        "dataset-scope": "Minimalset"
       },
       "dimensions": [
         {
           "de": {
             "template": "dimension",
             "key": "consumption-frequency",
+            "dataset-scope": "Minimalset",
             "category": "alcohol",
             "title": "Konsumhäufigkeit",
             "description_professional": "",
@@ -60,6 +64,7 @@
           "en": {
             "template": "dimension",
             "key": "consumption-frequency",
+            "dataset-scope": "Minimalset",
             "category": "alcohol",
             "title": "Consumption frequency",
             "description_professional": "",
@@ -79,6 +84,7 @@
         "id_tech": "anthropometry",
         "subject-area": "self-management",
         "key": "anthropometry",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "ruler-dimension-line",
         "icon_upload": "/media/ruler-dimension-line.png",
         "color": "#e0d3de"
@@ -89,6 +95,7 @@
         "subject-area": "self-management",
         "title": "Anthropometry",
         "key": "anthropometry",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "ruler-dimension-line",
         "icon_upload": "/media/ruler-dimension-line.png",
         "color": "#e0d3de"
@@ -98,6 +105,7 @@
           "de": {
             "template": "dimension",
             "key": "heigth-weight",
+            "dataset-scope": "Minimalset",
             "category": "anthropometry",
             "title": "Größe, Gewicht",
             "description_professional": "",
@@ -108,6 +116,7 @@
           "en": {
             "template": "dimension",
             "key": "heigth-weight",
+            "dataset-scope": "Minimalset",
             "category": "anthropometry",
             "title": "Height, weight",
             "description_professional": "",
@@ -120,6 +129,7 @@
               "de": {
                 "template": "observation",
                 "key": "waist-circumference",
+                "dataset-scope": "Extension",
                 "title": "Taillenumfang (cm)",
                 "description": "",
                 "category": "anthropometry",
@@ -133,6 +143,7 @@
               "en": {
                 "template": "observation",
                 "key": "waist-circumference",
+                "dataset-scope": "Extension",
                 "title": "Waist circumference (cm)",
                 "description": "",
                 "category": "anthropometry",
@@ -148,6 +159,7 @@
               "de": {
                 "template": "observation",
                 "key": "waist-to-hip-ratio",
+                "dataset-scope": "Extension",
                 "title": "Hüft-Taillen-Verhältnis (WHR)",
                 "description": "",
                 "category": "anthropometry",
@@ -161,6 +173,7 @@
               "en": {
                 "template": "observation",
                 "key": "waist-to-hip-ratio",
+                "dataset-scope": "Extension",
                 "title": "Waist-to-hip ratio (WHR)",
                 "description": "",
                 "category": "anthropometry",
@@ -183,6 +196,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Ernährung",
         "key": "nutrition",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "apple",
         "icon_upload": "/media/apple.png",
         "color": "#f2c57c"
@@ -193,6 +207,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Nutrition",
         "key": "nutrition",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "apple",
         "icon_upload": "/media/apple.png",
         "color": "#f2c57c"
@@ -202,6 +217,7 @@
           "de": {
             "template": "dimension",
             "key": "dietary-pattern",
+            "dataset-scope": "Minimalset",
             "category": "nutrition",
             "title": "Ernährungsmuster",
             "description_professional": "",
@@ -219,6 +235,7 @@
           "en": {
             "template": "dimension",
             "key": "dietary-pattern",
+            "dataset-scope": "Minimalset",
             "category": "nutrition",
             "title": "Dietary pattern",
             "description_professional": "",
@@ -235,6 +252,7 @@
               "de": {
                 "template": "observation",
                 "key": "alkoholfreie-ungesuesste-getraenke-glaeser-tag",
+                "dataset-scope": "Extension",
                 "title": "Alkoholfreie, ungesüßte Getränke (Gläser/Tag)",
                 "description": "",
                 "category": "nutrition",
@@ -269,6 +287,7 @@
               "en": {
                 "template": "observation",
                 "key": "alkoholfreie-ungesuesste-getraenke-glaeser-tag",
+                "dataset-scope": "Extension",
                 "title": "Non-alcoholic, unsweetened drinks (glasses/day)",
                 "description": "",
                 "category": "nutrition",
@@ -295,6 +314,7 @@
               "de": {
                 "template": "observation",
                 "key": "fisch-fleisch-portionen-woche",
+                "dataset-scope": "Extension",
                 "title": "Fisch/Fleisch (Portionen/Woche)",
                 "description": "",
                 "category": "nutrition",
@@ -308,6 +328,7 @@
               "en": {
                 "template": "observation",
                 "key": "fisch-fleisch-portionen-woche",
+                "dataset-scope": "Extension",
                 "title": "fish-meat portions week",
                 "description": "",
                 "category": "nutrition",
@@ -323,6 +344,7 @@
               "de": {
                 "template": "observation",
                 "key": "getreide-erdaepfel-portionen-pro-tag",
+                "dataset-scope": "Extension",
                 "title": "Getreide/Erdäpfel (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
@@ -357,6 +379,7 @@
               "en": {
                 "template": "observation",
                 "key": "getreide-erdaepfel-portionen-pro-tag",
+                "dataset-scope": "Extension",
                 "title": "Cereales Potatoes Portions per day",
                 "description": "",
                 "category": "nutrition",
@@ -391,6 +414,7 @@
               "de": {
                 "template": "observation",
                 "key": "huelsenfruechte-portionen-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "Hülsenfrüchte (Portionen/Woche)",
                 "description": "",
                 "category": "nutrition",
@@ -404,6 +428,7 @@
               "en": {
                 "template": "observation",
                 "key": "huelsenfruechte-portionen-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "Legume portions per week",
                 "description": "",
                 "category": "nutrition",
@@ -419,6 +444,7 @@
               "de": {
                 "template": "observation",
                 "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+                "dataset-scope": "Extension",
                 "title": "Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
@@ -432,6 +458,7 @@
               "en": {
                 "template": "observation",
                 "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+                "dataset-scope": "Extension",
                 "title": "Dairy products, oils, fats, nuts, and seeds – portions per day",
                 "description": "",
                 "category": "nutrition",
@@ -447,6 +474,7 @@
               "de": {
                 "template": "observation",
                 "key": "stark-verarbeitete-lebensmittel",
+                "dataset-scope": "Extension",
                 "title": "stark verarbeitete Lebensmittel (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
@@ -481,6 +509,7 @@
               "en": {
                 "template": "observation",
                 "key": "stark-verarbeitete-lebensmittel",
+                "dataset-scope": "Extension",
                 "title": "stark verarbeitete Lebensmittel",
                 "description": "",
                 "category": "nutrition",
@@ -517,6 +546,7 @@
           "de": {
             "template": "dimension",
             "key": "gesamtmuster-ernaehrung",
+            "dataset-scope": "Extension",
             "category": "nutrition",
             "title": "Gesamtmuster Ernährung",
             "description_professional": "",
@@ -527,6 +557,7 @@
           "en": {
             "template": "dimension",
             "key": "gesamtmuster-ernaehrung",
+            "dataset-scope": "Extension",
             "category": "nutrition",
             "title": "nutritional pattern",
             "description_professional": "",
@@ -540,6 +571,7 @@
           "de": {
             "template": "dimension",
             "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+            "dataset-scope": "Extension",
             "category": "nutrition",
             "title": "gesundheitsfördernde Ernährungsmuster",
             "description_professional": "",
@@ -550,6 +582,7 @@
           "en": {
             "template": "dimension",
             "key": "gesundheitsfoerdernde-ernaehrungsmuster",
+            "dataset-scope": "Extension",
             "category": "nutrition",
             "title": "health enhancing nutritional patterns",
             "description_professional": "",
@@ -565,6 +598,7 @@
       "de": {
         "template": "category",
         "key": "physical-activity",
+        "dataset-scope": "Minimalset",
         "title": "Körperliche Aktivität",
         "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
@@ -578,6 +612,7 @@
       "en": {
         "template": "category",
         "key": "physical-activity",
+        "dataset-scope": "Minimalset",
         "title": "Physical Activity",
         "icon_upload": "/media/dumbbell.png",
         "color": "#9bc6a0",
@@ -591,6 +626,7 @@
           "de": {
             "template": "dimension",
             "key": "endurance-oriented-activity",
+            "dataset-scope": "Minimalset",
             "category": "physical-activity",
             "title": "Ausdauerorientierte Aktivität",
             "description_professional": "Definition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020) \n\nEmpfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von **ausdauerorientierter Bewegung mit mittlerer Intensität** im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) **ODER** „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität **ODER** eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
@@ -637,6 +673,7 @@
           "en": {
             "template": "dimension",
             "key": "endurance-oriented-activity",
+            "dataset-scope": "Minimalset",
             "category": "physical-activity",
             "title": "Endurance Oriented Activity",
             "verified-health-links": [
@@ -675,6 +712,7 @@
               "de": {
                 "template": "observation",
                 "key": "minutes-moderate-physical-activity",
+                "dataset-scope": "Minimalset",
                 "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
                 "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\nPopulation: erwachsene Allgemeinbevölkerung",
                 "category": "physical-activity",
@@ -766,6 +804,7 @@
               "en": {
                 "template": "observation",
                 "key": "minutes-moderate-physical-activity",
+                "dataset-scope": "Minimalset",
                 "title": "Minutes in moderate and vigouros physical activity",
                 "description": "_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._",
                 "category": "physical-activity",
@@ -833,14 +872,16 @@
             "title": "Alltagsaktivität",
             "id_tech": "everyday-activity",
             "category": "physical-activity",
-            "key": "everyday-activity"
+            "key": "everyday-activity",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "title": "Everyday Activity",
             "id_tech": "everyday-activity",
             "category": "physical-activity",
-            "key": "everyday-activity"
+            "key": "everyday-activity",
+            "dataset-scope": "Minimalset"
           },
           "observations": [
             {
@@ -857,7 +898,8 @@
                 "id_tech": "minutes-moderate-physical-activity-per-week",
                 "description": "",
                 "category": "physical-activity",
-                "key": "steps-per-day"
+                "key": "steps-per-day",
+                "dataset-scope": "Minimalset"
               },
               "en": {
                 "dimension": "everyday-activity",
@@ -870,13 +912,15 @@
                 "id_tech": "minutes-moderate-physical-activity-per-week",
                 "description": "",
                 "category": "physical-activity",
-                "key": "steps-per-day"
+                "key": "steps-per-day",
+                "dataset-scope": "Minimalset"
               }
             },
             {
               "de": {
                 "template": "observation",
                 "key": "zeit-leichte-koerperliche-aktivitaet",
+                "dataset-scope": "Extension",
                 "title": "leicht körperlicher Aktivität (Minuten/Tag)",
                 "description": "",
                 "category": "physical-activity",
@@ -911,6 +955,7 @@
               "en": {
                 "template": "observation",
                 "key": "zeit-leichte-koerperliche-aktivitaet",
+                "dataset-scope": "Extension",
                 "title": "Time of light physical activity per day",
                 "description": "",
                 "category": "physical-activity",
@@ -947,6 +992,7 @@
           "de": {
             "template": "dimension",
             "key": "flexibility-and-balance",
+            "dataset-scope": "Extension",
             "category": "physical-activity",
             "title": "Flexibilitäts- und Gleichgewichtstraining",
             "description_professional": "",
@@ -957,6 +1003,7 @@
           "en": {
             "template": "dimension",
             "key": "flexibility-and-balance",
+            "dataset-scope": "Extension",
             "category": "physical-activity",
             "title": "Flexibility and Balance",
             "description_professional": "",
@@ -969,6 +1016,7 @@
               "de": {
                 "template": "observation",
                 "key": "lessons-per-week",
+                "dataset-scope": "Extension",
                 "title": "Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)",
                 "description": "",
                 "category": "physical-activity",
@@ -1003,6 +1051,7 @@
               "en": {
                 "template": "observation",
                 "key": "lessons-per-week",
+                "dataset-scope": "Extension",
                 "title": "lessons per week",
                 "description": "",
                 "category": "physical-activity",
@@ -1041,14 +1090,16 @@
             "title": "Muskelkräftigende Übungen",
             "category": "physical-activity",
             "id_tech": "muscle-strengthening-exercises",
-            "key": "muscle-strengthening-exercises"
+            "key": "muscle-strengthening-exercises",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "category": "physical-activity",
             "title": "Muscle-strengthening Exercises",
             "id_tech": "muscle-strengthening-exercises",
-            "key": "muscle-strengthening-exercises"
+            "key": "muscle-strengthening-exercises",
+            "dataset-scope": "Minimalset"
           },
           "observations": []
         },
@@ -1058,14 +1109,16 @@
             "title": "Sitzen",
             "category": "physical-activity",
             "id_tech": "sitting",
-            "key": "sitting"
+            "key": "sitting",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "category": "physical-activity",
             "title": "Sitting",
             "id_tech": "sitting",
-            "key": "sitting"
+            "key": "sitting",
+            "dataset-scope": "Minimalset"
           },
           "observations": []
         }
@@ -1078,6 +1131,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Psychosoziale Faktoren",
         "key": "psychosocial-factors",
+        "dataset-scope": "Minimalset",
         "color": "#6e4e69",
         "icon_upload": "/media/brain-circuit-white.png",
         "icon_lucide": "brain-circuit-white"
@@ -1088,6 +1142,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Psychosocial Factors",
         "key": "psychosocial-factors",
+        "dataset-scope": "Minimalset",
         "color": "#6e4e69",
         "icon_upload": "/media/brain-circuit-white.png",
         "icon_lucide": "brain-circuit-white"
@@ -1097,6 +1152,7 @@
           "de": {
             "template": "dimension",
             "key": "access-to-care",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Zugang zu Versorgung",
             "description_professional": "",
@@ -1107,6 +1163,7 @@
           "en": {
             "template": "dimension",
             "key": "access-to-care",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Access to care",
             "description_professional": "",
@@ -1119,6 +1176,7 @@
               "de": {
                 "template": "observation",
                 "key": "potential-access-barriers",
+                "dataset-scope": "Extension",
                 "title": "Potenzielle Zugangshindernisse",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -1132,6 +1190,7 @@
               "en": {
                 "template": "observation",
                 "key": "potential-access-barriers",
+                "dataset-scope": "Extension",
                 "title": "Potential access barriers",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -1149,6 +1208,7 @@
           "de": {
             "template": "dimension",
             "key": "adverse-childhood-experiences",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Traumatische Kindheitserfahrungen",
             "description_professional": "",
@@ -1159,6 +1219,7 @@
           "en": {
             "template": "dimension",
             "key": "adverse-childhood-experiences",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Adverse childhood experiences (ACEs)",
             "description_professional": "",
@@ -1171,6 +1232,7 @@
               "de": {
                 "template": "observation",
                 "key": "self-reported-traumatic-experiences",
+                "dataset-scope": "Extension",
                 "title": "Selbstbericht über traumatische Erfahrungen",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1184,6 +1246,7 @@
               "en": {
                 "template": "observation",
                 "key": "self-reported-traumatic-experiences",
+                "dataset-scope": "Extension",
                 "title": "Self-reported traumatic experiences",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1201,6 +1264,7 @@
           "de": {
             "template": "dimension",
             "key": "coping-ability",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Fähigkeit zum Coping",
             "description_professional": "",
@@ -1211,6 +1275,7 @@
           "en": {
             "template": "dimension",
             "key": "coping-ability",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Coping ability",
             "description_professional": "",
@@ -1223,6 +1288,7 @@
               "de": {
                 "template": "observation",
                 "key": "self-reported-resilience",
+                "dataset-scope": "Extension",
                 "title": "Selbstbericht über Resilienz",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1236,6 +1302,7 @@
               "en": {
                 "template": "observation",
                 "key": "self-reported-resilience",
+                "dataset-scope": "Extension",
                 "title": "Self-reported resilience",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1253,6 +1320,7 @@
           "de": {
             "template": "dimension",
             "key": "fatigue-decline-in-performance",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Müdigkeit / Leistungsabfall",
             "description_professional": "",
@@ -1263,6 +1331,7 @@
           "en": {
             "template": "dimension",
             "key": "fatigue-decline-in-performance",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Fatigue / Decline in performance",
             "description_professional": "",
@@ -1275,6 +1344,7 @@
               "de": {
                 "template": "observation",
                 "key": "daily-energy-and-performance-capacity",
+                "dataset-scope": "Extension",
                 "title": "Tägliche Energie & Leistungsfähigkeit",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1288,6 +1358,7 @@
               "en": {
                 "template": "observation",
                 "key": "daily-energy-and-performance-capacity",
+                "dataset-scope": "Extension",
                 "title": "Daily energy and performance capacity",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1305,6 +1376,7 @@
           "de": {
             "template": "dimension",
             "key": "lifeevents",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Lebensereignisse",
             "description_professional": "",
@@ -1315,6 +1387,7 @@
           "en": {
             "template": "dimension",
             "key": "lifeevents",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Life events",
             "description_professional": "",
@@ -1327,6 +1400,7 @@
               "de": {
                 "template": "observation",
                 "key": "self-reported-significant-life-events",
+                "dataset-scope": "Extension",
                 "title": "Selbstbericht über bedeutende Lebensereignisse",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1340,6 +1414,7 @@
               "en": {
                 "template": "observation",
                 "key": "self-reported-significant-life-events",
+                "dataset-scope": "Extension",
                 "title": "Self-reported significant life events",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1357,6 +1432,7 @@
           "de": {
             "template": "dimension",
             "key": "loneliness-social-support",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Einsamkeit / Soziale Unterstützung",
             "description_professional": "",
@@ -1367,6 +1443,7 @@
           "en": {
             "template": "dimension",
             "key": "loneliness-social-support",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Loneliness / Social support",
             "description_professional": "",
@@ -1379,6 +1456,7 @@
               "de": {
                 "template": "observation",
                 "key": "number-of-close-relationships",
+                "dataset-scope": "Extension",
                 "title": "Anzahl enger Bezugspersonen",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1392,6 +1470,7 @@
               "en": {
                 "template": "observation",
                 "key": "number-of-close-relationships",
+                "dataset-scope": "Extension",
                 "title": "Number of close relationships",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1407,6 +1486,7 @@
               "de": {
                 "template": "observation",
                 "key": "self-reported-social-integration",
+                "dataset-scope": "Extension",
                 "title": "Selbstbericht über sozialer Einbindung",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1420,6 +1500,7 @@
               "en": {
                 "template": "observation",
                 "key": "self-reported-social-integration",
+                "dataset-scope": "Extension",
                 "title": "Self-reported social integration",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1435,6 +1516,7 @@
               "de": {
                 "template": "observation",
                 "key": "subjective-sense-of-support",
+                "dataset-scope": "Extension",
                 "title": "Subjektives Empfinden von Unterstützung",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1448,6 +1530,7 @@
               "en": {
                 "template": "observation",
                 "key": "subjective-sense-of-support",
+                "dataset-scope": "Extension",
                 "title": "Subjective sense of support",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1465,6 +1548,7 @@
           "de": {
             "template": "dimension",
             "key": "susceptibility-to-infection",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Infektanfälligkeit",
             "description_professional": "",
@@ -1475,6 +1559,7 @@
           "en": {
             "template": "dimension",
             "key": "susceptibility-to-infection",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Susceptibility to infection",
             "description_professional": "",
@@ -1487,6 +1572,7 @@
               "de": {
                 "template": "observation",
                 "key": "number-of-infections",
+                "dataset-scope": "Extension",
                 "title": "Anzahl an Infektionen innerhalb eines bestimmten Zeitraums",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1500,6 +1586,7 @@
               "en": {
                 "template": "observation",
                 "key": "number-of-infections",
+                "dataset-scope": "Extension",
                 "title": "Number of infections within a defined period",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1517,6 +1604,7 @@
           "de": {
             "template": "dimension",
             "key": "weight-changes",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Gewichtsveränderungen",
             "description_professional": "",
@@ -1527,6 +1615,7 @@
           "en": {
             "template": "dimension",
             "key": "weight-changes",
+            "dataset-scope": "Extension",
             "category": "psychosocial-factors",
             "title": "Weight changes",
             "description_professional": "",
@@ -1539,6 +1628,7 @@
               "de": {
                 "template": "observation",
                 "key": "change-in-body-weight",
+                "dataset-scope": "Extension",
                 "title": "Veränderung des Körpergewichts über definierte Zeiträume (kg)",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1552,6 +1642,7 @@
               "en": {
                 "template": "observation",
                 "key": "change-in-body-weight",
+                "dataset-scope": "Extension",
                 "title": "Change in body weight over defined periods (kg)",
                 "description": "",
                 "category": "psychosocial-factors",
@@ -1574,6 +1665,7 @@
         "title": "Lebensqualität",
         "id_tech": "quality-of-life",
         "key": "quality-of-life",
+        "dataset-scope": "Minimalset",
         "color": "#f8e4bf",
         "icon_lucide": "heart-plus",
         "icon_upload": "/media/heart-plus.png"
@@ -1584,6 +1676,7 @@
         "title": "Quality of Life",
         "id_tech": "quality-of-life",
         "key": "quality-of-life",
+        "dataset-scope": "Minimalset",
         "color": "#f8e4bf",
         "icon_lucide": "heart-plus",
         "icon_upload": "/media/heart-plus.png"
@@ -1594,6 +1687,7 @@
       "de": {
         "template": "category",
         "key": "self-management",
+        "dataset-scope": "Extension",
         "title": "Selbstmanagement",
         "icon_upload": "/media/notebook-pen.png",
         "color": "#c7d2d3",
@@ -1604,6 +1698,7 @@
       "en": {
         "template": "category",
         "key": "self-management",
+        "dataset-scope": "Extension",
         "title": "Self-management",
         "icon_upload": "/media/notebook-pen.png",
         "color": "#c7d2d3",
@@ -1616,6 +1711,7 @@
           "de": {
             "template": "dimension",
             "key": "communication-understanding",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Kommunikation/Verständnis",
             "description_professional": "",
@@ -1626,6 +1722,7 @@
           "en": {
             "template": "dimension",
             "key": "communication-understanding",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Communication/Understanding",
             "description_professional": "",
@@ -1638,6 +1735,7 @@
               "de": {
                 "template": "observation",
                 "key": "health-literacy",
+                "dataset-scope": "Extension",
                 "title": "Verständnis von gesundheitsbezogener Information",
                 "description": "",
                 "category": "self-management",
@@ -1651,6 +1749,7 @@
               "en": {
                 "template": "observation",
                 "key": "health-literacy",
+                "dataset-scope": "Extension",
                 "title": "Health literacy",
                 "description": "",
                 "category": "self-management",
@@ -1666,6 +1765,7 @@
               "de": {
                 "template": "observation",
                 "key": "reporting-symptoms-or-changes",
+                "dataset-scope": "Extension",
                 "title": "Meldung von Symptomen oder Veränderungen an Fachkräfte",
                 "description": "",
                 "category": "self-management",
@@ -1679,6 +1779,7 @@
               "en": {
                 "template": "observation",
                 "key": "reporting-symptoms-or-changes",
+                "dataset-scope": "Extension",
                 "title": "Reporting symptoms or changes to healthcare professionals",
                 "description": "",
                 "category": "self-management",
@@ -1696,6 +1797,7 @@
           "de": {
             "template": "dimension",
             "key": "medication-management",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Medikamentenmanagement",
             "description_professional": "",
@@ -1706,6 +1808,7 @@
           "en": {
             "template": "dimension",
             "key": "medication-management",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Medication management",
             "description_professional": "",
@@ -1718,6 +1821,7 @@
               "de": {
                 "template": "observation",
                 "key": "monitoring-of-medication-and-vaccination-status",
+                "dataset-scope": "Extension",
                 "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
                 "description": "",
                 "category": "self-management",
@@ -1731,6 +1835,7 @@
               "en": {
                 "template": "observation",
                 "key": "monitoring-of-medication-and-vaccination-status",
+                "dataset-scope": "Extension",
                 "title": "Independent monitoring of medication and vaccination status",
                 "description": "",
                 "category": "self-management",
@@ -1748,6 +1853,7 @@
           "de": {
             "template": "dimension",
             "key": "self-monitoring",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Selbstüberwachung",
             "description_professional": "",
@@ -1758,6 +1864,7 @@
           "en": {
             "template": "dimension",
             "key": "self-monitoring",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Self-monitoring",
             "description_professional": "",
@@ -1770,6 +1877,7 @@
               "de": {
                 "template": "observation",
                 "key": "documentation-of-blood-glucose-level",
+                "dataset-scope": "Extension",
                 "title": "Dokumentation von Blutzuckerwert (mmol/l?)",
                 "description": "",
                 "category": "self-management",
@@ -1783,6 +1891,7 @@
               "en": {
                 "template": "observation",
                 "key": "documentation-of-blood-glucose-level",
+                "dataset-scope": "Extension",
                 "title": "Independent documentation of blood glucose level (mmol/l?)",
                 "description": "",
                 "category": "self-management",
@@ -1798,6 +1907,7 @@
               "de": {
                 "template": "observation",
                 "key": "documentation-of-blood-pressure",
+                "dataset-scope": "Extension",
                 "title": "Eigenständige Dokumentation von Blutdruck (mmHg?)",
                 "description": "",
                 "category": "self-management",
@@ -1811,6 +1921,7 @@
               "en": {
                 "template": "observation",
                 "key": "documentation-of-blood-pressure",
+                "dataset-scope": "Extension",
                 "title": "Independent documentation of blood pressure (mmHg?)",
                 "description": "",
                 "category": "self-management",
@@ -1826,6 +1937,7 @@
               "de": {
                 "template": "observation",
                 "key": "documentation-of-body-weight",
+                "dataset-scope": "Extension",
                 "title": "Eigenständige Dokumentation von Körpergewicht (kg)",
                 "description": "",
                 "category": "self-management",
@@ -1839,6 +1951,7 @@
               "en": {
                 "template": "observation",
                 "key": "documentation-of-body-weight",
+                "dataset-scope": "Extension",
                 "title": "Independent documentation of body weight (kg)",
                 "description": "",
                 "category": "self-management",
@@ -1854,6 +1967,7 @@
               "de": {
                 "template": "observation",
                 "key": "documentation-of-heart-rate",
+                "dataset-scope": "Extension",
                 "title": "Eigenständige Dokumentation von Herzfrequenz (bpm?)",
                 "description": "",
                 "category": "self-management",
@@ -1867,6 +1981,7 @@
               "en": {
                 "template": "observation",
                 "key": "documentation-of-heart-rate",
+                "dataset-scope": "Extension",
                 "title": "Independent documentation of heart rate (bpm?)",
                 "description": "",
                 "category": "self-management",
@@ -1884,6 +1999,7 @@
           "de": {
             "template": "dimension",
             "key": "technology-use",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Technologieeinsatz",
             "description_professional": "",
@@ -1894,6 +2010,7 @@
           "en": {
             "template": "dimension",
             "key": "technology-use",
+            "dataset-scope": "Extension",
             "category": "self-management",
             "title": "Technology use",
             "description_professional": "",
@@ -1906,6 +2023,7 @@
               "de": {
                 "template": "observation",
                 "key": "use-of-apps-or-webportals",
+                "dataset-scope": "Extension",
                 "title": "Nutzung von Apps oder Webportalen",
                 "description": "",
                 "category": "self-management",
@@ -1919,6 +2037,7 @@
               "en": {
                 "template": "observation",
                 "key": "use-of-apps-or-webportals",
+                "dataset-scope": "Extension",
                 "title": "Use of apps or web portals",
                 "description": "",
                 "category": "self-management",
@@ -1938,6 +2057,7 @@
       "de": {
         "template": "category",
         "key": "sexuality",
+        "dataset-scope": "Extension",
         "title": "Sexualität",
         "icon_upload": "/media/venus-and-mars.png",
         "color": "#D6C6C2",
@@ -1948,6 +2068,7 @@
       "en": {
         "template": "category",
         "key": "sexuality",
+        "dataset-scope": "Extension",
         "title": "Sexuality",
         "icon_upload": "/media/venus-and-mars.png",
         "color": "#D6C6C2",
@@ -1960,6 +2081,7 @@
           "de": {
             "template": "dimension",
             "key": "sexual-satisfaction",
+            "dataset-scope": "Extension",
             "category": "sexuality",
             "title": "Sexuelle Zufriedenheit",
             "description_professional": "",
@@ -1970,6 +2092,7 @@
           "en": {
             "template": "dimension",
             "key": "sexual-satisfaction",
+            "dataset-scope": "Extension",
             "category": "sexuality",
             "title": "Sexual satisfaction",
             "description_professional": "",
@@ -1982,6 +2105,7 @@
               "de": {
                 "template": "observation",
                 "key": "self-reported-sexual-satisfaction",
+                "dataset-scope": "Extension",
                 "title": "Selbstberichtete sexuelle Zufriedenheit",
                 "description": "",
                 "category": "sexuality",
@@ -1995,6 +2119,7 @@
               "en": {
                 "template": "observation",
                 "key": "self-reported-sexual-satisfaction",
+                "dataset-scope": "Extension",
                 "title": "Self-reported sexual satisfaction",
                 "description": "",
                 "category": "sexuality",
@@ -2017,6 +2142,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Schlaf",
         "key": "sleep",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "bed",
         "icon_upload": "/media/bed_white.png",
         "color": "#007ba7"
@@ -2027,6 +2153,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Sleep",
         "key": "sleep",
+        "dataset-scope": "Minimalset",
         "icon_lucide": "bed",
         "icon_upload": "/media/bed_white.png",
         "color": "#007ba7"
@@ -2036,6 +2163,7 @@
           "de": {
             "template": "dimension",
             "key": "chronotyp",
+            "dataset-scope": "Extension",
             "category": "sleep",
             "title": "Chronotyp",
             "description_professional": "",
@@ -2046,6 +2174,7 @@
           "en": {
             "template": "dimension",
             "key": "chronotyp",
+            "dataset-scope": "Extension",
             "category": "sleep",
             "title": "chronotype",
             "description_professional": "",
@@ -2058,6 +2187,7 @@
               "de": {
                 "template": "observation",
                 "key": "selbstberichteter-chronotyp",
+                "dataset-scope": "Extension",
                 "title": "Selbstberichteter Chronotyp",
                 "description": "",
                 "category": "sleep",
@@ -2071,6 +2201,7 @@
               "en": {
                 "template": "observation",
                 "key": "selbstberichteter-chronotyp",
+                "dataset-scope": "Extension",
                 "title": "self_reports_chronotype",
                 "description": "",
                 "category": "sleep",
@@ -2088,6 +2219,7 @@
           "de": {
             "template": "dimension",
             "key": "schlafhygiene",
+            "dataset-scope": "Extension",
             "category": "sleep",
             "title": "Schlafhygiene",
             "description_professional": "",
@@ -2098,6 +2230,7 @@
           "en": {
             "template": "dimension",
             "key": "schlafhygiene",
+            "dataset-scope": "Extension",
             "category": "sleep",
             "title": "sleephygiene",
             "description_professional": "",
@@ -2110,6 +2243,7 @@
               "de": {
                 "template": "observation",
                 "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+                "dataset-scope": "Extension",
                 "title": "schlaffördernden Routinen (Häufigkeit/Woche)",
                 "description": "",
                 "category": "sleep",
@@ -2123,6 +2257,7 @@
               "en": {
                 "template": "observation",
                 "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+                "dataset-scope": "Extension",
                 "title": "Frequency of adherence to sleep-promoting routines",
                 "description": "",
                 "category": "sleep",
@@ -2142,14 +2277,16 @@
             "title": "Schlafdauer",
             "id_tech": "sleep-duration",
             "category": "sleep",
-            "key": "sleep-duration"
+            "key": "sleep-duration",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "title": "Sleep duration",
             "id_tech": "sleep-duration",
             "category": "sleep",
-            "key": "sleep-duration"
+            "key": "sleep-duration",
+            "dataset-scope": "Minimalset"
           },
           "observations": []
         },
@@ -2159,20 +2296,23 @@
             "title": "Schlafqualität",
             "id_tech": "sleep-quality",
             "category": "sleep",
-            "key": "sleep-quality"
+            "key": "sleep-quality",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "title": "Sleep Quality",
             "id_tech": "sleep-quality",
             "category": "sleep",
-            "key": "sleep-quality"
+            "key": "sleep-quality",
+            "dataset-scope": "Minimalset"
           },
           "observations": [
             {
               "de": {
                 "template": "observation",
                 "key": "einschlafzeit",
+                "dataset-scope": "Extension",
                 "title": "Dauer der Einschlafzeit (durchschnittliche Minuten)",
                 "description": "",
                 "category": "sleep",
@@ -2186,6 +2326,7 @@
               "en": {
                 "template": "observation",
                 "key": "einschlafzeit",
+                "dataset-scope": "Extension",
                 "title": "time taken to fall asleep",
                 "description": "",
                 "category": "sleep",
@@ -2208,6 +2349,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Rauchen",
         "key": "smoking",
+        "dataset-scope": "Minimalset",
         "color": "#004e64",
         "icon_upload": "/media/cigarette-off.png",
         "icon_lucide": "cigarette-off"
@@ -2218,6 +2360,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Smoking",
         "key": "smoking",
+        "dataset-scope": "Minimalset",
         "color": "#004e64",
         "icon_upload": "/media/cigarette-off.png",
         "icon_lucide": "cigarette-off"
@@ -2227,6 +2370,7 @@
           "de": {
             "template": "dimension",
             "key": "e-zigaretten-tabakerhitzer",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "E-Zigaretten/Tabakerhitzer",
             "description_professional": "",
@@ -2237,6 +2381,7 @@
           "en": {
             "template": "dimension",
             "key": "e-zigaretten-tabakerhitzer",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "Anzahl pro Woche",
             "description_professional": "",
@@ -2249,6 +2394,7 @@
               "de": {
                 "template": "observation",
                 "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "E-Zigaretten/Tabakerhitzer (Anzahl/Woche)",
                 "description": "",
                 "category": "smoking",
@@ -2262,6 +2408,7 @@
               "en": {
                 "template": "observation",
                 "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "e-cigarettes tabacco heaters-number-per-week",
                 "description": "",
                 "category": "smoking",
@@ -2279,6 +2426,7 @@
           "de": {
             "template": "dimension",
             "key": "pfeife-wasserpfeife",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "Pfeife/Wasserpfeife",
             "description_professional": "",
@@ -2289,6 +2437,7 @@
           "en": {
             "template": "dimension",
             "key": "pfeife-wasserpfeife",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "pipe hookah",
             "description_professional": "",
@@ -2301,6 +2450,7 @@
               "de": {
                 "template": "observation",
                 "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "Pfeife/Wasserpfeife (Anzahl/Woche)",
                 "description": "",
                 "category": "smoking",
@@ -2314,6 +2464,7 @@
               "en": {
                 "template": "observation",
                 "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "pipe hookah numbers per week",
                 "description": "",
                 "category": "smoking",
@@ -2333,14 +2484,16 @@
             "title": "Raucherstatus",
             "category": "smoking",
             "id_tech": "smoking-status",
-            "key": "smoking-status"
+            "key": "smoking-status",
+            "dataset-scope": "Minimalset"
           },
           "en": {
             "template": "dimension",
             "category": "smoking",
             "title": "Smoking Status",
             "id_tech": "smoking-status",
-            "key": "smoking-status"
+            "key": "smoking-status",
+            "dataset-scope": "Minimalset"
           },
           "observations": []
         },
@@ -2348,6 +2501,7 @@
           "de": {
             "template": "dimension",
             "key": "zigaretten",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "Zigaretten",
             "description_professional": "",
@@ -2358,6 +2512,7 @@
           "en": {
             "template": "dimension",
             "key": "zigaretten",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "cigarettes",
             "description_professional": "",
@@ -2370,6 +2525,7 @@
               "de": {
                 "template": "observation",
                 "key": "entwoehnungsmotivation",
+                "dataset-scope": "Extension",
                 "title": "Entwöhnungsmotivation",
                 "description": "",
                 "category": "smoking",
@@ -2383,6 +2539,7 @@
               "en": {
                 "template": "observation",
                 "key": "entwoehnungsmotivation",
+                "dataset-scope": "Extension",
                 "title": "motivation to quit",
                 "description": "",
                 "category": "smoking",
@@ -2398,6 +2555,7 @@
               "de": {
                 "template": "observation",
                 "key": "entwoehnungsversuche",
+                "dataset-scope": "Extension",
                 "title": "Entwöhnungsversuche (Anzahl/Jahr)",
                 "description": "",
                 "category": "smoking",
@@ -2411,6 +2569,7 @@
               "en": {
                 "template": "observation",
                 "key": "entwoehnungsversuche",
+                "dataset-scope": "Extension",
                 "title": "attempts to give up",
                 "description": "",
                 "category": "smoking",
@@ -2426,6 +2585,7 @@
               "de": {
                 "template": "observation",
                 "key": "nikotinabhaengigkeit",
+                "dataset-scope": "Extension",
                 "title": "Nikotinabhängigkeit",
                 "description": "",
                 "category": "smoking",
@@ -2439,6 +2599,7 @@
               "en": {
                 "template": "observation",
                 "key": "nikotinabhaengigkeit",
+                "dataset-scope": "Extension",
                 "title": "nicotine addiction",
                 "description": "",
                 "category": "smoking",
@@ -2454,6 +2615,7 @@
               "de": {
                 "template": "observation",
                 "key": "pack-years",
+                "dataset-scope": "Extension",
                 "title": "Pack years",
                 "description": "",
                 "category": "smoking",
@@ -2488,6 +2650,7 @@
               "en": {
                 "template": "observation",
                 "key": "pack-years",
+                "dataset-scope": "Extension",
                 "title": "Pack Years",
                 "description": "",
                 "category": "smoking",
@@ -2524,6 +2687,7 @@
           "de": {
             "template": "dimension",
             "key": "zigarren-zigarillos",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "Zigarren/Zigarillos",
             "description_professional": "",
@@ -2534,6 +2698,7 @@
           "en": {
             "template": "dimension",
             "key": "zigarren-zigarillos",
+            "dataset-scope": "Extension",
             "category": "smoking",
             "title": "cigars and cigarillos",
             "description_professional": "",
@@ -2546,6 +2711,7 @@
               "de": {
                 "template": "observation",
                 "key": "zigarren-zigarillos-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "Zigarren/Zigarillos (Anzahl/Woche)",
                 "description": "",
                 "category": "smoking",
@@ -2559,6 +2725,7 @@
               "en": {
                 "template": "observation",
                 "key": "zigarren-zigarillos-pro-woche",
+                "dataset-scope": "Extension",
                 "title": "cigarres or cigarrilos per week",
                 "description": "",
                 "category": "smoking",
@@ -2581,6 +2748,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Soziodemografische Daten",
         "key": "sociodemographic-data",
+        "dataset-scope": "Minimalset",
         "color": "#e28913",
         "icon_upload": "/media/person-standing-white.png",
         "icon_lucide": "person-standing"
@@ -2591,6 +2759,7 @@
         "subject-area": "risk-and-protective-factors",
         "title": "Sociodemographic Data",
         "key": "sociodemographic-data",
+        "dataset-scope": "Minimalset",
         "color": "#e28913",
         "icon_upload": "/media/person-standing-white.png",
         "icon_lucide": "person-standing"
@@ -2600,6 +2769,7 @@
           "de": {
             "template": "dimension",
             "key": "age",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Alter",
             "description_professional": "",
@@ -2610,6 +2780,7 @@
           "en": {
             "template": "dimension",
             "key": "age",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Age",
             "description_professional": "",
@@ -2623,6 +2794,7 @@
           "de": {
             "template": "dimension",
             "key": "gender",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Geschlecht",
             "description_professional": "",
@@ -2633,6 +2805,7 @@
           "en": {
             "template": "dimension",
             "key": "gender",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Gender",
             "description_professional": "",
@@ -2646,6 +2819,7 @@
           "de": {
             "template": "dimension",
             "key": "living-environment",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Wohnumfeld",
             "description_professional": "",
@@ -2656,6 +2830,7 @@
           "en": {
             "template": "dimension",
             "key": "living-environment",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Living environment",
             "description_professional": "",
@@ -2668,6 +2843,7 @@
               "de": {
                 "template": "observation",
                 "key": "housing-type",
+                "dataset-scope": "Extension",
                 "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2681,6 +2857,7 @@
               "en": {
                 "template": "observation",
                 "key": "housing-type",
+                "dataset-scope": "Extension",
                 "title": "Housing type (owned home, rented apartment, other)",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2696,6 +2873,7 @@
               "de": {
                 "template": "observation",
                 "key": "residence",
+                "dataset-scope": "Extension",
                 "title": "Wohnortgröße (Stadt/Land)",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2709,6 +2887,7 @@
               "en": {
                 "template": "observation",
                 "key": "residence",
+                "dataset-scope": "Extension",
                 "title": "Residence (urban/rural)",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2726,6 +2905,7 @@
           "de": {
             "template": "dimension",
             "key": "marital-status",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Familienstand",
             "description_professional": "",
@@ -2736,6 +2916,7 @@
           "en": {
             "template": "dimension",
             "key": "marital-status",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Marital status",
             "description_professional": "",
@@ -2748,6 +2929,7 @@
               "de": {
                 "template": "observation",
                 "key": "single-married-partnership-separated-widowed",
+                "dataset-scope": "Extension",
                 "title": "ledig, verheiratet, in Partnerschaft, getrennt, verwitwet",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2761,6 +2943,7 @@
               "en": {
                 "template": "observation",
                 "key": "single-married-partnership-separated-widowed",
+                "dataset-scope": "Extension",
                 "title": "single, married, in a partnership, separated, widowed",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2778,6 +2961,7 @@
           "de": {
             "template": "dimension",
             "key": "origin",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Herkunft",
             "description_professional": "",
@@ -2788,6 +2972,7 @@
           "en": {
             "template": "dimension",
             "key": "origin",
+            "dataset-scope": "Extension",
             "category": "sociodemographic-data",
             "title": "Origin",
             "description_professional": "",
@@ -2800,6 +2985,7 @@
               "de": {
                 "template": "observation",
                 "key": "ethnicity",
+                "dataset-scope": "Extension",
                 "title": "Ethnische Zugehörigkeit",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2813,6 +2999,7 @@
               "en": {
                 "template": "observation",
                 "key": "ethnicity",
+                "dataset-scope": "Extension",
                 "title": "Ethnicity",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2830,6 +3017,7 @@
           "de": {
             "template": "dimension",
             "key": "socio-economic-status",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Sozio-ökonomischer Status",
             "description_professional": "",
@@ -2840,6 +3028,7 @@
           "en": {
             "template": "dimension",
             "key": "socio-economic-status",
+            "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Socio-economic Status",
             "description_professional": "",
@@ -2852,6 +3041,7 @@
               "de": {
                 "template": "observation",
                 "key": "employment-status-income",
+                "dataset-scope": "Extension",
                 "title": "Berufliche Situation Einkommen",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2865,6 +3055,7 @@
               "en": {
                 "template": "observation",
                 "key": "employment-status-income",
+                "dataset-scope": "Extension",
                 "title": "Employment status / Income",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2880,6 +3071,7 @@
               "de": {
                 "template": "observation",
                 "key": "native-language",
+                "dataset-scope": "Extension",
                 "title": "Muttersprache",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2893,6 +3085,7 @@
               "en": {
                 "template": "observation",
                 "key": "native-language",
+                "dataset-scope": "Extension",
                 "title": "Native language",
                 "description": "",
                 "category": "sociodemographic-data",
@@ -2912,6 +3105,7 @@
       "de": {
         "template": "category",
         "key": "work",
+        "dataset-scope": "Minimalset",
         "title": "Arbeit",
         "icon_upload": "/media/briefcase-business.png",
         "color": "#C5DDC8",
@@ -2925,6 +3119,7 @@
       "en": {
         "template": "category",
         "key": "work",
+        "dataset-scope": "Minimalset",
         "title": "Workability",
         "icon_upload": "/media/briefcase-business.png",
         "color": "#C5DDC8",
@@ -2940,6 +3135,7 @@
           "de": {
             "template": "dimension",
             "key": "workability",
+            "dataset-scope": "Extension",
             "category": "work",
             "title": "Arbeitsfähigkeit",
             "description_professional": "",
@@ -2950,6 +3146,7 @@
           "en": {
             "template": "dimension",
             "key": "workability",
+            "dataset-scope": "Extension",
             "category": "work",
             "title": "Workability",
             "description_professional": "",
@@ -2962,6 +3159,7 @@
               "de": {
                 "template": "observation",
                 "key": "impairment-of-employment",
+                "dataset-scope": "Extension",
                 "title": "Beeinträchtigung der Erwerbstätigkeit",
                 "description": "",
                 "category": "work",
@@ -2975,6 +3173,7 @@
               "en": {
                 "template": "observation",
                 "key": "impairment-of-employment",
+                "dataset-scope": "Extension",
                 "title": "Impairment of employment",
                 "description": "",
                 "category": "work",
@@ -2990,6 +3189,7 @@
               "de": {
                 "template": "observation",
                 "key": "loss-of-income",
+                "dataset-scope": "Extension",
                 "title": "Einkommensverlust",
                 "description": "",
                 "category": "work",
@@ -3003,6 +3203,7 @@
               "en": {
                 "template": "observation",
                 "key": "loss-of-income",
+                "dataset-scope": "Extension",
                 "title": "loss of income",
                 "description": "",
                 "category": "work",
@@ -3018,6 +3219,7 @@
               "de": {
                 "template": "observation",
                 "key": "work-absence-days",
+                "dataset-scope": "Extension",
                 "title": "Arbeitsausfalltage",
                 "description": "",
                 "category": "work",
@@ -3031,6 +3233,7 @@
               "en": {
                 "template": "observation",
                 "key": "work-absence-days",
+                "dataset-scope": "Extension",
                 "title": "Work absence days",
                 "description": "",
                 "category": "work",

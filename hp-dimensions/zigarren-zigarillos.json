@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "zigarren-zigarillos",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "Zigarren/Zigarillos",
     "description_professional": "",
@@ -12,6 +13,7 @@
   "en": {
     "template": "dimension",
     "key": "zigarren-zigarillos",
+    "dataset-scope": "Extension",
     "category": "smoking",
     "title": "cigars and cigarillos",
     "description_professional": "",

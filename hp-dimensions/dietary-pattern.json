@@ -2,6 +2,7 @@
   "de": {
     "template": "dimension",
     "key": "dietary-pattern",
+    "dataset-scope": "Minimalset",
     "category": "nutrition",
     "title": "Ernährungsmuster",
     "description_professional": "",
@@ -19,6 +20,7 @@
   "en": {
     "template": "dimension",
     "key": "dietary-pattern",
+    "dataset-scope": "Minimalset",
     "category": "nutrition",
     "title": "Dietary pattern",
     "description_professional": "",

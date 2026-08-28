@@ -2,6 +2,7 @@
   "de": {
     "template": "category",
     "key": "work",
+    "dataset-scope": "Minimalset",
     "title": "Arbeit",
     "icon_upload": "/media/briefcase-business.png",
     "color": "#C5DDC8",
@@ -15,6 +16,7 @@
   "en": {
     "template": "category",
     "key": "work",
+    "dataset-scope": "Minimalset",
     "title": "Workability",
     "icon_upload": "/media/briefcase-business.png",
     "color": "#C5DDC8",

@@ -5,6 +5,7 @@
     "subject-area": "risk-and-protective-factors",
     "title": "Rauchen",
     "key": "smoking",
+    "dataset-scope": "Minimalset",
     "color": "#004e64",
     "icon_upload": "/media/cigarette-off.png",
     "icon_lucide": "cigarette-off"
@@ -15,6 +16,7 @@
     "subject-area": "risk-and-protective-factors",
     "title": "Smoking",
     "key": "smoking",
+    "dataset-scope": "Minimalset",
     "color": "#004e64",
     "icon_upload": "/media/cigarette-off.png",
     "icon_lucide": "cigarette-off"

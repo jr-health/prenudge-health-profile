@@ -1,9 +1,21 @@
 {% extends "_base.en.html.j2" %}
 {% block title %}PreNUDGE Health Profile — Browse{% endblock %}
 {% block page_title %}<h1 class="page-title">Table — PreNUDGE Health Profile</h1>{% endblock %}
+{% block toolbar %}
+<div class="scope-bar">
+  <span id="scope-label">Data set</span>
+  <div class="scope-switch" id="scope-switch" role="group" aria-labelledby="scope-label">
+    <button type="button" data-scope="combined" aria-pressed="false">All</button>
+    <button type="button" data-scope="minimalset" aria-pressed="true">Minimal</button>
+    <button type="button" data-scope="extended" aria-pressed="false">Extended</button>
+  </div>
+</div>
+{% endblock %}
 {% block content %}
 <p class="disclaimer">Under construction — this page shows preliminary test data and is still being built out. Content and layout are subject to change.</p>
 <div class="panel table-panel">
   {% include "_browse_table.en.html.j2" %}
 </div>
+<script src="scope.js"></script>
+<script src="browse.js"></script>
 {% endblock %}
