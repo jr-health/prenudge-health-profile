@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "schlafhygiene",
+    "category": "sleep",
+    "title": "Schlafhygiene",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "schlafhygiene",
+    "category": "sleep",
+    "title": "sleephygiene",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
