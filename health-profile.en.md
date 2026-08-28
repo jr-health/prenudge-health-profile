@@ -34,6 +34,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Access to care](#access-to-care)
     - [Potential access barriers](#potential-access-barriers)
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
+    - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -246,7 +247,7 @@ _No observations recorded._
 
 ### Adverse childhood experiences (ACEs)
 
-_No observations recorded._
+#### Self-reported traumatic experiences
 
 ---
 
@@ -365,6 +366,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

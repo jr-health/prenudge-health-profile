@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:52:24.944804+00:00",
-  "commit": "c04d816f49029b9d1a655e8244fec654c91dd258",
+  "generated": "2026-08-28T08:53:24.036473+00:00",
+  "commit": "9368645c23448eb184f3a629ec84de3b08b99f3b",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1054,7 +1054,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "self-reported-traumatic-experiences",
+                "title": "Selbstbericht über traumatische Erfahrungen",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "adverse-childhood-experiences",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "self-reported-traumatic-experiences",
+                "title": "Self-reported traumatic experiences",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "adverse-childhood-experiences",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
