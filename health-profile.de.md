@@ -44,7 +44,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Schlafqualität](#schlafqualität)
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
 - [Rauchen](#rauchen)
-  - [E-zigaretten Tabakerhitzer](#e-zigaretten-tabakerhitzer)
+  - [E-Zigaretten/Tabakerhitzer](#e-zigarettentabakerhitzer)
     - [E-Zigaretten/Tabakerhitzer Anzahl pro woche](#e-zigarettentabakerhitzer-anzahl-pro-woche)
   - [Pfeife/Wasserpfeife](#pfeifewasserpfeife)
     - [Pfeife/Wasserpfeife Anzahl pro Woche](#pfeifewasserpfeife-anzahl-pro-woche)
@@ -360,7 +360,7 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/cigarette-off.png" alt="Rauchen" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
 
-### E-zigaretten Tabakerhitzer
+### E-Zigaretten/Tabakerhitzer
 
 #### E-Zigaretten/Tabakerhitzer Anzahl pro woche
 
