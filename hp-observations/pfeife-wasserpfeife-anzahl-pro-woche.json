@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+    "title": "Pfeife/Wasserpfeife Anzahl pro Woche",
+    "description": "",
+    "category": "smoking",
+    "dimension": "pfeife-wasserpfeife",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "pfeife-wasserpfeife-anzahl-pro-woche",
+    "title": "pipe hookah numbers per week",
+    "description": "",
+    "category": "smoking",
+    "dimension": "pfeife-wasserpfeife",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
