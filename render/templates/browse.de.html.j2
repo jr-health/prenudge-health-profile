@@ -16,6 +16,6 @@
 <div class="panel table-panel">
   {% include "_browse_table.de.html.j2" %}
 </div>
-<script src="scope.js"></script>
-<script src="browse.js"></script>
+<script src="scope.js?v={{ version | urlencode }}"></script>
+<script src="browse.js?v={{ version | urlencode }}"></script>
 {% endblock %}

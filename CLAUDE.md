@@ -93,6 +93,11 @@ Load order matters: `scope.js` must come before `sunburst.js` and `browse.js`, w
 `HPScope`. `pages.yml` copies these files **by name** — a new `render/*.js` must be added
 there or it will be missing on GitHub Pages while working fine locally.
 
+Local script tags carry `?v={{ version | urlencode }}`. The filenames never change, so without
+it GitHub Pages serves a cached copy of the old JS against newly rendered HTML after a release
+— which looks exactly like a broken feature. Add the query string to any new local `<script>`;
+leave CDN tags (d3) alone, they are already version-pinned in the URL.
+
 ### Custom Widget
 
 `admin/widgets/slug-from-title.js` registers the `id_tech_auto` widget, which auto-generates a kebab-case technical ID from the English title field. It is loaded via a `<script>` tag in `admin/index.html`.

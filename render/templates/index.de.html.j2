@@ -33,7 +33,7 @@
   </div>
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="render/scope.js"></script>
-<script src="render/sunburst.js"></script>
-<script src="render/browse.js"></script>
+<script src="render/scope.js?v={{ version | urlencode }}"></script>
+<script src="render/sunburst.js?v={{ version | urlencode }}"></script>
+<script src="render/browse.js?v={{ version | urlencode }}"></script>
 {% endblock %}
