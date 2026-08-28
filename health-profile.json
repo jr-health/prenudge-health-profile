@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:22:26.142032+00:00",
-  "commit": "1064876d5cfbc432b9c9c675e0c76978fabbfcdd",
+  "generated": "2026-08-28T08:22:47.729797+00:00",
+  "commit": "c5867dd9e4203b00b0a6439b2cf8a9e2bf818d6d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -842,7 +842,7 @@
             "template": "dimension",
             "key": "zigaretten",
             "category": "smoking",
-            "title": "Zigaretten_Anzahl",
+            "title": "Zigaretten",
             "description_professional": "",
             "description_layman": "",
             "verified-health-links": [],

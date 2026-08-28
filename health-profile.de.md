@@ -31,7 +31,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [e-zigaretten-tabakerhitzer](#e-zigaretten-tabakerhitzer)
   - [Pfeife-Wasserpfeife](#pfeife-wasserpfeife)
   - [Raucherstatus](#raucherstatus)
-  - [Zigaretten_Anzahl](#zigaretten_anzahl)
+  - [Zigaretten](#zigaretten)
     - [Entwoehnungsmotivation](#entwoehnungsmotivation)
     - [Entwoehnungsversuche](#entwoehnungsversuche)
     - [nikotinabhängigkeit](#nikotinabhängigkeit)
@@ -295,7 +295,7 @@ _Keine Beobachtungen erfasst._
 
 _Keine Beobachtungen erfasst._
 
-### Zigaretten_Anzahl
+### Zigaretten
 
 #### Entwoehnungsmotivation
 
@@ -354,6 +354,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
