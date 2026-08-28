@@ -11,6 +11,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Anthropometrie](#anthropometrie)
   - [Größe, Gewicht](#größe-gewicht)
     - [Taillenumfang (cm)](#taillenumfang-cm)
+    - [Hüft-Taillen-Verhältnis (WHR)](#hüft-taillen-verhältnis-whr)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
     - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
@@ -107,6 +108,8 @@ _Keine Beobachtungen erfasst._
 ### Größe, Gewicht
 
 #### Taillenumfang (cm)
+
+#### Hüft-Taillen-Verhältnis (WHR)
 
 ---
 

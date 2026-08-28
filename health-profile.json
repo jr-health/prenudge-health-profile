@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:19:52.186210+00:00",
-  "commit": "3090f9b0ab4ecb22e4460de8cc24b0dfb14c9f4d",
+  "generated": "2026-08-28T11:22:59.314969+00:00",
+  "commit": "cd4367f22c1404c3d7840a109cd4868dc44fd571",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -134,6 +134,34 @@
                 "template": "observation",
                 "key": "waist-circumference",
                 "title": "Waist circumference (cm)",
+                "description": "",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "waist-to-hip-ratio",
+                "title": "Hüft-Taillen-Verhältnis (WHR)",
+                "description": "",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "waist-to-hip-ratio",
+                "title": "Waist-to-hip ratio (WHR)",
                 "description": "",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",

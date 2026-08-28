@@ -11,6 +11,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Anthropometry](#anthropometry)
   - [Height, weight](#height-weight)
     - [Waist circumference (cm)](#waist-circumference-cm)
+    - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
     - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
@@ -107,6 +108,8 @@ _No observations recorded._
 ### Height, weight
 
 #### Waist circumference (cm)
+
+#### Waist-to-hip ratio (WHR)
 
 ---
 
