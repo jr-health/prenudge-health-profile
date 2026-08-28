@@ -76,9 +76,15 @@ jobs:
           cp released/render/browse.de.html _site/render/browse.de.html
           cp released/render/browse.en.html _site/render/browse.en.html
           cp released/render/browse.js _site/render/browse.js
-          # shared by sunburst.js and browse.js - both fail with an undefined
-          # HPScope if this one is missing.
-          cp released/render/scope.js _site/render/scope.js
+          # Shared by sunburst.js and browse.js - both fail with an undefined
+          # HPScope if it is missing. Guarded because ./released is the last
+          # *released* commit, which may predate this file; the browse/sunburst
+          # HTML copied from that same commit then doesn't reference it either,
+          # so the set stays consistent. An unguarded cp fails the whole step
+          # under the default `bash -e` until the next release is tagged.
+          if [ -f released/render/scope.js ]; then
+            cp released/render/scope.js _site/render/scope.js
+          fi
 
           RELEASE_VERSION="${{ steps.release.outputs.version }}"
           RELEASE_BASE="https://github.com/${{ github.repository }}/releases/latest/download"
