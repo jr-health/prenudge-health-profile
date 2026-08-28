@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
+    - [Zeit leicht körperlicher Aktivität pro Tag](#zeit-leicht-körperlicher-aktivität-pro-tag)
   - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
     - [Anzahl_der_Einheiten (pro Woche)](#anzahl_der_einheiten-pro-woche)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
@@ -202,6 +203,18 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 #### Schrittzahl (pro Tag)
 
+#### Zeit leicht körperlicher Aktivität pro Tag
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** min/day
+- **Wertebereich:** 0-1440 min
+- **Erfassungsfrequenz:** 2x/Jahr
+- **Empfohlene Monitoringfrequenz:** 1xpro Monat
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Flexibilitäts- und Gleichgewichtstraining
 
 #### Anzahl_der_Einheiten (pro Woche)
@@ -297,6 +310,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

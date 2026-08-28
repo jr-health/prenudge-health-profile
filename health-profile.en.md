@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
   - [Everyday Activity](#everyday-activity)
     - [Steps (per day)](#steps-per-day)
+    - [Time of light physical activity per day](#time-of-light-physical-activity-per-day)
   - [Flexibility and Balance](#flexibility-and-balance)
     - [lessons per week](#lessons-per-week)
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
@@ -131,6 +132,17 @@ max: in Minuten: 15.120/Woche
 
 #### Steps (per day)
 
+#### Time of light physical activity per day
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 0-1440 min
+- **Acquisition Frequency:** 2x/Jahr
+- **Recommended Monitoring Frequency:** 1xpro Monat
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Flexibility and Balance
 
 #### lessons per week
@@ -226,6 +238,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

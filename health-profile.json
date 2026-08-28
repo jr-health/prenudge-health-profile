@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:47:41.485132+00:00",
-  "commit": "655aed8a3729c1972f8b95fd4f17a4c6027fd262",
+  "generated": "2026-08-28T07:48:44.799562+00:00",
+  "commit": "f2f623c1c953b97e1bb2386f53932995d32d7aa0",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -464,6 +464,66 @@
                 "description": "",
                 "category": "physical-activity",
                 "key": "steps-per-day"
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "zeit-leichte-koerperliche-aktivitaet",
+                "title": "Zeit leicht körperlicher Aktivität pro Tag",
+                "description": "",
+                "category": "physical-activity",
+                "dimension": "everyday-activity",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "EHIS",
+                    "specific-questions": "",
+                    "unit": "min/day",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "0-1440 min",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "1xpro Monat",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "zeit-leichte-koerperliche-aktivitaet",
+                "title": "Time of light physical activity per day",
+                "description": "",
+                "category": "physical-activity",
+                "dimension": "everyday-activity",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "0-1440 min",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "1xpro Monat",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": ""
               }
             }
           ]
