@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "entwoehnungsmotivation",
+    "title": "Entwoehnungsmotivation",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "entwoehnungsmotivation",
+    "title": "motivation to quit",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
