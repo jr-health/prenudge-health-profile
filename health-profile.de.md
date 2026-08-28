@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Zugang zu Versorgung](#zugang-zu-versorgung)
+    - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -302,7 +303,11 @@ _Keine Beobachtungen erfasst._
 
 ### Zugang zu Versorgung
 
-_Keine Beobachtungen erfasst._
+#### Potenzielle Zugangshindernisse
+
+**Information für Bevölkerung:**
+
+Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)
 
 ---
 
@@ -421,6 +426,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:48:32.424320+00:00",
-  "commit": "e686840f74a040b0fafdf5c95dd2495e56632171",
+  "generated": "2026-08-28T08:49:02.593414+00:00",
+  "commit": "c94820e801717b23d536cfa3bee41750cd3e509c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -956,7 +956,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "potential-access-barriers",
+                "title": "Potenzielle Zugangshindernisse",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "access-to-care",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "potential-access-barriers",
+                "title": "Potential access barriers",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "access-to-care",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sitting](#sitting)
 - [Psychosocial Factors](#psychosocial-factors)
   - [Access to care](#access-to-care)
+    - [Potential access barriers](#potential-access-barriers)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -230,7 +231,7 @@ _No observations recorded._
 
 ### Access to care
 
-_No observations recorded._
+#### Potential access barriers
 
 ---
 
@@ -349,6 +350,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
