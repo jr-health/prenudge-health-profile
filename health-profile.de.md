@@ -19,6 +19,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
   - [Gesamtmuster Ernährung](#gesamtmuster-ernährung)
+  - [gesundheitsfördernde Ernährungsmuster](#gesundheitsfördernde-ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
@@ -32,6 +33,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Zugang zu Versorgung](#zugang-zu-versorgung)
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
+  - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -131,6 +133,10 @@ _Keine Beobachtungen erfasst._
 - **Sunburst-Chart Status:** draft
 
 ### Gesamtmuster Ernährung
+
+_Keine Beobachtungen erfasst._
+
+### gesundheitsfördernde Ernährungsmuster
 
 _Keine Beobachtungen erfasst._
 
@@ -313,6 +319,10 @@ _Keine Beobachtungen erfasst._
 **Information für Bevölkerung:**
 
 Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)
+
+### Traumatische Kindheitserfahrungen
+
+_Keine Beobachtungen erfasst._
 
 ---
 

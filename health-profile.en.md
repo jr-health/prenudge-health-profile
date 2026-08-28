@@ -19,6 +19,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
   - [nutritional pattern](#nutritional-pattern)
+  - [health enhancing nutritional patterns](#health-enhancing-nutritional-patterns)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -32,6 +33,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Psychosocial Factors](#psychosocial-factors)
   - [Access to care](#access-to-care)
     - [Potential access barriers](#potential-access-barriers)
+  - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -131,6 +133,10 @@ _No observations recorded._
 - **Sunburst Chart Status:** draft
 
 ### nutritional pattern
+
+_No observations recorded._
+
+### health enhancing nutritional patterns
 
 _No observations recorded._
 
@@ -237,6 +243,10 @@ _No observations recorded._
 ### Access to care
 
 #### Potential access barriers
+
+### Adverse childhood experiences (ACEs)
+
+_No observations recorded._
 
 ---
 
