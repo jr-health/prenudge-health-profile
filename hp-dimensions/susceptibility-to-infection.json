@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "susceptibility-to-infection",
+    "category": "psychosocial-factors",
+    "title": "Infektanfälligkeit",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "susceptibility-to-infection",
+    "category": "psychosocial-factors",
+    "title": "Susceptibility to infection",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
