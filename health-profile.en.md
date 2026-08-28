@@ -46,6 +46,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Age](#age)
   - [Gender](#gender)
   - [Marital status](#marital-status)
+    - [single, married, in a partnership, separated, widowed](#single-married-in-a-partnership-separated-widowed)
   - [Origin](#origin)
     - [Ethnicity](#ethnicity)
   - [Socio-economic Status](#socio-economic-status)
@@ -269,7 +270,7 @@ _No observations recorded._
 
 ### Marital status
 
-_No observations recorded._
+#### single, married, in a partnership, separated, widowed
 
 ### Origin
 
@@ -295,6 +296,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

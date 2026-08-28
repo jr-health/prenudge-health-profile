@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:32:18.340748+00:00",
-  "commit": "784a6ff39d7b54e00dc872190549d4eb85b4ea9b",
+  "generated": "2026-08-28T08:33:36.905837+00:00",
+  "commit": "077465aadaf09c687ddd24405069d487e54b06b8",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1266,7 +1266,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "single-married-partnership-separated-widowed",
+                "title": "ledig, verheiratet, in Partnerschaft, getrennt, verwitwet",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "marital-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "single-married-partnership-separated-widowed",
+                "title": "single, married, in a partnership, separated, widowed",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "marital-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

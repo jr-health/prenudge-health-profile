@@ -46,6 +46,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
   - [Familienstand](#familienstand)
+    - [ledig, verheiratet, in Partnerschaft, getrennt, verwitwet](#ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
   - [Herkunft](#herkunft)
     - [Ethnische Zugehörigkeit](#ethnische-zugehörigkeit)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
@@ -341,7 +342,7 @@ _Keine Beobachtungen erfasst._
 
 ### Familienstand
 
-_Keine Beobachtungen erfasst._
+#### ledig, verheiratet, in Partnerschaft, getrennt, verwitwet
 
 ### Herkunft
 
@@ -367,6 +368,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
