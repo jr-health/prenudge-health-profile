@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "origin",
+    "category": "sociodemographic-data",
+    "title": "Herkunft",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "origin",
+    "category": "sociodemographic-data",
+    "title": "Origin",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
