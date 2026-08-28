@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "living-environment",
+    "category": "sociodemographic-data",
+    "title": "Wohnumfeld",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "living-environment",
+    "category": "sociodemographic-data",
+    "title": "Living environment",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
