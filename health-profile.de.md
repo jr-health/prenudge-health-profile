@@ -96,6 +96,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Arbeit](#arbeit)
   - [Arbeitsfähigkeit](#arbeitsfähigkeit)
     - [Beeinträchtigung der Erwerbstätigkeit](#beeinträchtigung-der-erwerbstätigkeit)
+    - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
@@ -522,6 +523,8 @@ _Keine Beobachtungen erfasst._
 ### Arbeitsfähigkeit
 
 #### Beeinträchtigung der Erwerbstätigkeit
+
+#### Einkommensverlust
 
 #### Arbeitsausfalltage
 

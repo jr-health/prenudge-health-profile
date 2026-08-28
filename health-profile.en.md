@@ -96,6 +96,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Workability](#workability)
   - [Workability](#workability)
     - [Impairment of employment](#impairment-of-employment)
+    - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
 - [Edit History](#edit-history)
 
@@ -442,6 +443,8 @@ _No observations recorded._
 ### Workability
 
 #### Impairment of employment
+
+#### loss of income
 
 #### Work absence days
 
