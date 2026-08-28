@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "pfeife-wasserpfeife",
+    "category": "smoking",
+    "title": "Pfeife-Wasserpfeife",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "pfeife-wasserpfeife",
+    "category": "smoking",
+    "title": "pipe hookah",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
