@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "health-literacy",
+    "title": "Verständnis von gesundheitsbezogener Information",
+    "description": "",
+    "category": "self-management",
+    "dimension": "communication-understanding",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "health-literacy",
+    "title": "Health literacy",
+    "description": "",
+    "category": "self-management",
+    "dimension": "communication-understanding",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
