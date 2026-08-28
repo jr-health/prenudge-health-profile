@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "zigarren-zigarillos",
+    "category": "smoking",
+    "title": "Zigarren/Zigarillos",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "zigarren-zigarillos",
+    "category": "smoking",
+    "title": "cigars and cigarillos",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
