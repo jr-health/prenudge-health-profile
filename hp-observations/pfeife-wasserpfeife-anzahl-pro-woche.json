@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "pfeife-wasserpfeife-anzahl-pro-woche",
-    "title": "Pfeife/Wasserpfeife Anzahl pro Woche",
+    "title": "Pfeife/Wasserpfeife (Anzahl/Woche)",
     "description": "",
     "category": "smoking",
     "dimension": "pfeife-wasserpfeife",
