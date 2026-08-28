@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:13:20.303613+00:00",
-  "commit": "758be89fe4910cef9042bb9eb1866aa1486f992c",
+  "generated": "2026-08-28T09:15:29.303699+00:00",
+  "commit": "58fea39b010937178bde9c1036dde0bc01a88dc9",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1139,6 +1139,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "coping-ability",
+            "category": "psychosocial-factors",
+            "title": "Fähigkeit zum Coping",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "coping-ability",
+            "category": "psychosocial-factors",
+            "title": "Coping ability",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

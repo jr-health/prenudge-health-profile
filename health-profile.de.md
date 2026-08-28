@@ -35,6 +35,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
   - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
     - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
+  - [Fähigkeit zum Coping](#fähigkeit-zum-coping)
   - [Lebensereignisse](#lebensereignisse)
     - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
   - [Einsamkeit / Soziale Unterstützung](#einsamkeit-soziale-unterstützung)
@@ -328,6 +329,10 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 ### Traumatische Kindheitserfahrungen
 
 #### Selbstbericht über traumatische Erfahrungen
+
+### Fähigkeit zum Coping
+
+_Keine Beobachtungen erfasst._
 
 ### Lebensereignisse
 
