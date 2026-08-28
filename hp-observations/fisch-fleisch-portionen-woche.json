@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "fisch-fleisch-portionen-woche",
+    "title": "Fisch/Fleisch (Portionen/Woche)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "fisch-fleisch-portionen-woche",
+    "title": "fish-meat portions week",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
