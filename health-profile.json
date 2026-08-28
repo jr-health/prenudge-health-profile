@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:53:24.036473+00:00",
-  "commit": "9368645c23448eb184f3a629ec84de3b08b99f3b",
+  "generated": "2026-08-28T08:54:37.857978+00:00",
+  "commit": "b20edd6563eb8d1ff16d22a782b74ccbbdfaa439",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -781,7 +781,7 @@
               "de": {
                 "template": "observation",
                 "key": "zeit-leichte-koerperliche-aktivitaet",
-                "title": "Zeit leicht körperlicher Aktivität pro Tag",
+                "title": "leicht körperlicher Aktivität (Minuten pro Tag)",
                 "description": "",
                 "category": "physical-activity",
                 "dimension": "everyday-activity",
@@ -825,13 +825,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "0-1440 min",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "1xpro Monat",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
