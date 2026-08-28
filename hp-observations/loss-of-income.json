@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "loss-of-income",
+    "title": "Einkommensverlust",
+    "description": "",
+    "category": "work",
+    "dimension": "workability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "loss-of-income",
+    "title": "loss of income",
+    "description": "",
+    "category": "work",
+    "dimension": "workability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
