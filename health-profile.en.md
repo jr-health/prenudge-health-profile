@@ -94,6 +94,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Employment status / Income](#employment-status-income)
     - [Native language](#native-language)
 - [Workability](#workability)
+  - [Workability](#workability)
 - [Edit History](#edit-history)
 
 ---
@@ -436,7 +437,9 @@ _No observations recorded._
 
 <img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Workability
+
+_No observations recorded._
 
 ---
 

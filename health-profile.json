@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:06:11.993088+00:00",
-  "commit": "9820a2fb8b51da6053672bccb13298a7ec13545e",
+  "generated": "2026-08-28T12:06:30.357657+00:00",
+  "commit": "9706bb05c61b1564a815b2965e425460f8e6407e",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -2694,7 +2694,31 @@
         "id_tech": "work",
         "icon_lucide": "briefcase-business"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "workability",
+            "category": "work",
+            "title": "Arbeitsfähigkeit",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "workability",
+            "category": "work",
+            "title": "Workability",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     }
   ],
   "data_providers": [

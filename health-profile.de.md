@@ -94,6 +94,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Berufliche Situation Einkommen](#berufliche-situation-einkommen)
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
+  - [Arbeitsfähigkeit](#arbeitsfähigkeit)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
@@ -516,7 +517,9 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/briefcase-business.png" alt="Arbeit" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Arbeitsfähigkeit
+
+_Keine Beobachtungen erfasst._
 
 ---
 
