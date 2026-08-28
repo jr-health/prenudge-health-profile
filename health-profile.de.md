@@ -16,7 +16,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
     - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdäpfel-portionentag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
-    - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
+    - [Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)](#milchprodukteölefettenüssesamen-portionentag)
     - [stark verarbeitete Lebensmittel (Portionen/Tag)](#stark-verarbeitete-lebensmittel-portionentag)
   - [Gesamtmuster Ernährung](#gesamtmuster-ernährung)
   - [gesundheitsfördernde Ernährungsmuster](#gesundheitsfördernde-ernährungsmuster)
@@ -125,7 +125,7 @@ _Keine Beobachtungen erfasst._
 
 #### Hülsenfrüchte (Portionen/Woche)
 
-#### Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)
+#### Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
 #### stark verarbeitete Lebensmittel (Portionen/Tag)
 

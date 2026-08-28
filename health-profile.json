@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:59:55.840134+00:00",
-  "commit": "8f4b19ff9b07e79786931e5fa55df21a3e0a0c86",
+  "generated": "2026-08-28T09:02:42.999690+00:00",
+  "commit": "0295de5491b8dfb8440d2a0b182aa572bb39b313",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -362,7 +362,7 @@
               "de": {
                 "template": "observation",
                 "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
-                "title": "Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)",
+                "title": "Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
