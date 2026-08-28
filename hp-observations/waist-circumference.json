@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "waist-circumference",
+    "title": "Taillenumfang (cm)",
+    "description": "",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "waist-circumference",
+    "title": "Waist circumference (cm)",
+    "description": "",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
