@@ -46,6 +46,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
     - [Subjektives Empfinden von Unterstützung](#subjektives-empfinden-von-unterstützung)
   - [Infektanfälligkeit](#infektanfälligkeit)
+    - [Anzahl an Infektionen innerhalb eines bestimmten Zeitraums](#anzahl-an-infektionen-innerhalb-eines-bestimmten-zeitraums)
   - [Gewichtsveränderungen](#gewichtsveränderungen)
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
@@ -365,7 +366,7 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 ### Infektanfälligkeit
 
-_Keine Beobachtungen erfasst._
+#### Anzahl an Infektionen innerhalb eines bestimmten Zeitraums
 
 ### Gewichtsveränderungen
 

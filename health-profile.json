@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:11:51.990119+00:00",
-  "commit": "c781475cb61de54f427c8ba03f7601aedf11588d",
+  "generated": "2026-08-28T11:13:44.430937+00:00",
+  "commit": "ef7095e6bc4b3d0f2a2fe24cbbdf871cc57e2b08",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1425,7 +1425,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "number-of-infections",
+                "title": "Anzahl an Infektionen innerhalb eines bestimmten Zeitraums",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "susceptibility-to-infection",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "number-of-infections",
+                "title": "Number of infections within a defined period",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "susceptibility-to-infection",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

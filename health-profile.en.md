@@ -46,6 +46,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Self-reported social integration](#self-reported-social-integration)
     - [Subjective sense of support](#subjective-sense-of-support)
   - [Susceptibility to infection](#susceptibility-to-infection)
+    - [Number of infections within a defined period](#number-of-infections-within-a-defined-period)
   - [Weight changes](#weight-changes)
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
@@ -285,7 +286,7 @@ _No observations recorded._
 
 ### Susceptibility to infection
 
-_No observations recorded._
+#### Number of infections within a defined period
 
 ### Weight changes
 
