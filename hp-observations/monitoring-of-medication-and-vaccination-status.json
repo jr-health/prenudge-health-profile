@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "monitoring-of-medication-and-vaccination-status",
+    "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
+    "description": "",
+    "category": "self-management",
+    "dimension": "medication-management",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "monitoring-of-medication-and-vaccination-status",
+    "title": "Independent monitoring of medication and vaccination status",
+    "description": "",
+    "category": "self-management",
+    "dimension": "medication-management",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
