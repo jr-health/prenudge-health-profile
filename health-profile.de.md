@@ -27,7 +27,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
     - [leicht körperlicher Aktivität (Minuten pro Tag)](#leicht-körperlicher-aktivität-minuten-pro-tag)
   - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
-    - [Anzahl_der_Einheiten (pro Woche)](#anzahl_der_einheiten-pro-woche)
+    - [Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)](#beweglichkeitsflexibilitätseinheiten-einheitenwoche)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
@@ -289,7 +289,7 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 ### Flexibilitäts- und Gleichgewichtstraining
 
-#### Anzahl_der_Einheiten (pro Woche)
+#### Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)
 
 ##### Messinstrumente
 
