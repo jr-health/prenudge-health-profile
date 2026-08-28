@@ -40,6 +40,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Life events](#life-events)
     - [Self-reported significant life events](#self-reported-significant-life-events)
   - [Loneliness / Social support](#loneliness-social-support)
+    - [Number of close relationships](#number-of-close-relationships)
     - [Self-reported social integration](#self-reported-social-integration)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
@@ -265,6 +266,8 @@ _No observations recorded._
 #### Self-reported significant life events
 
 ### Loneliness / Social support
+
+#### Number of close relationships
 
 #### Self-reported social integration
 

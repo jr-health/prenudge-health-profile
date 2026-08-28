@@ -40,6 +40,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Lebensereignisse](#lebensereignisse)
     - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
   - [Einsamkeit / Soziale Unterstützung](#einsamkeit-soziale-unterstützung)
+    - [Anzahl enger Bezugspersonen](#anzahl-enger-bezugspersonen)
     - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
@@ -345,6 +346,8 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schweren Erkrankung) (ja/nein)
 
 ### Einsamkeit / Soziale Unterstützung
+
+#### Anzahl enger Bezugspersonen
 
 #### Selbstbericht über sozialer Einbindung
 

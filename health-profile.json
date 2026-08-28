@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T10:51:51.981492+00:00",
-  "commit": "326e0deb006cddb130d44b6016f4761588e2171a",
+  "generated": "2026-08-28T10:53:27.936157+00:00",
+  "commit": "4a0e1bac6dc43d145c7497a4254a712b60fd48d2",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1266,6 +1266,34 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "number-of-close-relationships",
+                "title": "Anzahl enger Bezugspersonen",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "loneliness-social-support",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "number-of-close-relationships",
+                "title": "Number of close relationships",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "loneliness-social-support",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
             {
               "de": {
                 "template": "observation",
