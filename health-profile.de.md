@@ -49,7 +49,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [E-Zigaretten/Tabakerhitzer](#e-zigarettentabakerhitzer)
     - [E-Zigaretten/Tabakerhitzer (Anzahl/Woche)](#e-zigarettentabakerhitzer-anzahlwoche)
   - [Pfeife/Wasserpfeife](#pfeifewasserpfeife)
-    - [Pfeife/Wasserpfeife Anzahl pro Woche](#pfeifewasserpfeife-anzahl-pro-woche)
+    - [Pfeife/Wasserpfeife (Anzahl/Woche)](#pfeifewasserpfeife-anzahlwoche)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten](#zigaretten)
     - [Entwoehnungsmotivation](#entwoehnungsmotivation)
@@ -372,7 +372,7 @@ _Keine Beobachtungen erfasst._
 
 ### Pfeife/Wasserpfeife
 
-#### Pfeife/Wasserpfeife Anzahl pro Woche
+#### Pfeife/Wasserpfeife (Anzahl/Woche)
 
 ### Raucherstatus
 

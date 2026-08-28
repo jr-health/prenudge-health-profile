@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:57:12.182440+00:00",
-  "commit": "42897d28c14fdb54d01ca08609d96b8a061a395e",
+  "generated": "2026-08-28T08:57:28.370794+00:00",
+  "commit": "37465ed532c7da5ecc2c5291da85fde1b9b5f7a9",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1479,7 +1479,7 @@
               "de": {
                 "template": "observation",
                 "key": "pfeife-wasserpfeife-anzahl-pro-woche",
-                "title": "Pfeife/Wasserpfeife Anzahl pro Woche",
+                "title": "Pfeife/Wasserpfeife (Anzahl/Woche)",
                 "description": "",
                 "category": "smoking",
                 "dimension": "pfeife-wasserpfeife",
