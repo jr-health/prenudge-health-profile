@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
     - [Legume portions per week](#legume-portions-per-week)
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
+    - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -118,6 +119,14 @@ _No observations recorded._
 #### Legume portions per week
 
 #### Dairy products, oils, fats, nuts, and seeds – portions per day
+
+#### stark verarbeitete Lebensmittel
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ---
 

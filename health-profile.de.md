@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
+    - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
@@ -118,6 +119,14 @@ _Keine Beobachtungen erfasst._
 #### Hülsenfrüchte (Portionen/Woche)
 
 #### Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)
+
+#### stark verarbeitete Lebensmittel
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:46:55.116950+00:00",
-  "commit": "9acb652f48117933a42a00afe08714ebb5465a61",
+  "generated": "2026-08-28T08:48:32.424320+00:00",
+  "commit": "e686840f74a040b0fafdf5c95dd2495e56632171",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -375,6 +375,66 @@
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "stark-verarbeitete-lebensmittel",
+                "title": "stark verarbeitete Lebensmittel",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "stark-verarbeitete-lebensmittel",
+                "title": "stark verarbeitete Lebensmittel",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
                 "discussion": ""
               }
             }
