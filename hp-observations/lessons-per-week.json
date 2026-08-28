@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "lessons-per-week",
-    "title": "Anzahl_der_Einheiten (pro Woche)",
+    "title": "Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)",
     "description": "",
     "category": "physical-activity",
     "dimension": "flexibility-and-balance",
@@ -46,13 +46,21 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "0-7",
         "acquisition-frequency": "2x/year",
         "recommended-monitoring-frequency": "1/month",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
