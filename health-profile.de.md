@@ -18,6 +18,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
   - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
+    - [Anzahl_der_Einheiten (pro Woche)](#anzahl_der_einheiten-pro-woche)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
@@ -202,7 +203,7 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 ### Flexibilitäts- und Gleichgewichtstraining
 
-_Keine Beobachtungen erfasst._
+#### Anzahl_der_Einheiten (pro Woche)
 
 ### Muskelkräftigende Übungen
 

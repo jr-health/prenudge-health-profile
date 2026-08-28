@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:05:57.451110+00:00",
-  "commit": "a27c8db9cb0601702e871061a3ab1e291cd7c502",
+  "generated": "2026-08-28T07:11:10.914462+00:00",
+  "commit": "436c5706a9316f6d45d8cf22664948b6dbf53159",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -485,7 +485,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "lessons-per-week",
+                "title": "Anzahl_der_Einheiten (pro Woche)",
+                "description": "",
+                "category": "physical-activity",
+                "dimension": "flexibility-and-balance",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "lessons-per-week",
+                "title": "lessons per week",
+                "description": "",
+                "category": "physical-activity",
+                "dimension": "flexibility-and-balance",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

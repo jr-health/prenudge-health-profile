@@ -18,6 +18,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Everyday Activity](#everyday-activity)
     - [Steps (per day)](#steps-per-day)
   - [Flexibility and Balance](#flexibility-and-balance)
+    - [lessons per week](#lessons-per-week)
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
   - [Sitting](#sitting)
 - [Psychosocial Factors](#psychosocial-factors)
@@ -131,7 +132,7 @@ max: in Minuten: 15.120/Woche
 
 ### Flexibility and Balance
 
-_No observations recorded._
+#### lessons per week
 
 ### Muscle-strengthening Exercises
 
