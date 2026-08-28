@@ -13,6 +13,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
     - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
+    - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
@@ -51,6 +52,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
   - [Wohnumfeld](#wohnumfeld)
+    - [Residence and Housing type](#residence-and-housing-type)
   - [Familienstand](#familienstand)
     - [ledig, verheiratet, in Partnerschaft, getrennt, verwitwet](#ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
   - [Herkunft](#herkunft)
@@ -99,6 +101,8 @@ _Keine Beobachtungen erfasst._
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+#### Hülsenfrüchte (Portionen/Woche)
 
 #### Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)
 
@@ -361,7 +365,7 @@ _Keine Beobachtungen erfasst._
 
 ### Wohnumfeld
 
-_Keine Beobachtungen erfasst._
+#### Residence and Housing type
 
 ### Familienstand
 
@@ -393,6 +397,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

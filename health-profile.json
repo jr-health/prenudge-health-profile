@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:41:21.055870+00:00",
-  "commit": "bbcc7ebdcff49bde15892aa57d398efaff5b194c",
+  "generated": "2026-08-28T08:43:09.954228+00:00",
+  "commit": "673e3e39ef7b2d819cf5d78f74bf812b3caf028d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -231,6 +231,34 @@
                     "vis-status": "draft"
                   }
                 ],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "huelsenfruechte-portionen-pro-woche",
+                "title": "Hülsenfrüchte (Portionen/Woche)",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "huelsenfruechte-portionen-pro-woche",
+                "title": "Legume portions per week",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
                 "discussion": ""
               }
             },
@@ -1436,7 +1464,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "residence-and-housing-type",
+                "title": "Residence and Housing type",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "living-environment",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "residence-and-housing-type",
+                "title": "Residence and Housing type",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "living-environment",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

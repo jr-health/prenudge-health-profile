@@ -13,6 +13,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
     - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
+    - [Legume portions per week](#legume-portions-per-week)
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
@@ -51,6 +52,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Age](#age)
   - [Gender](#gender)
   - [Living environment](#living-environment)
+    - [Residence and Housing type](#residence-and-housing-type)
   - [Marital status](#marital-status)
     - [single, married, in a partnership, separated, widowed](#single-married-in-a-partnership-separated-widowed)
   - [Origin](#origin)
@@ -99,6 +101,8 @@ _No observations recorded._
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+#### Legume portions per week
 
 #### Dairy products, oils, fats, nuts, and seeds – portions per day
 
@@ -289,7 +293,7 @@ _No observations recorded._
 
 ### Living environment
 
-_No observations recorded._
+#### Residence and Housing type
 
 ### Marital status
 
@@ -321,6 +325,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
