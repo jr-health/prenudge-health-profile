@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:17:20.581848+00:00",
-  "commit": "6302e9404fe4b99a1349211c6cef9a5d7c2bb603",
+  "generated": "2026-08-28T12:23:20.837206+00:00",
+  "commit": "dcba8c5853d33a7a75318d808530bc7a3bb48aef",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1713,7 +1713,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "documentation-of-blood-pressure",
+                "title": "Eigenständige Dokumentation von Blutdruck (mmHg?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "documentation-of-blood-pressure",
+                "title": "Independent documentation of blood pressure (mmHg?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

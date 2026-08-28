@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Selbstüberwachung](#selbstüberwachung)
+    - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
@@ -412,7 +413,7 @@ _Keine Dimensionen erfasst._
 
 ### Selbstüberwachung
 
-_Keine Beobachtungen erfasst._
+#### Eigenständige Dokumentation von Blutdruck (mmHg?)
 
 ### Technologieeinsatz
 

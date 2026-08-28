@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Health literacy](#health-literacy)
     - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
   - [Self-monitoring](#self-monitoring)
+    - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
@@ -332,7 +333,7 @@ _No dimensions recorded._
 
 ### Self-monitoring
 
-_No observations recorded._
+#### Independent documentation of blood pressure (mmHg?)
 
 ### Technology use
 
