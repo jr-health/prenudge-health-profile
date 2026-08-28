@@ -28,6 +28,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
 - [Rauchen](#rauchen)
+  - [e-zigaretten-tabakerhitzer](#e-zigaretten-tabakerhitzer)
   - [Pfeife-Wasserpfeife](#pfeife-wasserpfeife)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten_Anzahl](#zigaretten_anzahl)
@@ -280,6 +281,10 @@ _Keine Beobachtungen erfasst._
 ## Rauchen
 
 <img src="media/cigarette-off.png" alt="Rauchen" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
+
+### e-zigaretten-tabakerhitzer
+
+_Keine Beobachtungen erfasst._
 
 ### Pfeife-Wasserpfeife
 

@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:19:49.529714+00:00",
-  "commit": "ddda0ec5db494cc14ebbe10b4a6121720885692d",
+  "generated": "2026-08-28T08:21:14.882757+00:00",
+  "commit": "572bdb7747438058e87e907f70f8dd66e11b4b83",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -774,6 +774,29 @@
         "icon_lucide": "cigarette-off"
       },
       "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "e-zigaretten-tabakerhitzer",
+            "category": "smoking",
+            "title": "e-zigaretten-tabakerhitzer",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "e-zigaretten-tabakerhitzer",
+            "category": "smoking",
+            "title": "Anzahl pro Woche",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
         {
           "de": {
             "template": "dimension",

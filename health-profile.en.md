@@ -28,6 +28,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
 - [Smoking](#smoking)
+  - [Anzahl pro Woche](#anzahl-pro-woche)
   - [pipe hookah](#pipe-hookah)
   - [Smoking Status](#smoking-status)
   - [cigarettes](#cigarettes)
@@ -208,6 +209,10 @@ _No observations recorded._
 ## Smoking
 
 <img src="media/cigarette-off.png" alt="Smoking" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
+
+### Anzahl pro Woche
+
+_No observations recorded._
 
 ### pipe hookah
 
