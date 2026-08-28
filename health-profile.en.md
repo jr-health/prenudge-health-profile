@@ -29,6 +29,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Sleep Quality](#sleep-quality)
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
+    - [Pack Years](#pack-years)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
@@ -202,7 +203,14 @@ _No observations recorded._
 
 ### Smoking Status
 
-_No observations recorded._
+#### Pack Years
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Acquisition Frequency:** 2x/Jahr
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ---
 

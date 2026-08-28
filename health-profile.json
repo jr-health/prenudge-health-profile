@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:48:44.799562+00:00",
-  "commit": "f2f623c1c953b97e1bb2386f53932995d32d7aa0",
+  "generated": "2026-08-28T07:53:24.632106+00:00",
+  "commit": "832911c7cb8488dc29ee5c44e38a5724295d0b0e",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -789,7 +789,68 @@
             "id_tech": "smoking-status",
             "key": "smoking-status"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "pack-years",
+                "title": "Pack years",
+                "description": "",
+                "category": "smoking",
+                "dimension": "smoking-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "pack-years",
+                "title": "Pack Years",
+                "description": "",
+                "category": "smoking",
+                "dimension": "smoking-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
