@@ -36,6 +36,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
     - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
   - [Coping ability](#coping-ability)
+    - [Self-reported resilience](#self-reported-resilience)
   - [Life events](#life-events)
     - [Self-reported significant life events](#self-reported-significant-life-events)
   - [Loneliness / Social support](#loneliness-social-support)
@@ -256,7 +257,7 @@ _No observations recorded._
 
 ### Coping ability
 
-_No observations recorded._
+#### Self-reported resilience
 
 ### Life events
 

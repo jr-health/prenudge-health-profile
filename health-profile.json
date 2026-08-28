@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:15:29.303699+00:00",
-  "commit": "58fea39b010937178bde9c1036dde0bc01a88dc9",
+  "generated": "2026-08-28T09:16:28.503147+00:00",
+  "commit": "08de1b3737c2ffa213195a4ddfff4e8a056be293",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1161,7 +1161,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "self-reported-resilience",
+                "title": "Selbstbericht über Resilienz",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "coping-ability",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "self-reported-resilience",
+                "title": "Self-reported resilience",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "coping-ability",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {
