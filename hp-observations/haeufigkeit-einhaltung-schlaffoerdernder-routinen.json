@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+    "title": "Häufigkeit der Einhaltung von schlaffördernden Routinen",
+    "description": "",
+    "category": "sleep",
+    "dimension": "schlafhygiene",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+    "title": "Frequency of adherence to sleep-promoting routines",
+    "description": "",
+    "category": "sleep",
+    "dimension": "schlafhygiene",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
