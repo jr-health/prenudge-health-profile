@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "potential-access-barriers",
+    "title": "Potenzielle Zugangshindernisse",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "access-to-care",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "potential-access-barriers",
+    "title": "Potential access barriers",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "access-to-care",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
