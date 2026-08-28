@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "chronotyp",
+    "category": "sleep",
+    "title": "Chronotyp",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "chronotyp",
+    "category": "sleep",
+    "title": "chronotype",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
