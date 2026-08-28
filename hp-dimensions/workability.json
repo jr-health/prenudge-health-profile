@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "workability",
+    "category": "work",
+    "title": "Arbeitsfähigkeit",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "workability",
+    "category": "work",
+    "title": "Workability",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
