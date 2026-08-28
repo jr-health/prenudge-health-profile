@@ -107,6 +107,7 @@ _Version: 0.1.5-test | Generiert: 2026-08-28_
     - [Beeinträchtigung der Erwerbstätigkeit](#beeinträchtigung-der-erwerbstätigkeit)
     - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -553,3 +554,11 @@ _Keine Beobachtungen erfasst._
 #### Arbeitsausfalltage
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.5-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-08-28 | Theresa.Weitlaner |

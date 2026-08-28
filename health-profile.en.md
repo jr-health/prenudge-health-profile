@@ -107,6 +107,7 @@ _Version: 0.1.5-test | Generated: 2026-08-28_
     - [Impairment of employment](#impairment-of-employment)
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
+- [Edit History](#edit-history)
 
 ---
 
@@ -473,3 +474,11 @@ _No observations recorded._
 #### Work absence days
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.5-test:_
+
+| Date | Author |
+|---|---|
+| 2026-08-28 | Theresa.Weitlaner |
