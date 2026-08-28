@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "fatigue-decline-in-performance",
+    "category": "psychosocial-factors",
+    "title": "Müdigkeit / Leistungsabfall",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "fatigue-decline-in-performance",
+    "category": "psychosocial-factors",
+    "title": "Fatigue / Decline in performance",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
