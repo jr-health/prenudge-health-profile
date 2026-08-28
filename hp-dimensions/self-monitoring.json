@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "self-monitoring",
+    "category": "self-management",
+    "title": "Selbstüberwachung",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "self-monitoring",
+    "category": "self-management",
+    "title": "Self-monitoring",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
