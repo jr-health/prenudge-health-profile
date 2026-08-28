@@ -1,0 +1,60 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "zeit-leichte-koerperliche-aktivitaet",
+    "title": "Zeit leicht körperlicher Aktivität pro Tag",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "everyday-activity",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "EHIS",
+        "specific-questions": "",
+        "unit": "min/day",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-1440 min",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "1xpro Monat",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "zeit-leichte-koerperliche-aktivitaet",
+    "title": "Time of light physical activity per day",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "everyday-activity",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "0-1440 min",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "1xpro Monat",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": ""
+  }
+}
