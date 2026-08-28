@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "change-in-body-weight",
-    "title": "Veränderung des Körpergewichts über definierte Zeiträume (Kg)",
+    "title": "Veränderung des Körpergewichts über definierte Zeiträume (kg)",
     "description": "",
     "category": "psychosocial-factors",
     "dimension": "weight-changes",
