@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:34:47.294129+00:00",
-  "commit": "d551ae08f0662765193e87b63b6a68343e15e20d",
+  "generated": "2026-08-28T08:36:53.564802+00:00",
+  "commit": "a2e963b56c9f0b9d75b4d7a8f88c537a30d947a0",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -789,7 +789,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+                "title": "Häufigkeit der Einhaltung von schlaffördernden Routinen",
+                "description": "",
+                "category": "sleep",
+                "dimension": "schlafhygiene",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "haeufigkeit-einhaltung-schlaffoerdernder-routinen",
+                "title": "Frequency of adherence to sleep-promoting routines",
+                "description": "",
+                "category": "sleep",
+                "dimension": "schlafhygiene",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

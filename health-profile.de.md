@@ -28,6 +28,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Chronotyp](#chronotyp)
     - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
   - [Schlafhygiene](#schlafhygiene)
+    - [Häufigkeit der Einhaltung von schlaffördernden Routinen](#häufigkeit-der-einhaltung-von-schlaffördernden-routinen)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
     - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
@@ -283,7 +284,7 @@ _Keine Dimensionen erfasst._
 
 ### Schlafhygiene
 
-_Keine Beobachtungen erfasst._
+#### Häufigkeit der Einhaltung von schlaffördernden Routinen
 
 ### Schlafdauer
 
