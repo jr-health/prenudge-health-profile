@@ -38,6 +38,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Lebensereignisse](#lebensereignisse)
     - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-über-bedeutende-lebensereignisse)
   - [Einsamkeit / Soziale Unterstützung](#einsamkeit-soziale-unterstützung)
+    - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -338,7 +339,9 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 ### Einsamkeit / Soziale Unterstützung
 
-_Keine Beobachtungen erfasst._
+#### Selbstbericht über sozialer Einbindung
+
+**Population:** Anzahl enger Bezugspersonen, subjektives Empfinden von Unterstützung
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:09:58.088741+00:00",
-  "commit": "0fdc01dfa7a1dd651f6cb4c9b44a106e9159c703",
+  "generated": "2026-08-28T09:13:20.303613+00:00",
+  "commit": "758be89fe4910cef9042bb9eb1866aa1486f992c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1213,7 +1213,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "self-reported-social-integration",
+                "title": "Selbstbericht über sozialer Einbindung",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "loneliness-social-support",
+                "population": "Anzahl enger Bezugspersonen, subjektives Empfinden von Unterstützung",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "self-reported-social-integration",
+                "title": "Self-reported social integration",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "loneliness-social-support",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

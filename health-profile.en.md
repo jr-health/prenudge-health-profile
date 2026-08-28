@@ -38,6 +38,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Life events](#life-events)
     - [Self-reported significant life events](#self-reported-significant-life-events)
   - [Loneliness / Social support](#loneliness-social-support)
+    - [Self-reported social integration](#self-reported-social-integration)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -258,7 +259,7 @@ _No observations recorded._
 
 ### Loneliness / Social support
 
-_No observations recorded._
+#### Self-reported social integration
 
 ---
 
