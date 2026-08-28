@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "entwoehnungsversuche",
+    "title": "Entwoehnungsversuche",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "entwoehnungsversuche",
+    "title": "attempts to give up",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
