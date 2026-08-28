@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "single-married-partnership-separated-widowed",
+    "title": "ledig, verheiratet, in Partnerschaft, getrennt, verwitwet",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "marital-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "single-married-partnership-separated-widowed",
+    "title": "single, married, in a partnership, separated, widowed",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "marital-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
