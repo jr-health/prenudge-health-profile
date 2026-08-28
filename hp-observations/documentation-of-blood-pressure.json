@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "documentation-of-blood-pressure",
+    "title": "Eigenständige Dokumentation von Blutdruck (mmHg?)",
+    "description": "",
+    "category": "self-management",
+    "dimension": "self-monitoring",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "documentation-of-blood-pressure",
+    "title": "Independent documentation of blood pressure (mmHg?)",
+    "description": "",
+    "category": "self-management",
+    "dimension": "self-monitoring",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
