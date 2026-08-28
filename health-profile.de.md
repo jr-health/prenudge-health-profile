@@ -54,6 +54,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
   - [Kommunikation/Verständnis](#kommunikationverständnis)
+    - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
@@ -397,6 +398,8 @@ _Keine Dimensionen erfasst._
 <img src="media/notebook-pen.png" alt="Selbstmanagement" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
 
 ### Kommunikation/Verständnis
+
+#### Verständnis von gesundheitsbezogener Information
 
 #### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
