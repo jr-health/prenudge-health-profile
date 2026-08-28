@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "e-zigaretten-tabakerhitzer",
+    "category": "smoking",
+    "title": "e-zigaretten-tabakerhitzer",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "e-zigaretten-tabakerhitzer",
+    "category": "smoking",
+    "title": "Anzahl pro Woche",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
