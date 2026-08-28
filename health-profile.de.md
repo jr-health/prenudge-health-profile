@@ -205,6 +205,15 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 #### Anzahl_der_Einheiten (pro Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** 0-7
+- **Erfassungsfrequenz:** 2x/year
+- **Empfohlene Monitoringfrequenz:** 1/month
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Muskelkräftigende Übungen
 
 _Keine Beobachtungen erfasst._

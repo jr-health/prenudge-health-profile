@@ -134,6 +134,15 @@ max: in Minuten: 15.120/Woche
 
 #### lessons per week
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 0-7
+- **Acquisition Frequency:** 2x/year
+- **Recommended Monitoring Frequency:** 1/month
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Muscle-strengthening Exercises
 
 _No observations recorded._
