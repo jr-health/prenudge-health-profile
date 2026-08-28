@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
   - [Sitting](#sitting)
 - [Psychosocial Factors](#psychosocial-factors)
+  - [Access to care](#access-to-care)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -209,7 +210,9 @@ _No observations recorded._
 
 <img src="media/brain-circuit-white.png" alt="Psychosocial Factors" width="48" style="background-color: #6e4e69; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Access to care
+
+_No observations recorded._
 
 ---
 
@@ -328,6 +331,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

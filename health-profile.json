@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:44:08.942481+00:00",
-  "commit": "055ec5e29ab1c2e97715e5c0ddc0861bd476ef88",
+  "generated": "2026-08-28T08:46:36.180274+00:00",
+  "commit": "a627f9c8d9ebb2ea3c6601bed3ba4d5ca319269d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -814,7 +814,31 @@
         "icon_upload": "/media/brain-circuit-white.png",
         "icon_lucide": "brain-circuit-white"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "access-to-care",
+            "category": "psychosocial-factors",
+            "title": "Zugang zu Versorgung",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "access-to-care",
+            "category": "psychosocial-factors",
+            "title": "Access to care",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {

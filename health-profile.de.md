@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
+  - [Zugang zu Versorgung](#zugang-zu-versorgung)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -281,7 +282,9 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/brain-circuit-white.png" alt="Psychosoziale Faktoren" width="48" style="background-color: #6e4e69; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Zugang zu Versorgung
+
+_Keine Beobachtungen erfasst._
 
 ---
 
@@ -400,6 +403,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
