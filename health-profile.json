@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:02:22.096868+00:00",
-  "commit": "efea8a11f88e370442b673c4143ce53f8b5dbd53",
+  "generated": "2026-08-28T12:06:11.993088+00:00",
+  "commit": "9820a2fb8b51da6053672bccb13298a7ec13545e",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -2670,7 +2670,7 @@
     {
       "de": {
         "template": "category",
-        "key": "workability",
+        "key": "work",
         "title": "Arbeit",
         "icon_upload": "/media/briefcase-business.png",
         "color": "#C5DDC8",
@@ -2683,7 +2683,7 @@
       },
       "en": {
         "template": "category",
-        "key": "workability",
+        "key": "work",
         "title": "Workability",
         "icon_upload": "/media/briefcase-business.png",
         "color": "#C5DDC8",
