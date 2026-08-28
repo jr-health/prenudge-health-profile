@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "reporting-symptoms-or-changes",
+    "title": "Meldung von Symptomen oder Veränderungen an Fachkräfte",
+    "description": "",
+    "category": "self-management",
+    "dimension": "communication-understanding",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "reporting-symptoms-or-changes",
+    "title": "Reporting symptoms or changes to healthcare professionals",
+    "description": "",
+    "category": "self-management",
+    "dimension": "communication-understanding",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
