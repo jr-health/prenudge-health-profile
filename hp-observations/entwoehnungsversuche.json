@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "entwoehnungsversuche",
-    "title": "Entwoehnungsversuche",
+    "title": "Entwöhnungsversuche (Anzahl/Jahr)",
     "description": "",
     "category": "smoking",
     "dimension": "zigaretten",
