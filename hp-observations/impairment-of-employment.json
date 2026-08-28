@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "impairment-of-employment",
+    "title": "Beeinträchtigung der Erwerbstätigkeit",
+    "description": "",
+    "category": "work",
+    "dimension": "workability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "impairment-of-employment",
+    "title": "Impairment of employment",
+    "description": "",
+    "category": "work",
+    "dimension": "workability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
