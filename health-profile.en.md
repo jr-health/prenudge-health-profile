@@ -49,6 +49,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
+  - [Living environment](#living-environment)
   - [Marital status](#marital-status)
     - [single, married, in a partnership, separated, widowed](#single-married-in-a-partnership-separated-widowed)
   - [Origin](#origin)
@@ -283,6 +284,10 @@ _No observations recorded._
 
 _No observations recorded._
 
+### Living environment
+
+_No observations recorded._
+
 ### Marital status
 
 #### single, married, in a partnership, separated, widowed
@@ -313,6 +318,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

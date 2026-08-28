@@ -49,6 +49,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
+  - [Wohnumfeld](#wohnumfeld)
   - [Familienstand](#familienstand)
     - [ledig, verheiratet, in Partnerschaft, getrennt, verwitwet](#ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
   - [Herkunft](#herkunft)
@@ -355,6 +356,10 @@ _Keine Beobachtungen erfasst._
 
 _Keine Beobachtungen erfasst._
 
+### Wohnumfeld
+
+_Keine Beobachtungen erfasst._
+
 ### Familienstand
 
 #### ledig, verheiratet, in Partnerschaft, getrennt, verwitwet
@@ -385,6 +390,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
