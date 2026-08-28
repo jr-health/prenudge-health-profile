@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "nikotinabhaengigkeit",
+    "title": "nikotinabhängigkeit",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "nikotinabhaengigkeit",
+    "title": "nicotine addiction",
+    "description": "",
+    "category": "smoking",
+    "dimension": "zigaretten",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
