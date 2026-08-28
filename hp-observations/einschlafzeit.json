@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "einschlafzeit",
-    "title": "Dauer der Einschlafzeit",
+    "title": "Dauer der Einschlafzeit (durchschnittliche Minuten)",
     "description": "",
     "category": "sleep",
     "dimension": "sleep-quality",
