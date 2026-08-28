@@ -67,7 +67,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Age](#age)
   - [Gender](#gender)
   - [Living environment](#living-environment)
-    - [Residence and Housing type](#residence-and-housing-type)
+    - [Residence (urban/rural)](#residence-urbanrural)
   - [Marital status](#marital-status)
     - [single, married, in a partnership, separated, widowed](#single-married-in-a-partnership-separated-widowed)
   - [Origin](#origin)
@@ -352,7 +352,7 @@ _No observations recorded._
 
 ### Living environment
 
-#### Residence and Housing type
+#### Residence (urban/rural)
 
 ### Marital status
 

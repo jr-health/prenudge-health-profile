@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:16:28.503147+00:00",
-  "commit": "08de1b3737c2ffa213195a4ddfff4e8a056be293",
+  "generated": "2026-08-28T10:18:36.430289+00:00",
+  "commit": "c57e7f33150159e61b3c77c1488c7e98d7680afe",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1978,8 +1978,8 @@
             {
               "de": {
                 "template": "observation",
-                "key": "residence-and-housing-type",
-                "title": "Residence and Housing type",
+                "key": "residence",
+                "title": "Wohnortgröße (Stadt/Land)",
                 "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",
@@ -1991,8 +1991,8 @@
               },
               "en": {
                 "template": "observation",
-                "key": "residence-and-housing-type",
-                "title": "Residence and Housing type",
+                "key": "residence",
+                "title": "Residence (urban/rural)",
                 "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",

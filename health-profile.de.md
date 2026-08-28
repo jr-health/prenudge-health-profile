@@ -67,7 +67,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
   - [Wohnumfeld](#wohnumfeld)
-    - [Residence and Housing type](#residence-and-housing-type)
+    - [Wohnortgröße (Stadt/Land)](#wohnortgröße-stadtland)
   - [Familienstand](#familienstand)
     - [ledig, verheiratet, in Partnerschaft, getrennt, verwitwet](#ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
   - [Herkunft](#herkunft)
@@ -434,7 +434,7 @@ _Keine Beobachtungen erfasst._
 
 ### Wohnumfeld
 
-#### Residence and Housing type
+#### Wohnortgröße (Stadt/Land)
 
 ### Familienstand
 
