@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T09:06:03.959932+00:00",
-  "commit": "cc53d8c5aef8258c733abd4b02f716c6ab8bb3de",
+  "generated": "2026-08-28T09:09:58.088741+00:00",
+  "commit": "0fdc01dfa7a1dd651f6cb4c9b44a106e9159c703",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1191,6 +1191,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "loneliness-social-support",
+            "category": "psychosocial-factors",
+            "title": "Einsamkeit / Soziale Unterstützung",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "loneliness-social-support",
+            "category": "psychosocial-factors",
+            "title": "Loneliness / Social support",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },
