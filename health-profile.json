@@ -1,10 +1,14 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:16:32.935714+00:00",
-  "commit": "9e3e0bbfa8a07e6fda9c1d722f90e65bd2836cd4",
+  "generated": "2026-08-28T07:47:41.485132+00:00",
+  "commit": "655aed8a3729c1972f8b95fd4f17a4c6027fd262",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
+      {
+        "date": "2026-08-28",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-08-28",
         "author": "shaide79"
@@ -818,7 +822,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "native-language",
+                "title": "Muttersprache",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "native-language",
+                "title": "Native language",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
