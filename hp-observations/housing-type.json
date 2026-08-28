@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "housing-type",
+    "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "living-environment",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "housing-type",
+    "title": "Housing type (owned home, rented apartment, other)",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "living-environment",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
