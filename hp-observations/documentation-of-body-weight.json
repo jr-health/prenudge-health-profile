@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "documentation-of-body-weight",
+    "title": "Eigenständige Dokumentation von Körpergewicht (kg)",
+    "description": "",
+    "category": "self-management",
+    "dimension": "self-monitoring",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "documentation-of-body-weight",
+    "title": "Independent documentation of body weight (kg)",
+    "description": "",
+    "category": "self-management",
+    "dimension": "self-monitoring",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
