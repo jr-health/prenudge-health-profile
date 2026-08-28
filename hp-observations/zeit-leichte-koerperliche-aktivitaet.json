@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "zeit-leichte-koerperliche-aktivitaet",
-    "title": "Zeit leicht körperlicher Aktivität pro Tag",
+    "title": "leicht körperlicher Aktivität (Minuten pro Tag)",
     "description": "",
     "category": "physical-activity",
     "dimension": "everyday-activity",
@@ -46,13 +46,21 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "0-1440 min",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "1xpro Monat",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
