@@ -26,6 +26,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
+    - [self_reports_chronotype](#self_reports_chronotype)
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
     - [time taken to fall asleep](#time-taken-to-fall-asleep)
@@ -205,7 +206,7 @@ _No dimensions recorded._
 
 ### chronotype
 
-_No observations recorded._
+#### self_reports_chronotype
 
 ### Sleep duration
 
@@ -296,6 +297,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
