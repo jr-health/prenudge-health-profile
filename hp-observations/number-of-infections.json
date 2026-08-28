@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "number-of-infections",
+    "title": "Anzahl an Infektionen innerhalb eines bestimmten Zeitraums",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "susceptibility-to-infection",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "number-of-infections",
+    "title": "Number of infections within a defined period",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "susceptibility-to-infection",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
