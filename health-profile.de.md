@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Rauchen](#rauchen)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten_Anzahl](#zigaretten_anzahl)
+    - [nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
@@ -279,6 +280,8 @@ _Keine Beobachtungen erfasst._
 _Keine Beobachtungen erfasst._
 
 ### Zigaretten_Anzahl
+
+#### nikotinabhängigkeit
 
 #### Pack years
 

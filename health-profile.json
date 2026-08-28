@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:55:26.966127+00:00",
-  "commit": "9e93497a09b85170db2bf7b0d03018f0e45125b6",
+  "generated": "2026-08-28T08:12:30.985500+00:00",
+  "commit": "e7a63a0d41edd90505762377447c67019ab965f0",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -813,6 +813,34 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "nikotinabhaengigkeit",
+                "title": "nikotinabhängigkeit",
+                "description": "",
+                "category": "smoking",
+                "dimension": "zigaretten",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "nikotinabhaengigkeit",
+                "title": "nicotine addiction",
+                "description": "",
+                "category": "smoking",
+                "dimension": "zigaretten",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
             {
               "de": {
                 "template": "observation",

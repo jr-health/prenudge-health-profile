@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
   - [cigarettes](#cigarettes)
+    - [nicotine addiction](#nicotine-addiction)
     - [Pack Years](#pack-years)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
@@ -207,6 +208,8 @@ _No observations recorded._
 _No observations recorded._
 
 ### cigarettes
+
+#### nicotine addiction
 
 #### Pack Years
 
