@@ -53,9 +53,9 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Pfeife/Wasserpfeife (Anzahl/Woche)](#pfeifewasserpfeife-anzahlwoche)
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten](#zigaretten)
-    - [Entwoehnungsmotivation](#entwoehnungsmotivation)
+    - [Entwöhnungsmotivation](#entwöhnungsmotivation)
     - [Entwoehnungsversuche](#entwoehnungsversuche)
-    - [nikotinabhängigkeit](#nikotinabhängigkeit)
+    - [Nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
   - [Zigarren/Zigarillos](#zigarrenzigarillos)
     - [Zigarren/Zigarillos pro Woche](#zigarrenzigarillos-pro-woche)
@@ -385,11 +385,11 @@ _Keine Beobachtungen erfasst._
 
 ### Zigaretten
 
-#### Entwoehnungsmotivation
+#### Entwöhnungsmotivation
 
 #### Entwoehnungsversuche
 
-#### nikotinabhängigkeit
+#### Nikotinabhängigkeit
 
 #### Pack years
 

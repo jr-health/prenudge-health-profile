@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:58:24.934087+00:00",
-  "commit": "3a3bbd52571293e75834b11dc888ea6dfa1a959c",
+  "generated": "2026-08-28T08:58:56.398910+00:00",
+  "commit": "61a54c733af5680575a19f0cb1ba3f3d7bf3f7f7",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1577,7 +1577,7 @@
               "de": {
                 "template": "observation",
                 "key": "entwoehnungsmotivation",
-                "title": "Entwoehnungsmotivation",
+                "title": "Entwöhnungsmotivation",
                 "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
@@ -1633,7 +1633,7 @@
               "de": {
                 "template": "observation",
                 "key": "nikotinabhaengigkeit",
-                "title": "nikotinabhängigkeit",
+                "title": "Nikotinabhängigkeit",
                 "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
