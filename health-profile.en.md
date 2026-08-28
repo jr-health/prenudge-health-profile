@@ -58,6 +58,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
   - [Self-monitoring](#self-monitoring)
     - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
+    - [Independent documentation of body weight (kg)](#independent-documentation-of-body-weight-kg)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
@@ -334,6 +335,8 @@ _No dimensions recorded._
 ### Self-monitoring
 
 #### Independent documentation of blood pressure (mmHg?)
+
+#### Independent documentation of body weight (kg)
 
 ### Technology use
 

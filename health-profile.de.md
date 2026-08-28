@@ -58,6 +58,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Selbstüberwachung](#selbstüberwachung)
     - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
+    - [Eigenständige Dokumentation von Körpergewicht (kg)](#eigenständige-dokumentation-von-körpergewicht-kg)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
@@ -414,6 +415,8 @@ _Keine Dimensionen erfasst._
 ### Selbstüberwachung
 
 #### Eigenständige Dokumentation von Blutdruck (mmHg?)
+
+#### Eigenständige Dokumentation von Körpergewicht (kg)
 
 ### Technologieeinsatz
 

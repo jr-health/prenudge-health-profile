@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:23:20.837206+00:00",
-  "commit": "dcba8c5853d33a7a75318d808530bc7a3bb48aef",
+  "generated": "2026-08-28T12:24:19.269013+00:00",
+  "commit": "fb67cae7e5c786300e0896a68a6e6f1fed42d8c7",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1732,6 +1732,34 @@
                 "template": "observation",
                 "key": "documentation-of-blood-pressure",
                 "title": "Independent documentation of blood pressure (mmHg?)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "documentation-of-body-weight",
+                "title": "Eigenständige Dokumentation von Körpergewicht (kg)",
+                "description": "",
+                "category": "self-management",
+                "dimension": "self-monitoring",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "documentation-of-body-weight",
+                "title": "Independent documentation of body weight (kg)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
