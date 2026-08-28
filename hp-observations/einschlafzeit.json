@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "einschlafzeit",
+    "title": "Dauer der Einschlafzeit",
+    "description": "",
+    "category": "sleep",
+    "dimension": "sleep-quality",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "einschlafzeit",
+    "title": "time taken to fall asleep",
+    "description": "",
+    "category": "sleep",
+    "dimension": "sleep-quality",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
