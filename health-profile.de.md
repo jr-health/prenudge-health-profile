@@ -54,7 +54,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Raucherstatus](#raucherstatus)
   - [Zigaretten](#zigaretten)
     - [Entwöhnungsmotivation](#entwöhnungsmotivation)
-    - [Entwoehnungsversuche](#entwoehnungsversuche)
+    - [Entwöhnungsversuche (Anzahl/Jahr)](#entwöhnungsversuche-anzahljahr)
     - [Nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
   - [Zigarren/Zigarillos](#zigarrenzigarillos)
@@ -387,7 +387,7 @@ _Keine Beobachtungen erfasst._
 
 #### Entwöhnungsmotivation
 
-#### Entwoehnungsversuche
+#### Entwöhnungsversuche (Anzahl/Jahr)
 
 #### Nikotinabhängigkeit
 
