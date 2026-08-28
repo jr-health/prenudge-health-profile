@@ -1,0 +1,60 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "pack-years",
+    "title": "Pack years",
+    "description": "",
+    "category": "smoking",
+    "dimension": "smoking-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "pack-years",
+    "title": "Pack Years",
+    "description": "",
+    "category": "smoking",
+    "dimension": "smoking-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": ""
+  }
+}
