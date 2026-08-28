@@ -46,7 +46,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
     - [Subjektives Empfinden von Unterstützung](#subjektives-empfinden-von-unterstützung)
   - [Gewichtsveränderungen](#gewichtsveränderungen)
-    - [Veränderung des Körpergewichts über definierte Zeiträume (Kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
+    - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -364,7 +364,7 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 ### Gewichtsveränderungen
 
-#### Veränderung des Körpergewichts über definierte Zeiträume (Kg)
+#### Veränderung des Körpergewichts über definierte Zeiträume (kg)
 
 ---
 

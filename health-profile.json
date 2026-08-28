@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:09:13.376733+00:00",
-  "commit": "c988922e5a068c61ae7390c2a10f374d00636234",
+  "generated": "2026-08-28T11:09:43.557033+00:00",
+  "commit": "a9c55e6abc49016ce80b0bd34a0c62155c342a5e",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1430,7 +1430,7 @@
               "de": {
                 "template": "observation",
                 "key": "change-in-body-weight",
-                "title": "Veränderung des Körpergewichts über definierte Zeiträume (Kg)",
+                "title": "Veränderung des Körpergewichts über definierte Zeiträume (kg)",
                 "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "weight-changes",
