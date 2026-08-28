@@ -45,6 +45,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Anzahl enger Bezugspersonen](#anzahl-enger-bezugspersonen)
     - [Selbstbericht über sozialer Einbindung](#selbstbericht-über-sozialer-einbindung)
     - [Subjektives Empfinden von Unterstützung](#subjektives-empfinden-von-unterstützung)
+  - [Gewichtsveränderungen](#gewichtsveränderungen)
 - [Lebensqualität](#lebensqualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -359,6 +360,10 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Selbstbericht über sozialer Einbindung
 
 #### Subjektives Empfinden von Unterstützung
+
+### Gewichtsveränderungen
+
+_Keine Beobachtungen erfasst._
 
 ---
 

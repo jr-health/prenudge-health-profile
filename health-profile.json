@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:04:03.477151+00:00",
-  "commit": "d27d42307de7c3511549b095b04803e15409a46c",
+  "generated": "2026-08-28T11:06:49.955593+00:00",
+  "commit": "868872b41e8fe085b73dd9ea8d5ddea551304c48",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1403,6 +1403,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "weight-changes",
+            "category": "psychosocial-factors",
+            "title": "Gewichtsveränderungen",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "weight-changes",
+            "category": "psychosocial-factors",
+            "title": "Weight changes",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },

@@ -45,6 +45,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Number of close relationships](#number-of-close-relationships)
     - [Self-reported social integration](#self-reported-social-integration)
     - [Subjective sense of support](#subjective-sense-of-support)
+  - [Weight changes](#weight-changes)
 - [Quality of Life](#quality-of-life)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -279,6 +280,10 @@ _No observations recorded._
 #### Self-reported social integration
 
 #### Subjective sense of support
+
+### Weight changes
+
+_No observations recorded._
 
 ---
 
