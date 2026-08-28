@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "number-of-close-relationships",
+    "title": "Anzahl enger Bezugspersonen",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "number-of-close-relationships",
+    "title": "Number of close relationships",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
