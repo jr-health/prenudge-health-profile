@@ -30,6 +30,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Smoking](#smoking)
   - [Smoking Status](#smoking-status)
     - [Pack Years](#pack-years)
+  - [cigarettes](#cigarettes)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
@@ -211,6 +212,10 @@ _No observations recorded._
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### cigarettes
+
+_No observations recorded._
 
 ---
 

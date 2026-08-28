@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T07:53:24.632106+00:00",
-  "commit": "832911c7cb8488dc29ee5c44e38a5724295d0b0e",
+  "generated": "2026-08-28T07:55:09.725701+00:00",
+  "commit": "3f968d9792b1ee9c172839f7b454d0eeb659a2e5",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -851,6 +851,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "zigaretten",
+            "category": "smoking",
+            "title": "Zigaretten_Anzahl",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "zigaretten",
+            "category": "smoking",
+            "title": "cigarettes",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },
