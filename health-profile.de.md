@@ -56,6 +56,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Kommunikation/Verständnis](#kommunikationverständnis)
     - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
+  - [Medikamentenmanagement](#medikamentenmanagement)
   - [Selbstüberwachung](#selbstüberwachung)
     - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
@@ -413,6 +414,10 @@ _Keine Dimensionen erfasst._
 #### Verständnis von gesundheitsbezogener Information
 
 #### Meldung von Symptomen oder Veränderungen an Fachkräfte
+
+### Medikamentenmanagement
+
+_Keine Beobachtungen erfasst._
 
 ### Selbstüberwachung
 

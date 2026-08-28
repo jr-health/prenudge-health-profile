@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:26:24.849796+00:00",
-  "commit": "98ea939a8e1d9a2ee6124b1fc45a5431be241f8f",
+  "generated": "2026-08-28T12:27:05.360343+00:00",
+  "commit": "56d78be8d6811d9185c93af18956383e6352e6e5",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1691,6 +1691,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "medication-management",
+            "category": "self-management",
+            "title": "Medikamentenmanagement",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "medication-management",
+            "category": "self-management",
+            "title": "Medication management",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {
