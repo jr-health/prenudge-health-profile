@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:28:44.373433+00:00",
-  "commit": "95a6c150e93e1b4657c7d02783bc265bcec3d70c",
+  "generated": "2026-08-28T08:31:20.795154+00:00",
+  "commit": "3e570b885925eb299effa3a2e38759456622f69b",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -748,7 +748,36 @@
             "category": "sleep",
             "key": "sleep-quality"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "einschlafzeit",
+                "title": "Dauer der Einschlafzeit",
+                "description": "",
+                "category": "sleep",
+                "dimension": "sleep-quality",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "einschlafzeit",
+                "title": "time taken to fall asleep",
+                "description": "",
+                "category": "sleep",
+                "dimension": "sleep-quality",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

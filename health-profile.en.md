@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Sleep](#sleep)
   - [Sleep duration](#sleep-duration)
   - [Sleep Quality](#sleep-quality)
+    - [time taken to fall asleep](#time-taken-to-fall-asleep)
 - [Smoking](#smoking)
   - [Anzahl pro Woche](#anzahl-pro-woche)
     - [e-cigarettes tabacco heaters-number-per-week](#e-cigarettes-tabacco-heaters-number-per-week)
@@ -206,7 +207,7 @@ _No observations recorded._
 
 ### Sleep Quality
 
-_No observations recorded._
+#### time taken to fall asleep
 
 ---
 

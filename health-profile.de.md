@@ -27,6 +27,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Schlaf](#schlaf)
   - [Schlafdauer](#schlafdauer)
   - [Schlafqualität](#schlafqualität)
+    - [Dauer der Einschlafzeit](#dauer-der-einschlafzeit)
 - [Rauchen](#rauchen)
   - [e-zigaretten-tabakerhitzer](#e-zigaretten-tabakerhitzer)
     - [E-Zigaretten/Tabakerhitzer Anzahl pro woche](#e-zigarettentabakerhitzer-anzahl-pro-woche)
@@ -278,7 +279,7 @@ _Keine Beobachtungen erfasst._
 
 ### Schlafqualität
 
-_Keine Beobachtungen erfasst._
+#### Dauer der Einschlafzeit
 
 ---
 
