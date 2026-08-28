@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "residence-and-housing-type",
+    "title": "Residence and Housing type",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "living-environment",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "residence-and-housing-type",
+    "title": "Residence and Housing type",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "living-environment",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
