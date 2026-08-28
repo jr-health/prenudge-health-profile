@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
     - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veränderungen-an-fachkräfte)
   - [Medikamentenmanagement](#medikamentenmanagement)
+    - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenständige-kontrolle-von-medikamenten--und-impfstatus)
   - [Selbstüberwachung](#selbstüberwachung)
     - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
@@ -417,7 +418,7 @@ _Keine Dimensionen erfasst._
 
 ### Medikamentenmanagement
 
-_Keine Beobachtungen erfasst._
+#### Eigenständige Kontrolle von Medikamenten- und Impfstatus
 
 ### Selbstüberwachung
 

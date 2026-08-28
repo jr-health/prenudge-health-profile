@@ -57,6 +57,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Health literacy](#health-literacy)
     - [Reporting symptoms or changes to healthcare professionals](#reporting-symptoms-or-changes-to-healthcare-professionals)
   - [Medication management](#medication-management)
+    - [Independent monitoring of medication and vaccination status](#independent-monitoring-of-medication-and-vaccination-status)
   - [Self-monitoring](#self-monitoring)
     - [Independent documentation of blood glucose level (mmol/l?)](#independent-documentation-of-blood-glucose-level-mmoll)
     - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
@@ -337,7 +338,7 @@ _No dimensions recorded._
 
 ### Medication management
 
-_No observations recorded._
+#### Independent monitoring of medication and vaccination status
 
 ### Self-monitoring
 

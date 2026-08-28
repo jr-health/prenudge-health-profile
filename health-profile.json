@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T12:27:05.360343+00:00",
-  "commit": "56d78be8d6811d9185c93af18956383e6352e6e5",
+  "generated": "2026-08-28T12:28:08.650383+00:00",
+  "commit": "1f6fabef1eaa2c7f94e7624a06c3ab75a747634d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1713,7 +1713,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "monitoring-of-medication-and-vaccination-status",
+                "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
+                "description": "",
+                "category": "self-management",
+                "dimension": "medication-management",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "monitoring-of-medication-and-vaccination-status",
+                "title": "Independent monitoring of medication and vaccination status",
+                "description": "",
+                "category": "self-management",
+                "dimension": "medication-management",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {
