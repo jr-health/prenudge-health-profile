@@ -2,7 +2,7 @@
   "de": {
     "template": "observation",
     "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
-    "title": "E-Zigaretten/Tabakerhitzer Anzahl pro woche",
+    "title": "E-Zigaretten/Tabakerhitzer (Anzahl/Woche)",
     "description": "",
     "category": "smoking",
     "dimension": "e-zigaretten-tabakerhitzer",
