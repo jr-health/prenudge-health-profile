@@ -309,6 +309,8 @@ _No dimensions recorded._
 
 ## Self-management
 
+<img src="media/notebook-pen.png" alt="Self-management" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
+
 _No dimensions recorded._
 
 ---

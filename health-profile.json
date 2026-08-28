@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:44:38.822480+00:00",
-  "commit": "24938a1fb2f8d78f47a3d74d9c25c6930caa34b5",
+  "generated": "2026-08-28T11:47:30.281937+00:00",
+  "commit": "068bef28a1f0499c3808aa37e45763efcfc83ba4",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1595,7 +1595,7 @@
         "template": "category",
         "key": "self-management",
         "title": "Selbstmanagement",
-        "icon_upload": "",
+        "icon_upload": "/media/notebook-pen.png",
         "color": "#c7d2d3",
         "description-professional": "",
         "description-laymen": "",
@@ -1605,7 +1605,7 @@
         "template": "category",
         "key": "self-management",
         "title": "Self-management",
-        "icon_upload": "",
+        "icon_upload": "/media/notebook-pen.png",
         "color": "#c7d2d3",
         "description-professional": "",
         "description-laymen": "",
