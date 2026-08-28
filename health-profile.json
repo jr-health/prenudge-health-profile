@@ -1,10 +1,14 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-27T11:25:04.984000+00:00",
-  "commit": "522576abd8b45c809bcc79766bc18348d0c2e50d",
+  "generated": "2026-08-28T07:05:57.451110+00:00",
+  "commit": "a27c8db9cb0601702e871061a3ab1e291cd7c502",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
+      {
+        "date": "2026-08-28",
+        "author": "shaide79"
+      },
       {
         "date": "2026-08-27",
         "author": "Theresa.Weitlaner"
@@ -459,6 +463,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "flexibility-and-balance",
+            "category": "physical-activity",
+            "title": "Flexibilitäts- und Gleichgewichtstraining",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "flexibility-and-balance",
+            "category": "physical-activity",
+            "title": "Flexibility and Balance",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

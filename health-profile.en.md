@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.4-test | Generated: 2026-08-27_
+_Version: 0.1.4-test | Generated: 2026-08-28_
 
 ---
 
@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generated: 2026-08-27_
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
   - [Everyday Activity](#everyday-activity)
     - [Steps (per day)](#steps-per-day)
+  - [Flexibility and Balance](#flexibility-and-balance)
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
   - [Sitting](#sitting)
 - [Psychosocial Factors](#psychosocial-factors)
@@ -128,6 +129,10 @@ max: in Minuten: 15.120/Woche
 
 #### Steps (per day)
 
+### Flexibility and Balance
+
+_No observations recorded._
+
 ### Muscle-strengthening Exercises
 
 _No observations recorded._
@@ -210,4 +215,5 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

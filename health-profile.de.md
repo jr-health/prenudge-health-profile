@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.4-test | Generiert: 2026-08-27_
+_Version: 0.1.4-test | Generiert: 2026-08-28_
 
 ---
 
@@ -17,6 +17,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-27_
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
   - [Alltagsaktivität](#alltagsaktivität)
     - [Schrittzahl (pro Tag)](#schrittzahl-pro-tag)
+  - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
@@ -199,6 +200,10 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 #### Schrittzahl (pro Tag)
 
+### Flexibilitäts- und Gleichgewichtstraining
+
+_Keine Beobachtungen erfasst._
+
 ### Muskelkräftigende Übungen
 
 _Keine Beobachtungen erfasst._
@@ -281,4 +286,5 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
