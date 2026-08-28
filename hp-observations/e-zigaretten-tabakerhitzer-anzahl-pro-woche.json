@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+    "title": "E-Zigaretten/Tabakerhitzer Anzahl pro woche",
+    "description": "",
+    "category": "smoking",
+    "dimension": "e-zigaretten-tabakerhitzer",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "e-zigaretten-tabakerhitzer-anzahl-pro-woche",
+    "title": "e-cigarettes tabacco heaters-number-per-week",
+    "description": "",
+    "category": "smoking",
+    "dimension": "e-zigaretten-tabakerhitzer",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
