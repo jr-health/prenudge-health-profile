@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:21:14.882757+00:00",
-  "commit": "572bdb7747438058e87e907f70f8dd66e11b4b83",
+  "generated": "2026-08-28T08:22:26.142032+00:00",
+  "commit": "1064876d5cfbc432b9c9c675e0c76978fabbfcdd",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1156,7 +1156,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "ethnicity",
+                "title": "Ethnische Zugehörigkeit",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "origin",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "ethnicity",
+                "title": "Ethnicity",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "origin",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

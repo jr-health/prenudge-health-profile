@@ -42,6 +42,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Age](#age)
   - [Gender](#gender)
   - [Origin](#origin)
+    - [Ethnicity](#ethnicity)
   - [Socio-economic Status](#socio-economic-status)
     - [Native language](#native-language)
 - [Workability](#workability)
@@ -259,7 +260,7 @@ _No observations recorded._
 
 ### Origin
 
-_No observations recorded._
+#### Ethnicity
 
 ### Socio-economic Status
 
@@ -281,6 +282,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

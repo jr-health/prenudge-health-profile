@@ -42,6 +42,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
   - [Herkunft](#herkunft)
+    - [Ethnische Zugehörigkeit](#ethnische-zugehörigkeit)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
     - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
@@ -331,7 +332,7 @@ _Keine Beobachtungen erfasst._
 
 ### Herkunft
 
-_Keine Beobachtungen erfasst._
+#### Ethnische Zugehörigkeit
 
 ### Sozio-ökonomischer Status
 
@@ -353,6 +354,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
