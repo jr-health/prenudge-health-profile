@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:15:22.300950+00:00",
-  "commit": "d964f8c7663be2effb57369029ba87647ec2eabc",
+  "generated": "2026-08-28T08:16:42.765220+00:00",
+  "commit": "cb36a9e321fdcbc2a5d262bc59a0c13eb56c0d19",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -966,6 +966,29 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "zigarren-zigarillos",
+            "category": "smoking",
+            "title": "Zigarren/Zigarillos",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "zigarren-zigarillos",
+            "category": "smoking",
+            "title": "cigars and cigarillos",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         }
       ]
     },

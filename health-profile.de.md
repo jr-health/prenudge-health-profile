@@ -34,6 +34,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Entwoehnungsversuche](#entwoehnungsversuche)
     - [nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
+  - [Zigarren/Zigarillos](#zigarrenzigarillos)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
@@ -297,6 +298,10 @@ _Keine Beobachtungen erfasst._
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+### Zigarren/Zigarillos
+
+_Keine Beobachtungen erfasst._
 
 ---
 

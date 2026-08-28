@@ -34,6 +34,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [attempts to give up](#attempts-to-give-up)
     - [nicotine addiction](#nicotine-addiction)
     - [Pack Years](#pack-years)
+  - [cigars and cigarillos](#cigars-and-cigarillos)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
@@ -225,6 +226,10 @@ _No observations recorded._
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### cigars and cigarillos
+
+_No observations recorded._
 
 ---
 
