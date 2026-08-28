@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Größe, Gewicht](#größe-gewicht)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
+    - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
     - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
     - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
@@ -95,6 +96,14 @@ _Keine Beobachtungen erfasst._
 
 **Verifizierte Gesundheitsinformation:**
 - []()
+
+#### Alkoholfreie, ungesüßte Getränke (Gläser/Tag)
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
 
 #### Fisch/Fleisch (Portionen/Woche)
 
@@ -403,6 +412,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

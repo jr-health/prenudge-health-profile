@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Height, weight](#height-weight)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
+    - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
     - [fish-meat portions week](#fish-meat-portions-week)
     - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
     - [Legume portions per week](#legume-portions-per-week)
@@ -95,6 +96,14 @@ _No observations recorded._
 
 **Verified Health Information:**
 - []()
+
+#### Non-alcoholic, unsweetened drinks (glasses/day)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 #### fish-meat portions week
 
@@ -331,6 +340,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
