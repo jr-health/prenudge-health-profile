@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:26:02.602276+00:00",
-  "commit": "fd96fedbbc9b2ba051f625d6e66b61b1963ba618",
+  "generated": "2026-08-28T08:28:06.382975+00:00",
+  "commit": "125aa1523e48eb42b5d5f8b349f6ee6808dceea3",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-27",
@@ -1157,6 +1157,29 @@
             "key": "gender",
             "category": "sociodemographic-data",
             "title": "Gender",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "marital-status",
+            "category": "sociodemographic-data",
+            "title": "Familienstand",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "marital-status",
+            "category": "sociodemographic-data",
+            "title": "Marital status",
             "description_professional": "",
             "description_layman": "",
             "verified-health-links": [],

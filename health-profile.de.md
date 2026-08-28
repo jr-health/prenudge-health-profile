@@ -42,6 +42,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
+  - [Familienstand](#familienstand)
   - [Herkunft](#herkunft)
     - [Ethnische Zugehörigkeit](#ethnische-zugehörigkeit)
   - [Sozio-ökonomischer Status](#sozio-ökonomischer-status)
@@ -331,6 +332,10 @@ _Keine Beobachtungen erfasst._
 
 _Keine Beobachtungen erfasst._
 
+### Familienstand
+
+_Keine Beobachtungen erfasst._
+
 ### Herkunft
 
 #### Ethnische Zugehörigkeit
@@ -355,6 +360,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |

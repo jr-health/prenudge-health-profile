@@ -42,6 +42,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
+  - [Marital status](#marital-status)
   - [Origin](#origin)
     - [Ethnicity](#ethnicity)
   - [Socio-economic Status](#socio-economic-status)
@@ -259,6 +260,10 @@ _No observations recorded._
 
 _No observations recorded._
 
+### Marital status
+
+_No observations recorded._
+
 ### Origin
 
 #### Ethnicity
@@ -283,6 +288,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | shaide79 |
 | 2026-08-28 | Theresa Weitlaner |
+| 2026-08-28 | shaide79 |
 | 2026-08-27 | Theresa.Weitlaner |
