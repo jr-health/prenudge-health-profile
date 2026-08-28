@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "waist-to-hip-ratio",
+    "title": "Hüft-Taillen-Verhältnis (WHR)",
+    "description": "",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "waist-to-hip-ratio",
+    "title": "Waist-to-hip ratio (WHR)",
+    "description": "",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
