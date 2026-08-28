@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "ethnicity",
+    "title": "Ethnische Zugehörigkeit",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "origin",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "ethnicity",
+    "title": "Ethnicity",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "origin",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
