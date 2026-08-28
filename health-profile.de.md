@@ -54,6 +54,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
   - [Technologieeinsatz](#technologieeinsatz)
+    - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -395,7 +396,7 @@ _Keine Dimensionen erfasst._
 
 ### Technologieeinsatz
 
-_Keine Beobachtungen erfasst._
+#### Nutzung von Apps oder Webportalen
 
 ---
 

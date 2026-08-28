@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:54:26.594801+00:00",
-  "commit": "4f7b7f4ba638c7bc24be2ca2c8e75a2f803222f2",
+  "generated": "2026-08-28T11:55:29.233087+00:00",
+  "commit": "a4080b40052be40e1db464289b67e6bdadebe36f",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1633,7 +1633,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "use-of-apps-or-webportals",
+                "title": "Nutzung von Apps oder Webportalen",
+                "description": "",
+                "category": "self-management",
+                "dimension": "technology-use",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "use-of-apps-or-webportals",
+                "title": "Use of apps or web portals",
+                "description": "",
+                "category": "self-management",
+                "dimension": "technology-use",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

@@ -54,6 +54,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
 - [Quality of Life](#quality-of-life)
 - [Self-management](#self-management)
   - [Technology use](#technology-use)
+    - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [chronotype](#chronotype)
@@ -315,7 +316,7 @@ _No dimensions recorded._
 
 ### Technology use
 
-_No observations recorded._
+#### Use of apps or web portals
 
 ---
 
