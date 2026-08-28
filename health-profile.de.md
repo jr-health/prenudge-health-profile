@@ -14,7 +14,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Ernährungsmuster](#ernährungsmuster)
     - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
     - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
-    - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
+    - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdäpfel-portionentag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)](#milchprodukte-öle-fette-nüsse-und-samen-portionentag)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
@@ -114,7 +114,7 @@ _Keine Beobachtungen erfasst._
 
 #### Fisch/Fleisch (Portionen/Woche)
 
-#### Getreide-Erdäpfel-Portionen-Tag
+#### Getreide/Erdäpfel (Portionen/Tag)
 
 ##### Messinstrumente
 
@@ -447,6 +447,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

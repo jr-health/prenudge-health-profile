@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:55:39.968333+00:00",
-  "commit": "b81ff73bf8f1bff8af0b0d44652a3d06be14e1b7",
+  "generated": "2026-08-28T08:56:02.152474+00:00",
+  "commit": "ecde8383f6e9ea177a31956d83d05ef7f85de52b",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -266,7 +266,7 @@
               "de": {
                 "template": "observation",
                 "key": "getreide-erdaepfel-portionen-pro-tag",
-                "title": "Getreide-Erdäpfel-Portionen-Tag",
+                "title": "Getreide/Erdäpfel (Portionen/Tag)",
                 "description": "",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
@@ -310,13 +310,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
