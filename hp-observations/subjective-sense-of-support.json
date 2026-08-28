@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "subjective-sense-of-support",
+    "title": "Subjektives Empfinden von Unterstützung",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "subjective-sense-of-support",
+    "title": "Subjective sense of support",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
