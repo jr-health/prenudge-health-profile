@@ -1,0 +1,28 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "selbstberichteter-chronotyp",
+    "title": "Selbstberichteter Chronotyp",
+    "description": "",
+    "category": "sleep",
+    "dimension": "chronotyp",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "selbstberichteter-chronotyp",
+    "title": "self_reports_chronotype",
+    "description": "",
+    "category": "sleep",
+    "dimension": "chronotyp",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
