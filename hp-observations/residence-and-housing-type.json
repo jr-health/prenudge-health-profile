@@ -1,8 +1,8 @@
 {
   "de": {
     "template": "observation",
-    "key": "residence-and-housing-type",
-    "title": "Residence and Housing type",
+    "key": "residence",
+    "title": "Wohnortgröße (Stadt/Land)",
     "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
@@ -14,8 +14,8 @@
   },
   "en": {
     "template": "observation",
-    "key": "residence-and-housing-type",
-    "title": "Residence and Housing type",
+    "key": "residence",
+    "title": "Residence (urban/rural)",
     "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
