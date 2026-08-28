@@ -5,7 +5,7 @@
     "title": "Pack years",
     "description": "",
     "category": "smoking",
-    "dimension": "smoking-status",
+    "dimension": "zigaretten",
     "population": "",
     "disease-association": [],
     "citizen-info": "",
@@ -39,20 +39,28 @@
     "title": "Pack Years",
     "description": "",
     "category": "smoking",
-    "dimension": "smoking-status",
+    "dimension": "zigaretten",
     "population": "",
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
