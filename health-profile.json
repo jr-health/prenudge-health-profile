@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T11:55:29.233087+00:00",
-  "commit": "a4080b40052be40e1db464289b67e6bdadebe36f",
+  "generated": "2026-08-28T11:57:53.568646+00:00",
+  "commit": "042423f5884e53d390e486c94b2a5392f7f91a99",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -1612,6 +1612,29 @@
         "discussion": ""
       },
       "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "communication-understanding",
+            "category": "self-management",
+            "title": "Kommunikation/Verständnis",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "communication-understanding",
+            "category": "self-management",
+            "title": "Communication/Understanding",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        },
         {
           "de": {
             "template": "dimension",

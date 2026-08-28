@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
 - [Self-management](#self-management)
+  - [Communication/Understanding](#communicationunderstanding)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
@@ -313,6 +314,10 @@ _No dimensions recorded._
 ## Self-management
 
 <img src="media/notebook-pen.png" alt="Self-management" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
+
+### Communication/Understanding
+
+_No observations recorded._
 
 ### Technology use
 

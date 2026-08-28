@@ -53,6 +53,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
+  - [Kommunikation/Verständnis](#kommunikationverständnis)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
@@ -393,6 +394,10 @@ _Keine Dimensionen erfasst._
 ## Selbstmanagement
 
 <img src="media/notebook-pen.png" alt="Selbstmanagement" width="48" style="background-color: #c7d2d3; padding: 6px; border-radius: 6px;">
+
+### Kommunikation/Verständnis
+
+_Keine Beobachtungen erfasst._
 
 ### Technologieeinsatz
 
