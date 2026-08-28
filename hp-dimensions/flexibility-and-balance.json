@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "flexibility-and-balance",
+    "category": "physical-activity",
+    "title": "Flexibilitäts- und Gleichgewichtstraining",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "flexibility-and-balance",
+    "category": "physical-activity",
+    "title": "Flexibility and Balance",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
