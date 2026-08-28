@@ -35,6 +35,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
     - [nicotine addiction](#nicotine-addiction)
     - [Pack Years](#pack-years)
   - [cigars and cigarillos](#cigars-and-cigarillos)
+    - [cigarres or cigarrilos per week](#cigarres-or-cigarrilos-per-week)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
   - [Gender](#gender)
@@ -229,7 +230,7 @@ _No observations recorded._
 
 ### cigars and cigarillos
 
-_No observations recorded._
+#### cigarres or cigarrilos per week
 
 ---
 

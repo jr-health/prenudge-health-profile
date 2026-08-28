@@ -35,6 +35,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
     - [nikotinabhängigkeit](#nikotinabhängigkeit)
     - [Pack years](#pack-years)
   - [Zigarren/Zigarillos](#zigarrenzigarillos)
+    - [Zigarren/Zigarillos pro Woche](#zigarrenzigarillos-pro-woche)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter](#alter)
   - [Geschlecht](#geschlecht)
@@ -301,7 +302,7 @@ _Keine Beobachtungen erfasst._
 
 ### Zigarren/Zigarillos
 
-_Keine Beobachtungen erfasst._
+#### Zigarren/Zigarillos pro Woche
 
 ---
 

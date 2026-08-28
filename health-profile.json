@@ -1,7 +1,7 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:16:42.765220+00:00",
-  "commit": "cb36a9e321fdcbc2a5d262bc59a0c13eb56c0d19",
+  "generated": "2026-08-28T08:18:29.436483+00:00",
+  "commit": "06f14e7a43768701671da5d61a556818e85d629d",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
@@ -988,7 +988,36 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "zigarren-zigarillos-pro-woche",
+                "title": "Zigarren/Zigarillos pro Woche",
+                "description": "",
+                "category": "smoking",
+                "dimension": "zigarren-zigarillos",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "zigarren-zigarillos-pro-woche",
+                "title": "cigarres or cigarrilos per week",
+                "description": "",
+                "category": "smoking",
+                "dimension": "zigarren-zigarillos",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },
