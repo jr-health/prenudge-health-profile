@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:40:23.089911+00:00",
-  "commit": "bf3a82f7fa4f7d550b6377883dfab978326f446d",
+  "generated": "2026-08-28T08:41:21.055870+00:00",
+  "commit": "bbcc7ebdcff49bde15892aa57d398efaff5b194c",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -231,6 +231,34 @@
                     "vis-status": "draft"
                   }
                 ],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+                "title": "Milchprodukte + Öle, Fette, Nüsse und Samen (Portionen/Tag)",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag",
+                "title": "Dairy products, oils, fats, nuts, and seeds – portions per day",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [],
                 "discussion": ""
               }
             }
