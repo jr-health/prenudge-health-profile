@@ -1,0 +1,22 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "gesamtmuster-ernaehrung",
+    "category": "nutrition",
+    "title": "Gesamtmuster Ernährung",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "gesamtmuster-ernaehrung",
+    "category": "nutrition",
+    "title": "nutritional pattern",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
