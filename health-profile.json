@@ -1,17 +1,17 @@
 {
   "version": "0.1.4-test",
-  "generated": "2026-08-28T08:38:03.088131+00:00",
-  "commit": "4b0d513526eab7d8a4bafdbb8b327f9cae14df71",
+  "generated": "2026-08-28T08:39:27.865677+00:00",
+  "commit": "c3f8273b9971f0f9624bb67026e5187f0417aeaa",
   "activity": {
     "since": "v0.1.4-test",
     "entries": [
       {
         "date": "2026-08-28",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-08-28",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-08-27",
@@ -173,7 +173,68 @@
             ],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "getreide-erdaepfel-portionen-pro-tag",
+                "title": "Getreide-Erdäpfel-Portionen-Tag",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "getreide-erdaepfel-portionen-pro-tag",
+                "title": "Cereales Potatoes Portions per day",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": ""
+              }
+            }
+          ]
         }
       ]
     },

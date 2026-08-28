@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generated: 2026-08-28_
   - [Height, weight](#height-weight)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
+    - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -89,7 +90,13 @@ _No observations recorded._
 **Verified Health Information:**
 - []()
 
-_No observations recorded._
+#### Cereales Potatoes Portions per day
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ---
 
@@ -306,6 +313,6 @@ _Changes since version v0.1.4-test:_
 
 | Date | Author |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |

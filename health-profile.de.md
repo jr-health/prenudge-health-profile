@@ -12,6 +12,7 @@ _Version: 0.1.4-test | Generiert: 2026-08-28_
   - [Größe, Gewicht](#größe-gewicht)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
+    - [Getreide-Erdäpfel-Portionen-Tag](#getreide-erdäpfel-portionen-tag)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
     - [Minuten in moderater und intensiver körperlichen Aktivität](#minuten-in-moderater-und-intensiver-körperlichen-aktivität)
@@ -89,7 +90,13 @@ _Keine Beobachtungen erfasst._
 **Verifizierte Gesundheitsinformation:**
 - []()
 
-_Keine Beobachtungen erfasst._
+#### Getreide-Erdäpfel-Portionen-Tag
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
 
 ---
 
@@ -378,6 +385,6 @@ _Änderungen seit Version v0.1.4-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-28 | shaide79 |
+| 2026-08-28 | Theresa Weitlaner |
 | 2026-08-27 | Theresa.Weitlaner |
