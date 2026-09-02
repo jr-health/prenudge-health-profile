@@ -10,7 +10,28 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Abb. 2)",
+        "unit": "cm",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "30-200 cm",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
     "discussion": ""
   },
   "en": {
@@ -24,7 +45,18 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "30-200 cm",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
     "discussion": ""
   }
 }
