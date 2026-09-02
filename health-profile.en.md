@@ -571,6 +571,12 @@ _No observations recorded._
 
 #### e-cigarettes tabacco heaters-number-per-week
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### pipe hookah
 
 #### pipe hookah numbers per week

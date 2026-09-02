@@ -733,6 +733,12 @@ _Keine Beobachtungen erfasst._
 
 #### E-Zigaretten/Tabakerhitzer (Anzahl/Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Pfeife/Wasserpfeife
 
 #### Pfeife/Wasserpfeife (Anzahl/Woche)
