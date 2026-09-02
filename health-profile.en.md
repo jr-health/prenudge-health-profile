@@ -191,6 +191,12 @@ _No observations recorded._
 
 #### Legume portions per week
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Dairy products, oils, fats, nuts, and seeds – portions per day
 
 ##### Measurement Instruments
