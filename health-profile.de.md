@@ -743,6 +743,12 @@ _Keine Beobachtungen erfasst._
 
 #### Pfeife/Wasserpfeife (Anzahl/Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Raucherstatus
 
 _Keine Beobachtungen erfasst._

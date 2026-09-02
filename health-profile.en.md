@@ -581,6 +581,12 @@ _No observations recorded._
 
 #### pipe hookah numbers per week
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Smoking Status
 
 _No observations recorded._
