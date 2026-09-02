@@ -609,6 +609,12 @@ _Keine Dimensionen erfasst._
 
 #### Eigenständige Kontrolle von Medikamenten- und Impfstatus
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Selbstüberwachung
 
 #### Dokumentation von Blutzuckerwert (mmol/l?)

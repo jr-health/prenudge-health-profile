@@ -447,6 +447,12 @@ _No dimensions recorded._
 
 #### Independent monitoring of medication and vaccination status
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Self-monitoring
 
 #### Independent documentation of blood glucose level (mmol/l?)
