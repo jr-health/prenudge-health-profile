@@ -405,6 +405,12 @@ _No observations recorded._
 
 #### Change in body weight over defined periods (kg)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ---
 
 ## Quality of Life
