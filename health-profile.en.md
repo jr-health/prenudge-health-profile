@@ -107,6 +107,7 @@ _Version: 0.1.7-test | Generated: 2026-09-02_
     - [Impairment of employment](#impairment-of-employment)
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
+- [Edit History](#edit-history)
 
 ---
 
@@ -738,3 +739,11 @@ _No observations recorded._
 - **Sunburst Chart Status:** draft
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.7-test:_
+
+| Date | Author |
+|---|---|
+| 2026-09-02 | Theresa.Weitlaner |
