@@ -639,6 +639,12 @@ _Keine Dimensionen erfasst._
 
 #### Eigenständige Dokumentation von Körpergewicht (kg)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Eigenständige Dokumentation von Herzfrequenz (bpm?)
 
 ### Technologieeinsatz
