@@ -878,6 +878,12 @@ _Keine Beobachtungen erfasst._
 
 #### Beeinträchtigung der Erwerbstätigkeit
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Einkommensverlust
 
 #### Arbeitsausfalltage

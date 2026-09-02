@@ -716,6 +716,12 @@ _No observations recorded._
 
 #### Impairment of employment
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### loss of income
 
 #### Work absence days
