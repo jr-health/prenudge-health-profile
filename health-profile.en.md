@@ -611,6 +611,12 @@ _No observations recorded._
 
 #### nicotine addiction
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Pack Years
 
 ##### Measurement Instruments
