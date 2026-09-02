@@ -457,6 +457,16 @@ _No dimensions recorded._
 
 #### Independent documentation of blood glucose level (mmol/l?)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Independent documentation of blood pressure (mmHg?)
 
 #### Independent documentation of body weight (kg)

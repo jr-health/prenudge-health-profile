@@ -619,6 +619,16 @@ _Keine Dimensionen erfasst._
 
 #### Dokumentation von Blutzuckerwert (mmol/l?)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Messinstrument 2** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Eigenständige Dokumentation von Blutdruck (mmHg?)
 
 #### Eigenständige Dokumentation von Körpergewicht (kg)
