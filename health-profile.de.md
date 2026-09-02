@@ -657,6 +657,12 @@ _Keine Dimensionen erfasst._
 
 #### Nutzung von Apps oder Webportalen
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ---
 
 ## Sexualität
