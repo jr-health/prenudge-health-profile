@@ -123,6 +123,7 @@ jobs:
               python scripts/inject_cover_page.py "${STEM}.${lang}.docx" \
                 --reference "$REFERENCE_DOCX" \
                 --title "$title" --version "$VERSION" --generated "$GENERATED" --lang "$lang"
+              python scripts/style_inline_headings.py "${STEM}.${lang}.docx"
             done
           done
 

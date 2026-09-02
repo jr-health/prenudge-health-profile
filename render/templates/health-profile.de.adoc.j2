@@ -11,13 +11,13 @@ _Version {{ profile.version }} · Generiert: {{ profile.generated[:10] }}_
 
 *Beschreibung für Fachpersonal:*
 
-{{ c['description-professional'] }}
+{{ c['description-professional'] | md_adoc }}
 {% endif %}
 {% if c.get('description-laymen') %}
 
 *Information für Bevölkerung:*
 
-{{ c['description-laymen'] }}
+{{ c['description-laymen'] | md_adoc }}
 {% endif %}
 {% if not cat.dimensions %}
 
@@ -32,7 +32,7 @@ _Keine Dimensionen erfasst._
 
 *Beschreibung für Fachpersonal:*
 
-{{ d['description_professional'] }}
+{{ d['description_professional'] | md_adoc }}
 {% endif %}
 {% set links = d.get('verified-health-links', []) %}
 {% set prof_links = [] %}
@@ -57,7 +57,7 @@ _Keine Dimensionen erfasst._
 
 *Information für Bevölkerung:*
 
-{{ d['description_layman'] }}
+{{ d['description_layman'] | md_adoc }}
 {% endif %}
 {% if citizen_links %}
 
@@ -81,7 +81,7 @@ _Keine Beobachtungen erfasst._
 
 *Beschreibung für Fachpersonal:*
 
-{{ o.description }}
+{{ o.description | md_adoc }}
 {% endif %}
 {% if o.get('population') %}
 
@@ -95,7 +95,7 @@ _Keine Beobachtungen erfasst._
 
 *Information für Bevölkerung:*
 
-{{ o['citizen-info'] }}
+{{ o['citizen-info'] | md_adoc }}
 {% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
@@ -119,7 +119,7 @@ _Keine Beobachtungen erfasst._
 | {{ instr.get('device') or '-' }}
 
 | *Spezifikation der Messmethode*
-| {{ instr.get('specific-questions') or '-' }}
+a| {{ (instr.get('specific-questions') | md_adoc(true)) if instr.get('specific-questions') else '-' }}
 
 | *Einheit*
 {% set unit_val = instr.get('unit') %}
@@ -142,12 +142,12 @@ _Keine Beobachtungen erfasst._
 | {{ instr.get('recommended-monitoring-frequency') or '-' }}
 
 | *Spezifische Normen*
-a| {% set norms = instr.get('norms', []) %}{% if norms %}{% for n in norms %}{% if n.get('specific-norm') %}* {{ n['specific-norm'] }}
-{% endif %}{% endfor %}{% else %}-
+a| {% set norm_texts = (instr.get('norms', []) | selectattr('specific-norm') | map(attribute='specific-norm') | map('md_adoc', true) | list) %}{% if norm_texts %}{{ norm_texts | join('\n\n') }}
+{% else %}-
 {% endif %}
 
 | *Scoring-Algorithmus*
-| {{ instr.get('scoring-algorithm') or '-' }}
+a| {{ (instr.get('scoring-algorithm') | md_adoc(true)) if instr.get('scoring-algorithm') else '-' }}
 
 | *Quellen*
 a| {% set srcs = instr.get('sources', []) %}{% if srcs %}{% for s in srcs %}{% set sys = s.get('system', '') %}{% set is_url = sys.startswith('http') and ' ' not in sys %}* {% if s.get('source-description') %}{{ s['source-description'] }}{% if is_url %} — link:{{ sys }}[{{ sys }}]{% elif sys %} — {{ sys }}{% endif %}{% else %}{% if is_url %}link:{{ sys }}[{{ sys }}]{% else %}{{ sys }}{% endif %}{% endif %}
