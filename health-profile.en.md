@@ -377,6 +377,12 @@ _No observations recorded._
 
 #### Self-reported social integration
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Subjective sense of support
 
 ### Susceptibility to infection

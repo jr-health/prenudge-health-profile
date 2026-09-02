@@ -539,6 +539,12 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 #### Selbstbericht über sozialer Einbindung
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Subjektives Empfinden von Unterstützung
 
 ### Infektanfälligkeit
