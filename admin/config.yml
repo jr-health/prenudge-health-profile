@@ -4,6 +4,8 @@ app_title: PreNUDGE Metadata CMS Editor
 
 logo_url: ../media/MetadatenIcon.png
 
+site_url: https://jr-health.github.io/prenudge-health-profile/
+
 backend:
   name: github
   base_url: https://sveltia-cms-auth.jr-health.workers.dev
