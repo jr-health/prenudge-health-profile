@@ -713,6 +713,16 @@ _Keine Beobachtungen erfasst._
 
 #### Dauer der Einschlafzeit (durchschnittliche Minuten)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Messinstrument 2** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ---
 
 ## Rauchen

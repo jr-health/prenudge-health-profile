@@ -551,6 +551,16 @@ _No observations recorded._
 
 #### time taken to fall asleep
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ---
 
 ## Smoking
