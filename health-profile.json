@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T07:26:23.328045+00:00",
+  "generated": "2026-09-02T07:37:25.881373+00:00",
   "scope": "combined",
-  "commit": "438b7ea5c24784966ab1aba3b945e31c43f4721c",
+  "commit": "bad596ca4a5dc7d4468c0e0b691e9268169feb52",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -3870,13 +3870,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
