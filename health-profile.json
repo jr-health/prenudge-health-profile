@@ -1,11 +1,16 @@
 {
   "version": "0.1.6-test",
-  "generated": "2026-09-02T08:35:48.276198+00:00",
+  "generated": "2026-09-02T09:18:17.572785+00:00",
   "scope": "combined",
-  "commit": "7e9ff6a548ce43db6ef06cff56adbe8eac9b4281",
+  "commit": "d2c8d3de8f23aa92896f774fab6ea5480f54fd03",
   "activity": {
     "since": "v0.1.6-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-09-02",
+        "author": "Theresa Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -926,12 +931,12 @@
                 "key": "minutes-moderate-physical-activity",
                 "dataset-scope": "Minimalset",
                 "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\nPopulation: erwachsene Allgemeinbevölkerung",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
                 "population": "general population",
                 "disease-association": [],
-                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
+                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\n![95 Laufen-Ideen | laufen, trailrunning, laufmotivation](/media/3ea33e459a31105ae37bcc94a6742271.jpg)",
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
@@ -1002,13 +1007,13 @@
                 "id_tech": "minutes-moderate-physical-activity",
                 "terminology-codes": [
                   {
-                    "display": "Physical activity - minutes per week at vigorous intensity",
                     "code": "77593-2",
+                    "display": "Physical activity - minutes per week at vigorous intensity",
                     "system": "http://loinc.org"
                   },
                   {
-                    "display": "Moderate physical activity [IPAQ]",
                     "code": "77592-4",
+                    "display": "Moderate physical activity [IPAQ]",
                     "system": "http://loinc.org"
                   }
                 ]
