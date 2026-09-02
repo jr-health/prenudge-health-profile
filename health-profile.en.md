@@ -682,6 +682,12 @@ _No observations recorded._
 
 #### Ethnicity
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Socio-economic Status
 
 #### Employment status / Income

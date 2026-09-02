@@ -844,6 +844,12 @@ _Keine Beobachtungen erfasst._
 
 #### Ethnische Zugehörigkeit
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Sozio-ökonomischer Status
 
 #### Berufliche Situation Einkommen
