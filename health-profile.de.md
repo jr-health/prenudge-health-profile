@@ -497,6 +497,12 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 #### Selbstbericht über Resilienz
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Müdigkeit / Leistungsabfall
 
 #### Tägliche Energie & Leistungsfähigkeit

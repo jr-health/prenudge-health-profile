@@ -339,6 +339,12 @@ _No observations recorded._
 
 #### Self-reported resilience
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Fatigue / Decline in performance
 
 #### Daily energy and performance capacity
