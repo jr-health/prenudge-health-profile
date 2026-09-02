@@ -689,6 +689,12 @@ _Keine Dimensionen erfasst._
 
 #### Selbstberichteter Chronotyp
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Schlafhygiene
 
 #### schlaffördernden Routinen (Häufigkeit/Woche)

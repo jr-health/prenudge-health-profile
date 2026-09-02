@@ -527,6 +527,12 @@ _No dimensions recorded._
 
 #### self_reports_chronotype
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### sleephygiene
 
 #### Frequency of adherence to sleep-promoting routines
