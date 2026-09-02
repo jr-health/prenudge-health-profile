@@ -166,6 +166,12 @@ _No observations recorded._
 
 #### fish-meat portions week
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Cereales Potatoes Portions per day
 
 ##### Measurement Instruments

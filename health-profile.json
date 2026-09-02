@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T06:58:19.569672+00:00",
+  "generated": "2026-09-02T07:01:09.797630+00:00",
   "scope": "combined",
-  "commit": "f5c0c47f24f45bcfdb17d582332036bd7f3fc827",
+  "commit": "7d030b46fcd88f9ffba31770ce737b46af871e7b",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -392,7 +392,32 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [
+                      {
+                        "specific-norm": "## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen\n\nWenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. \n\nWenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.\n\n**Eine Portion entspricht:** \n\n| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |\n| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |\n| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |\n\nMeeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.\n\nFleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html)."
+                      }
+                    ],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
                 "discussion": ""
               },
               "en": {
@@ -406,7 +431,18 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
                 "discussion": ""
               }
             },

@@ -180,6 +180,29 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 
 #### Fisch/Fleisch (Portionen/Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- ## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen
+
+Wenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. 
+
+Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+
+**Eine Portion entspricht:** 
+
+| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
+| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
+| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
+
+Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
+
+Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+
 #### Getreide/Erdäpfel (Portionen/Tag)
 
 ##### Messinstrumente
