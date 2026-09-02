@@ -547,6 +547,12 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 #### Subjektives Empfinden von Unterstützung
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Infektanfälligkeit
 
 #### Anzahl an Infektionen innerhalb eines bestimmten Zeitraums

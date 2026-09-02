@@ -385,6 +385,12 @@ _No observations recorded._
 
 #### Subjective sense of support
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Susceptibility to infection
 
 #### Number of infections within a defined period
