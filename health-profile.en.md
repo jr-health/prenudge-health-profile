@@ -349,6 +349,12 @@ _No observations recorded._
 
 #### Daily energy and performance capacity
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Life events
 
 #### Self-reported significant life events
