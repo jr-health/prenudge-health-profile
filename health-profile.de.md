@@ -699,6 +699,12 @@ _Keine Dimensionen erfasst._
 
 #### schlaffördernden Routinen (Häufigkeit/Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Schlafdauer
 
 _Keine Beobachtungen erfasst._

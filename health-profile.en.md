@@ -537,6 +537,12 @@ _No dimensions recorded._
 
 #### Frequency of adherence to sleep-promoting routines
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Sleep duration
 
 _No observations recorded._
