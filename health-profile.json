@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T07:03:16.286321+00:00",
+  "generated": "2026-09-02T07:05:54.572108+00:00",
   "scope": "combined",
-  "commit": "c625338839bcaa46d09e0dd168eb83b3a7e9a921",
+  "commit": "28467b41c4e3f78b7e2ed139570df19265337320",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -324,7 +324,7 @@
                 "key": "alkoholfreie-ungesuesste-getraenke-glaeser-tag",
                 "dataset-scope": "Extension",
                 "title": "Alkoholfreie, ungesüßte Getränke (Gläser/Tag)",
-                "description": "",
+                "description": "Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
                 "population": "",
@@ -341,9 +341,18 @@
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": "## Alkoholfreie Getränke: Empfohlene Menge\n\nTrinken Sie täglich **mindestens 1,5 Liter Flüssigkeit.**\n\nEine Portion entspricht 250 ml bzw. 1 Glas mit 1/4 Liter Flüssigkeit.\n\nQuelle: [Österreichische Ernährungsempfehlungen](https://www.gesundheit.gv.at/linkresolution/link/68499 \"Öffnet in einem neuen Fenster\") (AGES).\n\n## Welche Getränke sind geeignet?\n\nAm besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke wie ungezuckerte Früchte- oder Kräutertees. Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen pro Tag) können Teil einer gesunden Ernährung sein.\n\n**So können Sie Getränke in den Alltag einbauen:**\n\n- Bereits am Morgen an das Trinken denken und zum Frühstück Wasser, Tee oder verdünnten Fruchtsaft trinken.\n- Eine Wasserflasche oder Teekanne griffbereit haben.\n\nObst und Gemüse essen, denn diese enthalten ebenfalls Flüssigkeit. Dennoch sollten zusätzlich in jedem Fall mindestens 1,5 Liter pro Tag in Form von Getränken konsumiert werden.\n\n## Hinweis\n\nNäheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Broschüre „[Ernährung. Gesundheit für alle](https://www.gesundheit.gv.at/linkresolution/link/39227 \"Öffnet in einem neuen Fenster\")“ des Fonds Gesundes Österreich."
+                      }
+                    ],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -368,13 +377,25 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

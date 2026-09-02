@@ -164,6 +164,9 @@ _No observations recorded._
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
+
 #### fish-meat portions week
 
 ##### Measurement Instruments

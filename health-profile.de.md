@@ -172,11 +172,42 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 
 #### Alkoholfreie, ungesüßte Getränke (Gläser/Tag)
 
+**Beschreibung für Fachpersonal:**
+
+Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- ## Alkoholfreie Getränke: Empfohlene Menge
+
+Trinken Sie täglich **mindestens 1,5 Liter Flüssigkeit.**
+
+Eine Portion entspricht 250 ml bzw. 1 Glas mit 1/4 Liter Flüssigkeit.
+
+Quelle: [Österreichische Ernährungsempfehlungen](https://www.gesundheit.gv.at/linkresolution/link/68499 "Öffnet in einem neuen Fenster") (AGES).
+
+## Welche Getränke sind geeignet?
+
+Am besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke wie ungezuckerte Früchte- oder Kräutertees. Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen pro Tag) können Teil einer gesunden Ernährung sein.
+
+**So können Sie Getränke in den Alltag einbauen:**
+
+- Bereits am Morgen an das Trinken denken und zum Frühstück Wasser, Tee oder verdünnten Fruchtsaft trinken.
+- Eine Wasserflasche oder Teekanne griffbereit haben.
+
+Obst und Gemüse essen, denn diese enthalten ebenfalls Flüssigkeit. Dennoch sollten zusätzlich in jedem Fall mindestens 1,5 Liter pro Tag in Form von Getränken konsumiert werden.
+
+## Hinweis
+
+Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Broschüre „[Ernährung. Gesundheit für alle](https://www.gesundheit.gv.at/linkresolution/link/39227 "Öffnet in einem neuen Fenster")“ des Fonds Gesundes Österreich.
+
+**Quellen:**
+- https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
 
 #### Fisch/Fleisch (Portionen/Woche)
 
