@@ -654,6 +654,12 @@ _No observations recorded._
 
 #### Housing type (owned home, rented apartment, other)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Residence (urban/rural)
 
 ### Marital status

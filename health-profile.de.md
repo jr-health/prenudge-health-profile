@@ -816,6 +816,12 @@ _Keine Beobachtungen erfasst._
 
 #### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Wohnortgröße (Stadt/Land)
 
 ### Familienstand
