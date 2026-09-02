@@ -862,6 +862,12 @@ _Keine Beobachtungen erfasst._
 
 #### Muttersprache
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ---
 
 ## Arbeit

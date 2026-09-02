@@ -700,6 +700,12 @@ _No observations recorded._
 
 #### Native language
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ---
 
 ## Workability
