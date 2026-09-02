@@ -595,6 +595,12 @@ _No observations recorded._
 
 #### motivation to quit
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### attempts to give up
 
 #### nicotine addiction
