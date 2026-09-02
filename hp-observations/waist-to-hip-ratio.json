@@ -4,13 +4,38 @@
     "key": "waist-to-hip-ratio",
     "dataset-scope": "Extension",
     "title": "Hüft-Taillen-Verhältnis (WHR)",
-    "description": "",
+    "description": "Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.\n\n- **Niedrigeres WHR:** relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).\n- **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).\n- Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.",
     "category": "anthropometry",
     "dimension": "heigth-weight",
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": " Taillenumfang\n Die teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Crista iliaca) (Abb. 2).\n Hüftumfang\n Messen Sie an der breitesten Stelle des Gesäßes (Abb. 3).\n Legen Sie das Maßband auf der rechten Seite des Messpunktes an. Die Hand der untersuchenden Person darf weder auf dem Schambereich noch auf dem Gesäß der teilnehmenden Person liegen.\n Die teilnehmende Person hält den Anfang des Maßbandes fest.\n Die untersuchende Person führt das Maßband waagerecht um den Körper, ohne dass es sich verdreht.\n Vor dem Ablesen des Umfangs muss die teilnehmende Person entspannt ausatmen.\n Das Maßband sollte eng anliegen, darf jedoch nicht in den Körper einschneiden.\n Der Umfang wird auf Augenhöhe des Maßbandes auf 0,1 cm genau abgelesen.\n Die Messung wird als Doppelbestimmung durchgeführt: Das Maßband wird erneut angelegt und die Messung wird wiederholt.",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [
+          {
+            "specific-norm": "| **Frauen** | < 0,85 | ≥ 0,85 |\n\n| **Männer** | < 0,90 | ≥ 0,90 |"
+          }
+        ],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
     "discussion": ""
   },
   "en": {
@@ -24,7 +49,18 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
     "discussion": ""
   }
 }
