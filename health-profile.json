@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T07:16:42.167654+00:00",
+  "generated": "2026-09-02T07:17:24.027008+00:00",
   "scope": "combined",
-  "commit": "f7d0581b78b5e79ae6110d35e654ad4603b31814",
+  "commit": "18f5e0794a0d1c404a39ed1d67a5978abbaa669a",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -2314,7 +2314,28 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
                 "discussion": ""
               },
               "en": {
@@ -2328,7 +2349,18 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
                 "discussion": ""
               }
             }

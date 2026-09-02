@@ -599,6 +599,12 @@ _Keine Dimensionen erfasst._
 
 #### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Medikamentenmanagement
 
 #### Eigenständige Kontrolle von Medikamenten- und Impfstatus

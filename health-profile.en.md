@@ -437,6 +437,12 @@ _No dimensions recorded._
 
 #### Reporting symptoms or changes to healthcare professionals
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Medication management
 
 #### Independent monitoring of medication and vaccination status
