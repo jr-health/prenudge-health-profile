@@ -139,6 +139,12 @@ _No observations recorded._
 
 #### Waist-to-hip ratio (WHR)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ---
 
 ## Nutrition
