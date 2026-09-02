@@ -746,4 +746,5 @@ _Changes since version v0.1.6-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-02 | Theresa.Weitlaner |
 | 2026-09-02 | Theresa Weitlaner |

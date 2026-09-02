@@ -908,4 +908,5 @@ _Änderungen seit Version v0.1.6-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-02 | Theresa.Weitlaner |
 | 2026-09-02 | Theresa Weitlaner |
