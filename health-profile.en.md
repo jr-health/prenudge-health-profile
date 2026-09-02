@@ -395,6 +395,12 @@ _No observations recorded._
 
 #### Number of infections within a defined period
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Weight changes
 
 #### Change in body weight over defined periods (kg)
