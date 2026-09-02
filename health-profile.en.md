@@ -429,6 +429,12 @@ _No dimensions recorded._
 
 #### Health literacy
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Reporting symptoms or changes to healthcare professionals
 
 ### Medication management

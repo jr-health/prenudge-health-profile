@@ -591,6 +591,12 @@ _Keine Dimensionen erfasst._
 
 #### Verständnis von gesundheitsbezogener Information
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
 ### Medikamentenmanagement
