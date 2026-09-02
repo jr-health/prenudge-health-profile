@@ -485,6 +485,12 @@ _No dimensions recorded._
 
 #### Independent documentation of heart rate (bpm?)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Technology use
 
 #### Use of apps or web portals

@@ -647,6 +647,12 @@ _Keine Dimensionen erfasst._
 
 #### Eigenständige Dokumentation von Herzfrequenz (bpm?)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Technologieeinsatz
 
 #### Nutzung von Apps oder Webportalen
