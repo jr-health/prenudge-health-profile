@@ -369,6 +369,12 @@ _No observations recorded._
 
 #### Number of close relationships
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Self-reported social integration
 
 #### Subjective sense of support
