@@ -1,24 +1,30 @@
 {
   "de": {
     "template": "category",
-    "title": "Anthropometrie",
-    "id_tech": "anthropometry",
-    "subject-area": "self-management",
     "key": "anthropometry",
-    "dataset-scope": "Minimalset",
-    "icon_lucide": "ruler-dimension-line",
+    "dataset-scope": "Extension",
+    "title": "Anthropometrie",
     "icon_upload": "/media/ruler-dimension-line.png",
-    "color": "#e0d3de"
+    "color": "#e0d3de",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "",
+    "icon_lucide": "ruler-dimension-line",
+    "id_tech": "anthropometry",
+    "subject-area": "self-management"
   },
   "en": {
     "template": "category",
-    "id_tech": "anthropometry",
-    "subject-area": "self-management",
-    "title": "Anthropometry",
     "key": "anthropometry",
-    "dataset-scope": "Minimalset",
-    "icon_lucide": "ruler-dimension-line",
+    "dataset-scope": "Extension",
+    "title": "Anthropometry",
     "icon_upload": "/media/ruler-dimension-line.png",
-    "color": "#e0d3de"
+    "color": "#e0d3de",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "",
+    "icon_lucide": "ruler-dimension-line",
+    "id_tech": "anthropometry",
+    "subject-area": "self-management"
   }
 }
