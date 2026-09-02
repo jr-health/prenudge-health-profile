@@ -129,6 +129,14 @@ _No observations recorded._
 
 #### Waist circumference (cm)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 30-200 cm
+- **Acquisition Frequency:** 2x/Jahr
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Waist-to-hip ratio (WHR)
 
 ---

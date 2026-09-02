@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T06:48:32.300518+00:00",
+  "generated": "2026-09-02T06:55:44.383491+00:00",
   "scope": "combined",
-  "commit": "fe6c1ea1d1d30f0eba55a85f044737ea44746820",
+  "commit": "84f9c9e7ab0a626598b3710d9124e385f87c175f",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -139,7 +139,28 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Abb. 2)",
+                    "unit": "cm",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "30-200 cm",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
                 "discussion": ""
               },
               "en": {
@@ -153,7 +174,18 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "30-200 cm",
+                    "acquisition-frequency": "2x/Jahr",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
                 "discussion": ""
               }
             },

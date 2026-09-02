@@ -129,6 +129,15 @@ _Keine Beobachtungen erfasst._
 
 #### Taillenumfang (cm)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** cm
+- **Wertebereich:** 30-200 cm
+- **Erfassungsfrequenz:** 2x/Jahr
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Hüft-Taillen-Verhältnis (WHR)
 
 ---
