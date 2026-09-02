@@ -662,6 +662,12 @@ _No observations recorded._
 
 #### Residence (urban/rural)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Marital status
 
 #### single, married, in a partnership, separated, widowed

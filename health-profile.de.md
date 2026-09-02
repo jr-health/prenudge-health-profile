@@ -824,6 +824,12 @@ _Keine Beobachtungen erfasst._
 
 #### Wohnortgröße (Stadt/Land)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Familienstand
 
 #### ledig, verheiratet, in Partnerschaft, getrennt, verwitwet
