@@ -329,6 +329,12 @@ _No observations recorded._
 
 #### Self-reported traumatic experiences
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Coping ability
 
 #### Self-reported resilience

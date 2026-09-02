@@ -487,6 +487,12 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 #### Selbstbericht über traumatische Erfahrungen
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Fähigkeit zum Coping
 
 #### Selbstbericht über Resilienz
