@@ -1,11 +1,15 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-08-28T16:24:50.920940+00:00",
+  "generated": "2026-09-02T06:48:32.300518+00:00",
   "scope": "combined",
-  "commit": "8403fab1ec3ab8409cc105137e35f01e04d4783b",
+  "commit": "fe6c1ea1d1d30f0eba55a85f044737ea44746820",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
+      {
+        "date": "2026-09-02",
+        "author": "shaide79"
+      },
       {
         "date": "2026-08-28",
         "author": "Theresa.Weitlaner"
@@ -72,25 +76,31 @@
     {
       "de": {
         "template": "category",
-        "title": "Anthropometrie",
-        "id_tech": "anthropometry",
-        "subject-area": "self-management",
         "key": "anthropometry",
-        "dataset-scope": "Minimalset",
-        "icon_lucide": "ruler-dimension-line",
+        "dataset-scope": "Extension",
+        "title": "Anthropometrie",
         "icon_upload": "/media/ruler-dimension-line.png",
-        "color": "#e0d3de"
+        "color": "#e0d3de",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "icon_lucide": "ruler-dimension-line",
+        "id_tech": "anthropometry",
+        "subject-area": "self-management"
       },
       "en": {
         "template": "category",
-        "id_tech": "anthropometry",
-        "subject-area": "self-management",
-        "title": "Anthropometry",
         "key": "anthropometry",
-        "dataset-scope": "Minimalset",
-        "icon_lucide": "ruler-dimension-line",
+        "dataset-scope": "Extension",
+        "title": "Anthropometry",
         "icon_upload": "/media/ruler-dimension-line.png",
-        "color": "#e0d3de"
+        "color": "#e0d3de",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "",
+        "icon_lucide": "ruler-dimension-line",
+        "id_tech": "anthropometry",
+        "subject-area": "self-management"
       },
       "dimensions": [
         {
