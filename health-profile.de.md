@@ -765,6 +765,12 @@ _Keine Beobachtungen erfasst._
 
 #### Entwöhnungsversuche (Anzahl/Jahr)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 #### Nikotinabhängigkeit
 
 #### Pack years

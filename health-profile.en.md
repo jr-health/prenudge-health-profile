@@ -603,6 +603,12 @@ _No observations recorded._
 
 #### attempts to give up
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### nicotine addiction
 
 #### Pack Years
