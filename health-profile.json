@@ -1,8 +1,8 @@
 {
   "version": "0.1.5-test",
-  "generated": "2026-09-02T07:01:55.447623+00:00",
+  "generated": "2026-09-02T07:03:16.286321+00:00",
   "scope": "combined",
-  "commit": "24286ce424291bb226e9516ef57eacb7158d0957",
+  "commit": "c625338839bcaa46d09e0dd168eb83b3a7e9a921",
   "activity": {
     "since": "v0.1.5-test",
     "entries": [
@@ -469,7 +469,7 @@
                 "key": "getreide-erdaepfel-portionen-pro-tag",
                 "dataset-scope": "Extension",
                 "title": "Getreide/Erdäpfel (Portionen/Tag)",
-                "description": "",
+                "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
                 "population": "",
@@ -486,9 +486,18 @@
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": "## Getreide und Erdäpfel: Empfohlene Portionsgrößen\n\nEssen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden\n\n- **täglich 4 Portionen** für eine Ernährung **mit**  Fisch und Fleisch oder\n- **täglich 5 Portionen** für eine Ernährung **ohne** Fisch und Fleisch. \n\nWählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Vollkornvariante.\n\n**Eine Portion entspricht:** \n\n| Brot/Vollkornbrot | 1 Handfläche (Hand mit Fingern) | 50 - 70 g |\n| Gebäck | 1 Handfläche | 50 - 70 g |\n| Getreideflocken | 1 Handvoll | 50 - 60 g |\n| Teigwaren, roh | 2 Fäuste | 65 - 80 g |\n| Reis, gekocht | 2 Fäuste | 150 - 180 g |\n| Erdäpfel, gegart | 2 Fäuste | 200 - 250 g |"
+                      }
+                    ],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Österreichische Ernährungsempfehlungen (AGES)",
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -521,7 +530,11 @@
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",

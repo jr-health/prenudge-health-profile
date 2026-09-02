@@ -183,6 +183,9 @@ _No observations recorded._
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html
+
 #### Legume portions per week
 
 #### Dairy products, oils, fats, nuts, and seeds – portions per day

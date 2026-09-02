@@ -208,11 +208,37 @@ Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/lebe
 
 #### Getreide/Erdäpfel (Portionen/Tag)
 
+**Beschreibung für Fachpersonal:**
+
+Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- ## Getreide und Erdäpfel: Empfohlene Portionsgrößen
+
+Essen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden
+
+- **täglich 4 Portionen** für eine Ernährung **mit**  Fisch und Fleisch oder
+- **täglich 5 Portionen** für eine Ernährung **ohne** Fisch und Fleisch. 
+
+Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Vollkornvariante.
+
+**Eine Portion entspricht:** 
+
+| Brot/Vollkornbrot | 1 Handfläche (Hand mit Fingern) | 50 - 70 g |
+| Gebäck | 1 Handfläche | 50 - 70 g |
+| Getreideflocken | 1 Handvoll | 50 - 60 g |
+| Teigwaren, roh | 2 Fäuste | 65 - 80 g |
+| Reis, gekocht | 2 Fäuste | 150 - 180 g |
+| Erdäpfel, gegart | 2 Fäuste | 200 - 250 g |
+
+**Quellen:**
+- [Österreichische Ernährungsempfehlungen (AGES)](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html)
 
 #### Hülsenfrüchte (Portionen/Woche)
 
