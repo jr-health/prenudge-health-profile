@@ -469,6 +469,12 @@ _No dimensions recorded._
 
 #### Independent documentation of blood pressure (mmHg?)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Independent documentation of body weight (kg)
 
 #### Independent documentation of heart rate (bpm?)
