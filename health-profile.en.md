@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.5-test | Generated: 2026-09-02_
+_Version: 0.1.6-test | Generated: 2026-09-02_
 
 ---
 
@@ -107,7 +107,6 @@ _Version: 0.1.5-test | Generated: 2026-09-02_
     - [Impairment of employment](#impairment-of-employment)
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
-- [Edit History](#edit-history)
 
 ---
 
@@ -739,12 +738,3 @@ _No observations recorded._
 - **Sunburst Chart Status:** draft
 
 ---
-
-## Edit History
-
-_Changes since version v0.1.5-test:_
-
-| Date | Author |
-|---|---|
-| 2026-09-02 | shaide79 |
-| 2026-08-28 | Theresa.Weitlaner |
