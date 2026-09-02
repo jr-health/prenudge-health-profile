@@ -359,6 +359,12 @@ _No observations recorded._
 
 #### Self-reported significant life events
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Loneliness / Social support
 
 #### Number of close relationships
