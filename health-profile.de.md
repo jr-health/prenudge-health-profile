@@ -792,6 +792,12 @@ _Keine Beobachtungen erfasst._
 
 #### Zigarren/Zigarillos (Anzahl/Woche)
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ---
 
 ## Soziodemografische Daten
