@@ -692,6 +692,12 @@ _No observations recorded._
 
 #### Employment status / Income
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Native language
 
 ---
