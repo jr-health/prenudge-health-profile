@@ -672,6 +672,12 @@ _No observations recorded._
 
 #### single, married, in a partnership, separated, widowed
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Origin
 
 #### Ethnicity

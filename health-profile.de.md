@@ -834,6 +834,12 @@ _Keine Beobachtungen erfasst._
 
 #### ledig, verheiratet, in Partnerschaft, getrennt, verwitwet
 
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Herkunft
 
 #### Ethnische Zugehörigkeit
