@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.6-test | Generiert: 2026-09-02_
+_Version: 0.1.7-test | Generiert: 2026-09-02_
 
 ---
 
@@ -107,7 +107,6 @@ _Version: 0.1.6-test | Generiert: 2026-09-02_
     - [Beeinträchtigung der Erwerbstätigkeit](#beeinträchtigung-der-erwerbstätigkeit)
     - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -901,12 +900,3 @@ _Keine Beobachtungen erfasst._
 - **Sunburst-Chart Status:** draft
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.6-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-09-02 | Theresa.Weitlaner |
-| 2026-09-02 | Theresa Weitlaner |
