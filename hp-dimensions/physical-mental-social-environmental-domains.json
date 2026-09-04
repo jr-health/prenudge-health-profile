@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "physical-mental-social-environmental-domains",
+    "dataset-scope": "Minimalset",
+    "category": "quality-of-life",
+    "title": "Körperliche, mentale, soziale, umweltbezogene Lebensqualität",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "physical-mental-social-environmental-domains",
+    "dataset-scope": "Minimalset",
+    "category": "quality-of-life",
+    "title": "Physical, mental, social, environmental domains",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
