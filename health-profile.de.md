@@ -52,6 +52,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-04_
   - [Gewichtsveränderungen](#gewichtsveränderungen)
     - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veränderung-des-körpergewichts-über-definierte-zeiträume-kg)
 - [Lebensqualität](#lebensqualität)
+  - [Körperliche, mentale, soziale, umweltbezogene Lebensqualität](#körperliche-mentale-soziale-umweltbezogene-lebensqualität)
 - [Selbstmanagement](#selbstmanagement)
   - [Kommunikation/Verständnis](#kommunikationverständnis)
     - [Verständnis von gesundheitsbezogener Information](#verständnis-von-gesundheitsbezogener-information)
@@ -579,7 +580,9 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 <img src="media/heart-plus.png" alt="Lebensqualität" width="48" style="background-color: #f8e4bf; padding: 6px; border-radius: 6px;">
 
-_Keine Dimensionen erfasst._
+### Körperliche, mentale, soziale, umweltbezogene Lebensqualität
+
+_Keine Beobachtungen erfasst._
 
 ---
 

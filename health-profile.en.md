@@ -52,6 +52,7 @@ _Version: 0.1.7-test | Generated: 2026-09-04_
   - [Weight changes](#weight-changes)
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
+  - [Physical, mental, social, environmental domains](#physical-mental-social-environmental-domains)
 - [Self-management](#self-management)
   - [Communication/Understanding](#communicationunderstanding)
     - [Health literacy](#health-literacy)
@@ -417,7 +418,9 @@ _No observations recorded._
 
 <img src="media/heart-plus.png" alt="Quality of Life" width="48" style="background-color: #f8e4bf; padding: 6px; border-radius: 6px;">
 
-_No dimensions recorded._
+### Physical, mental, social, environmental domains
+
+_No observations recorded._
 
 ---
 

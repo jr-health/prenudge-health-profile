@@ -1,8 +1,8 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-04T10:19:42.591013+00:00",
+  "generated": "2026-09-04T10:44:48.530427+00:00",
   "scope": "combined",
-  "commit": "0c2b7ae4d4bc2b27d92ae786fbc8455ab1f1ce8b",
+  "commit": "e2704afd7ab0c7233803e3340f1f1a478af55fed",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
@@ -2194,7 +2194,33 @@
         "icon_lucide": "heart-plus",
         "icon_upload": "/media/heart-plus.png"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "physical-mental-social-environmental-domains",
+            "dataset-scope": "Minimalset",
+            "category": "quality-of-life",
+            "title": "Körperliche, mentale, soziale, umweltbezogene Lebensqualität",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "physical-mental-social-environmental-domains",
+            "dataset-scope": "Minimalset",
+            "category": "quality-of-life",
+            "title": "Physical, mental, social, environmental domains",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
+        }
+      ]
     },
     {
       "de": {
