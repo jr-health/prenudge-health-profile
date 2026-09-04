@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-02_
+_Version: 0.1.7-test | Generated: 2026-09-04_
 
 ---
 
@@ -746,4 +746,6 @@ _Changes since version v0.1.7-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-04 | Theresa Weitlaner |
+| 2026-09-04 | Theresa.Weitlaner |
 | 2026-09-02 | Theresa.Weitlaner |

@@ -1,11 +1,19 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-02T12:54:39.808674+00:00",
+  "generated": "2026-09-04T10:19:42.591013+00:00",
   "scope": "combined",
-  "commit": "1fafb437f291916f2e94de5efad37d6cb542de6b",
+  "commit": "0c2b7ae4d4bc2b27d92ae786fbc8455ab1f1ce8b",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
+      {
+        "date": "2026-09-04",
+        "author": "Theresa Weitlaner"
+      },
+      {
+        "date": "2026-09-04",
+        "author": "Theresa.Weitlaner"
+      },
       {
         "date": "2026-09-02",
         "author": "Theresa.Weitlaner"
@@ -4476,7 +4484,7 @@
           "de": {
             "template": "dimension",
             "key": "workability",
-            "dataset-scope": "Extension",
+            "dataset-scope": "Minimalset",
             "category": "work",
             "title": "Arbeitsfähigkeit",
             "description_professional": "",
@@ -4487,7 +4495,7 @@
           "en": {
             "template": "dimension",
             "key": "workability",
-            "dataset-scope": "Extension",
+            "dataset-scope": "Minimalset",
             "category": "work",
             "title": "Workability",
             "description_professional": "",
