@@ -8,13 +8,11 @@ The PreNUDGE Health Profile Catalogue is a headless CMS-driven catalogue of heal
 
 ## Running the CMS Locally
 
-The CMS UI runs by serving the repo root over HTTP and navigating to `/admin/`. With `local_backend: true` set in `admin/config.yml`, Sveltia CMS writes directly to local JSON files instead of committing through Gitea.
+The CMS UI runs by serving the repo root over HTTP and navigating to `/admin/`. With `local_backend: true` set in `admin/config.yml`, Sveltia CMS writes directly to local JSON files instead of committing through the git backend.
 
-To start a local backend server, Decap/Sveltia CMS requires the `netlify-cms-proxy-server` (or compatible):
-```
-npx netlify-cms-proxy-server
-```
-Then serve the repo (e.g., `npx serve .` or VS Code Live Server) and open `http://localhost:<port>/admin/`.
+Unlike Decap CMS, Sveltia CMS does **not** use `netlify-cms-proxy-server`/`decap-server` for this — it uses the browser's File System Access API instead (Chromium-based browsers only: Chrome, Edge, Brave). Serve the repo root (e.g., `npx serve .` or VS Code Live Server), open `http://localhost:<port>/admin/`, click "Work with local repository", and pick the repo's root folder in the native directory picker.
+
+For headless/scripted testing (no browser dialog available), temporarily swap the `backend:` block for `{ name: test-repo }` — Sveltia's built-in in-memory mock backend — then revert it; don't leave it committed.
 
 The production CMS backend is the Gitea instance at `https://health.joanneum.at/git`, repo `PreNudge/prenudge-health-profile`, branch `main`.
 
@@ -100,7 +98,7 @@ leave CDN tags (d3) alone, they are already version-pinned in the URL.
 
 ### Custom Widget
 
-`admin/widgets/slug-from-title.js` registers the `id_tech_auto` widget, which auto-generates a kebab-case technical ID from the English title field. It is loaded via a `<script>` tag in `admin/index.html`.
+`admin/widgets/slug-from-title.js` registers the `id_tech_auto` widget, which auto-generates a kebab-case technical ID from the English title field. It is loaded via a `<script>` tag in `admin/index.html` and used as `widget: id_tech_auto` on the `key` field in the `categories`, `dimensions`, and `observations` collections in `admin/config.yml`. It only auto-fills while the field is untouched — once an editor types into `key` manually, auto-updates stop.
 
 ### CMS Runtime
 
@@ -109,7 +107,7 @@ leave CDN tags (d3) alone, they are already version-pinned in the URL.
 ## Key Conventions
 
 - **Technical IDs / keys**: kebab-case (e.g., `physical-activity`, `body-weight`)
-- **Slug source**: categories and dimensions use `{{key}}`; observations use `{{id_tech}}`
+- **Slug source**: categories, dimensions, and observations all use `{{key}}`
 - **Relations**: `dimension` references `category` via `key`; `observation` references `dimension` and `category` via `key`/`id_tech`
 - **Measurement instruments**: embedded as a list within each observation (not a separate collection)
 - **FHIR codes**: stored in `terminology-codes` list with `system`, `code`, and `display` fields

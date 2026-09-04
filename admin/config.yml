@@ -82,9 +82,9 @@ collections:
 
       - label: "Category Key (TECH)"
         name: key
-        widget: string
+        widget: id_tech_auto
         i18n: duplicate
-        hint: "Machine-readable category identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        hint: "Machine-readable category identifier; kebab-case slug auto-generated from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
       - label: "Minimalset / Extension (MED/TECH)"
@@ -174,9 +174,9 @@ collections:
 
       - label: "Indicator dimension key (TECH)"
         name: key
-        widget: string
+        widget: id_tech_auto
         i18n: duplicate
-        hint: "Machine-readable indicator dimension identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        hint: "Machine-readable indicator dimension identifier; kebab-case slug auto-generated from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
       - label: "Minimalset / Extension (MED/TECH)"
@@ -277,9 +277,9 @@ collections:
 
       - label: "Observation key (MED/TECH)"
         name: key
-        widget: string
+        widget: id_tech_auto
         i18n: duplicate
-        hint: "Machine-readable observation identifier; kebab-case slug derived from the English title, e.g. physical-activity"
+        hint: "Machine-readable observation identifier; kebab-case slug auto-generated from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
       - label: "Minimalset / Extension (MED/TECH)"

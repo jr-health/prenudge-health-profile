@@ -25,7 +25,7 @@ const IdTechControl = createClass({
     },
 
     updateFromEnglishTitle(props) {
-        if (this.state.touched || props.value) return;
+        if (this.state.touched) return;
 
         const englishTitle = this.getEnglishTitle(props);
 
