@@ -33,8 +33,29 @@
             "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
-        "terminology-codes": [],
-        "pn-fhir-ig-link": "-",
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "101691-4",
+            "display": "Duration of physical activity"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "77592-4",
+            "display": "Moderate physical activity [IPAQ]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "77593-2",
+            "display": "Vigorous physical activity [IPAQ]"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "246501002",
+            "display": "Technique (Methode: Unterscheidung moderat/intensiv)"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
         "pn-fhir-ig-status": "planned",
         "vis-status": "published",
         "qualification": "",
@@ -62,7 +83,18 @@
             "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "101691-4",
+            "display": "Duration of physical activity"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "68130003",
+            "display": "Physical activity (observable entity)"
+          }
+        ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
         "pn-fhir-ig-status": "amendment needed",
         "vis-status": "published",
@@ -119,8 +151,25 @@
             "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
-        "terminology-codes": [],
-        "pn-fhir-ig-link": "-",
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "101691-4"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "77592-4"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "77593-2"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "246501002"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
         "pn-fhir-ig-status": "planned",
         "vis-status": "published",
         "qualification": "",
@@ -142,7 +191,16 @@
             "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "101691-4"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "68130003"
+          }
+        ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
         "pn-fhir-ig-status": "amendment needed",
         "vis-status": "published",
