@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-04_
+_Version: 0.1.7-test | Generated: 2026-09-06_
 
 ---
 
@@ -253,7 +253,7 @@ Regular endenced-based physical activity, such as brisk walking or cycling, stre
 - **Range of Values:** min: 0 max: >48h/day
 - **Acquisition Frequency:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
 - **Recommended Monitoring Frequency:** pro Tag/täglich
-- **FHIR IG Link:** -
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html
 - **FHIR IG Status:** planned
 - **Sunburst Chart Status:** published
 
@@ -749,6 +749,7 @@ _Changes since version v0.1.7-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |
 | 2026-09-04 | Theresa.Weitlaner |
 | 2026-09-02 | Theresa.Weitlaner |

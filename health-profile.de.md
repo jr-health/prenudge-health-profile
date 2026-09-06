@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.7-test | Generiert: 2026-09-04_
+_Version: 0.1.7-test | Generiert: 2026-09-06_
 
 ---
 
@@ -373,7 +373,7 @@ Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:i
 - **Wertebereich:** min: 0 max: >48h/day
 - **Erfassungsfrequenz:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
 - **Empfohlene Monitoringfrequenz:** pro Tag/täglich
-- **FHIR IG Link:** -
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html
 - **FHIR IG Status:** planned
 - **Sunburst-Chart Status:** published
 
@@ -911,6 +911,7 @@ _Änderungen seit Version v0.1.7-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |
 | 2026-09-04 | Theresa.Weitlaner |
 | 2026-09-02 | Theresa.Weitlaner |
