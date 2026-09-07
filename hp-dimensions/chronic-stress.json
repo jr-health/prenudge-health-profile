@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "chronic-stress",
+    "dataset-scope": "Minimalset",
+    "category": "psychosocial-factors",
+    "title": "Chronischer Stress",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "chronic-stress",
+    "dataset-scope": "Minimalset",
+    "category": "psychosocial-factors",
+    "title": "Chronic stress",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
