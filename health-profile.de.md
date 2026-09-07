@@ -86,6 +86,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-07_
   - [Pfeife/Wasserpfeife](#pfeifewasserpfeife)
     - [Pfeife/Wasserpfeife (Anzahl/Woche)](#pfeifewasserpfeife-anzahlwoche)
   - [Raucherstatus](#raucherstatus)
+    - [Raucher:innenstatus](#raucherinnenstatus)
   - [Zigaretten](#zigaretten)
     - [Entwöhnungsmotivation](#entwöhnungsmotivation)
     - [Entwöhnungsversuche (Anzahl/Jahr)](#entwöhnungsversuche-anzahljahr)
@@ -937,7 +938,65 @@ _Keine Beobachtungen erfasst._
 
 ### Raucherstatus
 
-_Keine Beobachtungen erfasst._
+#### Raucher:innenstatus
+
+**Beschreibung für Fachpersonal:**
+
+Der Raucher:innenstatus zeigt auf, ob die Person aktuell raucht oder nicht bzw. ob diese in der Vergangenheit geraucht hat. Dabei werden auch die Häufigkeit sowie die Art des Konsums erfasst.
+Definition:
+“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)
+“Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)
+“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)
+“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)
+“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)
+Weiterführende Links:
+https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf
+Empfehlung:
+„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products“ (World Health Organization, 2025).
+“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+Laienhafte Information:
+„Dauerhaftes Rauchen verkürzt die Lebenserwartung um mehrere Jahre und hat viele gesundheitliche Nachteile. Es erhöht das Risiko für viele Krebsarten – insbesondere für Lungenkrebs und bösartige Tumoren im Mund- und Halsbereich. Mehr als 85% aller Lungenkrebserkrankungen lassen sich auf das Rauchen zurückführen.“ (IQWiG, 2022a)
+„Wichtig ist: Auch wer nur wenig oder gelegentlich raucht, schadet damit schon der Gesundheit.“ (IQWiG, 2022a)
+Nähere Informationen zum Thema Rauchen:
+https://www.gesundheitsinformation.de/rauchen.html
+https://rauchfrei.at/
+https://rauchfrei-programm.de/
+https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention
+https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content
+https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Aktueller Raucher:innenstatus (Nichtraucher:in, Ex-Raucher:in, Raucher:in)
+- **Datenformat:** F1: Kategoriell (3 Antwortmöglichkeiten) F2: Dichotom F3: Kategoriell (4 Antwortmöglichkeiten) F4: Zigaretten pro Tag, Ganzzahl (integer) F5: Anzahl der Jahre, Ganzzahl (integer) F6: Kategoriell (4 Antwortmöglichkeiten) F7: Kategoriell (4 Antwortmöglichkeiten) F8: Kategoriell (4 Antwortmöglichkeiten)
+- **Wertebereich:** F1, F2, F3, F6, F7, F8: nicht zutreffend
+F4:
+min: 1
+max: 140
+F5:
+min: 1
+max: kann nicht höher als das Alter sein
+- **Erfassungsfrequenz:** 1x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Rohdatenerhebung 2x pro Jahr (kategorische Variablen): Nichtraucher:in, Ex-Raucher:in, Raucher:in
+In der Folge nur Veränderungen abfragen
+Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl der Zigaretten pro Tag (pack years) (numerische/metrische Variable)
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Jede Form des Tabakkonsums ist gesundheitsschädlich, es gibt keine unbedenkliche Menge an Tabak (World Health Organization, 2025)
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
 ### Zigaretten
 

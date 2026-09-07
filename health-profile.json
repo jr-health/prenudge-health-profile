@@ -1,8 +1,8 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-07T23:29:44.546019+00:00",
+  "generated": "2026-09-07T23:49:09.900628+00:00",
   "scope": "combined",
-  "commit": "920237c1a97be1cc07f769ab0cd24fbf16900561",
+  "commit": "c55a751066121538c1df543788d5e433f0a26e53",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
@@ -4036,7 +4036,159 @@
             "key": "smoking-status",
             "dataset-scope": "Minimalset"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "smoking-status",
+                "dataset-scope": "Minimalset",
+                "title": "Raucher:innenstatus",
+                "description": "Der Raucher:innenstatus zeigt auf, ob die Person aktuell raucht oder nicht bzw. ob diese in der Vergangenheit geraucht hat. Dabei werden auch die Häufigkeit sowie die Art des Konsums erfasst.\nDefinition:\n“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)\n“Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)\n“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)\n“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)\n“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)\nWeiterführende Links:\nhttps://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf\nEmpfehlung:\n„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products“ (World Health Organization, 2025).\n“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).",
+                "category": "smoking",
+                "dimension": "smoking-status",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\n„Dauerhaftes Rauchen verkürzt die Lebenserwartung um mehrere Jahre und hat viele gesundheitliche Nachteile. Es erhöht das Risiko für viele Krebsarten – insbesondere für Lungenkrebs und bösartige Tumoren im Mund- und Halsbereich. Mehr als 85% aller Lungenkrebserkrankungen lassen sich auf das Rauchen zurückführen.“ (IQWiG, 2022a)\n„Wichtig ist: Auch wer nur wenig oder gelegentlich raucht, schadet damit schon der Gesundheit.“ (IQWiG, 2022a)\nNähere Informationen zum Thema Rauchen:\nhttps://www.gesundheitsinformation.de/rauchen.html\nhttps://rauchfrei.at/\nhttps://rauchfrei-programm.de/\nhttps://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention\nhttps://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content\nhttps://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+                    "specific-questions": "ATHIS\n1) SK1: Rauchen Sie Tabakprodukte (Nicht gemeint sind Tabakerhitzer, elektronische Zigaretten oder ähnliche elektronische Produkte).\nAntwortmöglichkeiten: 1) Nein; 2) Ja, gelegentlich; 3) Ja, täglich\n2) SK2A: Rauchen Sie täglich Zigaretten aus der Schachtel oder selbstgedrehte Zigaretten?\nAntwortmöglichkeit: Ja, Nein\n3) Haben Sie in der Vergangenheit Tabakprodukte geraucht?\nAntwortmöglichkeiten: 1) Nein, 2) Ja, gelegentlich, 3) Ja, täglich\n4) Wie viele Zigaretten haben Sie durchschnittlich pro Tag geraucht?\nAntwortmöglichkeit: Zigaretten pro Tag\n5) SK4: Wie viele Jahre lang haben Sie täglich geraucht? Zählen Sie alle Zeitabschnitte, an denen Sie täglich geraucht haben, zusammen. Wenn Sie sich nicht an die genaue Anzahl der Jahre erinnern können, geben Sie bitte eine Schätzung an.\nAntwortmöglichkeiten: Anzahl der Jahre\n6) SK6A: Nutzen Sie aktuell Tabakerhitzer, bei denen Tabaksticks oder loser Tabak erhitzt werden, zum Beispiel der Marken IQOS, glo, Ploom oder PAX?\nAntwortmöglichkeiten: 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n7) SK6B: Konsumieren Sie derzeit elektronische Zigaretten oder ähnliche elektronische Produkte? Andere elektronische Produkte sind zum Beispiel E-Shisha oder E-Pfeife.\nAntwortmöglichkeiten: 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n8) SK6C: Konsumieren Sie derzeit Nikotinbeutel?\nAntwortmöglichkeiten: 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.",
+                    "unit": "Aktueller Raucher:innenstatus (Nichtraucher:in, Ex-Raucher:in, Raucher:in)",
+                    "data-format": "F1: Kategoriell (3 Antwortmöglichkeiten)\nF2: Dichotom\nF3: Kategoriell (4 Antwortmöglichkeiten)\nF4: Zigaretten pro Tag, Ganzzahl (integer)\nF5: Anzahl der Jahre, Ganzzahl (integer)\nF6: Kategoriell (4 Antwortmöglichkeiten)\nF7: Kategoriell (4 Antwortmöglichkeiten)\nF8: Kategoriell (4 Antwortmöglichkeiten)",
+                    "data-type": "",
+                    "range-of-vales": "F1, F2, F3, F6, F7, F8: nicht zutreffend\nF4:\nmin: 1\nmax: 140\nF5:\nmin: 1\nmax: kann nicht höher als das Alter sein",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Rohdatenerhebung 2x pro Jahr (kategorische Variablen): Nichtraucher:in, Ex-Raucher:in, Raucher:in\nIn der Folge nur Veränderungen abfragen\nWenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl der Zigaretten pro Tag (pack years) (numerische/metrische Variable)",
+                    "norms": [
+                      {
+                        "specific-norm": "Jede Form des Tabakkonsums ist gesundheitsschädlich, es gibt keine unbedenkliche Menge an Tabak (World Health Organization, 2025)"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "72166-2",
+                        "display": "Tobacco smoking status"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "449868002",
+                        "display": "Smokes tobacco daily"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "8517006",
+                        "display": "Ex-smoker"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35341000087101",
+                        "display": "Uses e-cigarette daily"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35371000087109",
+                        "display": "Uses e-cigarette occasionally"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "266919005",
+                        "display": "Never smoked tobacco"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "221000119102",
+                        "display": "Never smoked any substance"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "598111000000509",
+                        "display": "Nicotine pouch (product)"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
+              },
+              "en": {
+                "template": "observation",
+                "key": "smoking-status",
+                "dataset-scope": "Minimalset",
+                "title": "Smoking status",
+                "description": "",
+                "category": "smoking",
+                "dimension": "smoking-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "data-type": "",
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "range-of-vales": "F1, F2, F3, F6, F7, F8: nicht zutreffend\nF4:\nmin: 1\nmax: 140\nF5:\nmin: 1\nmax: kann nicht höher als das Alter sein",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Rohdatenerhebung 2x pro Jahr (kategorische Variablen): Nichtraucher:in, Ex-Raucher:in, Raucher:in\nIn der Folge nur Veränderungen abfragen\nWenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl der Zigaretten pro Tag (pack years) (numerische/metrische Variable)",
+                    "sources": [
+                      {
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "72166-2"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "449868002"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "8517006"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35341000087101"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35371000087109"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "266919005"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "221000119102"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "598111000000509"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "Fragebogen"
+              }
+            }
+          ]
         },
         {
           "de": {

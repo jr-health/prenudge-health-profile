@@ -86,6 +86,7 @@ _Version: 0.1.7-test | Generated: 2026-09-07_
   - [pipe hookah](#pipe-hookah)
     - [pipe hookah numbers per week](#pipe-hookah-numbers-per-week)
   - [Smoking Status](#smoking-status)
+    - [Smoking status](#smoking-status)
   - [cigarettes](#cigarettes)
     - [motivation to quit](#motivation-to-quit)
     - [attempts to give up](#attempts-to-give-up)
@@ -672,7 +673,28 @@ _No observations recorded._
 
 ### Smoking Status
 
-_No observations recorded._
+#### Smoking status
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** F1, F2, F3, F6, F7, F8: nicht zutreffend
+F4:
+min: 1
+max: 140
+F5:
+min: 1
+max: kann nicht höher als das Alter sein
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Rohdatenerhebung 2x pro Jahr (kategorische Variablen): Nichtraucher:in, Ex-Raucher:in, Raucher:in
+In der Folge nur Veränderungen abfragen
+Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl der Zigaretten pro Tag (pack years) (numerische/metrische Variable)
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
 ### cigarettes
 
