@@ -384,6 +384,14 @@ max: 24 Stunden
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/26634120/
 
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** min: 0 Stunden
+max: 24 Stunden
+- **Acquisition Frequency:** 2x/Jahr
+- **Recommended Monitoring Frequency:** Täglich
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ---
 
 ## Psychosocial Factors

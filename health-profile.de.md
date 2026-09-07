@@ -634,6 +634,21 @@ max: 24 Stunden
 **Quellen:**
 - [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
+**Messinstrument 2** — Wearable device / sensor · automated
+- **Einheit:** Stunden und/oder Minuten (Minuten bitte in Stunden umrechnen!)
+- **Datenformat:** metrisch / kontinuierlich (kontinuierliche Variable)
+- **Wertebereich:** min: 0 Stunden
+max: 24 Stunden
+- **Erfassungsfrequenz:** 2x/Jahr
+- **Empfohlene Monitoringfrequenz:** Täglich
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- nicht zutreffend
+
+**Scoring-Algorithmus:** (Minuten in Stunden umrechnen)
+
 ---
 
 ## Psychosoziale Faktoren
