@@ -50,6 +50,30 @@
         "vis-status": "draft",
         "qualification": "",
         "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "device": "Wearable, Smartphone",
+        "specific-questions": "",
+        "unit": "Stunden und/oder Minuten\n(Minuten bitte in Stunden umrechnen!)",
+        "data-format": "metrisch / kontinuierlich (kontinuierliche Variable)",
+        "data-type": "",
+        "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "Täglich",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend"
+          }
+        ],
+        "scoring-algorithm": "(Minuten in Stunden umrechnen)",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebogen und/oder Wearable"
@@ -67,27 +91,46 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "87705-0"
+            "code": "87705-0",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "415510005"
+            "code": "415510005",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "data-type": "",
+        "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "Täglich",
+        "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft"
       }
