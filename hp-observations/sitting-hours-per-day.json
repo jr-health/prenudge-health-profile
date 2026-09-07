@@ -1,0 +1,97 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "sitting-hours-per-day",
+    "dataset-scope": "Minimalset",
+    "title": "Sitzen",
+    "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\nDefinition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
+    "category": "physical-activity",
+    "dimension": "sitting",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).\nNähere Informationen zu den nationalen Bewegungsempfehlungen:\nhttps://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nhttps://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
+        "specific-questions": "EHIS_PAQ (Q9)\nQ9 (=PE9 ATHIS): Bei der nächsten Frage geht es um die Zeit, die Sie mit Sitzen oder Ruhen verbringen, bei der Arbeit, zu Hause, zur Fortbewegung oder mit Freunden, zum Beispiel am Schreibtisch sitzen, mit Freunden zusammensitzen, Auto, Bus, Zug fahren, Karten spielen oder fernsehen. – Die Zeit, die Sie mit Schlafen verbringen, sollte ausgeschlossen werden.\nWie viel Zeit verbringen Sie insgesamt an einem typischen Tag mit Sitzen oder Ruhen?",
+        "unit": "Stunden (pro Tag)",
+        "data-format": "Ganzzahl (integer)",
+        "data-type": "",
+        "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "EHIS-PAQ (Finger et al., 2015)",
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "87705-0",
+            "display": "Sedentary activity 24 hour"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "415510005",
+            "display": "Sedentary lifestyle (finding)"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen und/oder Wearable"
+  },
+  "en": {
+    "template": "observation",
+    "key": "sitting-hours-per-day",
+    "dataset-scope": "Minimalset",
+    "title": "Sitting time (hours/day)",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "sitting",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "sources": [
+          {
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "87705-0"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "415510005"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebogen und/oder Wearable"
+  }
+}
