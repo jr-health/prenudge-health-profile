@@ -286,6 +286,33 @@ max: in Minuten: 15.120/Woche
 
 #### Steps (per day)
 
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Q2:
+min: 0
+max: 7
+- **Acquisition Frequency:** 2x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: täglich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/26634120/
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** min: 0 Schritte/Tag
+max: n.a.
+- **Acquisition Frequency:** 2x Jahr
+7 Tage Tragedauer
+Mindestens 4 valide Tage
+Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
+- **Recommended Monitoring Frequency:** Täglich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Time of light physical activity per day
 
 ##### Measurement Instruments

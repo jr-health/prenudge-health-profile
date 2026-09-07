@@ -1,8 +1,8 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-07T22:46:44.648720+00:00",
+  "generated": "2026-09-07T22:56:38.070162+00:00",
   "scope": "combined",
-  "commit": "cdc06992626a95b239a4e597f312d3ec00507ce6",
+  "commit": "5dfcd7667a23e7454c1759399c79cbbbbbcacc5f",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
@@ -1181,34 +1181,143 @@
           "observations": [
             {
               "de": {
-                "unit": "min",
-                "dimension": "everyday-activity",
-                "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
-                "data_format": "integer",
-                "population": "",
-                "citizen-info": "",
-                "title": "Schrittzahl (pro Tag)",
-                "measurement-instrument": [],
                 "template": "observation",
-                "id_tech": "minutes-moderate-physical-activity-per-week",
-                "description": "",
-                "category": "physical-activity",
                 "key": "steps-per-day",
-                "dataset-scope": "Minimalset"
+                "dataset-scope": "Minimalset",
+                "title": "Schrittzahl (pro Tag)",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\nDefinition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
+                "category": "physical-activity",
+                "dimension": "everyday-activity",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\n„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nBroschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
+                    "specific-questions": "EHIS-PAQ (Q2, Q3)\nQ2(=PE2 ATHIS): An wie vielen Tagen in einer typischen Woche gehen Sie mindestens 10 Minuten ohne Unterbrechung zu Fuß, um von Ort zu Ort zu gelangen? (Anzahl der Tage)\nQ3(=PE3 ATHIS): Wie lange gehen Sie an einem typischen Tag zu Fuß, um von Ort zu Ort zu gelangen?\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag; 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr",
+                    "unit": "Q2: Anzahl der Tage\nQ3: Minuten pro Tag",
+                    "data-format": "Q2: Anzahl der Tage mit Alltagsaktivität, Ganzzahl (integer)\nQ3: ordinal (5 Antwortmöglichkeiten)",
+                    "data-type": "",
+                    "range-of-vales": "Q2:\nmin: 0\nmax: 7",
+                    "acquisition-frequency": "2x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: täglich",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "",
+                    "sources": [
+                      {
+                        "source-description": "EHIS-PAQ (Finger et al., 2015)",
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "41950-7",
+                        "display": "Number of steps in 24 hour, Measured"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "device": "Wearables",
+                    "specific-questions": "",
+                    "unit": "Schritte/Tag",
+                    "data-format": "Ganzzahl (integer)",
+                    "data-type": "",
+                    "range-of-vales": "min: 0 Schritte/Tag\nmax: n.a.",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+                    "recommended-monitoring-frequency": "Täglich",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "41950-7",
+                        "display": "Number of steps in 24 hour, Measured"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "",
+                "data_format": "integer",
+                "id_tech": "minutes-moderate-physical-activity-per-week",
+                "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
+                "unit": "min"
               },
               "en": {
-                "dimension": "everyday-activity",
-                "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
-                "data_format": "integer",
-                "population": "",
-                "citizen-info": "",
-                "title": "Steps (per day)",
                 "template": "observation",
-                "id_tech": "minutes-moderate-physical-activity-per-week",
+                "key": "steps-per-day",
+                "dataset-scope": "Minimalset",
+                "title": "Steps (per day)",
                 "description": "",
                 "category": "physical-activity",
-                "key": "steps-per-day",
-                "dataset-scope": "Minimalset"
+                "dimension": "everyday-activity",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "data-type": "",
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "range-of-vales": "Q2:\nmin: 0\nmax: 7",
+                    "acquisition-frequency": "2x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: täglich",
+                    "sources": [
+                      {
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "41950-7"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "data-type": "",
+                    "range-of-vales": "min: 0 Schritte/Tag\nmax: n.a.",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+                    "recommended-monitoring-frequency": "Täglich",
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "41950-7"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "",
+                "data_format": "integer",
+                "id_tech": "minutes-moderate-physical-activity-per-week",
+                "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>"
               }
             },
             {

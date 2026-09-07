@@ -439,6 +439,64 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 #### Schrittzahl (pro Tag)
 
+**Beschreibung für Fachpersonal:**
+
+Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.
+Definition:
+„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).
+Empfehlung: Kein wissenschaftlicher Zielwert vorhanden
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+Laienhafte Information:
+„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)
+“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)
+Weiterführende Links:
+Die Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/
+Österreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf
+Broschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Q2: Anzahl der Tage Q3: Minuten pro Tag
+- **Datenformat:** Q2: Anzahl der Tage mit Alltagsaktivität, Ganzzahl (integer) Q3: ordinal (5 Antwortmöglichkeiten)
+- **Wertebereich:** Q2:
+min: 0
+max: 7
+- **Erfassungsfrequenz:** 2x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optimum: täglich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- nicht zutreffend
+
+**Quellen:**
+- [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
+
+**Messinstrument 2** — Wearable device / sensor · automated
+- **Einheit:** Schritte/Tag
+- **Datenformat:** Ganzzahl (integer)
+- **Wertebereich:** min: 0 Schritte/Tag
+max: n.a.
+- **Erfassungsfrequenz:** 2x Jahr
+7 Tage Tragedauer
+Mindestens 4 valide Tage
+Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
+- **Empfohlene Monitoringfrequenz:** Täglich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- nicht zutreffend
+
+**Scoring-Algorithmus:** nicht zutreffend
+
 #### leicht körperlicher Aktivität (Minuten/Tag)
 
 ##### Messinstrumente
