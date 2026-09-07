@@ -33,6 +33,7 @@ _Version: 0.1.7-test | Generated: 2026-09-07_
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
     - [Muscle-strengthening exercises (days/week)](#muscle-strengthening-exercises-daysweek)
   - [Sitting](#sitting)
+    - [Sitting time (hours/day)](#sitting-time-hoursday)
 - [Psychosocial Factors](#psychosocial-factors)
   - [Access to care](#access-to-care)
     - [Potential access barriers](#potential-access-barriers)
@@ -367,7 +368,21 @@ Mindestens 4 valide Tage
 
 ### Sitting
 
-_No observations recorded._
+#### Sitting time (hours/day)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: 0 Stunden
+max: 24 Stunden
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/26634120/
 
 ---
 

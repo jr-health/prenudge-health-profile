@@ -33,6 +33,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-07_
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
     - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
+    - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Zugang zu Versorgung](#zugang-zu-versorgung)
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
@@ -591,7 +592,47 @@ Mindestens 4 valide Tage
 
 ### Sitzen
 
-_Keine Beobachtungen erfasst._
+#### Sitzen
+
+**Beschreibung für Fachpersonal:**
+
+Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.
+Definition von sitzendem/ruhendem Verhalten:
+“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).
+“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).
+Empfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).
+Nähere Informationen zu den nationalen Bewegungsempfehlungen:
+https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf
+Weiterführende Links:
+Die Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/
+https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Stunden (pro Tag)
+- **Datenformat:** Ganzzahl (integer)
+- **Wertebereich:** min: 0 Stunden
+max: 24 Stunden
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- nicht zutreffend
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
 ---
 
