@@ -1,11 +1,15 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-06T21:58:23.786850+00:00",
+  "generated": "2026-09-07T12:08:07.031816+00:00",
   "scope": "combined",
-  "commit": "9f63542e484f4b96ea70ae79ab8b6ffe330c0eff",
+  "commit": "e5021fbd79c774a25239f9d17e416a269e42ceb1",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
+      {
+        "date": "2026-09-07",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-09-06",
         "author": "felixrath"
@@ -1578,6 +1582,31 @@
               }
             }
           ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "chronic-stress",
+            "dataset-scope": "Minimalset",
+            "category": "psychosocial-factors",
+            "title": "Chronischer Stress",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "chronic-stress",
+            "dataset-scope": "Minimalset",
+            "category": "psychosocial-factors",
+            "title": "Chronic stress",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": []
         },
         {
           "de": {

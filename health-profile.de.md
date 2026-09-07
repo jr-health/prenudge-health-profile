@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.7-test | Generiert: 2026-09-06_
+_Version: 0.1.7-test | Generiert: 2026-09-07_
 
 ---
 
@@ -37,6 +37,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-06_
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
   - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
     - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
+  - [Chronischer Stress](#chronischer-stress)
   - [Fähigkeit zum Coping](#fähigkeit-zum-coping)
     - [Selbstbericht über Resilienz](#selbstbericht-über-resilienz)
   - [Müdigkeit / Leistungsabfall](#müdigkeit-leistungsabfall)
@@ -494,6 +495,10 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+### Chronischer Stress
+
+_Keine Beobachtungen erfasst._
+
 ### Fähigkeit zum Coping
 
 #### Selbstbericht über Resilienz
@@ -911,6 +916,7 @@ _Änderungen seit Version v0.1.7-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-07 | Theresa Weitlaner |
 | 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |
 | 2026-09-04 | Theresa.Weitlaner |

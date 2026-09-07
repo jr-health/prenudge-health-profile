@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-06_
+_Version: 0.1.7-test | Generated: 2026-09-07_
 
 ---
 
@@ -37,6 +37,7 @@ _Version: 0.1.7-test | Generated: 2026-09-06_
     - [Potential access barriers](#potential-access-barriers)
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
     - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
+  - [Chronic stress](#chronic-stress)
   - [Coping ability](#coping-ability)
     - [Self-reported resilience](#self-reported-resilience)
   - [Fatigue / Decline in performance](#fatigue-decline-in-performance)
@@ -335,6 +336,10 @@ _No observations recorded._
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### Chronic stress
+
+_No observations recorded._
 
 ### Coping ability
 
@@ -749,6 +754,7 @@ _Changes since version v0.1.7-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-07 | Theresa Weitlaner |
 | 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |
 | 2026-09-04 | Theresa.Weitlaner |
