@@ -31,6 +31,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-07_
   - [Flexibilitäts- und Gleichgewichtstraining](#flexibilitäts--und-gleichgewichtstraining)
     - [Beweglichkeits/Flexibilitätseinheiten (Einheiten/Woche)](#beweglichkeitsflexibilitätseinheiten-einheitenwoche)
   - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
+    - [Muskelkräftigende Übungen](#muskelkräftigende-übungen)
   - [Sitzen](#sitzen)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Zugang zu Versorgung](#zugang-zu-versorgung)
@@ -465,7 +466,70 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 
 ### Muskelkräftigende Übungen
 
-_Keine Beobachtungen erfasst._
+#### Muskelkräftigende Übungen
+
+**Beschreibung für Fachpersonal:**
+
+Dieser Gesundheitsindikator zeigt auf, an wie vielen Tagen pro Woche die Personen muskelkräftigende Übungen durchgeführt haben. Hierzu gehören z.B. Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht und Gewichtstrainings an Maschinen oder mit freien Gewichten.
+Definition:
+„In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen.” (Fonds Gesundes Österreich, 2020).
+“Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020).
+“Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).
+Weiterführende Links:
+Österreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf
+WHO guidelines on physical activity and sedentary behaviour: https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content
+Empfehlung:
+Laut den österreichischen Bewegungsempfehlungen „sollten Erwachsene an 2 oder mehr Tagen der Woche muskelkräftigende Übungen durchführen, bei denen alle großen Muskelgruppen berücksichtigt werden.“ (Fonds Gesundes Österreich, 2020)
+Nicht aufeinanderfolgende Tage
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+Laienhafte Information:
+“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).
+„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)
+Weiterführende Links:
+Österreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf
+Broschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Anzahl der Tage (pro Woche)
+- **Datenformat:** kategoriell (7 Antwortmöglichkeiten)
+- **Wertebereich:** nicht zutreffend
+- **Erfassungsfrequenz:** 2x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Erwachsene: 2 oder mehr Tage der Woche (Fonds Gesundes Österreich, 2020)
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
+
+**Messinstrument 2** — Wearable device / sensor · automated
+- **Einheit:** Anzahl der Tage (pro Woche)
+- **Datenformat:** Ganzzahl (integer)
+- **Wertebereich:** min: 0
+max: 7
+- **Erfassungsfrequenz:** 2x Jahr
+7 Tage Tragedauer
+Mindestens 4 valide Tage
+- **Empfohlene Monitoringfrequenz:** Wöchentlich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Erwachsene: 2 oder mehr Tage der Woche muskelkräftigende Übungen (Fonds Gesundes Österreich, 2020)
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 ### Sitzen
 
@@ -916,6 +980,7 @@ _Änderungen seit Version v0.1.7-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-08 | felixrath |
 | 2026-09-07 | Theresa Weitlaner |
 | 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |

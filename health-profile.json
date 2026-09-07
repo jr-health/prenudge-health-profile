@@ -1,11 +1,15 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-07T12:11:51.663137+00:00",
+  "generated": "2026-09-07T22:46:44.648720+00:00",
   "scope": "combined",
-  "commit": "78cacdc06ea28dd802844f8f973c698b877d8007",
+  "commit": "cdc06992626a95b239a4e597f312d3ec00507ce6",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
+      {
+        "date": "2026-09-08",
+        "author": "felixrath"
+      },
       {
         "date": "2026-09-07",
         "author": "Theresa Weitlaner"
@@ -1392,7 +1396,156 @@
             "key": "muscle-strengthening-exercises",
             "dataset-scope": "Minimalset"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "muscle-strengthening-exercises-daysweek",
+                "dataset-scope": "Minimalset",
+                "title": "Muskelkräftigende Übungen",
+                "description": "Dieser Gesundheitsindikator zeigt auf, an wie vielen Tagen pro Woche die Personen muskelkräftigende Übungen durchgeführt haben. Hierzu gehören z.B. Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht und Gewichtstrainings an Maschinen oder mit freien Gewichten.\nDefinition:\n„In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen.” (Fonds Gesundes Österreich, 2020).\n“Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020).\n“Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWHO guidelines on physical activity and sedentary behaviour: https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content\nEmpfehlung:\nLaut den österreichischen Bewegungsempfehlungen „sollten Erwachsene an 2 oder mehr Tagen der Woche muskelkräftigende Übungen durchführen, bei denen alle großen Muskelgruppen berücksichtigt werden.“ (Fonds Gesundes Österreich, 2020)\nNicht aufeinanderfolgende Tage",
+                "category": "physical-activity",
+                "dimension": "muscle-strengthening-exercises",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\n“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nBroschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
+                    "specific-questions": "EHIS_PAQ (Q8)\nQ8(=PE8 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie körperliche Aktivitäten aus, die speziell für den Aufbau oder die Kräftigung der Muskulatur gedacht sind? Zum Beispiel Krafttraining oder Kräftigungsübungen (mit Gewichten, Thera-Band, eigenem Körpergewicht), Kniebeugen, Liegestützen oder Sit-ups.\nAntwortmöglichkeiten: 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche",
+                    "unit": "Anzahl der Tage (pro Woche)",
+                    "data-format": "kategoriell (7 Antwortmöglichkeiten)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "2x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "Erwachsene: 2 oder mehr Tage der Woche (Fonds Gesundes Österreich, 2020)"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "EHIS-PAQ (Finger et al., 2015)",
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82291-6",
+                        "display": "Frequency of muscle-strengthening physical activity"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "266741004",
+                        "display": "Muscle strength exercise (procedure)"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "device": "Wearables",
+                    "specific-questions": "",
+                    "unit": "Anzahl der Tage (pro Woche)",
+                    "data-format": "Ganzzahl (integer)",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 7",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
+                    "recommended-monitoring-frequency": "Wöchentlich",
+                    "norms": [
+                      {
+                        "specific-norm": "Erwachsene: 2 oder mehr Tage der Woche muskelkräftigende Übungen (Fonds Gesundes Österreich, 2020)"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82291-6",
+                        "display": "Frequency of muscle-strengthening physical activity"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": [
+                      "pandocs"
+                    ]
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "muscle-strengthening-exercises-daysweek",
+                "dataset-scope": "Minimalset",
+                "title": "Muscle-strengthening exercises (days/week)",
+                "description": "",
+                "category": "physical-activity",
+                "dimension": "muscle-strengthening-exercises",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "2x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "sources": [
+                      {
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82291-6"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "266741004"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 7",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
+                    "recommended-monitoring-frequency": "Wöchentlich",
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82291-6"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "app-providers": [
+                      "pandocs"
+                    ]
+                  }
+                ],
+                "discussion": ""
+              }
+            }
+          ]
         },
         {
           "de": {

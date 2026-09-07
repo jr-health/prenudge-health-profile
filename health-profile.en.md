@@ -31,6 +31,7 @@ _Version: 0.1.7-test | Generated: 2026-09-07_
   - [Flexibility and Balance](#flexibility-and-balance)
     - [lessons per week](#lessons-per-week)
   - [Muscle-strengthening Exercises](#muscle-strengthening-exercises)
+    - [Muscle-strengthening exercises (days/week)](#muscle-strengthening-exercises-daysweek)
   - [Sitting](#sitting)
 - [Psychosocial Factors](#psychosocial-factors)
   - [Access to care](#access-to-care)
@@ -311,7 +312,31 @@ max: in Minuten: 15.120/Woche
 
 ### Muscle-strengthening Exercises
 
-_No observations recorded._
+#### Muscle-strengthening exercises (days/week)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** 2x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/26634120/
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** min: 0
+max: 7
+- **Acquisition Frequency:** 2x Jahr
+7 Tage Tragedauer
+Mindestens 4 valide Tage
+- **Recommended Monitoring Frequency:** Wöchentlich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ### Sitting
 
@@ -754,6 +779,7 @@ _Changes since version v0.1.7-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-08 | felixrath |
 | 2026-09-07 | Theresa Weitlaner |
 | 2026-09-06 | felixrath |
 | 2026-09-04 | Theresa Weitlaner |
