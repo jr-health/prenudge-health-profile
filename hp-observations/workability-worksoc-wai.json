@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "Work-SoC (3 Faktoren):\nHandhabbarkeit\nSinnhaftigkeit\nVerstehbarkeit\nWAI:\nWork Ability Index-Gesamtwert (durch Addieren der Punkte)",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – Work-SoC Questionnaire und WAI",
+            "system": "Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
         "pn-fhir-ig-status": "draft",
@@ -51,14 +56,26 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "Work-SoC:\nmin: 9 (pro Item maximal 7)\nmax: 63\nWAI:\nmin: 7\nmax: 49",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "2x pro Jahr",
+        "norms": [],
+        "sources": [
+          {
+            "system": "Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998"
+          }
+        ],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
