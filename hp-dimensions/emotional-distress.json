@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "emotional-distress",
+    "dataset-scope": "Minimalset",
+    "category": "psychosocial-factors",
+    "title": "Emotionale Belastung",
+    "description_professional": "Definition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)",
+    "description_layman": "„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "emotional-distress",
+    "dataset-scope": "Minimalset",
+    "category": "psychosocial-factors",
+    "title": "Emotional distress",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
