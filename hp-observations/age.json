@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – Selbst definierte Frage",
+            "system": "Nicht anwendbar"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
         "pn-fhir-ig-status": "draft",
@@ -51,14 +56,26 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "min: 0\nmax: 120",
         "acquisition-frequency": "einmalig",
         "recommended-monitoring-frequency": "einmalig",
+        "norms": [],
+        "sources": [
+          {
+            "system": "Nicht anwendbar"
+          }
+        ],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "ID-Austria (automatische Übernahme)"
