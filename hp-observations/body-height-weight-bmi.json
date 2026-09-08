@@ -1,0 +1,141 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "body-height-weight-bmi",
+    "dataset-scope": "Minimalset",
+    "title": "Körpergröße und Körpergewicht",
+    "description": "Empfehlung: Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.\nDieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.\nDefinition:\n„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):\nKörpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\nEmpfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\nIn Kategorien:\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):\nGewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)\nWeiterführende Links:\nhttps://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Selbstangaben",
+        "specific-questions": "Frage (Selbstangaben)\nWie groß sind Sie in cm? (eine Kommastelle!)\nWelches Gewicht in kg haben Sie zurzeit? (eine Kommastelle!)",
+        "unit": "Body-Mass-Index (kg/m²)",
+        "data-format": "BMI (ordinale Maßzahl)",
+        "data-type": "",
+        "range-of-vales": "min: <18,5\nmax: ≥ 40",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
+        "norms": [
+          {
+            "specific-norm": "Untergewicht: < 18,5 kg/m²\nNormalgewicht: 18,5–24,9 kg/m²\nÜbergewicht: 25–29,9 kg/m²\nAdipositas Grad I: 30–34,9 kg/m²\nAdipositas Grad II: 35–39,9 kg/m²\nAdipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)"
+          }
+        ],
+        "scoring-algorithm": "BMI = Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "39156-5",
+            "display": "Body mass index (BMI) [Ratio]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "8302-2",
+            "display": "Body height"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "35425004",
+            "display": "Normal body mass index"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162863004",
+            "display": "Body mass index 25-29 - overweight"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "238131007",
+            "display": "Overweight"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162864005",
+            "display": "Body mass index 30+ - obesity"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "414916001",
+            "display": "Obesity"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragen (Selbstangaben)"
+  },
+  "en": {
+    "template": "observation",
+    "key": "body-height-weight-bmi",
+    "dataset-scope": "Minimalset",
+    "title": "Body height, weight and BMI",
+    "description": "",
+    "category": "anthropometry",
+    "dimension": "heigth-weight",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "min: <18,5\nmax: ≥ 40",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "39156-5"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "8302-2"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "29463-7"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "35425004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162863004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "238131007"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "162864005"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "414916001"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragen (Selbstangaben)"
+  }
+}
