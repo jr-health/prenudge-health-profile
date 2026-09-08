@@ -1,0 +1,66 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "age",
+    "dataset-scope": "Minimalset",
+    "title": "Alter",
+    "description": "Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).\nEmpfehlung: nicht anwendbar",
+    "category": "sociodemographic-data",
+    "dimension": "age",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Nicht erforderlich",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Selbst definierte Frage",
+        "specific-questions": "Frage: Wann wurden Sie geboren?",
+        "unit": "Jahre",
+        "data-format": "Datum (JJJJ-MM-TT)",
+        "data-type": "",
+        "range-of-vales": "min: 0\nmax: 120",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend\\*\n\\*Für den Fall, dass später eine Kategorisierung erforderlich ist, wäre eine derartige Einteilung möglich: https://flexikon.doccheck.com/de/Alter"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "ID-Austria (automatische Übernahme)"
+  },
+  "en": {
+    "template": "observation",
+    "key": "age",
+    "dataset-scope": "Minimalset",
+    "title": "Age",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "age",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "min: 0\nmax: 120",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig",
+        "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "ID-Austria (automatische Übernahme)"
+  }
+}
