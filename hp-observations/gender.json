@@ -1,0 +1,105 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "gender",
+    "dataset-scope": "Minimalset",
+    "title": "Geschlecht",
+    "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\nDefinition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+    "category": "sociodemographic-data",
+    "dimension": "gender",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Nicht erforderlich",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Selbst definierte Frage",
+        "specific-questions": "Frage: Mit welchem Geschlecht würden Sie sich identifizieren?",
+        "unit": "Geschlecht",
+        "data-format": "Geschlecht (nominal)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "33791000087105",
+            "display": "Identifies as nonbinary gender"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "911581000124109",
+            "display": "Identifies as transgender woman"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "911601000124109",
+            "display": "Identifies as transgender man"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "551641000124102",
+            "display": "Identifies as cisgender"
+          }
+        ],
+        "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "ID-Austria (automatische Übernahme)"
+  },
+  "en": {
+    "template": "observation",
+    "key": "gender",
+    "dataset-scope": "Minimalset",
+    "title": "Gender",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "gender",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "33791000087105"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "911581000124109"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "911601000124109"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "551641000124102"
+          }
+        ],
+        "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "ID-Austria (automatische Übernahme)"
+  }
+}
