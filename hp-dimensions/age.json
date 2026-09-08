@@ -5,8 +5,8 @@
     "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Alter",
-    "description_professional": "",
-    "description_layman": "",
+    "description_professional": "Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).\nEmpfehlung: nicht anwendbar",
+    "description_layman": "Nicht erforderlich",
     "verified-health-links": [],
     "discussion": ""
   },
