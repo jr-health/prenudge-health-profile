@@ -84,7 +84,7 @@
         ]
       }
     ],
-    "discussion": ""
+    "discussion": "Fragebogen und/oder Wearable"
   },
   "en": {
     "template": "observation",
@@ -100,49 +100,65 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "2x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "82291-6"
+            "code": "82291-6",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "266741004"
-          }
-        ],
-        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
-        "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
-      },
-      {
-        "source-type": "Wearable device / sensor · automated",
-        "data-type": "",
-        "range-of-vales": "min: 0\nmax: 7",
-        "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
-        "recommended-monitoring-frequency": "Wöchentlich",
-        "terminology-codes": [
-          {
-            "system": "http://loinc.org",
-            "code": "82291-6"
+            "code": "266741004",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "min: 0\nmax: 7",
+        "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
+        "recommended-monitoring-frequency": "Wöchentlich",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "82291-6",
+            "display": ""
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
         "app-providers": [
           "pandocs"
         ]
       }
     ],
-    "discussion": ""
+    "discussion": "Fragebogen und/oder Wearable"
   }
 }
