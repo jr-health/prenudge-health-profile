@@ -1,18 +1,60 @@
 {
   "de": {
     "template": "dimension",
-    "title": "Sitzen",
-    "category": "physical-activity",
-    "id_tech": "sitting",
     "key": "sitting",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "physical-activity",
+    "title": "Sitzen",
+    "description_professional": "Definition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
+    "description_layman": "„Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
+    "verified-health-links": [
+      {
+        "title": "Österreichische Bewegungsempfehlungen",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
+        "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Sitzverhalten (Robert Koch-Institut)",
+        "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "WHO guidelines on physical activity and sedentary behaviour",
+        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "sitting"
   },
   "en": {
     "template": "dimension",
+    "key": "sitting",
+    "dataset-scope": "Minimalset",
     "category": "physical-activity",
     "title": "Sitting",
-    "id_tech": "sitting",
-    "key": "sitting",
-    "dataset-scope": "Minimalset"
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      {
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf"
+      },
+      null,
+      null,
+      {
+        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content"
+      }
+    ],
+    "discussion": "",
+    "id_tech": "sitting"
   }
 }
