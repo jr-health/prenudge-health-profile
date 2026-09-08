@@ -1,0 +1,204 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "dietary-pattern-athis",
+    "dataset-scope": "Minimalset",
+    "title": "Ernährungsmuster",
+    "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse sowie die Konsumhäufigkeit von fett-,  zucker- und salzreichen Lebensmitteln abgefragt.\nDefinition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nWeiterführende Links:\nhttps://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/\nhttps://www.dgem.de/leitlinien\nhttps://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073\nEmpfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)\nWeiterführende Links:\nhttps://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch\nRezepte: https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/\nFragen und Antworten rund um die Ernährungsempfehlungen: https://ernaehrungsempfehlung.at/wichtig-zu-wissen/\nBroschüre: https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf\nhttps://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+        "specific-questions": "DH1 „Wie oft essen Sie Obst? Nicht gemeint sind hier Obstsäfte.“\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\nDH2: Wie viele Portionen Obst essen Sie pro Tag? Eine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: ___ Portionen/Tag\nDH3: Wie oft essen Sie Gemüse oder Salat? Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse.\nNicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies.\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\nDH4: Wie viele Portionen Gemüse oder Salat essen Sie pro Tag? Eine Portion entspricht einer Handvoll Gemüse oder Salat. Eine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: ___ Portionen/Tag",
+        "unit": "Portionen Obst und Gemüse pro Tag",
+        "data-format": "DH1 und DH3: Kategoriell\nDH2 und DH4: Angabe Protionen (ganze Zahl)",
+        "data-type": "",
+        "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [
+          {
+            "specific-norm": "≥ 5 Portionen/Tag (3 Portionen Gemüse; 2 Portionen Obst Tag) (AGES, n.d.)\nMan könnte die durchschnittlichen Portionen pro Tag berechnen."
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Subjektiv – ATHIS: Gemüse und Obst",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80459-1",
+            "display": "Vegetable servings 24 hour Estimated"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "80457-5",
+            "display": "Fruit servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "787758000",
+            "display": "Estimated intake of fruit servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "789334009",
+            "display": "Estimated intake of vegetable servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226452008",
+            "display": "Fruit intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226448008",
+            "display": "Vegetable intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "301961000000107",
+            "display": "Five or more portions of fruit and vegetables per day"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Österreichische Ernährungsempfehlungen (AGES, n.d.)",
+        "specific-questions": "Österreichische Ernährungsempfehlungen\nWie oft konsumieren Sie fett-, zucker- und salzreiche Lebensmittel, wie Süßigkeiten, Mehlspeisen, Knabbereien und trinken Sie energiereiche Getränke wie Limonaden?\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie",
+        "unit": "Konsumhäufigkeit von zucker- und salzreichen Lebensmitteln (pro Woche)\nAnzahl an Portionen zuckerhaltiger Lebensmittel (pro Tag)",
+        "data-format": "Kategoriell (5 Antwortmöglichkeiten)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+        "norms": [
+          {
+            "specific-norm": "Je weniger man von fett-, zucker- und salzreichen Lebensmitteln konsumiert werden, desto besser (AGES, n.d.)"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Subjektiv – ATHIS: Zuckerhaltige Lebensmittel",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226459004",
+            "display": "Sugar intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226461008",
+            "display": "Confectionery (sweets) intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230079003",
+            "display": "Savory snack intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "818990008",
+            "display": "Estimated oral intake of sugar sweetened drinks in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230084009",
+            "display": "Table salt intake"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "dietary-pattern-athis",
+    "dataset-scope": "Minimalset",
+    "title": "Dietary pattern (ATHIS)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      null,
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+        "sources": [
+          {
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226459004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226461008"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230079003"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "818990008"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230084009"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebogen"
+  }
+}
