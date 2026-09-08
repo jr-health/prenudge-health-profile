@@ -1,0 +1,123 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "emotional-distress-phq2",
+    "dataset-scope": "Minimalset",
+    "title": "Emotionale Belastung",
+    "description": "Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.\nDefinition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nWeiterführende Links:\nhttps://www.promenteaustria.at/\nhttps://www.erstehilfefuerdieseele.at/\nLeitlinie Depression: https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf\nEmpfehlung: nicht anwendbar",
+    "category": "psychosocial-factors",
+    "dimension": "emotional-distress",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information:\nDieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)\nWeiterführende Links:\nhttps://www.erstehilfefuerdieseele.at/\nhttps://gesundheitsfonds-steiermark.at/plattform-psyche/\nhttps://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297\nhttps://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit\nhttps://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "PHQ-2; “Whooley Questions” (BÄK & KBV & AWMF, 2022)",
+        "specific-questions": "PHQ-2; „Whooley Questions“\n\n1. Fühlten Sie sich im letzten Monat häufig niedergeschlagen, traurig bedrückt oder hoffnungslos?\nAntwortmöglichkeiten: 1) Ja, 2) Nein\n2. Hatten Sie im letzten Monat deutlich weniger Lust und Freude an Dingen, die Sie sonst gerne tun?\nAntwortmöglichkeiten: 1) Ja, 2) Nein",
+        "unit": "Selbstbericht über emotionale Belastung",
+        "data-format": "Dichotome Antwortmöglichkeit (nominal)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend"
+          }
+        ],
+        "scoring-algorithm": "Werden beide Fragen mit „Ja“ beantwortet, identifiziert der Test das Vorliegen depressiver Störungen mit einer Sensitivität von 96% und einer Spezifität von 57%.",
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "73832-8",
+            "display": "Adult depression screening assessment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "366979004",
+            "display": "Depressed mood"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "417523004",
+            "display": "Loss of interest in previously enjoyable activity"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "247753000",
+            "display": "Loss of interest"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "emotional-distress-phq2",
+    "dataset-scope": "Minimalset",
+    "title": "Emotional distress (PHQ-2)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "emotional-distress",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "73832-8"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "366979004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "417523004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "247753000"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebogen"
+  }
+}
