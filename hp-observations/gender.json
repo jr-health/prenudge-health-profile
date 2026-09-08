@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – Selbst definierte Frage",
+            "system": "Nicht anwendbar"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://snomed.info/sct",
@@ -72,32 +77,47 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "einmalig",
         "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+        "norms": [],
+        "sources": [
+          {
+            "system": "Nicht anwendbar"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://snomed.info/sct",
-            "code": "33791000087105"
+            "code": "33791000087105",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "911581000124109"
+            "code": "911581000124109",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "911601000124109"
+            "code": "911601000124109",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "551641000124102"
+            "code": "551641000124102",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "ID-Austria (automatische Übernahme)"
