@@ -5,9 +5,52 @@
     "dataset-scope": "Minimalset",
     "category": "psychosocial-factors",
     "title": "Emotionale Belastung",
-    "description_professional": "Definition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)",
-    "description_layman": "„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
-    "verified-health-links": [],
+    "description_professional": "Definition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nEmpfehlung: nicht anwendbar",
+    "description_layman": "Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
+    "verified-health-links": [
+      {
+        "title": "pro mente Austria",
+        "url": "https://www.promenteaustria.at/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Erste Hilfe für die Seele",
+        "url": "https://www.erstehilfefuerdieseele.at/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Leitlinie Unipolare Depression",
+        "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Plattform Psyche (Gesundheitsfonds Steiermark)",
+        "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "ÖGK: Broschüre psychische Gesundheit",
+        "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "oesterreich.gv.at: Psychosoziale Gesundheit",
+        "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      }
+    ],
     "discussion": ""
   },
   "en": {
@@ -18,7 +61,27 @@
     "title": "Emotional distress",
     "description_professional": "",
     "description_layman": "",
-    "verified-health-links": [],
+    "verified-health-links": [
+      null,
+      {
+        "url": "https://www.erstehilfefuerdieseele.at/"
+      },
+      {
+        "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf"
+      },
+      {
+        "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/"
+      },
+      {
+        "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297"
+      },
+      {
+        "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit"
+      },
+      {
+        "url": ""
+      }
+    ],
     "discussion": ""
   }
 }
