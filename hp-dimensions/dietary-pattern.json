@@ -5,12 +5,54 @@
     "dataset-scope": "Minimalset",
     "category": "nutrition",
     "title": "Ernährungsmuster",
-    "description_professional": "",
-    "description_layman": "",
+    "description_professional": "Definition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nEmpfehlung: 2 Ernährungspyramiden (Bilder) (AGES, n.d.)",
+    "description_layman": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)",
     "verified-health-links": [
       {
-        "title": "",
-        "url": "",
+        "title": "Ernährungsempfehlungen: Fleisch und Fisch",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "DGEM-Leitlinien",
+        "url": "https://www.dgem.de/leitlinien",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "AWMF-Leitlinien Ernährungsmedizin",
+        "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Österreichische Ernährungspyramide",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Rezepte zum Nachkochen",
+        "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
+        "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "FGÖ-Ernährungsbroschüre 2025",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
+        "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
         "audience": [],
         "note": ""
       }
@@ -27,7 +69,31 @@
     "description_layman": "",
     "verified-health-links": [
       {
-        "url": ""
+        "title": "",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "url": "https://www.dgem.de/leitlinien"
+      },
+      {
+        "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073"
+      },
+      {
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch"
+      },
+      {
+        "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/"
+      },
+      {
+        "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/"
+      },
+      {
+        "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf"
+      },
+      {
+        "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/"
       }
     ],
     "discussion": ""
