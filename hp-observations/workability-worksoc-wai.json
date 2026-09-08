@@ -1,0 +1,66 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "workability-worksoc-wai",
+    "dataset-scope": "Minimalset",
+    "title": "Arbeitsfähigkeit",
+    "description": "Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.\nDefinition: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)\nIllmarinen, J. – hier fehlt die Referenz\nWeiterführende Links:\nHandbuch Betriebliche Gesundheitsförderung: https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440\nEmpfehlung: nicht anwendbar",
+    "category": "work",
+    "dimension": "workability",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Work-SoC Questionnaire (Bauer et al., 2015) und WAI (INQA WAI Netzwerk, n.d.)",
+        "specific-questions": "Work-SoC Questionnaire\nWie empfinden Sie persönlich Ihre momentane Arbeit bzw. Arbeitssituation im Allgemeinen?\nbewältigbar 1 2 3 4 5 6 7 nicht bewältigbar\nsinnlos 1 2 3 4 5 6 7 sinnvoll\nstrukturiert 1 2 3 4 5 6 7 chaotisch\nbeeinflussbar 1 2 3 4 5 6 7 unbeeinflussbar\nunbedeutend 1 2 3 4 5 6 7 bedeutend\nübersichtlich 1 2 3 4 5 6 7 unübersichtlich\nsteuerbar 1 2 3 4 5 6 7 nicht steuerbar\nnicht lohnend 1 2 3 4 5 6 7 lohnenswert\nvorhersehbar 1 2 3 4 5 6 7 unvorhersehbar\n\nWAI (Tuomi et al., 1998)\n\n1. Derzeitige Arbeitsfähigkeit im Vergleich zu der besten\nWenn Sie Ihre beste, je erreichte Arbeitsfähigkeit mit 10 Punkten bewerten: Wie viele Punkte würden Sie dann für Ihre derzeitige Arbeitsfähigkeit geben? (0 bedeutet, dass Sie derzeit arbeitsunfähig sind.)\nAntwortmöglichkeit: 0 = völlig arbeitsunfähig; 10 = derzeit die beste Arbeitsfähigkeit\n2. Arbeitsfähigkeit in Bezug zu den Arbeitsanforderungen\nWie schätzen Sie Ihre derzeitige Arbeitsfähigkeit in Bezug zu den körperlichen Arbeitsanforderungen ein?\nsehr gut (5), eher gut (4), mittelmäßig (3), eher schlecht (2), sehr schlecht (1)",
+        "unit": "Workability (Kategorien-Score)",
+        "data-format": "Summenscore (ordinal)",
+        "data-type": "",
+        "range-of-vales": "Work-SoC:\nmin: 9 (pro Item maximal 7)\nmax: 63\nWAI:\nmin: 7\nmax: 49",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "norms": [
+          {
+            "specific-norm": "??? hoch-mittel-niedrig: Punkte-Score raussuchen\nWAI:\nKritisch (Arbeitsfähigkeit wiederherstellen): 7-27 Punkte\nMäßig (Arbeitsfähigkeit verbessern): 28-36 Punkte\nGut (Arbeitsfähigkeit unterstützen): 37-43 Punkte\nSehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte"
+          }
+        ],
+        "scoring-algorithm": "Work-SoC (3 Faktoren):\nHandhabbarkeit\nSinnhaftigkeit\nVerstehbarkeit\nWAI:\nWork Ability Index-Gesamtwert (durch Addieren der Punkte)",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
+  },
+  "en": {
+    "template": "observation",
+    "key": "workability-worksoc-wai",
+    "dataset-scope": "Minimalset",
+    "title": "Work ability (Work-SoC / WAI)",
+    "description": "",
+    "category": "work",
+    "dimension": "workability",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "Work-SoC:\nmin: 9 (pro Item maximal 7)\nmax: 63\nWAI:\nmin: 7\nmax: 49",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
+  }
+}
