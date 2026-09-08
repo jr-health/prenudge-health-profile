@@ -1,0 +1,115 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "education-level-isced",
+    "dataset-scope": "Minimalset",
+    "title": "Sozioökonomischer Status",
+    "description": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+    "category": "sociodemographic-data",
+    "dimension": "socio-economic-status",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Nicht erforderlich",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "ISCED-Level (UNESCO Institute for Statistics, 2012)",
+        "specific-questions": "ISCED-Level\nWas ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?\nAntwortmöglichkeit: 1) ISCED 1: Volksschule 2)ISCED 2: Hauptschule, Mittelschulen, Unterstufen von AHS; 3) ISCED 3a: Polytechnische Schule 4) ISCED 3b: Berufsbildende mittlere Schulen (HASCH, Fachschulen) 5) ISCED 3c: Berufsbildende höhere Schulen (HAK, HABLA, HTL) und AHS-Oberstufe 6) ISCED 4: Lehre mit Matura, Gesundheits- und Krankenpflegeschule (nicht-tertiär), Meister- oder Diplomprüfung 7) ISCED 5: Kolleg, tertiäre Hebammenakademien bzw. medizinisch-technische Ausbildungen im Kurzzyklus 8) ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Doktor)",
+        "unit": "Höchste abgeschlossene Schulbildung",
+        "data-format": "ISCED-Level (ordinal)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+        "norms": [
+          {
+            "specific-norm": "nicht zutreffend"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Subjektiv – ISCED-Level",
+            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "82589-3",
+            "display": "Highest level of education"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "342271000000107",
+            "display": "Educated to primary level"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224297003",
+            "display": "Educated to secondary school level"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "473461003",
+            "display": "Educated to high school level"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+  },
+  "en": {
+    "template": "observation",
+    "key": "education-level-isced",
+    "dataset-scope": "Minimalset",
+    "title": "Highest level of education (ISCED)",
+    "description": "",
+    "category": "sociodemographic-data",
+    "dimension": "socio-economic-status",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "einmalig",
+        "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+        "sources": [
+          {
+            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "82589-3"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "342271000000107"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224297003"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "473461003"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+  }
+}
