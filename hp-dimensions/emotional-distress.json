@@ -49,6 +49,30 @@
         "url": "",
         "audience": [],
         "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
       }
     ],
     "discussion": ""
@@ -62,21 +86,56 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://www.erstehilfefuerdieseele.at/"
+        "title": "",
+        "url": "https://www.promenteaustria.at/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf"
+        "title": "",
+        "url": "https://www.erstehilfefuerdieseele.at/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/"
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297"
+        "title": "",
+        "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit"
+        "title": "",
+        "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "url": ""
+      },
+      {
+        "url": ""
+      },
+      {
+        "url": ""
       },
       {
         "url": ""
