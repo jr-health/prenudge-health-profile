@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "BMI = Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – Fragen (Selbstangaben)",
+            "system": "nicht zutreffend"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
@@ -92,48 +97,67 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "min: <18,5\nmax: ≥ 40",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "system": "nicht zutreffend"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "39156-5"
+            "code": "39156-5",
+            "display": ""
           },
           {
             "system": "http://loinc.org",
-            "code": "8302-2"
+            "code": "8302-2",
+            "display": ""
           },
           {
             "system": "http://loinc.org",
-            "code": "29463-7"
+            "code": "29463-7",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "35425004"
+            "code": "35425004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "162863004"
+            "code": "162863004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "238131007"
+            "code": "238131007",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "162864005"
+            "code": "162864005",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "414916001"
+            "code": "414916001",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragen (Selbstangaben)"
