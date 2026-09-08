@@ -1,18 +1,62 @@
 {
   "de": {
     "template": "dimension",
-    "title": "Schlafqualität",
-    "id_tech": "sleep-quality",
-    "category": "sleep",
     "key": "sleep-quality",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "sleep",
+    "title": "Schlafqualität",
+    "description_professional": "Definition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\n„So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024).\n„Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).\nSonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).\nEmpfehlung: nicht anwendbar",
+    "description_layman": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
+    "verified-health-links": [
+      {
+        "title": "Was ist normaler Schlaf?",
+        "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "S3-Leitlinie Schlafbezogene Atmungsstörungen",
+        "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "S3-Leitlinie Insomnie bei Erwachsenen",
+        "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "sleep-quality"
   },
   "en": {
     "template": "dimension",
-    "title": "Sleep Quality",
-    "id_tech": "sleep-quality",
-    "category": "sleep",
     "key": "sleep-quality",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "sleep",
+    "title": "Sleep Quality",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      null,
+      {
+        "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf"
+      },
+      {
+        "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf"
+      },
+      {
+        "url": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "sleep-quality"
   }
 }
