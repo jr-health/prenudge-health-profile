@@ -5,8 +5,8 @@
     "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Geschlecht",
-    "description_professional": "",
-    "description_layman": "",
+    "description_professional": "Definition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+    "description_layman": "Nicht erforderlich",
     "verified-health-links": [],
     "discussion": ""
   },
