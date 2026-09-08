@@ -23,7 +23,7 @@
         "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
         "norms": [
           {
-            "specific-norm": ""
+            "specific-norm": "0 Getränke pro Tag (World Health Organization, 2023)"
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
@@ -112,65 +112,83 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
           }
         ],
         "terminology-codes": [
           {
             "system": "http://snomed.info/sct",
-            "code": "105542008"
+            "code": "105542008",
+            "display": ""
           },
           {
             "system": "http://loinc.org",
-            "code": "74013-4"
+            "code": "74013-4",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "69620002"
+            "code": "69620002",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "229800002"
+            "code": "229800002",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "783261004"
+            "code": "783261004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "307447001"
+            "code": "307447001",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "396113003"
+            "code": "396113003",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "445547001"
+            "code": "445547001",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "445241000124107"
+            "code": "445241000124107",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "307452006"
+            "code": "307452006",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "307450003"
+            "code": "307450003",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebogen"
