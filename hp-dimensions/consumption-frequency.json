@@ -82,33 +82,65 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf"
+        "title": "",
+        "url": "https://alkoholleitlinie.de/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.dhs.de/"
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.dg-sucht.de/"
+        "title": "",
+        "url": "https://www.dhs.de/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/"
+        "title": "",
+        "url": "https://www.dg-sucht.de/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.gesundheitsinformation.de/alkohol.html"
+        "title": "",
+        "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/alkohol.html",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+        "audience": [],
+        "note": ""
       }
     ],
     "discussion": "",
