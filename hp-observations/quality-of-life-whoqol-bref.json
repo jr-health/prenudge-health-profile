@@ -1,0 +1,142 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "quality-of-life-whoqol-bref",
+    "dataset-scope": "Minimalset",
+    "title": "Körperliche, mentale, soziale, umweltbezogene Lebensqualität",
+    "description": "Definition:\n“Quality of life is defined by the WHO as “individuals' perceptions of their position in life in the context of the culture and value systems in which they live and in relation to their goals, expectations, standards and concerns”. It is a broad ranging concept incorporating in a complex way the persons' physical health, psychological state, level of independence, social relationships, personal beliefs and their relationships to salient features of the environment” (World Health Organization, 1998).\n“Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).\nWeiterführende Informationen:\nUser Manual: https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content\nEmpfehlung: nicht anwendbar",
+    "category": "quality-of-life",
+    "dimension": "physical-mental-social-environmental-domains",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "WHOQOL-BREF (WHO, 1996)",
+        "specific-questions": "WHOQOL-BREF\n1(G1) Wie würden Sie Ihre Lebensqualität beurteilen?\nAntwortmöglichkeit: 1) Sehr schlecht;2) Schlecht; 3 = Mittelmäßig; 4 = Gut; 5 = Sehr gut\n2(G4) Wie zufrieden sind Sie mit Ihrer Gesundheit?\nAntwortmöglichkeit: 1 = Sehr schlecht;2 = Schlecht; 3 = Mittelmäßig; 4 = Gut; 5 = Sehr gut\nIn den folgenden Fragen geht es darum, wie stark Sie während der vergangenen zwei Wochen bestimmte Dinge erlebt haben.\n3(F1.4) Wie stark werden Sie durch Schmerzen daran gehindert, notwendige Dinge zu tun? (Domäne Physische Gesundheit)\n4(F11.3) Wie sehr sind Sie auf medizinische Behandlung angewiesen, um das tägliche Leben zu meistern? (Domäne Physische Gesundheit)\n5(F4.1) Wie gut können Sie Ihr Leben genießen? (Domäne Physische Gesundheit)\n6(F24.2) Betrachten Sie Ihr Leben als sinnvoll? (Domäne Physische Gesundheit)\n7(F5.3) Wie gut können Sie sich konzentrieren? (Domäne Physische Gesundheit)\n8(F16.1) Wie sicher fühlen Sie sich in Ihrem täglichen Leben? (Domäne Umwelt)\n9(F22.1) Wie gesund sind die Umweltbedingungen in Ihrem Wohngebiet? (Domäne Umwelt)\nIn den folgenden Fragen geht es darum, im welchem Umfang Sie während der vergangenen zwei Wochen bestimmte Dinge erlebt haben oder in der Lage waren, bestimmte Dinge zu tun\n10(F2.1) Haben Sie genug Energie für das tägliche Leben? (Domäne Physische Gesundheit)\n11(F7.1) Können Sie Ihr Aussehen akzeptieren? (Domäne Physische Gesundheit)\n12(F18.1) Haben Sie genug Geld, um Ihre Bedürfnisse erfüllen zu können? (Domäne Umwelt)\n13(F20.1) Haben Sie Zugang zu den Informationen, die Sie für das tägliche Leben brauchen? (Domäne Umwelt)\n14(F21.1) Haben Sie ausreichend Möglichkeiten zu Freizeitaktivitäten? (Domäne Umwelt)\n15(F9.1) Wie gut können Sie sich fortbewegen? (Domäne Umwelt)\n16(F3.3) Wie zufrieden sind Sie mit Ihrem Schlaf? (Physische Gesundheit) --> bei Schlafqualität abgedeckt\n17(F10.3) Wie zufrieden sind Sie mit Ihrer Fähigkeit, alltägliche Dinge erledigen zu können? (Physische Gesundheit)\n18(F12.4) Wie zufrieden sind Sie mit Ihrer Arbeitsfähigkeit? (Physische Gesundheit)\n19(F6.3) Wie zufrieden sind Sie mit sich selbst? (Psychische Gesundheit)\n20(F13.3) Wie zufrieden sind Sie mit Ihren persönlichen Beziehungen? (Soziale Beziehungen)\n21(F15.3) Wie zufrieden sind Sie mit Ihrem Sexualleben? (Soziale Beziehungen)\\*\n\\*Hinweis: Wird auch beim Indikator „Schlaf“ erfasst!\n22(F14.4) Wie zufrieden sind Sie mit der Unterstützung durch Ihre Freunde? (Soziale Beziehungen)\n23(F17.3) Wie zufrieden sind Sie mit Ihren Wohnbedingungen? (Umwelt)\n24(F19.3) Wie zufrieden sind Sie mit Ihren Möglichkeiten, Gesundheitsdienste in Anspruch nehmen zu können? (Umwelt)\n25(F23.3) Wie zufrieden sind Sie mit den Beförderungsmitteln, die Ihnen zur Verfügung stehen? (Umwelt)\nIn der folgenden Frage geht es darum, wie oft sich während der vergangenen zwei Wochen bei Ihnen negative Gefühle eingestellt haben, wie zum Beispiel Angst oder Traurigkeit.\n26(F8.1.) Wie häufig haben Sie negative Gefühle wie Traurigkeit, Verzweiflung, Angst oder Depression? (Physische Gesundheit)\nFragen können in Subsets aufgeteilt werden nach den Domänen physische, psychische Umwelt und soziale Beziehungen",
+        "unit": "Lebensqualität Score",
+        "data-format": "Transformierter Scorewert (0-100)",
+        "data-type": "",
+        "range-of-vales": "min: 4 (Transformiert 0)\nmax: 20 (Transformiert 100)",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "norms": [
+          {
+            "specific-norm": "Pro Domäne gibt es jeweils ein Ergebnis. Je höher diese Zahl, desto besser ist die subjektiv eingeschätzte Lebensqualität (WHO, 1996)."
+          }
+        ],
+        "scoring-algorithm": "Domänen (WHO-Auswertungsdokument siehe NextCloud):\nPhysical health (6-Q3) + (6-Q4) + Q10 + Q15 +Q16 +Q17 + Q18 = raw score\nPsychological Q5 + Q6 + Q7 +Q11 +Q19 + (6-Q26) = raw score\nSocial relationships Q20 + Q21 + Q22 = raw score\nEnvironment Q8 + Q9 + Q12 +Q13 +Q14 +Q23 + 24 +Q25 = raw score\nUmcodieren von F3, F4, F26 erforderlich\nIt is possible to derive four domain scores. There are also two items that are examined separately: question 1 asks about an individual’s overall perception of quality of life and question 2 asks about an individual’s perception of quality of life in each particular domain. Domain scores are scaled in a positive direction (i.e. higher scores denote higher quality of life). The mean score of items within each domain is used to calculate the domain score. Mean scores are then multiplied by 4 in order to make domain scores comparable with the scores used in the WHOQOL-100.\nThe first transformation method converts scores to range between 4-20, comparable with the WHOQOL-100.\nThe second transformation method converts domain scores to a 0-100 scale.",
+        "sources": [
+          {
+            "source-description": "Subjektiv – WHOQOL-BREF",
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "405152002",
+            "display": "Quality of life satisfaction"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "19388002",
+            "display": "Physical"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "60224009",
+            "display": "Psychologic"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "272151006",
+            "display": "Relationships"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "276339004",
+            "display": "Environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "60132005",
+            "display": "Generalized"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "98917-8",
+            "display": "WHOQOL-BREF panel"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "quality-of-life-whoqol-bref",
+    "dataset-scope": "Minimalset",
+    "title": "Quality of life (WHOQOL-BREF)",
+    "description": "",
+    "category": "quality-of-life",
+    "dimension": "physical-mental-social-environmental-domains",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "min: 4 (Transformiert 0)\nmax: 20 (Transformiert 100)",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr",
+        "sources": [
+          {
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "405152002"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "19388002"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "60224009"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "272151006"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "276339004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "60132005"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "98917-8"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebogen"
+  }
+}
