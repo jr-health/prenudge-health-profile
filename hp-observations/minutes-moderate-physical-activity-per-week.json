@@ -77,7 +77,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "",
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!",
     "data_format": "integer",
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
@@ -149,7 +149,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "",
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!",
     "data_format": "integer",
     "id_tech": "minutes-moderate-physical-activity-per-week",
     "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>"
