@@ -1,18 +1,85 @@
 {
   "de": {
     "template": "dimension",
-    "title": "Raucherstatus",
-    "category": "smoking",
-    "id_tech": "smoking-status",
     "key": "smoking-status",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "smoking",
+    "title": "Raucherstatus",
+    "description_professional": "Definition:\n“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)\n“Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)\n“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)\n“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)\n“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)\nEmpfehlung:\n„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products” (World Health Organization, 2025).\n“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).",
+    "description_layman": "„Dauerhaftes Rauchen verkürzt die Lebenserwartung um mehrere Jahre und hat viele gesundheitliche Nachteile. Es erhöht das Risiko für viele Krebsarten – insbesondere für Lungenkrebs und bösartige Tumoren im Mund- und Halsbereich. Mehr als 85% aller Lungenkrebserkrankungen lassen sich auf das Rauchen zurückführen.“ (IQWiG, 2022a)\n„Wichtig ist: Auch wer nur wenig oder gelegentlich raucht, schadet damit schon der Gesundheit.“ (IQWiG, 2022a)",
+    "verified-health-links": [
+      {
+        "title": "S3-Leitlinie Rauchen und Tabakabhängigkeit",
+        "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "gesundheitsinformation.de: Rauchen",
+        "url": "https://www.gesundheitsinformation.de/rauchen.html",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "rauchfrei.at",
+        "url": "https://rauchfrei.at/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "rauchfrei-programm.de",
+        "url": "https://rauchfrei-programm.de/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Stabsstelle Krebsprävention (DKFZ)",
+        "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "WHO: Tobacco",
+        "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Prävention und Tabakentwöhnung (Sozialministerium)",
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "smoking-status"
   },
   "en": {
     "template": "dimension",
+    "key": "smoking-status",
+    "dataset-scope": "Minimalset",
     "category": "smoking",
     "title": "Smoking Status",
-    "id_tech": "smoking-status",
-    "key": "smoking-status",
-    "dataset-scope": "Minimalset"
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      null,
+      {
+        "url": "https://www.gesundheitsinformation.de/rauchen.html"
+      },
+      null,
+      null,
+      {
+        "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention"
+      },
+      {
+        "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content"
+      },
+      {
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html"
+      }
+    ],
+    "discussion": "",
+    "id_tech": "smoking-status"
   }
 }
