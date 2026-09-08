@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.7-test | Generiert: 2026-09-07_
+_Version: 0.1.7-test | Generiert: 2026-09-08_
 
 ---
 
@@ -8,6 +8,7 @@ _Version: 0.1.7-test | Generiert: 2026-09-07_
 
 - [Alkohol](#alkohol)
   - [Konsumhäufigkeit](#konsumhäufigkeit)
+    - [Konsumhäufigkeit](#konsumhäufigkeit)
 - [Anthropometrie](#anthropometrie)
   - [Größe, Gewicht](#größe-gewicht)
     - [Taillenumfang (cm)](#taillenumfang-cm)
@@ -122,7 +123,56 @@ _Version: 0.1.7-test | Generiert: 2026-09-07_
 
 ### Konsumhäufigkeit
 
-_Keine Beobachtungen erfasst._
+#### Konsumhäufigkeit
+
+**Beschreibung für Fachpersonal:**
+
+Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben.
+Definition: nicht erforderlich
+Weiterführende Links:
+https://alkoholleitlinie.de/
+https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf
+https://www.dhs.de/
+https://www.dg-sucht.de/
+Empfehlung: 0 Getränke pro Tag:
+„To identify a “safe” level of alcohol consumption, valid scientific evidence would need to demonstrate that at and below a certain level, there is no risk of illness or injury associated with alcohol consumption. The new WHO statement clarifies: currently available evidence cannot indicate the existence of a threshold at which the carcinogenic effects of alcohol “switch on” and start to manifest in the human body“ (World Health Organization, 2023).
+“Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+Laienhafte Information:
+„Gesundheitliche Vorteile hat Alkohol nicht. Je mehr Alkohol man trinkt, desto schädlicher ist er“ (IQWiG, 2023a)
+„Alkohol gelangt über die Blutbahn bis in die Organe und das Gewebe. Dort erhöht er das Risiko für verschiedene Erkrankungen. Dazu gehören unter anderem Krebserkrankungen, Herz-Kreislauf-Erkrankungen und Erkrankungen des Stoffwechsels und der Verdauung, wie zum Beispiel Gicht und Entzündungen der Magenschleimhaut, Bauchspeicheldrüse und Leber“ (IQWiG, 2023b).
+Weiterführende Links:
+Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)
+https://gesundheitsfonds-steiermark.at/alkoholpraevention/
+https://www.gesundheitsinformation.de/alkohol.html
+https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html
+https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html
+https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html
+https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html
+
+##### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Häufigkeit des Alkoholkonsums (in den letzten 12 Monaten) Konsummenge (pro Tag und/oder Woche)
+- **Datenformat:** Kategoriell (9 Antwortmöglichkeiten)
+- **Wertebereich:** nicht zutreffend
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** 2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen
+Optional: täglich/wöchentlich (numerische/metrische Variable)
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
 ---
 

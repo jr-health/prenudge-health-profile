@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-07_
+_Version: 0.1.7-test | Generated: 2026-09-08_
 
 ---
 
@@ -8,6 +8,7 @@ _Version: 0.1.7-test | Generated: 2026-09-07_
 
 - [Alcohol](#alcohol)
   - [Consumption frequency](#consumption-frequency)
+    - [Alcohol consumption frequency](#alcohol-consumption-frequency)
 - [Anthropometry](#anthropometry)
   - [Height, weight](#height-weight)
     - [Waist circumference (cm)](#waist-circumference-cm)
@@ -122,7 +123,21 @@ _Version: 0.1.7-test | Generated: 2026-09-07_
 
 ### Consumption frequency
 
-_No observations recorded._
+#### Alcohol consumption frequency
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** 2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen
+Optional: täglich/wöchentlich (numerische/metrische Variable)
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
 ---
 
