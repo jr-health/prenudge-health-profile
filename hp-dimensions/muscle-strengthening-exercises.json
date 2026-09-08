@@ -1,18 +1,53 @@
 {
   "de": {
     "template": "dimension",
-    "title": "Muskelkräftigende Übungen",
-    "category": "physical-activity",
-    "id_tech": "muscle-strengthening-exercises",
     "key": "muscle-strengthening-exercises",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "physical-activity",
+    "title": "Muskelkräftigende Übungen",
+    "description_professional": "Definition:\n„In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen. ” (Fonds Gesundes Österreich, 2020).\n“Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020).\n“Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).\nEmpfehlung:\nLaut den österreichischen Bewegungsempfehlungen „sollten Erwachsene an 2 oder mehr Tagen der Woche muskelkräftigende Übungen durchführen, bei denen alle großen Muskelgruppen berücksichtigt werden.“ (Fonds Gesundes Österreich, 2020)\nNicht aufeinanderfolgende Tage",
+    "description_layman": "“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)",
+    "verified-health-links": [
+      {
+        "title": "Österreichische Bewegungsempfehlungen",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "WHO guidelines on physical activity and sedentary behaviour",
+        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Broschüre Bewegung",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "muscle-strengthening-exercises"
   },
   "en": {
     "template": "dimension",
+    "key": "muscle-strengthening-exercises",
+    "dataset-scope": "Minimalset",
     "category": "physical-activity",
     "title": "Muscle-strengthening Exercises",
-    "id_tech": "muscle-strengthening-exercises",
-    "key": "muscle-strengthening-exercises",
-    "dataset-scope": "Minimalset"
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      null,
+      {
+        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content"
+      },
+      {
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf"
+      }
+    ],
+    "discussion": "",
+    "id_tech": "muscle-strengthening-exercises"
   }
 }
