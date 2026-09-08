@@ -1,18 +1,53 @@
 {
   "de": {
     "template": "dimension",
-    "title": "Alltagsaktivität",
-    "id_tech": "everyday-activity",
-    "category": "physical-activity",
     "key": "everyday-activity",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "physical-activity",
+    "title": "Alltagsaktivität",
+    "description_professional": "Definition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
+    "description_layman": "„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
+    "verified-health-links": [
+      {
+        "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
+        "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Österreichische Bewegungsempfehlungen",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Broschüre Bewegung",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "discussion": "",
+    "id_tech": "everyday-activity"
   },
   "en": {
     "template": "dimension",
-    "title": "Everyday Activity",
-    "id_tech": "everyday-activity",
-    "category": "physical-activity",
     "key": "everyday-activity",
-    "dataset-scope": "Minimalset"
+    "dataset-scope": "Minimalset",
+    "category": "physical-activity",
+    "title": "Everyday Activity",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [
+      null,
+      {
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf"
+      },
+      {
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf"
+      }
+    ],
+    "discussion": "",
+    "id_tech": "everyday-activity"
   }
 }
