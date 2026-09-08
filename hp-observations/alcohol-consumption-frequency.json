@@ -1,0 +1,178 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "alcohol-consumption-frequency",
+    "dataset-scope": "Minimalset",
+    "title": "Konsumhäufigkeit",
+    "description": "Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben.\nDefinition: nicht erforderlich\nWeiterführende Links:\nhttps://alkoholleitlinie.de/\nhttps://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf\nhttps://www.dhs.de/\nhttps://www.dg-sucht.de/\nEmpfehlung: 0 Getränke pro Tag:\n„To identify a “safe” level of alcohol consumption, valid scientific evidence would need to demonstrate that at and below a certain level, there is no risk of illness or injury associated with alcohol consumption. The new WHO statement clarifies: currently available evidence cannot indicate the existence of a threshold at which the carcinogenic effects of alcohol “switch on” and start to manifest in the human body“ (World Health Organization, 2023).\n“Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).",
+    "category": "alcohol",
+    "dimension": "consumption-frequency",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information:\n„Gesundheitliche Vorteile hat Alkohol nicht. Je mehr Alkohol man trinkt, desto schädlicher ist er“ (IQWiG, 2023a)\n„Alkohol gelangt über die Blutbahn bis in die Organe und das Gewebe. Dort erhöht er das Risiko für verschiedene Erkrankungen. Dazu gehören unter anderem Krebserkrankungen, Herz-Kreislauf-Erkrankungen und Erkrankungen des Stoffwechsels und der Verdauung, wie zum Beispiel Gicht und Entzündungen der Magenschleimhaut, Bauchspeicheldrüse und Leber“ (IQWiG, 2023b).\nWeiterführende Links:\nHandbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)\nhttps://gesundheitsfonds-steiermark.at/alkoholpraevention/\nhttps://www.gesundheitsinformation.de/alkohol.html\nhttps://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html\nhttps://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html\nhttps://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html\nhttps://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+        "specific-questions": "ATHIS\nAL1: Wie oft haben Sie in den letzten zwölf Monaten Alkohol getrunken?\nAntwortmöglichkeit: 1) Täglich oder fast jeden Tag im letzten Jahr; 2) An 5 bis 6 Tagen pro Woche; 3) An 3 bis 4 Tagen pro Woche; 4) An 1 bis 2 Tagen pro Woche; 5) An 2 bis 3 Tagen pro Monat; 6) Einmal pro Monat; 7) Weniger als einmal pro Monat; 8) Nicht in den letzten 12 Monaten, da ich keinen Alkohol mehr trinke; 9) Nie oder lediglich einige wenige Schlucke in meinem Leben",
+        "unit": "Häufigkeit des Alkoholkonsums (in den letzten 12 Monaten)\nKonsummenge (pro Tag und/oder Woche)",
+        "data-format": "Kategoriell (9 Antwortmöglichkeiten)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
+        "norms": [
+          {
+            "specific-norm": ""
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "105542008",
+            "display": "Current non-drinker of alcohol"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "74013-4",
+            "display": "Alcoholic drinks per day"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "69620002",
+            "display": "Daily"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "229800002",
+            "display": "Twice weekly"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "783261004",
+            "display": "Lifetime non-drinker of alcohol"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307447001",
+            "display": "Six times weekly"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "396113003",
+            "display": "Three to four times"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "445547001",
+            "display": "Every two months"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "445241000124107",
+            "display": "Less than once a month"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307452006",
+            "display": "Three times monthly"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307450003",
+            "display": "Once monthly"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "alcohol-consumption-frequency",
+    "dataset-scope": "Minimalset",
+    "title": "Alcohol consumption frequency",
+    "description": "",
+    "category": "alcohol",
+    "dimension": "consumption-frequency",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
+        "sources": [
+          {
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "105542008"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "74013-4"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "69620002"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "229800002"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "783261004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307447001"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "396113003"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "445547001"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "445241000124107"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307452006"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307450003"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebogen"
+  }
+}
