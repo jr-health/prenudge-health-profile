@@ -5,9 +5,16 @@
     "dataset-scope": "Minimalset",
     "category": "work",
     "title": "Arbeitsfähigkeit",
-    "description_professional": "",
-    "description_layman": "",
-    "verified-health-links": [],
+    "description_professional": "Definition: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)\nIllmarinen, J. – hier fehlt die Referenz\nEmpfehlung: nicht anwendbar",
+    "description_layman": "„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
+    "verified-health-links": [
+      {
+        "title": "Handbuch Betriebliche Gesundheitsförderung",
+        "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
+        "audience": [],
+        "note": ""
+      }
+    ],
     "discussion": ""
   },
   "en": {
@@ -18,7 +25,11 @@
     "title": "Workability",
     "description_professional": "",
     "description_layman": "",
-    "verified-health-links": [],
+    "verified-health-links": [
+      {
+        "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440"
+      }
+    ],
     "discussion": ""
   }
 }
