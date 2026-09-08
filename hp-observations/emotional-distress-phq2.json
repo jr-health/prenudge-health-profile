@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "Werden beide Fragen mit „Ja“ beantwortet, identifiziert der Test das Vorliegen depressiver Störungen mit einer Sensitivität von 96% und einer Spezifität von 57%.",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – PHQ-2",
+            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
@@ -82,40 +87,57 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "2x pro Jahr",
+        "norms": [],
+        "sources": [
+          {
+            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "73832-8"
+            "code": "73832-8",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "366979004"
+            "code": "366979004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "417523004"
+            "code": "417523004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "247753000"
+            "code": "247753000",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "373066001"
+            "code": "373066001",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "373067005"
+            "code": "373067005",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebogen"
