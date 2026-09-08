@@ -27,6 +27,30 @@
         "note": ""
       },
       {
+        "title": "S2k-Leitlinie Gestaltung Nacht- und Schichtarbeit",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
         "title": "",
         "url": "",
         "audience": [],
@@ -45,12 +69,38 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf"
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "url": ""
+      },
+      {
+        "url": ""
+      },
+      {
+        "url": ""
       },
       {
         "url": ""
