@@ -9,7 +9,7 @@
     "dimension": "sitting",
     "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).\nNähere Informationen zu den nationalen Bewegungsempfehlungen:\nhttps://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nhttps://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+    "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).\nNähere Informationen zu den nationalen Bewegungsempfehlungen:\nhttps://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nhttps://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0\nhttps://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -143,8 +143,9 @@
         "sources": [],
         "terminology-codes": [
           {
+            "system": "http://loinc.org",
             "code": "87705-0",
-            "system": "http://loinc.org"
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
