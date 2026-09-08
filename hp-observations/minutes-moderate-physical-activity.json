@@ -13,7 +13,7 @@
     "measurement-instrument": [
       {
         "source-type": "Wearable device / sensor · automated",
-        "device": "",
+        "device": "Wearable",
         "specific-questions": "",
         "unit": "min/week",
         "data-format": "min",
@@ -154,19 +154,23 @@
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "101691-4"
+            "code": "101691-4",
+            "display": ""
           },
           {
             "system": "http://loinc.org",
-            "code": "77592-4"
+            "code": "77592-4",
+            "display": ""
           },
           {
             "system": "http://loinc.org",
-            "code": "77593-2"
+            "code": "77593-2",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "246501002"
+            "code": "246501002",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
@@ -194,11 +198,13 @@
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "101691-4"
+            "code": "101691-4",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "68130003"
+            "code": "68130003",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
