@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.\nPSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.\nFür die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.\nDer Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der\nSelbstwirksamkeitsskala (siehe NextCloud!)",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – PSS-4 und PSS-10",
+            "system": "doi.org/10.2307/2136404"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
@@ -72,32 +77,47 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "min: 0\nmax: 16 (PSS-4) und 40 (PSS-10)",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "system": "doi.org/10.2307/2136404"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "106860-0"
+            "code": "106860-0",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "304753007"
+            "code": "304753007",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "1193534004"
+            "code": "1193534004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "23085004"
+            "code": "23085004",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebögen"
