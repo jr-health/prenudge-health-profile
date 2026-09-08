@@ -1,0 +1,105 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "perceived-stress-pss",
+    "dataset-scope": "Minimalset",
+    "title": "Chronischer Stress",
+    "description": "Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Personen.\nDefinition: „Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Everyone experiences stress to some degree. The way we respond to stress, however, makes a big difference to our overall well-being“ (World Health Organization, 2026)\n“Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026)\n„Some stress is positive. It causes our bodies to release adrenaline, which helps us to accomplish assignments and projects, and can even enhance our performance and problem-solving ability. But chronic stress, which is constant and persists over an extended period of time, can be debilitating and overwhelming. Chronic stress can affect both our physical and psychological well-being by causing a variety of problems including anxiety, insomnia, muscle pain, high blood pressure, and a weakened immune system. Research shows that stress can contribute to the development of major illnesses, such as heart disease, depression, and obesity“ (APA, 2024).\n“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).\nEmpfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.",
+    "category": "psychosocial-factors",
+    "dimension": "chronic-stress",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Perceived Stress Scale 4 (PSS-4) (Cohen et al., 1983) & Ausweitung mit PSS-10 möglich (Cohen et al., 1983)",
+        "specific-questions": "Perceived Stress Scale 4 (PSS-4)\nDiese Fragen beziehen sich auf Ihre Gefühle und Gedanken während des letzten Monats. Wählen Sie aus, WIE HÄUFIG Sie eine bestimmte Art von Gefühlen oder Gedanken hatten.\n1) Wie oft hatten Sie sich im letzten Monat das Gefühl, wichtige Dinge in Ihrem Leben nicht beeinflussen zu können?\n2) Wie oft hatten Sie sich im letzten Monat sicher im Umgang mit persönlichen Aufgaben und Problemen gefühlt?\n3) Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Dinge nach Ihren Vorstellungen entwickeln?\n4) Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Probleme so aufgestaut haben, dass Sie diese nicht mehr bewältigen können?\nAntwortmöglichkeit bei allen Items: 0 Nie, 1 Selten, 2 Manchmal, 3 Häufig, 4 Sehr oft\nAusweitung mit PSS-10 möglich\nDie folgenden Aussagen beziehen sich auf Ihre Gedanken und Gefühle während der letzten vier Wochen. Bitte geben Sie an, wie häufig Sie sich in der angegebenen Weise gefühlt oder verhalten haben:\n\n1. Wie oft hatten Sie sich im letzten Monat darüber aufgeregt, dass etwas völlig Unerwartetes eingetreten ist?\n2. Wie oft hatten Sie im letzten Monat das Gefühl, wichtige Dinge in Ihrem Leben nicht beeinflussen zu können? (PSS-4- Item 1)\n3. Wie oft hatten Sie sich im letzten Monat nervös und „gestresst“ gefühlt?\n4. Wie oft hatten Sie sich im letzten Monat sicher im Umgang mit persönlichen Aufgaben und Problemen gefühlt? (PSS4 Item 2)\n5. Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Dinge nach Ihren Vorstellungen entwickeln? (PSS4 Item 3)\n6. Wie oft hatten Sie im letzten Monat das Gefühl, mit all den anstehenden Aufgaben und Problemen nicht richtig umgehen zu können?\n7. Wie oft hatten Sie im letzten Monat das Gefühl, mit Ärger in Ihrem Leben klar zu kommen?\n8. Wie oft hatten Sie im letzten Monat das Gefühl, alles im Griff zu haben?\n9. Wie oft hatten Sie sich im letzten Monat darüber geärgert, wichtige Dinge nicht beeinflussen zu können?\n10. Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Probleme so aufgestaut haben, dass Sie diese nicht mehr bewältigen können? (PSS-4- Item 4)\nAntwortmöglichkeit bei allen Items: 0 Nie, 1 Selten, 2 Manchmal, 3 Häufig, 4 Sehr oft",
+        "unit": "Score",
+        "data-format": "PSS-4: Gesamtscore (0-16) integer (Ganzzahl)\nPSS-10: Gesamtscore (0-40)  integer (Ganzzahl)",
+        "data-type": "",
+        "range-of-vales": "min: 0\nmax: 16 (PSS-4) und 40 (PSS-10)",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [
+          {
+            "specific-norm": "PSS-4: Die angegebenen Zahlen werden addiert, um eine Summe zu erhalten. Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel (Cohen et al., 1983).\nPSS-10: Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel.\n0-13: Niedriges Stressniveau\n14-26: Moderates Stressniveau\n27-40: Hohes Stressniveau (Cohen et al., 1983)"
+          }
+        ],
+        "scoring-algorithm": "PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.\nPSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.\nFür die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.\nDer Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der\nSelbstwirksamkeitsskala (siehe NextCloud!)",
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "106860-0",
+            "display": "Perceived stress scale-10 total score [PSS-10]"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "304753007",
+            "display": "Perceived stress scale"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1193534004",
+            "display": "High perceived stress"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "23085004",
+            "display": "Increased stress"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebögen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "perceived-stress-pss",
+    "dataset-scope": "Minimalset",
+    "title": "Perceived stress (PSS-4 / PSS-10)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "chronic-stress",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "min: 0\nmax: 16 (PSS-4) und 40 (PSS-10)",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "106860-0"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "304753007"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1193534004"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "23085004"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Fragebögen"
+  }
+}
