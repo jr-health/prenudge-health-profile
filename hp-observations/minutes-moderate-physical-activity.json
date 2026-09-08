@@ -15,18 +15,18 @@
         "source-type": "Wearable device / sensor · automated",
         "device": "Wearable",
         "specific-questions": "",
-        "unit": "min/week",
-        "data-format": "min",
+        "unit": "Minuten moderate Intensität pro Woche (Intensive wird mal 2 gerechnet)",
+        "data-format": "Minuten",
         "data-type": "integer",
-        "range-of-vales": "min: 0 max: >48h/day",
-        "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
-        "recommended-monitoring-frequency": "pro Tag/täglich",
+        "range-of-vales": "min: 0min/Woche\nmax: 15.120 min/Woche",
+        "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+        "recommended-monitoring-frequency": "wöchentlich",
         "norms": [
           {
-            "specific-norm": "adults >=18 years: >=150 min /week"
+            "specific-norm": "150 min-300min moderate Aktivität/Woche (Fonds Gesundes Österreich, 2020)"
           }
         ],
-        "scoring-algorithm": "vigorous Intensitätsminuten x2",
+        "scoring-algorithm": "höhere Intensität 2x",
         "sources": [
           {
             "source-description": "Norm?",
@@ -52,7 +52,7 @@
           {
             "system": "http://snomed.info/sct",
             "code": "246501002",
-            "display": "Technique (Methode: Unterscheidung moderat/intensiv)"
+            "display": "Technique"
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
@@ -63,20 +63,20 @@
       },
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
+        "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
         "specific-questions": "**Fragebogen: EHIS-PAQ (Q4, Q5, Q6, Q7)** \n **Q4 (=PE4 ATHIS): An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q5(=PE5 ATHIS): Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag\n 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr\n **Q6(=PE6 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus? Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern oder Badminton**\n _Antwortmöglichkeiten_: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q7(=PE7 ATHIS): Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?** \n _Antwortmöglichkeit:_ ___ Stunden und ___ Minuten pro Woche",
-        "unit": "-",
-        "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)  Q5: Kategoriell (5 Antwortmöglichkeiten)  Q6: Kategoriell (8 Antwortmöglichkeiten)  Q7: Angabe in Stunden und Minuten",
+        "unit": "kategorielle Variable: Q4 (Tage pro Woche), Q5 (Stunden pro Tag), Q6 (Tage pro Woche)\nQ7: Minuten pro Woche",
+        "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)\nQ5: Kategoriell (5 Antwortmöglichkeiten)\nQ6: Kategoriell (8 Antwortmöglichkeiten)\nQ7: Angabe in Stunden und Minuten",
         "data-type": "",
-        "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+        "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
         "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "alle 3 Monate",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [
           {
-            "specific-norm": "150 min-300 min körperliche Aktivität"
+            "specific-norm": "150 min-300 min körperliche Aktivität (Fonds Gesundes Österreich, 2020)"
           }
         ],
-        "scoring-algorithm": "_Q7: Stunden in Minuten umrechnen_",
+        "scoring-algorithm": "Q7: Stunden in Minuten umrechnen",
         "sources": [
           {
             "source-description": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
@@ -141,9 +141,9 @@
         "unit": "",
         "data-format": "",
         "data-type": "integer",
-        "range-of-vales": "min: 0 max: >48h/day",
-        "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
-        "recommended-monitoring-frequency": "pro Tag/täglich",
+        "range-of-vales": "min: 0min/Woche\nmax: 15.120 min/Woche",
+        "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+        "recommended-monitoring-frequency": "wöchentlich",
         "norms": [],
         "sources": [
           {
@@ -185,9 +185,9 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+        "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
         "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "alle 3 Monate",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
         "sources": [
           {
