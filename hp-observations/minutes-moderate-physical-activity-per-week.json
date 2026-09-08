@@ -26,7 +26,7 @@
             "specific-norm": "nicht zutreffend"
           }
         ],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [
           {
             "source-description": "EHIS-PAQ (Finger et al., 2015)",
@@ -96,41 +96,57 @@
     "citizen-info": "",
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "Q2:\nmin: 0\nmax: 7",
         "acquisition-frequency": "2x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: täglich",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
           }
         ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "41950-7"
+            "code": "41950-7",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       },
       {
         "source-type": "Wearable device / sensor · automated",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "min: 0 Schritte/Tag\nmax: n.a.",
         "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
         "recommended-monitoring-frequency": "Täglich",
+        "norms": [],
+        "sources": [],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "41950-7"
+            "code": "41950-7",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "",
