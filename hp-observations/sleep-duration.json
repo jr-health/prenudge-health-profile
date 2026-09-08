@@ -27,7 +27,12 @@
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Subjektiv – DEGS",
+            "system": "PDF siehe NextCloud"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
@@ -91,22 +96,62 @@
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
-      null,
       {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
-        "source-type": "Wearable device / sensor · automated",
         "range-of-vales": "min: 0\nmax: 24",
         "acquisition-frequency": "1x pro Jahr",
-        "recommended-monitoring-frequency": "Wöchentlich",
+        "recommended-monitoring-frequency": "Fragebogen: alle 6 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "system": "PDF siehe NextCloud"
+          }
+        ],
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "93832-4"
+            "code": "93832-4",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "248263006",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "min: 0\nmax: 24",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Wöchentlich",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "93832-4",
+            "display": ""
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebogen und/oder Wearable\nReferenz Fragebogen DEGS: PDF siehe NextCloud."
