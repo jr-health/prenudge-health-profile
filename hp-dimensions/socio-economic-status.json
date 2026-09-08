@@ -5,8 +5,8 @@
     "dataset-scope": "Minimalset",
     "category": "sociodemographic-data",
     "title": "Sozio-ökonomischer Status",
-    "description_professional": "",
-    "description_layman": "",
+    "description_professional": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+    "description_layman": "Nicht erforderlich",
     "verified-health-links": [],
     "discussion": ""
   },
