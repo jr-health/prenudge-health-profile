@@ -9,7 +9,7 @@
     "dimension": "dietary-pattern",
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
+    "citizen-info": "### Milch und Milchprodukte – täglich\n\nMilch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.\n\nPflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -21,9 +21,18 @@
         "range-of-vales": "",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": "**2 Portionen Milch und Milchprodukte/Tag**"
+          }
+        ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -56,7 +65,11 @@
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
