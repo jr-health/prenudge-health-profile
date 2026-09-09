@@ -125,6 +125,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-09_
     - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
     - [Arbeitsfähigkeit](#arbeitsfähigkeit)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -307,6 +308,12 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Bei über 88 cm bei Frauen und 102 cm bei Männern besteht ein deutlich erhöhtes Risiko.
+
+**Quellen:**
+- [Mike E. J. Lean et al.: Waist circumference as a measure for indicating need for weight management. In: British Medical Journal. Vol. 311, 15. Juli 1995, S. 158–161, doi:10.1136/bmj.311.6998.158.](https://www.bmj.com/content/311/6998/158)
 
 #### Hüft-Taillen-Verhältnis (WHR)
 
@@ -2034,3 +2041,11 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version vv0.1.8-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-09-09 | shaide79 |

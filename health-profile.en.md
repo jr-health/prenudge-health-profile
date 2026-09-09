@@ -125,6 +125,7 @@ _Version: v0.1.8-test | Generated: 2026-09-09_
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
     - [Work ability (Work-SoC / WAI)](#work-ability-work-soc-wai)
+- [Edit History](#edit-history)
 
 ---
 
@@ -199,6 +200,9 @@ Optional: alle 3 Monate
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.bmj.com/content/311/6998/158
 
 #### Waist-to-hip ratio (WHR)
 
@@ -1154,3 +1158,11 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version vv0.1.8-test:_
+
+| Date | Author |
+|---|---|
+| 2026-09-09 | shaide79 |

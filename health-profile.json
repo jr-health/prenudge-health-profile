@@ -1,11 +1,16 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-09T04:29:05.681791+00:00",
+  "generated": "2026-09-09T08:48:05.982900+00:00",
   "scope": "combined",
-  "commit": "43b8302e1b6006b31f2f2fc137ff816599400900",
+  "commit": "c6c229f2c296c0bef9c56ea042dba47c8ce0ee51",
   "activity": {
     "since": "vv0.1.8-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-09-09",
+        "author": "shaide79"
+      }
+    ]
   },
   "categories": [
     {
@@ -636,9 +641,18 @@
                     "range-of-vales": "30-200 cm",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": "Bei über 88 cm bei Frauen und 102 cm bei Männern besteht ein deutlich erhöhtes Risiko."
+                      }
+                    ],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Mike E. J. Lean et al.: Waist circumference as a measure for indicating need for weight management. In: British Medical Journal. Vol. 311, 15. Juli 1995, S. 158–161, doi:10.1136/bmj.311.6998.158.",
+                        "system": "https://www.bmj.com/content/311/6998/158"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -663,13 +677,25 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "30-200 cm",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.bmj.com/content/311/6998/158"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
