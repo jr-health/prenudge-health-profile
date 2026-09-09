@@ -433,7 +433,7 @@ DH3: kategoriell (5 Auswahlmöglichkeiten)
 DH4: 1-99 (bei halben Portionen aufrunden)
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
