@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-09T08:53:30.325023+00:00",
+  "generated": "2026-09-09T08:56:46.163789+00:00",
   "scope": "combined",
-  "commit": "0907f3f510c734508293a4bd057ce5d290df591e",
+  "commit": "6b8b8cc317a56055cf0851acdc419e79e4045434",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1587,8 +1587,8 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
@@ -1621,8 +1621,8 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
                     "norms": [],
                     "sources": [],
                     "terminology-codes": [],
