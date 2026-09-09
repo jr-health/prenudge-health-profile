@@ -10,7 +10,7 @@
     "verified-health-links": [
       {
         "title": "S3-Leitlinie Rauchen und Tabakabhängigkeit",
-        "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf",
+        "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdfx",
         "audience": [],
         "note": ""
       },
@@ -22,13 +22,13 @@
       },
       {
         "title": "rauchfrei.at",
-        "url": "https://rauchfrei.at/",
+        "url": "https://rauchfrei.at/x",
         "audience": [],
         "note": ""
       },
       {
         "title": "rauchfrei-programm.de",
-        "url": "https://rauchfrei-programm.de/",
+        "url": "https://rauchfrei-programm.de/x",
         "audience": [],
         "note": ""
       },
@@ -63,20 +63,47 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://www.gesundheitsinformation.de/rauchen.html"
-      },
-      null,
-      null,
-      {
-        "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention"
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdfx",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content"
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/rauchen.html",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html"
+        "title": "",
+        "url": "https://rauchfrei.at/x",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://rauchfrei-programm.de/x",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html",
+        "audience": [],
+        "note": ""
       }
     ],
     "discussion": "",
