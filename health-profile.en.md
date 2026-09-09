@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-08_
+_Version: 0.1.7-test | Generated: 2026-09-09_
 
 ---
 
@@ -11,11 +11,13 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
     - [Alcohol consumption frequency](#alcohol-consumption-frequency)
 - [Anthropometry](#anthropometry)
   - [Height, weight](#height-weight)
+    - [Body height, weight and BMI](#body-height-weight-and-bmi)
     - [Waist circumference (cm)](#waist-circumference-cm)
     - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
 - [Nutrition](#nutrition)
   - [Dietary pattern](#dietary-pattern)
     - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
+    - [Dietary pattern (ATHIS)](#dietary-pattern-athis)
     - [fish-meat portions week](#fish-meat-portions-week)
     - [Cereales Potatoes Portions per day](#cereales-potatoes-portions-per-day)
     - [Legume portions per week](#legume-portions-per-week)
@@ -41,8 +43,11 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
     - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
   - [Chronic stress](#chronic-stress)
+    - [Perceived stress (PSS-4 / PSS-10)](#perceived-stress-pss-4-pss-10)
   - [Coping ability](#coping-ability)
     - [Self-reported resilience](#self-reported-resilience)
+  - [Emotional distress](#emotional-distress)
+    - [Emotional distress (PHQ-2)](#emotional-distress-phq-2)
   - [Fatigue / Decline in performance](#fatigue-decline-in-performance)
     - [Daily energy and performance capacity](#daily-energy-and-performance-capacity)
   - [Life events](#life-events)
@@ -57,6 +62,7 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
     - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
   - [Physical, mental, social, environmental domains](#physical-mental-social-environmental-domains)
+    - [Quality of life (WHOQOL-BREF)](#quality-of-life-whoqol-bref)
 - [Self-management](#self-management)
   - [Communication/Understanding](#communicationunderstanding)
     - [Health literacy](#health-literacy)
@@ -79,8 +85,10 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
   - [sleephygiene](#sleephygiene)
     - [Frequency of adherence to sleep-promoting routines](#frequency-of-adherence-to-sleep-promoting-routines)
   - [Sleep duration](#sleep-duration)
+    - [Sleep duration (hours/night)](#sleep-duration-hoursnight)
   - [Sleep Quality](#sleep-quality)
     - [time taken to fall asleep](#time-taken-to-fall-asleep)
+    - [Sleep quality](#sleep-quality)
 - [Smoking](#smoking)
   - [Anzahl pro Woche](#anzahl-pro-woche)
     - [e-cigarettes tabacco heaters-number-per-week](#e-cigarettes-tabacco-heaters-number-per-week)
@@ -97,7 +105,9 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
     - [cigarres or cigarrilos per week](#cigarres-or-cigarrilos-per-week)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age](#age)
+    - [Age](#age)
   - [Gender](#gender)
+    - [Gender](#gender)
   - [Living environment](#living-environment)
     - [Housing type (owned home, rented apartment, other)](#housing-type-owned-home-rented-apartment-other)
     - [Residence (urban/rural)](#residence-urbanrural)
@@ -106,6 +116,7 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
   - [Origin](#origin)
     - [Ethnicity](#ethnicity)
   - [Socio-economic Status](#socio-economic-status)
+    - [Highest level of education (ISCED)](#highest-level-of-education-isced)
     - [Employment status / Income](#employment-status-income)
     - [Native language](#native-language)
 - [Workability](#workability)
@@ -113,6 +124,7 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
     - [Impairment of employment](#impairment-of-employment)
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
+    - [Work ability (Work-SoC / WAI)](#work-ability-work-soc-wai)
 - [Edit History](#edit-history)
 
 ---
@@ -122,6 +134,18 @@ _Version: 0.1.7-test | Generated: 2026-09-08_
 <img src="media/wine_white.png" alt="Alcohol" width="48" style="background-color: #00a256; padding: 6px; border-radius: 6px;">
 
 ### Consumption frequency
+
+**Verified Health Information:**
+- [https://alkoholleitlinie.de/](https://alkoholleitlinie.de/)
+- [https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf](https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf)
+- [https://www.dhs.de/](https://www.dhs.de/)
+- [https://www.dg-sucht.de/](https://www.dg-sucht.de/)
+- [https://gesundheitsfonds-steiermark.at/alkoholpraevention/](https://gesundheitsfonds-steiermark.at/alkoholpraevention/)
+- [https://www.gesundheitsinformation.de/alkohol.html](https://www.gesundheitsinformation.de/alkohol.html)
+- [https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html](https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html)
+- [https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html](https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html)
+- [https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html](https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html)
+- [https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html](https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html)
 
 #### Alcohol consumption frequency
 
@@ -146,6 +170,26 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 <img src="media/ruler-dimension-line.png" alt="Anthropometry" width="48" style="background-color: #e0d3de; padding: 6px; border-radius: 6px;">
 
 ### Height, weight
+
+**Verified Health Information:**
+- [https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html)
+
+#### Body height, weight and BMI
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: <18,5
+max: ≥ 40
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** Minimum: 2x pro Jahr
+Optional: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- nicht zutreffend
 
 #### Waist circumference (cm)
 
@@ -174,7 +218,14 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 ### Dietary pattern
 
 **Verified Health Information:**
-- []()
+- [https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
+- [https://www.dgem.de/leitlinien](https://www.dgem.de/leitlinien)
+- [https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073](https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073)
+- [https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch](https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch)
+- [https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/](https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/)
+- [https://ernaehrungsempfehlung.at/wichtig-zu-wissen/](https://ernaehrungsempfehlung.at/wichtig-zu-wissen/)
+- [https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf)
+- [https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/](https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/)
 
 #### Non-alcoholic, unsweetened drinks (glasses/day)
 
@@ -186,6 +237,35 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
+
+#### Dietary pattern (ATHIS)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** DH1: kategoriell (5 Auswahlmöglichkeiten)
+DH2: 1-99 (bei halben Portionen aufrunden)
+DH3: kategoriell (5 Auswahlmöglichkeiten)
+DH4: 1-99 (bei halben Portionen aufrunden)
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
+
+**Measurement Instrument 2** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 6 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
 #### fish-meat portions week
 
@@ -269,9 +349,13 @@ Regular endenced-based physical activity, such as brisk walking or cycling, stre
 
 **Measurement Instrument 1** — Wearable device / sensor · automated
 - **Data Type:** integer
-- **Range of Values:** min: 0 max: >48h/day
-- **Acquisition Frequency:** Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.
-- **Recommended Monitoring Frequency:** pro Tag/täglich
+- **Range of Values:** min: 0min/Woche
+max: 15.120 min/Woche
+- **Acquisition Frequency:** 2x Jahr
+7 Tage Tragedauer
+Mindestens 4 valide Tage
+Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
+- **Recommended Monitoring Frequency:** wöchentlich
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html
 - **FHIR IG Status:** planned
 - **Sunburst Chart Status:** published
@@ -280,11 +364,11 @@ Regular endenced-based physical activity, such as brisk walking or cycling, stre
 - Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
-- **Range of Values:** für Q7: 
+- **Range of Values:** für Q7:
 min: in Minuten 0
 max: in Minuten: 15.120/Woche
 - **Acquisition Frequency:** alle 6 Monate
-- **Recommended Monitoring Frequency:** alle 3 Monate
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
 - **FHIR IG Status:** amendment needed
 - **Sunburst Chart Status:** published
@@ -300,6 +384,11 @@ max: in Minuten: 15.120/Woche
 | http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
 
 ### Everyday Activity
+
+**Verified Health Information:**
+- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
 
 #### Steps (per day)
 
@@ -356,6 +445,11 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 
 ### Muscle-strengthening Exercises
 
+**Verified Health Information:**
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
+- [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf)
+
 #### Muscle-strengthening exercises (days/week)
 
 ##### Measurement Instruments
@@ -384,6 +478,12 @@ Mindestens 4 valide Tage
 
 ### Sitting
 
+**Verified Health Information:**
+- [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf)
+- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
+- [https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0](https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0)
+- [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content)
+
 #### Sitting time (hours/day)
 
 ##### Measurement Instruments
@@ -405,6 +505,7 @@ max: 24 Stunden
 max: 24 Stunden
 - **Acquisition Frequency:** 2x/Jahr
 - **Recommended Monitoring Frequency:** Täglich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -430,7 +531,21 @@ max: 24 Stunden
 
 ### Chronic stress
 
-_No observations recorded._
+#### Perceived stress (PSS-4 / PSS-10)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: 0
+max: 16 (PSS-4) und 40 (PSS-10)
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- doi.org/10.2307/2136404
 
 ### Coping ability
 
@@ -441,6 +556,36 @@ _No observations recorded._
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### Emotional distress
+
+**Verified Health Information:**
+- [https://www.promenteaustria.at/](https://www.promenteaustria.at/)
+- [https://www.erstehilfefuerdieseele.at/](https://www.erstehilfefuerdieseele.at/)
+- [https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf](https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf)
+- [https://gesundheitsfonds-steiermark.at/plattform-psyche/](https://gesundheitsfonds-steiermark.at/plattform-psyche/)
+- [https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297](https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297)
+- [https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit](https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit)
+- [https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal](https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal)
+- []()
+- []()
+- []()
+- []()
+
+#### Emotional distress (PHQ-2)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** 2x pro Jahr
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005
 
 ### Fatigue / Decline in performance
 
@@ -516,7 +661,24 @@ _No observations recorded._
 
 ### Physical, mental, social, environmental domains
 
-_No observations recorded._
+**Verified Health Information:**
+- [https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content](https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content)
+
+#### Quality of life (WHOQOL-BREF)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: 4 (Transformiert 0)
+max: 20 (Transformiert 100)
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** 2x pro Jahr
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.who.int/tools/whoqol/whoqol-bref
 
 ---
 
@@ -644,9 +806,45 @@ _No observations recorded._
 
 ### Sleep duration
 
-_No observations recorded._
+**Verified Health Information:**
+- [https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html](https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html)
+
+#### Sleep duration (hours/night)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: 0
+max: 24
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Fragebogen: alle 6 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- PDF siehe NextCloud
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** min: 0
+max: 24
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Wöchentlich
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ### Sleep Quality
+
+**Verified Health Information:**
+- [https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html](https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html)
+- [https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf](https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf)
+- [https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf](https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf)
+- [https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf](https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf)
+- []()
+- []()
+- []()
+- []()
 
 #### time taken to fall asleep
 
@@ -657,6 +855,30 @@ _No observations recorded._
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+#### Sleep quality
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** alle 6 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.who.int/tools/whoqol/whoqol-bref
+
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** 1x Jährlich
+Muss mindestens 7 Tage getragen werden;
+davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)
+- **Recommended Monitoring Frequency:** je länger desto besser >=10 Tage
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -687,6 +909,15 @@ _No observations recorded._
 - **Sunburst Chart Status:** draft
 
 ### Smoking Status
+
+**Verified Health Information:**
+- [https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf](https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf)
+- [https://www.gesundheitsinformation.de/rauchen.html](https://www.gesundheitsinformation.de/rauchen.html)
+- [https://rauchfrei.at/](https://rauchfrei.at/)
+- [https://rauchfrei-programm.de/](https://rauchfrei-programm.de/)
+- [https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention](https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention)
+- [https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content](https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content)
+- [https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html](https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html)
 
 #### Smoking status
 
@@ -764,11 +995,38 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 ### Age
 
-_No observations recorded._
+#### Age
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** min: 0
+max: 120
+- **Acquisition Frequency:** einmalig
+- **Recommended Monitoring Frequency:** einmalig
+- **FHIR IG Link:** https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- Nicht anwendbar
 
 ### Gender
 
-_No observations recorded._
+#### Gender
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** einmalig
+- **Recommended Monitoring Frequency:** einmalig (oder 1x im Jahr; falls sich noch was ändert)
+- **FHIR IG Link:** https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- Nicht anwendbar
 
 ### Living environment
 
@@ -810,6 +1068,21 @@ _No observations recorded._
 
 ### Socio-economic Status
 
+#### Highest level of education (ISCED)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** einmalig
+- **Recommended Monitoring Frequency:** einmalig (oder 1x im Jahr; falls sich noch was ändert)
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.uis.unesco.org/en/methods-and-tools/isced
+
 #### Employment status / Income
 
 ##### Measurement Instruments
@@ -833,6 +1106,9 @@ _No observations recorded._
 <img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 ### Workability
+
+**Verified Health Information:**
+- [https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440](https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440)
 
 #### Impairment of employment
 
@@ -858,6 +1134,26 @@ _No observations recorded._
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+#### Work ability (Work-SoC / WAI)
+
+##### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Work-SoC:
+min: 9 (pro Item maximal 7)
+max: 63
+WAI:
+min: 7
+max: 49
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** 2x pro Jahr
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
+
 ---
 
 ## Edit History
@@ -866,6 +1162,7 @@ _Changes since version v0.1.7-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-09 | felixrath |
 | 2026-09-08 | felixrath |
 | 2026-09-07 | Theresa Weitlaner |
 | 2026-09-06 | felixrath |

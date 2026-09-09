@@ -399,8 +399,8 @@
 
   <main>
 <h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <div class="meta-bar">
-      <p class="meta-text">Version 0.1.7-test · Generated: 2026-09-08 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/ada87d3897195e137440e39a65bf081c4af946e2">ada87d3</a> ·
+      <p class="meta-text">Version 0.1.7-test · Generated: 2026-09-09 ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/bb9b5df1d0521509239ed9c5ed984499de5f55fd">bb9b5df</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html" class="active">EN</a><a data-keep-scope href="browse.de.html">DE</a></div>
     </div>
@@ -432,6 +432,13 @@
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
+    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="body-height-weight-bmi" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
+      <td>Height, weight</td>
+      <td>Body height, weight and BMI</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
     <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-circumference" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
       <td>Height, weight</td>
@@ -450,6 +457,13 @@
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Dietary pattern</td>
       <td>Non-alcoholic, unsweetened drinks (glasses/day)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="dietary-pattern-athis" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Dietary pattern</td>
+      <td>Dietary pattern (ATHIS)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
@@ -544,10 +558,24 @@
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
+    <tr data-category="psychosocial-factors" data-dimension="chronic-stress" data-observation="perceived-stress-pss" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
+      <td>Chronic stress</td>
+      <td>Perceived stress (PSS-4 / PSS-10)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
     <tr data-category="psychosocial-factors" data-dimension="coping-ability" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Coping ability</td>
       <td>Self-reported resilience</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="psychosocial-factors" data-dimension="emotional-distress" data-observation="emotional-distress-phq2" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
+      <td>Emotional distress</td>
+      <td>Emotional distress (PHQ-2)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
@@ -597,6 +625,13 @@
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
       <td>Weight changes</td>
       <td>Change in body weight over defined periods (kg)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="quality-of-life" data-dimension="physical-mental-social-environmental-domains" data-observation="quality-of-life-whoqol-bref" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f8e4bf;"></span>Quality of Life</td>
+      <td>Physical, mental, social, environmental domains</td>
+      <td>Quality of life (WHOQOL-BREF)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
@@ -677,10 +712,24 @@
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
+    <tr data-category="sleep" data-dimension="sleep-duration" data-observation="sleep-duration" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
+      <td>Sleep duration</td>
+      <td>Sleep duration (hours/night)</td>
+      <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
+      <td><div>draft</div></td>
+    </tr>
     <tr data-category="sleep" data-dimension="sleep-quality" data-observation="einschlafzeit" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
       <td>Sleep Quality</td>
       <td>time taken to fall asleep</td>
+      <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="sleep" data-dimension="sleep-quality" data-observation="sleep-quality" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
+      <td>Sleep Quality</td>
+      <td>Sleep quality</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
@@ -740,6 +789,20 @@
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
+    <tr data-category="sociodemographic-data" data-dimension="age" data-observation="age" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
+      <td>Age</td>
+      <td>Age</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="sociodemographic-data" data-dimension="gender" data-observation="gender" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
+      <td>Gender</td>
+      <td>Gender</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
     <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="housing-type" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Living environment</td>
@@ -765,6 +828,13 @@
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
       <td>Origin</td>
       <td>Ethnicity</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="education-level-isced" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
+      <td>Socio-economic Status</td>
+      <td>Highest level of education (ISCED)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
@@ -800,6 +870,13 @@
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
       <td>Workability</td>
       <td>Work absence days</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="work" data-dimension="workability" data-observation="workability-worksoc-wai" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
+      <td>Workability</td>
+      <td>Work ability (Work-SoC / WAI)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>

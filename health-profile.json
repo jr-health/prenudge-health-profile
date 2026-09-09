@@ -1,11 +1,15 @@
 {
   "version": "0.1.7-test",
-  "generated": "2026-09-08T00:01:35.089539+00:00",
+  "generated": "2026-09-09T00:34:14.479204+00:00",
   "scope": "combined",
-  "commit": "ada87d3897195e137440e39a65bf081c4af946e2",
+  "commit": "bb9b5df1d0521509239ed9c5ed984499de5f55fd",
   "activity": {
     "since": "v0.1.7-test",
     "entries": [
+      {
+        "date": "2026-09-09",
+        "author": "felixrath"
+      },
       {
         "date": "2026-09-08",
         "author": "felixrath"
@@ -66,9 +70,70 @@
             "dataset-scope": "Minimalset",
             "category": "alcohol",
             "title": "Konsumhäufigkeit",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
+            "description_professional": "Definition: nicht erforderlich\nEmpfehlung: 0 Getränke pro Tag:\n„To identify a “safe” level of alcohol consumption, valid scientific evidence would need to demonstrate that at and below a certain level, there is no risk of illness or injury associated with alcohol consumption. The new WHO statement clarifies: currently available evidence cannot indicate the existence of a threshold at which the carcinogenic effects of alcohol “switch on” and start to manifest in the human body” (World Health Organization, 2023).\n“Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).",
+            "description_layman": "„Gesundheitliche Vorteile hat Alkohol nicht. Je mehr Alkohol man trinkt, desto schädlicher ist er“ (IQWiG, 2023a)\n„Alkohol gelangt über die Blutbahn bis in die Organe und das Gewebe. Dort erhöht er das Risiko für verschiedene Erkrankungen. Dazu gehören unter anderem Krebserkrankungen, Herz-Kreislauf-Erkrankungen und Erkrankungen des Stoffwechsels und der Verdauung, wie zum Beispiel Gicht und Entzündungen der Magenschleimhaut, Bauchspeicheldrüse und Leber“ (IQWiG, 2023b).\nHandbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
+            "verified-health-links": [
+              {
+                "title": "Alkoholleitlinie",
+                "url": "https://alkoholleitlinie.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "S3-Leitlinie alkoholbezogene Störungen",
+                "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Deutsche Hauptstelle für Suchtfragen",
+                "url": "https://www.dhs.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Deutsche Gesellschaft für Suchtforschung",
+                "url": "https://www.dg-sucht.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Alkoholprävention (Gesundheitsfonds Steiermark)",
+                "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "gesundheitsinformation.de: Alkohol",
+                "url": "https://www.gesundheitsinformation.de/alkohol.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "gesundheitsinformation.de: Acht Fakten über Alkohol",
+                "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "gesundheitsinformation.de: Ab wann ist Alkohol schädlich?",
+                "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "gesundheitsinformation.de: Wie wirkt Alkohol?",
+                "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Sozialministerium: Alkohol",
+                "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
             "discussion": "",
             "description": "``",
             "id_tech": "consumption-frequency"
@@ -81,7 +146,68 @@
             "title": "Consumption frequency",
             "description_professional": "",
             "description_layman": "",
-            "verified-health-links": [],
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://alkoholleitlinie.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.dhs.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.dg-sucht.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/alkohol.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
             "discussion": "",
             "id_tech": "consumption-frequency"
           },
@@ -111,7 +237,7 @@
                     "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
                     "norms": [
                       {
-                        "specific-norm": ""
+                        "specific-norm": "0 Getränke pro Tag (World Health Organization, 2023)"
                       }
                     ],
                     "scoring-algorithm": "nicht zutreffend",
@@ -200,65 +326,83 @@
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
-                    "data-type": "",
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
                     "range-of-vales": "nicht zutreffend",
                     "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "2x pro Jahr (kategorisch), in der Folge nur Veränderungen abfragen\nOptional: täglich/wöchentlich (numerische/metrische Variable)",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
                       }
                     ],
                     "terminology-codes": [
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "105542008"
+                        "code": "105542008",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "74013-4"
+                        "code": "74013-4",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "69620002"
+                        "code": "69620002",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "229800002"
+                        "code": "229800002",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "783261004"
+                        "code": "783261004",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "307447001"
+                        "code": "307447001",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "396113003"
+                        "code": "396113003",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "445547001"
+                        "code": "445547001",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "445241000124107"
+                        "code": "445241000124107",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "307452006"
+                        "code": "307452006",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "307450003"
+                        "code": "307450003",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": "Fragebogen"
@@ -305,9 +449,16 @@
             "dataset-scope": "Minimalset",
             "category": "anthropometry",
             "title": "Größe, Gewicht",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
+            "description_professional": "Definition:\n„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):\nKörpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\nEmpfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\nIn Kategorien:\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
+            "description_layman": "„Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):\nGewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
+            "verified-health-links": [
+              {
+                "title": "Was sagt der Body-Mass-Index über die Gesundheit aus?",
+                "url": "https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
             "discussion": ""
           },
           "en": {
@@ -318,10 +469,179 @@
             "title": "Height, weight",
             "description_professional": "",
             "description_layman": "",
-            "verified-health-links": [],
+            "verified-health-links": [
+              {
+                "url": "https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html"
+              }
+            ],
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "body-height-weight-bmi",
+                "dataset-scope": "Minimalset",
+                "title": "Körpergröße und Körpergewicht",
+                "description": "Empfehlung: Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.\nDieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.\nDefinition:\n„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):\nKörpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\nEmpfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\nIn Kategorien:\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information: „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):\nGewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)\nWeiterführende Links:\nhttps://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Selbstangaben",
+                    "specific-questions": "Frage (Selbstangaben)\nWie groß sind Sie in cm? (eine Kommastelle!)\nWelches Gewicht in kg haben Sie zurzeit? (eine Kommastelle!)",
+                    "unit": "Body-Mass-Index (kg/m²)",
+                    "data-format": "BMI (ordinale Maßzahl)",
+                    "data-type": "",
+                    "range-of-vales": "min: <18,5\nmax: ≥ 40",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "Untergewicht: < 18,5 kg/m²\nNormalgewicht: 18,5–24,9 kg/m²\nÜbergewicht: 25–29,9 kg/m²\nAdipositas Grad I: 30–34,9 kg/m²\nAdipositas Grad II: 35–39,9 kg/m²\nAdipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)"
+                      }
+                    ],
+                    "scoring-algorithm": "BMI = Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – Fragen (Selbstangaben)",
+                        "system": "nicht zutreffend"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "39156-5",
+                        "display": "Body mass index (BMI) [Ratio]"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8302-2",
+                        "display": "Body height"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "29463-7",
+                        "display": "Body weight"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35425004",
+                        "display": "Normal body mass index"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "162863004",
+                        "display": "Body mass index 25-29 - overweight"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "238131007",
+                        "display": "Overweight"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "162864005",
+                        "display": "Body mass index 30+ - obesity"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "414916001",
+                        "display": "Obesity"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragen (Selbstangaben)"
+              },
+              "en": {
+                "template": "observation",
+                "key": "body-height-weight-bmi",
+                "dataset-scope": "Minimalset",
+                "title": "Body height, weight and BMI",
+                "description": "",
+                "category": "anthropometry",
+                "dimension": "heigth-weight",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: <18,5\nmax: ≥ 40",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "nicht zutreffend"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "39156-5",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8302-2",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "29463-7",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "35425004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "162863004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "238131007",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "162864005",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "414916001",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragen (Selbstangaben)"
+              }
+            },
             {
               "de": {
                 "template": "observation",
@@ -485,12 +805,54 @@
             "dataset-scope": "Minimalset",
             "category": "nutrition",
             "title": "Ernährungsmuster",
-            "description_professional": "",
-            "description_layman": "",
+            "description_professional": "Definition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nEmpfehlung: 2 Ernährungspyramiden (Bilder) (AGES, n.d.)",
+            "description_layman": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)",
             "verified-health-links": [
               {
-                "title": "",
-                "url": "",
+                "title": "Ernährungsempfehlungen: Fleisch und Fisch",
+                "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "DGEM-Leitlinien",
+                "url": "https://www.dgem.de/leitlinien",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "AWMF-Leitlinien Ernährungsmedizin",
+                "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Österreichische Ernährungspyramide",
+                "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Rezepte zum Nachkochen",
+                "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
+                "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "FGÖ-Ernährungsbroschüre 2025",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
+                "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
                 "audience": [],
                 "note": ""
               }
@@ -507,7 +869,31 @@
             "description_layman": "",
             "verified-health-links": [
               {
-                "url": ""
+                "title": "",
+                "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "url": "https://www.dgem.de/leitlinien"
+              },
+              {
+                "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073"
+              },
+              {
+                "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch"
+              },
+              {
+                "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/"
+              },
+              {
+                "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/"
+              },
+              {
+                "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf"
+              },
+              {
+                "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/"
               }
             ],
             "discussion": ""
@@ -594,6 +980,286 @@
                   }
                 ],
                 "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "dietary-pattern-athis",
+                "dataset-scope": "Minimalset",
+                "title": "Ernährungsmuster",
+                "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse sowie die Konsumhäufigkeit von fett-,  zucker- und salzreichen Lebensmitteln abgefragt.\nDefinition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nWeiterführende Links:\nhttps://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/\nhttps://www.dgem.de/leitlinien\nhttps://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073\nEmpfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)\nWeiterführende Links:\nhttps://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch\nRezepte: https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/\nFragen und Antworten rund um die Ernährungsempfehlungen: https://ernaehrungsempfehlung.at/wichtig-zu-wissen/\nBroschüre: https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf\nhttps://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
+                    "specific-questions": "DH1 „Wie oft essen Sie Obst? Nicht gemeint sind hier Obstsäfte.“\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\nDH2: Wie viele Portionen Obst essen Sie pro Tag? Eine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: ___ Portionen/Tag\nDH3: Wie oft essen Sie Gemüse oder Salat? Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse.\nNicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies.\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\nDH4: Wie viele Portionen Gemüse oder Salat essen Sie pro Tag? Eine Portion entspricht einer Handvoll Gemüse oder Salat. Eine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: ___ Portionen/Tag",
+                    "unit": "Portionen Obst und Gemüse pro Tag",
+                    "data-format": "DH1 und DH3: Kategoriell\nDH2 und DH4: Angabe Protionen (ganze Zahl)",
+                    "data-type": "",
+                    "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "≥ 5 Portionen/Tag (3 Portionen Gemüse; 2 Portionen Obst Tag) (AGES, n.d.)\nMan könnte die durchschnittlichen Portionen pro Tag berechnen."
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – ATHIS: Gemüse und Obst",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80459-1",
+                        "display": "Vegetable servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80457-5",
+                        "display": "Fruit servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "787758000",
+                        "display": "Estimated intake of fruit servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789334009",
+                        "display": "Estimated intake of vegetable servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226452008",
+                        "display": "Fruit intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226448008",
+                        "display": "Vegetable intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "301961000000107",
+                        "display": "Five or more portions of fruit and vegetables per day"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Österreichische Ernährungsempfehlungen (AGES, n.d.)",
+                    "specific-questions": "Österreichische Ernährungsempfehlungen\nWie oft konsumieren Sie fett-, zucker- und salzreiche Lebensmittel, wie Süßigkeiten, Mehlspeisen, Knabbereien und trinken Sie energiereiche Getränke wie Limonaden?\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie",
+                    "unit": "Konsumhäufigkeit von zucker- und salzreichen Lebensmitteln (pro Woche)\nAnzahl an Portionen zuckerhaltiger Lebensmittel (pro Tag)",
+                    "data-format": "Kategoriell (5 Antwortmöglichkeiten)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "Je weniger man von fett-, zucker- und salzreichen Lebensmitteln konsumiert werden, desto besser (AGES, n.d.)"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – ATHIS: Zuckerhaltige Lebensmittel",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226459004",
+                        "display": "Sugar intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226461008",
+                        "display": "Confectionery (sweets) intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230079003",
+                        "display": "Savory snack intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "818990008",
+                        "display": "Estimated oral intake of sugar sweetened drinks in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230084009",
+                        "display": "Table salt intake"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
+              },
+              "en": {
+                "template": "observation",
+                "key": "dietary-pattern-athis",
+                "dataset-scope": "Minimalset",
+                "title": "Dietary pattern (ATHIS)",
+                "description": "",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80459-1",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80457-5",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "787758000",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789334009",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226452008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226448008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "301961000000107",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226459004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226461008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230079003",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "818990008",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230084009",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
               }
             },
             {
@@ -1130,29 +1796,29 @@
                 "key": "minutes-moderate-physical-activity",
                 "dataset-scope": "Minimalset",
                 "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel ausdauerorientierte Aktivität die Personen pro Woche betreiben.\nDefinition:\n„Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020)\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWHO guidelines on physical activity and sedentary behaviour: https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content\nEmpfehlung für gesunde Erwachsene:\n„Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von ausdauerorientierter Bewegung mit mittlerer Intensität im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) ODER „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität ODER eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
-                "population": "general population",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Dieser Gesundheitsindikator zeigt auf, wie viele Minuten pro Woche die Bürger:innen mit…\n\n![95 Laufen-Ideen | laufen, trailrunning, laufmotivation](/media/3ea33e459a31105ae37bcc94a6742271.jpg)",
+                "citizen-info": "Laienhafte Information:\n“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nBroschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf\nBroschürenbestellung: https://fgoe.org/broschuerenbestellung",
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
-                    "device": "",
+                    "device": "Wearable",
                     "specific-questions": "",
-                    "unit": "min/week",
-                    "data-format": "min",
+                    "unit": "Minuten moderate Intensität pro Woche (Intensive wird mal 2 gerechnet)",
+                    "data-format": "Minuten",
                     "data-type": "integer",
-                    "range-of-vales": "min: 0 max: >48h/day",
-                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
-                    "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "range-of-vales": "min: 0min/Woche\nmax: 15.120 min/Woche",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+                    "recommended-monitoring-frequency": "wöchentlich",
                     "norms": [
                       {
-                        "specific-norm": "adults >=18 years: >=150 min /week"
+                        "specific-norm": "150 min-300min moderate Aktivität/Woche (Fonds Gesundes Österreich, 2020)"
                       }
                     ],
-                    "scoring-algorithm": "vigorous Intensitätsminuten x2",
+                    "scoring-algorithm": "höhere Intensität 2x",
                     "sources": [
                       {
                         "source-description": "Norm?",
@@ -1178,7 +1844,7 @@
                       {
                         "system": "http://snomed.info/sct",
                         "code": "246501002",
-                        "display": "Technique (Methode: Unterscheidung moderat/intensiv)"
+                        "display": "Technique"
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
@@ -1189,20 +1855,20 @@
                   },
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
+                    "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
                     "specific-questions": "**Fragebogen: EHIS-PAQ (Q4, Q5, Q6, Q7)** \n **Q4 (=PE4 ATHIS): An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q5(=PE5 ATHIS): Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag\n 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr\n **Q6(=PE6 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus? Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern oder Badminton**\n _Antwortmöglichkeiten_: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q7(=PE7 ATHIS): Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?** \n _Antwortmöglichkeit:_ ___ Stunden und ___ Minuten pro Woche",
-                    "unit": "-",
-                    "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)  Q5: Kategoriell (5 Antwortmöglichkeiten)  Q6: Kategoriell (8 Antwortmöglichkeiten)  Q7: Angabe in Stunden und Minuten",
+                    "unit": "kategorielle Variable: Q4 (Tage pro Woche), Q5 (Stunden pro Tag), Q6 (Tage pro Woche)\nQ7: Minuten pro Woche",
+                    "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)\nQ5: Kategoriell (5 Antwortmöglichkeiten)\nQ6: Kategoriell (8 Antwortmöglichkeiten)\nQ7: Angabe in Stunden und Minuten",
                     "data-type": "",
-                    "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+                    "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
                     "acquisition-frequency": "alle 6 Monate",
-                    "recommended-monitoring-frequency": "alle 3 Monate",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
                     "norms": [
                       {
-                        "specific-norm": "150 min-300 min körperliche Aktivität"
+                        "specific-norm": "150 min-300 min körperliche Aktivität (Fonds Gesundes Österreich, 2020)"
                       }
                     ],
-                    "scoring-algorithm": "_Q7: Stunden in Minuten umrechnen_",
+                    "scoring-algorithm": "Q7: Stunden in Minuten umrechnen",
                     "sources": [
                       {
                         "source-description": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
@@ -1267,9 +1933,9 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "integer",
-                    "range-of-vales": "min: 0 max: >48h/day",
-                    "acquisition-frequency": "Von 7 Tagen brauche ich mindestens 4 valide Tage um genommen. Pro Tag muss es mindestens 10 Stunden getragen werden.",
-                    "recommended-monitoring-frequency": "pro Tag/täglich",
+                    "range-of-vales": "min: 0min/Woche\nmax: 15.120 min/Woche",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
+                    "recommended-monitoring-frequency": "wöchentlich",
                     "norms": [],
                     "sources": [
                       {
@@ -1280,19 +1946,23 @@
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "101691-4"
+                        "code": "101691-4",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "77592-4"
+                        "code": "77592-4",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "77593-2"
+                        "code": "77593-2",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "246501002"
+                        "code": "246501002",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html",
@@ -1307,9 +1977,9 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "für Q7: \nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
+                    "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
                     "acquisition-frequency": "alle 6 Monate",
-                    "recommended-monitoring-frequency": "alle 3 Monate",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
                     "norms": [],
                     "sources": [
                       {
@@ -1320,11 +1990,13 @@
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "101691-4"
+                        "code": "101691-4",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "68130003"
+                        "code": "68130003",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html",
@@ -1343,19 +2015,65 @@
         {
           "de": {
             "template": "dimension",
-            "title": "Alltagsaktivität",
-            "id_tech": "everyday-activity",
-            "category": "physical-activity",
             "key": "everyday-activity",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "physical-activity",
+            "title": "Alltagsaktivität",
+            "description_professional": "Definition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
+            "description_layman": "„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
+            "verified-health-links": [
+              {
+                "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Österreichische Bewegungsempfehlungen",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Broschüre Bewegung",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "everyday-activity"
           },
           "en": {
             "template": "dimension",
-            "title": "Everyday Activity",
-            "id_tech": "everyday-activity",
-            "category": "physical-activity",
             "key": "everyday-activity",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "physical-activity",
+            "title": "Everyday Activity",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "everyday-activity"
           },
           "observations": [
             {
@@ -1386,7 +2104,7 @@
                         "specific-norm": "nicht zutreffend"
                       }
                     ],
-                    "scoring-algorithm": "",
+                    "scoring-algorithm": "nicht zutreffend",
                     "sources": [
                       {
                         "source-description": "EHIS-PAQ (Finger et al., 2015)",
@@ -1437,7 +2155,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "",
+                "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!",
                 "data_format": "integer",
                 "id_tech": "minutes-moderate-physical-activity-per-week",
                 "target-info": "Mindestens 150–300 Minuten moderater oder intensiver körperlicher Aktivität pro Woche. Österreichische Bewegungsempfehlungen (es wird zwischen den Zielgruppen unterschieden) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>",
@@ -1456,44 +2174,60 @@
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
-                    "data-type": "",
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
                     "range-of-vales": "Q2:\nmin: 0\nmax: 7",
                     "acquisition-frequency": "2x pro Jahr",
                     "recommended-monitoring-frequency": "Optimum: täglich",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "41950-7"
+                        "code": "41950-7",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   },
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "min: 0 Schritte/Tag\nmax: n.a.",
                     "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage\nEin valider Tag mindestens 8 Stunden Tragezeit pro Tag",
                     "recommended-monitoring-frequency": "Täglich",
+                    "norms": [],
+                    "sources": [],
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "41950-7"
+                        "code": "41950-7",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": "",
+                "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!",
                 "data_format": "integer",
                 "id_tech": "minutes-moderate-physical-activity-per-week",
                 "target-info": "At least 150–300 minutes of moderate or vigorous physical activity per week. Austrian physical activity guidelines (differentiated by target group) - <https://fgoe.org/medien/reihewissen/bewegungsempfehlungen>"
@@ -1670,19 +2404,65 @@
         {
           "de": {
             "template": "dimension",
-            "title": "Muskelkräftigende Übungen",
-            "category": "physical-activity",
-            "id_tech": "muscle-strengthening-exercises",
             "key": "muscle-strengthening-exercises",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "physical-activity",
+            "title": "Muskelkräftigende Übungen",
+            "description_professional": "Definition:\n„In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen. ” (Fonds Gesundes Österreich, 2020).\n“Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020).\n“Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).\nEmpfehlung:\nLaut den österreichischen Bewegungsempfehlungen „sollten Erwachsene an 2 oder mehr Tagen der Woche muskelkräftigende Übungen durchführen, bei denen alle großen Muskelgruppen berücksichtigt werden.“ (Fonds Gesundes Österreich, 2020)\nNicht aufeinanderfolgende Tage",
+            "description_layman": "“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)",
+            "verified-health-links": [
+              {
+                "title": "Österreichische Bewegungsempfehlungen",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "WHO guidelines on physical activity and sedentary behaviour",
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Broschüre Bewegung",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "muscle-strengthening-exercises"
           },
           "en": {
             "template": "dimension",
+            "key": "muscle-strengthening-exercises",
+            "dataset-scope": "Minimalset",
             "category": "physical-activity",
             "title": "Muscle-strengthening Exercises",
-            "id_tech": "muscle-strengthening-exercises",
-            "key": "muscle-strengthening-exercises",
-            "dataset-scope": "Minimalset"
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "muscle-strengthening-exercises"
           },
           "observations": [
             {
@@ -1771,7 +2551,7 @@
                     ]
                   }
                 ],
-                "discussion": ""
+                "discussion": "Fragebogen und/oder Wearable"
               },
               "en": {
                 "template": "observation",
@@ -1787,50 +2567,66 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "nicht zutreffend",
                     "acquisition-frequency": "2x pro Jahr",
                     "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
                       }
                     ],
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "82291-6"
+                        "code": "82291-6",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "266741004"
-                      }
-                    ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  },
-                  {
-                    "source-type": "Wearable device / sensor · automated",
-                    "data-type": "",
-                    "range-of-vales": "min: 0\nmax: 7",
-                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
-                    "recommended-monitoring-frequency": "Wöchentlich",
-                    "terminology-codes": [
-                      {
-                        "system": "http://loinc.org",
-                        "code": "82291-6"
+                        "code": "266741004",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 7",
+                    "acquisition-frequency": "2x Jahr\n7 Tage Tragedauer\nMindestens 4 valide Tage",
+                    "recommended-monitoring-frequency": "Wöchentlich",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82291-6",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
                     "app-providers": [
                       "pandocs"
                     ]
                   }
                 ],
-                "discussion": ""
+                "discussion": "Fragebogen und/oder Wearable"
               }
             }
           ]
@@ -1838,19 +2634,77 @@
         {
           "de": {
             "template": "dimension",
-            "title": "Sitzen",
-            "category": "physical-activity",
-            "id_tech": "sitting",
             "key": "sitting",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "physical-activity",
+            "title": "Sitzen",
+            "description_professional": "Definition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
+            "description_layman": "„Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
+            "verified-health-links": [
+              {
+                "title": "Österreichische Bewegungsempfehlungen",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Sitzverhalten (Robert Koch-Institut)",
+                "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "WHO guidelines on physical activity and sedentary behaviour",
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sitting"
           },
           "en": {
             "template": "dimension",
+            "key": "sitting",
+            "dataset-scope": "Minimalset",
             "category": "physical-activity",
             "title": "Sitting",
-            "id_tech": "sitting",
-            "key": "sitting",
-            "dataset-scope": "Minimalset"
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sitting"
           },
           "observations": [
             {
@@ -1864,7 +2718,7 @@
                 "dimension": "sitting",
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).\nNähere Informationen zu den nationalen Bewegungsempfehlungen:\nhttps://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nhttps://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+                "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).\nNähere Informationen zu den nationalen Bewegungsempfehlungen:\nhttps://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWeiterführende Links:\nDie Bewegungsrevolution (Gesundheitsfonds Steiermark): https://diebewegungsrevolution.at/bewegung-tipps/\nhttps://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0\nhttps://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -1923,8 +2777,14 @@
                     ],
                     "scoring-algorithm": "(Minuten in Stunden umrechnen)",
                     "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "87705-0",
+                        "display": "Sedentary activity 24 hour"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -1981,13 +2841,27 @@
                   },
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "min: 0 Stunden\nmax: 24 Stunden",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "Täglich",
-                    "pn-fhir-ig-link": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "87705-0",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": "Fragebogen und/oder Wearable"
@@ -2172,8 +3046,8 @@
             "dataset-scope": "Minimalset",
             "category": "psychosocial-factors",
             "title": "Chronischer Stress",
-            "description_professional": "",
-            "description_layman": "",
+            "description_professional": "Definition: „Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Everyone experiences stress to some degree. The way we respond to stress, however, makes a big difference to our overall well-being“ (World Health Organization, 2026)\n“Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026)\n„Some stress is positive. It causes our bodies to release adrenaline, which helps us to accomplish assignments and projects, and can even enhance our performance and problem-solving ability. But chronic stress, which is constant and persists over an extended period of time, can be debilitating and overwhelming. Chronic stress can affect both our physical and psychological well-being by causing a variety of problems including anxiety, insomnia, muscle pain, high blood pressure, and a weakened immune system. Research shows that stress can contribute to the development of major illnesses, such as heart disease, depression, and obesity“ (APA, 2024).\n“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).\nEmpfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.",
+            "description_layman": "“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).",
             "verified-health-links": [],
             "discussion": ""
           },
@@ -2188,7 +3062,133 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "perceived-stress-pss",
+                "dataset-scope": "Minimalset",
+                "title": "Chronischer Stress",
+                "description": "Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Personen.\nDefinition: „Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Everyone experiences stress to some degree. The way we respond to stress, however, makes a big difference to our overall well-being“ (World Health Organization, 2026)\n“Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026)\n„Some stress is positive. It causes our bodies to release adrenaline, which helps us to accomplish assignments and projects, and can even enhance our performance and problem-solving ability. But chronic stress, which is constant and persists over an extended period of time, can be debilitating and overwhelming. Chronic stress can affect both our physical and psychological well-being by causing a variety of problems including anxiety, insomnia, muscle pain, high blood pressure, and a weakened immune system. Research shows that stress can contribute to the development of major illnesses, such as heart disease, depression, and obesity“ (APA, 2024).\n“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).\nEmpfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.",
+                "category": "psychosocial-factors",
+                "dimension": "chronic-stress",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Perceived Stress Scale 4 (PSS-4) (Cohen et al., 1983) & Ausweitung mit PSS-10 möglich (Cohen et al., 1983)",
+                    "specific-questions": "Perceived Stress Scale 4 (PSS-4)\nDiese Fragen beziehen sich auf Ihre Gefühle und Gedanken während des letzten Monats. Wählen Sie aus, WIE HÄUFIG Sie eine bestimmte Art von Gefühlen oder Gedanken hatten.\n1) Wie oft hatten Sie sich im letzten Monat das Gefühl, wichtige Dinge in Ihrem Leben nicht beeinflussen zu können?\n2) Wie oft hatten Sie sich im letzten Monat sicher im Umgang mit persönlichen Aufgaben und Problemen gefühlt?\n3) Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Dinge nach Ihren Vorstellungen entwickeln?\n4) Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Probleme so aufgestaut haben, dass Sie diese nicht mehr bewältigen können?\nAntwortmöglichkeit bei allen Items: 0 Nie, 1 Selten, 2 Manchmal, 3 Häufig, 4 Sehr oft\nAusweitung mit PSS-10 möglich\nDie folgenden Aussagen beziehen sich auf Ihre Gedanken und Gefühle während der letzten vier Wochen. Bitte geben Sie an, wie häufig Sie sich in der angegebenen Weise gefühlt oder verhalten haben:\n\n1. Wie oft hatten Sie sich im letzten Monat darüber aufgeregt, dass etwas völlig Unerwartetes eingetreten ist?\n2. Wie oft hatten Sie im letzten Monat das Gefühl, wichtige Dinge in Ihrem Leben nicht beeinflussen zu können? (PSS-4- Item 1)\n3. Wie oft hatten Sie sich im letzten Monat nervös und „gestresst“ gefühlt?\n4. Wie oft hatten Sie sich im letzten Monat sicher im Umgang mit persönlichen Aufgaben und Problemen gefühlt? (PSS4 Item 2)\n5. Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Dinge nach Ihren Vorstellungen entwickeln? (PSS4 Item 3)\n6. Wie oft hatten Sie im letzten Monat das Gefühl, mit all den anstehenden Aufgaben und Problemen nicht richtig umgehen zu können?\n7. Wie oft hatten Sie im letzten Monat das Gefühl, mit Ärger in Ihrem Leben klar zu kommen?\n8. Wie oft hatten Sie im letzten Monat das Gefühl, alles im Griff zu haben?\n9. Wie oft hatten Sie sich im letzten Monat darüber geärgert, wichtige Dinge nicht beeinflussen zu können?\n10. Wie oft hatten Sie im letzten Monat das Gefühl, dass sich die Probleme so aufgestaut haben, dass Sie diese nicht mehr bewältigen können? (PSS-4- Item 4)\nAntwortmöglichkeit bei allen Items: 0 Nie, 1 Selten, 2 Manchmal, 3 Häufig, 4 Sehr oft",
+                    "unit": "Score",
+                    "data-format": "PSS-4: Gesamtscore (0-16) integer (Ganzzahl)\nPSS-10: Gesamtscore (0-40)  integer (Ganzzahl)",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 16 (PSS-4) und 40 (PSS-10)",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "PSS-4: Die angegebenen Zahlen werden addiert, um eine Summe zu erhalten. Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel (Cohen et al., 1983).\nPSS-10: Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel.\n0-13: Niedriges Stressniveau\n14-26: Moderates Stressniveau\n27-40: Hohes Stressniveau (Cohen et al., 1983)"
+                      }
+                    ],
+                    "scoring-algorithm": "PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.\nPSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.\nFür die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.\nDer Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der\nSelbstwirksamkeitsskala (siehe NextCloud!)",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – PSS-4 und PSS-10",
+                        "system": "doi.org/10.2307/2136404"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "106860-0",
+                        "display": "Perceived stress scale-10 total score [PSS-10]"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "304753007",
+                        "display": "Perceived stress scale"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1193534004",
+                        "display": "High perceived stress"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "23085004",
+                        "display": "Increased stress"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebögen"
+              },
+              "en": {
+                "template": "observation",
+                "key": "perceived-stress-pss",
+                "dataset-scope": "Minimalset",
+                "title": "Perceived stress (PSS-4 / PSS-10)",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "chronic-stress",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 16 (PSS-4) und 40 (PSS-10)",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "doi.org/10.2307/2136404"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "106860-0",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "304753007",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1193534004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "23085004",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebögen"
+              }
+            }
+          ]
         },
         {
           "de": {
@@ -2274,6 +3274,287 @@
                   }
                 ],
                 "discussion": ""
+              }
+            }
+          ]
+        },
+        {
+          "de": {
+            "template": "dimension",
+            "key": "emotional-distress",
+            "dataset-scope": "Minimalset",
+            "category": "psychosocial-factors",
+            "title": "Emotionale Belastung",
+            "description_professional": "Definition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nEmpfehlung: nicht anwendbar",
+            "description_layman": "Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
+            "verified-health-links": [
+              {
+                "title": "pro mente Austria",
+                "url": "https://www.promenteaustria.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Erste Hilfe für die Seele",
+                "url": "https://www.erstehilfefuerdieseele.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Leitlinie Unipolare Depression",
+                "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Plattform Psyche (Gesundheitsfonds Steiermark)",
+                "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "ÖGK: Broschüre psychische Gesundheit",
+                "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "oesterreich.gv.at: Psychosoziale Gesundheit",
+                "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "ÖGK: Psychische Gesundheit",
+                "url": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "emotional-distress",
+            "dataset-scope": "Minimalset",
+            "category": "psychosocial-factors",
+            "title": "Emotional distress",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://www.promenteaustria.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.erstehilfefuerdieseele.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": ""
+          },
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "emotional-distress-phq2",
+                "dataset-scope": "Minimalset",
+                "title": "Emotionale Belastung",
+                "description": "Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.\nDefinition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nWeiterführende Links:\nhttps://www.promenteaustria.at/\nhttps://www.erstehilfefuerdieseele.at/\nLeitlinie Depression: https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf\nEmpfehlung: nicht anwendbar",
+                "category": "psychosocial-factors",
+                "dimension": "emotional-distress",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\nDieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)\nWeiterführende Links:\nhttps://www.erstehilfefuerdieseele.at/\nhttps://gesundheitsfonds-steiermark.at/plattform-psyche/\nhttps://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297\nhttps://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit\nhttps://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "PHQ-2; “Whooley Questions” (BÄK & KBV & AWMF, 2022)",
+                    "specific-questions": "PHQ-2; „Whooley Questions“\n\n1. Fühlten Sie sich im letzten Monat häufig niedergeschlagen, traurig bedrückt oder hoffnungslos?\nAntwortmöglichkeiten: 1) Ja, 2) Nein\n2. Hatten Sie im letzten Monat deutlich weniger Lust und Freude an Dingen, die Sie sonst gerne tun?\nAntwortmöglichkeiten: 1) Ja, 2) Nein",
+                    "unit": "Selbstbericht über emotionale Belastung",
+                    "data-format": "Dichotome Antwortmöglichkeit (nominal)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "Werden beide Fragen mit „Ja“ beantwortet, identifiziert der Test das Vorliegen depressiver Störungen mit einer Sensitivität von 96% und einer Spezifität von 57%.",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – PHQ-2",
+                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "73832-8",
+                        "display": "Adult depression screening assessment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "366979004",
+                        "display": "Depressed mood"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "417523004",
+                        "display": "Loss of interest in previously enjoyable activity"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "247753000",
+                        "display": "Loss of interest"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": "No"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
+              },
+              "en": {
+                "template": "observation",
+                "key": "emotional-distress-phq2",
+                "dataset-scope": "Minimalset",
+                "title": "Emotional distress (PHQ-2)",
+                "description": "",
+                "category": "psychosocial-factors",
+                "dimension": "emotional-distress",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "73832-8",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "366979004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "417523004",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "247753000",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
               }
             }
           ]
@@ -2875,9 +4156,16 @@
             "dataset-scope": "Minimalset",
             "category": "quality-of-life",
             "title": "Körperliche, mentale, soziale, umweltbezogene Lebensqualität",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
+            "description_professional": "Definition:\n“Quality of life is defined by the WHO as “individuals' perceptions of their position in life in the context of the culture and value systems in which they live and in relation to their goals, expectations, standards and concerns”. It is a broad ranging concept incorporating in a complex way the persons' physical health, psychological state, level of independence, social relationships, personal beliefs and their relationships to salient features of the environment” (World Health Organization, 1998).\n“Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).\nEmpfehlung: nicht anwendbar",
+            "description_layman": "„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)",
+            "verified-health-links": [
+              {
+                "title": "WHOQOL-BREF User Manual (WHO)",
+                "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content",
+                "audience": [],
+                "note": ""
+              }
+            ],
             "discussion": ""
           },
           "en": {
@@ -2888,10 +4176,157 @@
             "title": "Physical, mental, social, environmental domains",
             "description_professional": "",
             "description_layman": "",
-            "verified-health-links": [],
+            "verified-health-links": [
+              {
+                "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content"
+              }
+            ],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "quality-of-life-whoqol-bref",
+                "dataset-scope": "Minimalset",
+                "title": "Körperliche, mentale, soziale, umweltbezogene Lebensqualität",
+                "description": "Definition:\n“Quality of life is defined by the WHO as “individuals' perceptions of their position in life in the context of the culture and value systems in which they live and in relation to their goals, expectations, standards and concerns”. It is a broad ranging concept incorporating in a complex way the persons' physical health, psychological state, level of independence, social relationships, personal beliefs and their relationships to salient features of the environment” (World Health Organization, 1998).\n“Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).\nWeiterführende Informationen:\nUser Manual: https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content\nEmpfehlung: nicht anwendbar",
+                "category": "quality-of-life",
+                "dimension": "physical-mental-social-environmental-domains",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information: „Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "WHOQOL-BREF (WHO, 1996)",
+                    "specific-questions": "WHOQOL-BREF\n1(G1) Wie würden Sie Ihre Lebensqualität beurteilen?\nAntwortmöglichkeit: 1) Sehr schlecht;2) Schlecht; 3 = Mittelmäßig; 4 = Gut; 5 = Sehr gut\n2(G4) Wie zufrieden sind Sie mit Ihrer Gesundheit?\nAntwortmöglichkeit: 1 = Sehr schlecht;2 = Schlecht; 3 = Mittelmäßig; 4 = Gut; 5 = Sehr gut\nIn den folgenden Fragen geht es darum, wie stark Sie während der vergangenen zwei Wochen bestimmte Dinge erlebt haben.\n3(F1.4) Wie stark werden Sie durch Schmerzen daran gehindert, notwendige Dinge zu tun? (Domäne Physische Gesundheit)\n4(F11.3) Wie sehr sind Sie auf medizinische Behandlung angewiesen, um das tägliche Leben zu meistern? (Domäne Physische Gesundheit)\n5(F4.1) Wie gut können Sie Ihr Leben genießen? (Domäne Physische Gesundheit)\n6(F24.2) Betrachten Sie Ihr Leben als sinnvoll? (Domäne Physische Gesundheit)\n7(F5.3) Wie gut können Sie sich konzentrieren? (Domäne Physische Gesundheit)\n8(F16.1) Wie sicher fühlen Sie sich in Ihrem täglichen Leben? (Domäne Umwelt)\n9(F22.1) Wie gesund sind die Umweltbedingungen in Ihrem Wohngebiet? (Domäne Umwelt)\nIn den folgenden Fragen geht es darum, im welchem Umfang Sie während der vergangenen zwei Wochen bestimmte Dinge erlebt haben oder in der Lage waren, bestimmte Dinge zu tun\n10(F2.1) Haben Sie genug Energie für das tägliche Leben? (Domäne Physische Gesundheit)\n11(F7.1) Können Sie Ihr Aussehen akzeptieren? (Domäne Physische Gesundheit)\n12(F18.1) Haben Sie genug Geld, um Ihre Bedürfnisse erfüllen zu können? (Domäne Umwelt)\n13(F20.1) Haben Sie Zugang zu den Informationen, die Sie für das tägliche Leben brauchen? (Domäne Umwelt)\n14(F21.1) Haben Sie ausreichend Möglichkeiten zu Freizeitaktivitäten? (Domäne Umwelt)\n15(F9.1) Wie gut können Sie sich fortbewegen? (Domäne Umwelt)\n16(F3.3) Wie zufrieden sind Sie mit Ihrem Schlaf? (Physische Gesundheit) --> bei Schlafqualität abgedeckt\n17(F10.3) Wie zufrieden sind Sie mit Ihrer Fähigkeit, alltägliche Dinge erledigen zu können? (Physische Gesundheit)\n18(F12.4) Wie zufrieden sind Sie mit Ihrer Arbeitsfähigkeit? (Physische Gesundheit)\n19(F6.3) Wie zufrieden sind Sie mit sich selbst? (Psychische Gesundheit)\n20(F13.3) Wie zufrieden sind Sie mit Ihren persönlichen Beziehungen? (Soziale Beziehungen)\n21(F15.3) Wie zufrieden sind Sie mit Ihrem Sexualleben? (Soziale Beziehungen)\\*\n\\*Hinweis: Wird auch beim Indikator „Schlaf“ erfasst!\n22(F14.4) Wie zufrieden sind Sie mit der Unterstützung durch Ihre Freunde? (Soziale Beziehungen)\n23(F17.3) Wie zufrieden sind Sie mit Ihren Wohnbedingungen? (Umwelt)\n24(F19.3) Wie zufrieden sind Sie mit Ihren Möglichkeiten, Gesundheitsdienste in Anspruch nehmen zu können? (Umwelt)\n25(F23.3) Wie zufrieden sind Sie mit den Beförderungsmitteln, die Ihnen zur Verfügung stehen? (Umwelt)\nIn der folgenden Frage geht es darum, wie oft sich während der vergangenen zwei Wochen bei Ihnen negative Gefühle eingestellt haben, wie zum Beispiel Angst oder Traurigkeit.\n26(F8.1.) Wie häufig haben Sie negative Gefühle wie Traurigkeit, Verzweiflung, Angst oder Depression? (Physische Gesundheit)\nFragen können in Subsets aufgeteilt werden nach den Domänen physische, psychische Umwelt und soziale Beziehungen",
+                    "unit": "Lebensqualität Score",
+                    "data-format": "Transformierter Scorewert (0-100)",
+                    "data-type": "",
+                    "range-of-vales": "min: 4 (Transformiert 0)\nmax: 20 (Transformiert 100)",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [
+                      {
+                        "specific-norm": "Pro Domäne gibt es jeweils ein Ergebnis. Je höher diese Zahl, desto besser ist die subjektiv eingeschätzte Lebensqualität (WHO, 1996)."
+                      }
+                    ],
+                    "scoring-algorithm": "Domänen (WHO-Auswertungsdokument siehe NextCloud):\nPhysical health (6-Q3) + (6-Q4) + Q10 + Q15 +Q16 +Q17 + Q18 = raw score\nPsychological Q5 + Q6 + Q7 +Q11 +Q19 + (6-Q26) = raw score\nSocial relationships Q20 + Q21 + Q22 = raw score\nEnvironment Q8 + Q9 + Q12 +Q13 +Q14 +Q23 + 24 +Q25 = raw score\nUmcodieren von F3, F4, F26 erforderlich\nIt is possible to derive four domain scores. There are also two items that are examined separately: question 1 asks about an individual’s overall perception of quality of life and question 2 asks about an individual’s perception of quality of life in each particular domain. Domain scores are scaled in a positive direction (i.e. higher scores denote higher quality of life). The mean score of items within each domain is used to calculate the domain score. Mean scores are then multiplied by 4 in order to make domain scores comparable with the scores used in the WHOQOL-100.\nThe first transformation method converts scores to range between 4-20, comparable with the WHOQOL-100.\nThe second transformation method converts domain scores to a 0-100 scale.",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – WHOQOL-BREF",
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "405152002",
+                        "display": "Quality of life satisfaction"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "19388002",
+                        "display": "Physical"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "60224009",
+                        "display": "Psychologic"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "272151006",
+                        "display": "Relationships"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "276339004",
+                        "display": "Environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "60132005",
+                        "display": "Generalized"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "98917-8",
+                        "display": "WHOQOL-BREF panel"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen"
+              },
+              "en": {
+                "template": "observation",
+                "key": "quality-of-life-whoqol-bref",
+                "dataset-scope": "Minimalset",
+                "title": "Quality of life (WHOQOL-BREF)",
+                "description": "",
+                "category": "quality-of-life",
+                "dimension": "physical-mental-social-environmental-domains",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "min: 4 (Transformiert 0)\nmax: 20 (Transformiert 100)",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "sources": [
+                      {
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "405152002"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "19388002"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "60224009"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "272151006"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "276339004"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "60132005"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "98917-8"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "Fragebogen"
+              }
+            }
+          ]
         }
       ]
     },
@@ -3868,38 +5303,299 @@
         {
           "de": {
             "template": "dimension",
-            "title": "Schlafdauer",
-            "id_tech": "sleep-duration",
-            "category": "sleep",
             "key": "sleep-duration",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "sleep",
+            "title": "Schlafdauer",
+            "description_professional": "Definition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\nEmpfehlung: ???",
+            "description_layman": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
+            "verified-health-links": [
+              {
+                "title": "Was ist normaler Schlaf?",
+                "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sleep-duration"
           },
           "en": {
             "template": "dimension",
-            "title": "Sleep duration",
-            "id_tech": "sleep-duration",
-            "category": "sleep",
             "key": "sleep-duration",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "sleep",
+            "title": "Sleep duration",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html"
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sleep-duration"
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "sleep-duration",
+                "dataset-scope": "Minimalset",
+                "title": "Schlafdauer",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\nEmpfehlung: ???",
+                "category": "sleep",
+                "dimension": "sleep-duration",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nWeiterführende Links:\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)\nhttps://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "DEGS (RKI, 2009)",
+                    "specific-questions": "Fragebogen (DEGS)\nWie viele Stunden haben Sie während der letzten 4 Wochen pro Nacht tatsächlich geschlafen? Antwortmöglichkeit: Stunden/Nacht",
+                    "unit": "Effektive Schlafzeit (Stunden) pro 24 Stunden*\n*Für Personen mit Nacht- oder Schichtarbeit: Oder wann Sie üblicherweise schlafen.",
+                    "data-format": "Stunden Ganzzahl (integer)",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 24",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Fragebogen: alle 6 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – DEGS",
+                        "system": "PDF siehe NextCloud"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "93832-4",
+                        "display": "Sleep duration"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248263006",
+                        "display": "Duration of sleep"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "device": "Wearable",
+                    "specific-questions": "",
+                    "unit": "Stunden Schlaf pro 24 Stunden",
+                    "data-format": "numerische Variable auf zwei Komma Stellen genau",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 24",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Wöchentlich",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "Minuten in Stunden umrechnen",
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "93832-4",
+                        "display": "Sleep duration"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable\nReferenz Fragebogen DEGS: PDF siehe NextCloud."
+              },
+              "en": {
+                "template": "observation",
+                "key": "sleep-duration",
+                "dataset-scope": "Minimalset",
+                "title": "Sleep duration (hours/night)",
+                "description": "",
+                "category": "sleep",
+                "dimension": "sleep-duration",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 24",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Fragebogen: alle 6 Monate",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "PDF siehe NextCloud"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "93832-4",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248263006",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 24",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Wöchentlich",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "93832-4",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable\nReferenz Fragebogen DEGS: PDF siehe NextCloud."
+              }
+            }
+          ]
         },
         {
           "de": {
             "template": "dimension",
-            "title": "Schlafqualität",
-            "id_tech": "sleep-quality",
-            "category": "sleep",
             "key": "sleep-quality",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "sleep",
+            "title": "Schlafqualität",
+            "description_professional": "Definition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\n„So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024).\n„Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).\nSonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).\nEmpfehlung: nicht anwendbar",
+            "description_layman": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
+            "verified-health-links": [
+              {
+                "title": "Was ist normaler Schlaf?",
+                "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "S3-Leitlinie Schlafbezogene Atmungsstörungen",
+                "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "S3-Leitlinie Insomnie bei Erwachsenen",
+                "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "S2k-Leitlinie Gestaltung Nacht- und Schichtarbeit",
+                "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sleep-quality"
           },
           "en": {
             "template": "dimension",
-            "title": "Sleep Quality",
-            "id_tech": "sleep-quality",
-            "category": "sleep",
             "key": "sleep-quality",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "sleep",
+            "title": "Sleep Quality",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "sleep-quality"
           },
           "observations": [
             {
@@ -3992,6 +5688,191 @@
                   }
                 ],
                 "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "sleep-quality",
+                "dataset-scope": "Minimalset",
+                "title": "Schlafqualität",
+                "description": "Dieser Gesundheitsindikator zeigt die selbstangegebene Einschätzung der Schlafqualität der Personen an.\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\n„So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024).\n„Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).\nSonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).\nWeiterführende Links:\nhttps://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html\nS3 Leitlinie: https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf\nhttps://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf\nhttps://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf\nEmpfehlung: nicht anwendbar",
+                "category": "sleep",
+                "dimension": "sleep-quality",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nWeiterführende Links:\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)\nhttps://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "WHOQOL-BREF (WHO, 1996)",
+                    "specific-questions": "WHOQOL-BREF 16 (F3.3)\n16 (F3.3): Wie zufrieden sind Sie mit Ihrem Schlaf?\nAntwortmöglichkeiten: 1) Sehr unzufrieden, 2) Unzufrieden, 3) Weder zufrieden noch unzufrieden, 4) Zufrieden, 5) Sehr Zufrieden",
+                    "unit": "Selbstangegebene Einschätzung der Schlafqualität",
+                    "data-format": "Kategoriell: 5 Antwortmöglichkeiten",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – WHOQOL-BREF",
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "61987-4",
+                        "display": "My sleep quality was... in past 7 days [PROMIS]"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA9615-1",
+                        "display": "Very poor"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8969-3",
+                        "display": "Poor"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8968-5",
+                        "display": "Fair"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8967-7",
+                        "display": "Good"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA13913-1",
+                        "display": "Very Good"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248254009",
+                        "display": "Quality of sleep"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "11741000202105",
+                        "display": "Good quality of sleep"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "device": "Wearable",
+                    "specific-questions": "",
+                    "unit": "Erhobene Schlafqualität",
+                    "data-format": "???",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x Jährlich\nMuss mindestens 7 Tage getragen werden;\ndavon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)",
+                    "recommended-monitoring-frequency": "je länger desto besser >=10 Tage",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable"
+              },
+              "en": {
+                "template": "observation",
+                "key": "sleep-quality",
+                "dataset-scope": "Minimalset",
+                "title": "Sleep quality",
+                "description": "",
+                "category": "sleep",
+                "dimension": "sleep-quality",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
+                    "sources": [
+                      {
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "61987-4"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA9615-1"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8969-3"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8968-5"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA8967-7"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA13913-1"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248254009"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "11741000202105"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  },
+                  {
+                    "source-type": "Wearable device / sensor · automated",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "1x Jährlich\nMuss mindestens 7 Tage getragen werden;\ndavon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)",
+                    "recommended-monitoring-frequency": "je länger desto besser >=10 Tage",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "Fragebogen und/oder Wearable"
               }
             }
           ]
@@ -4201,19 +6082,113 @@
         {
           "de": {
             "template": "dimension",
-            "title": "Raucherstatus",
-            "category": "smoking",
-            "id_tech": "smoking-status",
             "key": "smoking-status",
-            "dataset-scope": "Minimalset"
+            "dataset-scope": "Minimalset",
+            "category": "smoking",
+            "title": "Raucherstatus",
+            "description_professional": "Definition:\n“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)\n“Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)\n“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)\n“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)\n“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)\nEmpfehlung:\n„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products” (World Health Organization, 2025).\n“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).",
+            "description_layman": "„Dauerhaftes Rauchen verkürzt die Lebenserwartung um mehrere Jahre und hat viele gesundheitliche Nachteile. Es erhöht das Risiko für viele Krebsarten – insbesondere für Lungenkrebs und bösartige Tumoren im Mund- und Halsbereich. Mehr als 85% aller Lungenkrebserkrankungen lassen sich auf das Rauchen zurückführen.“ (IQWiG, 2022a)\n„Wichtig ist: Auch wer nur wenig oder gelegentlich raucht, schadet damit schon der Gesundheit.“ (IQWiG, 2022a)",
+            "verified-health-links": [
+              {
+                "title": "S3-Leitlinie Rauchen und Tabakabhängigkeit",
+                "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "gesundheitsinformation.de: Rauchen",
+                "url": "https://www.gesundheitsinformation.de/rauchen.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "rauchfrei.at",
+                "url": "https://rauchfrei.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "rauchfrei-programm.de",
+                "url": "https://rauchfrei-programm.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Stabsstelle Krebsprävention (DKFZ)",
+                "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "WHO: Tobacco",
+                "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "Prävention und Tabakentwöhnung (Sozialministerium)",
+                "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "smoking-status"
           },
           "en": {
             "template": "dimension",
+            "key": "smoking-status",
+            "dataset-scope": "Minimalset",
             "category": "smoking",
             "title": "Smoking Status",
-            "id_tech": "smoking-status",
-            "key": "smoking-status",
-            "dataset-scope": "Minimalset"
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [
+              {
+                "title": "",
+                "url": "https://register.awmf.org/assets/guidelines/076-006l_S3_Rauchen-_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-03.pdf",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.gesundheitsinformation.de/rauchen.html",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://rauchfrei.at/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://rauchfrei-programm.de/",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.dkfz.de/forschung/translationale-zentren/ncpc/stabsstelle-krebspraevention",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://iris.who.int/server/api/core/bitstreams/2deb01bc-1be9-4e9c-b113-5efbb67780c7/content",
+                "audience": [],
+                "note": ""
+              },
+              {
+                "title": "",
+                "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Tabak-und-verwandte-Erzeugnisse/Pr%C3%A4vention-und-Tabakentw%C3%B6hnung.html",
+                "audience": [],
+                "note": ""
+              }
+            ],
+            "discussion": "",
+            "id_tech": "smoking-status"
           },
           "observations": [
             {
@@ -4780,8 +6755,8 @@
             "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Alter",
-            "description_professional": "",
-            "description_layman": "",
+            "description_professional": "Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).\nEmpfehlung: nicht anwendbar",
+            "description_layman": "Nicht erforderlich",
             "verified-health-links": [],
             "discussion": ""
           },
@@ -4796,7 +6771,91 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "age",
+                "dataset-scope": "Minimalset",
+                "title": "Alter",
+                "description": "Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).\nEmpfehlung: nicht anwendbar",
+                "category": "sociodemographic-data",
+                "dimension": "age",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Nicht erforderlich",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Selbst definierte Frage",
+                    "specific-questions": "Frage: Wann wurden Sie geboren?",
+                    "unit": "Jahre",
+                    "data-format": "Datum (JJJJ-MM-TT)",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 120",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend\\*\n\\*Für den Fall, dass später eine Kategorisierung erforderlich ist, wäre eine derartige Einteilung möglich: https://flexikon.doccheck.com/de/Alter"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – Selbst definierte Frage",
+                        "system": "Nicht anwendbar"
+                      }
+                    ],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "ID-Austria (automatische Übernahme)"
+              },
+              "en": {
+                "template": "observation",
+                "key": "age",
+                "dataset-scope": "Minimalset",
+                "title": "Age",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "age",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "min: 0\nmax: 120",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "Nicht anwendbar"
+                      }
+                    ],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "ID-Austria (automatische Übernahme)"
+              }
+            }
+          ]
         },
         {
           "de": {
@@ -4805,8 +6864,8 @@
             "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Geschlecht",
-            "description_professional": "",
-            "description_layman": "",
+            "description_professional": "Definition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+            "description_layman": "Nicht erforderlich",
             "verified-health-links": [],
             "discussion": ""
           },
@@ -4821,7 +6880,133 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": []
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "gender",
+                "dataset-scope": "Minimalset",
+                "title": "Geschlecht",
+                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\nDefinition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+                "category": "sociodemographic-data",
+                "dimension": "gender",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Nicht erforderlich",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Selbst definierte Frage",
+                    "specific-questions": "Frage: Mit welchem Geschlecht würden Sie sich identifizieren?",
+                    "unit": "Geschlecht",
+                    "data-format": "Geschlecht (nominal)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – Selbst definierte Frage",
+                        "system": "Nicht anwendbar"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "33791000087105",
+                        "display": "Identifies as nonbinary gender"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "911581000124109",
+                        "display": "Identifies as transgender woman"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "911601000124109",
+                        "display": "Identifies as transgender man"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "551641000124102",
+                        "display": "Identifies as cisgender"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "ID-Austria (automatische Übernahme)"
+              },
+              "en": {
+                "template": "observation",
+                "key": "gender",
+                "dataset-scope": "Minimalset",
+                "title": "Gender",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "gender",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "Nicht anwendbar"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "33791000087105",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "911581000124109",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "911601000124109",
+                        "display": ""
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "551641000124102",
+                        "display": ""
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "ID-Austria (automatische Übernahme)"
+              }
+            }
+          ]
         },
         {
           "de": {
@@ -5156,8 +7341,8 @@
             "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Sozio-ökonomischer Status",
-            "description_professional": "",
-            "description_layman": "",
+            "description_professional": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+            "description_layman": "Nicht erforderlich",
             "verified-health-links": [],
             "discussion": ""
           },
@@ -5173,6 +7358,121 @@
             "discussion": ""
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "education-level-isced",
+                "dataset-scope": "Minimalset",
+                "title": "Sozioökonomischer Status",
+                "description": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Nicht erforderlich",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "ISCED-Level (UNESCO Institute for Statistics, 2012)",
+                    "specific-questions": "ISCED-Level\nWas ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?\nAntwortmöglichkeit: 1) ISCED 1: Volksschule 2)ISCED 2: Hauptschule, Mittelschulen, Unterstufen von AHS; 3) ISCED 3a: Polytechnische Schule 4) ISCED 3b: Berufsbildende mittlere Schulen (HASCH, Fachschulen) 5) ISCED 3c: Berufsbildende höhere Schulen (HAK, HABLA, HTL) und AHS-Oberstufe 6) ISCED 4: Lehre mit Matura, Gesundheits- und Krankenpflegeschule (nicht-tertiär), Meister- oder Diplomprüfung 7) ISCED 5: Kolleg, tertiäre Hebammenakademien bzw. medizinisch-technische Ausbildungen im Kurzzyklus 8) ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Doktor)",
+                    "unit": "Höchste abgeschlossene Schulbildung",
+                    "data-format": "ISCED-Level (ordinal)",
+                    "data-type": "",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+                    "norms": [
+                      {
+                        "specific-norm": "nicht zutreffend"
+                      }
+                    ],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – ISCED-Level",
+                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82589-3",
+                        "display": "Highest level of education"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "342271000000107",
+                        "display": "Educated to primary level"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224297003",
+                        "display": "Educated to secondary school level"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "473461003",
+                        "display": "Educated to high school level"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+              },
+              "en": {
+                "template": "observation",
+                "key": "education-level-isced",
+                "dataset-scope": "Minimalset",
+                "title": "Highest level of education (ISCED)",
+                "description": "",
+                "category": "sociodemographic-data",
+                "dimension": "socio-economic-status",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "data-type": "",
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "range-of-vales": "nicht zutreffend",
+                    "acquisition-frequency": "einmalig",
+                    "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+                    "sources": [
+                      {
+                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+                      }
+                    ],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "82589-3"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "342271000000107"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224297003"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "473461003"
+                      }
+                    ],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+              }
+            },
             {
               "de": {
                 "template": "observation",
@@ -5338,9 +7638,16 @@
             "dataset-scope": "Minimalset",
             "category": "work",
             "title": "Arbeitsfähigkeit",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
+            "description_professional": "Definition: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)\nIllmarinen, J. – hier fehlt die Referenz\nEmpfehlung: nicht anwendbar",
+            "description_layman": "„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
+            "verified-health-links": [
+              {
+                "title": "Handbuch Betriebliche Gesundheitsförderung",
+                "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
+                "audience": [],
+                "note": ""
+              }
+            ],
             "discussion": ""
           },
           "en": {
@@ -5351,7 +7658,11 @@
             "title": "Workability",
             "description_professional": "",
             "description_layman": "",
-            "verified-health-links": [],
+            "verified-health-links": [
+              {
+                "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440"
+              }
+            ],
             "discussion": ""
           },
           "observations": [
@@ -5539,6 +7850,89 @@
                   }
                 ],
                 "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "workability-worksoc-wai",
+                "dataset-scope": "Minimalset",
+                "title": "Arbeitsfähigkeit",
+                "description": "Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.\nDefinition: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)\nIllmarinen, J. – hier fehlt die Referenz\nWeiterführende Links:\nHandbuch Betriebliche Gesundheitsförderung: https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440\nEmpfehlung: nicht anwendbar",
+                "category": "work",
+                "dimension": "workability",
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "citizen-info": "Laienhafte Information: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Work-SoC Questionnaire (Bauer et al., 2015) und WAI (INQA WAI Netzwerk, n.d.)",
+                    "specific-questions": "Work-SoC Questionnaire\nWie empfinden Sie persönlich Ihre momentane Arbeit bzw. Arbeitssituation im Allgemeinen?\nbewältigbar 1 2 3 4 5 6 7 nicht bewältigbar\nsinnlos 1 2 3 4 5 6 7 sinnvoll\nstrukturiert 1 2 3 4 5 6 7 chaotisch\nbeeinflussbar 1 2 3 4 5 6 7 unbeeinflussbar\nunbedeutend 1 2 3 4 5 6 7 bedeutend\nübersichtlich 1 2 3 4 5 6 7 unübersichtlich\nsteuerbar 1 2 3 4 5 6 7 nicht steuerbar\nnicht lohnend 1 2 3 4 5 6 7 lohnenswert\nvorhersehbar 1 2 3 4 5 6 7 unvorhersehbar\n\nWAI (Tuomi et al., 1998)\n\n1. Derzeitige Arbeitsfähigkeit im Vergleich zu der besten\nWenn Sie Ihre beste, je erreichte Arbeitsfähigkeit mit 10 Punkten bewerten: Wie viele Punkte würden Sie dann für Ihre derzeitige Arbeitsfähigkeit geben? (0 bedeutet, dass Sie derzeit arbeitsunfähig sind.)\nAntwortmöglichkeit: 0 = völlig arbeitsunfähig; 10 = derzeit die beste Arbeitsfähigkeit\n2. Arbeitsfähigkeit in Bezug zu den Arbeitsanforderungen\nWie schätzen Sie Ihre derzeitige Arbeitsfähigkeit in Bezug zu den körperlichen Arbeitsanforderungen ein?\nsehr gut (5), eher gut (4), mittelmäßig (3), eher schlecht (2), sehr schlecht (1)",
+                    "unit": "Workability (Kategorien-Score)",
+                    "data-format": "Summenscore (ordinal)",
+                    "data-type": "",
+                    "range-of-vales": "Work-SoC:\nmin: 9 (pro Item maximal 7)\nmax: 63\nWAI:\nmin: 7\nmax: 49",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [
+                      {
+                        "specific-norm": "??? hoch-mittel-niedrig: Punkte-Score raussuchen\nWAI:\nKritisch (Arbeitsfähigkeit wiederherstellen): 7-27 Punkte\nMäßig (Arbeitsfähigkeit verbessern): 28-36 Punkte\nGut (Arbeitsfähigkeit unterstützen): 37-43 Punkte\nSehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte"
+                      }
+                    ],
+                    "scoring-algorithm": "Work-SoC (3 Faktoren):\nHandhabbarkeit\nSinnhaftigkeit\nVerstehbarkeit\nWAI:\nWork Ability Index-Gesamtwert (durch Addieren der Punkte)",
+                    "sources": [
+                      {
+                        "source-description": "Subjektiv – Work-SoC Questionnaire und WAI",
+                        "system": "Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998"
+                      }
+                    ],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
+              },
+              "en": {
+                "template": "observation",
+                "key": "workability-worksoc-wai",
+                "dataset-scope": "Minimalset",
+                "title": "Work ability (Work-SoC / WAI)",
+                "description": "",
+                "category": "work",
+                "dimension": "workability",
+                "population": "",
+                "disease-association": [],
+                "citizen-info": "",
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "Work-SoC:\nmin: 9 (pro Item maximal 7)\nmax: 63\nWAI:\nmin: 7\nmax: 49",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998"
+                      }
+                    ],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
               }
             }
           ]
