@@ -328,6 +328,7 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -335,6 +336,9 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 - | **Frauen** | < 0,85 | ≥ 0,85 |
 
 | **Männer** | < 0,90 | ≥ 0,90 |
+
+**Quellen:**
+- [Overweight and obesity: Background". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.](https://www.ncbi.nlm.nih.gov/books/NBK2003/)
 
 ---
 

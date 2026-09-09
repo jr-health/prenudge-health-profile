@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-09T08:48:05.982900+00:00",
+  "generated": "2026-09-09T08:53:30.325023+00:00",
   "scope": "combined",
-  "commit": "c6c229f2c296c0bef9c56ea042dba47c8ce0ee51",
+  "commit": "0907f3f510c734508293a4bd057ce5d290df591e",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -717,12 +717,12 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": " Taillenumfang\n Die teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Crista iliaca) (Abb. 2).\n Hüftumfang\n Messen Sie an der breitesten Stelle des Gesäßes (Abb. 3).\n Legen Sie das Maßband auf der rechten Seite des Messpunktes an. Die Hand der untersuchenden Person darf weder auf dem Schambereich noch auf dem Gesäß der teilnehmenden Person liegen.\n Die teilnehmende Person hält den Anfang des Maßbandes fest.\n Die untersuchende Person führt das Maßband waagerecht um den Körper, ohne dass es sich verdreht.\n Vor dem Ablesen des Umfangs muss die teilnehmende Person entspannt ausatmen.\n Das Maßband sollte eng anliegen, darf jedoch nicht in den Körper einschneiden.\n Der Umfang wird auf Augenhöhe des Maßbandes auf 0,1 cm genau abgelesen.\n Die Messung wird als Doppelbestimmung durchgeführt: Das Maßband wird erneut angelegt und die Messung wird wiederholt.",
+                    "specific-questions": "- Die teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n- Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Crista iliaca) (Abb. 2).\n- Hüftumfang\n- Messen Sie an der breitesten Stelle des Gesäßes (Abb. 3).\n- Legen Sie das Maßband auf der rechten Seite des Messpunktes an. Die Hand der untersuchenden Person darf weder auf dem Schambereich noch auf dem Gesäß der teilnehmenden Person liegen.\n- Die teilnehmende Person hält den Anfang des Maßbandes fest.\n- Die untersuchende Person führt das Maßband waagerecht um den Körper, ohne dass es sich verdreht.\n- Vor dem Ablesen des Umfangs muss die teilnehmende Person entspannt ausatmen.\n- Das Maßband sollte eng anliegen, darf jedoch nicht in den Körper einschneiden.\n- Der Umfang wird auf Augenhöhe des Maßbandes auf 0,1 cm genau abgelesen.\n- Die Messung wird als Doppelbestimmung durchgeführt: Das Maßband wird erneut angelegt und die Messung wird wiederholt.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
                     "norms": [
                       {
@@ -730,7 +730,12 @@
                       }
                     ],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Overweight and obesity: Background\". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.",
+                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -755,13 +760,25 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

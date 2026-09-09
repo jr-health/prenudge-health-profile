@@ -209,8 +209,12 @@ Optional: alle 3 Monate
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.ncbi.nlm.nih.gov/books/NBK2003/
 
 ---
 
