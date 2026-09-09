@@ -301,8 +301,13 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1x pro Jahr
+- **Acquisition Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
 #### Dairy products, oils, fats, nuts, and seeds – portions per day
 

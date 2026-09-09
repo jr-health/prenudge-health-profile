@@ -538,11 +538,25 @@ Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Voll
 
 #### Hülsenfrüchte (Portionen/Woche)
 
+**Information für Bevölkerung:**
+
+### Hülsenfrüchte und daraus hergestellte Produkte – wöchentlich
+
+Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** 1x pro Jahr
+- **Erfassungsfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- **3-mal pro Woche** am Speiseplan stehe
+
+**Quellen:**
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
 #### Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
