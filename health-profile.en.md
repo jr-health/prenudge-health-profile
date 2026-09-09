@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.7-test | Generated: 2026-09-09_
+_Version: v0.1.8-test | Generated: 2026-09-09_
 
 ---
 
@@ -125,7 +125,6 @@ _Version: 0.1.7-test | Generated: 2026-09-09_
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
     - [Work ability (Work-SoC / WAI)](#work-ability-work-soc-wai)
-- [Edit History](#edit-history)
 
 ---
 
@@ -1155,17 +1154,3 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
-
-## Edit History
-
-_Changes since version v0.1.7-test:_
-
-| Date | Author |
-|---|---|
-| 2026-09-09 | felixrath |
-| 2026-09-08 | felixrath |
-| 2026-09-07 | Theresa Weitlaner |
-| 2026-09-06 | felixrath |
-| 2026-09-04 | Theresa Weitlaner |
-| 2026-09-04 | Theresa.Weitlaner |
-| 2026-09-02 | Theresa.Weitlaner |

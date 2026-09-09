@@ -1,40 +1,11 @@
 {
-  "version": "0.1.7-test",
-  "generated": "2026-09-09T00:35:00.748963+00:00",
+  "version": "v0.1.8-test",
+  "generated": "2026-09-09T04:29:05.681791+00:00",
   "scope": "combined",
-  "commit": "aad5d4d59153d2ff597fa1c5d07de3548db6e438",
+  "commit": "43b8302e1b6006b31f2f2fc137ff816599400900",
   "activity": {
-    "since": "v0.1.7-test",
-    "entries": [
-      {
-        "date": "2026-09-09",
-        "author": "felixrath"
-      },
-      {
-        "date": "2026-09-08",
-        "author": "felixrath"
-      },
-      {
-        "date": "2026-09-07",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-09-06",
-        "author": "felixrath"
-      },
-      {
-        "date": "2026-09-04",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-09-04",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-09-02",
-        "author": "Theresa.Weitlaner"
-      }
-    ]
+    "since": "vv0.1.8-test",
+    "entries": []
   },
   "categories": [
     {
