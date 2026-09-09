@@ -75,7 +75,7 @@
             "display": "Five or more portions of fruit and vegetables per day"
           }
         ],
-        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
         "qualification": "",
@@ -156,47 +156,123 @@
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
-      null,
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80459-1",
+            "display": ""
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "80457-5",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "787758000",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "789334009",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226452008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226448008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "301961000000107",
+            "display": ""
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
           }
         ],
         "terminology-codes": [
           {
             "system": "http://snomed.info/sct",
-            "code": "364395008"
+            "code": "364395008",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "226459004"
+            "code": "226459004",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "226461008"
+            "code": "226461008",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "230079003"
+            "code": "230079003",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "818990008"
+            "code": "818990008",
+            "display": ""
           },
           {
             "system": "http://snomed.info/sct",
-            "code": "230084009"
+            "code": "230084009",
+            "display": ""
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": "Fragebogen"
