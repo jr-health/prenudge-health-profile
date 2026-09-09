@@ -75,7 +75,7 @@
             "display": "Five or more portions of fruit and vegetables per day"
           }
         ],
-        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
         "qualification": "",
@@ -214,7 +214,7 @@
             "display": ""
           }
         ],
-        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.htmlx",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
         "qualification": "",
