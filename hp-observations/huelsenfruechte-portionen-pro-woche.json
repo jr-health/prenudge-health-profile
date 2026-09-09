@@ -9,7 +9,7 @@
     "dimension": "dietary-pattern",
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
+    "citizen-info": "### Hülsenfrüchte und daraus hergestellte Produkte – wöchentlich\n\nHülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -18,12 +18,21 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1x pro Jahr",
+        "acquisition-frequency": "Optimum: alle 3 Monate",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": "**3-mal pro Woche** am Speiseplan stehe"
+          }
+        ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -48,13 +57,25 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1x pro Jahr",
+        "acquisition-frequency": "Optimum: alle 3 Monate",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [
+          {
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
