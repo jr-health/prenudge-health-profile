@@ -10,7 +10,7 @@
     "verified-health-links": [
       {
         "title": "Österreichische Bewegungsempfehlungen",
-        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdfx",
         "audience": [],
         "note": ""
       },
@@ -39,12 +39,23 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content"
+        "title": "",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdfx",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf"
+        "title": "",
+        "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+        "audience": [],
+        "note": ""
       }
     ],
     "discussion": "",
