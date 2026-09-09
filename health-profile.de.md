@@ -560,6 +560,14 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 #### Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
+**Information für Bevölkerung:**
+
+### Milch und Milchprodukte – täglich
+
+Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.
+
+Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -567,6 +575,12 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- **2 Portionen Milch und Milchprodukte/Tag**
+
+**Quellen:**
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
 #### stark verarbeitete Lebensmittel (Portionen/Tag)
 

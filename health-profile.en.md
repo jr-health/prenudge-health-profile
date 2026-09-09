@@ -319,6 +319,9 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+
 #### stark verarbeitete Lebensmittel
 
 ##### Measurement Instruments
