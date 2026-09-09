@@ -10,7 +10,7 @@
     "verified-health-links": [
       {
         "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
-        "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
+        "url": "https://diebewegungsrevolution.at/bewegung-tipps/x",
         "audience": [],
         "note": ""
       },
@@ -39,12 +39,23 @@
     "description_professional": "",
     "description_layman": "",
     "verified-health-links": [
-      null,
       {
-        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf"
+        "title": "",
+        "url": "https://diebewegungsrevolution.at/bewegung-tipps/x",
+        "audience": [],
+        "note": ""
       },
       {
-        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf"
+        "title": "",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
+        "audience": [],
+        "note": ""
       }
     ],
     "discussion": "",
