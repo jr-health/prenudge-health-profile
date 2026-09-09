@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-09T08:56:46.163789+00:00",
+  "generated": "2026-09-09T08:58:41.810936+00:00",
   "scope": "combined",
-  "commit": "6b8b8cc317a56055cf0851acdc419e79e4045434",
+  "commit": "ed494911c923f63d87abb30f35bcd5a179ca6f86",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1519,14 +1519,14 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "Portionen Miclhprodukte pro Tag",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
@@ -1554,13 +1554,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
