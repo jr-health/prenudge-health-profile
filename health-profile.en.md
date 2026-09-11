@@ -380,14 +380,15 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - **Sunburst Chart Status:** published
 
 **Sources:**
-- Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/
+- https://fgoe.org/glossar/alltagsbewegung
+- https://fgoe.org/glossar/alltagsbewegung
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **Range of Values:** für Q7:
 min: in Minuten 0
 max: in Minuten: 15.120/Woche
 - **Acquisition Frequency:** alle 6 Monate
-- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **Recommended Monitoring Frequency:** alle 3 Monate
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
 - **FHIR IG Status:** amendment needed
 - **Sunburst Chart Status:** published

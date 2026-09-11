@@ -677,16 +677,16 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 **Scoring-Algorithmus:** höhere Intensität 2x
 
 **Quellen:**
-- [Norm?](Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/)
+- [Empfehlung von Fonds Gesundes Österreich, 2020 für Alltagsbewegung](https://fgoe.org/glossar/alltagsbewegung)
 
 **Messinstrument 2** — Questionnaire · manual (self-reported)
-- **Einheit:** kategorielle Variable: Q4 (Tage pro Woche), Q5 (Stunden pro Tag), Q6 (Tage pro Woche) Q7: Minuten pro Woche
+- **Einheit:** kategorielle Variable:  Q4 (Tage pro Woche),  Q5 (Stunden pro Tag), Q6 (Tage pro Woche) Q7: Minuten pro Woche
 - **Datenformat:** Q4: Kategoriell (7 Antwortmöglichkeiten) Q5: Kategoriell (5 Antwortmöglichkeiten) Q6: Kategoriell (8 Antwortmöglichkeiten) Q7: Angabe in Stunden und Minuten
 - **Wertebereich:** für Q7:
 min: in Minuten 0
 max: in Minuten: 15.120/Woche
 - **Erfassungsfrequenz:** alle 6 Monate
-- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
+- **Empfohlene Monitoringfrequenz:** alle 3 Monate
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html
 - **FHIR IG Status:** amendment needed
 - **Sunburst-Chart Status:** published
