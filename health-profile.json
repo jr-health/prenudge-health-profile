@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-11T15:50:31.655262+00:00",
+  "generated": "2026-09-11T15:58:07.398704+00:00",
   "scope": "combined",
-  "commit": "45ff3b2d3b7d4ec81b98611f68026978296a7c31",
+  "commit": "18fa23c0d9cfa0657cdf404b367572523b9fe6ef",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1864,13 +1864,13 @@
                 "template": "observation",
                 "key": "minutes-moderate-physical-activity",
                 "dataset-scope": "Minimalset",
-                "title": "moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel ausdauerorientierte Aktivität die Personen pro Woche betreiben.\nDefinition:\n„Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020)\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nWHO guidelines on physical activity and sedentary behaviour: https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content\nEmpfehlung für gesunde Erwachsene:\n„Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von ausdauerorientierter Bewegung mit mittlerer Intensität im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) ODER „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität ODER eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
+                "title": "Moderater und intensiver körperlichen Aktivität (Minuten/Woche)",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel ausdauerorientierte Aktivität die Personen pro Woche betreiben.",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Laienhafte Information:\n“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)\nWeiterführende Links:\nÖsterreichische Bewegungsempfehlungen: https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf\nBroschüre Bewegung: https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf\nBroschürenbestellung: https://fgoe.org/broschuerenbestellung",
+                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
