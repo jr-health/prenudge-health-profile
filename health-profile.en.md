@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: v0.1.8-test | Generated: 2026-09-09_
+_Version: v0.1.8-test | Generated: 2026-09-11_
 
 ---
 
@@ -351,8 +351,8 @@ _No observations recorded._
 **Verified Health Information:**
 - [https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf) _(Audience: Healthcare professionals, Laymen / citizens)_
 - [https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf) _(Audience: Laymen / citizens)_
-- [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/) _(Audience: Healthcare professionals, Laymen / citizens)_
 - [https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content) _(Audience: Healthcare professionals)_
+- [https://fgoe.org/broschuerenbestellung](https://fgoe.org/broschuerenbestellung) _(Audience: Laymen / citizens, Laymen / citizens)_
 
 #### Minutes in moderate and vigouros physical activity
 
@@ -1181,4 +1181,5 @@ _Changes since version vv0.1.8-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-11 | Theresa Weitlaner |
 | 2026-09-09 | shaide79 |

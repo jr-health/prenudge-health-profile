@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: v0.1.8-test | Generiert: 2026-09-09_
+_Version: v0.1.8-test | Generiert: 2026-09-11_
 
 ---
 
@@ -643,8 +643,8 @@ Empfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlun
 **Verifizierte Gesundheitsinformation:**
 - [Österreichische Bewegungsempfehlungen](https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf) _(Zielgruppe: Healthcare professionals, Laymen / citizens)_
 - [Broschüre Bewegung](https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf) _(Zielgruppe: Laymen / citizens)_
-- [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/) _(Zielgruppe: Healthcare professionals, Laymen / citizens)_
 - [WHO guidelines on physical activity and sedentary behaviour](https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content) _(Zielgruppe: Healthcare professionals)_
+- [Broschürenbestellung](https://fgoe.org/broschuerenbestellung) _(Zielgruppe: Laymen / citizens)_
 
 #### moderater und intensiver körperlichen Aktivität (Minuten/Woche)
 
@@ -2084,4 +2084,5 @@ _Änderungen seit Version vv0.1.8-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-11 | Theresa Weitlaner |
 | 2026-09-09 | shaide79 |
