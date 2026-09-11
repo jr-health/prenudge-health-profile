@@ -26,19 +26,18 @@
         "note": ""
       },
       {
-        "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
-        "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
-        "audience": [
-          "Healthcare professionals",
-          "Laymen / citizens"
-        ],
-        "note": ""
-      },
-      {
         "title": "WHO guidelines on physical activity and sedentary behaviour",
         "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
         "audience": [
           "Healthcare professionals"
+        ],
+        "note": ""
+      },
+      {
+        "title": "Broschürenbestellung",
+        "url": "https://fgoe.org/broschuerenbestellung",
+        "audience": [
+          "Laymen / citizens"
         ],
         "note": ""
       }
@@ -52,32 +51,42 @@
     "dataset-scope": "Minimalset",
     "category": "physical-activity",
     "title": "Endurance Oriented Activity",
+    "description_professional": "",
+    "description_layman": "",
     "verified-health-links": [
       {
+        "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
         "audience": [
           "Healthcare professionals",
           "Laymen / citizens"
-        ]
+        ],
+        "note": ""
       },
       {
+        "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
         "audience": [
           "Laymen / citizens"
-        ]
+        ],
+        "note": ""
       },
       {
-        "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
-        "audience": [
-          "Healthcare professionals",
-          "Laymen / citizens"
-        ]
-      },
-      {
+        "title": "",
         "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
         "audience": [
           "Healthcare professionals"
-        ]
+        ],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://fgoe.org/broschuerenbestellung",
+        "audience": [
+          "Laymen / citizens",
+          "Laymen / citizens"
+        ],
+        "note": ""
       }
     ],
     "discussion": "",
