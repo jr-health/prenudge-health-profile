@@ -29,8 +29,8 @@
         "scoring-algorithm": "höhere Intensität 2x",
         "sources": [
           {
-            "source-description": "Norm?",
-            "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "source-description": "Empfehlung von Fonds Gesundes Österreich, 2020 für Alltagsbewegung",
+            "system": "https://fgoe.org/glossar/alltagsbewegung"
           }
         ],
         "terminology-codes": [
@@ -65,12 +65,12 @@
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
         "specific-questions": "**Fragebogen: EHIS-PAQ (Q4, Q5, Q6, Q7)** \n **Q4 (=PE4 ATHIS): An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q5(=PE5 ATHIS): Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?**\n _Antwortmöglichkeit:_ 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag\n 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr\n **Q6(=PE6 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus? Zum Beispiel (Nordic-)Walking, Ballsport, Joggen, Fahrradfahren, Schwimmen, Aerobic, Rudern oder Badminton**\n _Antwortmöglichkeiten_: Nie oder seltener als einmal pro Woche; 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche\n **Q7(=PE7 ATHIS): Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?** \n _Antwortmöglichkeit:_ ___ Stunden und ___ Minuten pro Woche",
-        "unit": "kategorielle Variable: Q4 (Tage pro Woche), Q5 (Stunden pro Tag), Q6 (Tage pro Woche)\nQ7: Minuten pro Woche",
+        "unit": "kategorielle Variable: \nQ4 (Tage pro Woche), \nQ5 (Stunden pro Tag),\nQ6 (Tage pro Woche)\nQ7: Minuten pro Woche",
         "data-format": "Q4: Kategoriell (7 Antwortmöglichkeiten)\nQ5: Kategoriell (5 Antwortmöglichkeiten)\nQ6: Kategoriell (8 Antwortmöglichkeiten)\nQ7: Angabe in Stunden und Minuten",
         "data-type": "",
         "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
         "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "recommended-monitoring-frequency": "alle 3 Monate",
         "norms": [
           {
             "specific-norm": "150 min-300 min körperliche Aktivität (Fonds Gesundes Österreich, 2020)"
@@ -148,7 +148,11 @@
         "sources": [
           {
             "source-description": "",
-            "system": "Finger et al. 2015 https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://fgoe.org/glossar/alltagsbewegung"
+          },
+          {
+            "source-description": "",
+            "system": "https://fgoe.org/glossar/alltagsbewegung"
           }
         ],
         "terminology-codes": [
@@ -187,7 +191,7 @@
         "data-type": "",
         "range-of-vales": "für Q7:\nmin: in Minuten 0\nmax: in Minuten: 15.120/Woche",
         "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "recommended-monitoring-frequency": "alle 3 Monate",
         "norms": [],
         "sources": [
           {
