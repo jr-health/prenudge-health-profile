@@ -69,7 +69,6 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
   - [Self-monitoring](#self-monitoring)
     - [Independent documentation of blood glucose level (mmol/l?)](#independent-documentation-of-blood-glucose-level-mmoll)
     - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
-    - [Independent documentation of body weight (kg)](#independent-documentation-of-body-weight-kg)
     - [Independent documentation of heart rate (bpm?)](#independent-documentation-of-heart-rate-bpm)
   - [Technology use](#technology-use)
     - [Use of apps or web portals](#use-of-apps-or-web-portals)
@@ -752,14 +751,6 @@ max: 20 (Transformiert 100)
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Acquisition Frequency:** keine Empfehlung, individuell abstimmen
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-#### Independent documentation of body weight (kg)
-
-##### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

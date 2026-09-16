@@ -69,7 +69,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
   - [Selbstüberwachung](#selbstüberwachung)
     - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
-    - [Eigenständige Dokumentation von Körpergewicht (kg)](#eigenständige-dokumentation-von-körpergewicht-kg)
     - [Eigenständige Dokumentation von Herzfrequenz (bpm?)](#eigenständige-dokumentation-von-herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
@@ -1359,14 +1358,6 @@ Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** mmHg
 - **Erfassungsfrequenz:** keine Empfehlung, individuell abstimmen
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-#### Eigenständige Dokumentation von Körpergewicht (kg)
-
-##### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

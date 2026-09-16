@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T13:29:18.359846+00:00",
+  "generated": "2026-09-16T13:30:46.210839+00:00",
   "scope": "combined",
-  "commit": "68ab2206ff381956c403998ce4af79baa6c101a1",
+  "commit": "257d56b695797b0d12948964bba29e081c4af102",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4828,68 +4828,6 @@
                   }
                 ],
                 "discussion": "Unterscheidung systolisch und diastolisch + Herzfrequenz"
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "documentation-of-body-weight",
-                "dataset-scope": "Extension",
-                "title": "Eigenständige Dokumentation von Körpergewicht (kg)",
-                "description": "",
-                "category": "self-management",
-                "dimension": "self-monitoring",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "documentation-of-body-weight",
-                "dataset-scope": "Extension",
-                "title": "Independent documentation of body weight (kg)",
-                "description": "",
-                "category": "self-management",
-                "dimension": "self-monitoring",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
               }
             },
             {
