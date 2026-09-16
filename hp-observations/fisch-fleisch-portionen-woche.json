@@ -15,11 +15,11 @@
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
         "specific-questions": "",
-        "unit": "",
+        "unit": "Portionen/Woche\n1 Portion = siehe unten",
         "data-format": "",
         "data-type": "",
         "range-of-vales": "",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [
           {
@@ -62,11 +62,12 @@
         "data-format": "",
         "data-type": "",
         "range-of-vales": "",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
           }
         ],
