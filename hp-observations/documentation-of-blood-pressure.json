@@ -3,18 +3,18 @@
     "template": "observation",
     "key": "documentation-of-blood-pressure",
     "dataset-scope": "Extension",
-    "title": "Eigenständige Dokumentation von Blutdruck (mmHg?)",
+    "title": "Eigenständige Dokumentation von Blutdruck (mmHg)",
     "description": "",
     "category": "self-management",
     "dimension": "self-monitoring",
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
+    "citizen-info": "Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "Unterscheidung systolisch und diastolisch + Herzfrequenz",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -30,9 +30,29 @@
         "vis-status": "draft",
         "qualification": "",
         "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "device": "",
+        "specific-questions": "Unterscheidung systolisch und diastolisch + Herzfrequenz",
+        "unit": "mmHg",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "keine Empfehlung, individuell abstimmen",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Unterscheidung systolisch und diastolisch + Herzfrequenz"
   },
   "en": {
     "template": "observation",
@@ -48,15 +68,33 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      },
+      {
+        "source-type": "Wearable device / sensor · automated",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "keine Empfehlung, individuell abstimmen",
         "recommended-monitoring-frequency": "",
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft"
       }
     ],
-    "discussion": ""
+    "discussion": "Unterscheidung systolisch und diastolisch + Herzfrequenz"
   }
 }
