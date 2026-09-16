@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:31:34.534567+00:00",
+  "generated": "2026-09-16T11:32:05.296919+00:00",
   "scope": "combined",
-  "commit": "f6024269cca3e13d6f6ffb0036d092b7b921a77e",
+  "commit": "249a48907991390c7f10ad397f41b572cd79990f",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1330,7 +1330,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden."
               },
               "en": {
                 "template": "observation",
@@ -1368,7 +1368,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden."
               }
             },
             {
