@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:16:09.987343+00:00",
+  "generated": "2026-09-16T11:22:35.054972+00:00",
   "scope": "combined",
-  "commit": "7d7013b2410cc58369a0cb1d18ab50a23bc082ff",
+  "commit": "291b7d048adccf32bb8c7386873f0e0365e0c0f3",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -940,11 +940,11 @@
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
                     "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
+                    "unit": "Gläser/Tag\n1 Glas = 1/4 Liter oder 250ml",
+                    "data-format": "auf eine Kommastelle genau (ganze und halbe)",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "> 0 bis 40",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [
                       {
@@ -986,12 +986,13 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "> 0 bis 40",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
                       }
                     ],

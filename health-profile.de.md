@@ -378,6 +378,10 @@ Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüs
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Gläser/Tag 1 Glas = 1/4 Liter oder 250ml
+- **Datenformat:** auf eine Kommastelle genau (ganze und halbe)
+- **Wertebereich:** > 0 bis 40
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
