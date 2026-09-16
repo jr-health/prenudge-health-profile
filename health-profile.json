@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T13:41:59.870246+00:00",
+  "generated": "2026-09-16T13:43:34.711722+00:00",
   "scope": "combined",
-  "commit": "446741aa59b56fc5f681046a79dc0678c5d81419",
+  "commit": "9fdebf4c135f1e0f4f3ba94137ab292e9a561e9d",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4967,70 +4967,7 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": [
-            {
-              "de": {
-                "template": "observation",
-                "key": "use-of-apps-or-webportals",
-                "dataset-scope": "Extension",
-                "title": "Nutzung von Apps oder Webportalen",
-                "description": "",
-                "category": "self-management",
-                "dimension": "technology-use",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "use-of-apps-or-webportals",
-                "dataset-scope": "Extension",
-                "title": "Use of apps or web portals",
-                "description": "",
-                "category": "self-management",
-                "dimension": "technology-use",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
-              }
-            }
-          ]
+          "observations": []
         }
       ]
     },

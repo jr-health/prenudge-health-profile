@@ -71,7 +71,6 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
     - [Independent documentation of blood pressure (mmHg?)](#independent-documentation-of-blood-pressure-mmhg)
     - [Independent documentation of heart rate (bpm?)](#independent-documentation-of-heart-rate-bpm)
   - [Technology use](#technology-use)
-    - [Use of apps or web portals](#use-of-apps-or-web-portals)
 - [Sexuality](#sexuality)
   - [Sexual satisfaction](#sexual-satisfaction)
     - [Self-reported sexual satisfaction](#self-reported-sexual-satisfaction)
@@ -771,13 +770,7 @@ max: 20 (Transformiert 100)
 
 ### Technology use
 
-#### Use of apps or web portals
-
-##### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
+_No observations recorded._
 
 ---
 

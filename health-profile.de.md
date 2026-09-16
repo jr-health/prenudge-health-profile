@@ -71,7 +71,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
     - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
-    - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
   - [Sexuelle Zufriedenheit](#sexuelle-zufriedenheit)
     - [Selbstberichtete sexuelle Zufriedenheit](#selbstberichtete-sexuelle-zufriedenheit)
@@ -1384,13 +1383,7 @@ Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 
 ### Technologieeinsatz
 
-#### Nutzung von Apps oder Webportalen
-
-##### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
+_Keine Beobachtungen erfasst._
 
 ---
 
