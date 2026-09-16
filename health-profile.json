@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T12:13:16.573268+00:00",
+  "generated": "2026-09-16T12:14:54.655553+00:00",
   "scope": "combined",
-  "commit": "32ffdc7741fe0800decbfa2f52b6b8214e04dab4",
+  "commit": "41501bbe31bbf2a51daa1320db5199ebaae988e6",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1693,31 +1693,6 @@
               }
             }
           ]
-        },
-        {
-          "de": {
-            "template": "dimension",
-            "key": "gesamtmuster-ernaehrung",
-            "dataset-scope": "Extension",
-            "category": "nutrition",
-            "title": "Gesamtmuster Ernährung",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "en": {
-            "template": "dimension",
-            "key": "gesamtmuster-ernaehrung",
-            "dataset-scope": "Extension",
-            "category": "nutrition",
-            "title": "nutritional pattern",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "observations": []
         },
         {
           "de": {

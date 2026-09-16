@@ -23,7 +23,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)](#milchprodukteölefettenüssesamen-portionentag)
     - [stark verarbeitete Lebensmittel (Portionen/Tag)](#stark-verarbeitete-lebensmittel-portionentag)
-  - [Gesamtmuster Ernährung](#gesamtmuster-ernährung)
   - [gesundheitsfördernde Ernährungsmuster](#gesundheitsfördernde-ernährungsmuster)
 - [Körperliche Aktivität](#körperliche-aktivität)
   - [Ausdauerorientierte Aktivität](#ausdauerorientierte-aktivität)
@@ -598,10 +597,6 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
-
-### Gesamtmuster Ernährung
-
-_Keine Beobachtungen erfasst._
 
 ### gesundheitsfördernde Ernährungsmuster
 
