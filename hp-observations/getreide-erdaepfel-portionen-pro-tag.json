@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "getreide-erdaepfel-portionen-pro-tag",
     "dataset-scope": "Extension",
-    "title": "Getreide/Erdäpfel (Portionen/Tag)",
+    "title": "Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)",
     "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
     "category": "nutrition",
     "dimension": "dietary-pattern",
@@ -41,7 +41,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Fragebogen ergänzen"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
           }
         ],
@@ -78,6 +79,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Fragebogen ergänzen"
   }
 }
