@@ -123,7 +123,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
     - [Arbeitsfähigkeit](#arbeitsfähigkeit)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2056,13 +2055,3 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version vv0.1.8-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-09-16 | Theresa Weitlaner |
-| 2026-09-11 | Theresa Weitlaner |
-| 2026-09-09 | shaide79 |
