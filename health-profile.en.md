@@ -23,7 +23,6 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
     - [Legume portions per week](#legume-portions-per-week)
     - [Dairy products, oils, fats, nuts, and seeds – portions per day](#dairy-products-oils-fats-nuts-and-seeds-portions-per-day)
     - [stark verarbeitete Lebensmittel](#stark-verarbeitete-lebensmittel)
-  - [health enhancing nutritional patterns](#health-enhancing-nutritional-patterns)
 - [Physical Activity](#physical-activity)
   - [Endurance Oriented Activity](#endurance-oriented-activity)
     - [Minutes in moderate and vigouros physical activity](#minutes-in-moderate-and-vigouros-physical-activity)
@@ -334,10 +333,6 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
-
-### health enhancing nutritional patterns
-
-_No observations recorded._
 
 ---
 
