@@ -1,11 +1,15 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-11T16:40:20.803124+00:00",
+  "generated": "2026-09-16T11:07:55.520757+00:00",
   "scope": "combined",
-  "commit": "f92231a1bc433eefa38ce9db84d41d448949feaf",
+  "commit": "ebf263e805103da3034ef1b9c9d162ce44e65c90",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
+      {
+        "date": "2026-09-16",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-09-11",
         "author": "Theresa Weitlaner"
@@ -627,7 +631,7 @@
                 "template": "observation",
                 "key": "waist-circumference",
                 "dataset-scope": "Extension",
-                "title": "Taillenumfang (cm)",
+                "title": "Taillen-/Bauchumfang (cm)",
                 "description": "",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
@@ -642,7 +646,7 @@
                     "unit": "cm",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "30-200 cm",
+                    "range-of-vales": "30-250 cm",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
                     "norms": [
@@ -685,12 +689,13 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "30-200 cm",
+                    "range-of-vales": "30-250 cm",
                     "acquisition-frequency": "2x/Jahr",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.bmj.com/content/311/6998/158"
                       }
                     ],

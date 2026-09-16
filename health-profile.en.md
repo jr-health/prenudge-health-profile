@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: v0.1.8-test | Generated: 2026-09-11_
+_Version: v0.1.8-test | Generated: 2026-09-16_
 
 ---
 
@@ -196,7 +196,7 @@ Optional: alle 3 Monate
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 30-200 cm
+- **Range of Values:** 30-250 cm
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
@@ -1182,5 +1182,6 @@ _Changes since version vv0.1.8-test:_
 
 | Date | Author |
 |---|---|
+| 2026-09-16 | Theresa Weitlaner |
 | 2026-09-11 | Theresa Weitlaner |
 | 2026-09-09 | shaide79 |

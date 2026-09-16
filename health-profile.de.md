@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: v0.1.8-test | Generiert: 2026-09-11_
+_Version: v0.1.8-test | Generiert: 2026-09-16_
 
 ---
 
@@ -12,7 +12,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-11_
 - [Anthropometrie](#anthropometrie)
   - [Größe, Gewicht](#größe-gewicht)
     - [Körpergröße und Körpergewicht](#körpergröße-und-körpergewicht)
-    - [Taillenumfang (cm)](#taillenumfang-cm)
+    - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
     - [Hüft-Taillen-Verhältnis (WHR)](#hüft-taillen-verhältnis-whr)
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
@@ -298,13 +298,13 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 **Quellen:**
 - [Subjektiv – Fragen (Selbstangaben)](nicht zutreffend)
 
-#### Taillenumfang (cm)
+#### Taillen-/Bauchumfang (cm)
 
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** cm
-- **Wertebereich:** 30-200 cm
+- **Wertebereich:** 30-250 cm
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
@@ -2066,5 +2066,6 @@ _Änderungen seit Version vv0.1.8-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-16 | Theresa Weitlaner |
 | 2026-09-11 | Theresa Weitlaner |
 | 2026-09-09 | shaide79 |
