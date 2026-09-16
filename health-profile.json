@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T13:30:46.210839+00:00",
+  "generated": "2026-09-16T13:37:28.283068+00:00",
   "scope": "combined",
-  "commit": "257d56b695797b0d12948964bba29e081c4af102",
+  "commit": "d167fb36abf645d69c0967439d2ef512d5c60ba0",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4835,7 +4835,7 @@
                 "template": "observation",
                 "key": "documentation-of-heart-rate",
                 "dataset-scope": "Extension",
-                "title": "Eigenständige Dokumentation von Herzfrequenz (bpm?)",
+                "title": "Herzfrequenz (bpm)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
@@ -4847,11 +4847,35 @@
                     "source-type": "Wearable device / sensor · automated",
                     "device": "",
                     "specific-questions": "",
-                    "unit": "",
+                    "unit": "Schläge pro Minute (bpm)",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "30-500 bpm",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [
+                      {
+                        "specific-norm": "60-100 bpm in Ruhe"
+                      }
+                    ],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "Genaue Anweisung hinzufügen",
+                    "unit": "bpm",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "individuell",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
@@ -4864,7 +4888,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Eigenständige Dokumentation --> überall streichen"
               },
               "en": {
                 "template": "observation",
@@ -4880,16 +4904,34 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "30-500 bpm",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "individuell",
                     "recommended-monitoring-frequency": "",
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft"
                   }
                 ],
-                "discussion": ""
+                "discussion": "Eigenständige Dokumentation --> überall streichen"
               }
             }
           ]

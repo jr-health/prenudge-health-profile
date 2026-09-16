@@ -759,6 +759,12 @@ max: 20 (Transformiert 100)
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Wearable device / sensor · automated
+- **Range of Values:** 30-500 bpm
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Measurement Instrument 2** — Questionnaire · manual (self-reported)
+- **Acquisition Frequency:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

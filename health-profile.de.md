@@ -69,7 +69,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
   - [Selbstüberwachung](#selbstüberwachung)
     - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
-    - [Eigenständige Dokumentation von Herzfrequenz (bpm?)](#eigenständige-dokumentation-von-herzfrequenz-bpm)
+    - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
     - [Nutzung von Apps oder Webportalen](#nutzung-von-apps-oder-webportalen)
 - [Sexualität](#sexualität)
@@ -1361,11 +1361,22 @@ Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-#### Eigenständige Dokumentation von Herzfrequenz (bpm?)
+#### Herzfrequenz (bpm)
 
 ##### Messinstrumente
 
 **Messinstrument 1** — Wearable device / sensor · automated
+- **Einheit:** Schläge pro Minute (bpm)
+- **Wertebereich:** 30-500 bpm
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- 60-100 bpm in Ruhe
+
+**Messinstrument 2** — Questionnaire · manual (self-reported)
+- **Einheit:** bpm
+- **Erfassungsfrequenz:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
