@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "waist-circumference",
     "dataset-scope": "Extension",
-    "title": "Taillenumfang (cm)",
+    "title": "Taillen-/Bauchumfang (cm)",
     "description": "",
     "category": "anthropometry",
     "dimension": "heigth-weight",
@@ -18,7 +18,7 @@
         "unit": "cm",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "30-200 cm",
+        "range-of-vales": "30-250 cm",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "",
         "norms": [
@@ -61,12 +61,13 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "30-200 cm",
+        "range-of-vales": "30-250 cm",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.bmj.com/content/311/6998/158"
           }
         ],
