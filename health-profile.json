@@ -1,11 +1,16 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T12:17:52.418350+00:00",
+  "generated": "2026-09-16T12:36:28.477506+00:00",
   "scope": "combined",
-  "commit": "0105f635c693489723057ec8b96e9c92be9b9015",
+  "commit": "804e2c842ff94273d5556b0995f6519b614b042b",
   "activity": {
     "since": "v0.1.9-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-09-16",
+        "author": "Theresa Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -2951,8 +2956,29 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)",
-                "measurement-instrument": [],
-                "discussion": ""
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Hauptbarrieren für Zugang zum Gesundheitssystem",
+                    "specific-questions": "Wording & Fragebogen müssen wir selbst überlegen",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
               },
               "en": {
                 "template": "observation",
@@ -2965,8 +2991,19 @@
                 "population": "",
                 "disease-association": [],
                 "citizen-info": "",
-                "measurement-instrument": [],
-                "discussion": ""
+                "measurement-instrument": [
+                  {
+                    "data-type": "",
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft"
+                  }
+                ],
+                "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
               }
             }
           ]
