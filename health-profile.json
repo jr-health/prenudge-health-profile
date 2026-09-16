@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T13:43:34.711722+00:00",
+  "generated": "2026-09-16T13:51:47.198811+00:00",
   "scope": "combined",
-  "commit": "9fdebf4c135f1e0f4f3ba94137ab292e9a561e9d",
+  "commit": "85a9533bd728f8ff5ecb0b324094005420a4cebd",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4572,7 +4572,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
               },
               "en": {
                 "template": "observation",
@@ -4588,16 +4588,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
               }
             }
           ]
