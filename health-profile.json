@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T13:23:38.797560+00:00",
+  "generated": "2026-09-16T13:24:29.585181+00:00",
   "scope": "combined",
-  "commit": "499e5954c05e7a409da815c8a9143c6c5d206d8c",
+  "commit": "c4e573f4853c52983767cfe55da5dac6eb9b6027",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4676,7 +4676,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein"
               },
               "en": {
                 "template": "observation",
@@ -4727,7 +4727,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein"
               }
             },
             {
