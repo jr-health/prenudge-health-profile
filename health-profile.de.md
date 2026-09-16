@@ -68,7 +68,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenständige-kontrolle-von-medikamenten--und-impfstatus)
   - [Selbstüberwachung](#selbstüberwachung)
     - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
-    - [Eigenständige Dokumentation von Blutdruck (mmHg?)](#eigenständige-dokumentation-von-blutdruck-mmhg)
+    - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
     - [Eigenständige Dokumentation von Körpergewicht (kg)](#eigenständige-dokumentation-von-körpergewicht-kg)
     - [Eigenständige Dokumentation von Herzfrequenz (bpm?)](#eigenständige-dokumentation-von-herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
@@ -1344,11 +1344,21 @@ The second transformation method converts domain scores to a 0-100 scale.
 **Spezifische Normen:**
 - Normwerte von der ÖDG
 
-#### Eigenständige Dokumentation von Blutdruck (mmHg?)
+#### Eigenständige Dokumentation von Blutdruck (mmHg)
+
+**Information für Bevölkerung:**
+
+Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Messinstrument 2** — Wearable device / sensor · automated
+- **Einheit:** mmHg
+- **Erfassungsfrequenz:** keine Empfehlung, individuell abstimmen
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

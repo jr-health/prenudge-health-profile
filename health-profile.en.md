@@ -750,6 +750,11 @@ max: 20 (Transformiert 100)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Measurement Instrument 2** — Wearable device / sensor · automated
+- **Acquisition Frequency:** keine Empfehlung, individuell abstimmen
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 #### Independent documentation of body weight (kg)
 
 ##### Measurement Instruments
