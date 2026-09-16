@@ -32,7 +32,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
+    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**"
   },
   "en": {
     "template": "observation",
@@ -65,6 +65,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
+    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**"
   }
 }
