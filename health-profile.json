@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T12:49:34.318437+00:00",
+  "generated": "2026-09-16T12:55:01.917362+00:00",
   "scope": "combined",
-  "commit": "930b18318045a08f57ff11dad9afff6685c4dde7",
+  "commit": "bf46c98a4adba4df120cbfe22ec40156ded68fcc",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -3242,7 +3242,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
               },
               "en": {
                 "template": "observation",
@@ -3275,7 +3275,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
               }
             }
           ]
