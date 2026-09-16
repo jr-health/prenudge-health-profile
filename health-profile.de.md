@@ -1304,6 +1304,8 @@ The second transformation method converts domain scores to a 0-100 scale.
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Erfassungsfrequenz:** jährlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

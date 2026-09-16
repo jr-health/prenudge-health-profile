@@ -705,6 +705,7 @@ max: 20 (Transformiert 100)
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Acquisition Frequency:** jährlich
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
