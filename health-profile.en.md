@@ -120,7 +120,6 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
     - [Work ability (Work-SoC / WAI)](#work-ability-work-soc-wai)
-- [Edit History](#edit-history)
 
 ---
 
@@ -1165,11 +1164,3 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
-
-## Edit History
-
-_Changes since version v0.1.9-test:_
-
-| Date | Author |
-|---|---|
-| 2026-09-16 | Theresa Weitlaner |
