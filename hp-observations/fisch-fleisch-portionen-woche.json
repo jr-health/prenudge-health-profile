@@ -41,7 +41,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden."
   },
   "en": {
     "template": "observation",
@@ -79,6 +79,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden."
   }
 }
