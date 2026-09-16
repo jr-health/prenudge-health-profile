@@ -142,7 +142,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Obst und Gemüse splitten"
+    "discussion": "Obst und Gemüse splitten\n\nBei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
   },
   "en": {
     "template": "observation",
@@ -275,6 +275,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Obst und Gemüse splitten"
+    "discussion": "Obst und Gemüse splitten\n\nBei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
   }
 }
