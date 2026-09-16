@@ -15,11 +15,11 @@
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
         "specific-questions": "",
-        "unit": "",
-        "data-format": "",
+        "unit": "Gläser/Tag\n1 Glas = 1/4 Liter oder 250ml",
+        "data-format": "auf eine Kommastelle genau (ganze und halbe)",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "> 0 bis 40",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [
           {
@@ -61,12 +61,13 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "> 0 bis 40",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
           }
         ],
