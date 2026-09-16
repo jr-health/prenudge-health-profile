@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:51:40.129404+00:00",
+  "generated": "2026-09-16T11:57:12.319930+00:00",
   "scope": "combined",
-  "commit": "8f5e00208c4f764d0ebf7561dec161fee0477faf",
+  "commit": "51db97e454e07e8b128a09c49aa3d0350d2c8bc6",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1581,7 +1581,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Milchprodukte müssen noch getrennt werden."
               },
               "en": {
                 "template": "observation",
@@ -1607,6 +1607,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
@@ -1618,7 +1619,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Milchprodukte müssen noch getrennt werden."
               }
             },
             {
