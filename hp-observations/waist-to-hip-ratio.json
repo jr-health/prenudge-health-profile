@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "waist-to-hip-ratio",
     "dataset-scope": "Extension",
-    "title": "Hüft-Taillen-Verhältnis (WHR)",
+    "title": "Hüft-Taillen-Verhältnis",
     "description": "Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.\n\n- **Niedrigeres WHR:** relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).\n- **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).\n- Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.",
     "category": "anthropometry",
     "dimension": "heigth-weight",
@@ -18,8 +18,8 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "2x/Jahr",
+        "range-of-vales": "Ergebnisse des Verhältnisses: 0 bis 3",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [
           {
@@ -41,7 +41,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Ähnlich wie bei BMI (berechnet)"
   },
   "en": {
     "template": "observation",
@@ -61,12 +61,13 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "2x/Jahr",
+        "range-of-vales": "Ergebnisse des Verhältnisses: 0 bis 3",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
           }
         ],
@@ -78,6 +79,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Ähnlich wie bei BMI (berechnet)"
   }
 }
