@@ -19,7 +19,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
     - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemüse--und-obstkonsum-portionentag)
     - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
-    - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdäpfel-portionentag)
+    - [Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)](#getreideerdäpfelreisnudeln-portionentag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
     - [Milchprodukte/Öle/Fette/Nüsse/Samen (Portionen/Tag)](#milchprodukteölefettenüssesamen-portionentag)
     - [stark verarbeitete Lebensmittel (Portionen/Tag)](#stark-verarbeitete-lebensmittel-portionentag)
@@ -509,7 +509,7 @@ Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/lebe
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 
-#### Getreide/Erdäpfel (Portionen/Tag)
+#### Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 

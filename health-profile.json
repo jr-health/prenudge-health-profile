@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:32:05.296919+00:00",
+  "generated": "2026-09-16T11:51:40.129404+00:00",
   "scope": "combined",
-  "commit": "249a48907991390c7f10ad397f41b572cd79990f",
+  "commit": "8f5e00208c4f764d0ebf7561dec161fee0477faf",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1376,7 +1376,7 @@
                 "template": "observation",
                 "key": "getreide-erdaepfel-portionen-pro-tag",
                 "dataset-scope": "Extension",
-                "title": "Getreide/Erdäpfel (Portionen/Tag)",
+                "title": "Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)",
                 "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
@@ -1414,7 +1414,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Fragebogen ergänzen"
               },
               "en": {
                 "template": "observation",
@@ -1440,6 +1440,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
                       }
                     ],
@@ -1451,7 +1452,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Fragebogen ergänzen"
               }
             },
             {
