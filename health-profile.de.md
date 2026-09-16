@@ -484,6 +484,8 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Portionen/Woche 1 Portion = siehe unten
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

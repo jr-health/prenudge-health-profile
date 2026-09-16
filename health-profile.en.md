@@ -282,6 +282,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

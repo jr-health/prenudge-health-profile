@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:22:35.054972+00:00",
+  "generated": "2026-09-16T11:25:50.846534+00:00",
   "scope": "combined",
-  "commit": "291b7d048adccf32bb8c7386873f0e0365e0c0f3",
+  "commit": "fb2c1adf759d5b54e9c5ddcf455900ed1bb19723",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1304,11 +1304,11 @@
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
                     "specific-questions": "",
-                    "unit": "",
+                    "unit": "Portionen/Woche\n1 Portion = siehe unten",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [
                       {
@@ -1351,11 +1351,12 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
                       }
                     ],
