@@ -14,7 +14,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "Selbsteingabe",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -39,9 +39,13 @@
         "data-format": "",
         "data-type": "",
         "range-of-vales": "",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "individuell mit GDA abstimmen",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": "Normwerte von der ÖDG"
+          }
+        ],
         "scoring-algorithm": "",
         "sources": [],
         "terminology-codes": [],
@@ -68,23 +72,39 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       },
       {
         "source-type": "Wearable device / sensor · automated",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "individuell mit GDA abstimmen",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
