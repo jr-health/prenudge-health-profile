@@ -17,7 +17,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
 - [Ernährung](#ernährung)
   - [Ernährungsmuster](#ernährungsmuster)
     - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesüßte-getränke-gläsertag)
-    - [Ernährungsmuster](#ernährungsmuster)
+    - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemüse--und-obstkonsum-portionentag)
     - [Fisch/Fleisch (Portionen/Woche)](#fischfleisch-portionenwoche)
     - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdäpfel-portionentag)
     - [Hülsenfrüchte (Portionen/Woche)](#hülsenfrüchte-portionenwoche)
@@ -412,7 +412,7 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
 
-#### Ernährungsmuster
+#### Gemüse- und Obstkonsum (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 

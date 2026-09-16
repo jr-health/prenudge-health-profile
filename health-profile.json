@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T11:25:50.846534+00:00",
+  "generated": "2026-09-16T11:31:34.534567+00:00",
   "scope": "combined",
-  "commit": "fb2c1adf759d5b54e9c5ddcf455900ed1bb19723",
+  "commit": "f6024269cca3e13d6f6ffb0036d092b7b921a77e",
   "activity": {
     "since": "vv0.1.8-test",
     "entries": [
@@ -1012,7 +1012,7 @@
                 "template": "observation",
                 "key": "dietary-pattern-athis",
                 "dataset-scope": "Minimalset",
-                "title": "Ernährungsmuster",
+                "title": "Gemüse- und Obstkonsum (Portionen/Tag)",
                 "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse sowie die Konsumhäufigkeit von fett-,  zucker- und salzreichen Lebensmitteln abgefragt.\nDefinition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nWeiterführende Links:\nhttps://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/\nhttps://www.dgem.de/leitlinien\nhttps://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073\nEmpfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
@@ -1151,7 +1151,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen"
+                "discussion": "Obst und Gemüse splitten"
               },
               "en": {
                 "template": "observation",
@@ -1284,7 +1284,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen"
+                "discussion": "Obst und Gemüse splitten"
               }
             },
             {
