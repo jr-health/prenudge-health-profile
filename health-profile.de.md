@@ -39,7 +39,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
   - [Zugang zu Versorgung](#zugang-zu-versorgung)
     - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
   - [Traumatische Kindheitserfahrungen](#traumatische-kindheitserfahrungen)
-    - [Selbstbericht über traumatische Erfahrungen](#selbstbericht-über-traumatische-erfahrungen)
   - [Chronischer Stress](#chronischer-stress)
     - [Chronischer Stress](#chronischer-stress)
   - [Fähigkeit zum Coping](#fähigkeit-zum-coping)
@@ -1016,13 +1015,7 @@ Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Pe
 
 ### Traumatische Kindheitserfahrungen
 
-#### Selbstbericht über traumatische Erfahrungen
-
-##### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
+_Keine Beobachtungen erfasst._
 
 ### Chronischer Stress
 

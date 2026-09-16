@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T12:36:28.477506+00:00",
+  "generated": "2026-09-16T12:41:01.408203+00:00",
   "scope": "combined",
-  "commit": "804e2c842ff94273d5556b0995f6519b614b042b",
+  "commit": "553290a82be48dd9e133df326c1a667ad380e7c2",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -3031,70 +3031,7 @@
             "verified-health-links": [],
             "discussion": ""
           },
-          "observations": [
-            {
-              "de": {
-                "template": "observation",
-                "key": "self-reported-traumatic-experiences",
-                "dataset-scope": "Extension",
-                "title": "Selbstbericht über traumatische Erfahrungen",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "adverse-childhood-experiences",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "self-reported-traumatic-experiences",
-                "dataset-scope": "Extension",
-                "title": "Self-reported traumatic experiences",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "adverse-childhood-experiences",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
-              }
-            }
-          ]
+          "observations": []
         },
         {
           "de": {

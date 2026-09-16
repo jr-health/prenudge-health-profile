@@ -39,7 +39,6 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
   - [Access to care](#access-to-care)
     - [Potential access barriers](#potential-access-barriers)
   - [Adverse childhood experiences (ACEs)](#adverse-childhood-experiences-aces)
-    - [Self-reported traumatic experiences](#self-reported-traumatic-experiences)
   - [Chronic stress](#chronic-stress)
     - [Perceived stress (PSS-4 / PSS-10)](#perceived-stress-pss-4-pss-10)
   - [Coping ability](#coping-ability)
@@ -541,13 +540,7 @@ max: 24 Stunden
 
 ### Adverse childhood experiences (ACEs)
 
-#### Self-reported traumatic experiences
-
-##### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
+_No observations recorded._
 
 ### Chronic stress
 
