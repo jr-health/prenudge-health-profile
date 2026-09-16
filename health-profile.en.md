@@ -209,7 +209,8 @@ Optional: alle 3 Monate
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Acquisition Frequency:** 2x/Jahr
+- **Range of Values:** Ergebnisse des Verhältnisses: 0 bis 3
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
