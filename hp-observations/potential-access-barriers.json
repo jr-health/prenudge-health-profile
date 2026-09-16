@@ -10,8 +10,29 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)",
-    "measurement-instrument": [],
-    "discussion": ""
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Hauptbarrieren für Zugang zum Gesundheitssystem",
+        "specific-questions": "Wording & Fragebogen müssen wir selbst überlegen",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
   },
   "en": {
     "template": "observation",
@@ -24,7 +45,18 @@
     "population": "",
     "disease-association": [],
     "citizen-info": "",
-    "measurement-instrument": [],
-    "discussion": ""
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
   }
 }
