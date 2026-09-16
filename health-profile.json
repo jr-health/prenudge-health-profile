@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-16T12:55:01.917362+00:00",
+  "generated": "2026-09-16T13:23:38.797560+00:00",
   "scope": "combined",
-  "commit": "bf46c98a4adba4df120cbfe22ec40156ded68fcc",
+  "commit": "499e5954c05e7a409da815c8a9143c6c5d206d8c",
   "activity": {
     "since": "v0.1.9-test",
     "entries": [
@@ -4634,7 +4634,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "Selbsteingabe",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -4659,9 +4659,13 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "individuell mit GDA abstimmen",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": "Normwerte von der ÖDG"
+                      }
+                    ],
                     "scoring-algorithm": "",
                     "sources": [],
                     "terminology-codes": [],
@@ -4688,23 +4692,39 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   },
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "individuell mit GDA abstimmen",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

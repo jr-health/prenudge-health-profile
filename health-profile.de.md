@@ -1337,8 +1337,12 @@ The second transformation method converts domain scores to a 0-100 scale.
 - **Sunburst-Chart Status:** draft
 
 **Messinstrument 2** — Wearable device / sensor · automated
+- **Erfassungsfrequenz:** individuell mit GDA abstimmen
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Normwerte von der ÖDG
 
 #### Eigenständige Dokumentation von Blutdruck (mmHg?)
 

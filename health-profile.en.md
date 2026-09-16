@@ -738,6 +738,7 @@ max: 20 (Transformiert 100)
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
+- **Acquisition Frequency:** individuell mit GDA abstimmen
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
