@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:27:12.028206+00:00",
+  "generated": "2026-09-17T13:29:13.460144+00:00",
   "scope": "combined",
-  "commit": "a58d1cdae5b8a2f0f6892f832e467d0501178c88",
+  "commit": "bdfcace5a10029e921a38089bca14ed941eb8605",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -5061,7 +5061,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist im WHO Bref drinnen, würde ich deswegen weggen"
               },
               "en": {
                 "template": "observation",
@@ -5077,16 +5077,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist im WHO Bref drinnen, würde ich deswegen weggen"
               }
             }
           ]
