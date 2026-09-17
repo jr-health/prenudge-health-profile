@@ -7,14 +7,14 @@
     "description": "",
     "category": "smoking",
     "dimension": "pfeife-wasserpfeife",
-    "population": "",
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "6.1. Rauchen Sie derzeit Pfeifen oder Wasserpfeifen?\n\n0 Nein; 1. Ja, gelegentlich; 2. Ja, täglich\n\n6.2.A (Wenn Antwort SK2 a): Wie viele rauchen Sie durchschnittlich pro Woche? Zigaretten pro Tag: └─┴─┘ pro Woche",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -48,13 +48,21 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
