@@ -83,7 +83,6 @@ _Version: v0.1.8-test | Generiert: 2026-09-17_
   - [Einkommensverlust](#einkommensverlust)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
   - [Arbeitsausfalltage](#arbeitsausfalltage)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -1772,12 +1771,3 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - **Sunburst-Chart Status:** draft
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.10-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-09-17 | Theresa.Weitlaner |
-| 2026-09-17 | shaide79 |
