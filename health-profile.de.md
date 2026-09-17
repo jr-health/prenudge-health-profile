@@ -67,7 +67,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-17_
   - [Medikamentenmanagement](#medikamentenmanagement)
     - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenständige-kontrolle-von-medikamenten--und-impfstatus)
   - [Selbstüberwachung](#selbstüberwachung)
-    - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
+    - [Dokumentation von Blutzuckerwert (mmol/l)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
     - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
@@ -1348,7 +1348,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Selbstüberwachung
 
-#### Dokumentation von Blutzuckerwert (mmol/l?)
+#### Dokumentation von Blutzuckerwert (mmol/l)
 
 ##### Messinstrumente
 

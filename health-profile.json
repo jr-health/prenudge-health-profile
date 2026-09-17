@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:41:59.407888+00:00",
+  "generated": "2026-09-17T13:42:35.856551+00:00",
   "scope": "combined",
-  "commit": "54f6334ab0bbe873657bfc5bf763bae35804e2f4",
+  "commit": "7c0bc37a8363b6b8aea0a6471fdbe8b5fe5c16f7",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -4643,7 +4643,7 @@
                 "template": "observation",
                 "key": "documentation-of-blood-glucose-level",
                 "dataset-scope": "Extension",
-                "title": "Dokumentation von Blutzuckerwert (mmol/l?)",
+                "title": "Dokumentation von Blutzuckerwert (mmol/l)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
