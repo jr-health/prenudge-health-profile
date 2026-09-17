@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:20:53.362307+00:00",
+  "generated": "2026-09-17T13:27:12.028206+00:00",
   "scope": "combined",
-  "commit": "d8cfd471b561298a7eaa189e67275142dab08dce",
+  "commit": "a58d1cdae5b8a2f0f6892f832e467d0501178c88",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -6033,14 +6033,14 @@
                 "description": "",
                 "category": "smoking",
                 "dimension": "pfeife-wasserpfeife",
-                "population": "",
+                "population": "Allgemeinbevölkerung",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "6.1. Rauchen Sie derzeit Pfeifen oder Wasserpfeifen?\n\n0 Nein; 1. Ja, gelegentlich; 2. Ja, täglich\n\n6.2.A (Wenn Antwort SK2 a): Wie viele rauchen Sie durchschnittlich pro Woche? Zigaretten pro Tag: └─┴─┘ pro Woche",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -6074,13 +6074,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

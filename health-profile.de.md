@@ -1619,6 +1619,8 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 #### Pfeife/Wasserpfeife (Anzahl/Woche)
 
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
