@@ -7,20 +7,20 @@
     "description": "",
     "category": "sleep",
     "dimension": "chronotyp",
-    "population": "",
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "Man spricht bei Menschen von \"Morgen-\" und \"Abendtypen\". Zu welchem der folgenden Typen zählen Sie sich?\n\n1. Eindeutig ein \"Morgentyp“\n2. Eher ein \"Morgen-\" als ein \"Abendtyp“\n3. Weder ein Morgen- noch ein Abendtyp\n4. Eher ein „Abend-\" als ein \"Morgentyp“\n5. Eindeutig ein \"Abendtyp“",
         "unit": "",
         "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
+        "recommended-monitoring-frequency": "1x",
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
@@ -48,13 +48,21 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
+        "recommended-monitoring-frequency": "1x",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
