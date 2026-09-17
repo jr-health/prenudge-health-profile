@@ -973,6 +973,9 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://osf.io/ndu6r/files/snm3p
+
 #### nicotine addiction
 
 ##### Measurement Instruments

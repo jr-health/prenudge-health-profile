@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:42:35.856551+00:00",
+  "generated": "2026-09-17T13:53:24.761656+00:00",
   "scope": "combined",
-  "commit": "7c0bc37a8363b6b8aea0a6471fdbe8b5fe5c16f7",
+  "commit": "2379171ec300a4cf0b4c44ecc576754091881561",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -6475,7 +6475,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_\n\n**Falls Sie die genaue Anzahl nicht nennen können oder möchten** (z. B. weil Sie nicht sicher sind, wie viele Versuche es waren und sich die Zahl nicht schätzen lässt):\n\n3. **Ja, ich habe im vergangenen Jahr mindestens einen Versuch unternommen, weiß aber nicht genau, wie viele.**\n_(Wert „9998“ wird automatisch gesetzt.)_\n4. **Keine Antwort**\n_(Wert „9999“ wird automatisch gesetzt.)_\n\n.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -6484,7 +6484,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -6493,7 +6498,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               },
               "en": {
                 "template": "observation",
@@ -6509,16 +6514,28 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               }
             },
             {
