@@ -27,6 +27,7 @@ Requires:
 import re
 import json
 import argparse
+import unicodedata
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
@@ -170,9 +171,19 @@ def md_richtext_to_adoc(text: str, nested: bool = False) -> str:
 
 
 def anchor(text: str) -> str:
-    """Convert a heading to a slug usable both as a Markdown anchor and an AsciiDoc [[id]]."""
-    text = str(text).lower()
-    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    """Convert a heading to a slug usable both as a Markdown anchor and an AsciiDoc [[id]].
+
+    AsciiDoc's [[id]] anchor syntax only tolerates plain ASCII - a character like the "²"
+    in "kg/m²" survives \\w (Python's Unicode-aware word-char class treats it as alphanumeric)
+    but breaks Asciidoctor's anchor grammar, silently turning the whole heading line into a
+    literal paragraph instead of a section title. NFKD normalization decomposes such
+    characters to their ASCII base form ("²" -> "2", "ü" -> "u" + a combining mark that then
+    gets stripped) before the character-class filter, so anchors stay valid everywhere.
+    """
+    text = str(text).lower().replace("ß", "ss")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r"[^a-z0-9\s-]", "", text)
     text = re.sub(r"\s+", "-", text.strip())
     return text
 

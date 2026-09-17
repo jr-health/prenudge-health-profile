@@ -25,6 +25,7 @@ Requires:
 import re
 import json
 import argparse
+import unicodedata
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
@@ -33,9 +34,17 @@ TEMPLATES_DIR = ROOT / "render" / "templates"
 
 
 def anchor(text: str) -> str:
-    """Convert a heading to a Markdown anchor slug (compatible with GitHub/pandoc)."""
-    text = str(text).lower()
-    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    """Convert a heading to a Markdown anchor slug (compatible with GitHub/pandoc).
+
+    NFKD normalization decomposes symbols like the superscript "²" to their ASCII base form
+    ("2") and accented letters to a plain letter + combining mark (then stripped), keeping
+    this in sync with the equivalent, stricter anchor() in render_adoc.py - see that
+    docstring for why plain \\w isn't safe here.
+    """
+    text = str(text).lower().replace("ß", "ss")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r"[^a-z0-9\s-]", "", text)
     text = re.sub(r"\s+", "-", text.strip())
     return text
 
