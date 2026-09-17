@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: v0.1.8-test | Generated: 2026-09-16_
+_Version: v0.1.8-test | Generated: 2026-09-17_
 
 ---
 
@@ -120,6 +120,7 @@ _Version: v0.1.8-test | Generated: 2026-09-16_
     - [loss of income](#loss-of-income)
     - [Work absence days](#work-absence-days)
     - [Work ability (Work-SoC / WAI)](#work-ability-work-soc-wai)
+- [Edit History](#edit-history)
 
 ---
 
@@ -564,6 +565,8 @@ max: 16 (PSS-4) und 40 (PSS-10)
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** jeder wert kann 1-5 sein
+- **Recommended Monitoring Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -800,6 +803,7 @@ _No observations recorded._
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Recommended Monitoring Frequency:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -969,6 +973,9 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://osf.io/ndu6r/files/snm3p
+
 #### nicotine addiction
 
 ##### Measurement Instruments
@@ -1065,6 +1072,9 @@ max: 120
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000
+
 ### Origin
 
 #### Ethnicity
@@ -1074,6 +1084,9 @@ max: 120
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210
 
 ### Socio-economic Status
 
@@ -1164,3 +1177,11 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.10-test:_
+
+| Date | Author |
+|---|---|
+| 2026-09-17 | shaide79 |

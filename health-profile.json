@@ -1,11 +1,16 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T16:42:48.841216+00:00",
+  "generated": "2026-09-17T17:45:21.460854+00:00",
   "scope": "combined",
-  "commit": "9b0ff8d2573a07162c24eff95fe0d0c3e7ee4a81",
+  "commit": "fe0a90bcc2978f2c62b304e1e87e1070a49679d3",
   "activity": {
     "since": "v0.1.10-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-09-17",
+        "author": "Theresa.Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -4001,25 +4006,29 @@
                 "key": "self-reported-resilience",
                 "dataset-scope": "Extension",
                 "title": "Selbstbericht über Coping-Fähigkeit (Resilienz)",
-                "description": "",
+                "description": "Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:\n\n1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.\n2. Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_\n3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.\n4. Es ist für mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.\n5. Ich habe das Gefühl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.\n6. Ich komme meistens gut durch schwere Zeiten durch",
                 "category": "psychosocial-factors",
                 "dimension": "coping-ability",
-                "population": "",
+                "population": "Allgemeinbevölkerung",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "Chmitorz, A., Wenzel, M., Stieglitz, R.-D., Kunzler, A., Bagusat, C., Helmreich, I., Gerlicher, A., Kampa, M., Kubiak, T., Kalisch, R., Lieb, K. & Tüscher, O. (2018). Population-based validation of a German version of the Brief Resilience Scale. PLOS ONE, 13(2), e0192761.DOI: 10.1371/journal.pone.019276",
                     "specific-questions": "1 von 6000-7000 möglichen Scoping Fragebögen?",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "jeder wert kann 1-5 sein",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
+                    "norms": [
+                      {
+                        "specific-norm": "Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden"
+                      }
+                    ],
+                    "scoring-algorithm": "Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.",
                     "sources": [],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
@@ -4029,7 +4038,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
+                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
               },
               "en": {
                 "template": "observation",
@@ -4049,9 +4058,9 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "jeder wert kann 1-5 sein",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
                     "sources": [],
                     "terminology-codes": [],
@@ -4062,7 +4071,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
+                "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
               }
             }
           ]
@@ -5554,7 +5563,7 @@
                 "template": "observation",
                 "key": "blood-glucose-level",
                 "dataset-scope": "Extension",
-                "title": "Blutzuckerwert (mmol/l?)",
+                "title": "Blutzuckerwert (mmol/l)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
@@ -5613,7 +5622,7 @@
                 "template": "observation",
                 "key": "blood-glucose-level",
                 "dataset-scope": "Extension",
-                "title": "Blood glucose level (mmol/l?)",
+                "title": "Blood glucose level (mmol/l)",
                 "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
@@ -5951,7 +5960,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist im WHO Bref drinnen, würde ich deswegen weggen"
               },
               "en": {
                 "template": "observation",
@@ -5967,16 +5976,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist im WHO Bref drinnen, würde ich deswegen weggen"
               }
             }
           ]
@@ -6040,20 +6057,20 @@
                 "description": "",
                 "category": "sleep",
                 "dimension": "chronotyp",
-                "population": "",
+                "population": "Allgemeinbevölkerung",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "Man spricht bei Menschen von \"Morgen-\" und \"Abendtypen\". Zu welchem der folgenden Typen zählen Sie sich?\n\n1. Eindeutig ein \"Morgentyp“\n2. Eher ein \"Morgen-\" als ein \"Abendtyp“\n3. Weder ein Morgen- noch ein Abendtyp\n4. Eher ein „Abend-\" als ein \"Morgentyp“\n5. Eindeutig ein \"Abendtyp“",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "1x",
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
@@ -6081,13 +6098,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "1x",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
@@ -6135,7 +6160,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "3.27 Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n1.Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n2. Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n3. Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n4. Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n5. Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n 6. Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n7. Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n8. Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n 9. Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n10. Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Kissen, zu viel oder zu wenig Decken).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n11. Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n12. Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n13. Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -6894,7 +6919,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "3.27 Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n1.Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n2. Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n3. Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n4. Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n5. Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n 6. Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n7. Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n8. Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n 9. Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n10. Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Kissen, zu viel oder zu wenig Decken).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n11. Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n12. Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n13. Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -6928,13 +6953,21 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
@@ -6975,14 +7008,14 @@
                 "description": "",
                 "category": "smoking",
                 "dimension": "pfeife-wasserpfeife",
-                "population": "",
+                "population": "Allgemeinbevölkerung",
                 "disease-association": [],
                 "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "6.1. Rauchen Sie derzeit Pfeifen oder Wasserpfeifen?\n\n0 Nein; 1. Ja, gelegentlich; 2. Ja, täglich\n\n6.2.A (Wenn Antwort SK2 a): Wie viele rauchen Sie durchschnittlich pro Woche? Zigaretten pro Tag: └─┴─┘ pro Woche",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7451,7 +7484,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_\n\n**Falls Sie die genaue Anzahl nicht nennen können oder möchten** (z. B. weil Sie nicht sicher sind, wie viele Versuche es waren und sich die Zahl nicht schätzen lässt):\n\n3. **Ja, ich habe im vergangenen Jahr mindestens einen Versuch unternommen, weiß aber nicht genau, wie viele.**\n_(Wert „9998“ wird automatisch gesetzt.)_\n4. **Keine Antwort**\n_(Wert „9999“ wird automatisch gesetzt.)_\n\n.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7460,7 +7493,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -7469,7 +7507,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               },
               "en": {
                 "template": "observation",
@@ -7485,16 +7523,28 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               }
             },
             {
@@ -7513,7 +7563,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_\n\n**Falls Sie die genaue Anzahl nicht nennen können oder möchten** (z. B. weil Sie nicht sicher sind, wie viele Versuche es waren und sich die Zahl nicht schätzen lässt):\n\n3. **Ja, ich habe im vergangenen Jahr mindestens einen Versuch unternommen, weiß aber nicht genau, wie viele.**\n_(Wert „9998“ wird automatisch gesetzt.)_\n4. **Keine Antwort**\n_(Wert „9999“ wird automatisch gesetzt.)_\n\n.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7522,7 +7572,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -7531,7 +7586,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               },
               "en": {
                 "template": "observation",
@@ -7547,16 +7602,28 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://osf.io/ndu6r/files/snm3p"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               }
             },
             {
@@ -8115,7 +8182,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "1.11. Wie viele Personen - einschließlich Kinder - leben in Ihrem Haushalt, Sie selbst eingeschlossen?\n\n- Nummernfeld\n\n1.12. Wie viele Kinder unter 18 Jahren leben in Ihrem Haushalt?\n\n- Nummernfeld",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -8133,7 +8200,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
               },
               "en": {
                 "template": "observation",
@@ -8149,16 +8216,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
               }
             },
             {
@@ -8177,7 +8252,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "1.9. Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -8195,7 +8270,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
               },
               "en": {
                 "template": "observation",
@@ -8211,16 +8286,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
               }
             }
           ]
@@ -8265,16 +8348,25 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "**F59 „Was ist Ihr Familienstand?“** \n\n- ☐ Ledig\n- ☐ Verheiratet oder eingetragene Partnerschaft\n- ☐ Verwitwet oder hinterbliebene eingetragene Partnerschaft\n- ☐ Geschieden oder aufgelöste eingetragene Partnerschaft \n\nAls verheiratet gelten standesamtlich getraute Personen (Kirchliche Eheschließungen werden nicht berücksichtigt). Getrenntlebende, aber nicht geschiedene Ehegatten werden als verheiratet eingetragen. Personen, deren Ehepartner/Ehepartnerin für tot erkl¨art worden ist, gelten als verwitwet. Gerichtlich getrennte Personen sind als әgeschiedenә zu vercoden.\n\nBei eingetragenen Partnerschaften gleichgeschlechtlicher Paare ist - je nach Situation verheiratet, verwitwet oder geschieden anzugeben.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": ""
+                      }
+                    ],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Statistik Austria. Mikrozensus Erkläuterung und Fragebogen 2025",
+                        "system": "https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -8303,9 +8395,17 @@
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "sources": [
+                      {
+                        "system": "https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
@@ -8353,7 +8453,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -8362,7 +8462,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Statistik Austria; Erhebung „Migration & Integration“",
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -8387,13 +8492,25 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

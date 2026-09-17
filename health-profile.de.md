@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: v0.1.8-test | Generiert: 2026-09-16_
+_Version: v0.1.8-test | Generiert: 2026-09-17_
 
 ---
 
@@ -67,7 +67,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
   - [Medikamentenmanagement](#medikamentenmanagement)
     - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenständige-kontrolle-von-medikamenten--und-impfstatus)
   - [Selbstüberwachung](#selbstüberwachung)
-    - [Dokumentation von Blutzuckerwert (mmol/l?)](#dokumentation-von-blutzuckerwert-mmoll)
+    - [Dokumentation von Blutzuckerwert (mmol/l)](#dokumentation-von-blutzuckerwert-mmoll)
     - [Eigenständige Dokumentation von Blutdruck (mmHg)](#eigenständige-dokumentation-von-blutdruck-mmhg)
     - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
   - [Technologieeinsatz](#technologieeinsatz)
@@ -120,6 +120,7 @@ _Version: v0.1.8-test | Generiert: 2026-09-16_
     - [Einkommensverlust](#einkommensverlust)
     - [Arbeitsausfalltage](#arbeitsausfalltage)
     - [Arbeitsfähigkeit](#arbeitsfähigkeit)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -1078,11 +1079,31 @@ Selbstwirksamkeitsskala (siehe NextCloud!)
 
 #### Selbstbericht über Resilienz
 
+**Beschreibung für Fachpersonal:**
+
+Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:
+
+1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.
+2. Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_
+3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.
+4. Es ist für mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.
+5. Ich habe das Gefühl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.
+6. Ich komme meistens gut durch schwere Zeiten durch
+
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** jeder wert kann 1-5 sein
+- **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden
+
+**Scoring-Algorithmus:** Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.
 
 ### Emotionale Belastung
 
@@ -1327,7 +1348,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Selbstüberwachung
 
-#### Dokumentation von Blutzuckerwert (mmol/l?)
+#### Dokumentation von Blutzuckerwert (mmol/l)
 
 ##### Messinstrumente
 
@@ -1410,9 +1431,12 @@ _Keine Beobachtungen erfasst._
 
 #### Selbstberichteter Chronotyp
 
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Empfohlene Monitoringfrequenz:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -1615,6 +1639,8 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 #### Pfeife/Wasserpfeife (Anzahl/Woche)
 
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -1726,6 +1752,9 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- https://osf.io/ndu6r/files/snm3p
 
 #### Nikotinabhängigkeit
 
@@ -1891,6 +1920,11 @@ Nicht erforderlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+
+**Quellen:**
+- [Statistik Austria. Mikrozensus Erkläuterung und Fragebogen 2025](https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000)
+
 ### Herkunft
 
 #### Ethnische Zugehörigkeit
@@ -1900,6 +1934,9 @@ Nicht erforderlich
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [Statistik Austria; Erhebung „Migration & Integration“](https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210)
 
 ### Sozio-ökonomischer Status
 
@@ -2065,3 +2102,11 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.10-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-09-17 | shaide79 |
