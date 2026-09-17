@@ -1930,6 +1930,9 @@ Nicht erforderlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Quellen:**
+- [Statistik Austria; Erhebung „Migration & Integration“](https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210)
+
 ### Sozio-ökonomischer Status
 
 **Beschreibung für Fachpersonal:**

@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:53:24.761656+00:00",
+  "generated": "2026-09-17T14:03:03.456916+00:00",
   "scope": "combined",
-  "commit": "2379171ec300a4cf0b4c44ecc576754091881561",
+  "commit": "7b1a69074a72e16dcabb369e250221624bd3c365",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -7348,7 +7348,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7357,7 +7357,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Statistik Austria; Erhebung „Migration & Integration“",
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -7382,13 +7387,25 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""

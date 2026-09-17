@@ -1082,6 +1082,9 @@ max: 120
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210
+
 ### Socio-economic Status
 
 #### Highest level of education (ISCED)
