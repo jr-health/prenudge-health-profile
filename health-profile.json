@@ -1,8 +1,8 @@
 {
   "version": "v0.1.8-test",
-  "generated": "2026-09-17T13:41:18.469179+00:00",
+  "generated": "2026-09-17T13:41:59.407888+00:00",
   "scope": "combined",
-  "commit": "5944dbf85af36a841ced919840bc75afe82087ac",
+  "commit": "54f6334ab0bbe873657bfc5bf763bae35804e2f4",
   "activity": {
     "since": "v0.1.10-test",
     "entries": [
@@ -7147,7 +7147,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "1.9. Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7165,7 +7165,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
               },
               "en": {
                 "template": "observation",
@@ -7181,16 +7181,24 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
               }
             }
           ]
