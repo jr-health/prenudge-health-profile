@@ -801,6 +801,7 @@ _No observations recorded._
 ##### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Recommended Monitoring Frequency:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

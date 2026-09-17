@@ -1411,9 +1411,12 @@ _Keine Beobachtungen erfasst._
 
 #### Selbstberichteter Chronotyp
 
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Empfohlene Monitoringfrequenz:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
