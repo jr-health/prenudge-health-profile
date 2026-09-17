@@ -1079,11 +1079,31 @@ Selbstwirksamkeitsskala (siehe NextCloud!)
 
 #### Selbstbericht über Resilienz
 
+**Beschreibung für Fachpersonal:**
+
+Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:
+
+1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.
+2. Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_
+3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.
+4. Es ist für mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.
+5. Ich habe das Gefühl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.
+6. Ich komme meistens gut durch schwere Zeiten durch
+
+**Population:** Allgemeinbevölkerung
+
 ##### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** jeder wert kann 1-5 sein
+- **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden
+
+**Scoring-Algorithmus:** Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.
 
 ### Emotionale Belastung
 
