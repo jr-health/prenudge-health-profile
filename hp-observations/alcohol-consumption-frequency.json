@@ -3,13 +3,81 @@
     "template": "observation",
     "key": "alcohol-consumption-frequency",
     "dataset-scope": "Minimalset",
-    "title": "Konsumhäufigkeit",
-    "description": "Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben.\nDefinition: nicht erforderlich\nWeiterführende Links:\nhttps://alkoholleitlinie.de/\nhttps://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf\nhttps://www.dhs.de/\nhttps://www.dg-sucht.de/\nEmpfehlung: 0 Getränke pro Tag:\n„To identify a “safe” level of alcohol consumption, valid scientific evidence would need to demonstrate that at and below a certain level, there is no risk of illness or injury associated with alcohol consumption. The new WHO statement clarifies: currently available evidence cannot indicate the existence of a threshold at which the carcinogenic effects of alcohol “switch on” and start to manifest in the human body“ (World Health Organization, 2023).\n“Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).",
+    "title": "Konsumhäufigkeit von Alkohol (Tage/Woche oder Getränke/Tag)",
+    "description": "Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben.\nDefinition: nicht erforderlich\nEmpfehlung: 0 Getränke pro Tag:\n„To identify a “safe” level of alcohol consumption, valid scientific evidence would need to demonstrate that at and below a certain level, there is no risk of illness or injury associated with alcohol consumption. The new WHO statement clarifies: currently available evidence cannot indicate the existence of a threshold at which the carcinogenic effects of alcohol “switch on” and start to manifest in the human body“ (World Health Organization, 2023).\n“Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).",
     "category": "alcohol",
     "dimension": "consumption-frequency",
     "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "Laienhafte Information:\n„Gesundheitliche Vorteile hat Alkohol nicht. Je mehr Alkohol man trinkt, desto schädlicher ist er“ (IQWiG, 2023a)\n„Alkohol gelangt über die Blutbahn bis in die Organe und das Gewebe. Dort erhöht er das Risiko für verschiedene Erkrankungen. Dazu gehören unter anderem Krebserkrankungen, Herz-Kreislauf-Erkrankungen und Erkrankungen des Stoffwechsels und der Verdauung, wie zum Beispiel Gicht und Entzündungen der Magenschleimhaut, Bauchspeicheldrüse und Leber“ (IQWiG, 2023b).\nWeiterführende Links:\nHandbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)\nhttps://gesundheitsfonds-steiermark.at/alkoholpraevention/\nhttps://www.gesundheitsinformation.de/alkohol.html\nhttps://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html\nhttps://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html\nhttps://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html\nhttps://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+    "citizen-info": "Laienhafte Information:\n„Gesundheitliche Vorteile hat Alkohol nicht. Je mehr Alkohol man trinkt, desto schädlicher ist er“ (IQWiG, 2023a)\n„Alkohol gelangt über die Blutbahn bis in die Organe und das Gewebe. Dort erhöht er das Risiko für verschiedene Erkrankungen. Dazu gehören unter anderem Krebserkrankungen, Herz-Kreislauf-Erkrankungen und Erkrankungen des Stoffwechsels und der Verdauung, wie zum Beispiel Gicht und Entzündungen der Magenschleimhaut, Bauchspeicheldrüse und Leber“ (IQWiG, 2023b).",
+    "verified-health-links": [
+      {
+        "title": "Alkoholleitlinie",
+        "url": "https://alkoholleitlinie.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "S3-Leitlinie alkoholbezogene Störungen",
+        "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "Deutsche Hauptstelle für Suchtfragen",
+        "url": "https://www.dhs.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "Deutsche Gesellschaft für Suchtforschung",
+        "url": "https://www.dg-sucht.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
+        "url": "",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "Alkoholprävention (Gesundheitsfonds Steiermark)",
+        "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "gesundheitsinformation.de: Alkohol",
+        "url": "https://www.gesundheitsinformation.de/alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "gesundheitsinformation.de: Acht Fakten über Alkohol",
+        "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "gesundheitsinformation.de: Ab wann ist Alkohol schädlich?",
+        "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "gesundheitsinformation.de: Wie wirkt Alkohol?",
+        "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "Sozialministerium: Alkohol",
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      }
+    ],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -103,13 +171,81 @@
     "template": "observation",
     "key": "alcohol-consumption-frequency",
     "dataset-scope": "Minimalset",
-    "title": "Alcohol consumption frequency",
+    "title": "Alcohol consumption frequency (days/week or drinks/day)",
     "description": "",
     "category": "alcohol",
     "dimension": "consumption-frequency",
     "population": "",
     "disease-association": [],
     "citizen-info": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "https://alkoholleitlinie.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://register.awmf.org/assets/guidelines/076-001l_S3-Screening-Diagnose-Behandlung-alkoholbezogene-Stoerungen_2025-01-verlaengert.pdf",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.dhs.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.dg-sucht.de/",
+        "audience": ["Healthcare professionals"],
+        "note": ""
+      },
+      {
+        "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
+        "url": "",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://gesundheitsfonds-steiermark.at/alkoholpraevention/",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/acht-fakten-ueber-alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/ab-wann-ist-alkohol-schaedlich.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Drogen-und-Sucht/Alkohol.html",
+        "audience": ["Laymen / citizens"],
+        "note": ""
+      }
+    ],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",

@@ -65,9 +65,7 @@ function catColor(d) {
 
 function fillColor(d) {
   const base = catColor(d);
-  if (d.depth === 1) return base;
-  if (d.depth === 2) return d3.interpolateRgb(base, "#ffffff")(0.38);
-  return d3.interpolateRgb(base, "#ffffff")(0.68);
+  return d.depth === 1 ? base : d3.interpolateRgb(base, "#ffffff")(0.68);
 }
 
 function arcVisible(d) {
@@ -240,30 +238,26 @@ function buildHierarchy(profile) {
       value: 1,
     };
   }
-  function dimNode(dim) {
-    return {
-      key: (dim.de || dim.en || {}).key,
-      name_de: (dim.de || {}).title || "",
-      name_en: (dim.en || {}).title || (dim.de || {}).title || "",
-      children: dim.observations.length > 0
-        ? dim.observations.map(obsNode)
-        : null,
-    };
-  }
   return {
     key: null,
     name_de: "PreNUDGE",
     name_en: "PreNUDGE",
-    children: profile.categories.map(cat => ({
-      key: (cat.de || cat.en || {}).key,
-      name_de: (cat.de || {}).title || "",
-      name_en: (cat.en || {}).title || (cat.de || {}).title || "",
-      color:   (cat.de || cat.en || {}).color || "#bbb",
-      icon:    (cat.de || cat.en || {}).icon_upload || null,
-      children: cat.dimensions.length > 0
-        ? cat.dimensions.map(dimNode)
-        : null,
-    })),
+    // dimensions still exist in the source data (categories -> dimensions ->
+    // observations) but no longer get their own ring here - observations sit
+    // directly under their category, flattened across all of its dimensions.
+    children: profile.categories.map(cat => {
+      const observations = cat.dimensions.flatMap(dim => dim.observations || []);
+      return {
+        key: (cat.de || cat.en || {}).key,
+        name_de: (cat.de || {}).title || "",
+        name_en: (cat.en || {}).title || (cat.de || {}).title || "",
+        color:   (cat.de || cat.en || {}).color || "#bbb",
+        icon:    (cat.de || cat.en || {}).icon_upload || null,
+        children: observations.length > 0
+          ? observations.map(obsNode)
+          : null,
+      };
+    }),
   };
 }
 
@@ -344,8 +338,7 @@ function dispatchSelect(p) {
   document.dispatchEvent(new CustomEvent("hp:select", {
     detail: {
       category:    byDepth(1),
-      dimension:   byDepth(2),
-      observation: byDepth(3),
+      observation: byDepth(2),
     },
   }));
 }
@@ -372,7 +365,7 @@ function renderSunburst(profile) {
   if (emptyEl) emptyEl.style.display = profile.categories.length ? "none" : "";
   if (!profile.categories.length) {
     document.dispatchEvent(new CustomEvent("hp:select", {
-      detail: { category: null, dimension: null, observation: null },
+      detail: { category: null, observation: null },
     }));
     return;
   }

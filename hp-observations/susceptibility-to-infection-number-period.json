@@ -1,0 +1,62 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "susceptibility-to-infection-number-period",
+    "dataset-scope": "Extension",
+    "title": "Infektanfälligkeit (Anzahl innerhalb definierter Periode)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "susceptibility-to-infection",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "susceptibility-to-infection-number-period",
+    "dataset-scope": "Extension",
+    "title": "Susceptibility to infection (number within a defined period)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "susceptibility-to-infection",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": ""
+  }
+}

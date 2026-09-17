@@ -282,7 +282,7 @@ collections:
         hint: "Machine-readable observation identifier; kebab-case slug auto-generated from the English title, e.g. physical-activity"
         pattern: [ '^[a-z0-9][a-z0-9\-]*[a-z0-9]$', "Only lowercase letters, numbers and hyphens" ]
 
-      - label: "Minimalset / Extension (MED/TECH)"
+      - label: "Assignment (Minimalset / Extension) (MED/TECH)"
         name: dataset-scope
         widget: select
         options: ["Minimalset", "Extension"]
@@ -294,13 +294,6 @@ collections:
         widget: string
         i18n: translate
         hint: 'Human-readable title of “PreNUDGE observation”'
-
-      - label: "Observation Description (professional) (MED)"
-        name: description
-        required: false
-        hint: "Observation description for healthcare professionals"
-        widget: richtext
-        i18n: translate
 
       - label: "Category (MED)"
         name: category
@@ -320,7 +313,57 @@ collections:
         value_field: key
         display_fields: [ "{{title}} - {{key}}" ]
         i18n: duplicate
-        hint: 'Assignment of previously defined “PreNUDGE indicator dimension"'
+        required: false
+        hint: 'Assignment of previously defined “PreNUDGE indicator dimension" (optional — indicator dimensions are no longer shown on the website, in reports, or in the sunburst chart)'
+
+      - label: "Observation Description (professional) (MED)"
+        name: description
+        required: false
+        hint: "Observation description for healthcare professionals"
+        widget: richtext
+        i18n: translate
+
+      - label: "Observation Description (layman) (MED)"
+        name: citizen-info
+        required: false
+        widget: richtext
+        i18n: translate
+        hint: "Observation description in layman language for citizens"
+
+      - label: "Further information/links (MED)"
+        name: verified-health-links
+        required: false
+        widget: "list"
+        i18n: true
+        summary: "{{title}} · {{audience}}"
+        hint: "Links to relevant information on gesundheit.gv.at"
+        fields:
+          - label: "Link Title"
+            name: "title"
+            widget: "string"
+            required: false
+            i18n: translate
+
+          - label: "URL"
+            name: "url"
+            widget: "string"
+            required: false
+            i18n: duplicate
+
+          - label: "Audience"
+            name: "audience"
+            widget: "select"
+            options: ["Healthcare professionals", "Laymen / citizens"]
+            multiple: true
+            required: false
+            i18n: duplicate
+            hint: "Who is this link intended for? Select all that apply."
+
+          - label: "Short Note"
+            name: "note"
+            widget: "text"
+            required: false
+            i18n: translate
 
       - label: "Population (MED)"
         name: population
@@ -337,13 +380,6 @@ collections:
         required: false
         i18n: duplicate
         hint: "Assignment to one or more of the four PreNUDGE disease areas"
-
-      - label: "Citizen information (layman) (MED)"
-        name: citizen-info
-        required: false
-        widget: richtext
-        i18n: translate
-        hint: "Simple lay-language explanation of why this health indicator is important for prevention."
 
       - label: "Measurement instrument (MED+TECH)"
         name: measurement-instrument

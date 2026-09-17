@@ -38,7 +38,7 @@
     "template": "observation",
     "key": "loss-of-income",
     "dataset-scope": "Extension",
-    "title": "loss of income",
+    "title": "Loss of income",
     "description": "",
     "category": "work",
     "dimension": "workability",

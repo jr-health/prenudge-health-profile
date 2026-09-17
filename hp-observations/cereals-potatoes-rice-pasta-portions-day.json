@@ -1,0 +1,84 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "cereals-potatoes-rice-pasta-portions-day",
+    "dataset-scope": "Extension",
+    "title": "Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)",
+    "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [
+          {
+            "specific-norm": "## Getreide und Erdäpfel: Empfohlene Portionsgrößen\n\nEssen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden\n\n- **täglich 4 Portionen** für eine Ernährung **mit**  Fisch und Fleisch oder\n- **täglich 5 Portionen** für eine Ernährung **ohne** Fisch und Fleisch. \n\nWählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Vollkornvariante.\n\n**Eine Portion entspricht:** \n\n| Brot/Vollkornbrot | 1 Handfläche (Hand mit Fingern) | 50 - 70 g |\n| Gebäck | 1 Handfläche | 50 - 70 g |\n| Getreideflocken | 1 Handvoll | 50 - 60 g |\n| Teigwaren, roh | 2 Fäuste | 65 - 80 g |\n| Reis, gekocht | 2 Fäuste | 150 - 180 g |\n| Erdäpfel, gegart | 2 Fäuste | 200 - 250 g |"
+          }
+        ],
+        "scoring-algorithm": "",
+        "sources": [
+          {
+            "source-description": "Österreichische Ernährungsempfehlungen (AGES)",
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen ergänzen"
+  },
+  "en": {
+    "template": "observation",
+    "key": "cereals-potatoes-rice-pasta-portions-day",
+    "dataset-scope": "Extension",
+    "title": "Cereals, potatoes, rice, and pasta (portions/day)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Fragebogen ergänzen"
+  }
+}

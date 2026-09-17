@@ -2,7 +2,6 @@
   <thead>
     <tr>
       <th>Category</th>
-      <th>Indicator Dimension</th>
       <th>Observation</th>
       <th>Source Type</th>
       <th>FHIR IG Status</th>
@@ -12,7 +11,6 @@
 {% for cat in profile.categories %}
 {% set c = cat.en %}
 {% for dim in cat.dimensions %}
-{% set d = dim.en %}
 {% for obs in dim.observations %}
 {% set o = obs.en %}
 {% set instruments = o.get('measurement-instrument', []) or obs.de.get('measurement-instrument', []) %}
@@ -30,9 +28,8 @@
 {% set ns.vis_statuses = ns.vis_statuses + [instr['vis-status']] %}
 {% endif %}
 {% endfor %}
-    <tr data-category="{{ c.key | default(cat.de.key) }}" data-dimension="{{ d.key | default(dim.de.key) }}" data-observation="{{ o.key | default(obs.de.key) }}" data-scope="{{ obs_scope }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
+    <tr data-category="{{ c.key | default(cat.de.key) }}" data-observation="{{ o.key | default(obs.de.key) }}" data-scope="{{ obs_scope }}" data-source-type="{{ ns.source_types | join(' ') }}" data-fhir-status="{{ ns.fhir_statuses | join(' ') }}" data-vis-status="{{ ns.vis_statuses | join(' ') }}">
       <td><span class="swatch" style="background-color: {{ c.color | default(cat.de.color) | default('#cccccc') }};"></span>{{ c.title | default(cat.de.title) }}</td>
-      <td>{{ d.title | default(dim.de.title) }}</td>
       <td>{{ o.title | default(obs.de.title) }}</td>
       <td>{% for st in ns.source_types %}<div>{{ st }}</div>{% endfor %}</td>
       <td>{% for st in ns.fhir_statuses %}<div>{{ st }}</div>{% endfor %}</td>

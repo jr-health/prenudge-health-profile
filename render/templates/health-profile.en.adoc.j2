@@ -19,22 +19,33 @@ _Version {{ profile.version }} · Generated: {{ profile.generated[:10] }}_
 
 {{ c['description-laymen'] | md_adoc }}
 {% endif %}
-{% if not cat.dimensions %}
+{% set ns_cat = namespace(obs_count=0) %}
+{% for dim in cat.dimensions %}{% set ns_cat.obs_count = ns_cat.obs_count + (dim.observations | length) %}{% endfor %}
+{% if ns_cat.obs_count == 0 %}
 
-_No dimensions recorded._
+_No observations recorded._
 {% endif %}
 {% for dim in cat.dimensions %}
-{% set d = dim.en %}
+{% for obs in dim.observations %}
+{% set o = obs.en %}
 
-[[{{ d.title | default(dim.de.title) | anchor }}]]
-=== {{ d.title | default(dim.de.title) }}
-{% if d.get('description_professional') %}
+[[{{ o.title | default(obs.de.title) | anchor }}]]
+=== {{ o.title | default(obs.de.title) }}
+{% if o.description %}
 
 *Description for Healthcare Professionals:*
 
-{{ d['description_professional'] | md_adoc }}
+{{ o.description | md_adoc }}
 {% endif %}
-{% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
+{% if o.get('population') %}
+
+*Population:* {{ o['population'] }}
+{% endif %}
+{% if o.get('disease-association') %}
+
+*Disease Association:* {{ o['disease-association'] | join(', ') }}
+{% endif %}
+{% set links = o.get('verified-health-links', []) or obs.de.get('verified-health-links', []) %}
 {% set prof_links = [] %}
 {% set citizen_links = [] %}
 {% for link in links %}
@@ -53,11 +64,11 @@ _No dimensions recorded._
 
 {% endfor %}
 {% endif %}
-{% if d.get('description_layman') %}
+{% if o.get('citizen-info') %}
 
 *Information for the Public:*
 
-{{ d['description_layman'] | md_adoc }}
+{{ o['citizen-info'] | md_adoc }}
 {% endif %}
 {% if citizen_links %}
 
@@ -68,45 +79,16 @@ _No dimensions recorded._
 
 {% endfor %}
 {% endif %}
-{% if not dim.observations %}
-
-_No observations recorded._
-{% endif %}
-{% for obs in dim.observations %}
-{% set o = obs.en %}
-
-[[{{ o.title | default(obs.de.title) | anchor }}]]
-==== {{ o.title | default(obs.de.title) }}
-{% if o.description %}
-
-*Description for Healthcare Professionals:*
-
-{{ o.description | md_adoc }}
-{% endif %}
-{% if o.get('population') %}
-
-*Population:* {{ o['population'] }}
-{% endif %}
-{% if o.get('disease-association') %}
-
-*Disease Association:* {{ o['disease-association'] | join(', ') }}
-{% endif %}
-{% if o.get('citizen-info') %}
-
-*Information for the Public:*
-
-{{ o['citizen-info'] | md_adoc }}
-{% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
 
-===== Measurement Instruments
+==== Measurement Instruments
 {% set codes = o.get('terminology-codes') or obs.de.get('terminology-codes', []) %}
 {% for instr in instruments %}
 {% set instr_label = instr.get('source-type') or 'Measurement Instrument' %}
 {% if instr.get('device') %}{% set instr_label = instr_label ~ ' - ' ~ instr['device'] %}{% endif %}
 
-====== {{ instr_label }}
+===== {{ instr_label }}
 
 [cols="1,3"]
 |===

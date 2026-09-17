@@ -1,0 +1,62 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "sleep-hygiene-adherence-routines-week",
+    "dataset-scope": "Extension",
+    "title": "Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)",
+    "description": "",
+    "category": "sleep",
+    "dimension": "schlafhygiene",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "sleep-hygiene-adherence-routines-week",
+    "dataset-scope": "Extension",
+    "title": "Sleep hygiene (frequency of adherence to sleep-promoting routines/week)",
+    "description": "",
+    "category": "sleep",
+    "dimension": "schlafhygiene",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": ""
+  }
+}

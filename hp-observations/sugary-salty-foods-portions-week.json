@@ -1,0 +1,246 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "sugary-salty-foods-portions-week",
+    "dataset-scope": "Minimalset",
+    "title": "Zucker- und salzreiche Lebensmittel (Portionen/Woche)",
+    "description": "Bei diesem Gesundheitsindikator wird die Konsumhäufigkeit von fett-, zucker- und salzreichen Lebensmitteln abgefragt.\nDefinition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nEmpfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
+    "citizen-info": "Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)",
+    "verified-health-links": [
+      {
+        "title": "Ernährungsempfehlungen: Fleisch und Fisch",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "DGEM-Leitlinien",
+        "url": "https://www.dgem.de/leitlinien",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "AWMF-Leitlinien Ernährungsmedizin",
+        "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Österreichische Ernährungspyramide",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Rezepte zum Nachkochen",
+        "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
+        "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "FGÖ-Ernährungsbroschüre 2025",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
+        "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "Österreichische Ernährungsempfehlungen (AGES, n.d.)",
+        "specific-questions": "Österreichische Ernährungsempfehlungen\nWie oft konsumieren Sie fett-, zucker- und salzreiche Lebensmittel, wie Süßigkeiten, Mehlspeisen, Knabbereien und trinken Sie energiereiche Getränke wie Limonaden?\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie",
+        "unit": "Konsumhäufigkeit von zucker- und salzreichen Lebensmitteln (pro Woche)\nAnzahl an Portionen zuckerhaltiger Lebensmittel (pro Tag)",
+        "data-format": "Kategoriell (5 Antwortmöglichkeiten)",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+        "norms": [
+          {
+            "specific-norm": "Je weniger man von fett-, zucker- und salzreichen Lebensmitteln konsumiert werden, desto besser (AGES, n.d.)"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Subjektiv – ATHIS: Zuckerhaltige Lebensmittel",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226459004",
+            "display": "Sugar intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226461008",
+            "display": "Confectionery (sweets) intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230079003",
+            "display": "Savory snack intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "818990008",
+            "display": "Estimated oral intake of sugar sweetened drinks in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230084009",
+            "display": "Table salt intake"
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+  },
+  "en": {
+    "template": "observation",
+    "key": "sugary-salty-foods-portions-week",
+    "dataset-scope": "Minimalset",
+    "title": "Consumption of sugary and salty foods (portions/week)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://www.dgem.de/leitlinien",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
+        "audience": [],
+        "note": ""
+      },
+      {
+        "title": "",
+        "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 6 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226459004",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226461008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230079003",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "818990008",
+            "display": ""
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "230084009",
+            "display": ""
+          }
+        ],
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+  }
+}

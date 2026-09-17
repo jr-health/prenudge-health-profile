@@ -16,7 +16,7 @@
   const PAGE_SIZE = 10;
 
   let scopeFilter = HPScope.current();
-  let selection = { category: null, dimension: null, observation: null };
+  let selection = { category: null, observation: null };
   let currentPage = 1;
 
   const table = document.getElementById("browse-table");
@@ -29,11 +29,10 @@
   }
 
   function matchingRows() {
-    const { category, dimension, observation } = selection;
+    const { category, observation } = selection;
     return allRows().filter(row =>
       (scopeFilter === "combined" || row.dataset.scope === scopeFilter) &&
       (!category    || row.dataset.category    === category) &&
-      (!dimension   || row.dataset.dimension   === dimension) &&
       (!observation || row.dataset.observation === observation)
     );
   }
@@ -79,7 +78,7 @@
     scopeFilter = event.detail.scope;
     // The sunburst rebuilds from scratch on a scope change and returns to its
     // root, so the selection it had dispatched no longer applies.
-    selection = { category: null, dimension: null, observation: null };
+    selection = { category: null, observation: null };
     currentPage = 1;
     render();
   });

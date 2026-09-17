@@ -10,11 +10,9 @@ _Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
 {% set c = cat.de %}
 - [{{ c.title | default(cat.en.title) }}](#{{ c.title | default(cat.en.title) | anchor }})
 {% for dim in cat.dimensions %}
-{% set d = dim.de %}
-  - [{{ d.title | default(dim.en.title) }}](#{{ d.title | default(dim.en.title) | anchor }})
 {% for obs in dim.observations %}
 {% set o = obs.de %}
-    - [{{ o.title | default(obs.en.title) }}](#{{ o.title | default(obs.en.title) | anchor }})
+  - [{{ o.title | default(obs.en.title) }}](#{{ o.title | default(obs.en.title) | anchor }})
 {% endfor %}
 {% endfor %}
 {% endfor %}
@@ -43,43 +41,17 @@ _Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
 
 {{ c['description-laymen'] }}
 {% endif %}
-{% if not cat.dimensions %}
-
-_Keine Dimensionen erfasst._
-{% endif %}
-{% for dim in cat.dimensions %}
-{% set d = dim.de %}
-
-### {{ d.title | default(dim.en.title) }}
-{% if d.get('description_professional') %}
-
-**Beschreibung für Fachpersonal:**
-
-{{ d['description_professional'] }}
-{% endif %}
-{% if d.get('description_layman') %}
-
-**Information für Bevölkerung:**
-
-{{ d['description_layman'] }}
-{% endif %}
-{% set links = d.get('verified-health-links', []) %}
-{% if links %}
-
-**Verifizierte Gesundheitsinformation:**
-{% for link in links %}
-- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('audience') %} _(Zielgruppe: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
-
-{% endfor %}
-{% endif %}
-{% if not dim.observations %}
+{% set ns_cat = namespace(obs_count=0) %}
+{% for dim in cat.dimensions %}{% set ns_cat.obs_count = ns_cat.obs_count + (dim.observations | length) %}{% endfor %}
+{% if ns_cat.obs_count == 0 %}
 
 _Keine Beobachtungen erfasst._
 {% endif %}
+{% for dim in cat.dimensions %}
 {% for obs in dim.observations %}
 {% set o = obs.de %}
 
-#### {{ o.title | default(obs.en.title) }}
+### {{ o.title | default(obs.en.title) }}
 {% if o.description %}
 
 **Beschreibung für Fachpersonal:**
@@ -100,10 +72,19 @@ _Keine Beobachtungen erfasst._
 
 {{ o['citizen-info'] }}
 {% endif %}
+{% set o_links = o.get('verified-health-links', []) %}
+{% if o_links %}
+
+**Verifizierte Gesundheitsinformation:**
+{% for link in o_links %}
+- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('audience') %} _(Zielgruppe: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+
+{% endfor %}
+{% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
 
-##### Messinstrumente
+#### Messinstrumente
 {% for instr in instruments %}
 
 **Messinstrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
@@ -169,7 +150,7 @@ _Keine Beobachtungen erfasst._
 {% set codes = o.get('terminology-codes') or obs.en.get('terminology-codes', []) %}
 {% if codes %}
 
-##### Terminologiecodes
+#### Terminologiecodes
 
 | System | Code | Bezeichnung |
 |---|---|---|

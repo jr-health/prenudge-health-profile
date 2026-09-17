@@ -1,0 +1,62 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "loneliness-social-support-close-relationships",
+    "dataset-scope": "Extension",
+    "title": "Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "loneliness-social-support-close-relationships",
+    "dataset-scope": "Extension",
+    "title": "Loneliness/Social support (number of close relationships)",
+    "description": "",
+    "category": "psychosocial-factors",
+    "dimension": "loneliness-social-support",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft"
+      }
+    ],
+    "discussion": ""
+  }
+}

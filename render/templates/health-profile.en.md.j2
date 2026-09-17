@@ -10,11 +10,9 @@ _Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
 {% set c = cat.en %}
 - [{{ c.title | default(cat.de.title) }}](#{{ c.title | default(cat.de.title) | anchor }})
 {% for dim in cat.dimensions %}
-{% set d = dim.en %}
-  - [{{ d.title | default(dim.de.title) }}](#{{ d.title | default(dim.de.title) | anchor }})
 {% for obs in dim.observations %}
 {% set o = obs.en %}
-    - [{{ o.title | default(obs.de.title) }}](#{{ o.title | default(obs.de.title) | anchor }})
+  - [{{ o.title | default(obs.de.title) }}](#{{ o.title | default(obs.de.title) | anchor }})
 {% endfor %}
 {% endfor %}
 {% endfor %}
@@ -43,43 +41,17 @@ _Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
 
 {{ c['description-laymen'] }}
 {% endif %}
-{% if not cat.dimensions %}
-
-_No dimensions recorded._
-{% endif %}
-{% for dim in cat.dimensions %}
-{% set d = dim.en %}
-
-### {{ d.title | default(dim.de.title) }}
-{% if d.get('description_professional') %}
-
-**Description for Healthcare Professionals:**
-
-{{ d['description_professional'] }}
-{% endif %}
-{% if d.get('description_layman') %}
-
-**Information for the Public:**
-
-{{ d['description_layman'] }}
-{% endif %}
-{% set links = d.get('verified-health-links', []) or dim.de.get('verified-health-links', []) %}
-{% if links %}
-
-**Verified Health Information:**
-{% for link in links %}
-- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('audience') %} _(Audience: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
-
-{% endfor %}
-{% endif %}
-{% if not dim.observations %}
+{% set ns_cat = namespace(obs_count=0) %}
+{% for dim in cat.dimensions %}{% set ns_cat.obs_count = ns_cat.obs_count + (dim.observations | length) %}{% endfor %}
+{% if ns_cat.obs_count == 0 %}
 
 _No observations recorded._
 {% endif %}
+{% for dim in cat.dimensions %}
 {% for obs in dim.observations %}
 {% set o = obs.en %}
 
-#### {{ o.title | default(obs.de.title) }}
+### {{ o.title | default(obs.de.title) }}
 {% if o.description %}
 
 **Description for Healthcare Professionals:**
@@ -100,10 +72,19 @@ _No observations recorded._
 
 {{ o['citizen-info'] }}
 {% endif %}
+{% set o_links = o.get('verified-health-links', []) or obs.de.get('verified-health-links', []) %}
+{% if o_links %}
+
+**Verified Health Information:**
+{% for link in o_links %}
+- [{{ link.get('title') or link.get('url') }}]({{ link.get('url') }}){% if link.get('audience') %} _(Audience: {{ link.get('audience') | join(', ') }})_{% endif %}{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
+
+{% endfor %}
+{% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
 
-##### Measurement Instruments
+#### Measurement Instruments
 {% for instr in instruments %}
 
 **Measurement Instrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
@@ -169,7 +150,7 @@ _No observations recorded._
 {% set codes = o.get('terminology-codes') or obs.de.get('terminology-codes', []) %}
 {% if codes %}
 
-##### Terminology Codes
+#### Terminology Codes
 
 | System | Code | Display |
 |---|---|---|

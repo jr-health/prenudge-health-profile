@@ -1,0 +1,80 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "oils-fats-nuts-seeds-portions-day",
+    "dataset-scope": "Extension",
+    "title": "Öle/Fette/Nüsse/Samen (Portionen/Tag)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+  },
+  "en": {
+    "template": "observation",
+    "key": "oils-fats-nuts-seeds-portions-day",
+    "dataset-scope": "Extension",
+    "title": "Oils, fats, nuts, and seeds (portions/day)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+  }
+}

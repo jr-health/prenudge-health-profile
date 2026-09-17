@@ -1,0 +1,84 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "non-alcoholic-unsweetened-drinks-glasses-day",
+    "dataset-scope": "Extension",
+    "title": "Alkoholfreie, ungesüßte Getränke (Gläser/Tag)",
+    "description": "Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "",
+        "unit": "Gläser/Tag\n1 Glas = 1/4 Liter oder 250ml",
+        "data-format": "auf eine Kommastelle genau (ganze und halbe)",
+        "data-type": "",
+        "range-of-vales": "> 0 bis 40",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "",
+        "norms": [
+          {
+            "specific-norm": "## Alkoholfreie Getränke: Empfohlene Menge\n\nTrinken Sie täglich **mindestens 1,5 Liter Flüssigkeit.**\n\nEine Portion entspricht 250 ml bzw. 1 Glas mit 1/4 Liter Flüssigkeit.\n\nQuelle: [Österreichische Ernährungsempfehlungen](https://www.gesundheit.gv.at/linkresolution/link/68499 \"Öffnet in einem neuen Fenster\") (AGES).\n\n## Welche Getränke sind geeignet?\n\nAm besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke wie ungezuckerte Früchte- oder Kräutertees. Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen pro Tag) können Teil einer gesunden Ernährung sein.\n\n**So können Sie Getränke in den Alltag einbauen:**\n\n- Bereits am Morgen an das Trinken denken und zum Frühstück Wasser, Tee oder verdünnten Fruchtsaft trinken.\n- Eine Wasserflasche oder Teekanne griffbereit haben.\n\nObst und Gemüse essen, denn diese enthalten ebenfalls Flüssigkeit. Dennoch sollten zusätzlich in jedem Fall mindestens 1,5 Liter pro Tag in Form von Getränken konsumiert werden.\n\n## Hinweis\n\nNäheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Broschüre „[Ernährung. Gesundheit für alle](https://www.gesundheit.gv.at/linkresolution/link/39227 \"Öffnet in einem neuen Fenster\")“ des Fonds Gesundes Österreich."
+          }
+        ],
+        "scoring-algorithm": "",
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "non-alcoholic-unsweetened-drinks-glasses-day",
+    "dataset-scope": "Extension",
+    "title": "Non-alcoholic, unsweetened drinks (glasses/day)",
+    "description": "",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "> 0 bis 40",
+        "acquisition-frequency": "alle 6 Monate",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  }
+}

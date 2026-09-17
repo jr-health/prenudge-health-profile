@@ -1,0 +1,70 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "flexibility-and-balance-training-units-week",
+    "dataset-scope": "Extension",
+    "title": "Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "flexibility-and-balance",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "EHIS",
+        "specific-questions": "Frage hinein! Antwortmöglichkeiten",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "2x/year",
+        "recommended-monitoring-frequency": "1/month",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "flexibility-and-balance-training-units-week",
+    "dataset-scope": "Extension",
+    "title": "Flexibility and balance training (units/week)",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "flexibility-and-balance",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "2x/year",
+        "recommended-monitoring-frequency": "1/month",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  }
+}

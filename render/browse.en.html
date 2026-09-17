@@ -399,8 +399,8 @@
 
   <main>
 <h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <div class="meta-bar">
-      <p class="meta-text">Version v0.1.8-test · Generated: 2026-09-16 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/6f840b7ecd3064adae90153028adb9bb67273525">6f840b7</a> ·
+      <p class="meta-text">Version v0.1.8-test · Generated: 2026-09-17 ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/9b0ff8d2573a07162c24eff95fe0d0c3e7ee4a81">9b0ff8d</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html" class="active">EN</a><a data-keep-scope href="browse.de.html">DE</a></div>
     </div>
@@ -418,444 +418,399 @@
   <thead>
     <tr>
       <th>Category</th>
-      <th>Indicator Dimension</th>
       <th>Observation</th>
       <th>Source Type</th>
       <th>FHIR IG Status</th>
     </tr>
   </thead>
   <tbody>
-    <tr data-category="alcohol" data-dimension="consumption-frequency" data-observation="alcohol-consumption-frequency" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="alcohol" data-observation="alcohol-consumption-frequency" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #00a256;"></span>Alcohol</td>
-      <td>Consumption frequency</td>
-      <td>Alcohol consumption frequency</td>
+      <td>Alcohol consumption frequency (days/week or drinks/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="body-height-weight-bmi" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="anthropometry" data-observation="body-mass-index" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
-      <td>Height, weight</td>
-      <td>Body height, weight and BMI</td>
+      <td>Body-Mass-Index (kg/m²)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-circumference" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="anthropometry" data-observation="waist-circumference" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
-      <td>Height, weight</td>
       <td>Waist circumference (cm)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="anthropometry" data-dimension="heigth-weight" data-observation="waist-to-hip-ratio" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="anthropometry" data-observation="waist-to-hip-ratio" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>
-      <td>Height, weight</td>
       <td>Waist-to-hip ratio (WHR)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="alkoholfreie-ungesuesste-getraenke-glaeser-tag" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-observation="cereals-potatoes-rice-pasta-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
+      <td>Cereals, potatoes, rice, and pasta (portions/day)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="dairy-products-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Dairy products (portions/day)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="fish-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Fish (portions/week)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="fruit-vegetable-consumption" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Fruit and vegetable consumption (portions/day)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="highly-processed-foods-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Highly processed foods (portions/day)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="legumes-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Legumes (portions/week)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="meat-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
+      <td>Meat (portions/week)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="nutrition" data-observation="non-alcoholic-unsweetened-drinks-glasses-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
       <td>Non-alcoholic, unsweetened drinks (glasses/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="dietary-pattern-athis" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-observation="oils-fats-nuts-seeds-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>Dietary pattern (ATHIS)</td>
+      <td>Oils, fats, nuts, and seeds (portions/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="fisch-fleisch-portionen-woche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-observation="sugary-salty-foods-portions-week" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>fish-meat portions week</td>
+      <td>Consumption of sugary and salty foods (portions/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="getreide-erdaepfel-portionen-pro-tag" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>Cereales Potatoes Portions per day</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="huelsenfruechte-portionen-pro-woche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>Legume portions per week</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="milchprodukte-oele-fette-nuesse-samen-portionen-pro-tag" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>Dairy products, oils, fats, nuts, and seeds – portions per day</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="nutrition" data-dimension="dietary-pattern" data-observation="stark-verarbeitete-lebensmittel" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #f2c57c;"></span>Nutrition</td>
-      <td>Dietary pattern</td>
-      <td>stark verarbeitete Lebensmittel</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="physical-activity" data-dimension="endurance-oriented-activity" data-observation="minutes-moderate-physical-activity" data-scope="minimalset" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
+    <tr data-category="physical-activity" data-observation="moderate-vigorous-endurance-oriented-activity-minutes-week" data-scope="minimalset" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Endurance Oriented Activity</td>
-      <td>Minutes in moderate and vigouros physical activity</td>
+      <td>Moderate and vigorous endurance-oriented activity (minutes/week)</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>planned</div><div>amendment needed</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="steps-per-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-observation="everyday-activity-steps-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Everyday Activity</td>
-      <td>Steps (per day)</td>
+      <td>Everyday activity (steps/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="everyday-activity" data-observation="zeit-leichte-koerperliche-aktivitaet" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-observation="light-everyday-physical-activity-minutes-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Everyday Activity</td>
-      <td>Time of light physical activity per day</td>
+      <td>Light everyday physical activity (minutes/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="flexibility-and-balance" data-observation="lessons-per-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-observation="flexibility-and-balance-training-units-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Flexibility and Balance</td>
-      <td>lessons per week</td>
+      <td>Flexibility and balance training (units/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="muscle-strengthening-exercises" data-observation="muscle-strengthening-exercises-daysweek" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-observation="muscle-strengthening-exercises-units-week" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Muscle-strengthening Exercises</td>
-      <td>Muscle-strengthening exercises (days/week)</td>
+      <td>Muscle-strengthening exercises (units/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="physical-activity" data-dimension="sitting" data-observation="sitting-hours-per-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="physical-activity" data-observation="sitting-hours-per-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Physical Activity</td>
-      <td>Sitting</td>
       <td>Sitting time (hours/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="access-to-care" data-observation="potential-access-barriers" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="potential-access-barriers" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Access to care</td>
       <td>Potential access barriers</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="chronic-stress" data-observation="perceived-stress-pss" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="self-reported-stress" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Chronic stress</td>
-      <td>Perceived stress (PSS-4 / PSS-10)</td>
+      <td>Self-reported stress</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="coping-ability" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Coping ability</td>
-      <td>Self-reported resilience</td>
+      <td>Self-reported coping ability (resilience)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="emotional-distress" data-observation="emotional-distress-phq2" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="self-reported-emotional-burden" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Emotional distress</td>
-      <td>Emotional distress (PHQ-2)</td>
+      <td>Self-reported emotional burden</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="fatigue-decline-in-performance" data-observation="daily-energy-and-performance-capacity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="fatigue-daily-energy-performance-capacity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Fatigue / Decline in performance</td>
-      <td>Daily energy and performance capacity</td>
+      <td>Fatigue and daily energy/performance capacity</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="lifeevents" data-observation="self-reported-significant-life-events" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="self-reported-significant-life-events" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Life events</td>
       <td>Self-reported significant life events</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="number-of-close-relationships" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="loneliness-social-support-close-relationships" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Loneliness / Social support</td>
-      <td>Number of close relationships</td>
+      <td>Loneliness/Social support (number of close relationships)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="self-reported-social-integration" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="self-reported-social-integration" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Loneliness / Social support</td>
       <td>Self-reported social integration</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="loneliness-social-support" data-observation="subjective-sense-of-support" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="subjective-sense-of-support" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Loneliness / Social support</td>
       <td>Subjective sense of support</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="susceptibility-to-infection" data-observation="number-of-infections" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="susceptibility-to-infection-number-period" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Susceptibility to infection</td>
-      <td>Number of infections within a defined period</td>
+      <td>Susceptibility to infection (number within a defined period)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="psychosocial-factors" data-dimension="weight-changes" data-observation="change-in-body-weight" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="psychosocial-factors" data-observation="change-in-body-weight" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosocial Factors</td>
-      <td>Weight changes</td>
       <td>Change in body weight over defined periods (kg)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="quality-of-life" data-dimension="physical-mental-social-environmental-domains" data-observation="quality-of-life-whoqol-bref" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="quality-of-life" data-observation="quality-of-life-score" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f8e4bf;"></span>Quality of Life</td>
-      <td>Physical, mental, social, environmental domains</td>
-      <td>Quality of life (WHOQOL-BREF)</td>
+      <td>Quality of Life (0-100 Score)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="health-literacy" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="health-literacy" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Communication/Understanding</td>
       <td>Health literacy</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="communication-understanding" data-observation="reporting-symptoms-or-changes" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="reporting-symptoms-or-changes" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Communication/Understanding</td>
       <td>Reporting symptoms or changes to healthcare professionals</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="medication-management" data-observation="monitoring-of-medication-and-vaccination-status" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="monitoring-of-medication-and-vaccination-status" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Medication management</td>
       <td>Independent monitoring of medication and vaccination status</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-glucose-level" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="blood-glucose-level" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Self-monitoring</td>
-      <td>Independent documentation of blood glucose level (mmol/l?)</td>
+      <td>Blood glucose level (mmol/l?)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-blood-pressure" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="blood-pressure" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Self-monitoring</td>
-      <td>Independent documentation of blood pressure (mmHg?)</td>
+      <td>Blood pressure (mmHg?)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="self-management" data-dimension="self-monitoring" data-observation="documentation-of-heart-rate" data-scope="extended" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="self-management" data-observation="heart-rate" data-scope="extended" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Self-management</td>
-      <td>Self-monitoring</td>
-      <td>Independent documentation of heart rate (bpm?)</td>
+      <td>Heart rate (bpm?)</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sexuality" data-dimension="sexual-satisfaction" data-observation="self-reported-sexual-satisfaction" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sexuality" data-observation="self-reported-sexual-satisfaction" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #D6C6C2;"></span>Sexuality</td>
-      <td>Sexual satisfaction</td>
       <td>Self-reported sexual satisfaction</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sleep" data-dimension="chronotyp" data-observation="selbstberichteter-chronotyp" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sleep" data-observation="self-reported-chronotype" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
-      <td>chronotype</td>
-      <td>self_reports_chronotype</td>
+      <td>Self-reported chronotype</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sleep" data-dimension="schlafhygiene" data-observation="haeufigkeit-einhaltung-schlaffoerdernder-routinen" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sleep" data-observation="sleep-hygiene-adherence-routines-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
-      <td>sleephygiene</td>
-      <td>Frequency of adherence to sleep-promoting routines</td>
+      <td>Sleep hygiene (frequency of adherence to sleep-promoting routines/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sleep" data-dimension="sleep-duration" data-observation="sleep-duration" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sleep" data-observation="sleep-duration" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
-      <td>Sleep duration</td>
       <td>Sleep duration (hours/night)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sleep" data-dimension="sleep-quality" data-observation="einschlafzeit" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sleep" data-observation="sleep-quality" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
-      <td>Sleep Quality</td>
-      <td>time taken to fall asleep</td>
+      <td>Self-assessment of sleep quality</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sleep" data-dimension="sleep-quality" data-observation="sleep-quality" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sleep" data-observation="time-taken-to-fall-asleep" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Sleep</td>
-      <td>Sleep Quality</td>
-      <td>Sleep quality</td>
+      <td>Time taken to fall asleep (average minutes)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="e-zigaretten-tabakerhitzer" data-observation="e-zigaretten-tabakerhitzer-anzahl-pro-woche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="e-cigarettes-or-tobacco-heaters-number-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>Anzahl pro Woche</td>
-      <td>e-cigarettes tabacco heaters-number-per-week</td>
+      <td>E-cigarettes or tobacco heaters (number/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="pfeife-wasserpfeife" data-observation="pfeife-wasserpfeife-anzahl-pro-woche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="pipe-or-hookah-number-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>pipe hookah</td>
-      <td>pipe hookah numbers per week</td>
+      <td>Pipe or hookah (number/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="smoking-status" data-observation="smoking-status" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="smoking-status" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>Smoking Status</td>
-      <td>Smoking status</td>
+      <td>Smoking status (never, former, current)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsmotivation" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="attempts-to-give-up" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>cigarettes</td>
-      <td>motivation to quit</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="entwoehnungsversuche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>cigarettes</td>
       <td>attempts to give up</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="nikotinabhaengigkeit" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="motivation-to-quit" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>cigarettes</td>
+      <td>motivation to quit</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="smoking" data-observation="nicotine-addiction" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
       <td>nicotine addiction</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigaretten" data-observation="pack-years" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="pack-years" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>cigarettes</td>
       <td>Pack Years</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="smoking" data-dimension="zigarren-zigarillos" data-observation="zigarren-zigarillos-pro-woche" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="smoking" data-observation="cigars-or-cigarillos-number-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Smoking</td>
-      <td>cigars and cigarillos</td>
-      <td>cigarres or cigarrilos per week</td>
+      <td>Cigars or cigarillos (number/week)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="age" data-observation="age" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="age" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Age</td>
-      <td>Age</td>
+      <td>Age (years)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="gender" data-observation="gender" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="gender" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Gender</td>
-      <td>Gender</td>
+      <td>Gender (female, male, inter, diverse, open, no answer)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="housing-type" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="housing-type" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Living environment</td>
       <td>Housing type (owned home, rented apartment, other)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="living-environment" data-observation="residence" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="residence" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Living environment</td>
       <td>Residence (urban/rural)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="marital-status" data-observation="single-married-partnership-separated-widowed" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="marital-status" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Marital status</td>
-      <td>single, married, in a partnership, separated, widowed</td>
+      <td>Marital status (single, married, in a partnership, separated, widowed)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="origin" data-observation="ethnicity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="ethnicity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Origin</td>
-      <td>Ethnicity</td>
+      <td>Origin (Ethnicity)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="education-level-isced" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="education-level-isced" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Socio-economic Status</td>
-      <td>Highest level of education (ISCED)</td>
+      <td>Highest completed education (ISCED level)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="employment-status-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="employment-status-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Socio-economic Status</td>
       <td>Employment status / Income</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="sociodemographic-data" data-dimension="socio-economic-status" data-observation="native-language" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="sociodemographic-data" data-observation="native-language" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Sociodemographic Data</td>
-      <td>Socio-economic Status</td>
       <td>Native language</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="impairment-of-employment" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="work" data-observation="impairment-of-employment" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
-      <td>Workability</td>
       <td>Impairment of employment</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="loss-of-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="work" data-observation="loss-of-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
-      <td>Workability</td>
-      <td>loss of income</td>
+      <td>Loss of income</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="work-absence-days" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="work" data-observation="work-ability" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
-      <td>Workability</td>
+      <td>Work ability (Score)</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td><div>draft</div></td>
+    </tr>
+    <tr data-category="work" data-observation="work-absence-days" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
       <td>Work absence days</td>
-      <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div>draft</div></td>
-    </tr>
-    <tr data-category="work" data-dimension="workability" data-observation="workability-worksoc-wai" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
-      <td><span class="swatch" style="background-color: #C5DDC8;"></span>Workability</td>
-      <td>Workability</td>
-      <td>Work ability (Work-SoC / WAI)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div>draft</div></td>
     </tr>

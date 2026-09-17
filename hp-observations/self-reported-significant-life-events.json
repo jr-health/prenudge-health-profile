@@ -9,7 +9,7 @@
     "dimension": "lifeevents",
     "population": "",
     "disease-association": [],
-    "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schweren Erkrankung) (ja/nein)",
+    "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",

@@ -1,0 +1,70 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "light-everyday-physical-activity-minutes-day",
+    "dataset-scope": "Extension",
+    "title": "Leichte körperliche Alltagsaktivität (Minuten/Tag)",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "everyday-activity",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "EHIS",
+        "specific-questions": "",
+        "unit": "min/day",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-1440 min",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "1xpro Monat",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "light-everyday-physical-activity-minutes-day",
+    "dataset-scope": "Extension",
+    "title": "Light everyday physical activity (minutes/day)",
+    "description": "",
+    "category": "physical-activity",
+    "dimension": "everyday-activity",
+    "population": "",
+    "disease-association": [],
+    "citizen-info": "",
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-1440 min",
+        "acquisition-frequency": "2x/Jahr",
+        "recommended-monitoring-frequency": "1xpro Monat",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  }
+}
