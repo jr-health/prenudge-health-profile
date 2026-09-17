@@ -4,25 +4,29 @@
     "key": "self-reported-resilience",
     "dataset-scope": "Extension",
     "title": "Selbstbericht über Coping-Fähigkeit (Resilienz)",
-    "description": "",
+    "description": "Skala meist von **1** (trifft \u00fcberhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:\n\n1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.\n2. Es f\u00e4llt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_\n3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.\n4. Es ist f\u00fcr mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.\n5. Ich habe das Gef\u00fchl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.\n6. Ich komme meistens gut durch schwere Zeiten durch",
     "category": "psychosocial-factors",
     "dimension": "coping-ability",
-    "population": "",
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
     "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
+        "device": "Chmitorz, A., Wenzel, M., Stieglitz, R.-D., Kunzler, A., Bagusat, C., Helmreich, I., Gerlicher, A., Kampa, M., Kubiak, T., Kalisch, R., Lieb, K. & T\u00fcscher, O. (2018). Population-based validation of a German version of the Brief Resilience Scale. PLOS ONE, 13(2), e0192761.DOI: 10.1371/journal.pone.019276",
         "specific-questions": "1 von 6000-7000 möglichen Scoping Fragebögen?",
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "jeder wert kann 1-5 sein",
         "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
-        "norms": [],
-        "scoring-algorithm": "",
+        "recommended-monitoring-frequency": "alle 6 Monate",
+        "norms": [
+          {
+            "specific-norm": "Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, w\u00e4hrend Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden"
+          }
+        ],
+        "scoring-algorithm": "Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschlie\u00dfend der Mittelwert aller sechs Items gebildet.",
         "sources": [],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
@@ -32,7 +36,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
+    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 \u2013 30, < 3,0 markiert eine reduzierte Resilienz)"
   },
   "en": {
     "template": "observation",
@@ -52,9 +56,9 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "jeder wert kann 1-5 sein",
         "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
+        "recommended-monitoring-frequency": "alle 6 Monate",
         "norms": [],
         "sources": [],
         "terminology-codes": [],
@@ -65,6 +69,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht."
+    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 \u2013 30, < 3,0 markiert eine reduzierte Resilienz)"
   }
 }

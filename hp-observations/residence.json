@@ -14,7 +14,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "1.9. Welcher der folgenden S\u00e4tze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine gro\u00dfe Stadt\n2. Die Vororte oder Au\u00dfenbezirke einer Gro\u00dfstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -32,7 +32,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "oder k\u00f6nenn wir es von der Postleitzahl ableiten?"
   },
   "en": {
     "template": "observation",
@@ -57,6 +57,6 @@
         "vis-status": "draft"
       }
     ],
-    "discussion": ""
+    "discussion": "oder k\u00f6nenn wir es von der Postleitzahl ableiten?"
   }
 }

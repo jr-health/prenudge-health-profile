@@ -14,16 +14,25 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "**F59 \u201eWas ist Ihr Familienstand?\u201c** \n\n- \u2610 Ledig\n- \u2610 Verheiratet oder eingetragene Partnerschaft\n- \u2610 Verwitwet oder hinterbliebene eingetragene Partnerschaft\n- \u2610 Geschieden oder aufgel\u00f6ste eingetragene Partnerschaft \n\nAls verheiratet gelten standesamtlich getraute Personen (Kirchliche Eheschlie\u00dfungen werden nicht ber\u00fccksichtigt). Getrenntlebende, aber nicht geschiedene Ehegatten werden als verheiratet eingetragen. Personen, deren Ehepartner/Ehepartnerin f\u00fcr tot erkl\u00a8art worden ist, gelten als verwitwet. Gerichtlich getrennte Personen sind als \u04d9geschieden\u04d9 zu vercoden.\n\nBei eingetragenen Partnerschaften gleichgeschlechtlicher Paare ist - je nach Situation verheiratet, verwitwet oder geschieden anzugeben.",
         "unit": "",
         "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": ""
+          }
+        ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Statistik Austria. Mikrozensus Erkl\u00e4uterung und Fragebogen 2025",
+            "system": "https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -52,9 +61,17 @@
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "sources": [
+          {
+            "system": "https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+          }
+        ],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
