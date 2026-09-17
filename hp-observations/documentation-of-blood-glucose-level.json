@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "documentation-of-blood-glucose-level",
     "dataset-scope": "Extension",
-    "title": "Dokumentation von Blutzuckerwert (mmol/l?)",
+    "title": "Dokumentation von Blutzuckerwert (mmol/l)",
     "description": "",
     "category": "self-management",
     "dimension": "self-monitoring",
