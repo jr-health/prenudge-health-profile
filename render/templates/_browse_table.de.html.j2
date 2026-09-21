@@ -2,9 +2,9 @@
   <thead>
     <tr>
       <th>Kategorie</th>
-      <th>Beobachtung</th>
-      <th>Source Type</th>
-      <th>FHIR IG Status</th>
+      <th>Beobachtung / Gesundheitsindikator</th>
+      <th>Messinstrument</th>
+      <th>FHIR IG</th>
     </tr>
   </thead>
   <tbody>
@@ -16,13 +16,16 @@
 {% set instruments = o.get('measurement-instrument', []) %}
 {% set scope_ids = {'Minimalset': 'minimalset', 'Extension': 'extended'} %}
 {% set obs_scope = scope_ids.get(o.get('dataset-scope'), '') %}
-{% set ns = namespace(source_types=[], fhir_statuses=[], vis_statuses=[]) %}
+{% set ns = namespace(source_types=[], fhir_statuses=[], fhir_links=[], vis_statuses=[]) %}
 {% for instr in instruments %}
 {% if instr.get('source-type') and instr['source-type'] not in ns.source_types %}
 {% set ns.source_types = ns.source_types + [instr['source-type']] %}
 {% endif %}
 {% if instr.get('pn-fhir-ig-status') and instr['pn-fhir-ig-status'] not in ns.fhir_statuses %}
 {% set ns.fhir_statuses = ns.fhir_statuses + [instr['pn-fhir-ig-status']] %}
+{% endif %}
+{% if instr.get('pn-fhir-ig-link') and instr['pn-fhir-ig-link'] not in ns.fhir_links %}
+{% set ns.fhir_links = ns.fhir_links + [instr['pn-fhir-ig-link']] %}
 {% endif %}
 {% if instr.get('vis-status') and instr['vis-status'] not in ns.vis_statuses %}
 {% set ns.vis_statuses = ns.vis_statuses + [instr['vis-status']] %}
@@ -32,7 +35,7 @@
       <td><span class="swatch" style="background-color: {{ c.color | default('#cccccc') }};"></span>{{ c.title | default(cat.en.title) }}</td>
       <td>{{ o.title | default(obs.en.title) }}</td>
       <td>{% for st in ns.source_types %}<div>{{ st }}</div>{% endfor %}</td>
-      <td>{% for st in ns.fhir_statuses %}<div>{{ st }}</div>{% endfor %}</td>
+      <td>{% for link in ns.fhir_links %}<div><a href="{{ link }}" target="_blank" rel="noopener">{{ link.split('/')[-1] | replace('.html', '') }}</a></div>{% endfor %}</td>
     </tr>
 {% endfor %}
 {% endfor %}

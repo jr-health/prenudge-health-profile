@@ -65,7 +65,9 @@ function catColor(d) {
 
 function fillColor(d) {
   const base = catColor(d);
-  return d.depth === 1 ? base : d3.interpolateRgb(base, "#ffffff")(0.68);
+  if (d.depth === 1) return base;
+  if (d.depth === 2) return d3.interpolateRgb(base, "#ffffff")(0.38);
+  return d3.interpolateRgb(base, "#ffffff")(0.68);
 }
 
 function arcVisible(d) {
@@ -230,12 +232,36 @@ function breadcrumb(d) {
 // ── build D3 hierarchy — stores both locales + key in each node ───────────
 
 function buildHierarchy(profile) {
+  // source-type (admin/config.yml) only ever holds one of two full option
+  // strings ("Questionnaire · manual (self-reported)" / "Wearable device /
+  // sensor · automated") - shortened here since the full text doesn't fit a
+  // ring segment. The questionnaire/device name itself lives in the sibling
+  // `device` field, appended in parens so e.g. "Questionnaire (WHOQOL-BREF)"
+  // distinguishes instruments that would otherwise share a label.
+  function instrumentNode(instr) {
+    const sourceType = instr["source-type"] || "";
+    const isQuestionnaire = sourceType.startsWith("Questionnaire");
+    const base = isQuestionnaire ? "Questionnaire"
+      : sourceType.startsWith("Wearable") ? "Wearable device"
+      : sourceType;
+    const label = isQuestionnaire && instr.device ? `${base} (${instr.device})` : base;
+    return {
+      key: null,
+      name_de: label,
+      name_en: label,
+      value: 1,
+    };
+  }
   function obsNode(obs) {
+    const instruments = (obs.de || {})["measurement-instrument"]
+      || (obs.en || {})["measurement-instrument"]
+      || [];
     return {
       key: (obs.de || obs.en || {}).key,
       name_de: (obs.de || {}).title || "",
       name_en: (obs.en || {}).title || (obs.de || {}).title || "",
       value: 1,
+      children: instruments.length > 0 ? instruments.map(instrumentNode) : null,
     };
   }
   return {
