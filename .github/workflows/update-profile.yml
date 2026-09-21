@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main                # workflow_run doesn't default to this branch
-          fetch-depth: 0          # needed for git log (activity history) and git tag lookup
+          fetch-depth: 0          # needed for git log (activity history)
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -50,10 +50,18 @@ jobs:
       - name: Validate references
         run: python scripts/validate.py --strict
 
-      - name: Read version from latest release tag
+      - name: Read version from latest release
         id: version
+        # Uses `gh release view` (the actual latest *published* GitHub Release),
+        # same as pages.yml - not `git tag --sort=-version:refname`, which ranks
+        # tags lexically and gets thrown off by malformed tags (e.g. a stray
+        # "vv0.1.8-test" from a workflow_dispatch input that already had a "v"
+        # prefix sorted itself above every properly-formed tag, pinning this
+        # workflow's output to that stale version indefinitely).
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          TAG=$(git tag --sort=-version:refname | head -1)
+          TAG=$(gh release view --repo ${{ github.repository }} --json tagName --jq .tagName 2>/dev/null || true)
           VERSION="${TAG#v}"
           echo "value=${VERSION:-unreleased}" >> $GITHUB_OUTPUT
 
