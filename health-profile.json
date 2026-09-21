@@ -1,16 +1,11 @@
 {
-  "version": "0.1.11-test",
-  "generated": "2026-09-21T17:59:36.349967+00:00",
+  "version": "0.1.13-test",
+  "generated": "2026-09-21T18:02:32.998441+00:00",
   "scope": "combined",
-  "commit": "2aec7e3350bb097c4cfe6936cb7d043381f75f17",
+  "commit": "40e4e260e74c95b64f1702f28e197adef04aa578",
   "activity": {
-    "since": "v0.1.11-test",
-    "entries": [
-      {
-        "date": "2026-09-21",
-        "author": "Theresa.Weitlaner"
-      }
-    ]
+    "since": "v0.1.13-test",
+    "entries": []
   },
   "categories": [
     {
