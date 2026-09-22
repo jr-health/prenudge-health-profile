@@ -1282,7 +1282,7 @@ Informationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schl
 max: 24
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Fragebogen: alle 6 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepDurationQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

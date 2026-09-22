@@ -778,7 +778,7 @@ max: 20 (Transformiert 100)
 max: 24
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Fragebogen: alle 6 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepDurationQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

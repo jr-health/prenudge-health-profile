@@ -1,8 +1,8 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T09:49:22.677653+00:00",
+  "generated": "2026-09-22T09:51:34.121601+00:00",
   "scope": "combined",
-  "commit": "f61bacb1cf517e8349a6ad3b6984d9742cea3c53",
+  "commit": "397bc125b16eb1cf35a59cd3dc74189f725e7cc9",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
@@ -6255,11 +6255,9 @@
                 "key": "sleep-duration",
                 "dataset-scope": "Minimalset",
                 "title": "Schlafdauer (Stunden/Nacht)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\nEmpfehlung: ???",
                 "category": "sleep",
                 "dimension": "sleep-duration",
-                "population": "erwachsene Allgemeinbevölkerung",
-                "disease-association": [],
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\nEmpfehlung: ???",
                 "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
                 "verified-health-links": [
                   {
@@ -6269,6 +6267,8 @@
                     "note": ""
                   }
                 ],
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -6304,7 +6304,7 @@
                         "display": "Duration of sleep"
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepDurationQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -6348,11 +6348,9 @@
                 "key": "sleep-duration",
                 "dataset-scope": "Minimalset",
                 "title": "Sleep duration (hours/night)",
-                "description": "",
                 "category": "sleep",
                 "dimension": "sleep-duration",
-                "population": "",
-                "disease-association": [],
+                "description": "",
                 "citizen-info": "",
                 "verified-health-links": [
                   {
@@ -6362,6 +6360,8 @@
                     "note": ""
                   }
                 ],
+                "population": "",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -6375,6 +6375,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "PDF siehe NextCloud"
                       }
                     ],
@@ -6390,7 +6391,7 @@
                         "display": ""
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepDurationQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
