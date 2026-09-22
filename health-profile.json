@@ -1,8 +1,8 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T09:51:34.121601+00:00",
+  "generated": "2026-09-22T09:54:30.796348+00:00",
   "scope": "combined",
-  "commit": "397bc125b16eb1cf35a59cd3dc74189f725e7cc9",
+  "commit": "0e4eda5943cbcf20e2e36e14b17738848733a285",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
@@ -6533,7 +6533,10 @@
                 "key": "sleep-quality",
                 "dataset-scope": "Minimalset",
                 "title": "Selbstangegebene Einschätzung der Schlafqualität",
+                "category": "sleep",
+                "dimension": "sleep-quality",
                 "description": "Dieser Gesundheitsindikator zeigt die selbstangegebene Einschätzung der Schlafqualität der Personen an.\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\n„So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024).\n„Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).\nSonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).\nEmpfehlung: nicht anwendbar",
+                "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
                 "verified-health-links": [
                   {
                     "title": "Was ist normaler Schlaf?",
@@ -6560,11 +6563,8 @@
                     "note": ""
                   }
                 ],
-                "category": "sleep",
-                "dimension": "sleep-quality",
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -6630,7 +6630,7 @@
                         "display": "Good quality of sleep"
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepQualityQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -6668,11 +6668,9 @@
                 "key": "sleep-quality",
                 "dataset-scope": "Minimalset",
                 "title": "Self-assessment of sleep quality",
-                "description": "",
                 "category": "sleep",
                 "dimension": "sleep-quality",
-                "population": "",
-                "disease-association": [],
+                "description": "",
                 "citizen-info": "",
                 "verified-health-links": [
                   {
@@ -6700,65 +6698,90 @@
                     "note": ""
                   }
                 ],
+                "population": "",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "nicht zutreffend",
                     "acquisition-frequency": "1x pro Jahr",
                     "recommended-monitoring-frequency": "alle 6 Monate",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.who.int/tools/whoqol/whoqol-bref"
                       }
                     ],
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "61987-4"
+                        "code": "61987-4",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "LA9615-1"
+                        "code": "LA9615-1",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "LA8969-3"
+                        "code": "LA8969-3",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "LA8968-5"
+                        "code": "LA8968-5",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "LA8967-7"
+                        "code": "LA8967-7",
+                        "display": ""
                       },
                       {
                         "system": "http://loinc.org",
-                        "code": "LA13913-1"
+                        "code": "LA13913-1",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "248254009"
+                        "code": "248254009",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "11741000202105"
+                        "code": "11741000202105",
+                        "display": ""
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepQualityQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   },
                   {
                     "source-type": "Wearable device / sensor · automated",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "nicht zutreffend",
                     "acquisition-frequency": "1x Jährlich\nMuss mindestens 7 Tage getragen werden;\ndavon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)",
                     "recommended-monitoring-frequency": "je länger desto besser >=10 Tage",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": "Fragebogen und/oder Wearable"
