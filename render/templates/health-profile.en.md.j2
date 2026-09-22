@@ -145,17 +145,17 @@ _No observations recorded._
 
 {% endfor %}
 {% endif %}
-{% endfor %}
-{% endif %}
-{% set codes = o.get('terminology-codes') or obs.de.get('terminology-codes', []) %}
+{% set codes = instr.get('terminology-codes', []) %}
 {% if codes %}
 
-#### Terminology Codes
+**Terminology Codes:**
 
 | System | Code | Display |
 |---|---|---|
 {% for tc in codes %}
 | {{ tc.get('system', '') }} | {{ tc.get('code', '') }} | {{ tc.get('display', '') }} |
+{% endfor %}
+{% endif %}
 {% endfor %}
 {% endif %}
 {% endfor %}

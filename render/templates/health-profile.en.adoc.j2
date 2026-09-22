@@ -83,10 +83,10 @@ _No observations recorded._
 {% if instruments %}
 
 ==== Measurement Instruments
-{% set codes = o.get('terminology-codes') or obs.de.get('terminology-codes', []) %}
 {% for instr in instruments %}
 {% set instr_label = instr.get('source-type') or 'Measurement Instrument' %}
 {% if instr.get('device') %}{% set instr_label = instr_label ~ ' - ' ~ instr['device'] %}{% endif %}
+{% set codes = instr.get('terminology-codes', []) %}
 
 ===== {{ instr_label }}
 

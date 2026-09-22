@@ -120,6 +120,22 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 105542008 |  |
+| http://loinc.org | 74013-4 |  |
+| http://snomed.info/sct | 69620002 |  |
+| http://snomed.info/sct | 229800002 |  |
+| http://snomed.info/sct | 783261004 |  |
+| http://snomed.info/sct | 307447001 |  |
+| http://snomed.info/sct | 396113003 |  |
+| http://snomed.info/sct | 445547001 |  |
+| http://snomed.info/sct | 445241000124107 |  |
+| http://snomed.info/sct | 307452006 |  |
+| http://snomed.info/sct | 307450003 |  |
+
 ---
 
 ## Anthropometry
@@ -145,6 +161,19 @@ Optional: alle 3 Monate
 
 **Sources:**
 - nicht zutreffend
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 39156-5 |  |
+| http://loinc.org | 8302-2 |  |
+| http://loinc.org | 29463-7 |  |
+| http://snomed.info/sct | 35425004 |  |
+| http://snomed.info/sct | 162863004 |  |
+| http://snomed.info/sct | 238131007 |  |
+| http://snomed.info/sct | 162864005 |  |
+| http://snomed.info/sct | 414916001 |  |
 
 ### Waist circumference (cm)
 
@@ -245,6 +274,19 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 80459-1 |  |
+| http://loinc.org | 80457-5 |  |
+| http://snomed.info/sct | 787758000 |  |
+| http://snomed.info/sct | 789334009 |  |
+| http://snomed.info/sct | 226452008 |  |
+| http://snomed.info/sct | 226448008 |  |
+| http://snomed.info/sct | 364395008 |  |
+| http://snomed.info/sct | 301961000000107 |  |
+
 ### Highly processed foods (portions/day)
 
 #### Measurement Instruments
@@ -334,6 +376,17 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 364395008 |  |
+| http://snomed.info/sct | 226459004 |  |
+| http://snomed.info/sct | 226461008 |  |
+| http://snomed.info/sct | 230079003 |  |
+| http://snomed.info/sct | 818990008 |  |
+| http://snomed.info/sct | 230084009 |  |
+
 ---
 
 ## Physical Activity
@@ -375,6 +428,15 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - https://fgoe.org/glossar/alltagsbewegung
 - https://fgoe.org/glossar/alltagsbewegung
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 101691-4 |  |
+| http://loinc.org | 77592-4 |  |
+| http://loinc.org | 77593-2 |  |
+| http://snomed.info/sct | 246501002 |  |
+
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **Range of Values:** für Q7:
 min: in Minuten 0
@@ -388,12 +450,12 @@ max: in Minuten: 15.120/Woche
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/26634120/
 
-#### Terminology Codes
+**Terminology Codes:**
 
 | System | Code | Display |
 |---|---|---|
-| http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
-| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
+| http://loinc.org | 101691-4 |  |
+| http://snomed.info/sct | 68130003 |  |
 
 ### Everyday activity (steps/day)
 
@@ -417,6 +479,12 @@ max: 7
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/26634120/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 41950-7 |  |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** min: 0 Schritte/Tag
 max: n.a.
@@ -428,6 +496,12 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 41950-7 |  |
 
 ### Light everyday physical activity (minutes/day)
 
@@ -471,6 +545,13 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/26634120/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 82291-6 |  |
+| http://snomed.info/sct | 266741004 |  |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** min: 0
 max: 7
@@ -481,6 +562,12 @@ Mindestens 4 valide Tage
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 82291-6 |  |
 
 ### Sitting time (hours/day)
 
@@ -504,6 +591,13 @@ max: 24 Stunden
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/26634120/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 87705-0 |  |
+| http://snomed.info/sct | 415510005 |  |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** min: 0 Stunden
 max: 24 Stunden
@@ -512,6 +606,12 @@ max: 24 Stunden
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 87705-0 |  |
 
 ---
 
@@ -542,6 +642,15 @@ max: 16 (PSS-4) und 40 (PSS-10)
 
 **Sources:**
 - doi.org/10.2307/2136404
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 106860-0 |  |
+| http://snomed.info/sct | 304753007 |  |
+| http://snomed.info/sct | 1193534004 |  |
+| http://snomed.info/sct | 23085004 |  |
 
 ### Self-reported coping ability (resilience)
 
@@ -576,6 +685,17 @@ max: 16 (PSS-4) und 40 (PSS-10)
 
 **Sources:**
 - Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 73832-8 |  |
+| http://snomed.info/sct | 366979004 |  |
+| http://snomed.info/sct | 417523004 |  |
+| http://snomed.info/sct | 247753000 |  |
+| http://snomed.info/sct | 373066001 |  |
+| http://snomed.info/sct | 373067005 |  |
 
 ### Fatigue and daily energy/performance capacity
 
@@ -657,6 +777,18 @@ max: 20 (Transformiert 100)
 
 **Sources:**
 - https://www.who.int/tools/whoqol/whoqol-bref
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 405152002 |  |
+| http://snomed.info/sct | 19388002 |  |
+| http://snomed.info/sct | 60224009 |  |
+| http://snomed.info/sct | 272151006 |  |
+| http://snomed.info/sct | 276339004 |  |
+| http://snomed.info/sct | 60132005 |  |
+| http://loinc.org | 98917-8 |  |
 
 ---
 
@@ -785,6 +917,13 @@ max: 24
 **Sources:**
 - PDF siehe NextCloud
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 93832-4 |  |
+| http://snomed.info/sct | 248263006 |  |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** min: 0
 max: 24
@@ -793,6 +932,12 @@ max: 24
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 93832-4 |  |
 
 ### Self-assessment of sleep quality
 
@@ -814,6 +959,19 @@ max: 24
 
 **Sources:**
 - https://www.who.int/tools/whoqol/whoqol-bref
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 61987-4 |  |
+| http://loinc.org | LA9615-1 |  |
+| http://loinc.org | LA8969-3 |  |
+| http://loinc.org | LA8968-5 |  |
+| http://loinc.org | LA8967-7 |  |
+| http://loinc.org | LA13913-1 |  |
+| http://snomed.info/sct | 248254009 |  |
+| http://snomed.info/sct | 11741000202105 |  |
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** nicht zutreffend
@@ -890,6 +1048,19 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 72166-2 |  |
+| http://snomed.info/sct | 449868002 |  |
+| http://snomed.info/sct | 8517006 |  |
+| http://snomed.info/sct | 35341000087101 |  |
+| http://snomed.info/sct | 35371000087109 |  |
+| http://snomed.info/sct | 266919005 |  |
+| http://snomed.info/sct | 221000119102 |  |
+| http://snomed.info/sct | 598111000000509 |  |
 
 ### attempts to give up
 
@@ -975,6 +1146,15 @@ max: 120
 **Sources:**
 - Nicht anwendbar
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 33791000087105 |  |
+| http://snomed.info/sct | 911581000124109 |  |
+| http://snomed.info/sct | 911601000124109 |  |
+| http://snomed.info/sct | 551641000124102 |  |
+
 ### Housing type (owned home, rented apartment, other)
 
 #### Measurement Instruments
@@ -1027,6 +1207,15 @@ max: 120
 
 **Sources:**
 - https://www.uis.unesco.org/en/methods-and-tools/isced
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 82589-3 |  |
+| http://snomed.info/sct | 342271000000107 |  |
+| http://snomed.info/sct | 224297003 |  |
+| http://snomed.info/sct | 473461003 |  |
 
 ### Employment status / Income
 

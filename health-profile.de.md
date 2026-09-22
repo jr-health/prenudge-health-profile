@@ -143,6 +143,22 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 **Quellen:**
 - [Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 105542008 | Current non-drinker of alcohol |
+| http://loinc.org | 74013-4 | Alcoholic drinks per day |
+| http://snomed.info/sct | 69620002 | Daily |
+| http://snomed.info/sct | 229800002 | Twice weekly |
+| http://snomed.info/sct | 783261004 | Lifetime non-drinker of alcohol |
+| http://snomed.info/sct | 307447001 | Six times weekly |
+| http://snomed.info/sct | 396113003 | Three to four times |
+| http://snomed.info/sct | 445547001 | Every two months |
+| http://snomed.info/sct | 445241000124107 | Less than once a month |
+| http://snomed.info/sct | 307452006 | Three times monthly |
+| http://snomed.info/sct | 307450003 | Once monthly |
+
 ---
 
 ## Anthropometrie
@@ -204,6 +220,19 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 
 **Quellen:**
 - [Subjektiv – Fragen (Selbstangaben)](nicht zutreffend)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 39156-5 | Body mass index (BMI) [Ratio] |
+| http://loinc.org | 8302-2 | Body height |
+| http://loinc.org | 29463-7 | Body weight |
+| http://snomed.info/sct | 35425004 | Normal body mass index |
+| http://snomed.info/sct | 162863004 | Body mass index 25-29 - overweight |
+| http://snomed.info/sct | 238131007 | Overweight |
+| http://snomed.info/sct | 162864005 | Body mass index 30+ - obesity |
+| http://snomed.info/sct | 414916001 | Obesity |
 
 ### Taillen-/Bauchumfang (cm)
 
@@ -394,6 +423,19 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 **Quellen:**
 - [Subjektiv – ATHIS: Gemüse und Obst](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 80459-1 | Vegetable servings 24 hour Estimated |
+| http://loinc.org | 80457-5 | Fruit servings 24 hour Estimated |
+| http://snomed.info/sct | 787758000 | Estimated intake of fruit servings in 24 hours |
+| http://snomed.info/sct | 789334009 | Estimated intake of vegetable servings in 24 hours |
+| http://snomed.info/sct | 226452008 | Fruit intake |
+| http://snomed.info/sct | 226448008 | Vegetable intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+| http://snomed.info/sct | 301961000000107 | Five or more portions of fruit and vegetables per day |
+
 ### Stark verarbeitete Lebensmittel (Portionen/Tag)
 
 #### Messinstrumente
@@ -560,6 +602,17 @@ Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung träg
 **Quellen:**
 - [Subjektiv – ATHIS: Zuckerhaltige Lebensmittel](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 364395008 | Dietary intake |
+| http://snomed.info/sct | 226459004 | Sugar intake |
+| http://snomed.info/sct | 226461008 | Confectionery (sweets) intake |
+| http://snomed.info/sct | 230079003 | Savory snack intake |
+| http://snomed.info/sct | 818990008 | Estimated oral intake of sugar sweetened drinks in 24 hours |
+| http://snomed.info/sct | 230084009 | Table salt intake |
+
 ---
 
 ## Körperliche Aktivität
@@ -622,6 +675,15 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 **Quellen:**
 - [Empfehlung von Fonds Gesundes Österreich, 2020 für Alltagsbewegung](https://fgoe.org/glossar/alltagsbewegung)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 101691-4 | Duration of physical activity |
+| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
+| http://loinc.org | 77593-2 | Vigorous physical activity [IPAQ] |
+| http://snomed.info/sct | 246501002 | Technique |
+
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** kategorielle Variable:  Q4 (Tage pro Woche),  Q5 (Stunden pro Tag), Q6 (Tage pro Woche) Q7: Minuten pro Woche
 - **Datenformat:** Q4: Kategoriell (7 Antwortmöglichkeiten) Q5: Kategoriell (5 Antwortmöglichkeiten) Q6: Kategoriell (8 Antwortmöglichkeiten) Q7: Angabe in Stunden und Minuten
@@ -663,12 +725,12 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 **Quellen:**
 - [European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
-#### Terminologiecodes
+**Terminologiecodes:**
 
 | System | Code | Bezeichnung |
 |---|---|---|
-| http://loinc.org | 77593-2 | Physical activity - minutes per week at vigorous intensity |
-| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
+| http://loinc.org | 101691-4 | Duration of physical activity |
+| http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
 
 ### Alltagsaktivität (Schritte/Tag)
 
@@ -714,6 +776,12 @@ max: 7
 **Quellen:**
 - [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
+
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Schritte/Tag
 - **Datenformat:** Ganzzahl (integer)
@@ -732,6 +800,12 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - nicht zutreffend
 
 **Scoring-Algorithmus:** nicht zutreffend
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
 
 ### Leichte körperliche Alltagsaktivität (Minuten/Tag)
 
@@ -802,6 +876,13 @@ Laienhafte Information:
 **Quellen:**
 - [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 82291-6 | Frequency of muscle-strengthening physical activity |
+| http://snomed.info/sct | 266741004 | Muscle strength exercise (procedure) |
+
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Anzahl der Tage (pro Woche)
 - **Datenformat:** Ganzzahl (integer)
@@ -819,6 +900,12 @@ Mindestens 4 valide Tage
 - Erwachsene: 2 oder mehr Tage der Woche muskelkräftigende Übungen (Fonds Gesundes Österreich, 2020)
 
 **Scoring-Algorithmus:** nicht zutreffend
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 82291-6 | Frequency of muscle-strengthening physical activity |
 
 ### Sitzzeit (Stunden/Tag)
 
@@ -863,6 +950,13 @@ max: 24 Stunden
 **Quellen:**
 - [EHIS-PAQ (Finger et al., 2015)](https://pubmed.ncbi.nlm.nih.gov/26634120/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 87705-0 | Sedentary activity 24 hour |
+| http://snomed.info/sct | 415510005 | Sedentary lifestyle (finding) |
+
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Stunden und/oder Minuten (Minuten bitte in Stunden umrechnen!)
 - **Datenformat:** metrisch / kontinuierlich (kontinuierliche Variable)
@@ -878,6 +972,12 @@ max: 24 Stunden
 - nicht zutreffend
 
 **Scoring-Algorithmus:** (Minuten in Stunden umrechnen)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 87705-0 | Sedentary activity 24 hour |
 
 ---
 
@@ -942,6 +1042,15 @@ Selbstwirksamkeitsskala (siehe NextCloud!)
 
 **Quellen:**
 - [Subjektiv – PSS-4 und PSS-10](doi.org/10.2307/2136404)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 106860-0 | Perceived stress scale-10 total score [PSS-10] |
+| http://snomed.info/sct | 304753007 | Perceived stress scale |
+| http://snomed.info/sct | 1193534004 | High perceived stress |
+| http://snomed.info/sct | 23085004 | Increased stress |
 
 ### Selbstbericht über Coping-Fähigkeit (Resilienz)
 
@@ -1015,6 +1124,17 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 
 **Quellen:**
 - [Subjektiv – PHQ-2](Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 73832-8 | Adult depression screening assessment |
+| http://snomed.info/sct | 366979004 | Depressed mood |
+| http://snomed.info/sct | 417523004 | Loss of interest in previously enjoyable activity |
+| http://snomed.info/sct | 247753000 | Loss of interest |
+| http://snomed.info/sct | 373066001 | Yes |
+| http://snomed.info/sct | 373067005 | No |
 
 ### Müdigkeit und tägliche Energie/Leistungsfähigkeit
 
@@ -1128,6 +1248,18 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 **Quellen:**
 - [Subjektiv – WHOQOL-BREF](https://www.who.int/tools/whoqol/whoqol-bref)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 405152002 | Quality of life satisfaction |
+| http://snomed.info/sct | 19388002 | Physical |
+| http://snomed.info/sct | 60224009 | Psychologic |
+| http://snomed.info/sct | 272151006 | Relationships |
+| http://snomed.info/sct | 276339004 | Environment |
+| http://snomed.info/sct | 60132005 | Generalized |
+| http://loinc.org | 98917-8 | WHOQOL-BREF panel |
 
 ---
 
@@ -1294,6 +1426,13 @@ max: 24
 **Quellen:**
 - [Subjektiv – DEGS](PDF siehe NextCloud)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 93832-4 | Sleep duration |
+| http://snomed.info/sct | 248263006 | Duration of sleep |
+
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Stunden Schlaf pro 24 Stunden
 - **Datenformat:** numerische Variable auf zwei Komma Stellen genau
@@ -1309,6 +1448,12 @@ max: 24
 - nicht zutreffend
 
 **Scoring-Algorithmus:** Minuten in Stunden umrechnen
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 93832-4 | Sleep duration |
 
 ### Selbstangegebene Einschätzung der Schlafqualität
 
@@ -1355,6 +1500,19 @@ Informationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schl
 
 **Quellen:**
 - [Subjektiv – WHOQOL-BREF](https://www.who.int/tools/whoqol/whoqol-bref)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 61987-4 | My sleep quality was... in past 7 days [PROMIS] |
+| http://loinc.org | LA9615-1 | Very poor |
+| http://loinc.org | LA8969-3 | Poor |
+| http://loinc.org | LA8968-5 | Fair |
+| http://loinc.org | LA8967-7 | Good |
+| http://loinc.org | LA13913-1 | Very Good |
+| http://snomed.info/sct | 248254009 | Quality of sleep |
+| http://snomed.info/sct | 11741000202105 | Good quality of sleep |
 
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Erhobene Schlafqualität
@@ -1468,6 +1626,19 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 **Quellen:**
 - [Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 72166-2 | Tobacco smoking status |
+| http://snomed.info/sct | 449868002 | Smokes tobacco daily |
+| http://snomed.info/sct | 8517006 | Ex-smoker |
+| http://snomed.info/sct | 35341000087101 | Uses e-cigarette daily |
+| http://snomed.info/sct | 35371000087109 | Uses e-cigarette occasionally |
+| http://snomed.info/sct | 266919005 | Never smoked tobacco |
+| http://snomed.info/sct | 221000119102 | Never smoked any substance |
+| http://snomed.info/sct | 598111000000509 | Nicotine pouch (product) |
 
 ### Entwöhnungsversuche (Anzahl/Jahr)
 
@@ -1597,6 +1768,15 @@ Nicht erforderlich
 **Quellen:**
 - [Subjektiv – Selbst definierte Frage](Nicht anwendbar)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 33791000087105 | Identifies as nonbinary gender |
+| http://snomed.info/sct | 911581000124109 | Identifies as transgender woman |
+| http://snomed.info/sct | 911601000124109 | Identifies as transgender man |
+| http://snomed.info/sct | 551641000124102 | Identifies as cisgender |
+
 ### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
 #### Messinstrumente
@@ -1670,6 +1850,15 @@ Nicht erforderlich
 
 **Quellen:**
 - [Subjektiv – ISCED-Level](https://www.uis.unesco.org/en/methods-and-tools/isced)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 82589-3 | Highest level of education |
+| http://snomed.info/sct | 342271000000107 | Educated to primary level |
+| http://snomed.info/sct | 224297003 | Educated to secondary school level |
+| http://snomed.info/sct | 473461003 | Educated to high school level |
 
 ### Berufliche Situation / Einkommen
 
