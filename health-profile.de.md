@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.14-test | Generiert: 2026-09-22_
+_Version: 0.1.15-test | Generiert: 2026-09-22_
 
 ---
 
@@ -83,7 +83,6 @@ _Version: 0.1.14-test | Generiert: 2026-09-22_
   - [Einkommensverlust](#einkommensverlust)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
   - [Arbeitsausfalltage](#arbeitsausfalltage)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -1962,11 +1961,3 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - **Sunburst-Chart Status:** draft
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.14-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-09-22 | Theresa.Weitlaner |
