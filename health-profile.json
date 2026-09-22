@@ -1,8 +1,8 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T10:13:04.511271+00:00",
+  "generated": "2026-09-22T10:15:25.632986+00:00",
   "scope": "combined",
-  "commit": "74d19064e23a8f66648ca523dc68553fc0eb0eca",
+  "commit": "ed3d5a525d46b18861b2356364e725c56190e95a",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
@@ -6462,7 +6462,7 @@
                 "note": ""
               }
             ],
-            "discussion": "",
+            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
             "id_tech": "sleep-quality"
           },
           "en": {
@@ -6523,7 +6523,7 @@
                 "note": ""
               }
             ],
-            "discussion": "",
+            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
             "id_tech": "sleep-quality"
           },
           "observations": [
