@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.13-test | Generiert: 2026-09-21_
+_Version: 0.1.12-test | Generiert: 2026-09-22_
 
 ---
 
