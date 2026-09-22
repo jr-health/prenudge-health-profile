@@ -142,6 +142,44 @@ def _convert_md_tables(text, nested):
     return "\n".join(out)
 
 
+TABLE_BLOCK_DELIM_RE = re.compile(r"^(\|===|!===)$")
+
+
+def _apply_hardbreaks(text: str) -> str:
+    """Force a visible line break wherever the CMS text has one.
+
+    AsciiDoc (like Markdown) treats a single embedded newline as mere word-wrap -
+    it gets rendered as a plain space, not a line break - so a field like
+    "min: <18,5\\nmax: >= 40" collapses into a single run-on line in the
+    generated report. Appending " +" (AsciiDoc's explicit line break) to every
+    line that's followed by more text on the next line fixes that, without
+    touching genuine paragraph breaks (blank lines) which already render
+    correctly on their own.
+
+    Skips the inside of a |===/!=== table block (see _convert_md_tables) -
+    those lines are real table syntax, and an appended " +" would corrupt it
+    rather than land inside a cell's text.
+    """
+    lines = text.split("\n")
+    out = []
+    in_table = False
+    for idx, line in enumerate(lines):
+        stripped = line.strip()
+        if TABLE_BLOCK_DELIM_RE.match(stripped):
+            in_table = not in_table
+            out.append(line)
+            continue
+        if in_table or not stripped:
+            out.append(line)
+            continue
+        next_line = lines[idx + 1].strip() if idx + 1 < len(lines) else ""
+        if next_line and not TABLE_BLOCK_DELIM_RE.match(next_line):
+            out.append(line.rstrip() + " +")
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
 def md_richtext_to_adoc(text: str, nested: bool = False) -> str:
     """Rewrite Markdown images, ATX headings and pipe tables into AsciiDoc-safe equivalents."""
     if not text:
@@ -167,7 +205,8 @@ def md_richtext_to_adoc(text: str, nested: bool = False) -> str:
             alt = '"' + alt.replace('"', "'") + '"'
         return f"image:{url}[{alt}]"
 
-    return MD_IMAGE_RE.sub(image_repl, text)
+    text = MD_IMAGE_RE.sub(image_repl, text)
+    return _apply_hardbreaks(text)
 
 
 def anchor(text: str) -> str:
@@ -218,6 +257,7 @@ def main():
     )
     env.filters["anchor"] = anchor
     env.filters["md_adoc"] = md_richtext_to_adoc
+    env.filters["adoc_br"] = _apply_hardbreaks
 
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.adoc.j2")

@@ -105,23 +105,23 @@ a| {{ (instr.get('specific-questions') | md_adoc(true)) if instr.get('specific-q
 
 | *Einheit*
 {% set unit_val = instr.get('unit') %}
-| {{ (unit_val | replace('\n', ' ') | trim) if unit_val else '-' }}
+| {{ (unit_val | trim | adoc_br) if unit_val else '-' }}
 
 | *Datenformat*
 {% set data_format_val = instr.get('data-format') or instr.get('data_format') %}
-| {{ (data_format_val | replace('\n', ' ') | trim) if data_format_val else '-' }}
+| {{ (data_format_val | trim | adoc_br) if data_format_val else '-' }}
 
 | *Datentyp*
 | {{ instr.get('data-type') or '-' }}
 
 | *Wertebereich*
-| {{ instr.get('range-of-vales') or '-' }}
+| {{ (instr['range-of-vales'] | adoc_br) if instr.get('range-of-vales') else '-' }}
 
 | *Erfassungsfrequenz*
-| {{ instr.get('acquisition-frequency') or '-' }}
+| {{ (instr['acquisition-frequency'] | adoc_br) if instr.get('acquisition-frequency') else '-' }}
 
 | *Empfohlene Monitoringfrequenz*
-| {{ instr.get('recommended-monitoring-frequency') or '-' }}
+| {{ (instr['recommended-monitoring-frequency'] | adoc_br) if instr.get('recommended-monitoring-frequency') else '-' }}
 
 | *Spezifische Normen*
 a| {% set norm_texts = (instr.get('norms', []) | selectattr('specific-norm') | map(attribute='specific-norm') | map('md_adoc', true) | list) %}{% if norm_texts %}{{ norm_texts | join('\n\n') }}
