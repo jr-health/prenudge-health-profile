@@ -33,7 +33,7 @@
         "note": ""
       }
     ],
-    "discussion": "",
+    "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
     "id_tech": "sleep-quality"
   },
   "en": {
@@ -94,7 +94,7 @@
         "note": ""
       }
     ],
-    "discussion": "",
+    "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
     "id_tech": "sleep-quality"
   }
 }
