@@ -214,6 +214,7 @@
   .table-panel th { background: #f5f5f5; }
   .table-panel tbody tr { transition: background-color 0.12s; }
   .table-panel tbody tr:hover { background: #f5f5f5; }
+  .table-panel td div + div { margin-top: 0.5rem; }
 
   .table-pager {
     display: flex;
@@ -428,13 +429,13 @@
       <td><span class="swatch" style="background-color: #00a256;"></span>Alkohol</td>
       <td>Konsumhäufigkeit von Alkohol (Tage/Woche oder Getränke/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-alcoholuse-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html" target="_blank" rel="noopener">at-prenudge-alcoholuse-observation</a></div></td>
     </tr>
     <tr data-category="anthropometry" data-observation="body-mass-index" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometrie</td>
       <td>Body-Mass-Index (kg/m²)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-bmi-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html" target="_blank" rel="noopener">at-prenudge-bmi-observation</a></div></td>
     </tr>
     <tr data-category="anthropometry" data-observation="waist-circumference" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometrie</td>
@@ -470,7 +471,7 @@
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Gemüse- und Obstkonsum (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-nutrition-vegetableportions-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html" target="_blank" rel="noopener">at-prenudge-nutrition-vegetableportions-observation</a></div></td>
     </tr>
     <tr data-category="nutrition" data-observation="highly-processed-foods-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
@@ -506,19 +507,19 @@
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Zucker- und salzreiche Lebensmittel (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-nutrition-sugarsalty-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html" target="_blank" rel="noopener">at-prenudge-nutrition-sugarsalty-observation</a></div></td>
     </tr>
     <tr data-category="physical-activity" data-observation="moderate-vigorous-endurance-oriented-activity-minutes-week" data-scope="minimalset" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-physical-activity-minutes-observation</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html" target="_blank" rel="noopener">Questionnaire-EhisPaqPhysicalActivityQuestionnaire</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html" target="_blank" rel="noopener">at-prenudge-physical-activity-minutes-observation</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html" target="_blank" rel="noopener">EhisPaqPhysicalActivityQuestionnaire</a></div></td>
     </tr>
     <tr data-category="physical-activity" data-observation="everyday-activity-steps-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Alltagsaktivität (Schritte/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-stepcount-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html" target="_blank" rel="noopener">at-prenudge-stepcount-observation</a></div></td>
     </tr>
     <tr data-category="physical-activity" data-observation="light-everyday-physical-activity-minutes-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
@@ -536,13 +537,13 @@
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Muskelkräftigende Übungen (Einheiten/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-muscle-strengthening-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html" target="_blank" rel="noopener">at-prenudge-muscle-strengthening-observation</a></div></td>
     </tr>
     <tr data-category="physical-activity" data-observation="sitting-hours-per-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Sitzzeit (Stunden/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-sitting-hours-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html" target="_blank" rel="noopener">at-prenudge-sitting-hours-observation</a></div></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="potential-access-barriers" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
@@ -554,7 +555,7 @@
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über Stress</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-pss10-score-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html" target="_blank" rel="noopener">at-prenudge-pss10-score-observation</a></div></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
@@ -566,7 +567,7 @@
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über emotionale Belastung</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-whooley-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html" target="_blank" rel="noopener">at-prenudge-whooley-observation</a></div></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="fatigue-daily-energy-performance-capacity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
@@ -614,7 +615,7 @@
       <td><span class="swatch" style="background-color: #f8e4bf;"></span>Lebensqualität</td>
       <td>Lebensqualität (0-100 Score)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-whoqol-bref-score-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html" target="_blank" rel="noopener">at-prenudge-whoqol-bref-score-observation</a></div></td>
     </tr>
     <tr data-category="self-management" data-observation="health-literacy" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
@@ -674,13 +675,13 @@
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Schlafdauer (Stunden/Nacht)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-sleep-duration-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html" target="_blank" rel="noopener">at-prenudge-sleep-duration-observation</a></div></td>
     </tr>
     <tr data-category="sleep" data-observation="sleep-quality" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Selbstangegebene Einschätzung der Schlafqualität</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-sleep-quality-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html" target="_blank" rel="noopener">at-prenudge-sleep-quality-observation</a></div></td>
     </tr>
     <tr data-category="sleep" data-observation="time-taken-to-fall-asleep" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
@@ -704,7 +705,7 @@
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
       <td>Raucher:innenstatus (nie, ehemalig, aktuell)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-smokingstatus-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html" target="_blank" rel="noopener">at-prenudge-smokingstatus-observation</a></div></td>
     </tr>
     <tr data-category="smoking" data-observation="attempts-to-give-up" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
@@ -740,13 +741,13 @@
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Alter (Jahre)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">StructureDefinition-at-aps-patient</a></div></td>
+      <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">at-aps-patient</a></div></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="gender" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">StructureDefinition-at-aps-patient</a></div></td>
+      <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">at-aps-patient</a></div></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="housing-type" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
@@ -776,7 +777,7 @@
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Höchste abgeschlossene Schulbildung (ISCED-Level)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-education-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html" target="_blank" rel="noopener">at-prenudge-education-observation</a></div></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="employment-status-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
@@ -806,7 +807,7 @@
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Arbeit</td>
       <td>Arbeitsfähigkeit (Score)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
-      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html" target="_blank" rel="noopener">StructureDefinition-at-prenudge-work-soc-score-observation</a></div></td>
+      <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html" target="_blank" rel="noopener">at-prenudge-work-soc-score-observation</a></div></td>
     </tr>
     <tr data-category="work" data-observation="work-absence-days" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Arbeit</td>

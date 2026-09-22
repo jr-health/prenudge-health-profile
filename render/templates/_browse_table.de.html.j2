@@ -35,7 +35,12 @@
       <td><span class="swatch" style="background-color: {{ c.color | default('#cccccc') }};"></span>{{ c.title | default(cat.en.title) }}</td>
       <td>{{ o.title | default(obs.en.title) }}</td>
       <td>{% for st in ns.source_types %}<div>{{ st }}</div>{% endfor %}</td>
-      <td>{% for link in ns.fhir_links %}<div><a href="{{ link }}" target="_blank" rel="noopener">{{ link.split('/')[-1] | replace('.html', '') }}</a></div>{% endfor %}</td>
+      <td>{% for link in ns.fhir_links %}
+{% set name = link.split('/')[-1] | replace('.html', '') %}
+{% if name.startswith('StructureDefinition-') %}{% set name = name[20:] %}{% endif %}
+{% if name.startswith('Questionnaire-') %}{% set name = name[14:] %}{% endif %}
+<div><a href="{{ link }}" target="_blank" rel="noopener">{{ name }}</a></div>
+{%- endfor %}</td>
     </tr>
 {% endfor %}
 {% endfor %}
