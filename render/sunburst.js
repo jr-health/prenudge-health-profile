@@ -31,6 +31,8 @@ let currentLocale = embedLocale || "de";
 let labelSel;          // D3 selection — updated on locale switch
 let focusNode;         // currently focused node — for center label update
 let centerCircle;      // D3 selection — recolored to the focused category
+let ringTitleSel;      // D3 selection — updated on locale switch and zoom
+let currentMaxDepth;   // root.height of the last render — ring-title row count
 
 // ── i18n strings ──────────────────────────────────────────────────────────
 
@@ -44,6 +46,47 @@ const I18N = {
     back:  "← back",
   },
 };
+
+// ring-level axis titles, curved along the top (12 o'clock) of each ring —
+// one per semantic depth (1 = Category, matching hierarchy depth). Same
+// wording as the browse table's column headers (render/templates/
+// _browse_table.{de,en}.html.j2), for consistency.
+const LEVEL_LABELS = {
+  de: ["Kategorie", "Gesundheitsindikator", "Messinstrument"],
+  en: ["Category", "Health Indicator", "Measurement Instrument"],
+};
+
+// half the angular span (radians) the label's arc may curve across — same
+// for every ring, so wider outer rings give the text more linear room
+// (arc length = r * RING_TITLE_HALF_ANGLE * 2) than the tight inner ring,
+// where long labels fall back to truncation.
+const RING_TITLE_HALF_ANGLE = 0.5;
+
+// centered on 11 o'clock rather than 12 — at RING_TITLE_RADIAL_BIAS 1 the
+// outermost title sits exactly on the chart's outer edge, and at 12 o'clock
+// that point touches the (square) SVG viewBox with zero clearance, clipping
+// the text; off-center, the nearest viewBox edge is comfortably farther away.
+const RING_TITLE_CENTER_ANGLE = -Math.PI / 6;
+
+// endpoints of a ring-title's arc at radius r — same clockwise-from-12
+// convention as labelXY/iconCenter (angle - PI/2 feeds cos/sin directly).
+function ringTitleArcPath(r) {
+  const a0 = RING_TITLE_CENTER_ANGLE - RING_TITLE_HALF_ANGLE - Math.PI / 2;
+  const a1 = RING_TITLE_CENTER_ANGLE + RING_TITLE_HALF_ANGLE - Math.PI / 2;
+  const x0 = Math.cos(a0) * r, y0 = Math.sin(a0) * r;
+  const x1 = Math.cos(a1) * r, y1 = Math.sin(a1) * r;
+  return `M${x0},${y0} A${r},${r} 0 0 1 ${x1},${y1}`;
+}
+
+// fraction from a ring's inner (0) to outer (1) edge where its title sits —
+// biased toward the outer edge, away from the ring's own wedge labels
+// (positioned near the centroid by labelXY/arcGen.centroid, see below), so
+// the two stop competing for the same space.
+const RING_TITLE_RADIAL_BIAS = 1;
+
+function ringTitleRadius(depth, focus) {
+  return radiusAt(Math.max(depth - focus.depth, 0) + RING_TITLE_RADIAL_BIAS);
+}
 
 // shown in the center hub at the root — replaces the "PreNUDGE Health Profile"
 // text label with the actual logo.
@@ -221,6 +264,47 @@ function updateLabelText(selection, geomKey) {
   });
 }
 
+// fades each ring-title in/out and re-curves its arc path against the
+// ring's *current* radius — d.r is the mutable per-datum radius (mirrors
+// the d.current pattern the arcs/labels already use), tweened smoothly
+// across a zoom transition via attrTween since an SVG path's "d" can't be
+// interpolated directly. Only ever called with a transition (the zoom
+// click handler) — the initial/locale-switch render sets "d" directly
+// instead, since attrTween only applies to transitions. onSettled, if
+// given, runs once the radius tween finishes (re-fit the text — see
+// updateRingTitleText); chained onto this same transition rather than a
+// second .transition(t) on the same elements, which would compete with
+// this one instead of sharing its schedule.
+function updateRingTitleGeometry(sel, focus, onSettled) {
+  sel.attr("opacity", d => (d.depth - focus.depth >= 1 ? 1 : 0));
+  const pathSel = sel.select(".ring-title-path")
+    .attrTween("d", function(d) {
+      const target = ringTitleRadius(d.depth, focus);
+      const interpolateR = d3.interpolate(d.r, target);
+      return t => {
+        d.r = interpolateR(t);
+        return ringTitleArcPath(d.r);
+      };
+    });
+  if (onSettled) pathSel.on("end", onSettled);
+}
+
+// re-fits each ring-title's curved text against its *current* arc length —
+// called once per render/locale-switch and again after a zoom's radius
+// settles (its available arc length can shrink or grow a lot when a level
+// moves between an inner and outer ring), not on every animation frame,
+// since re-measuring text via getComputedTextLength() mid-tween would be
+// wasted work the eye can't follow anyway.
+function updateRingTitleText(sel) {
+  const labels = LEVEL_LABELS[currentLocale] || LEVEL_LABELS.de;
+  sel.each(function(d) {
+    const textPath = d3.select(this).select("textPath");
+    const arcLength = Math.max(0, d.r * RING_TITLE_HALF_ANGLE * 2 - 12);
+    const measure = text => { textPath.text(text); return textPath.node().getComputedTextLength(); };
+    textPath.text(truncateToWidth(labels[d.depth - 1] || "", arcLength, measure));
+  });
+}
+
 function breadcrumb(d) {
   return d.ancestors()
     .filter(a => a.depth > 0)
@@ -307,6 +391,11 @@ function switchLocale(locale) {
 
   // update center label
   if (focusNode !== undefined) setCenterLabel(focusNode);
+
+  // update ring titles (text changed — re-fit against the current arcs)
+  if (ringTitleSel) {
+    updateRingTitleText(ringTitleSel);
+  }
 }
 
 // ── center label ──────────────────────────────────────────────────────────
@@ -481,6 +570,33 @@ function renderSunburst(profile) {
 
   setCenterLabel(root);
 
+  // ── ring-level axis titles ───────────────────────────────────────────
+  // curved along the top of each ring, on top of the wedge color — a white
+  // text halo (CSS paint-order/stroke) keeps them legible over any color.
+
+  currentMaxDepth = root.height;
+
+  const ringTitleData = d3.range(1, currentMaxDepth + 1)
+    .map(depth => ({ depth, r: ringTitleRadius(depth, root) }));
+
+  const ringTitleG = svg.append("g").attr("class", "ring-titles");
+  ringTitleSel = ringTitleG.selectAll("g.ring-title")
+    .data(ringTitleData, d => d.depth)
+    .join(enter => {
+      const g = enter.append("g").attr("class", "ring-title");
+      g.append("path").attr("class", "ring-title-path").attr("id", d => `ring-title-path-${d.depth}`);
+      g.append("text").attr("class", "ring-title-text").attr("dy", "0.32em")
+        .append("textPath")
+          .attr("href", d => `#ring-title-path-${d.depth}`)
+          .attr("startOffset", "50%")
+          .attr("text-anchor", "middle");
+      return g;
+    });
+
+  ringTitleSel.attr("opacity", d => (d.depth - root.depth >= 1 ? 1 : 0));
+  ringTitleSel.select(".ring-title-path").attr("d", d => ringTitleArcPath(d.r));
+  updateRingTitleText(ringTitleSel);
+
   // ── tooltip ───────────────────────────────────────────────────────────
 
   const tooltip = d3.select("#tooltip");
@@ -545,10 +661,165 @@ function renderSunburst(profile) {
       .attrTween("x", d => () => iconCenter(d.current, arc).x - ICON_SIZE / 2)
       .attrTween("y", d => () => iconCenter(d.current, arc).y - ICON_SIZE / 2);
 
+    updateRingTitleGeometry(ringTitleSel.transition(t), p, () => updateRingTitleText(ringTitleSel));
+
     setCenterLabel(p);
     dispatchSelect(p);
   }
 
+}
+
+// ── PNG export ──────────────────────────────────────────────────────────
+// exports the current view (zoom depth, scope, locale — whatever's on
+// screen right now) as a flat PNG: rasterizes the live <svg id="chart"> via
+// an offscreen <canvas>, then redraws the HTML #center overlay (icon/title/
+// hint — a CSS-positioned sibling <div>, not part of the SVG) on top by
+// hand. A <foreignObject> would be the obvious way to fold that overlay
+// into the SVG before rasterizing, and it briefly was implemented that way,
+// but Chrome taints the canvas for *any* SVG-to-image draw whose source SVG
+// contains a foreignObject, even once every resource inside it is inlined
+// — there's no way to read the pixels back out afterwards. Redrawing by
+// hand avoids that entirely, at the cost of only approximating (not
+// pixel-matching) the live DOM's text layout — good enough for a title/hint
+// that's usually one or two short words.
+
+// converts a same-origin image URL to a data: URL so the rasterized SVG
+// doesn't depend on loading external files at draw time — avoids canvas
+// tainting and load-order races with the synchronous draw below.
+function toDataURL(url) {
+  return fetch(url)
+    .then(r => r.blob())
+    .then(blob => new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload  = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    }));
+}
+
+// inlines every SVG <image>/HTML <img> found under root as a data: URL, in place.
+async function inlineImages(root) {
+  const nodes = [...root.querySelectorAll("image"), ...root.querySelectorAll("img")];
+  await Promise.all(nodes.map(async el => {
+    const attr = el.tagName.toLowerCase() === "img" ? "src" : "href";
+    const url  = el.getAttribute(attr);
+    if (!url || url.startsWith("data:")) return;
+    try {
+      el.setAttribute(attr, await toDataURL(url));
+    } catch (err) {
+      console.error("PNG export: failed to inline image", url, err);
+    }
+  }));
+}
+
+// redraws the #center overlay (icon/title/hint) onto ctx by hand, in place
+// of the foreignObject that would otherwise taint the canvas (see above).
+// toCanvas() maps a point in *live page* CSS-pixel space (from
+// getBoundingClientRect(), same coordinate space the browser already laid
+// the overlay out in) to canvas-pixel space, so this lines up whether the
+// chart is the large standalone page or the smaller embedded panel.
+function drawCenterOverlay(ctx, canvas) {
+  const svgEl    = document.getElementById("chart");
+  const centerEl = document.getElementById("center");
+  const titleEl  = document.getElementById("center-title");
+  const hintEl   = document.getElementById("center-hint");
+  const iconEl   = document.getElementById("center-icon");
+  if (!svgEl || !centerEl) return;
+
+  const svgRect = svgEl.getBoundingClientRect();
+  const k       = canvas.width / svgRect.width; // canvas px per live CSS px
+  const originX = svgRect.left + svgRect.width  / 2;
+  const originY = svgRect.top  + svgRect.height / 2;
+  const toCanvas = (clientX, clientY) => ({
+    x: canvas.width  / 2 + (clientX - originX) * k,
+    y: canvas.height / 2 + (clientY - originY) * k,
+  });
+
+  if (iconEl && iconEl.style.display !== "none" && iconEl.complete && iconEl.naturalWidth) {
+    const r  = iconEl.getBoundingClientRect();
+    const tl = toCanvas(r.left, r.top);
+    ctx.drawImage(iconEl, tl.x, tl.y, r.width * k, r.height * k);
+  }
+
+  const isTinted = centerEl.classList.contains("center-tinted");
+
+  const drawText = (el, color) => {
+    const text = el && el.textContent.trim();
+    if (!el || !text) return;
+    const style  = getComputedStyle(el);
+    const fontPx = parseFloat(style.fontSize) * k;
+    ctx.font         = `${style.fontWeight} ${fontPx}px ${style.fontFamily}`;
+    ctx.fillStyle    = color;
+    ctx.textAlign    = "center";
+    ctx.textBaseline = "alphabetic";
+
+    const r          = el.getBoundingClientRect();
+    const top        = toCanvas(r.left + r.width / 2, r.top);
+    const maxWidth   = r.width * k;
+    const lines      = layoutLines(text, maxWidth, MAX_LABEL_LINES, t => ctx.measureText(t).width);
+    const lineHeight = fontPx * LINE_HEIGHT_EM;
+    lines.forEach((line, i) => ctx.fillText(line, top.x, top.y + (i + 0.8) * lineHeight));
+  };
+
+  drawText(titleEl, isTinted ? "#ffffff" : "#222222");
+  drawText(hintEl,  isTinted ? "rgba(255,255,255,0.85)" : "#bbbbbb");
+}
+
+const PNG_EXPORT_SCALE = 2; // rasterize at 2x SIZE for a crisp download
+
+async function exportChartPNG() {
+  const svgEl = document.getElementById("chart");
+  if (!svgEl) return;
+
+  const clone = svgEl.cloneNode(true);
+  clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+  // .arc-label/.ring-title-text don't set their own font-family, relying on
+  // inheriting the page's `body { font-family: Verdana, ... }` — which a
+  // standalone SVG document has no <body> to match, so without this it
+  // silently falls back to the browser's default (serif) font.
+  clone.setAttribute("font-family", "Verdana, Geneva, sans-serif");
+
+  // classed styles (.arc path, .arc-label, .ring-title-text, ...) live in
+  // the page's <style> block, which a standalone serialized SVG can't see —
+  // embed it directly so the export doesn't fall back to unstyled shapes.
+  const styleEl = document.createElementNS(SVG_NS, "style");
+  styleEl.textContent = Array.from(document.querySelectorAll("style")).map(s => s.textContent).join("\n");
+  clone.insertBefore(styleEl, clone.firstChild);
+
+  await inlineImages(clone);
+
+  const svgString = new XMLSerializer().serializeToString(clone);
+  const svgUrl    = URL.createObjectURL(new Blob([svgString], { type: "image/svg+xml;charset=utf-8" }));
+
+  const img = new Image();
+  img.src = svgUrl;
+  await img.decode();
+
+  const canvas = document.createElement("canvas");
+  canvas.width  = SIZE * PNG_EXPORT_SCALE;
+  canvas.height = SIZE * PNG_EXPORT_SCALE;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#ffffff"; // canvas is transparent by default; the page behind it isn't
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+  URL.revokeObjectURL(svgUrl);
+
+  drawCenterOverlay(ctx, canvas);
+
+  canvas.toBlob(blob => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `prenudge-health-profile-sunburst-${currentLocale}.png`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }, "image/png");
+}
+
+const downloadPngBtn = document.getElementById("btn-download-png");
+if (downloadPngBtn) {
+  downloadPngBtn.addEventListener("click", () => {
+    exportChartPNG().catch(err => console.error("PNG export failed", err));
+  });
 }
 
 d3.json(profileSrc).then(profile => {

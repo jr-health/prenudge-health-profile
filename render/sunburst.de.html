@@ -163,6 +163,13 @@
   .arc path { stroke: white; stroke-width: 1px; transition: opacity 0.15s; cursor: pointer; }
   .arc path:hover { opacity: 0.8; }
   .arc-label { font-size: 11px; fill: #333; pointer-events: none; user-select: none; }
+  .ring-title { pointer-events: none; }
+  .ring-title-path { fill: none; stroke: none; }
+  .ring-title-text {
+    font-size: 10px; font-weight: 600; fill: #444; letter-spacing: 0.02em; user-select: none;
+    paint-order: stroke;
+    stroke: rgba(255,255,255,0.9); stroke-width: 3px; stroke-linejoin: round;
+  }
   #center {
     position: absolute;
     top: 50%; left: 50%;
@@ -310,6 +317,23 @@
   .scope-switch button:hover { color: #004E64; }
   .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
   .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  .toolbar-spacer { flex: 1 1 auto; }
+  .toolbar-btn {
+    font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #004E64;
+    background: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .toolbar-btn:hover { border-color: #004E64; background: #eef5f7; }
+  .toolbar-btn:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
   #chart-empty {
     margin: 2rem 0;
     font-size: 0.85rem;
@@ -412,6 +436,8 @@
     <button type="button" data-scope="minimalset" aria-pressed="true">Minimalset</button>
     <button type="button" data-scope="extended" aria-pressed="false">Erweitert</button>
   </div>
+  <span class="toolbar-spacer"></span>
+  <button type="button" id="btn-download-png" class="toolbar-btn">⭳ PNG herunterladen</button>
 </div>
 <p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
 <div class="panel sunburst-panel sunburst-standalone">
