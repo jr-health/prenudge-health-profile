@@ -1,8 +1,8 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T09:47:35.842314+00:00",
+  "generated": "2026-09-22T09:49:22.677653+00:00",
   "scope": "combined",
-  "commit": "1b7524a62868a96d481fa86883004006ef73b0c1",
+  "commit": "f61bacb1cf517e8349a6ad3b6984d9742cea3c53",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
@@ -3507,11 +3507,9 @@
                 "key": "sitting-hours-per-day",
                 "dataset-scope": "Minimalset",
                 "title": "Sitzzeit (Stunden/Tag)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\nDefinition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
                 "category": "physical-activity",
                 "dimension": "sitting",
-                "population": "erwachsene Allgemeinbevölkerung",
-                "disease-association": [],
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\nDefinition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
                 "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
                 "verified-health-links": [
                   {
@@ -3539,6 +3537,8 @@
                     "note": ""
                   }
                 ],
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -3574,7 +3574,7 @@
                         "display": "Sedentary lifestyle (finding)"
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -3618,11 +3618,9 @@
                 "key": "sitting-hours-per-day",
                 "dataset-scope": "Minimalset",
                 "title": "Sitting time (hours/day)",
-                "description": "",
                 "category": "physical-activity",
                 "dimension": "sitting",
-                "population": "",
-                "disease-association": [],
+                "description": "",
                 "citizen-info": "",
                 "verified-health-links": [
                   {
@@ -3650,6 +3648,8 @@
                     "note": ""
                   }
                 ],
+                "population": "",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -3679,7 +3679,7 @@
                         "display": ""
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",

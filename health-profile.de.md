@@ -851,7 +851,7 @@ Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen ge
 max: 24 Stunden
 - **Erfassungsfrequenz:** alle 6 Monate
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
