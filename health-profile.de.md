@@ -790,7 +790,7 @@ Laienhafte Information:
 - **Wertebereich:** nicht zutreffend
 - **Erfassungsfrequenz:** 2x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqMuscleStrengtheningQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

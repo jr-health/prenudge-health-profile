@@ -464,7 +464,7 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - **Range of Values:** nicht zutreffend
 - **Acquisition Frequency:** 2x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqMuscleStrengtheningQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
