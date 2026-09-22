@@ -1294,5 +1294,5 @@ _Changes since version v0.1.12-test:_
 
 | Date | Author |
 |---|---|
-| 2026-09-22 | Theresa Weitlaner |
 | 2026-09-22 | Theresa.Weitlaner |
+| 2026-09-22 | Theresa Weitlaner |
