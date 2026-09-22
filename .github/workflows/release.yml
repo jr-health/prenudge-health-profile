@@ -1,19 +1,29 @@
 name: Release
 
-# Runs on version tags (vX.Y.Z), or manually via workflow_dispatch with
-# an explicit version input (creates/updates that tag + release too -
-# not a dry run). Builds health-profile.json, the Markdown reports, and
-# Word exports (via AsciiDoc -> DocBook -> Pandoc), then publishes them
-# as a GitHub Release. Does not commit anything back to the repo - see
-# doc/github-actions-plan.md, Design-Entscheidung 4.
+# Runs manually via workflow_dispatch with an explicit version input (creates
+# the tag + release - not a dry run). Builds health-profile.json, the
+# Markdown reports, and Word exports (via AsciiDoc -> DocBook -> Pandoc),
+# commits the regenerated health-profile.json/browse/sunburst views to main,
+# then tags that commit and publishes a GitHub Release from it.
+#
+# workflow_dispatch-only, no `push: tags:` trigger - direct tag pushes used
+# to also create a release, but the tag would point at whatever commit was
+# on main at push time, which predates this run's regen commit. pages.yml
+# pins the live sunburst/browse pages to the release tag's commit, so any
+# such release would ship with a browse/sunburst page one version behind
+# Explore. Committing the regen and THEN tagging (this workflow, in order)
+# is what keeps them in sync - see doc/release.md.
+#
+# This workflow now commits health-profile.json and render/browse|sunburst.*.html
+# to main (the same files update-profile.yml commits) as part of a release run -
+# see the addendum after doc/github-actions-plan.md, Design-Entscheidung 5. It
+# still never commits the dated .md/.docx report exports - those remain
+# release-only assets, never repo content.
 on:
-  push:
-    tags:
-      - 'v*.*.*'
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version without leading v, e.g. 0.1.0 (creates/updates this tag + release)'
+        description: 'Version without leading v, e.g. 0.1.0 (creates this tag + release)'
         required: true
 
 permissions:
@@ -47,20 +57,17 @@ jobs:
       - name: Determine version
         id: version
         run: |
-          if [ -n "${{ github.event.inputs.version }}" ]; then
-            # Strip a leading "v" defensively even though the input description says
-            # not to include one - a workflow_dispatch run with "v0.1.8-test" typed in
-            # once produced a "vv0.1.8-test" tag (tag_name below re-adds "v"), which
-            # then out-sorted every properly-formed tag in scripts/tools that pick the
-            # "latest" version by lexical tag sort.
-            INPUT="${{ github.event.inputs.version }}"
-            echo "value=${INPUT#v}" >> $GITHUB_OUTPUT
-          else
-            TAG="${GITHUB_REF_NAME}"
-            echo "value=${TAG#v}" >> $GITHUB_OUTPUT
-          fi
-          # Date of the released commit, not the build time - so re-running/re-tagging
-          # later doesn't silently shift the date shown in the reports.
+          # Strip a leading "v" defensively even though the input description says
+          # not to include one - a workflow_dispatch run with "v0.1.8-test" typed in
+          # once produced a "vv0.1.8-test" tag (tag_name below re-adds "v"), which
+          # then out-sorted every properly-formed tag in scripts/tools that pick the
+          # "latest" version by lexical tag sort.
+          INPUT="${{ github.event.inputs.version }}"
+          echo "value=${INPUT#v}" >> $GITHUB_OUTPUT
+          # Date of the commit checked out at the start of this run, not the build
+          # time and not the regen commit made later in this same run - so re-running
+          # this workflow for the same version on a later day doesn't shift the date
+          # shown in the reports.
           echo "generated=$(git log -1 --format=%ad --date=short)" >> $GITHUB_OUTPUT
 
       - name: Validate references
@@ -68,6 +75,31 @@ jobs:
 
       - name: Consolidate JSON
         run: python scripts/consolidate.py --version ${{ steps.version.outputs.value }}
+
+      - name: Render browse/sunburst views
+        run: python scripts/render_html.py
+
+      # Commits the just-regenerated health-profile.json and render/browse|sunburst
+      # views to main BEFORE the tag is created below, so the tag - and therefore
+      # the pages.yml build pinned to it - points at a commit that already carries
+      # this version's browse/sunburst pages instead of the previous release's.
+      - name: Commit regenerated files to main
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add health-profile.json render/browse.de.html render/browse.en.html render/sunburst.de.html render/sunburst.en.html
+          if git diff --staged --quiet; then
+            echo "Nothing changed, skipping commit."
+          else
+            git commit -m "chore: regenerate health profile v${{ steps.version.outputs.value }}"
+            git push
+          fi
+          # Read back after the (possibly skipped) commit, and pass explicitly as
+          # target_commitish below - softprops/action-gh-release's default target
+          # is documented as "SHA of current commit" (i.e. the pre-regen checkout),
+          # which would silently undo the fix this step exists for.
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Render Markdown reports
         run: python scripts/render_doc.py --version ${{ steps.version.outputs.value }} --generated ${{ steps.version.outputs.generated }}
@@ -137,6 +169,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.value }}
+          target_commitish: ${{ steps.commit.outputs.sha }}
           files: |
             health-profile.json
             health-profile-v${{ steps.version.outputs.value }}-${{ steps.version.outputs.generated }}.de.md
