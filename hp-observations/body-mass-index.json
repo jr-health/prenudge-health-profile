@@ -4,11 +4,9 @@
     "key": "body-mass-index",
     "dataset-scope": "Minimalset",
     "title": "Body-Mass-Index (kg/m²)",
-    "description": "Empfehlung: Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.\nDieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.\nDefinition:\n„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):\nKörpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\nEmpfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\nIn Kategorien:\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
     "category": "anthropometry",
     "dimension": "heigth-weight",
-    "population": "erwachsene Allgemeinbevölkerung",
-    "disease-association": [],
+    "description": "Empfehlung: Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.\nDieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.\nDefinition:\n„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):\nKörpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\nEmpfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\nIn Kategorien:\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
     "citizen-info": "Laienhafte Information: „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):\nGewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
     "verified-health-links": [
       {
@@ -18,6 +16,8 @@
         "note": ""
       }
     ],
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -90,18 +90,16 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragen (Selbstangaben)"
+    "discussion": "Fragen (Selbstangaben)\n\nIm FHIR haben wir BMI auch als Wearable. --> Ergänzen?"
   },
   "en": {
     "template": "observation",
     "key": "body-mass-index",
     "dataset-scope": "Minimalset",
     "title": "Body-Mass-Index (kg/m²)",
-    "description": "",
     "category": "anthropometry",
     "dimension": "heigth-weight",
-    "population": "",
-    "disease-association": [],
+    "description": "",
     "citizen-info": "",
     "verified-health-links": [
       {
@@ -111,6 +109,8 @@
         "note": ""
       }
     ],
+    "population": "",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -124,6 +124,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "nicht zutreffend"
           }
         ],
@@ -176,6 +177,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragen (Selbstangaben)"
+    "discussion": "Fragen (Selbstangaben)\n\nIm FHIR haben wir BMI auch als Wearable. --> Ergänzen?"
   }
 }
