@@ -1,11 +1,15 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T09:32:39.507119+00:00",
+  "generated": "2026-09-22T09:45:59.875559+00:00",
   "scope": "combined",
-  "commit": "6306488913fd27c6e46bc18083c2cbd8a6c7fae3",
+  "commit": "9259c27ea452e8d81925ac45ce63bdf58a0ac13d",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
+      {
+        "date": "2026-09-22",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-09-22",
         "author": "Theresa.Weitlaner"
@@ -2799,11 +2803,9 @@
                 "key": "everyday-activity-steps-day",
                 "dataset-scope": "Minimalset",
                 "title": "Alltagsaktivität (Schritte/Tag)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\nDefinition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
                 "category": "physical-activity",
                 "dimension": "everyday-activity",
-                "population": "erwachsene Allgemeinbevölkerung",
-                "disease-association": [],
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\nDefinition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
                 "citizen-info": "Laienhafte Information:\n„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
                 "verified-health-links": [
                   {
@@ -2825,6 +2827,8 @@
                     "note": ""
                   }
                 ],
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -2855,7 +2859,7 @@
                         "display": "Number of steps in 24 hour, Measured"
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-StepCountEhisPaqQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -2899,11 +2903,9 @@
                 "key": "everyday-activity-steps-day",
                 "dataset-scope": "Minimalset",
                 "title": "Everyday activity (steps/day)",
-                "description": "",
                 "category": "physical-activity",
                 "dimension": "everyday-activity",
-                "population": "",
-                "disease-association": [],
+                "description": "",
                 "citizen-info": "",
                 "verified-health-links": [
                   {
@@ -2925,6 +2927,8 @@
                     "note": ""
                   }
                 ],
+                "population": "",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -2949,7 +2953,7 @@
                         "display": ""
                       }
                     ],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-StepCountEhisPaqQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",

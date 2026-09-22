@@ -702,7 +702,7 @@ min: 0
 max: 7
 - **Erfassungsfrequenz:** 2x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: täglich
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-StepCountEhisPaqQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -1779,4 +1779,5 @@ _Änderungen seit Version v0.1.12-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-09-22 | Theresa Weitlaner |
 | 2026-09-22 | Theresa.Weitlaner |
