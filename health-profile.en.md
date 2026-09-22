@@ -821,6 +821,7 @@ max: 24
 Muss mindestens 7 Tage getragen werden;
 davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)
 - **Recommended Monitoring Frequency:** je länger desto besser >=10 Tage
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

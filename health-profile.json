@@ -1,8 +1,8 @@
 {
   "version": "0.1.12-test",
-  "generated": "2026-09-22T09:54:30.796348+00:00",
+  "generated": "2026-09-22T10:13:04.511271+00:00",
   "scope": "combined",
-  "commit": "0e4eda5943cbcf20e2e36e14b17738848733a285",
+  "commit": "74d19064e23a8f66648ca523dc68553fc0eb0eca",
   "activity": {
     "since": "v0.1.12-test",
     "entries": [
@@ -6654,7 +6654,7 @@
                     "scoring-algorithm": "nicht zutreffend",
                     "sources": [],
                     "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -6777,7 +6777,7 @@
                     "norms": [],
                     "sources": [],
                     "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
