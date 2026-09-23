@@ -84,7 +84,7 @@ Jeder Renderer liest die Roh-JSONs selbst. Für den Sunburst bedeutet das viele 
 
 Das `health-profile.json` wird mit Semantic Versioning versioniert. Die Version wird beim Generieren per `--version`-Argument übergeben und ist im JSON-Output unter `"version"` sichtbar.
 
-Releases werden als **Git Tags** (`v1.2.0`) auf Gitea angelegt. Gitea erzeugt daraus automatisch einen Download-Link für das JSON-Artefakt. Der Release-Prozess ist in `doc/release.md` beschrieben.
+Releases werden als **Git Tags** (`v1.2.0`) angelegt. *(Historischer Stand: ursprünglich auf Gitea, per direktem Tag-Push. Nach der Migration auf GitHub läuft das über `release.yml` per `workflow_dispatch`, nicht mehr per Tag-Push — siehe `doc/release.md` für den aktuellen Prozess.)*
 
 ### SemVer-Definition für Health Profile Metadata
 

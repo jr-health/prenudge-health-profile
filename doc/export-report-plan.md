@@ -55,21 +55,28 @@ verlinken.
 ## Bekannte Risiken/Beobachtungen (aus Phase 2/4, zu prüfen sobald genug echte Daten vorliegen)
 
 - **Rich-Text-Syntax-Mismatch zwischen Markdown und AsciiDoc (Schritt 16):**
-  CMS-Rich-Text-Felder liefern Markdown-artigen Inhalt (`[text](url)`-Links, `- `-Listen).
-  Das passt direkt für die `.md.j2`-Reports, aber AsciiDoc nutzt andere Syntax
-  (`link:url[text]`, `* item`). Reiner Fettdruck (`**text**`) ist in beiden Formaten gültig
-  und unproblematisch — Links/Listen innerhalb von Rich-Text-Feldern sind aber ein reales
-  Risiko für falsch gerendertes AsciiDoc/Word-Dokument (rohe Markdown-Syntax landet
-  unverändert im Export, statt als Link/Liste interpretiert zu werden). Noch nicht gegen
-  echten Rich-Text-Inhalt mit Links/Listen getestet.
-- **`terminology-codes`-Ebenen-Mismatch (siehe „Offene Punkte" in
-  `doc/github-actions-plan.md`):** Laut aktuellem `admin/config.yml` dem Messinstrument
-  zugeordnet, in bestehenden JSON-Daten aber weiterhin auf Observation-Ebene abgelegt. Alle
-  Templates (Markdown **und** AsciiDoc) lesen bewusst von der Observation-Ebene, um
-  bestehende Inhalte nicht unsichtbar zu machen — bei neuen, über das aktuelle CMS
-  gepflegten Einträgen mit Codes auf Messinstrument-Ebene würde das in **allen**
-  Export-Formaten **fehlen**. Zu prüfen, sobald ein neuer Eintrag mit echten
-  `terminology-codes` über das CMS angelegt wird.
+  CMS-Rich-Text-Felder liefern Markdown-artigen Inhalt (Bilder, ATX-Überschriften,
+  Pipe-Tabellen, `[text](url)`-Links, `- `-Listen). Das passt direkt für die `.md.j2`-Reports,
+  aber AsciiDoc nutzt andere Syntax. **Teilweise behoben** (Commit `93072f0`, 2026-09-02, neuer
+  `md_adoc`-Filter/`md_richtext_to_adoc()` in `scripts/render_adoc.py`): Bilder
+  (`![alt](url)` → `image:url[alt]`), ATX-Überschriften (in einen Sentinel-umschlossenen
+  fetten Absatz umgeschrieben, per `scripts/style_inline_headings.py` nachträglich gestylt)
+  und Markdown-Pipe-Tabellen (auch verschachtelt in Messinstrument-Tabellenzellen → echte
+  AsciiDoc `|===`-Tabelle) werden jetzt korrekt konvertiert. Zusätzlich behoben (Commit
+  `8114d08`, 2026-09-22): eingebettete Zeilenumbrüche in Fließtext/Feldern (z. B.
+  „min: <18,5\nmax: >= 40") wurden von AsciiDoc bisher zu einer Zeile zusammengezogen — ein
+  neuer `adoc_br`-Filter fügt jetzt explizite AsciiDoc-Zeilenumbrüche (`" +"`) ein.
+  **Weiterhin offen:** `md_richtext_to_adoc()` konvertiert **keine** Markdown-Links
+  (`[text](url)`) oder Bullet-Listen (`- item`) — diese beiden bleiben ein reales Risiko für
+  falsch gerendertes AsciiDoc/Word (rohe Markdown-Syntax landet unverändert im Export). Noch
+  nicht gegen echten Rich-Text-Inhalt mit Links/Listen getestet.
+- **`terminology-codes`-Ebenen-Mismatch — behoben (Commit `6caf017`, 2026-09-22):** Die
+  Templates lasen die Codes bisher von der Observation-Ebene statt vom Messinstrument, wo sie
+  laut `admin/config.yml` tatsächlich liegen — dadurch fehlten sie fast überall, und wo doch
+  etwas erschien, zeigte jedes Messinstrument einer Observation dieselbe (falsche) Liste. Fix
+  verschiebt den Lookup in die Pro-Instrument-Schleife und liest `instr['terminology-codes']`
+  direkt; die Reports zeigen jetzt Codes für alle 21 betroffenen Messinstrument-Einträge statt
+  nur 1.
 - **`qualification`/`app-providers` nicht gerendert:** Felder pro Messinstrument in
   `admin/config.yml`, aber in keinem Report-Template (Markdown, AsciiDoc) berücksichtigt.
   Fachlich zu klären, ob das gewünscht ist — falls ja, Templates entsprechend erweitern.
@@ -77,9 +84,14 @@ verlinken.
   `render/templates/PräNUDGE Berichtsvorlage.docx` wurde manuell in die `.docx`-Vorlage
   gepatcht (geklont von `Table Grid`). **Update 2026-08-27:** Style um `firstRow` (fett),
   `band1Horz`/`band2Horz` (abwechselnd hellgrau/weiß), hellgraue Rahmenfarbe und
-  `tblCellMar` (mehr Zeilenabstand) erweitert (siehe "Word-Export-Überarbeitung" unten). Bei
-  mehreren/größeren Tabellen (z. B. viele Messinstrumente mit vielen `terminology-codes`)
-  weiterhin nicht in der Breite getestet — nur gegen dieselben dünnen Testdaten wie zuvor.
+  `tblCellMar` (mehr Zeilenabstand) erweitert (siehe "Word-Export-Überarbeitung" unten).
+  **Update 2026-09-02 (Commit `93072f0`):** Bis dahin galt dieser Style nur für die vom
+  Template selbst gebauten Messinstrument-Tabellen — Markdown-Pipe-Tabellen aus
+  Rich-Text-CMS-Feldern wurden gar nicht erst zu echten AsciiDoc-Tabellen konvertiert. Jetzt
+  laufen auch die aus Rich-Text konvertierten Tabellen durch denselben Style, inkl. der
+  verschachtelten Variante innerhalb von Messinstrument-Tabellenzellen. Bei mehreren/größeren
+  Tabellen (z. B. viele Messinstrumente mit vielen `terminology-codes`) weiterhin nicht in der
+  Breite gegen viele reale Einträge gleichzeitig getestet.
 - **Neu (2026-08, `disease-association`-Feld):** Wurde laut Commit `8653e16` bereits allen
   Observation-Templates (Markdown und AsciiDoc) hinzugefügt — beim nächsten Review mit echten
   Daten gegenprüfen, ob es in Markdown-Report **und** `.docx` korrekt erscheint (bisher nur an

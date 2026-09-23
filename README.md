@@ -8,8 +8,10 @@ Content is edited through [Sveltia CMS](https://github.com/sveltia/sveltia-cms) 
 fork) and consolidated into a single hierarchical profile plus human-readable reports by a
 small Python pipeline.
 
-> **Note:** This GitHub repository is a mirror of the previous Gitea repository
-> <https://health.joanneum.at/git/PreNudge/prenudge-health-profile.git>.
+> **Note:** This repository previously lived on a self-hosted Gitea instance at
+> `health.joanneum.at`. Following the migration to GitHub, `jr-health/prenudge-health-profile`
+> on GitHub is the authoritative repository and CMS backend; the Gitea instance is frozen and
+> no longer updated.
 
 ## Data Model
 
@@ -89,15 +91,18 @@ GitHub Pages is an additional, automatically deployed mirror.
 
 ### Running the CMS locally
 
-```bash
-# 1. Start the local backend proxy (writes to local files)
-npx netlify-cms-proxy-server
+Sveltia CMS does not use `netlify-cms-proxy-server`/`decap-server` — it writes directly to
+local files via the browser's File System Access API (Chromium-based browsers only: Chrome,
+Edge, Brave).
 
-# 2. Serve the repo root
+```bash
+# 1. Serve the repo root
 npx serve .
 
-# 3. Open the editor
+# 2. Open the editor
 #    http://localhost:<port>/admin/
+# 3. Click "Work with local repository" and pick the repo's root folder in the
+#    native directory picker
 ```
 
 ## Build Pipeline
@@ -134,8 +139,8 @@ the browse view regeneration in one step:
 
 | Workflow | Trigger | Does |
 |---|---|---|
-| `update-profile.yml` | Push to `main` touching content, `scripts/`, or `render/templates/` | Validates, consolidates, renders Markdown + the browse view, commits the generated files back |
-| `release.yml` | Push of a `v*.*.*` tag, or manual dispatch with a version | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`) **once per data set** (combined, minimalset, extended × de/en = six `.docx`), then injects the real cover page/footers into each (`scripts/inject_cover_page.py`, needs `python-docx`), publishes everything as a GitHub Release. Does not commit anything back to the repo. |
+| `update-profile.yml` | Push to `main` touching content, `scripts/`, or `render/templates/`; after a successful `Release` run; or manual dispatch | Validates, consolidates, renders Markdown + the browse view, commits the generated files back |
+| `release.yml` | Manual dispatch only, with a version number (Actions → Release → Run workflow) — a direct tag push is **not** supported, see `doc/release.md` | Validates, consolidates, renders Markdown + AsciiDoc, converts AsciiDoc → DocBook → Word (`asciidoctor` + `pandoc`) **once per data set** (combined, minimalset, extended × de/en = six `.docx`), then injects the real cover page/footers into each (`scripts/inject_cover_page.py`, needs `python-docx`). Commits `health-profile.json` and the browse/sunburst HTML back to `main` **before** tagging, so the release tag points at a commit with matching views, then publishes everything as a GitHub Release. |
 | `pages.yml` | After a successful `Release` run, or manual dispatch | Builds the GitHub Pages landing page (sunburst, browse view, CMS editor, download links to the latest release's Word exports) |
 
 See `doc/release.md` for the full release/versioning process and `doc/github-actions-plan.md`

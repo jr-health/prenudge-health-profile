@@ -11,7 +11,10 @@ Runnern — es ist kein eigener Runner zu installieren oder zu betreiben.
 - `scripts/**`, `render/templates/**`
 
 Zusätzlich manuell auslösbar über **Actions → Update Health Profile → Run workflow**
-(`workflow_dispatch`).
+(`workflow_dispatch`), sowie automatisch nach jedem erfolgreichen `release.yml`-Lauf
+(`workflow_run`) — `release.yml` committet zwar bereits `health-profile.json` und die
+Browse/Sunburst-Views vor dem Taggen selbst zurück (siehe `doc/release.md`), aber nicht die
+Markdown-Reports (`health-profile.{de,en}.md`); dieser Lauf holt das nach.
 
 Änderungen an generierten Dateien (`health-profile.json`, `*.md`) triggern den Workflow
 **nicht**.

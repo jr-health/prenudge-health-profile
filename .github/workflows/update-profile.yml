@@ -1,8 +1,9 @@
 name: Update Health Profile
 
 # Runs when data files, scripts, or templates change, or after a Release
-# completes (so main's health-profile.json picks up the new version/date
-# even if no content changed since - release.yml itself never commits).
+# completes (so main's health-profile.{de,en}.md reports pick up the new
+# version/date - release.yml commits health-profile.json and the
+# browse/sunburst views itself, but never the Markdown reports).
 # Generated files are committed back without [skip ci] - the path filter
 # above already excludes those files, so the commit-back can't re-trigger
 # this workflow via push. [skip ci] used to be added as a second safety

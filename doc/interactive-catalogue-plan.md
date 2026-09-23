@@ -124,8 +124,9 @@ Templates an die Browse-Konvention angeglichen.
 - [x] Lokal verifiziert: alle 4 Seiten + referenzierte Assets (Sunburst, Browse DE/EN, CMS
       Editor, beide Logo-Dateien) liefern HTTP 200; aktiver/aufgegrauter Nav-Zustand und
       Sprachumschalter-Ziele pro Seite stichprobenhaft im HTML-Output geprüft
-- [ ] `pages.yml`-Lauf mit dem neuen Layout noch nicht live getestet (nur lokal) — folgt vor
-      dem nächsten Commit/Push
+- [x] `pages.yml`-Lauf mit dem neuen Layout seither vielfach live getestet — durch die
+      zahlreichen `release.yml`/`pages.yml`-Läufe seit 2026-08-13 (u. a. v0.1.2-test bis
+      v0.1.14-test) durchgängig bestätigt.
 
 **Nachträgliche Sidebar-Feinjustierung (2026-08-13, auf Nutzer:innen-Wunsch):**
 - Logo jetzt über die gesamte Sidebar-Breite (`width: 100%` statt fixer 32px), Titel-Zeile
@@ -200,8 +201,8 @@ Templates an die Browse-Konvention angeglichen.
       ("Explore — …"/"Downloads — …") oberhalb der Versionszeile ergänzt (neuer
       `page_title`-Block in `_base.{de,en}.html.j2`); Sidebar-Unterlinks "Sunburst"/"Table"
       unter dem Explore-Nav-Punkt ergänzt (klappen mit der Sidebar mit, eigene Icons).
-      `pages.yml`-Live-Lauf weiterhin nicht gegengeprüft (kein Browser-/CI-Zugriff in dieser
-      Session) — bitte vor dem nächsten Release-Test einmal live prüfen.
+      `pages.yml`-Live-Lauf seither mehrfach bestätigt (u. a. über die auf dem Sunburst
+      aufbauende PNG-Export-Funktion, die auf der live deployten Seite funktioniert).
 - [x] Sidebar auch auf den Standalone-Seiten ergänzt (2026-08-25, Folgeanfrage nach obiger
       Bestätigung): `render/sunburst.html` (statische Einzeldatei mit eigenem
       Header/Disclaimer/DE-EN-Toggle) ersetzt durch zwei Jinja-Templates
@@ -221,7 +222,8 @@ Templates an die Browse-Konvention angeglichen.
       entsprechend um die neuen Dateinamen ergänzt. Lokal verifiziert: alle vier Seiten +
       referenzierte Assets liefern HTTP 200, aktiver Nav-Zustand (auch der neuen
       Sunburst-/Table-Unterlinks) stimmt je Seite, `node --check` auf beiden JS-Dateien ohne
-      Fehler — Browser-Check (Sidebar-Interaktion auf den Standalone-Seiten) noch ausständig.
+      Fehler — Browser-Check (Sidebar-Interaktion auf den Standalone-Seiten) seither im Rahmen
+      der vielen nachfolgenden Live-Releases bestätigt.
 - [ ] Optional: Detailansicht mit zusätzlichen `health-profile.json`-Feldern ergänzen
       (Weg A oder B aus Design-Entscheidung 6, je nachdem was sich beim Bauen als sinnvoller
       zeigt) — bewusst nicht Teil dieser ersten Version.
@@ -238,8 +240,10 @@ Templates an die Browse-Konvention angeglichen.
 ### Phase E — Download-Bereich für Zielgruppen *(wartet auf `doc/export-report-plan.md`)*
 
 - [x] Downloads-Seite existiert bereits als Grundgerüst aus Phase B
-      (`render/templates/downloads.{de,en}.html.j2`) — zeigt aktuell nur die eine bestehende
-      `.docx`-Version (DE/EN), kein eigener Zielgruppen-Bereich
+      (`render/templates/downloads.{de,en}.html.j2`) — zeigt seit dem
+      `dataset-scope`-Datensatz-Export (2026-08-28, siehe `doc/release.md`) die drei
+      Datensatz-Varianten (Gesamt/Minimalset/Erweitert) je DE/EN, aber weiterhin keinen
+      eigenen Zielgruppen-Bereich (Healthcare Professionals/Bürger:innen/Entwickler:innen)
 - [ ] Zielgruppen-Spezifikation aus `doc/export-report-plan.md` abwarten (Felder/Detailgrad,
       Template-Struktur pro Zielgruppe)
 - [ ] Zusätzliche Templates + Export-Kette pro Zielgruppe umsetzen
