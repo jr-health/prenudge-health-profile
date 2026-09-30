@@ -4,12 +4,13 @@
     "key": "loneliness-social-support-close-relationships",
     "dataset-scope": "Extension",
     "title": "Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)",
-    "description": "",
     "category": "psychosocial-factors",
     "dimension": "loneliness-social-support",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -32,31 +33,40 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "im WHOQol drinnen, würden wir raus geben"
   },
   "en": {
     "template": "observation",
     "key": "loneliness-social-support-close-relationships",
     "dataset-scope": "Extension",
     "title": "Loneliness/Social support (number of close relationships)",
-    "description": "",
     "category": "psychosocial-factors",
     "dimension": "loneliness-social-support",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "im WHOQol drinnen, würden wir raus geben"
   }
 }
