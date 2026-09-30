@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:16:31.728228+00:00",
+  "generated": "2026-09-30T15:19:05.319742+00:00",
   "scope": "combined",
-  "commit": "26bd80de883bdd52ee840127a863dc83a64b9648",
+  "commit": "8538cd074488318b83792ee4e72063d758023e4c",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -4551,12 +4551,13 @@
                 "key": "fatigue-daily-energy-performance-capacity",
                 "dataset-scope": "Extension",
                 "title": "Müdigkeit und tägliche Energie/Leistungsfähigkeit",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "fatigue-decline-in-performance",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -4579,32 +4580,41 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Energie ist im WHOQOL dabei - Frage ob wir täglich Energie und Leistungsfähigkeit brauchen"
               },
               "en": {
                 "template": "observation",
                 "key": "fatigue-daily-energy-performance-capacity",
                 "dataset-scope": "Extension",
                 "title": "Fatigue and daily energy/performance capacity",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "fatigue-decline-in-performance",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Energie ist im WHOQOL dabei - Frage ob wir täglich Energie und Leistungsfähigkeit brauchen"
               }
             }
           ]
