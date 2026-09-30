@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:56:44.378065+00:00",
+  "generated": "2026-09-30T15:58:52.533930+00:00",
   "scope": "combined",
-  "commit": "5910dfaeb2c054434a66f032d5d3b5b1e1df8bbe",
+  "commit": "2ab7536def4b198a12719bf290fe4e2f6fb21c38",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7583,12 +7583,13 @@
                 "key": "pack-years",
                 "dataset-scope": "Extension",
                 "title": "Pack years",
-                "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
+                "description": "Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -7611,19 +7612,20 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
               },
               "en": {
                 "template": "observation",
                 "key": "pack-years",
                 "dataset-scope": "Extension",
                 "title": "Pack Years",
-                "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -7644,7 +7646,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
               }
             }
           ]

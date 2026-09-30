@@ -1688,6 +1688,10 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 ### Pack years
 
+**Beschreibung für Fachpersonal:**
+
+Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
