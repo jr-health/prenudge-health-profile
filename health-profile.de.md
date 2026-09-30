@@ -76,7 +76,6 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
   - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
   - [Beeinträchtigung der Erwerbstätigkeit](#beeintrachtigung-der-erwerbstatigkeit)
-  - [Einkommensverlust](#einkommensverlust)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
   - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
@@ -1903,14 +1902,6 @@ Nicht erforderlich
 <img src="media/briefcase-business.png" alt="Arbeit" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 ### Beeinträchtigung der Erwerbstätigkeit
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Einkommensverlust
 
 #### Messinstrumente
 

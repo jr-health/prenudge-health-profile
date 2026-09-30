@@ -76,7 +76,6 @@ _Version: 0.1.15-test | Generated: 2026-09-30_
   - [Native language](#native-language)
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
-  - [Loss of income](#loss-of-income)
   - [Work ability (Score)](#work-ability-score)
   - [Work absence days](#work-absence-days)
 - [Edit History](#edit-history)
@@ -1208,14 +1207,6 @@ max: 120
 <img src="media/briefcase-business.png" alt="Workability" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
 ### Impairment of employment
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Loss of income
 
 #### Measurement Instruments
 

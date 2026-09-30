@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:59:10.129661+00:00",
+  "generated": "2026-09-30T16:00:10.423108+00:00",
   "scope": "combined",
-  "commit": "9cd3840a4370745d11c302b859eefa8160fd663a",
+  "commit": "76571f9e974bf0eb3edb3f118d7a6d077cea29cb",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -8782,68 +8782,6 @@
                 "key": "impairment-of-employment",
                 "dataset-scope": "Extension",
                 "title": "Impairment of employment",
-                "description": "",
-                "category": "work",
-                "dimension": "workability",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "loss-of-income",
-                "dataset-scope": "Extension",
-                "title": "Einkommensverlust",
-                "description": "",
-                "category": "work",
-                "dimension": "workability",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "loss-of-income",
-                "dataset-scope": "Extension",
-                "title": "Loss of income",
                 "description": "",
                 "category": "work",
                 "dimension": "workability",
