@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:42:31.242777+00:00",
+  "generated": "2026-09-30T15:51:39.038725+00:00",
   "scope": "combined",
-  "commit": "de5dffd7a86f43fef62d56bc1cd13292ab6ec525",
+  "commit": "a46e7bd125105706bd655d8e0c2437156530e4f7",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -6881,7 +6881,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "vom ATHIS 2025 - wird erst im Oktober 2026 publiziert"
               },
               "en": {
                 "template": "observation",
@@ -6915,7 +6915,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "vom ATHIS 2025 - wird erst im Oktober 2026 publiziert"
               }
             }
           ]
