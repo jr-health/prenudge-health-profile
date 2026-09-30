@@ -38,8 +38,6 @@ _Version: 0.1.15-test | Generated: 2026-09-30_
   - [Fatigue and daily energy/performance capacity](#fatigue-and-daily-energyperformance-capacity)
   - [Self-reported significant life events](#self-reported-significant-life-events)
   - [Loneliness/Social support (number of close relationships)](#lonelinesssocial-support-number-of-close-relationships)
-  - [Self-reported social integration](#self-reported-social-integration)
-  - [Subjective sense of support](#subjective-sense-of-support)
   - [Susceptibility to infection (number within a defined period)](#susceptibility-to-infection-number-within-a-defined-period)
   - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
@@ -719,22 +717,6 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **Sunburst Chart Status:** draft
 
 ### Loneliness/Social support (number of close relationships)
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Self-reported social integration
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Subjective sense of support
 
 #### Measurement Instruments
 

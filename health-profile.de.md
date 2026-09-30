@@ -38,8 +38,6 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
   - [Müdigkeit und tägliche Energie/Leistungsfähigkeit](#mudigkeit-und-tagliche-energieleistungsfahigkeit)
   - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
   - [Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)](#einsamkeitsoziale-unterstutzung-anzahl-enger-bezugspersonen)
-  - [Selbstbericht über soziale Einbindung](#selbstbericht-uber-soziale-einbindung)
-  - [Subjektives Empfinden von Unterstützung](#subjektives-empfinden-von-unterstutzung)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
   - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veranderung-des-korpergewichts-uber-definierte-zeitraume-kg)
 - [Lebensqualität](#lebensqualitat)
@@ -1176,22 +1174,6 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 - **Sunburst-Chart Status:** draft
 
 ### Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Selbstbericht über soziale Einbindung
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Subjektives Empfinden von Unterstützung
 
 #### Messinstrumente
 

@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:26:10.010712+00:00",
+  "generated": "2026-09-30T15:27:17.015554+00:00",
   "scope": "combined",
-  "commit": "add982717a4699de020073476e374d6526f086fb",
+  "commit": "535169ba6705013ffee5807e32bc587ccfb02cb0",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -4811,130 +4811,6 @@
                   }
                 ],
                 "discussion": "im WHOQol drinnen, würden wir raus geben"
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "self-reported-social-integration",
-                "dataset-scope": "Extension",
-                "title": "Selbstbericht über soziale Einbindung",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "loneliness-social-support",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "self-reported-social-integration",
-                "dataset-scope": "Extension",
-                "title": "Self-reported social integration",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "loneliness-social-support",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "subjective-sense-of-support",
-                "dataset-scope": "Extension",
-                "title": "Subjektives Empfinden von Unterstützung",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "loneliness-social-support",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "subjective-sense-of-support",
-                "dataset-scope": "Extension",
-                "title": "Subjective sense of support",
-                "description": "",
-                "category": "psychosocial-factors",
-                "dimension": "loneliness-social-support",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
-                  }
-                ],
-                "discussion": ""
               }
             }
           ]
