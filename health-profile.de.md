@@ -33,7 +33,7 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
   - [Selbstbericht über Stress](#selbstbericht-uber-stress)
-  - [Selbstbericht über Coping-Fähigkeit (Resilienz)](#selbstbericht-uber-coping-fahigkeit-resilienz)
+  - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
   - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
   - [Müdigkeit und tägliche Energie/Leistungsfähigkeit](#mudigkeit-und-tagliche-energieleistungsfahigkeit)
   - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
@@ -1071,7 +1071,7 @@ Selbstwirksamkeitsskala (siehe NextCloud!)
 | http://snomed.info/sct | 1193534004 | High perceived stress |
 | http://snomed.info/sct | 23085004 | Increased stress |
 
-### Selbstbericht über Coping-Fähigkeit (Resilienz)
+### Selbstbericht über Resilienz
 
 **Beschreibung für Fachpersonal:**
 
