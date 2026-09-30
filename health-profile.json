@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:27:17.015554+00:00",
+  "generated": "2026-09-30T15:27:41.764162+00:00",
   "scope": "combined",
-  "commit": "535169ba6705013ffee5807e32bc587ccfb02cb0",
+  "commit": "353a920da0963d97b3279217d7579ca3fc09ea00",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -4845,12 +4845,13 @@
                 "key": "susceptibility-to-infection-number-period",
                 "dataset-scope": "Extension",
                 "title": "Infektanfälligkeit (Anzahl innerhalb definierter Periode)",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "susceptibility-to-infection",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -4873,32 +4874,41 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Diskussion mit Franz"
               },
               "en": {
                 "template": "observation",
                 "key": "susceptibility-to-infection-number-period",
                 "dataset-scope": "Extension",
                 "title": "Susceptibility to infection (number within a defined period)",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "susceptibility-to-infection",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Diskussion mit Franz"
               }
             }
           ]
