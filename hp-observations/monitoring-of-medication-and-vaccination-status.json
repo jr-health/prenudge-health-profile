@@ -4,12 +4,13 @@
     "key": "monitoring-of-medication-and-vaccination-status",
     "dataset-scope": "Extension",
     "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
-    "description": "",
     "category": "self-management",
     "dimension": "medication-management",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -32,19 +33,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**"
+    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**\n\n**Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?**\n_Bitte wählen Sie alle zutreffenden Antworten aus._\n\n☐ Übelkeit oder Erbrechen\n☐ Durchfall oder Verstopfung\n☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden\n☐ Schwindel oder Benommenheit\n☐ Kopfschmerzen\n☐ Müdigkeit oder Schläfrigkeit\n☐ Schlafstörungen\n☐ Konzentrations- oder Gedächtnisprobleme\n☐ Hautausschlag oder Juckreiz\n☐ Schwitzen\n☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden\n☐ Atembeschwerden\n☐ Appetitveränderungen\n☐ Ungewollte Gewichtszunahme\n☐ Ungewollter Gewichtsverlust\n☐ Muskel- oder Gelenkschmerzen\n☐ Sexuelle Beschwerden\n☐ Probleme beim Wasserlassen\n☐ Stimmungsschwankungen oder andere psychische Beschwerden\n☐ Andere Nebenwirkung, nämlich: _____________\n☐ Keine Nebenwirkungen bemerkt\n\n[https://pubmed.ncbi.nlm.nih.gov/23553447/](https://pubmed.ncbi.nlm.nih.gov/23553447/)"
   },
   "en": {
     "template": "observation",
     "key": "monitoring-of-medication-and-vaccination-status",
     "dataset-scope": "Extension",
     "title": "Independent monitoring of medication and vaccination status",
-    "description": "",
     "category": "self-management",
     "dimension": "medication-management",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -65,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**"
+    "discussion": "Trennung von Medikamenten und Impfung\n\nWenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\n**Selbstbeobachtungen von Medikamenten(neben)wirkung**\n\n**Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?**\n_Bitte wählen Sie alle zutreffenden Antworten aus._\n\n☐ Übelkeit oder Erbrechen\n☐ Durchfall oder Verstopfung\n☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden\n☐ Schwindel oder Benommenheit\n☐ Kopfschmerzen\n☐ Müdigkeit oder Schläfrigkeit\n☐ Schlafstörungen\n☐ Konzentrations- oder Gedächtnisprobleme\n☐ Hautausschlag oder Juckreiz\n☐ Schwitzen\n☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden\n☐ Atembeschwerden\n☐ Appetitveränderungen\n☐ Ungewollte Gewichtszunahme\n☐ Ungewollter Gewichtsverlust\n☐ Muskel- oder Gelenkschmerzen\n☐ Sexuelle Beschwerden\n☐ Probleme beim Wasserlassen\n☐ Stimmungsschwankungen oder andere psychische Beschwerden\n☐ Andere Nebenwirkung, nämlich: _____________\n☐ Keine Nebenwirkungen bemerkt\n\n[https://pubmed.ncbi.nlm.nih.gov/23553447/](https://pubmed.ncbi.nlm.nih.gov/23553447/)"
   }
 }
