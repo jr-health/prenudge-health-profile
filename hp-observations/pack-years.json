@@ -4,12 +4,13 @@
     "key": "pack-years",
     "dataset-scope": "Extension",
     "title": "Pack years",
-    "description": "",
     "category": "smoking",
     "dimension": "zigaretten",
+    "description": "Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -32,19 +33,20 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
   },
   "en": {
     "template": "observation",
     "key": "pack-years",
     "dataset-scope": "Extension",
     "title": "Pack Years",
-    "description": "",
     "category": "smoking",
     "dimension": "zigaretten",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -65,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
   }
 }
