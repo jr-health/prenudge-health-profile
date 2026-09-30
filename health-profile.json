@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:19:05.319742+00:00",
+  "generated": "2026-09-30T15:24:11.246643+00:00",
   "scope": "combined",
-  "commit": "8538cd074488318b83792ee4e72063d758023e4c",
+  "commit": "7e059a51cb03a7e134867125cf419449f3940d70",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -4649,17 +4649,18 @@
                 "key": "self-reported-significant-life-events",
                 "dataset-scope": "Extension",
                 "title": "Selbstbericht über bedeutende Lebensereignisse",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "lifeevents",
+                "description": "",
+                "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "[https://pubmed.ncbi.nlm.nih.gov/27760568/](https://pubmed.ncbi.nlm.nih.gov/27760568/)\n\n**Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt?**\n\nBitte wählen Sie alle zutreffenden Antworten aus.\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -4684,22 +4685,31 @@
                 "key": "self-reported-significant-life-events",
                 "dataset-scope": "Extension",
                 "title": "Self-reported significant life events",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "lifeevents",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": ""
