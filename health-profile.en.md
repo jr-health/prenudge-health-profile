@@ -61,7 +61,6 @@ _Version: 0.1.15-test | Generated: 2026-09-30_
   - [Pipe or hookah (number/week)](#pipe-or-hookah-numberweek)
   - [Smoking status (never, former, current)](#smoking-status-never-former-current)
   - [attempts to give up](#attempts-to-give-up)
-  - [motivation to quit](#motivation-to-quit)
   - [nicotine addiction](#nicotine-addiction)
   - [Pack Years](#pack-years)
   - [Cigars or cigarillos (number/week)](#cigars-or-cigarillos-numberweek)
@@ -1043,17 +1042,6 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 | http://snomed.info/sct | 598111000000509 |  |
 
 ### attempts to give up
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-**Sources:**
-- https://osf.io/ndu6r/files/snm3p
-
-### motivation to quit
 
 #### Measurement Instruments
 

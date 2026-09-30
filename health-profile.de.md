@@ -61,7 +61,6 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
   - [Pfeife/Wasserpfeife (Anzahl/Woche)](#pfeifewasserpfeife-anzahlwoche)
   - [Raucher:innenstatus (nie, ehemalig, aktuell)](#raucherinnenstatus-nie-ehemalig-aktuell)
   - [Entwöhnungsversuche (Anzahl/Jahr)](#entwohnungsversuche-anzahljahr)
-  - [Entwöhnungsmotivation](#entwohnungsmotivation)
   - [Nikotinabhängigkeit](#nikotinabhangigkeit)
   - [Pack years](#pack-years)
   - [Zigarren/Zigarillos (Anzahl/Woche)](#zigarrenzigarillos-anzahlwoche)
@@ -1631,17 +1630,6 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 | http://snomed.info/sct | 598111000000509 | Nicotine pouch (product) |
 
 ### Entwöhnungsversuche (Anzahl/Jahr)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-**Quellen:**
-- https://osf.io/ndu6r/files/snm3p
-
-### Entwöhnungsmotivation
 
 #### Messinstrumente
 
