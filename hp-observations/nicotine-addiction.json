@@ -4,12 +4,13 @@
     "key": "nicotine-addiction",
     "dataset-scope": "Extension",
     "title": "Nikotinabhängigkeit",
-    "description": "",
     "category": "smoking",
     "dimension": "zigaretten",
+    "description": "### FTND – Fragebogen\n\n**1. Wie bald nach dem Aufwachen rauchen Sie Ihre erste Zigarette?**\n\n- ☐ Innerhalb von 5 Minuten — **3 Punkte**\n- ☐ Nach 6–30 Minuten — **2 Punkte**\n- ☐ Nach 31–60 Minuten — **1 Punkt**\n- ☐ Nach mehr als 60 Minuten — **0 Punkte**\n\n**2. Fällt es Ihnen schwer, an Orten nicht zu rauchen, an denen das Rauchen verboten ist (z. B. Kirche, Bibliothek, Kino)?**\n\n- ☐ Ja — **1 Punkt**\n- ☐ Nein — **0 Punkte**\n\n**3. Auf welche Zigarette würden Sie am ungernsten verzichten?**\n\n- ☐ Auf die erste am Morgen — **1 Punkt**\n- ☐ Auf eine andere — **0 Punkte**\n\n**4. Wie viele Zigaretten rauchen Sie durchschnittlich pro Tag?**\n\n- ☐ 10 oder weniger — **0 Punkte**\n- ☐ 11–20 — **1 Punkt**\n- ☐ 21–30 — **2 Punkte**\n- ☐ 31 oder mehr — **3 Punkte**\n\n**5. Rauchen Sie in den ersten Stunden nach dem Aufwachen häufiger als während des restlichen Tages?**\n\n- ☐ Ja — **1 Punkt**\n- ☐ Nein — **0 Punkte**\n\n**6. Rauchen Sie auch dann, wenn Sie so krank sind, dass Sie die meiste Zeit im Bett verbringen?**\n\n- ☐ Ja — **1 Punkt**\n- ☐ Nein — **0 Punkte**",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -32,31 +33,40 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "[https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en](https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en)"
   },
   "en": {
     "template": "observation",
     "key": "nicotine-addiction",
     "dataset-scope": "Extension",
     "title": "nicotine addiction",
-    "description": "",
     "category": "smoking",
     "dimension": "zigaretten",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "[https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en](https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en)"
   }
 }
