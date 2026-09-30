@@ -50,7 +50,6 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
 - [Sexualität](#sexualitat)
-  - [Selbstberichtete sexuelle Zufriedenheit](#selbstberichtete-sexuelle-zufriedenheit)
 - [Schlaf](#schlaf)
   - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
   - [Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)](#schlafhygiene-haufigkeit-der-einhaltung-schlaffordernder-routinenwoche)
@@ -1353,13 +1352,7 @@ Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 
 <img src="media/venus-and-mars.png" alt="Sexualität" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
 
-### Selbstberichtete sexuelle Zufriedenheit
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
+_Keine Beobachtungen erfasst._
 
 ---
 

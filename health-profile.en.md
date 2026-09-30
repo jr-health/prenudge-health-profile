@@ -50,7 +50,6 @@ _Version: 0.1.15-test | Generated: 2026-09-30_
   - [Blood pressure (mmHg?)](#blood-pressure-mmhg)
   - [Heart rate (bpm?)](#heart-rate-bpm)
 - [Sexuality](#sexuality)
-  - [Self-reported sexual satisfaction](#self-reported-sexual-satisfaction)
 - [Sleep](#sleep)
   - [Self-reported chronotype](#self-reported-chronotype)
   - [Sleep hygiene (frequency of adherence to sleep-promoting routines/week)](#sleep-hygiene-frequency-of-adherence-to-sleep-promoting-routinesweek)
@@ -854,13 +853,7 @@ max: 20 (Transformiert 100)
 
 <img src="media/venus-and-mars.png" alt="Sexuality" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
 
-### Self-reported sexual satisfaction
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
+_No observations recorded._
 
 ---
 
