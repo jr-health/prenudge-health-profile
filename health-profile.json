@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T16:00:10.423108+00:00",
+  "generated": "2026-09-30T16:01:22.199625+00:00",
   "scope": "combined",
-  "commit": "76571f9e974bf0eb3edb3f118d7a6d077cea29cb",
+  "commit": "1be3a05d9896975d6b8d171ef69193b1fb816d48",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -8908,12 +8908,13 @@
                 "key": "work-absence-days",
                 "dataset-scope": "Extension",
                 "title": "Arbeitsausfalltage",
-                "description": "",
                 "category": "work",
                 "dimension": "workability",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -8936,32 +8937,41 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "kann man darauf zugreifen?!"
               },
               "en": {
                 "template": "observation",
                 "key": "work-absence-days",
                 "dataset-scope": "Extension",
                 "title": "Work absence days",
-                "description": "",
                 "category": "work",
                 "dimension": "workability",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "kann man darauf zugreifen?!"
               }
             }
           ]
