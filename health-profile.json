@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:52:02.737262+00:00",
+  "generated": "2026-09-30T15:54:18.252382+00:00",
   "scope": "combined",
-  "commit": "21b0da50e164f34c058b742f1b9d3dbe9d896871",
+  "commit": "86d7d706c9459faaae7775b16fd6512d6c44c903",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7429,17 +7429,18 @@
                 "key": "attempts-to-give-up",
                 "dataset-scope": "Extension",
                 "title": "Entwöhnungsversuche (Anzahl/Jahr)",
-                "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_\n\n**Falls Sie die genaue Anzahl nicht nennen können oder möchten** (z. B. weil Sie nicht sicher sind, wie viele Versuche es waren und sich die Zahl nicht schätzen lässt):\n\n3. **Ja, ich habe im vergangenen Jahr mindestens einen Versuch unternommen, weiß aber nicht genau, wie viele.**\n_(Wert „9998“ wird automatisch gesetzt.)_\n4. **Keine Antwort**\n_(Wert „9999“ wird automatisch gesetzt.)_\n\n.",
+                    "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7462,19 +7463,20 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)\n\nThomas mein: Das oder nix. mit Franz diskutieren"
               },
               "en": {
                 "template": "observation",
                 "key": "attempts-to-give-up",
                 "dataset-scope": "Extension",
                 "title": "attempts to give up",
-                "description": "",
                 "category": "smoking",
                 "dimension": "zigaretten",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -7488,6 +7490,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://osf.io/ndu6r/files/snm3p"
                       }
                     ],
@@ -7499,7 +7502,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)\n\nThomas mein: Das oder nix. mit Franz diskutieren"
               }
             },
             {
