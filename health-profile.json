@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:58:52.533930+00:00",
+  "generated": "2026-09-30T15:59:10.129661+00:00",
   "scope": "combined",
-  "commit": "2ab7536def4b198a12719bf290fe4e2f6fb21c38",
+  "commit": "9cd3840a4370745d11c302b859eefa8160fd663a",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7612,7 +7612,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
               },
               "en": {
                 "template": "observation",
@@ -7646,7 +7646,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden."
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
               }
             }
           ]
