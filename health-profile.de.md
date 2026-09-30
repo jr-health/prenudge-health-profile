@@ -46,7 +46,7 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
   - [Verständnis von gesundheitsbezogener Information](#verstandnis-von-gesundheitsbezogener-information)
   - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veranderungen-an-fachkrafte)
   - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenstandige-kontrolle-von-medikamenten--und-impfstatus)
-  - [Blutzuckerwert (mmol/l)](#blutzuckerwert-mmoll)
+  - [Blutzuckerwert (mg/dl)](#blutzuckerwert-mgdl)
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
 - [Sexualität](#sexualitat)
@@ -1294,7 +1294,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Blutzuckerwert (mmol/l)
+### Blutzuckerwert (mg/dl)
 
 #### Messinstrumente
 

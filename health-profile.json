@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:34:26.708285+00:00",
+  "generated": "2026-09-30T15:35:13.520042+00:00",
   "scope": "combined",
-  "commit": "30666d27238a83b8cb573d7e625afdfc0a55eedf",
+  "commit": "2f896db57bf14762b5c06dd6e229bb20d7aa8b43",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -5543,13 +5543,14 @@
                 "template": "observation",
                 "key": "blood-glucose-level",
                 "dataset-scope": "Extension",
-                "title": "Blutzuckerwert (mmol/l)",
-                "description": "",
+                "title": "Blutzuckerwert (mg/dl)",
                 "category": "self-management",
                 "dimension": "self-monitoring",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -5603,12 +5604,13 @@
                 "key": "blood-glucose-level",
                 "dataset-scope": "Extension",
                 "title": "Blood glucose level (mmol/l)",
-                "description": "",
                 "category": "self-management",
                 "dimension": "self-monitoring",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
