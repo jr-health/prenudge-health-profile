@@ -992,9 +992,27 @@ max: 24 Stunden
 
 Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)
 
+Vorschlag:
+
+**Wie würden Sie Ihre sexuelle Orientierung beschreiben?**
+
+- Heterosexuell
+- Lesbisch oder schwul
+- Bisexuell
+- Eine andere sexuelle Orientierung, nämlich: ________
+- Weiß nicht
+- Möchte ich nicht angeben
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com
+
+**Messinstrument 2** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

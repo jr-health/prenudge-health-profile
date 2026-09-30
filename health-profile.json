@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T15:00:34.123375+00:00",
+  "generated": "2026-09-30T15:14:24.088547+00:00",
   "scope": "combined",
-  "commit": "eddc658b70f8fdad837bff7057825d0c6d1bc102",
+  "commit": "ac4455549fd0d1d79c54d108877a756313368ca4",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -3774,17 +3774,43 @@
                 "key": "potential-access-barriers",
                 "dataset-scope": "Extension",
                 "title": "Potenzielle Zugangshindernisse",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "access-to-care",
+                "description": "",
+                "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)\n\nVorschlag:\n\n**Wie würden Sie Ihre sexuelle Orientierung beschreiben?**\n\n- Heterosexuell\n- Lesbisch oder schwul\n- Bisexuell\n- Eine andere sexuelle Orientierung, nämlich: ________\n- Weiß nicht\n- Möchte ich nicht angeben",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Hauptbarrieren für Zugang zum Gesundheitssystem",
-                    "specific-questions": "Wording & Fragebogen müssen wir selbst überlegen",
+                    "device": "Diskriminierung im Gesundheitssystem",
+                    "specific-questions": "**Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\n**Mehrfachnennungen möglich.**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: __________\n☐ Keine der genannten Erfahrungen\n\n[https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com"
+                      }
+                    ],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -3802,32 +3828,49 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
+                "discussion": "Bitte zu soziodemografischen geben."
               },
               "en": {
                 "template": "observation",
                 "key": "potential-access-barriers",
                 "dataset-scope": "Extension",
                 "title": "Potential access barriers",
-                "description": "",
                 "category": "psychosocial-factors",
                 "dimension": "access-to-care",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
-                    "data-type": "",
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [
+                      {
+                        "system": "https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com"
+                      }
+                    ],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  },
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "data-type": ""
                   }
                 ],
-                "discussion": "Parameter, der sich aus anderen ableitet? --> wenn nicht implizit dann hier abfragen.\n\nAufdröseln in sexuelle Orientierung, ethnische Minderheiten (Sprache), Behinderung (körperlich, sensorisch, mental)\n\nBarrieren: finanziell, geografisch, bürokratisch, sprachlich- und kulturell, Diskrimminierung"
+                "discussion": "Bitte zu soziodemografischen geben."
               }
             }
           ]

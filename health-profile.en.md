@@ -627,6 +627,11 @@ max: 24 Stunden
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com
+
+**Measurement Instrument 2** — Questionnaire · manual (self-reported)
+
 ### Self-reported stress
 
 #### Measurement Instruments
