@@ -1642,6 +1642,44 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 ### Nikotinabhängigkeit
 
+**Beschreibung für Fachpersonal:**
+
+### FTND – Fragebogen
+
+**1. Wie bald nach dem Aufwachen rauchen Sie Ihre erste Zigarette?**
+
+- ☐ Innerhalb von 5 Minuten — **3 Punkte**
+- ☐ Nach 6–30 Minuten — **2 Punkte**
+- ☐ Nach 31–60 Minuten — **1 Punkt**
+- ☐ Nach mehr als 60 Minuten — **0 Punkte**
+
+**2. Fällt es Ihnen schwer, an Orten nicht zu rauchen, an denen das Rauchen verboten ist (z. B. Kirche, Bibliothek, Kino)?**
+
+- ☐ Ja — **1 Punkt**
+- ☐ Nein — **0 Punkte**
+
+**3. Auf welche Zigarette würden Sie am ungernsten verzichten?**
+
+- ☐ Auf die erste am Morgen — **1 Punkt**
+- ☐ Auf eine andere — **0 Punkte**
+
+**4. Wie viele Zigaretten rauchen Sie durchschnittlich pro Tag?**
+
+- ☐ 10 oder weniger — **0 Punkte**
+- ☐ 11–20 — **1 Punkt**
+- ☐ 21–30 — **2 Punkte**
+- ☐ 31 oder mehr — **3 Punkte**
+
+**5. Rauchen Sie in den ersten Stunden nach dem Aufwachen häufiger als während des restlichen Tages?**
+
+- ☐ Ja — **1 Punkt**
+- ☐ Nein — **0 Punkte**
+
+**6. Rauchen Sie auch dann, wenn Sie so krank sind, dass Sie die meiste Zeit im Bett verbringen?**
+
+- ☐ Ja — **1 Punkt**
+- ☐ Nein — **0 Punkte**
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
