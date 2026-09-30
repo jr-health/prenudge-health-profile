@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.15-test | Generiert: 2026-09-22_
+_Version: 0.1.15-test | Generiert: 2026-09-30_
 
 ---
 
@@ -83,6 +83,7 @@ _Version: 0.1.15-test | Generiert: 2026-09-22_
   - [Einkommensverlust](#einkommensverlust)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
   - [Arbeitsausfalltage](#arbeitsausfalltage)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -823,6 +824,7 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Tage/Woche
 - **Wertebereich:** 0-7
 - **Erfassungsfrequenz:** 2x/year
 - **Empfohlene Monitoringfrequenz:** 1/month
@@ -1961,3 +1963,12 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - **Sunburst-Chart Status:** draft
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.15-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-09-30 | shaide79 |
+| 2026-09-23 | Theresa.Weitlaner |

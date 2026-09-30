@@ -1,11 +1,20 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-22T14:11:03.876296+00:00",
+  "generated": "2026-09-30T15:00:34.123375+00:00",
   "scope": "combined",
-  "commit": "7d87edeeef4a0eebd08efa7558906f3e7ca9052d",
+  "commit": "eddc658b70f8fdad837bff7057825d0c6d1bc102",
   "activity": {
     "since": "v0.1.15-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-09-30",
+        "author": "shaide79"
+      },
+      {
+        "date": "2026-09-23",
+        "author": "Theresa.Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -3081,18 +3090,19 @@
                 "key": "flexibility-and-balance-training-units-week",
                 "dataset-scope": "Extension",
                 "title": "Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)",
-                "description": "",
                 "category": "physical-activity",
                 "dimension": "flexibility-and-balance",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "EHIS",
-                    "specific-questions": "Frage hinein! Antwortmöglichkeiten",
-                    "unit": "",
+                    "device": "Frage wie beim Muskeltraining",
+                    "specific-questions": "- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihrer Beweglichkeit/Flexibilität durch?**\n- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihres Gleichgewichts durch?**",
+                    "unit": "Tage/Woche",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "0-7",
@@ -3116,12 +3126,13 @@
                 "key": "flexibility-and-balance-training-units-week",
                 "dataset-scope": "Extension",
                 "title": "Flexibility and balance training (units/week)",
-                "description": "",
                 "category": "physical-activity",
                 "dimension": "flexibility-and-balance",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
