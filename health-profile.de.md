@@ -1529,11 +1529,7 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 #### Messinstrumente
 
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-**Messinstrument 2** — Wearable device / sensor · automated
+**Messinstrument 1** — Wearable device / sensor · automated
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
