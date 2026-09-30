@@ -3,13 +3,14 @@
     "template": "observation",
     "key": "blood-glucose-level",
     "dataset-scope": "Extension",
-    "title": "Blutzuckerwert (mmol/l)",
-    "description": "",
+    "title": "Blutzuckerwert (mg/dl)",
     "category": "self-management",
     "dimension": "self-monitoring",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -63,12 +64,13 @@
     "key": "blood-glucose-level",
     "dataset-scope": "Extension",
     "title": "Blood glucose level (mmol/l)",
-    "description": "",
     "category": "self-management",
     "dimension": "self-monitoring",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
