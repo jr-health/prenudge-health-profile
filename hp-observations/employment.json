@@ -1,7 +1,7 @@
 {
   "de": {
     "template": "observation",
-    "key": "impairment-of-employment",
+    "key": "employment",
     "dataset-scope": "Extension",
     "title": "Erwerbstätigkeit",
     "category": "work",
