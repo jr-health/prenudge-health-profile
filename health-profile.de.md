@@ -55,7 +55,6 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Selbstangegebene Einschätzung der Schlafqualität](#selbstangegebene-einschatzung-der-schlafqualitat)
   - [Dauer der Einschlafzeit (durchschnittliche Minuten)](#dauer-der-einschlafzeit-durchschnittliche-minuten)
 - [Rauchen](#rauchen)
-  - [Pfeife/Wasserpfeife (Anzahl/Woche)](#pfeifewasserpfeife-anzahlwoche)
   - [Raucher:innenstatus (nie, ehemalig, aktuell)](#raucherinnenstatus-nie-ehemalig-aktuell)
   - [Entwöhnungsversuche (Anzahl/Jahr)](#entwohnungsversuche-anzahljahr)
   - [Nikotinabhängigkeit](#nikotinabhangigkeit)
@@ -1516,16 +1515,6 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 ## Rauchen
 
 <img src="media/cigarette-off.png" alt="Rauchen" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
-
-### Pfeife/Wasserpfeife (Anzahl/Woche)
-
-**Population:** Allgemeinbevölkerung
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
 
 ### Raucher:innenstatus (nie, ehemalig, aktuell)
 
