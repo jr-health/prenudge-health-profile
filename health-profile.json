@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T13:03:05.203421+00:00",
+  "generated": "2026-10-05T13:03:49.552350+00:00",
   "scope": "combined",
-  "commit": "ea83d6db74f8ee61d291b07f3dd8b9a40d6ebc38",
+  "commit": "6d90c6a274038059f7a764b81d2545f6b4bd22e8",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7918,7 +7918,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch;\n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)",
+                    "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch;\n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch; \n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
