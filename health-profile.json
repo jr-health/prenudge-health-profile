@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T11:17:16.248384+00:00",
+  "generated": "2026-10-05T11:21:55.837839+00:00",
   "scope": "combined",
-  "commit": "512a00936c2af3edf660b89a91882eba56c5df26",
+  "commit": "1880021a63549dd6f9a994d241b47d667ed2afd0",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -3034,7 +3034,7 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Frage wie beim Muskeltraining",
+                    "device": "Frage wie beim Muskeltraining (nicht standardisiert, aber fragt die Bewegungsempfehlungen ab)",
                     "specific-questions": "- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihrer Beweglichkeit/Flexibilität durch?**\n- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihres Gleichgewichts durch?**",
                     "unit": "Tage/Woche",
                     "data-format": "",
@@ -3042,7 +3042,11 @@
                     "range-of-vales": "0-7",
                     "acquisition-frequency": "2x/year",
                     "recommended-monitoring-frequency": "1/month",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": "Bewegungsempfehlungen Österreich"
+                      }
+                    ],
                     "scoring-algorithm": "",
                     "sources": [],
                     "terminology-codes": [],
@@ -3053,7 +3057,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
               },
               "en": {
                 "template": "observation",
@@ -3087,7 +3091,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
               }
             }
           ]

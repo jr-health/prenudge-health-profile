@@ -813,6 +813,9 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+- Bewegungsempfehlungen Österreich
+
 ### Muskelkräftigende Übungen (Einheiten/Woche)
 
 **Beschreibung für Fachpersonal:**
