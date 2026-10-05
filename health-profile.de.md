@@ -34,7 +34,7 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Selbstbericht über Stress](#selbstbericht-uber-stress)
   - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
   - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
-  - [Müdigkeit und tägliche Energie/Leistungsfähigkeit](#mudigkeit-und-tagliche-energieleistungsfahigkeit)
+  - [Müdigkeit](#mudigkeit)
   - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
   - [Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)](#einsamkeitsoziale-unterstutzung-anzahl-enger-bezugspersonen)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
@@ -1140,7 +1140,7 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 | http://snomed.info/sct | 373066001 | Yes |
 | http://snomed.info/sct | 373067005 | No |
 
-### Müdigkeit und tägliche Energie/Leistungsfähigkeit
+### Müdigkeit
 
 #### Messinstrumente
 
