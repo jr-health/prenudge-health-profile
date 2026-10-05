@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:49:22.019447+00:00",
+  "generated": "2026-10-05T12:50:58.360511+00:00",
   "scope": "combined",
-  "commit": "c07a8f68b857f669be2a3662852b00237076c42d",
+  "commit": "913226f0b15e56b87205c9f9374372a043a8ae3c",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7697,17 +7697,18 @@
                 "key": "residence",
                 "dataset-scope": "Extension",
                 "title": "Wohnortgröße (Stadt/Land)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "1.9. Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
+                    "specific-questions": "Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7725,19 +7726,20 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
+                "discussion": "soll zusätzlich zur PLZ erhoben werden"
               },
               "en": {
                 "template": "observation",
                 "key": "residence",
                 "dataset-scope": "Extension",
                 "title": "Residence (urban/rural)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -7758,7 +7760,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
+                "discussion": "soll zusätzlich zur PLZ erhoben werden"
               }
             }
           ]
