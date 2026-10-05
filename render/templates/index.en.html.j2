@@ -8,6 +8,11 @@
     <button type="button" data-scope="minimalset" aria-pressed="true">Minimal</button>
     <button type="button" data-scope="extended" aria-pressed="false">Extended</button>
   </div>
+  <span id="discussion-label" class="scope-bar-group">Discussion</span>
+  <div class="scope-switch" id="discussion-switch" role="group" aria-labelledby="discussion-label">
+    <button type="button" data-discussion="show" aria-pressed="true">On</button>
+    <button type="button" data-discussion="hide" aria-pressed="false">Off</button>
+  </div>
 </div>
 {% endblock %}
 {% block content %}

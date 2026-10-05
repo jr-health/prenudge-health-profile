@@ -37,6 +37,11 @@ import json
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
+# The Explore page embeds the browse table partial, which uses md_html - share
+# render_html.py's filter instead of keeping a second copy (scripts/ is on
+# sys.path when run as `python scripts/render_index.py`).
+from render_html import md_html
+
 ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT / "render" / "templates"
 
@@ -76,6 +81,7 @@ def main():
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["md_html"] = md_html
 
     for page in PAGES:
         template = env.get_template(f"{page['name']}.{page['locale']}.html.j2")
