@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Diskussion mit Franz"
+    "discussion": "Diskussion mit Franz bleibt noch offen"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Diskussion mit Franz"
+    "discussion": "Diskussion mit Franz bleibt noch offen"
   }
 }
