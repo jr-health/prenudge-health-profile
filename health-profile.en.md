@@ -68,7 +68,6 @@ _Version: 0.1.15-test | Generated: 2026-10-05_
   - [Origin (Ethnicity)](#origin-ethnicity)
   - [Highest completed education (ISCED level)](#highest-completed-education-isced-level)
   - [Employment status / Income](#employment-status-income)
-  - [Native language](#native-language)
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
@@ -1139,14 +1138,6 @@ max: 120
 | http://snomed.info/sct | 473461003 |  |
 
 ### Employment status / Income
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Native language
 
 #### Measurement Instruments
 

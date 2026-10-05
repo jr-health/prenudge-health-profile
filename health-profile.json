@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T13:02:43.043420+00:00",
+  "generated": "2026-10-05T13:03:05.203421+00:00",
   "scope": "combined",
-  "commit": "5b3f88bd7a927a80a3703805ffa04294b9e5c5b7",
+  "commit": "ea83d6db74f8ee61d291b07f3dd8b9a40d6ebc38",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -8184,78 +8184,6 @@
                   }
                 ],
                 "discussion": ""
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "native-language",
-                "dataset-scope": "Extension",
-                "title": "Muttersprache",
-                "category": "sociodemographic-data",
-                "dimension": "socio-economic-status",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "ist nicht bei der ID austria Drinnen, was tun wir mit personen, die mehrer Sprachen sprechen - eher löschen"
-              },
-              "en": {
-                "template": "observation",
-                "key": "native-language",
-                "dataset-scope": "Extension",
-                "title": "Native language",
-                "category": "sociodemographic-data",
-                "dimension": "socio-economic-status",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "ist nicht bei der ID austria Drinnen, was tun wir mit personen, die mehrer Sprachen sprechen - eher löschen"
               }
             }
           ]

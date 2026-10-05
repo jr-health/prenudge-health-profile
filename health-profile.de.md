@@ -68,7 +68,6 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Alltagssprache](#alltagssprache)
   - [Höchste abgeschlossene Schulbildung (ISCED-Level)](#hochste-abgeschlossene-schulbildung-isced-level)
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
-  - [Muttersprache](#muttersprache)
 - [Arbeit](#arbeit)
   - [Beeinträchtigung der Erwerbstätigkeit](#beeintrachtigung-der-erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
@@ -1832,14 +1831,6 @@ Nicht erforderlich
 | http://snomed.info/sct | 473461003 | Educated to high school level |
 
 ### Berufliche Situation / Einkommen
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Muttersprache
 
 #### Messinstrumente
 
