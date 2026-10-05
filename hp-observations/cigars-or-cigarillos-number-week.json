@@ -4,12 +4,12 @@
     "key": "cigars-or-cigarillos-number-week",
     "dataset-scope": "Extension",
     "title": "Zigarren/Zigarillos (Anzahl/Woche)",
-    "description": "",
     "category": "smoking",
-    "dimension": "zigarren-zigarillos",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -39,12 +39,12 @@
     "key": "cigars-or-cigarillos-number-week",
     "dataset-scope": "Extension",
     "title": "Cigars or cigarillos (number/week)",
-    "description": "",
     "category": "smoking",
-    "dimension": "zigarren-zigarillos",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
