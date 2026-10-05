@@ -4,17 +4,18 @@
     "key": "housing-type",
     "dataset-scope": "Extension",
     "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "1.11. Wie viele Personen - einschließlich Kinder - leben in Ihrem Haushalt, Sie selbst eingeschlossen?\n\n- Nummernfeld\n\n1.12. Wie viele Kinder unter 18 Jahren leben in Ihrem Haushalt?\n\n- Nummernfeld",
+        "specific-questions": "",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -32,19 +33,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
+    "discussion": "Frage konkret noch nachschauen"
   },
   "en": {
     "template": "observation",
     "key": "housing-type",
     "dataset-scope": "Extension",
     "title": "Housing type (owned home, rented apartment, other)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -65,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
+    "discussion": "Frage konkret noch nachschauen"
   }
 }
