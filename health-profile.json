@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:54:31.834424+00:00",
+  "generated": "2026-10-05T12:54:54.668942+00:00",
   "scope": "combined",
-  "commit": "d4147dab368bcdbc81375811c6ab169e776f8e97",
+  "commit": "d8d0712b5768bc40d40bbccd77f9767e5d90d6e9",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7833,7 +7833,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)"
+                "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?"
               },
               "en": {
                 "template": "observation",
@@ -7872,7 +7872,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)"
+                "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?"
               }
             }
           ]
