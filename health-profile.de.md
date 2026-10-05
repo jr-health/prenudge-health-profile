@@ -69,7 +69,7 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Höchste abgeschlossene Schulbildung (ISCED-Level)](#hochste-abgeschlossene-schulbildung-isced-level)
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
 - [Arbeit](#arbeit)
-  - [Beeinträchtigung der Erwerbstätigkeit](#beeintrachtigung-der-erwerbstatigkeit)
+  - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
   - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
@@ -1844,7 +1844,7 @@ Nicht erforderlich
 
 <img src="media/briefcase-business.png" alt="Arbeit" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
-### Beeinträchtigung der Erwerbstätigkeit
+### Erwerbstätigkeit
 
 #### Messinstrumente
 

@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T13:08:34.921874+00:00",
+  "generated": "2026-10-05T13:12:20.018185+00:00",
   "scope": "combined",
-  "commit": "dec06595a03e1e8307922308eb08c1681aa799f8",
+  "commit": "26a9ab41208fe23e7fd35fd9fad65096d020fac6",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -8260,13 +8260,14 @@
                 "template": "observation",
                 "key": "impairment-of-employment",
                 "dataset-scope": "Extension",
-                "title": "Beeinträchtigung der Erwerbstätigkeit",
-                "description": "",
+                "title": "Erwerbstätigkeit",
                 "category": "work",
                 "dimension": "workability",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -8289,32 +8290,41 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "vollzeit, teilzeit, erwerbsunfähig, pension, ausbildung vom Athis nehmen"
               },
               "en": {
                 "template": "observation",
                 "key": "impairment-of-employment",
                 "dataset-scope": "Extension",
                 "title": "Impairment of employment",
-                "description": "",
                 "category": "work",
                 "dimension": "workability",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "vollzeit, teilzeit, erwerbsunfähig, pension, ausbildung vom Athis nehmen"
               }
             },
             {
