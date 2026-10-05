@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:43:12.627066+00:00",
+  "generated": "2026-10-05T12:49:22.019447+00:00",
   "scope": "combined",
-  "commit": "09f2dbd271d83978c4fd15c82af0b79f035e5c6a",
+  "commit": "c07a8f68b857f669be2a3662852b00237076c42d",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7625,17 +7625,18 @@
                 "key": "housing-type",
                 "dataset-scope": "Extension",
                 "title": "Wohnform (Eigenheim, Mietwohnung, Sonstiges)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "1.11. Wie viele Personen - einschließlich Kinder - leben in Ihrem Haushalt, Sie selbst eingeschlossen?\n\n- Nummernfeld\n\n1.12. Wie viele Kinder unter 18 Jahren leben in Ihrem Haushalt?\n\n- Nummernfeld",
+                    "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -7653,19 +7654,20 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
+                "discussion": "Frage konkret noch nachschauen"
               },
               "en": {
                 "template": "observation",
                 "key": "housing-type",
                 "dataset-scope": "Extension",
                 "title": "Housing type (owned home, rented apartment, other)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "living-environment",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -7686,7 +7688,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Zu diskutieren, ob ich wirklich die Wohnform brauche? Oder eher die Anzahl der Personen?"
+                "discussion": "Frage konkret noch nachschauen"
               }
             },
             {
