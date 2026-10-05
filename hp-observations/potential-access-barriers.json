@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Diskriminierung im Gesundheitssystem",
-        "specific-questions": "**Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\n**Mehrfachnennungen möglich.**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: __________\n☐ Keine der genannten Erfahrungen\n\n[https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
+        "specific-questions": "**Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\n**Ja, nein**\n\n**wenn ja dann bitte auswählen (Mehrfachnennungen möglich).**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: __________\n☐ Keine der genannten Erfahrungen\n\nModifiziert nach: [https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -58,7 +58,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Bitte zu soziodemografischen geben."
+    "discussion": "Müssen daraus zwei fragen mache, Sexuelle Orientierung gehört zu den soziodemografischen, Zugangsbeschränkung bleibt da"
   },
   "en": {
     "template": "observation",
@@ -85,6 +85,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com"
           }
         ],
@@ -97,9 +98,23 @@
       },
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "data-type": ""
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
-    "discussion": "Bitte zu soziodemografischen geben."
+    "discussion": "Müssen daraus zwei fragen mache, Sexuelle Orientierung gehört zu den soziodemografischen, Zugangsbeschränkung bleibt da"
   }
 }
