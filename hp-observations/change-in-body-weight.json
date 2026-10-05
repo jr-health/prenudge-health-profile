@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "change-in-body-weight",
     "dataset-scope": "Extension",
-    "title": "Veränderung des Körpergewichts über definierte Zeiträume (kg)",
+    "title": "Verlust des Körpergewichts (kg)",
     "category": "psychosocial-factors",
     "dimension": "weight-changes",
     "description": "",
@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage nach ungewollten gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
+    "discussion": "Frage nach ungewollten Gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage nach ungewollten gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
+    "discussion": "Frage nach ungewollten Gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
   }
 }
