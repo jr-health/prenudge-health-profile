@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:36:08.828652+00:00",
+  "generated": "2026-10-05T12:41:37.680654+00:00",
   "scope": "combined",
-  "commit": "1fde22ee129d6444d6052aa5647d7dd7829f1a80",
+  "commit": "efa269e0bbba82f0a48bf8c6d6790f87e380c76b",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -6699,80 +6699,7 @@
             "verified-health-links": [],
             "discussion": "würden wir aus dem ATHIS nehmen kommt im Oktober 2026! Fragen kommen dann hinein"
           },
-          "observations": [
-            {
-              "de": {
-                "template": "observation",
-                "key": "e-cigarettes-or-tobacco-heaters-number-week",
-                "dataset-scope": "Extension",
-                "title": "E-Zigaretten/Tabakerhitzer (Anzahl/Woche)",
-                "category": "smoking",
-                "dimension": "e-zigaretten-tabakerhitzer",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "ATHIS",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "vom ATHIS 2025 - wird erst im Oktober 2026 publiziert"
-              },
-              "en": {
-                "template": "observation",
-                "key": "e-cigarettes-or-tobacco-heaters-number-week",
-                "dataset-scope": "Extension",
-                "title": "E-cigarettes or tobacco heaters (number/week)",
-                "category": "smoking",
-                "dimension": "e-zigaretten-tabakerhitzer",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "vom ATHIS 2025 - wird erst im Oktober 2026 publiziert"
-              }
-            }
-          ]
+          "observations": []
         },
         {
           "de": {

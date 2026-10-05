@@ -55,7 +55,6 @@ _Version: 0.1.15-test | Generated: 2026-10-05_
   - [Self-assessment of sleep quality](#self-assessment-of-sleep-quality)
   - [Time taken to fall asleep (average minutes)](#time-taken-to-fall-asleep-average-minutes)
 - [Smoking](#smoking)
-  - [E-cigarettes or tobacco heaters (number/week)](#e-cigarettes-or-tobacco-heaters-numberweek)
   - [Pipe or hookah (number/week)](#pipe-or-hookah-numberweek)
   - [Smoking status (never, former, current)](#smoking-status-never-former-current)
   - [attempts to give up](#attempts-to-give-up)
@@ -959,14 +958,6 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 ## Smoking
 
 <img src="media/cigarette-off.png" alt="Smoking" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
-
-### E-cigarettes or tobacco heaters (number/week)
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
 
 ### Pipe or hookah (number/week)
 
