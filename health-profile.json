@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T11:58:04.420640+00:00",
+  "generated": "2026-10-05T12:05:48.544785+00:00",
   "scope": "combined",
-  "commit": "5f79c416507084572c6dbb0cd5cfdf9ba49996e7",
+  "commit": "0ffc375a656b97c5336d9d44a65bbf72ed47d99a",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -4754,7 +4754,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Diskussion mit Franz"
+                "discussion": "Diskussion mit Franz bleibt noch offen"
               },
               "en": {
                 "template": "observation",
@@ -4788,7 +4788,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Diskussion mit Franz"
+                "discussion": "Diskussion mit Franz bleibt noch offen"
               }
             }
           ]
