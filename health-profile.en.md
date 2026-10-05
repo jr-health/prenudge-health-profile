@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.15-test | Generated: 2026-10-05_
+_Version: 0.1.16-test | Generated: 2026-10-05_
 
 ---
 
@@ -71,7 +71,6 @@ _Version: 0.1.15-test | Generated: 2026-10-05_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
-- [Edit History](#edit-history)
 
 ---
 
@@ -1182,14 +1181,3 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
-
-## Edit History
-
-_Changes since version v0.1.15-test:_
-
-| Date | Author |
-|---|---|
-| 2026-10-05 | Thomas Truskaller |
-| 2026-10-05 | shaide79 |
-| 2026-09-30 | shaide79 |
-| 2026-09-23 | Theresa.Weitlaner |
