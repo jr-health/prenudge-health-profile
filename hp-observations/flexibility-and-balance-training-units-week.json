@@ -37,7 +37,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
+    "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
   },
   "en": {
     "template": "observation",
@@ -71,6 +71,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
+    "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
   }
 }
