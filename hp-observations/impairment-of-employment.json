@@ -37,7 +37,7 @@
   },
   "en": {
     "template": "observation",
-    "key": "impairment-of-employment",
+    "key": "employment",
     "dataset-scope": "Extension",
     "title": "Impairment of employment",
     "category": "work",
