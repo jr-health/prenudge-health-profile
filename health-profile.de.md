@@ -71,7 +71,6 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
-  - [Arbeitsausfalltage](#arbeitsausfalltage)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
@@ -225,6 +224,10 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 
 ### Taillen-/Bauchumfang (cm)
 
+**Beschreibung für Fachpersonal:**
+
+Der **Bauchumfang** bzw. **Taillenumfang** (_waist circumference_) bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe "Rippe") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm "Beckenkamm") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe "Fettgewebe"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett "Viszeralfett").
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -250,6 +253,8 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 - **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).
 - Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.
 
+**Population:** Erwachsene
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -259,9 +264,10 @@ Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Vertei
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- | **Frauen** | < 0,85 | ≥ 0,85 |
+- Frauen: <0,85;  ≥0,85 
+Männer <0,90; ≥0,90
 
-| **Männer** | < 0,90 | ≥ 0,90 |
+**Scoring-Algorithmus:** Taillienumfang (cm)/Hüftumfang (cm)
 
 **Quellen:**
 - [Overweight and obesity: Background". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.](https://www.ncbi.nlm.nih.gov/books/NBK2003/)
@@ -1907,14 +1913,6 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 **Quellen:**
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
-### Arbeitsausfalltage
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
 ---
 
 ## Bearbeitungshistorie
@@ -1923,6 +1921,7 @@ _Änderungen seit Version v0.1.15-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-10-05 | Thomas Truskaller |
 | 2026-10-05 | shaide79 |
 | 2026-09-30 | shaide79 |
 | 2026-09-23 | Theresa.Weitlaner |

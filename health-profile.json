@@ -1,11 +1,15 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T13:12:20.018185+00:00",
+  "generated": "2026-10-05T14:45:55.261461+00:00",
   "scope": "combined",
-  "commit": "26a9ab41208fe23e7fd35fd9fad65096d020fac6",
+  "commit": "8a89200faeb87c5385db5b301ac605f3382268d2",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
+      {
+        "date": "2026-10-05",
+        "author": "Thomas Truskaller"
+      },
       {
         "date": "2026-10-05",
         "author": "shaide79"
@@ -829,17 +833,18 @@
                 "key": "waist-circumference",
                 "dataset-scope": "Extension",
                 "title": "Taillen-/Bauchumfang (cm)",
-                "description": "",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
+                "description": "Der **Bauchumfang** bzw. **Taillenumfang** (_waist circumference_) bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe \"Rippe\") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm \"Beckenkamm\") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe \"Fettgewebe\"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett \"Viszeralfett\").",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Abb. 2)",
+                    "specific-questions": "Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Abb.)",
                     "unit": "cm",
                     "data-format": "",
                     "data-type": "",
@@ -873,12 +878,13 @@
                 "key": "waist-circumference",
                 "dataset-scope": "Extension",
                 "title": "Waist circumference (cm)",
-                "description": "",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -913,17 +919,18 @@
                 "key": "waist-to-hip-ratio",
                 "dataset-scope": "Extension",
                 "title": "Hüft-Taillen-Verhältnis",
-                "description": "Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.\n\n- **Niedrigeres WHR:** relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).\n- **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).\n- Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
-                "population": "",
-                "disease-association": [],
+                "description": "Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.\n\n- **Niedrigeres WHR:** relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).\n- **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).\n- Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.",
                 "citizen-info": "",
+                "verified-health-links": [],
+                "population": "Erwachsene",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "- Die teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n- Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Crista iliaca) (Abb. 2).\n- Hüftumfang\n- Messen Sie an der breitesten Stelle des Gesäßes (Abb. 3).\n- Legen Sie das Maßband auf der rechten Seite des Messpunktes an. Die Hand der untersuchenden Person darf weder auf dem Schambereich noch auf dem Gesäß der teilnehmenden Person liegen.\n- Die teilnehmende Person hält den Anfang des Maßbandes fest.\n- Die untersuchende Person führt das Maßband waagerecht um den Körper, ohne dass es sich verdreht.\n- Vor dem Ablesen des Umfangs muss die teilnehmende Person entspannt ausatmen.\n- Das Maßband sollte eng anliegen, darf jedoch nicht in den Körper einschneiden.\n- Der Umfang wird auf Augenhöhe des Maßbandes auf 0,1 cm genau abgelesen.\n- Die Messung wird als Doppelbestimmung durchgeführt: Das Maßband wird erneut angelegt und die Messung wird wiederholt.",
+                    "specific-questions": "Die teilnehmende Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n\nMarkieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Crista iliaca)\n\nHüftumfang\n\n- Messen Sie an der breitesten Stelle des Gesäßes.\n- Legen Sie das Maßband auf der rechten Seite des Messpunktes an. Die Hand der untersuchenden Person darf weder auf dem Schambereich noch auf dem Gesäß der teilnehmenden Person liegen.\n- Die teilnehmende Person hält den Anfang des Maßbandes fest.\n- Die untersuchende Person führt das Maßband waagerecht um den Körper, ohne dass es sich verdreht.\n- Vor dem Ablesen des Umfangs muss die teilnehmende Person entspannt ausatmen.\n- Das Maßband sollte eng anliegen, darf jedoch nicht in den Körper einschneiden.\n- Der Umfang wird auf Augenhöhe des Maßbandes auf 0,1 cm genau abgelesen.\n- Die Messung wird als Doppelbestimmung durchgeführt: Das Maßband wird erneut angelegt und die Messung wird wiederholt.",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -932,10 +939,10 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [
                       {
-                        "specific-norm": "| **Frauen** | < 0,85 | ≥ 0,85 |\n\n| **Männer** | < 0,90 | ≥ 0,90 |"
+                        "specific-norm": "Frauen: <0,85;  ≥0,85 \nMänner <0,90; ≥0,90"
                       }
                     ],
-                    "scoring-algorithm": "",
+                    "scoring-algorithm": "Taillienumfang (cm)/Hüftumfang (cm)",
                     "sources": [
                       {
                         "source-description": "Overweight and obesity: Background\". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.",
@@ -957,12 +964,13 @@
                 "key": "waist-to-hip-ratio",
                 "dataset-scope": "Extension",
                 "title": "Waist-to-hip ratio (WHR)",
-                "description": "",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -8258,7 +8266,7 @@
             {
               "de": {
                 "template": "observation",
-                "key": "impairment-of-employment",
+                "key": "employment",
                 "dataset-scope": "Extension",
                 "title": "Erwerbstätigkeit",
                 "category": "work",
@@ -8294,7 +8302,7 @@
               },
               "en": {
                 "template": "observation",
-                "key": "impairment-of-employment",
+                "key": "employment",
                 "dataset-scope": "Extension",
                 "title": "Impairment of employment",
                 "category": "work",
@@ -8424,78 +8432,6 @@
                   }
                 ],
                 "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "work-absence-days",
-                "dataset-scope": "Extension",
-                "title": "Arbeitsausfalltage",
-                "category": "work",
-                "dimension": "workability",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "kann man darauf zugreifen?!"
-              },
-              "en": {
-                "template": "observation",
-                "key": "work-absence-days",
-                "dataset-scope": "Extension",
-                "title": "Work absence days",
-                "category": "work",
-                "dimension": "workability",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": "kann man darauf zugreifen?!"
               }
             }
           ]
