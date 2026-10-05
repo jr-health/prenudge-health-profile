@@ -1,9 +1,9 @@
 {
   "de": {
     "template": "observation",
-    "key": "fatigue-daily-energy-performance-capacity",
+    "key": "fatigue",
     "dataset-scope": "Extension",
-    "title": "Müdigkeit und tägliche Energie/Leistungsfähigkeit",
+    "title": "Müdigkeit",
     "category": "psychosocial-factors",
     "dimension": "fatigue-decline-in-performance",
     "description": "",
@@ -33,11 +33,11 @@
         "app-providers": []
       }
     ],
-    "discussion": "Energie ist im WHOQOL dabei - Frage ob wir täglich Energie und Leistungsfähigkeit brauchen"
+    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden"
   },
   "en": {
     "template": "observation",
-    "key": "fatigue-daily-energy-performance-capacity",
+    "key": "fatigue",
     "dataset-scope": "Extension",
     "title": "Fatigue and daily energy/performance capacity",
     "category": "psychosocial-factors",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Energie ist im WHOQOL dabei - Frage ob wir täglich Energie und Leistungsfähigkeit brauchen"
+    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden"
   }
 }
