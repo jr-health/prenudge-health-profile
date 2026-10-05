@@ -4,17 +4,18 @@
     "key": "residence",
     "dataset-scope": "Extension",
     "title": "Wohnortgröße (Stadt/Land)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "1.9. Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
+        "specific-questions": "Welcher der folgenden Sätze beschreibt das Gebiet, in dem Sie leben, am besten?\n\n1. Eine große Stadt\n2. Die Vororte oder Außenbezirke einer Großstadt\n3. Eine Stadt oder eine Kleinstadt\n4. Auf dem Land",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -32,19 +33,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
+    "discussion": "soll zusätzlich zur PLZ erhoben werden"
   },
   "en": {
     "template": "observation",
     "key": "residence",
     "dataset-scope": "Extension",
     "title": "Residence (urban/rural)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "living-environment",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -65,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "oder könenn wir es von der Postleitzahl ableiten?"
+    "discussion": "soll zusätzlich zur PLZ erhoben werden"
   }
 }
