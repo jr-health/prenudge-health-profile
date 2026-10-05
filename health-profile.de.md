@@ -37,7 +37,7 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Müdigkeit](#mudigkeit)
   - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
-  - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veranderung-des-korpergewichts-uber-definierte-zeitraume-kg)
+  - [Verlust des Körpergewichts (kg)](#verlust-des-korpergewichts-kg)
 - [Lebensqualität](#lebensqualitat)
   - [Lebensqualität (0-100 Score)](#lebensqualitat-0-100-score)
 - [Selbstmanagement](#selbstmanagement)
@@ -1167,7 +1167,7 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Veränderung des Körpergewichts über definierte Zeiträume (kg)
+### Verlust des Körpergewichts (kg)
 
 #### Messinstrumente
 
