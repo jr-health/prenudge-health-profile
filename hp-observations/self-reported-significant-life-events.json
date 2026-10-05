@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "[https://pubmed.ncbi.nlm.nih.gov/27760568/](https://pubmed.ncbi.nlm.nih.gov/27760568/)\n\n**Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt?**\n\nBitte wählen Sie alle zutreffenden Antworten aus.\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
+        "specific-questions": "[https://pubmed.ncbi.nlm.nih.gov/27760568/](https://pubmed.ncbi.nlm.nih.gov/27760568/)\n\n**Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt? (**Bitte wählen Sie alle zutreffenden Antworten aus.)\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Komment franz: Traumatische ereignisse ev. noch zusätzlich fragen? Ev für die Zukunft, Sandra fragt bei Krotti nach; Sexueller Missbrauch, Krieg...."
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Komment franz: Traumatische ereignisse ev. noch zusätzlich fragen? Ev für die Zukunft, Sandra fragt bei Krotti nach; Sexueller Missbrauch, Krieg...."
   }
 }
