@@ -24,7 +24,7 @@
         "recommended-monitoring-frequency": "",
         "norms": [
           {
-            "specific-norm": "| **Frauen** | < 0,85 | ≥ 0,85 |\n\n| **Männer** | < 0,90 | ≥ 0,90 |"
+            "specific-norm": "Frauen: <0,85;  ≥0,85 \nMänner <0,90; ≥0,90"
           }
         ],
         "scoring-algorithm": "Taillienumfang (cm)/Hüftumfang (cm)",
