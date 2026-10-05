@@ -20,13 +20,51 @@ Requires:
     pip install jinja2
 """
 
+import html
 import json
+import re
 import argparse
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
+from markupsafe import Markup
 
 ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT / "render" / "templates"
+
+MD_ESCAPE_RE = re.compile(r"\\([\\`*_{}\[\]()#+\-.!])")
+MD_LINK_RE = re.compile(r'\[([^\]]+)\]\(\s*(https?://[^)\s]+)(?:\s+"[^"]*")?\s*\)')
+MD_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+# word-bounded so blanks like "nämlich: _____" and snake_case stay literal
+MD_ITALIC_RE = re.compile(r"(?<![\w*_])[_*](?![\s_*])(.+?)(?<![\s_*])[_*](?![\w*_])")
+MD_STASH_RE = re.compile(r"\x00(\d+)\x00")
+
+
+def md_html(text: str) -> Markup:
+    """Render the small Markdown subset the CMS richtext fields use (bold, italic,
+    links, backslash escapes, line/paragraph breaks) to HTML for table cells.
+
+    Deliberately not a full Markdown parser - CI only installs jinja2, and these
+    fields are short free-text notes. Input is HTML-escaped first."""
+    if not text or not str(text).strip():
+        return Markup("")
+    escapes = []
+
+    def stash(match):
+        escapes.append(match.group(1))
+        return f"\x00{len(escapes) - 1}\x00"
+
+    text = str(text).strip().replace("\r\n", "\n")
+    text = MD_ESCAPE_RE.sub(stash, text)
+    text = html.escape(text, quote=False)
+    text = MD_LINK_RE.sub(
+        lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', text
+    )
+    text = MD_BOLD_RE.sub(r"<strong>\1</strong>", text)
+    text = MD_ITALIC_RE.sub(r"<em>\1</em>", text)
+    text = MD_STASH_RE.sub(lambda m: html.escape(escapes[int(m.group(1))]), text)
+    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+    return Markup("".join("<p>" + p.replace("\n", "<br>") + "</p>" for p in paragraphs))
+
 
 PAGES = [
     {"name": "browse", "active": "table"},
@@ -54,6 +92,7 @@ def main():
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["md_html"] = md_html
 
     for page in PAGES:
         for locale in ("de", "en"):

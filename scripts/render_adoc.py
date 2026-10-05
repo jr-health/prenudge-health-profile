@@ -70,6 +70,14 @@ TEMPLATES_DIR = ROOT / "render" / "templates"
 # nested form uses AsciiDoc's alternate "!===" / "!" delimiter instead, and
 # the target cell has to be an AsciiDoc ("a|") cell to parse block content
 # (a table) at all; plain cells only ever get a single inline paragraph.
+#
+# Links: [text](https://... "title"). Not AsciiDoc syntax either -- left alone,
+# asciidoctor autolinks the bare URL(s) inside and keeps the brackets, so
+# "[https://x](https://x)" comes out as two links wrapped in stray "[", "](",
+# ")". Rewritten into the link: macro (after images, so "![...](...)" is never
+# mistaken for a link); the optional "title" tooltip is dropped, the docx
+# output has nowhere to show it.
+MD_LINK_RE = re.compile(r'(?<!!)\[([^\]]*)\]\(\s*(https?://[^\s)]+)(?:\s+"[^"]*")?\s*\)')
 MD_IMAGE_RE = re.compile(r'!\[([^\]]*)\]\(\s*(\S+?)(?:\s+"[^"]*")?\s*\)')
 MD_HEADING_RE = re.compile(r"^#{1,6}[ \t]+(.+?)[ \t]*$", re.MULTILINE)
 INLINE_HEADING_START = ""
@@ -181,7 +189,7 @@ def _apply_hardbreaks(text: str) -> str:
 
 
 def md_richtext_to_adoc(text: str, nested: bool = False) -> str:
-    """Rewrite Markdown images, ATX headings and pipe tables into AsciiDoc-safe equivalents."""
+    """Rewrite Markdown images, links, ATX headings and pipe tables into AsciiDoc-safe equivalents."""
     if not text:
         return text
 
@@ -206,6 +214,19 @@ def md_richtext_to_adoc(text: str, nested: bool = False) -> str:
         return f"image:{url}[{alt}]"
 
     text = MD_IMAGE_RE.sub(image_repl, text)
+
+    def link_repl(match: "re.Match[str]") -> str:
+        label, url = match.group(1).strip(), match.group(2)
+        if not label or label == url:
+            return f"link:{url}[]"
+        label = label.replace("]", "\\]")
+        # Asciidoctor only parses the link text as attributes when it contains
+        # an "=" -- quote it then, so the label isn't swallowed as an attribute.
+        if "=" in label:
+            label = '"' + label.replace('"', "'") + '"'
+        return f"link:{url}[{label}]"
+
+    text = MD_LINK_RE.sub(link_repl, text)
     return _apply_hardbreaks(text)
 
 

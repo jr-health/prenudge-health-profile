@@ -83,6 +83,35 @@
     render();
   });
 
+  // Discussion column on/off. Purely presentational (a class on the table, CSS
+  // hides the cells), so it doesn't touch row filtering or pagination. The choice
+  // is remembered per browser; storage can be unavailable (private mode, blocked
+  // site data), in which case the column simply starts visible.
+  const DISCUSSION_KEY = "hp:discussion";
+  const discussionSwitch = document.getElementById("discussion-switch");
+
+  function setDiscussion(mode) {
+    if (table) table.classList.toggle("hide-discussion", mode === "hide");
+    if (discussionSwitch) {
+      discussionSwitch.querySelectorAll("button[data-discussion]").forEach(b => {
+        b.setAttribute("aria-pressed", String(b.dataset.discussion === mode));
+      });
+    }
+  }
+
+  if (discussionSwitch) {
+    let stored = null;
+    try { stored = localStorage.getItem(DISCUSSION_KEY); } catch (e) { /* storage blocked */ }
+    if (stored === "show" || stored === "hide") setDiscussion(stored);
+
+    discussionSwitch.addEventListener("click", event => {
+      const button = event.target.closest("button[data-discussion]");
+      if (!button) return;
+      setDiscussion(button.dataset.discussion);
+      try { localStorage.setItem(DISCUSSION_KEY, button.dataset.discussion); } catch (e) { /* storage blocked */ }
+    });
+  }
+
   // The table is rendered with every row present, so the starting data set (the
   // default pressed segment, or an incoming ?set=) has to be applied once on
   // load - there is no event to wait for.

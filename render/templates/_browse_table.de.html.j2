@@ -5,6 +5,7 @@
       <th>Beobachtung / Gesundheitsindikator</th>
       <th>Messinstrument</th>
       <th>FHIR IG</th>
+      <th class="discussion">Diskussion</th>
     </tr>
   </thead>
   <tbody>
@@ -41,6 +42,7 @@
 {% if name.startswith('Questionnaire-') %}{% set name = name[14:] %}{% endif %}
 <div><a href="{{ link }}" target="_blank" rel="noopener">{{ name }}</a></div>
 {%- endfor %}</td>
+      <td class="discussion">{{ (o.get('discussion') or obs.en.get('discussion')) | md_html }}</td>
     </tr>
 {% endfor %}
 {% endfor %}

@@ -222,6 +222,10 @@
   .table-panel tbody tr { transition: background-color 0.12s; }
   .table-panel tbody tr:hover { background: #f5f5f5; }
   .table-panel td div + div { margin-top: 0.5rem; }
+  .table-panel td.discussion { min-width: 14rem; }
+  .table-panel td.discussion p { margin: 0; }
+  .table-panel td.discussion p + p { margin-top: 0.5rem; }
+  .table-panel table.hide-discussion .discussion { display: none; }
 
   .table-pager {
     display: flex;
@@ -317,6 +321,7 @@
   .scope-switch button:hover { color: #004E64; }
   .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
   .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  .scope-bar .scope-bar-group { margin-left: 1rem; }
   .toolbar-spacer { flex: 1 1 auto; }
   .toolbar-btn {
     font-family: inherit;

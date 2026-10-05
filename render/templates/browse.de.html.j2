@@ -9,6 +9,11 @@
     <button type="button" data-scope="minimalset" aria-pressed="true">Minimalset</button>
     <button type="button" data-scope="extended" aria-pressed="false">Erweitert</button>
   </div>
+  <span id="discussion-label" class="scope-bar-group">Diskussion</span>
+  <div class="scope-switch" id="discussion-switch" role="group" aria-labelledby="discussion-label">
+    <button type="button" data-discussion="show" aria-pressed="true">Ein</button>
+    <button type="button" data-discussion="hide" aria-pressed="false">Aus</button>
+  </div>
 </div>
 {% endblock %}
 {% block content %}

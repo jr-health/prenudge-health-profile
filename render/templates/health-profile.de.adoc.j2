@@ -2,6 +2,41 @@
 
 _Version {{ profile.version }} · Generiert: {{ profile.generated[:10] }}_
 
+{# discussion is i18n: duplicate - fall back to the other locale like other shared fields #}
+{% set ns_disc = namespace(rows=[]) %}
+{% for cat in profile.categories %}
+{% set cat_title = cat.de.title | default(cat.en.title) %}
+{% set cat_disc = cat.de.get('discussion') or cat.en.get('discussion') %}
+{% if cat_disc and cat_disc | trim %}{% set ns_disc.rows = ns_disc.rows + [[cat_title, none, cat_disc]] %}{% endif %}
+{% for dim in cat.dimensions %}
+{% for obs in dim.observations %}
+{% set obs_disc = obs.de.get('discussion') or obs.en.get('discussion') %}
+{% if obs_disc and obs_disc | trim %}{% set ns_disc.rows = ns_disc.rows + [[cat_title, obs.de.title | default(obs.en.title), obs_disc]] %}{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% if ns_disc.rows %}
+
+[[diskussionspunkte]]
+== Diskussionspunkte
+
+_Offene Punkte und Kommentare aus der medizinischen Abstimmung, gesammelt aus allen Kategorien und Beobachtungen._
+
+[options="header",cols="2,3,7"]
+|===
+| Kategorie | Beobachtung | Diskussion
+
+{% for row in ns_disc.rows %}
+| <<{{ row[0] | anchor }},{{ row[0] }}>>
+| {{ ('<<' ~ (row[1] | anchor) ~ ',' ~ row[1] ~ '>>') if row[1] else '_(Kategorie)_' }}
+a| {{ row[2] | trim | md_adoc(true) }}
+
+{% endfor %}
+|===
+
+'''
+{% endif %}
+
 {% for cat in profile.categories %}
 {% set c = cat.de %}
 
@@ -18,6 +53,13 @@ _Version {{ profile.version }} · Generiert: {{ profile.generated[:10] }}_
 *Information für Bevölkerung:*
 
 {{ c['description-laymen'] | md_adoc }}
+{% endif %}
+{% set cat_disc = c.get('discussion') or cat.en.get('discussion') %}
+{% if cat_disc and cat_disc | trim %}
+
+*Diskussion:*
+
+{{ cat_disc | trim | md_adoc }}
 {% endif %}
 {% set ns_cat = namespace(obs_count=0) %}
 {% for dim in cat.dimensions %}{% set ns_cat.obs_count = ns_cat.obs_count + (dim.observations | length) %}{% endfor %}
@@ -78,6 +120,13 @@ _Keine Beobachtungen erfasst._
 * link:{{ link.get('url') }}[{{ link.get('title') or link.get('url') }}]{% if link.get('note') %} — {{ link.get('note') }}{% endif %}
 
 {% endfor %}
+{% endif %}
+{% set obs_disc = o.get('discussion') or obs.en.get('discussion') %}
+{% if obs_disc and obs_disc | trim %}
+
+*Diskussion:*
+
+{{ obs_disc | trim | md_adoc }}
 {% endif %}
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
