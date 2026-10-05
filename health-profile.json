@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:29:56.499056+00:00",
+  "generated": "2026-10-05T12:36:08.828652+00:00",
   "scope": "combined",
-  "commit": "d79639ccc141c41d0eea22587d2d5e5eb06c6f79",
+  "commit": "1fde22ee129d6444d6052aa5647d7dd7829f1a80",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7466,7 +7466,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
               },
               "en": {
                 "template": "observation",
@@ -7500,7 +7500,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
+                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
               }
             }
           ]
