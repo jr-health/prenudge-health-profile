@@ -3,18 +3,19 @@
     "template": "observation",
     "key": "ethnicity",
     "dataset-scope": "Extension",
-    "title": "Herkunft - Ethnische Zugehörigkeit",
-    "description": "",
+    "title": "Alltagssprache",
     "category": "sociodemographic-data",
     "dimension": "origin",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)",
+        "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch;\n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; Überwiegend Deutsch; Deutsch und eine andere Sprache (bzw. Sprachen); Überwiegend eine andere Sprache (bzw. Sprachen); Ausschließlich eine andere Sprache (bzw. Sprachen)",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -44,12 +45,13 @@
     "key": "ethnicity",
     "dataset-scope": "Extension",
     "title": "Origin (Ethnicity)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "origin",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -63,6 +65,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
           }
         ],
