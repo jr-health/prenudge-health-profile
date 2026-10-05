@@ -222,6 +222,10 @@
   .table-panel tbody tr { transition: background-color 0.12s; }
   .table-panel tbody tr:hover { background: #f5f5f5; }
   .table-panel td div + div { margin-top: 0.5rem; }
+  .table-panel td.discussion { min-width: 14rem; }
+  .table-panel td.discussion p { margin: 0; }
+  .table-panel td.discussion p + p { margin-top: 0.5rem; }
+  .table-panel table.hide-discussion .discussion { display: none; }
 
   .table-pager {
     display: flex;
@@ -317,6 +321,7 @@
   .scope-switch button:hover { color: #004E64; }
   .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
   .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  .scope-bar .scope-bar-group { margin-left: 1rem; }
   .toolbar-spacer { flex: 1 1 auto; }
   .toolbar-btn {
     font-family: inherit;
@@ -425,7 +430,7 @@
   <main>
 <h1 class="page-title">Sunburst — PreNUDGE Health Profile</h1>    <div class="meta-bar">
       <p class="meta-text">Version 0.1.16-test · Generated: 2026-10-05 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/68fa8d52a70301ce04245ad918408021bd04a149">68fa8d5</a> ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/32b3db906d2f811e3d09b3e1a858a62e73056a0f">32b3db9</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="sunburst.en.html" class="active">EN</a><a data-keep-scope href="sunburst.de.html">DE</a></div>
     </div>
