@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
+    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen!"
+    "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
   }
 }
