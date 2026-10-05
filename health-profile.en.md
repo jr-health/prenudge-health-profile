@@ -36,7 +36,6 @@ _Version: 0.1.15-test | Generated: 2026-10-05_
   - [Self-reported emotional burden](#self-reported-emotional-burden)
   - [Fatigue and daily energy/performance capacity](#fatigue-and-daily-energyperformance-capacity)
   - [Self-reported significant life events](#self-reported-significant-life-events)
-  - [Loneliness/Social support (number of close relationships)](#lonelinesssocial-support-number-of-close-relationships)
   - [Susceptibility to infection (number within a defined period)](#susceptibility-to-infection-number-within-a-defined-period)
   - [Change in body weight over defined periods (kg)](#change-in-body-weight-over-defined-periods-kg)
 - [Quality of Life](#quality-of-life)
@@ -696,14 +695,6 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **Sunburst Chart Status:** draft
 
 ### Self-reported significant life events
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Loneliness/Social support (number of close relationships)
 
 #### Measurement Instruments
 

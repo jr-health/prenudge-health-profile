@@ -36,7 +36,6 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
   - [Müdigkeit](#mudigkeit)
   - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
-  - [Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)](#einsamkeitsoziale-unterstutzung-anzahl-enger-bezugspersonen)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
   - [Veränderung des Körpergewichts über definierte Zeiträume (kg)](#veranderung-des-korpergewichts-uber-definierte-zeitraume-kg)
 - [Lebensqualität](#lebensqualitat)
@@ -1153,14 +1152,6 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 **Information für Bevölkerung:**
 
 Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Einsamkeit/Soziale Unterstützung (Anzahl enger Bezugspersonen)
 
 #### Messinstrumente
 
