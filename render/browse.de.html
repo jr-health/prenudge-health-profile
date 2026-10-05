@@ -222,6 +222,10 @@
   .table-panel tbody tr { transition: background-color 0.12s; }
   .table-panel tbody tr:hover { background: #f5f5f5; }
   .table-panel td div + div { margin-top: 0.5rem; }
+  .table-panel td.discussion { min-width: 14rem; }
+  .table-panel td.discussion p { margin: 0; }
+  .table-panel td.discussion p + p { margin-top: 0.5rem; }
+  .table-panel table.hide-discussion .discussion { display: none; }
 
   .table-pager {
     display: flex;
@@ -317,6 +321,7 @@
   .scope-switch button:hover { color: #004E64; }
   .scope-switch button[aria-pressed="true"] { background: #004E64; color: #fff; }
   .scope-switch button:focus-visible { outline: 2px solid #004E64; outline-offset: -2px; }
+  .scope-bar .scope-bar-group { margin-left: 1rem; }
   .toolbar-spacer { flex: 1 1 auto; }
   .toolbar-btn {
     font-family: inherit;
@@ -424,8 +429,8 @@
 
   <main>
 <h1 class="page-title">Tabelle — PräNUDGE Gesundheitsprofil</h1>    <div class="meta-bar">
-      <p class="meta-text">Version 0.1.16-test · Generiert: 2026-10-05 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/68fa8d52a70301ce04245ad918408021bd04a149">68fa8d5</a> ·
+      <p class="meta-text">Version 0.1.17-test · Generiert: 2026-10-05 ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/d06183a55e9cdca5778137e25b9b3c634387818b">d06183a</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html">EN</a><a data-keep-scope href="browse.de.html" class="active">DE</a></div>
     </div>
@@ -435,6 +440,11 @@
     <button type="button" data-scope="combined" aria-pressed="false">Gesamt</button>
     <button type="button" data-scope="minimalset" aria-pressed="true">Minimalset</button>
     <button type="button" data-scope="extended" aria-pressed="false">Erweitert</button>
+  </div>
+  <span id="discussion-label" class="scope-bar-group">Diskussion</span>
+  <div class="scope-switch" id="discussion-switch" role="group" aria-labelledby="discussion-label">
+    <button type="button" data-discussion="show" aria-pressed="true">Ein</button>
+    <button type="button" data-discussion="hide" aria-pressed="false">Aus</button>
   </div>
 </div>
 <p class="disclaimer">Im Aufbau — diese Seite zeigt vorläufige Testdaten und wird noch weiterentwickelt. Inhalt und Layout können sich noch ändern.</p>
@@ -446,6 +456,7 @@
       <th>Beobachtung / Gesundheitsindikator</th>
       <th>Messinstrument</th>
       <th>FHIR IG</th>
+      <th class="discussion">Diskussion</th>
     </tr>
   </thead>
   <tbody>
@@ -454,318 +465,371 @@
       <td>Konsumhäufigkeit von Alkohol (Tage/Woche oder Getränke/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html" target="_blank" rel="noopener">at-prenudge-alcoholuse-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen</p></td>
     </tr>
     <tr data-category="anthropometry" data-observation="body-mass-index" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometrie</td>
       <td>Body-Mass-Index (kg/m²)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-bmi-observation.html" target="_blank" rel="noopener">at-prenudge-bmi-observation</a></div></td>
+      <td class="discussion"><p>Fragen (Selbstangaben)</p><p>Im FHIR haben wir BMI auch als Wearable. --&gt; Ergänzen?</p></td>
     </tr>
     <tr data-category="anthropometry" data-observation="waist-circumference" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometrie</td>
       <td>Taillen-/Bauchumfang (cm)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="anthropometry" data-observation="waist-to-hip-ratio" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometrie</td>
       <td>Hüft-Taillen-Verhältnis</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Ähnlich wie bei BMI (berechnet)</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="cereals-potatoes-rice-pasta-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Fragebogen ergänzen</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="dairy-products-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Milchprodukte (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Milchprodukte müssen noch getrennt werden. --&gt; erledigt</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="fish-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Fisch (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Muss auf Fisch und Fleisch aufgeteilt werden. --&gt; erledigt</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="fruit-vegetable-consumption" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Gemüse- und Obstkonsum (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html" target="_blank" rel="noopener">at-prenudge-nutrition-vegetableportions-observation</a></div></td>
+      <td class="discussion"><p>Obst und Gemüse splitten</p><p>Bei allen Ernährungsfragen von der letzten Woche.</p><p>Bild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="highly-processed-foods-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Stark verarbeitete Lebensmittel (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="nutrition" data-observation="legumes-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Hülsenfrüchte (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="nutrition" data-observation="meat-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Fleisch (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Muss auf Fisch und Fleisch aufgeteilt werden. --&gt; erledigt</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="non-alcoholic-unsweetened-drinks-glasses-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Alkoholfreie, ungesüßte Getränke (Gläser/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="nutrition" data-observation="oils-fats-nuts-seeds-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Öle/Fette/Nüsse/Samen (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Milchprodukte müssen noch getrennt werden. --&gt; erledigt</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="sugary-salty-foods-portions-week" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Zucker- und salzreiche Lebensmittel (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html" target="_blank" rel="noopener">at-prenudge-nutrition-sugarsalty-observation</a></div></td>
+      <td class="discussion"><p>Bei allen Ernährungsfragen von der letzten Woche.</p><p>Bild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="moderate-vigorous-endurance-oriented-activity-minutes-week" data-scope="minimalset" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="planned amendment needed" data-vis-status="published">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-physical-activity-minutes-observation.html" target="_blank" rel="noopener">at-prenudge-physical-activity-minutes-observation</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqPhysicalActivityQuestionnaire.html" target="_blank" rel="noopener">EhisPaqPhysicalActivityQuestionnaire</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p><p>(messen unterschiedliche Dinge und können nicht umgerechnet werden!)</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="everyday-activity-steps-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Alltagsaktivität (Schritte/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-StepCountEhisPaqQuestionnaire.html" target="_blank" rel="noopener">StepCountEhisPaqQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html" target="_blank" rel="noopener">at-prenudge-stepcount-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p><p>Anmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="flexibility-and-balance-training-units-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu</p><p>Hinweis, dass es ab 65 Gleichgewicht sein soll</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="muscle-strengthening-exercises-units-week" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Muskelkräftigende Übungen (Einheiten/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqMuscleStrengtheningQuestionnaire.html" target="_blank" rel="noopener">EhisPaqMuscleStrengtheningQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-muscle-strengthening-observation.html" target="_blank" rel="noopener">at-prenudge-muscle-strengthening-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="sitting-hours-per-day" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
       <td>Sitzzeit (Stunden/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html" target="_blank" rel="noopener">EhisPaqSittingHoursQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sitting-hours-observation.html" target="_blank" rel="noopener">at-prenudge-sitting-hours-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="potential-access-barriers" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Potenzielle Zugangshindernisse</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Müssen daraus zwei fragen mache, Sexuelle Orientierung gehört zu den soziodemografischen, Zugangsbeschränkung bleibt da</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-stress" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über Stress</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html" target="_blank" rel="noopener">at-prenudge-pss10-score-observation</a></div></td>
+      <td class="discussion"><p>Fragebögen</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über Resilienz</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.</p><p>Die DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, &lt; 3,0 markiert eine reduzierte Resilienz)</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-emotional-burden" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über emotionale Belastung</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whooley-observation.html" target="_blank" rel="noopener">at-prenudge-whooley-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="fatigue" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Müdigkeit</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>müdigkeit bleibt, Frage muss noch gesucht werden</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-significant-life-events" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über bedeutende Lebensereignisse</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Komment franz: Traumatische ereignisse ev. noch zusätzlich fragen? Ev für die Zukunft, Sandra fragt bei Krotti nach; Sexueller Missbrauch, Krieg....</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="susceptibility-to-infection-number-period" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Infektanfälligkeit (Anzahl innerhalb definierter Periode)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Diskussion mit Franz bleibt noch offen</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="change-in-body-weight" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Verlust des Körpergewichts (kg)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Frage nach ungewollten Gewichtsverlust ?</p><p><strong>Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?</strong></p><p>☐ Nein<br>☐ Ja</p><p>Literatur: MNA; SNAQ</p></td>
     </tr>
     <tr data-category="quality-of-life" data-observation="quality-of-life-score" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f8e4bf;"></span>Lebensqualität</td>
       <td>Lebensqualität (0-100 Score)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-whoqol-bref-score-observation.html" target="_blank" rel="noopener">at-prenudge-whoqol-bref-score-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen</p></td>
     </tr>
     <tr data-category="self-management" data-observation="health-literacy" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Verständnis von gesundheitsbezogener Information</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="self-management" data-observation="reporting-symptoms-or-changes" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Meldung von Symptomen oder Veränderungen an Fachkräfte</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="self-management" data-observation="monitoring-of-medication-and-vaccination-status" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Eigenständige Kontrolle von Medikamenten- und Impfstatus</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Trennung von Medikamenten und Impfung</p><p>Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.</p><p>Erinnerung an Überprüfung des Impfstatus</p><p><strong>Selbstbeobachtungen von Medikamenten(neben)wirkung</strong></p><p><strong>Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?</strong><br><em>Bitte wählen Sie alle zutreffenden Antworten aus.</em></p><p>☐ Übelkeit oder Erbrechen<br>☐ Durchfall oder Verstopfung<br>☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden<br>☐ Schwindel oder Benommenheit<br>☐ Kopfschmerzen<br>☐ Müdigkeit oder Schläfrigkeit<br>☐ Schlafstörungen<br>☐ Konzentrations- oder Gedächtnisprobleme<br>☐ Hautausschlag oder Juckreiz<br>☐ Schwitzen<br>☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden<br>☐ Atembeschwerden<br>☐ Appetitveränderungen<br>☐ Ungewollte Gewichtszunahme<br>☐ Ungewollter Gewichtsverlust<br>☐ Muskel- oder Gelenkschmerzen<br>☐ Sexuelle Beschwerden<br>☐ Probleme beim Wasserlassen<br>☐ Stimmungsschwankungen oder andere psychische Beschwerden<br>☐ Andere Nebenwirkung, nämlich: _____________<br>☐ Keine Nebenwirkungen bemerkt</p><p><a href="https://pubmed.ncbi.nlm.nih.gov/23553447/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/23553447/</a></p></td>
     </tr>
     <tr data-category="self-management" data-observation="blood-glucose-level" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Blutzuckerwert (mg/dl)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td></td>
+      <td class="discussion"><p>Hba1C wird nicht dabei sein</p><p>Uhrzeit soll unbedingt dabei sein</p></td>
     </tr>
     <tr data-category="self-management" data-observation="blood-pressure" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Blutdruck (mmHg)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td></td>
+      <td class="discussion"><p>Unterscheidung systolisch und diastolisch + Herzfrequenz</p></td>
     </tr>
     <tr data-category="self-management" data-observation="heart-rate" data-scope="extended" data-source-type="Wearable device / sensor · automated Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
       <td>Herzfrequenz (bpm)</td>
       <td><div>Wearable device / sensor · automated</div><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Eigenständige Dokumentation --&gt; überall streichen</p></td>
     </tr>
     <tr data-category="sleep" data-observation="self-reported-chronotype" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Selbstberichteter Chronotyp</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="sleep" data-observation="sleep-hygiene-adherence-routines-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="sleep" data-observation="sleep-duration" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Schlafdauer (Stunden/Nacht)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepDurationQuestionnaire.html" target="_blank" rel="noopener">SleepDurationQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-duration-observation.html" target="_blank" rel="noopener">at-prenudge-sleep-duration-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable<br>Referenz Fragebogen DEGS: PDF siehe NextCloud.</p></td>
     </tr>
     <tr data-category="sleep" data-observation="sleep-quality" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Selbstangegebene Einschätzung der Schlafqualität</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepQualityQuestionnaire.html" target="_blank" rel="noopener">SleepQualityQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html" target="_blank" rel="noopener">at-prenudge-sleep-quality-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p></td>
     </tr>
     <tr data-category="sleep" data-observation="time-taken-to-fall-asleep" data-scope="extended" data-source-type="Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Dauer der Einschlafzeit (durchschnittliche Minuten)</td>
       <td><div>Wearable device / sensor · automated</div></td>
       <td></td>
+      <td class="discussion"><p>Pittsburg fragebogen dazu! (nie vergleichbar Fragebogen und Uhr)</p></td>
     </tr>
     <tr data-category="smoking" data-observation="smoking-status" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
       <td>Raucher:innenstatus (nie, ehemalig, aktuell)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html" target="_blank" rel="noopener">at-prenudge-smokingstatus-observation</a></div></td>
+      <td class="discussion"><p>Fragebogen</p></td>
     </tr>
     <tr data-category="smoking" data-observation="attempts-to-give-up" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
       <td>Entwöhnungsversuche (Anzahl/Jahr)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: <a href="https://osf.io/ndu6r/files/snm3p" target="_blank" rel="noopener">https://osf.io/ndu6r/files/snm3p</a></p></td>
     </tr>
     <tr data-category="smoking" data-observation="nicotine-addiction" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
       <td>Nikotinabhängigkeit</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p><a href="https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en" target="_blank" rel="noopener">https://www.euda.europa.eu/drugs-library/fagerstrom-test-nicotine-dependence_en</a></p></td>
     </tr>
     <tr data-category="smoking" data-observation="pack-years" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
       <td>Pack years</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>es muss nur eine Frage zu den Rauchjahren eingefügt werden.</p><p>Zu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="age" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Alter (Jahre)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">at-aps-patient</a></div></td>
+      <td class="discussion"><p>ID-Austria (automatische Übernahme)</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="gender" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html" target="_blank" rel="noopener">at-aps-patient</a></div></td>
+      <td class="discussion"><p>ID-Austria (automatische Übernahme)</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="housing-type" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Wohnform (Eigenheim, Mietwohnung, Sonstiges)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>Frage konkret noch nachschauen</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="residence" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Wohnortgröße (Stadt/Land)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>soll zusätzlich zur PLZ erhoben werden</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="marital-status" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Familienstand (ledig, verheiratet, in Partnerschaft, getrennt, verwitwet)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)</p><p>sollte nur in Beziehung sein?</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="ethnicity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Alltagssprache</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p><em>noch eine Frage dazu ob man deutsch versteht?</em></p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="education-level-isced" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Höchste abgeschlossene Schulbildung (ISCED-Level)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html" target="_blank" rel="noopener">at-prenudge-education-observation</a></div></td>
+      <td class="discussion"><p>ISCED-Level*<br>*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert.</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="employment-status-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Berufliche Situation / Einkommen</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="work" data-observation="employment" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Arbeit</td>
       <td>Erwerbstätigkeit</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
+      <td class="discussion"><p>vollzeit, teilzeit, erwerbsunfähig, pension, ausbildung vom Athis nehmen</p></td>
     </tr>
     <tr data-category="work" data-observation="work-ability" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #C5DDC8;"></span>Arbeit</td>
       <td>Arbeitsfähigkeit (Score)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html" target="_blank" rel="noopener">at-prenudge-work-soc-score-observation</a></div></td>
+      <td class="discussion"><p>Fragebögen<br>Hinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen.</p></td>
     </tr>
   </tbody>
 </table>
@@ -777,8 +841,8 @@
   <button type="button" class="pager-btn" id="pager-next" aria-label="Nächste Seite">›</button>
 </div>
 </div>
-<script src="scope.js?v=0.1.16-test"></script>
-<script src="browse.js?v=0.1.16-test"></script>
+<script src="scope.js?v=0.1.17-test"></script>
+<script src="browse.js?v=0.1.17-test"></script>
   </main>
 </div>
 
