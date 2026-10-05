@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:27:54.949609+00:00",
+  "generated": "2026-10-05T12:29:56.499056+00:00",
   "scope": "combined",
-  "commit": "6a8b6214f71b950cadf0dce0b17231817939d458",
+  "commit": "d79639ccc141c41d0eea22587d2d5e5eb06c6f79",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -7317,7 +7317,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)\n\nThomas mein: Das oder nix. mit Franz diskutieren"
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               },
               "en": {
                 "template": "observation",
@@ -7356,7 +7356,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)\n\nThomas mein: Das oder nix. mit Franz diskutieren"
+                "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
               }
             },
             {
