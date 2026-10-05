@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T11:21:55.837839+00:00",
+  "generated": "2026-10-05T11:24:01.140694+00:00",
   "scope": "combined",
-  "commit": "1880021a63549dd6f9a994d241b47d667ed2afd0",
+  "commit": "082952f911778105ab0ba258c3e4d342123b1458",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -3057,7 +3057,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
+                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
               },
               "en": {
                 "template": "observation",
@@ -3091,7 +3091,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu"
+                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
               }
             }
           ]
