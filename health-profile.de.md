@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.15-test | Generiert: 2026-09-30_
+_Version: 0.1.15-test | Generiert: 2026-10-05_
 
 ---
 
@@ -26,7 +26,6 @@ _Version: 0.1.15-test | Generiert: 2026-09-30_
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
-  - [Leichte körperliche Alltagsaktivität (Minuten/Tag)](#leichte-korperliche-alltagsaktivitat-minutentag)
   - [Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)](#flexibilitats--und-gleichgewichtstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
@@ -801,18 +800,6 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
-
-### Leichte körperliche Alltagsaktivität (Minuten/Tag)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Einheit:** min/day
-- **Wertebereich:** 0-1440 min
-- **Erfassungsfrequenz:** 2x/Jahr
-- **Empfohlene Monitoringfrequenz:** 1xpro Monat
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
 
 ### Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)
 
@@ -1980,5 +1967,6 @@ _Änderungen seit Version v0.1.15-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-10-05 | shaide79 |
 | 2026-09-30 | shaide79 |
 | 2026-09-23 | Theresa.Weitlaner |

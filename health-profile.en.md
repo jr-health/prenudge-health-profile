@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.15-test | Generated: 2026-09-30_
+_Version: 0.1.15-test | Generated: 2026-10-05_
 
 ---
 
@@ -26,7 +26,6 @@ _Version: 0.1.15-test | Generated: 2026-09-30_
 - [Physical Activity](#physical-activity)
   - [Moderate and vigorous endurance-oriented activity (minutes/week)](#moderate-and-vigorous-endurance-oriented-activity-minutesweek)
   - [Everyday activity (steps/day)](#everyday-activity-stepsday)
-  - [Light everyday physical activity (minutes/day)](#light-everyday-physical-activity-minutesday)
   - [Flexibility and balance training (units/week)](#flexibility-and-balance-training-unitsweek)
   - [Muscle-strengthening exercises (units/week)](#muscle-strengthening-exercises-unitsweek)
   - [Sitting time (hours/day)](#sitting-time-hoursday)
@@ -497,17 +496,6 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 | System | Code | Display |
 |---|---|---|
 | http://loinc.org | 41950-7 |  |
-
-### Light everyday physical activity (minutes/day)
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 0-1440 min
-- **Acquisition Frequency:** 2x/Jahr
-- **Recommended Monitoring Frequency:** 1xpro Monat
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
 
 ### Flexibility and balance training (units/week)
 
@@ -1253,5 +1241,6 @@ _Changes since version v0.1.15-test:_
 
 | Date | Author |
 |---|---|
+| 2026-10-05 | shaide79 |
 | 2026-09-30 | shaide79 |
 | 2026-09-23 | Theresa.Weitlaner |

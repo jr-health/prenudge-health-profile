@@ -1,11 +1,15 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-09-30T16:01:22.199625+00:00",
+  "generated": "2026-10-05T11:17:16.248384+00:00",
   "scope": "combined",
-  "commit": "1be3a05d9896975d6b8d171ef69193b1fb816d48",
+  "commit": "512a00936c2af3edf660b89a91882eba56c5df26",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
+      {
+        "date": "2026-10-05",
+        "author": "shaide79"
+      },
       {
         "date": "2026-09-30",
         "author": "shaide79"
@@ -2986,76 +2990,6 @@
                   }
                 ],
                 "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!"
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "light-everyday-physical-activity-minutes-day",
-                "dataset-scope": "Extension",
-                "title": "Leichte körperliche Alltagsaktivität (Minuten/Tag)",
-                "description": "",
-                "category": "physical-activity",
-                "dimension": "everyday-activity",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "EHIS",
-                    "specific-questions": "",
-                    "unit": "min/day",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "0-1440 min",
-                    "acquisition-frequency": "2x/Jahr",
-                    "recommended-monitoring-frequency": "1xpro Monat",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "light-everyday-physical-activity-minutes-day",
-                "dataset-scope": "Extension",
-                "title": "Light everyday physical activity (minutes/day)",
-                "description": "",
-                "category": "physical-activity",
-                "dimension": "everyday-activity",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "0-1440 min",
-                    "acquisition-frequency": "2x/Jahr",
-                    "recommended-monitoring-frequency": "1xpro Monat",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
               }
             }
           ]
