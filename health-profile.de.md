@@ -59,7 +59,6 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Entwöhnungsversuche (Anzahl/Jahr)](#entwohnungsversuche-anzahljahr)
   - [Nikotinabhängigkeit](#nikotinabhangigkeit)
   - [Pack years](#pack-years)
-  - [Zigarren/Zigarillos (Anzahl/Woche)](#zigarrenzigarillos-anzahlwoche)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter (Jahre)](#alter-jahre)
   - [Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)](#geschlecht-weiblich-mannlich-inter-divers-offen-keine-angabe)
@@ -1656,14 +1655,6 @@ Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Erfassungsfrequenz:** 2x/Jahr
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
-
-### Zigarren/Zigarillos (Anzahl/Woche)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

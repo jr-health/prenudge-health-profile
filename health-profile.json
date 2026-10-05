@@ -1,8 +1,8 @@
 {
   "version": "0.1.15-test",
-  "generated": "2026-10-05T12:42:06.238641+00:00",
+  "generated": "2026-10-05T12:43:12.627066+00:00",
   "scope": "combined",
-  "commit": "d50d65acab42e6065401b105c386f6d1d34c8461",
+  "commit": "09f2dbd271d83978c4fd15c82af0b79f035e5c6a",
   "activity": {
     "since": "v0.1.15-test",
     "entries": [
@@ -6679,31 +6679,6 @@
         {
           "de": {
             "template": "dimension",
-            "key": "e-zigaretten-tabakerhitzer",
-            "dataset-scope": "Extension",
-            "category": "smoking",
-            "title": "E-Zigaretten/Tabakerhitzer",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": "würden wir aus dem ATHIS nehmen kommt im Oktober 2026! Fragen kommen dann hinein"
-          },
-          "en": {
-            "template": "dimension",
-            "key": "e-zigaretten-tabakerhitzer",
-            "dataset-scope": "Extension",
-            "category": "smoking",
-            "title": "Anzahl pro Woche",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": "würden wir aus dem ATHIS nehmen kommt im Oktober 2026! Fragen kommen dann hinein"
-          },
-          "observations": []
-        },
-        {
-          "de": {
-            "template": "dimension",
             "key": "smoking-status",
             "dataset-scope": "Minimalset",
             "category": "smoking",
@@ -7330,102 +7305,6 @@
                   }
                 ],
                 "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
-              }
-            }
-          ]
-        },
-        {
-          "de": {
-            "template": "dimension",
-            "key": "zigarren-zigarillos",
-            "dataset-scope": "Extension",
-            "category": "smoking",
-            "title": "Zigarren/Zigarillos",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "en": {
-            "template": "dimension",
-            "key": "zigarren-zigarillos",
-            "dataset-scope": "Extension",
-            "category": "smoking",
-            "title": "cigars and cigarillos",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "observations": [
-            {
-              "de": {
-                "template": "observation",
-                "key": "cigars-or-cigarillos-number-week",
-                "dataset-scope": "Extension",
-                "title": "Zigarren/Zigarillos (Anzahl/Woche)",
-                "description": "",
-                "category": "smoking",
-                "dimension": "zigarren-zigarillos",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "cigars-or-cigarillos-number-week",
-                "dataset-scope": "Extension",
-                "title": "Cigars or cigarillos (number/week)",
-                "description": "",
-                "category": "smoking",
-                "dimension": "zigarren-zigarillos",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
               }
             }
           ]

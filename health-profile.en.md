@@ -59,7 +59,6 @@ _Version: 0.1.15-test | Generated: 2026-10-05_
   - [attempts to give up](#attempts-to-give-up)
   - [nicotine addiction](#nicotine-addiction)
   - [Pack Years](#pack-years)
-  - [Cigars or cigarillos (number/week)](#cigars-or-cigarillos-numberweek)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age (years)](#age-years)
   - [Gender (female, male, inter, diverse, open, no answer)](#gender-female-male-inter-diverse-open-no-answer)
@@ -1028,14 +1027,6 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **Acquisition Frequency:** 2x/Jahr
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-### Cigars or cigarillos (number/week)
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
