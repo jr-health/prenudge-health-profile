@@ -65,7 +65,7 @@ _Version: 0.1.15-test | Generiert: 2026-10-05_
   - [Wohnform (Eigenheim, Mietwohnung, Sonstiges)](#wohnform-eigenheim-mietwohnung-sonstiges)
   - [Wohnortgröße (Stadt/Land)](#wohnortgrosse-stadtland)
   - [Familienstand (ledig, verheiratet, in Partnerschaft, getrennt, verwitwet)](#familienstand-ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
-  - [Herkunft - Ethnische Zugehörigkeit](#herkunft---ethnische-zugehorigkeit)
+  - [Alltagssprache](#alltagssprache)
   - [Höchste abgeschlossene Schulbildung (ISCED-Level)](#hochste-abgeschlossene-schulbildung-isced-level)
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
   - [Muttersprache](#muttersprache)
@@ -1777,7 +1777,7 @@ Nicht erforderlich
 **Quellen:**
 - [Statistik Austria. Mikrozensus Erkläuterung und Fragebogen 2025](Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000)
 
-### Herkunft - Ethnische Zugehörigkeit
+### Alltagssprache
 
 #### Messinstrumente
 
