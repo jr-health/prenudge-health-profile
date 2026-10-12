@@ -1826,6 +1826,9 @@ Nicht erforderlich
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** Kategoriell
+- **Wertebereich:** 1-5
+- **Erfassungsfrequenz:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

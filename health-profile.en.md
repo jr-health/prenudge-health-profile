@@ -1110,6 +1110,8 @@ max: 120
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
+- **Acquisition Frequency:** 1x
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
