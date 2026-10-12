@@ -47,6 +47,7 @@ _Version: 0.1.19-test | Generated: 2026-10-12_
   - [Blood glucose level (mmol/l)](#blood-glucose-level-mmoll)
   - [Blood pressure (mmHg?)](#blood-pressure-mmhg)
   - [Heart rate (bpm?)](#heart-rate-bpm)
+  - [Vaccination-status-check](#vaccination-status-check)
 - [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [Self-reported chronotype](#self-reported-chronotype)
@@ -867,6 +868,20 @@ Diastolisch:0-500
 - **Acquisition Frequency:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### Vaccination-status-check
+
+**Verified Health Information:**
+- []()
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html
 
 ---
 

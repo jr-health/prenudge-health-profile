@@ -47,6 +47,7 @@ _Version: 0.1.19-test | Generiert: 2026-10-12_
   - [Blutzuckerwert (mg/dl)](#blutzuckerwert-mgdl)
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
+  - [Vaccination-status-check](#vaccination-status-check)
 - [Sexualität](#sexualitat)
 - [Schlaf](#schlaf)
   - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
@@ -1588,6 +1589,24 @@ Diastolisch:0-500
 - **Erfassungsfrequenz:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+### Vaccination-status-check
+
+**Beschreibung für Fachpersonal:**
+
+Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.
+
+**Verifizierte Gesundheitsinformation:**
+- []()
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [Impfplan Österreich](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html)
 
 ---
 
