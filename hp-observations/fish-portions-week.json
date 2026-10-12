@@ -4,12 +4,10 @@
     "key": "fish-portions-week",
     "dataset-scope": "Extension",
     "title": "Fisch (Portionen/Woche)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
-    "disease-association": [],
-    "citizen-info": "",
+    "description": "",
+    "citizen-info": "Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.",
     "verified-health-links": [
       {
         "title": "Ernährungsempfehlungen: Fleisch und Fisch",
@@ -18,6 +16,8 @@
         "note": ""
       }
     ],
+    "population": "",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -31,14 +31,18 @@
         "recommended-monitoring-frequency": "",
         "norms": [
           {
-            "specific-norm": "## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen\n\nWenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. \n\nWenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.\n\n**Eine Portion entspricht:** \n\n| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |\n| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |\n| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |\n\nMeeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.\n\nFleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html)."
+            "specific-norm": "## Ernährungsempfehlungen\n\nFisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.\n\nNach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden.\nÜbermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.\n\n## Tipps für Einkauf & Verzehr\n\n- Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).\n- Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.\n- Auf Tracking-Möglichkeiten und Kennzeichnungen achten.\n- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.\n- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.\n- Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.\n- Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.\n- Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.\n- Haben Sie Fadenwürmer im Fisch gefunden, dann wenden Sie sich an die Lebensmittelaufsicht Ihres Bundeslandes und reklamieren Sie das Produkt im Handel."
           }
         ],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [
           {
             "source-description": "",
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+          },
+          {
+            "source-description": "AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch",
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
           }
         ],
         "terminology-codes": [],
@@ -49,18 +53,16 @@
         "app-providers": []
       }
     ],
-    "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden. --> erledigt"
+    "discussion": "@Mirna: Hab die Info von der AGES eingefügt"
   },
   "en": {
     "template": "observation",
     "key": "fish-portions-week",
     "dataset-scope": "Extension",
     "title": "Fish (portions/week)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
-    "disease-association": [],
+    "description": "",
     "citizen-info": "",
     "verified-health-links": [
       {
@@ -70,6 +72,8 @@
         "note": ""
       }
     ],
+    "population": "",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -85,6 +89,9 @@
           {
             "source-description": "",
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+          },
+          {
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
           }
         ],
         "terminology-codes": [],
@@ -95,6 +102,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden. --> erledigt"
+    "discussion": "@Mirna: Hab die Info von der AGES eingefügt"
   }
 }
