@@ -1229,8 +1229,16 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** nicht zutreffend
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+
+**Quellen:**
+- [Cleland C, Kearns A, Tannahill C, Ellaway A. The impact of life events on adult physical and mental health and well-being: longitudinal analysis using the GoWell health and well-being survey. BMC Res Notes. 2016 Oct 18;9(1):470. doi: 10.1186/s13104-016-2278-x. PMID: 27760568; PMCID: PMC5070029.](https://pubmed.ncbi.nlm.nih.gov/27760568/)
 
 ### Infektanfälligkeit (Anzahl innerhalb definierter Periode)
 
