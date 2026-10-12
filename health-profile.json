@@ -1,8 +1,8 @@
 {
   "version": "0.1.19-test",
-  "generated": "2026-10-12T11:03:41.601439+00:00",
+  "generated": "2026-10-12T11:14:51.181571+00:00",
   "scope": "combined",
-  "commit": "4a02d2d859d118966f08efde3171c5c72b093b50",
+  "commit": "100dfc2abc62566fb1da61350b9532b3979015fa",
   "activity": {
     "since": "v0.1.19-test",
     "entries": [
@@ -5990,22 +5990,31 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "3.27 Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n1.Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n2. Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n3. Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n4. Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n5. Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n6. Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n7. Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n8. Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n9. Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n10. Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Kissen, zu viel oder zu wenig Decken).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n11. Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n12. Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n13. Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege\n\n ☐ immer ☐ häufig ☐ manchmal ☐ selten ☐ nie\n\n**13-item questionnaire is the Sleep Hygiene Index (SHI)** developed by **David F. Mastin, Jeff Bryson, and Robert Corwyn**. The original publication is _Assessment of Sleep Hygiene Using the Sleep Hygiene Index_, published in the _Journal of Behavioral Medicine_ in 2006.",
+                    "specific-questions": "Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n**1.Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n2. **Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n3. **Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n4. **Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n5. **Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n6. **Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n7. **Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n8. **Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.**\n\n  Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n9. **Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n10. **Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Polster, zu viel oder zu wenig Decken).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n11. **Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)ie\n\n12. **Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n13. **Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "Für den Gesamtscore: 13-65 Punkte",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
+                    "recommended-monitoring-frequency": "2x pro Jahr",
+                    "norms": [
+                      {
+                        "specific-norm": "-  **13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.\n- **28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.\n- **42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern."
+                      }
+                    ],
+                    "scoring-algorithm": "Punkte zusammenzählen",
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -6014,7 +6023,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "validierte Version gibt es momentan nicht. Wir haben aber eine SHIFT2Health eine Forward-Backward-Translation machen lassen"
               },
               "en": {
                 "template": "observation",
@@ -6035,11 +6044,15 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "Für den Gesamtscore: 13-65 Punkte",
                     "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "2x pro Jahr",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -6048,7 +6061,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "validierte Version gibt es momentan nicht. Wir haben aber eine SHIFT2Health eine Forward-Backward-Translation machen lassen"
               }
             }
           ]

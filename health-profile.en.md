@@ -887,8 +887,13 @@ _No observations recorded._
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Für den Gesamtscore: 13-65 Punkte
+- **Recommended Monitoring Frequency:** 2x pro Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- 13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.
 
 ### Sleep duration (hours/night)
 
