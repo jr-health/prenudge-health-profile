@@ -1728,11 +1728,40 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 ### Dauer der Einschlafzeit (durchschnittliche Minuten)
 
+**Population:** Erwachsene
+
+**Information für Bevölkerung:**
+
+Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.
+
+Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen.
+
+**Verifizierte Gesundheitsinformation:**
+- ["Der Schlaf", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i]()
+- [https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/](https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/)
+
 #### Messinstrumente
 
 **Messinstrument 1** — Wearable device / sensor · automated
+- **Einheit:** min
+- **Wertebereich:** >0
+- **Erfassungsfrequenz:** Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein.
+- **Empfohlene Monitoringfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Messinstrument 2** — Questionnaire · manual (self-reported)
+- **Einheit:** Minuten
+- **Datenformat:** min (ohne Sekunden)
+- **Wertebereich:** >0
+- **Erfassungsfrequenz:** 2x/Jahr
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend, da nur eine Subfrage genommen wird (Fragebogen liegt auf der Cloud)
+
+**Quellen:**
+- [Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.](Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.)
 
 ---
 

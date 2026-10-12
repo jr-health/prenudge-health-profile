@@ -72,7 +72,7 @@ _Keine Beobachtungen erfasst._
 
 {{ o['citizen-info'] }}
 {% endif %}
-{% set o_links = o.get('verified-health-links', []) %}
+{% set o_links = o.get('verified-health-links', []) | select | list %}
 {% if o_links %}
 
 **Verifizierte Gesundheitsinformation:**

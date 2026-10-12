@@ -87,7 +87,7 @@ _Keine Beobachtungen erfasst._
 
 *Krankheitsbild(er):* {{ o['disease-association'] | join(', ') }}
 {% endif %}
-{% set links = o.get('verified-health-links', []) %}
+{% set links = o.get('verified-health-links', []) | select | list %}
 {% set prof_links = [] %}
 {% set citizen_links = [] %}
 {% for link in links %}

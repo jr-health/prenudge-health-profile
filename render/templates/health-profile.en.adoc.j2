@@ -87,7 +87,7 @@ _No observations recorded._
 
 *Disease Association:* {{ o['disease-association'] | join(', ') }}
 {% endif %}
-{% set links = o.get('verified-health-links', []) or obs.de.get('verified-health-links', []) %}
+{% set links = (o.get('verified-health-links', []) or obs.de.get('verified-health-links', [])) | select | list %}
 {% set prof_links = [] %}
 {% set citizen_links = [] %}
 {% for link in links %}
