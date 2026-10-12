@@ -9,22 +9,27 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "validierte Frage von Statitistik Austria",
+        "specific-questions": "**In welchem Rechtsverhältnis nutzen Sie diese Wohnung / dieses Haus?**\n_Antwortmöglichkeit (Einzelantwort): 1)_ Hauseigentum (auch Miteigentum); 2) Wohnungseigentum; 3)Gemeindewohnung (Wohnung im Eigentum der Gemeinde, z. B. _Wiener Wohnen_); 4) Genossenschaftswohnung (Wohnung einer gemeinnützigen Bauvereinigung); 5) Andere Hauptmiete (z. B. Privatmiete bei privaten Vermieter:innen oder Firmen); 6) Untermiete; 7)Sonstiges Rechtsverhältnis (z. B. mietfrei bei Verwandten, Dienstwohnung)",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell (1-6) mit Einfach-Antwort",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-6",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "scoring-algorithm": "",
-        "sources": [],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Statistik Austria. Wohnsitutation",
+            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -33,7 +38,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage konkret noch nachschauen"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -54,11 +59,15 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-6",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -67,6 +76,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage konkret noch nachschauen"
+    "discussion": ""
   }
 }
