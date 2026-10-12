@@ -1158,8 +1158,12 @@ max: 120
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-6
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation
 
 ### Residence (urban/rural)
 
@@ -1283,3 +1287,4 @@ _Changes since version v0.1.19-test:_
 | Date | Author |
 |---|---|
 | 2026-10-12 | shaide79 |
+| 2026-10-12 | Theresa Weitlaner |

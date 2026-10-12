@@ -1116,8 +1116,7 @@ PSS-10: Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingesch�
 **Scoring-Algorithmus:** PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.
 PSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.
 Für die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.
-Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der
-Selbstwirksamkeitsskala (siehe NextCloud!)
+Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der Selbstwirksamkeitsskala (siehe NextCloud!)
 
 **Quellen:**
 - [Subjektiv – PSS-4 und PSS-10](doi.org/10.2307/2136404)
@@ -2080,11 +2079,20 @@ Nicht erforderlich
 
 ### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell (1-6) mit Einfach-Antwort
+- **Wertebereich:** 1-6
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Statistik Austria. Wohnsitutation](https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation)
 
 ### Wohnortgröße (Stadt/Land)
 
@@ -2263,3 +2271,4 @@ _Änderungen seit Version v0.1.19-test:_
 | Datum | Bearbeiter |
 |---|---|
 | 2026-10-12 | shaide79 |
+| 2026-10-12 | Theresa Weitlaner |
