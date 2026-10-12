@@ -73,6 +73,7 @@ _Version: 0.1.20-test | Generated: 2026-10-12_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
+- [Edit History](#edit-history)
 
 ---
 
@@ -1256,6 +1257,8 @@ max: 120
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Frage 1) 1-6
+Frage 2) 1 oder 2
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1283,3 +1286,11 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.20-test:_
+
+| Date | Author |
+|---|---|
+| 2026-10-12 | shaide79 |

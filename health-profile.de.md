@@ -73,6 +73,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-12_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2211,8 +2212,13 @@ Nicht erforderlich
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** Frage 1) kategoriell Frage 2) dichotom
+- **Wertebereich:** Frage 1) 1-6
+Frage 2) 1 oder 2
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 ### Arbeitsfähigkeit (Score)
 
@@ -2270,3 +2276,11 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.20-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-10-12 | shaide79 |
