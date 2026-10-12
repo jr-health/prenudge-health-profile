@@ -613,11 +613,12 @@ max: 24 Stunden
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
-- https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com
+- https://www.statcan.gc.ca/en/survey/household/5391
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
