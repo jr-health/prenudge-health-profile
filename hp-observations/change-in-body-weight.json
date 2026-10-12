@@ -14,17 +14,26 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "Frage aus einem validierte Fragebogen",
+        "specific-questions": "**Haben Sie in den letzten 3 bis 6 Monaten ungewollt Gewicht verloren?** _Haben Sie bemerkt, dass Ihre Kleidung, Ihr Gürtel oder Ihr Ehering spürbar weiter geworden sind?_ (Dies ist der klassische Indikator für eine subjektive Wahrnehmung, wenn keine Waage vorhanden ist).\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ",
         "unit": "",
-        "data-format": "",
+        "data-format": "dichotom",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "ja/ oder Nein",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": ""
+          }
+        ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
+            "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -33,7 +42,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage nach ungewollten Gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -54,11 +63,15 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "ja/ oder Nein",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -67,6 +80,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Frage nach ungewollten Gewichtsverlust ?\n\n**Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?**\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ"
+    "discussion": ""
   }
 }
