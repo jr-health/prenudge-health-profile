@@ -7,7 +7,7 @@
     "category": "self-management",
     "dimension": "self-monitoring",
     "description": "",
-    "citizen-info": "",
+    "citizen-info": "## Definition\n\nAls **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.\n\n## Nomenklatur\n\nDa die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.\n\n## Einteilung\n\nIn Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:\n\n| [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |\n| [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |\n| [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |\n| [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |\n\nDes Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem[HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte[Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.",
     "verified-health-links": [],
     "population": "",
     "disease-association": [],
@@ -15,16 +15,25 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "Selbsteingabe",
-        "unit": "",
+        "specific-questions": "Selbsteingabe\n\nUhrzeit\n\nNüchtern: Sind sie bei der messung nüchtern: Ja, nein",
+        "unit": "Selbstangabe: mg/dl\nUhrzeit: 09:00\nnüchtern: dichotom",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
-        "norms": [],
-        "scoring-algorithm": "",
-        "sources": [],
+        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
+        "acquisition-frequency": "abhängig",
+        "recommended-monitoring-frequency": "abhängig",
+        "norms": [
+          {
+            "specific-norm": "| Einstufung | Nüchternblutzucker | Blutzucker 2 Stunden nach\\ndem Essen |\n| --- | --- | --- |\n| **Normal** | < 110 mg/dl\\n< 6,1 mmol/l | < 140 mg/dl\\n< 7,8 mmol/l |\n| Abnorme Nüchternglukose\\n(IFG) | 110–125 mg/dl\\n6,1–6,9 mmol/l | < 140 mg/dl\\n< 7,8 mmol/l |\n| Gestörte Glukosetoleranz\\n(IGT) | < 126 mg/dl\\n< 7,0 mmol/l | 140–200 mg/dl\\n7,8–11,1 mmol/l |\n| [Diabetes mellitus](https://de.wikipedia.org/wiki/Diabetes_mellitus \"Diabetes mellitus\") | ≥ 126 mg/dl\\n≥ 7,0 mmol/l | ≥ 200 mg/dl\\n≥ 11,1 mmol/l |"
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "Definition and Diagnosis of Diabetes Mellitus and Intermediate Hyperglycemia: report of a WHO/IDF consultation. (pdf; 1,5 MB) In: who.int. 2006, S. 36, abgerufen am 20. Februar 2011 (englisch, ISBN 92-4-159493-4).",
+            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -34,21 +43,26 @@
       },
       {
         "source-type": "Wearable device / sensor · automated",
-        "device": "",
-        "specific-questions": "",
-        "unit": "",
-        "data-format": "",
+        "device": "Kontinuierliche Glukosemesssystem",
+        "specific-questions": "Messung erfolgt mit einem Lanzeitsensor, der ca. 7-15. Tage getragen werden kann",
+        "unit": "mg/dl",
+        "data-format": "metrische Werte ohne Nachkomma",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "0-1000",
         "acquisition-frequency": "individuell mit GDA abstimmen",
-        "recommended-monitoring-frequency": "",
+        "recommended-monitoring-frequency": "individuell mit GDA abstimmen",
         "norms": [
           {
             "specific-norm": "Normwerte von der ÖDG"
           }
         ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Leitlinieupdate 2026",
+            "system": "https://www.oedg.at/oedg_leitlinien.html"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -57,7 +71,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein"
+    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein (erledigt)"
   },
   "en": {
     "template": "observation",
@@ -78,11 +92,15 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
-        "recommended-monitoring-frequency": "",
+        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
+        "acquisition-frequency": "abhängig",
+        "recommended-monitoring-frequency": "abhängig",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -96,11 +114,15 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "0-1000",
         "acquisition-frequency": "individuell mit GDA abstimmen",
-        "recommended-monitoring-frequency": "",
+        "recommended-monitoring-frequency": "individuell mit GDA abstimmen",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "https://www.oedg.at/oedg_leitlinien.html"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -109,6 +131,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein"
+    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein (erledigt)"
   }
 }
