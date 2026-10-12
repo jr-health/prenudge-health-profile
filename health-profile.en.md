@@ -13,7 +13,7 @@ _Version: 0.1.18-test | Generated: 2026-10-12_
   - [Waist circumference (cm)](#waist-circumference-cm)
   - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
 - [Nutrition](#nutrition)
-  - [Cereals, potatoes, rice, and pasta (portions/day)](#cereals-potatoes-rice-and-pasta-portionsday)
+  - [Cereals, potatoes (portions/day)](#cereals-potatoes-portionsday)
   - [Dairy products (portions/day)](#dairy-products-portionsday)
   - [Fish (portions/week)](#fish-portionsweek)
   - [Fruit and vegetable consumption (portions/day)](#fruit-and-vegetable-consumption-portionsday)
@@ -195,11 +195,13 @@ Optional: alle 3 Monate
 
 <img src="media/apple.png" alt="Nutrition" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-### Cereals, potatoes, rice, and pasta (portions/day)
+### Cereals, potatoes (portions/day)
 
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -211,6 +213,7 @@ Optional: alle 3 Monate
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -227,12 +230,14 @@ Optional: alle 3 Monate
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch
 
 ### Fruit and vegetable consumption (portions/day)
 
@@ -306,12 +311,14 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch
 
 ### Non-alcoholic, unsweetened drinks (glasses/day)
 
@@ -331,6 +338,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -1045,6 +1053,7 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1) erste Frage: 0-100
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1231,5 +1240,5 @@ _Changes since version v0.1.18-test:_
 
 | Date | Author |
 |---|---|
-| 2026-10-12 | shaide79 |
 | 2026-10-12 | Thomas Truskaller |
+| 2026-10-12 | shaide79 |

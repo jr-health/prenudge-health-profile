@@ -13,7 +13,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
   - [Hüft-Taillen-Verhältnis](#huft-taillen-verhaltnis)
 - [Ernährung](#ernahrung)
-  - [Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)](#getreideerdapfelreisnudeln-portionentag)
+  - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdapfel-portionentag)
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
   - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
@@ -22,7 +22,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesusste-getranke-glasertag)
   - [Öle/Fette/Nüsse/Samen (Portionen/Tag)](#olefettenussesamen-portionentag)
-  - [Zucker- und salzreiche Lebensmittel (Portionen/Woche)](#zucker--und-salzreiche-lebensmittel-portionenwoche)
+  - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
@@ -43,7 +43,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
 - [Selbstmanagement](#selbstmanagement)
   - [Verständnis von gesundheitsbezogener Information](#verstandnis-von-gesundheitsbezogener-information)
   - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veranderungen-an-fachkrafte)
-  - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenstandige-kontrolle-von-medikamenten--und-impfstatus)
+  - [Nebenwirkungen von Medikamenten](#nebenwirkungen-von-medikamenten)
   - [Blutzuckerwert (mg/dl)](#blutzuckerwert-mgdl)
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
@@ -278,20 +278,25 @@ Männer <0,90; ≥0,90
 
 <img src="media/apple.png" alt="Ernährung" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-### Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)
+### Getreide/Erdäpfel (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 
 Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-4
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Getreide und Erdäpfel: Empfohlene Portionsgrößen
+- ## Empfohlene Portionsgrößen
 
 Essen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden
 
@@ -314,9 +319,9 @@ Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Voll
 
 ### Milchprodukte (Portionen/Tag)
 
-**Information für Bevölkerung:**
+**Population:** Allgemeinbevölkerung
 
-### Milch und Milchprodukte – täglich
+**Information für Bevölkerung:**
 
 Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.
 
@@ -325,6 +330,8 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -333,10 +340,16 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 **Spezifische Normen:**
 - **2 Portionen Milch und Milchprodukte/Tag**
 
+**Scoring-Algorithmus:** nicht zutreffend
+
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
 ### Fisch (Portionen/Woche)
+
+**Information für Bevölkerung:**
+
+Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.
 
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
@@ -345,29 +358,37 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Portionen/Woche 1 Portion = siehe unten
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen
+- ## Ernährungsempfehlungen
 
-Wenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. 
+Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
 
-Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden.
+Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.
 
-**Eine Portion entspricht:** 
+## Tipps für Einkauf & Verzehr
 
-| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
-| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
-| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
+- Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).
+- Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.
+- Auf Tracking-Möglichkeiten und Kennzeichnungen achten.
+- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.
+- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.
+- Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.
+- Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.
+- Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.
+- Haben Sie Fadenwürmer im Fisch gefunden, dann wenden Sie sich an die Lebensmittelaufsicht Ihres Bundeslandes und reklamieren Sie das Produkt im Handel.
 
-Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
-
-Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- [AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch)
 
 ### Gemüse- und Obstkonsum (Portionen/Tag)
 
@@ -443,15 +464,16 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 ### Hülsenfrüchte (Portionen/Woche)
 
-**Information für Bevölkerung:**
+**Population:** Allgemeinbevölkerung
 
-### Hülsenfrüchte und daraus hergestellte Produkte – wöchentlich
+**Information für Bevölkerung:**
 
 Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
 - **Wertebereich:** 1x pro Jahr
 - **Erfassungsfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -465,6 +487,14 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 ### Fleisch (Portionen/Woche)
 
+**Population:** Erwachsene
+
+**Information für Bevölkerung:**
+
+## Allgemein
+
+Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).
+
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
 
@@ -472,29 +502,22 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Portionen/Woche 1 Portion = siehe unten
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen
+- ### Ernährungsempfehlungen
 
-Wenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. 
+Fleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen, Zink und B-Vitaminen. Nach den Empfehlungen der österreichischen Ernährungspyramide sollten wöchentlich maximal 3 Portionen davon konsumiert werden.
 
-Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
-
-**Eine Portion entspricht:** 
-
-| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
-| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
-| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
-
-Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
-
-Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- [AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch)
 
 ### Alkoholfreie, ungesüßte Getränke (Gläser/Tag)
 
@@ -541,18 +564,40 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell 1-4
+- **Wertebereich:** 1-4
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+- Die Ernährungsempfehlungen auf einen Blick zeigt die [Österreichischen Ernährungspyramide](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide.html "Öffnet im selben Fenster"). Es gibt sie in zwei Varianten: mit Fisch und Fleisch, ohne Fisch und Fleisch.
+
+Pflanzliche Öle, Nüsse und Samen sollten **täglich** in moderaten Mengen konsumiert werden: **rund 2 Portionen. Eine Portion entspricht:**
+
+| Fette und Öle | 1 - 2 Esslöffel | 10 - 25 g |
+| Nüsse, Samen | 2 Esslöffel | ca. 25 g |
+
+Streich-, Back- und Bratfette wie Butter, Margarine oder Schmalz und fettreiche Milchprodukte, wie Schlagobers, Sauerrahm, Crème Fraîche, sparsam verwenden. Achten Sie auf fettarme Zubereitungsmethoden, z.B. dünsten, dampfgaren, grillen statt frittieren oder panieren.
+
+Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3-reiche pflanzliche Produkte, z.B. Rapsöl, Leinöl, Walnüsse und daraus hergestellte Öle, gegenüber jenen mit einem hohen Gehalt an Omega-6-Fettsäuren, z.B. Sonnenblumenöl oder Maiskeimöl.
+
+**Scoring-Algorithmus:** nicht zutreffen
+
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
-### Zucker- und salzreiche Lebensmittel (Portionen/Woche)
+### Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)
 
 **Beschreibung für Fachpersonal:**
 
@@ -1305,7 +1350,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Eigenständige Kontrolle von Medikamenten- und Impfstatus
+### Nebenwirkungen von Medikamenten
 
 #### Messinstrumente
 
@@ -1854,6 +1899,7 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** 1) erste Frage: 0-100
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -2180,5 +2226,5 @@ _Änderungen seit Version v0.1.18-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-10-12 | shaide79 |
 | 2026-10-12 | Thomas Truskaller |
+| 2026-10-12 | shaide79 |
