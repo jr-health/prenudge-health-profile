@@ -15,16 +15,25 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "[https://pubmed.ncbi.nlm.nih.gov/27760568/](https://pubmed.ncbi.nlm.nih.gov/27760568/)\n\n**Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt? (**Bitte wählen Sie alle zutreffenden Antworten aus.)\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
+        "specific-questions": "Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt? (\\*\\*Bitte wählen Sie alle zutreffenden Antworten aus.)\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": ""
+          }
+        ],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Cleland C, Kearns A, Tannahill C, Ellaway A. The impact of life events on adult physical and mental health and well-being: longitudinal analysis using the GoWell health and well-being survey. BMC Res Notes. 2016 Oct 18;9(1):470. doi: 10.1186/s13104-016-2278-x. PMID: 27760568; PMCID: PMC5070029.",
+            "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -54,11 +63,15 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "nicht zutreffend",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
