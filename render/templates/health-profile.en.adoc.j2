@@ -131,13 +131,12 @@ _No observations recorded._
 {% set instruments = o.get('measurement-instrument', []) %}
 {% if instruments %}
 
-==== Measurement Instruments
 {% for instr in instruments %}
 {% set instr_label = instr.get('source-type') or 'Measurement Instrument' %}
 {% if instr.get('device') %}{% set instr_label = instr_label ~ ' - ' ~ instr['device'] %}{% endif %}
 {% set codes = instr.get('terminology-codes', []) %}
 
-===== {{ instr_label }}
+==== {{ instr_label }}
 
 [cols="1,3"]
 |===
