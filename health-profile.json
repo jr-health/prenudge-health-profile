@@ -1,8 +1,8 @@
 {
   "version": "0.1.19-test",
-  "generated": "2026-10-12T11:01:37.710643+00:00",
+  "generated": "2026-10-12T11:03:41.601439+00:00",
   "scope": "combined",
-  "commit": "64fb67cf29fe97b456b7e4a62171efa1f9b58ebb",
+  "commit": "4a02d2d859d118966f08efde3171c5c72b093b50",
   "activity": {
     "since": "v0.1.19-test",
     "entries": [
@@ -8631,7 +8631,7 @@
           {
             "source-type": "Questionnaire · manual (self-reported)",
             "device": "",
-            "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) Asexuell ;5) Ich bezeichne mich anders / Eine andere Orientierung; 6) Weiß nicht / Keine Angabe",
+            "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) oder; 5) Weiß nicht / Keine Angabe",
             "unit": "",
             "data-format": "kategoriell",
             "data-type": "",
@@ -8640,7 +8640,12 @@
             "recommended-monitoring-frequency": "",
             "norms": [],
             "scoring-algorithm": "",
-            "sources": [],
+            "sources": [
+              {
+                "source-description": "OECD. Society at a Glance 2019",
+                "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+              }
+            ],
             "terminology-codes": [],
             "pn-fhir-ig-link": "",
             "pn-fhir-ig-status": "draft",
@@ -8665,9 +8670,26 @@
         "disease-association": [],
         "measurement-instrument": [
           {
-            "data-type": "",
             "source-type": "Questionnaire · manual (self-reported)",
-            "range-of-vales": "1-5"
+            "specific-questions": "",
+            "unit": "",
+            "data-format": "",
+            "data-type": "",
+            "range-of-vales": "1-5",
+            "acquisition-frequency": "",
+            "recommended-monitoring-frequency": "",
+            "norms": [],
+            "sources": [
+              {
+                "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+              }
+            ],
+            "terminology-codes": [],
+            "pn-fhir-ig-link": "",
+            "pn-fhir-ig-status": "draft",
+            "vis-status": "draft",
+            "qualification": "",
+            "app-providers": []
           }
         ],
         "discussion": ""
