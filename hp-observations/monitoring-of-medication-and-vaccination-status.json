@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "medication-side-effects",
     "dataset-scope": "Extension",
-    "title": "Eigenständige Kontrolle von Medikamenten- und Impfstatus",
+    "title": "Nebenwirkungen von Medikamenten",
     "category": "self-management",
     "dimension": "medication-management",
     "description": "",
@@ -65,6 +65,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
           }
         ],
