@@ -1291,5 +1291,6 @@ _Changes since version v0.1.19-test:_
 
 | Date | Author |
 |---|---|
+| 2026-10-12 | Thomas Truskaller |
 | 2026-10-12 | shaide79 |
 | 2026-10-12 | Theresa Weitlaner |

@@ -2278,5 +2278,6 @@ _Änderungen seit Version v0.1.19-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-10-12 | Thomas Truskaller |
 | 2026-10-12 | shaide79 |
 | 2026-10-12 | Theresa Weitlaner |
