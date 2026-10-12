@@ -15,12 +15,12 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch;\n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAusschließlich Deutsch; \n\nÜberwiegend Deutsch; \n\nDeutsch und eine andere Sprache (bzw. Sprachen); \n\nÜberwiegend eine andere Sprache (bzw. Sprachen); \n\nAusschließlich eine andere Sprache (bzw. Sprachen)",
+        "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAntwortmöglichkeiten: 1) Ausschließlich Deutsch; 2) Überwiegend Deutsch; 3) Deutsch und eine andere Sprache (bzw. Sprachen); 4) Überwiegend eine andere Sprache (bzw. Sprachen); 5) Ausschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAntwortmöglichkeit: 1) Ausschließlich Deutsch; 2) Überwiegend Deutsch; 3) Deutsch und eine andere Sprache (bzw. Sprachen); 4) Überwiegend eine andere Sprache (bzw. Sprachen); 5) Ausschließlich eine andere Sprache (bzw. Sprachen)",
         "unit": "",
-        "data-format": "",
+        "data-format": "Kategoriell",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1-5",
+        "acquisition-frequency": "1x",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "scoring-algorithm": "",
@@ -38,7 +38,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "_noch eine Frage dazu ob man deutsch versteht?_"
+    "discussion": "_noch eine Frage dazu ob man deutsch versteht?_\n\n_Komment Sandra: Hab nachgeschaut. Laut Literatur ist es nicht nötig noch eine weitere Frage zum Verständnis einzufügen_"
   },
   "en": {
     "template": "observation",
@@ -59,8 +59,8 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1-5",
+        "acquisition-frequency": "1x",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
@@ -77,6 +77,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "_noch eine Frage dazu ob man deutsch versteht?_"
+    "discussion": "_noch eine Frage dazu ob man deutsch versteht?_\n\n_Komment Sandra: Hab nachgeschaut. Laut Literatur ist es nicht nötig noch eine weitere Frage zum Verständnis einzufügen_"
   }
 }
