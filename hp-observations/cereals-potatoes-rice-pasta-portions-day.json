@@ -1,29 +1,30 @@
 {
   "de": {
     "template": "observation",
-    "key": "cereals-potatoes-rice-pasta-portions-day",
+    "key": "cereals-potatoes-portions-day",
     "dataset-scope": "Extension",
     "title": "Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)",
-    "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
-    "disease-association": [],
+    "description": "Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.",
     "citizen-info": "",
+    "verified-health-links": [],
+    "population": "Allgemeinbevölkerung",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "**„An einem normalen Tag: Wie viele Portionen an Getreideprodukten (wie Brot, Nudeln, Reis, Haferflocken) oder Erdäpfeln essen Sie insgesamt?“**\n\n_Orientierungshilfe für 1 Portion: 1 Scheibe Brot oder 1 Gebäck (handflächengroß); 1 Handvoll Müsli oder Getreideflocken; 2 Fäuste voll gekochte Nudeln, Reis oder gegarte Erdäpfel)_\n\n_Antwortmöglichkeit:_ 1) Weniger als 3 Portionen am Tag; 2) 3 Portionen am Tag; 3) 4 bis 5 Portionen am Tag; 4) 6 oder mehr Portionen am Tag",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1-4",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [
           {
-            "specific-norm": "## Getreide und Erdäpfel: Empfohlene Portionsgrößen\n\nEssen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden\n\n- **täglich 4 Portionen** für eine Ernährung **mit**  Fisch und Fleisch oder\n- **täglich 5 Portionen** für eine Ernährung **ohne** Fisch und Fleisch. \n\nWählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Vollkornvariante.\n\n**Eine Portion entspricht:** \n\n| Brot/Vollkornbrot | 1 Handfläche (Hand mit Fingern) | 50 - 70 g |\n| Gebäck | 1 Handfläche | 50 - 70 g |\n| Getreideflocken | 1 Handvoll | 50 - 60 g |\n| Teigwaren, roh | 2 Fäuste | 65 - 80 g |\n| Reis, gekocht | 2 Fäuste | 150 - 180 g |\n| Erdäpfel, gegart | 2 Fäuste | 200 - 250 g |"
+            "specific-norm": "## Empfohlene Portionsgrößen\n\nEssen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden\n\n- **täglich 4 Portionen** für eine Ernährung **mit**  Fisch und Fleisch oder\n- **täglich 5 Portionen** für eine Ernährung **ohne** Fisch und Fleisch. \n\nWählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Vollkornvariante.\n\n**Eine Portion entspricht:** \n\n| Brot/Vollkornbrot | 1 Handfläche (Hand mit Fingern) | 50 - 70 g |\n| Gebäck | 1 Handfläche | 50 - 70 g |\n| Getreideflocken | 1 Handvoll | 50 - 60 g |\n| Teigwaren, roh | 2 Fäuste | 65 - 80 g |\n| Reis, gekocht | 2 Fäuste | 150 - 180 g |\n| Erdäpfel, gegart | 2 Fäuste | 200 - 250 g |"
           }
         ],
         "scoring-algorithm": "",
@@ -41,19 +42,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen ergänzen"
+    "discussion": "@Thomas: passt die kategorielle Abfrage?"
   },
   "en": {
     "template": "observation",
-    "key": "cereals-potatoes-rice-pasta-portions-day",
+    "key": "cereals-potatoes-portions-day",
     "dataset-scope": "Extension",
     "title": "Cereals, potatoes, rice, and pasta (portions/day)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -61,8 +63,8 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1-4",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
@@ -79,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen ergänzen"
+    "discussion": "@Thomas: passt die kategorielle Abfrage?"
   }
 }
