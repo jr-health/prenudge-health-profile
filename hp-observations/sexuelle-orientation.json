@@ -5,7 +5,7 @@
     "dataset-scope": "Extension",
     "title": "Sexuelle Orientierung",
     "category": "sociodemographic-data",
-    "dimension": "",
+    "dimension": "socio-economic-status",
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
@@ -46,7 +46,7 @@
     "dataset-scope": "Extension",
     "title": "sexuelle-orientation",
     "category": "sociodemographic-data",
-    "dimension": "",
+    "dimension": "socio-economic-status",
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
@@ -65,6 +65,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
           }
         ],
