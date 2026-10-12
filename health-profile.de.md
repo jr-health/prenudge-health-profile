@@ -1315,6 +1315,8 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Blutzuckerwert (mg/dl)
 
+**Population:** Erwachsene (Schwangere sind ausgenommen)
+
 **Information für Bevölkerung:**
 
 ## Definition
@@ -1340,11 +1342,12 @@ Des Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der a
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Selbstangabe: mg/dl Uhrzeit: 09:00 nüchtern: dichotom
+- **Datenformat:** Selbstangabe: mg/dl (metrische ohne Nachkomma) Uhrzeit: 09:00 nüchtern: dichotom
 - **Wertebereich:** Selbstangabe: 0-1000
 Uhrzeit: 00:00-24:00
 nüchtern: dichotom
-- **Erfassungsfrequenz:** abhängig
-- **Empfohlene Monitoringfrequenz:** abhängig
+- **Erfassungsfrequenz:** abhängig, muss mit GDA besprochen werden
+- **Empfohlene Monitoringfrequenz:** abhängig, muss mit GDA besprochen werden
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 

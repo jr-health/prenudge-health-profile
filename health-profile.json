@@ -1,8 +1,8 @@
 {
   "version": "0.1.18-test",
-  "generated": "2026-10-12T07:58:27.853257+00:00",
+  "generated": "2026-10-12T08:00:29.796218+00:00",
   "scope": "combined",
-  "commit": "747196ec40faedb1e963d7bdd6333f587832ba50",
+  "commit": "b7324eea752093fada06b7dc243ba79f5cd0fbef",
   "activity": {
     "since": "v0.1.18-test",
     "entries": [
@@ -5434,19 +5434,19 @@
                 "description": "",
                 "citizen-info": "## Definition\n\nAls **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.\n\n## Nomenklatur\n\nDa die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.\n\n## Einteilung\n\nIn Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:\n\n| [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |\n| [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |\n| [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |\n| [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |\n\nDes Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem[HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte[Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.",
                 "verified-health-links": [],
-                "population": "",
+                "population": "Erwachsene (Schwangere sind ausgenommen)",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "Selbsteingabe\n\nUhrzeit\n\nNüchtern: Sind sie bei der messung nüchtern: Ja, nein",
+                    "device": "Selbstmesssung laut Gerätebeschreibung",
+                    "specific-questions": "Selbsteingabe in mg/dl\n\nUhrzeit\n\nNüchtern: Sind sie bei der messung nüchtern? Ja, nein",
                     "unit": "Selbstangabe: mg/dl\nUhrzeit: 09:00\nnüchtern: dichotom",
-                    "data-format": "",
+                    "data-format": "Selbstangabe: mg/dl (metrische ohne Nachkomma)\nUhrzeit: 09:00\nnüchtern: dichotom",
                     "data-type": "",
                     "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
-                    "acquisition-frequency": "abhängig",
-                    "recommended-monitoring-frequency": "abhängig",
+                    "acquisition-frequency": "abhängig, muss mit GDA besprochen werden",
+                    "recommended-monitoring-frequency": "abhängig, muss mit GDA besprochen werden",
                     "norms": [
                       {
                         "specific-norm": "| Einstufung | Nüchternblutzucker | Blutzucker 2 Stunden nach\\ndem Essen |\n| --- | --- | --- |\n| **Normal** | < 110 mg/dl\\n< 6,1 mmol/l | < 140 mg/dl\\n< 7,8 mmol/l |\n| Abnorme Nüchternglukose\\n(IFG) | 110–125 mg/dl\\n6,1–6,9 mmol/l | < 140 mg/dl\\n< 7,8 mmol/l |\n| Gestörte Glukosetoleranz\\n(IGT) | < 126 mg/dl\\n< 7,0 mmol/l | 140–200 mg/dl\\n7,8–11,1 mmol/l |\n| [Diabetes mellitus](https://de.wikipedia.org/wiki/Diabetes_mellitus \"Diabetes mellitus\") | ≥ 126 mg/dl\\n≥ 7,0 mmol/l | ≥ 200 mg/dl\\n≥ 11,1 mmol/l |"
@@ -5518,11 +5518,12 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
-                    "acquisition-frequency": "abhängig",
-                    "recommended-monitoring-frequency": "abhängig",
+                    "acquisition-frequency": "abhängig, muss mit GDA besprochen werden",
+                    "recommended-monitoring-frequency": "abhängig, muss mit GDA besprochen werden",
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
                       }
                     ],
@@ -5545,6 +5546,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.oedg.at/oedg_leitlinien.html"
                       }
                     ],

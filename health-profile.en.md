@@ -793,8 +793,8 @@ max: 20 (Transformiert 100)
 - **Range of Values:** Selbstangabe: 0-1000
 Uhrzeit: 00:00-24:00
 nüchtern: dichotom
-- **Acquisition Frequency:** abhängig
-- **Recommended Monitoring Frequency:** abhängig
+- **Acquisition Frequency:** abhängig, muss mit GDA besprochen werden
+- **Recommended Monitoring Frequency:** abhängig, muss mit GDA besprochen werden
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
