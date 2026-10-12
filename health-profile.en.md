@@ -790,13 +790,26 @@ max: 20 (Transformiert 100)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Selbstangabe: 0-1000
+Uhrzeit: 00:00-24:00
+nüchtern: dichotom
+- **Acquisition Frequency:** abhängig
+- **Recommended Monitoring Frequency:** abhängig
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** 0-1000
 - **Acquisition Frequency:** individuell mit GDA abstimmen
+- **Recommended Monitoring Frequency:** individuell mit GDA abstimmen
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.oedg.at/oedg_leitlinien.html
 
 ### Blood pressure (mmHg?)
 

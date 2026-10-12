@@ -1315,19 +1315,66 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Blutzuckerwert (mg/dl)
 
+**Information für Bevölkerung:**
+
+## Definition
+
+Als **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.
+
+## Nomenklatur
+
+Da die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.
+
+## Einteilung
+
+In Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:
+
+| [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |
+| [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |
+| [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |
+| [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |
+
+Des Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem[HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte[Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Selbstangabe: mg/dl Uhrzeit: 09:00 nüchtern: dichotom
+- **Wertebereich:** Selbstangabe: 0-1000
+Uhrzeit: 00:00-24:00
+nüchtern: dichotom
+- **Erfassungsfrequenz:** abhängig
+- **Empfohlene Monitoringfrequenz:** abhängig
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+- | Einstufung | Nüchternblutzucker | Blutzucker 2 Stunden nach\ndem Essen |
+| --- | --- | --- |
+| **Normal** | < 110 mg/dl\n< 6,1 mmol/l | < 140 mg/dl\n< 7,8 mmol/l |
+| Abnorme Nüchternglukose\n(IFG) | 110–125 mg/dl\n6,1–6,9 mmol/l | < 140 mg/dl\n< 7,8 mmol/l |
+| Gestörte Glukosetoleranz\n(IGT) | < 126 mg/dl\n< 7,0 mmol/l | 140–200 mg/dl\n7,8–11,1 mmol/l |
+| [Diabetes mellitus](https://de.wikipedia.org/wiki/Diabetes_mellitus "Diabetes mellitus") | ≥ 126 mg/dl\n≥ 7,0 mmol/l | ≥ 200 mg/dl\n≥ 11,1 mmol/l |
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Definition and Diagnosis of Diabetes Mellitus and Intermediate Hyperglycemia: report of a WHO/IDF consultation. (pdf; 1,5 MB) In: who.int. 2006, S. 36, abgerufen am 20. Februar 2011 (englisch, ISBN 92-4-159493-4).](https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia)
+
 **Messinstrument 2** — Wearable device / sensor · automated
+- **Einheit:** mg/dl
+- **Datenformat:** metrische Werte ohne Nachkomma
+- **Wertebereich:** 0-1000
 - **Erfassungsfrequenz:** individuell mit GDA abstimmen
+- **Empfohlene Monitoringfrequenz:** individuell mit GDA abstimmen
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
 - Normwerte von der ÖDG
+
+**Quellen:**
+- [Leitlinieupdate 2026](https://www.oedg.at/oedg_leitlinien.html)
 
 ### Blutdruck (mmHg)
 
