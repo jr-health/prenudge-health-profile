@@ -1,0 +1,75 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "vaccination-status-check",
+    "dataset-scope": "Extension",
+    "title": "Vaccination-status-check",
+    "category": "self-management",
+    "dimension": "",
+    "description": "Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.",
+    "citizen-info": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "unstandardisierte  Fragebogen",
+        "specific-questions": "Haben Sie den Abgleich Ihres Impfpasses mit dem aktuellen Impfplan bereits durchgeführt und dokumentiert?",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [
+          {
+            "source-description": "Impfplan Österreich",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+          }
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "vaccination-status-check",
+    "dataset-scope": "Extension",
+    "title": "Vaccination-status-check",
+    "category": "self-management",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "sources": [
+          {
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+          }
+        ]
+      }
+    ],
+    "discussion": ""
+  }
+}
