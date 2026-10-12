@@ -14,16 +14,16 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "Statistik Austria. ATHIS 2025.",
+        "specific-questions": "**Welche Beschreibung passt am besten:**\n\nAntwortmöglichkeit: 1) In Ausbildung (Schüler:in, Student:in, Lehrling); 2) Erwerbstätig (selbstständig oder unselbstständig); 3) In Pension / Ruhestand; 4) Dauerhaft erwerbsunfähig; 5) Arbeitslos; 6) Haushaltsführend (z. B. in Elternkarenz oder Hausfrau/-mann)\n\nFalls sie erwerbstätig sind: Arbeiten Sie vollzeit oder teilzeit?\n\n1\\) vollzeit; 2) teilzeit",
         "unit": "",
-        "data-format": "",
+        "data-format": "Frage 1) kategoriell\nFrage 2) dichotom",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "Frage 1) 1-6\nFrage 2) 1 oder 2",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "vollzeit, teilzeit, erwerbsunfähig, pension, ausbildung vom Athis nehmen"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -54,7 +54,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "Frage 1) 1-6\nFrage 2) 1 oder 2",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "vollzeit, teilzeit, erwerbsunfähig, pension, ausbildung vom Athis nehmen"
+    "discussion": ""
   }
 }
