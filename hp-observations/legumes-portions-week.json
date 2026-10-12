@@ -4,19 +4,20 @@
     "key": "legumes-portions-week",
     "dataset-scope": "Extension",
     "title": "Hülsenfrüchte (Portionen/Woche)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
+    "description": "",
+    "citizen-info": "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).",
+    "verified-health-links": [],
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "### Hülsenfrüchte und daraus hergestellte Produkte – wöchentlich\n\nHülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "Frage, die die österreichischen Ernährungsempfehlungen erhebt",
+        "specific-questions": "**„Wie viele Portionen an Hülsenfrüchten (wie Linsen, Kichererbsen, Bohnen, Erbsen oder Sojaprodukte wie Tofu) essen Sie in einer normalen Woche insgesamt?“** _Orientierungshilfe für 1 Portion:_ 1) 2 Fäuste voll gekochte Linsen, Kichererbsen oder Bohnen; 2) 1 Handtellergroßes Stück Tofu oder Tempeh\n\nAntwortmöglichkeit (Einfachauswahl): _1)_ 0 Portionen / Ich esse keine Hülsenfrüchte;  2) 1 bis 2 Portionen pro Woche; 3) 3 bis 4 Portionen pro Woche; 4) 5 oder mehr Portionen pro Woche",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell",
         "data-type": "",
         "range-of-vales": "1x pro Jahr",
         "acquisition-frequency": "Optimum: alle 3 Monate",
@@ -48,12 +49,13 @@
     "key": "legumes-portions-week",
     "dataset-scope": "Extension",
     "title": "Legumes (portions/week)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -67,6 +69,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
           }
         ],
