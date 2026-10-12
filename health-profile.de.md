@@ -1331,21 +1331,152 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Blutdruck (mmHg)
 
+**Population:** Erwachsene
+
 **Information für Bevölkerung:**
+
+Bluthochdruck zählt in Österreich zu den häufigsten chronischen Erkrankungen. Da Bluthochdruck keine eindeutigen Beschwerden verursacht, bleibt er oft lange unerkannt. Fast die Hälfte aller Menschen in Österreich mit Bluthochdruck weiß nichts davon.
+
+Das Tückische ist: Bluthochdruck schädigt auf Dauer die Blutgefäße und kann zu Herzinfarkt, Schlaganfall und anderen schweren Erkrankungen führen.
+
+## Woran merke ich, dass mein Blutdruck zu hoch ist?
+
+Der einzige Weg, um Bluthochdruck sicher zu erkennen, ist die regelmäßige Blutdruckmessung. Beschwerden wie Schwindelgefühl, Kopfschmerzen, Ohrensausen oder Nasenbluten können, müssen aber nicht auftreten. Viele Patientinnen und Patienten mit Bluthochdruck haben keinerlei Beschwerden und fühlen sich scheinbar wohl.
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## Normal ... zu hoch?
+
+Ein normaler Blutdruck liegt unter 120/70 mmHg.
+Werte zwischen 120/70 und 139/89 mmHg gelten bereits als erhöht und sollten von einer Ärztin bzw. einem Arzt überprüft werden. Ab einem Wert von 140/90 mmHg spricht man von einem Bluthochdruck, der sogenannten Hypertonie.
+
+### Wichtig:
+
+- Bei all diesen Werten handelt es sich um Richtwerte. Es kann auch sein, dass Ihre Ärztin bzw. Ihr Arzt, in Abhängigkeit von eventuell vorliegenden Erkrankungen, Ihren ganz persönlichen Zielblutdruckwert festlegt.
+- Ein einmalig erhöhter Blutdruck bedeutet noch lange nicht, dass Sie krank sind. Erst ein regelmäßig erhöhter Blutdruck muss behandelt werden.
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## "Oberer Wert – unterer Wert" – Was bedeutet das?
+
+Der Blutdruck wird in Millimeter Quecksilbersäule (mmHg) gemessen und in zwei Werten angegeben, zum Beispiel 120/70 mmHg.
+
+**120 = systolischer Blutdruck ("oberer Wert"):**
+Dieser Wert wird gemessen, wenn sich das Herz während des Pumpvorganges zusammenzieht und das Blut in die Hauptschlagader sowie in den Körper auswirft.
+Dieser Wert erhöht sich bei körperlicher und psychischer Belastung.
+
+**70 = diastolischer Blutdruck ("unterer Wert"):**
+Dieser Wert wird gemessen, wenn sich das Herz wieder mit Blut füllt und beschreibt den konstanten Druck, der während der Entspannungsphase des Herzens in den Gefäßen herrscht. Dieser kontinuierliche Druck kann die Gefäße und das Herz schädigen, wenn er dauerhaft erhöht ist.
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## Ist der Blutdruck immer konstant?
+
+Der Blutdruck unterliegt Schwankungen, abhängig von unserer Aktivität. Bei körperlicher Aktivität oder psychischer Belastung treten höhere Werte auf als in Ruhe. Am niedrigsten ist der Blutdruck während des Schlafes.
+
+Bei der Behandlung des Bluthochdrucks ist die Kenntnis der Blutdruckwerte im Tagesverlauf nützlich.
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## Was passiert bei hohem Blutdruck?
+
+Das Herz muss gegen einen zu hohen Druck pumpen, was zu einer Überlastung und Schwächung des Herzmuskels führt.
+
+Gleichzeitig kommt es zu einer Schädigung der Blutgefäße. Um der Belastung standzuhalten, versteifen und verdicken sich die Gefäßwände. An der Gefäßinnenwand kommt es zu Verkalkungen und somit zu einer Gefäßverengung. Dies führt zu einer immer schlechteren Durchblutung und zu einer weiteren Druckbelastung.
+
+Das Herz plagt sich immer mehr – ein Teufelskreis entsteht!
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## Wie wird Bluthochdruck behandelt?
+
+Einen wichtigen Teil der Behandlung haben Sie selbst in der Hand:
+
+Folgendes können Sie tun:
+
+- Essen Sie natriumarm (salzarm) mit viel Obst und Gemüse.
+- Bleiben Sie aktiv: 75 Minuten intensives oder 150 Minuten moderates Ausdauertraining pro Woche und zusätzlich 2-3x Krafttraining.
+- Geben Sie Stress keine Chance: Finden Sie Ihren persönlichen Weg zur Entspannung.
+- Verzichten Sie auf Alkohol und Nikotin.
+- Achten Sie auf Ihr Gewicht. Falls nötig, streben Sie eine Gewichtsreduktion an.
+- Nehmen Sie die verordneten Medikamente wie von der Ärztin bzw. von dem Arzt empfohlen ein.
+- Kontrollieren Sie Ihren Blutdruck in regelmäßigen Abständen, auch wenn Ihre Werte bereits im Normalbereich liegen.
+
+Reicht eine Lebensstiländerung nicht aus, um erhöhte Blutdruckwerte zu senken, ist eine medikamentöse Therapie erforderlich. Diese muss in Absprache mit der behandelnden Ärztin bzw. dem behandelnden Arzt erfolgen. In der Regel ist Bluthochdruck gut behandelbar. Mit der richtigen Therapie können Folgeerkrankungen verhindert werden.
+
+Sollten Sie mit einer medikamentösen Bluthochdruck-Therapie beginnen, geben Sie sich und Ihrem Körper genügend Zeit. Viele Patientinnen und Patienten fühlen sich zu Beginn der Therapie müde und schlapp. Mitunter dauert es einige Wochen, bis Ihr Körper sich wieder an "normale" Blutdruckverhältnisse gewöhnt hat. Eventuell ist es notwendig, das Blutdruckmedikament zu wechseln. Oder es kann sein, dass Sie mehrere Blutdruckmedikamente benötigen. Hauptsache, Ihr Blutdruck zeigt wieder normale Werte.
+
+### Drei Regeln zur medikamentösen Blutdruck-Therapie:
+
+- Medikamente regelmäßig einnehmen
+- Niemals die Medikamente auf eigene Faust, ohne Rücksprache mit Ihrer Ärztin bzw. Ihrem Arzt absetzen oder Dosierungsveränderungen vornehmen
+- Regelmäßige ärztliche Kontrollen wahrnehmen
+
+Ein wichtiger Bestandteil der Blutdruck-Therapie ist die Selbstmessung.
+
+[](https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal#topsprungmarke)
+
+## Werden Sie zum Mess-Profi
+
+Regelmäßiges Blutdruckmessen hilft dabei eine bestehende Hypertonie gut unter Kontrolle zu behalten. Die regelmäßige Blutdruck-Selbstmessung stellt eine wichtige Ergänzung zur Messung bei Ihrer Ärztin bzw. Ihrem Arzt dar.
+
+Eine korrekt durchgeführte wiederholte Blutdruck-Selbstmessung ist aussagekräftiger als die fallweise Messung bei der Ärztin bzw. beim Arzt. 
+
+Aufregung, Unruhe und ungewohnte Umgebung können zu (meist erhöhten) falschen Ergebnissen führen (der sogenannte "Weißkittel-Effekt"). Wenn bei Ihnen eine regelmäßige Blutdruckmessung notwendig ist, können Sie selbst die besten Voraussetzungen für verlässliche Blutdruckmesswerte schaffen.
+
+### Folgende Punkte sollten Sie bei der Selbstmessung beachten:
+
+- Vereinbaren Sie mit Ihrer Ärztin bzw. Ihrem Arzt die Messzeitpunkte.
+- Die Messung soll in einer möglichst entspannten Atmosphäre stattfinden.
+Setzen Sie sich an einen Tisch, sodass Sie die Unterarme bequem ablegen können. Lehnen Sie sich mit dem Rücken an Ihrer Sessellehne an und stellen Sie beide Füße auf den Boden. Starten Sie erst mit der Messung, wenn Sie zur Ruhe gekommen sind.
+- Ein an Ihren Oberarm angepasstes, elektronisches Messgerät liefert die verlässlichsten Werte und wird daher bevorzugt.
+- Messung am Oberarm: 
+Legen Sie den Unterarm auf den Tisch, sodass sich die Blutdruckmanschette am Oberarm auf Herzhöhe befindet:
+- Messung am Handgelenk:
+Wenn Sie den Blutdruck mit einem Handgelenksmessgerät messen wollen, ist es wichtig, dass sich das Handgelenk während der gesamten Messung auf Herzhöhe befindet. Stützen Sie dazu Ihren Ellbogen auf einem Tisch auf und halten Sie das Handgelenk auf Höhe der Achsel.
+
+![Bild 1: ID 492003151
+Bild 2: ID 445800178](https://www.bvaeb.at/GenticsImageStore/800/auto/prop/cdscontent/load?contentid=10008.746628&version=1698070543 "Bild 1: ID 492003151
+Bild 2: ID 445800178")
+- Während der Messung soll der Messarm ruhig gehalten werden; Sie sollten auch nicht sprechen.
+- Idealerweise messen Sie zweimal im Abstand von 1 – 2 Minuten und berechnen danach den Mittelwert der beiden Messwerte.
+- Notieren Sie auch den dritten Wert - das ist ihre Herzfrequenz
 
 Hinweis: Herstellerbeschreibung beachten, wie es gemessen werden muss.
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Empfohlene Monitoringfrequenz:** abhängig
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** mmHg
+- **Datenformat:** Numerisch ohne Nachkomma
+- **Wertebereich:** Systolisch: 0-500
+Diastolisch:0-500
 - **Erfassungsfrequenz:** keine Empfehlung, individuell abstimmen
+- **Empfohlene Monitoringfrequenz:** abhängig vom Ziel
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- **European Society of Cardiology (ESC 2024),** **European Society of Hypertension (ESH 2023)**
+
+| **Kategorie** | **Systolisch (oberer Wert)** | **Diastolisch (unterer Wert)** |
+| --- | --- | --- |
+| **Optimal** | < 120 | und < 80 |
+| **Normal / Nicht erhöht** | 120 – 129 | und/oder 80 – 84 |
+| **Erhöhter Blutdruck** *(Neu seit 2024)* | 120 – 139 | zu 70 – 89 |
+| **Hypertonie Grad 1** (Mild) | 140 – 159 | und/oder 90 – 99 |
+| **Hypertonie Grad 2** (Mittelschwer) | 160 – 179 | und/oder 100 – 109 |
+| **Hypertonie Grad 3** (Schwer) | ≥ 180 | und/oder ≥ 110 |
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal
 
 ### Herzfrequenz (bpm)
 

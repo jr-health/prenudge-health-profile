@@ -803,13 +803,20 @@ max: 20 (Transformiert 100)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Recommended Monitoring Frequency:** abhängig
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
+- **Range of Values:** Systolisch: 0-500
+Diastolisch:0-500
 - **Acquisition Frequency:** keine Empfehlung, individuell abstimmen
+- **Recommended Monitoring Frequency:** abhängig vom Ziel
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal
 
 ### Heart rate (bpm?)
 
