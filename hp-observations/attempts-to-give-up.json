@@ -14,12 +14,12 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "DEBRA Baseline Questionnaire (Frate 29):\n\nWie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?\n\nMit einem **ernsthaften Versuch** meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, **nie wieder zu rauchen**. Bitte berücksichtigen Sie auch einen Versuch, den Sie **derzeit unternehmen**, sowie jeden **erfolgreichen Versuch innerhalb des letzten Jahres**.\n\n**[quitattempts]**\n\n1. **Ja, ich habe im vergangenen Jahr XX Versuche unternommen.**\n_(Bitte geben Sie eine Zahl zwischen 0 und 100 an.)_\n2. **Ich habe keinen Versuch unternommen.**\n_(Wert „0“ wird automatisch gesetzt.)_",
+        "device": "DEBRA Baseline Questionnaire (Frage 29)",
+        "specific-questions": "**Wie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?** Mit einem ernsthaften Versuch meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, nie wieder zu rauchen. Bitte berücksichtigen Sie auch einen Versuch, den Sie derzeit unternehmen, sowie jeden erfolgreichen Versuch innerhalb des letzten Jahres.\n\n**Antwortmöglichkeiten:** 1) Ja, ich habe im vergangenen Jahr XX Versuche unternommen.\n(Bitte geben Sie eine Zahl zwischen 0 und 100 an.) 2) Ich habe keinen Versuch unternommen.\n(Wert „0“ wird automatisch gesetzt.)",
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1) erste Frage: 0-100",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
@@ -38,7 +38,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
+    "discussion": "Beschreibung fehlt"
   },
   "en": {
     "template": "observation",
@@ -59,7 +59,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1) erste Frage: 0-100",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
         "norms": [],
@@ -77,6 +77,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: [https://osf.io/ndu6r/files/snm3p](https://osf.io/ndu6r/files/snm3p)"
+    "discussion": "Beschreibung fehlt"
   }
 }
