@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.18-test | Generated: 2026-10-05_
+_Version: 0.1.18-test | Generated: 2026-10-12_
 
 ---
 
@@ -71,6 +71,7 @@ _Version: 0.1.18-test | Generated: 2026-10-05_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
+- [Edit History](#edit-history)
 
 ---
 
@@ -496,10 +497,14 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **Range of Values:** 0-7
-- **Acquisition Frequency:** 2x/year
-- **Recommended Monitoring Frequency:** 1/month
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** Minimum: 2x pro Jahr
+Optional: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf
 
 ### Muscle-strengthening exercises (units/week)
 
@@ -1181,3 +1186,11 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.18-test:_
+
+| Date | Author |
+|---|---|
+| 2026-10-12 | shaide79 |

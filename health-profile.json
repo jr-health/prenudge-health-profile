@@ -1,11 +1,16 @@
 {
   "version": "0.1.18-test",
-  "generated": "2026-10-05T18:48:06.322249+00:00",
+  "generated": "2026-10-12T07:06:14.063913+00:00",
   "scope": "combined",
-  "commit": "00b82d6441f3d05bff543a0bb3a312201aacd00c",
+  "commit": "25477a9325e34a4393e0d2a7c73b49d60f1a8b5b",
   "activity": {
     "since": "v0.1.18-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-10-12",
+        "author": "shaide79"
+      }
+    ]
   },
   "categories": [
     {
@@ -3014,32 +3019,37 @@
                 "template": "observation",
                 "key": "flexibility-and-balance-training-units-week",
                 "dataset-scope": "Extension",
-                "title": "Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)",
+                "title": "Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)",
                 "category": "physical-activity",
                 "dimension": "flexibility-and-balance",
                 "description": "",
-                "citizen-info": "",
+                "citizen-info": "Beweglichkeitstraining\n\nBeweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.\n\nIn Kombination mit dem Krafttraining eingesetzt, kann Beweglichkeitstraining einen wertvollen Beitrag zur Beseitigung muskulärer Dysbalancen liefern, die oftmals Folgeerscheinungen einseitiger Belastungen in Beruf, Haushalt und Freizeit sind.\n\nBeim Beweglichkeitstraining werden aktive und passive sowie statische und dynamische Methoden unterschieden.\n\nBei der aktiv dynamischen Methode werden die Extremitäten schwunghaft – jedoch ohne zu reißen und ohne Schmerz zu verursachen – über den gesamten Bewegungsspielraum des jeweiligen Gelenkes bewegt. Diese Dehnmethode eignet sich besonders gut zum Mobilisieren und zum Aufwärmen vor dem sportlichen Training und wird für ca. 30 Sekunden je Muskelgruppe durchgeführt.\n\nBei der aktiv statischen Methode werden die Gelenke durch eigene Muskelkraft – sprich durch Anspannen der muskulären Gegenspieler – an der individuellen Beweglichkeitsgrenze für 10 bis 20 Sekunden gehalten. Diese Dehnmethode ist eine Kombination aus Beweglichkeitstraining und Kräftigungstraining.\n\nBei der passiv statischen Methode, auch bekannt als „Stretching“, wird unter Zuhilfenahme des eigenen Körpergewichtes, Partnerhilfe oder anderer Hilfsmittel bis zur individuellen Beweglichkeitsgrenze für 20 bis 60 Sekunden gedehnt. Durch diese Dehnmethode kommt es zu einer spannungsreduzierenden Wirkung auf die Muskulatur. Die Methode eignet sich zur allgemeinen Verbesserung der Beweglichkeit, zur schnelleren Regeneration nach sportlichen Aktivitäten, zur körperlichen und mentalen Entspannung und zur Beseitigung muskulärer Verspannungen.\n\nPassiv dynamische Methoden werden im Gesundheitssport nicht empfohlen, weil sie sehr rasch zu Überbelastungen und Verletzungen führen können.\n\nAktivitätsniveau\n\nUm das individuelle Aktivitätsniveau einer Person zu beschreiben, wird der Umfang ausdauerorientierter Bewegung pro Woche (Wochenumfang) – z.B. in Minuten pro Woche – herangezogen. Es werden vier Kategorien unterschieden.\n\nBeweglichkeitstraining wofür?\n\nBeweglichkeit ist eine Fitnesskomponente neben Ausdauer, Kraft, Schnelligkeit und Koordination. Viele alltägliche Aktivitäten erfordern ein höheres Maß an Beweglichkeit (z.B. Schuhe anziehen, Körperpflege, Autofahren usw.). Um die Beweglichkeit zu erhöhen, eignen sich Gymnastik- und Dehnungsübungen. Beweglichkeitsübungen sind eine sinnvolle Ergänzung zu einem Bewegungsprogramm, auch wenn diese keine nachgewiesenen positiven Wirkungen auf die Gesundheit oder die Verletzungsprophylaxe haben. Der Zeitaufwand für ein Beweglichkeitstraining kann nicht für die Erreichung der Bewegungsempfehlungen (Ausdauer und Kraft) miteingerechnet werden.\n\nWofür sind Gleichgewichtsübungen gut?\n\nAlte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.",
                 "verified-health-links": [],
-                "population": "",
+                "population": "Gleichgewichtstraining wird für ältere Erwachsene (ab 65 Jahren) empfohlen",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Frage wie beim Muskeltraining (nicht standardisiert, aber fragt die Bewegungsempfehlungen ab)",
-                    "specific-questions": "- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihrer Beweglichkeit/Flexibilität durch?**\n- **An wie vielen Tagen pro Woche führen Sie Übungen zur Verbesserung Ihres Gleichgewichts durch?**",
+                    "device": "nicht standardisierte Frage, fragt aber fragt die Bewegungsempfehlungen ab",
+                    "specific-questions": "- **An wie vielen Tagen pro Woche führen Sie üblicherweise Übungen zur Verbesserung Ihrer Beweglichkeit durch?**\n- **An wie vielen Tagen pro Woche führen Sie üblicherweise Übungen zur Verbesserung Ihres Gleichgewichts durch?**",
                     "unit": "Tage/Woche",
-                    "data-format": "",
+                    "data-format": "ordinale Maßzahl",
                     "data-type": "",
                     "range-of-vales": "0-7",
-                    "acquisition-frequency": "2x/year",
-                    "recommended-monitoring-frequency": "1/month",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
                     "norms": [
                       {
                         "specific-norm": "Bewegungsempfehlungen Österreich"
                       }
                     ],
-                    "scoring-algorithm": "",
-                    "sources": [],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [
+                      {
+                        "source-description": "Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -3048,7 +3058,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
+                "discussion": "erledigt, Sandra\n\n@Mirna: Beschreibung von Beweglichkeit und Gleichgewichtstraining wort-wörtlich aus den Bewegungsempfehlungen dazugefügt"
               },
               "en": {
                 "template": "observation",
@@ -3070,10 +3080,14 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "0-7",
-                    "acquisition-frequency": "2x/year",
-                    "recommended-monitoring-frequency": "1/month",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "Minimum: 2x pro Jahr\nOptional: alle 3 Monate",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -3082,7 +3096,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung von Flexibilität und Gleichgewichtstraining aus den Bewegungsempfehlungen dazu\n\nHinweis, dass es ab 65 Gleichgewicht sein soll"
+                "discussion": "erledigt, Sandra\n\n@Mirna: Beschreibung von Beweglichkeit und Gleichgewichtstraining wort-wörtlich aus den Bewegungsempfehlungen dazugefügt"
               }
             }
           ]

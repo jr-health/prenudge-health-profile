@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.18-test | Generiert: 2026-10-05_
+_Version: 0.1.18-test | Generiert: 2026-10-12_
 
 ---
 
@@ -26,7 +26,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-05_
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
-  - [Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)](#flexibilitats--und-gleichgewichtstraining-einheitenwoche)
+  - [Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)](#beweglichkeits--und-gleichgewichtstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
@@ -71,6 +71,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-05_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -801,20 +802,59 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 |---|---|---|
 | http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
 
-### Flexibilitäts- und Gleichgewichtstraining (Einheiten/Woche)
+### Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)
+
+**Population:** Gleichgewichtstraining wird für ältere Erwachsene (ab 65 Jahren) empfohlen
+
+**Information für Bevölkerung:**
+
+Beweglichkeitstraining
+
+Beweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.
+
+In Kombination mit dem Krafttraining eingesetzt, kann Beweglichkeitstraining einen wertvollen Beitrag zur Beseitigung muskulärer Dysbalancen liefern, die oftmals Folgeerscheinungen einseitiger Belastungen in Beruf, Haushalt und Freizeit sind.
+
+Beim Beweglichkeitstraining werden aktive und passive sowie statische und dynamische Methoden unterschieden.
+
+Bei der aktiv dynamischen Methode werden die Extremitäten schwunghaft – jedoch ohne zu reißen und ohne Schmerz zu verursachen – über den gesamten Bewegungsspielraum des jeweiligen Gelenkes bewegt. Diese Dehnmethode eignet sich besonders gut zum Mobilisieren und zum Aufwärmen vor dem sportlichen Training und wird für ca. 30 Sekunden je Muskelgruppe durchgeführt.
+
+Bei der aktiv statischen Methode werden die Gelenke durch eigene Muskelkraft – sprich durch Anspannen der muskulären Gegenspieler – an der individuellen Beweglichkeitsgrenze für 10 bis 20 Sekunden gehalten. Diese Dehnmethode ist eine Kombination aus Beweglichkeitstraining und Kräftigungstraining.
+
+Bei der passiv statischen Methode, auch bekannt als „Stretching“, wird unter Zuhilfenahme des eigenen Körpergewichtes, Partnerhilfe oder anderer Hilfsmittel bis zur individuellen Beweglichkeitsgrenze für 20 bis 60 Sekunden gedehnt. Durch diese Dehnmethode kommt es zu einer spannungsreduzierenden Wirkung auf die Muskulatur. Die Methode eignet sich zur allgemeinen Verbesserung der Beweglichkeit, zur schnelleren Regeneration nach sportlichen Aktivitäten, zur körperlichen und mentalen Entspannung und zur Beseitigung muskulärer Verspannungen.
+
+Passiv dynamische Methoden werden im Gesundheitssport nicht empfohlen, weil sie sehr rasch zu Überbelastungen und Verletzungen führen können.
+
+Aktivitätsniveau
+
+Um das individuelle Aktivitätsniveau einer Person zu beschreiben, wird der Umfang ausdauerorientierter Bewegung pro Woche (Wochenumfang) – z.B. in Minuten pro Woche – herangezogen. Es werden vier Kategorien unterschieden.
+
+Beweglichkeitstraining wofür?
+
+Beweglichkeit ist eine Fitnesskomponente neben Ausdauer, Kraft, Schnelligkeit und Koordination. Viele alltägliche Aktivitäten erfordern ein höheres Maß an Beweglichkeit (z.B. Schuhe anziehen, Körperpflege, Autofahren usw.). Um die Beweglichkeit zu erhöhen, eignen sich Gymnastik- und Dehnungsübungen. Beweglichkeitsübungen sind eine sinnvolle Ergänzung zu einem Bewegungsprogramm, auch wenn diese keine nachgewiesenen positiven Wirkungen auf die Gesundheit oder die Verletzungsprophylaxe haben. Der Zeitaufwand für ein Beweglichkeitstraining kann nicht für die Erreichung der Bewegungsempfehlungen (Ausdauer und Kraft) miteingerechnet werden.
+
+Wofür sind Gleichgewichtsübungen gut?
+
+Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Tage/Woche
+- **Datenformat:** ordinale Maßzahl
 - **Wertebereich:** 0-7
-- **Erfassungsfrequenz:** 2x/year
-- **Empfohlene Monitoringfrequenz:** 1/month
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** Minimum: 2x pro Jahr
+Optional: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
 - Bewegungsempfehlungen Österreich
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf)
 
 ### Muskelkräftigende Übungen (Einheiten/Woche)
 
@@ -1913,3 +1953,11 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.18-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-10-12 | shaide79 |
