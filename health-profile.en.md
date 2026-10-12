@@ -782,8 +782,13 @@ max: 20 (Transformiert 100)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** wenn neue Medikamente verordnet wurden
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/23553447/
 
 ### Blood glucose level (mmol/l)
 
@@ -1226,5 +1231,5 @@ _Changes since version v0.1.18-test:_
 
 | Date | Author |
 |---|---|
-| 2026-10-12 | Thomas Truskaller |
 | 2026-10-12 | shaide79 |
+| 2026-10-12 | Thomas Truskaller |

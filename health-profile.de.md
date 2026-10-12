@@ -1310,8 +1310,15 @@ The second transformation method converts domain scores to a 0-100 scale.
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** multiple Antwortmöglichkeit möglich
+- **Datenformat:** kategoriell
+- **Wertebereich:** nicht zutreffend
+- **Erfassungsfrequenz:** wenn neue Medikamente verordnet wurden
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [de Vries ST, Mol PG, de Zeeuw D, Haaijer-Ruskamp FM, Denig P. Development and Initial Validation of a Patient-Reported Adverse Drug Event Questionnaire. Drug Saf. 2013 Sep;36(9):765-77. doi: 10.1007/s40264-013-0036-8. PMID: 23553447.](https://pubmed.ncbi.nlm.nih.gov/23553447/)
 
 ### Blutzuckerwert (mg/dl)
 
@@ -2173,5 +2180,5 @@ _Änderungen seit Version v0.1.18-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-10-12 | Thomas Truskaller |
 | 2026-10-12 | shaide79 |
+| 2026-10-12 | Thomas Truskaller |
