@@ -5,7 +5,7 @@
     "dataset-scope": "Extension",
     "title": "Vaccination-status-check",
     "category": "self-management",
-    "dimension": "",
+    "dimension": "self-monitoring",
     "description": "Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.",
     "citizen-info": "",
     "verified-health-links": [
@@ -53,7 +53,7 @@
     "dataset-scope": "Extension",
     "title": "Vaccination-status-check",
     "category": "self-management",
-    "dimension": "",
+    "dimension": "self-monitoring",
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
@@ -61,13 +61,27 @@
     "disease-association": [],
     "measurement-instrument": [
       {
-        "data-type": "",
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
           }
-        ]
+        ],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
     "discussion": ""
