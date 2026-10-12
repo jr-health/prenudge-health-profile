@@ -429,8 +429,8 @@
 
   <main>
 <h1 class="page-title">Tabelle — PräNUDGE Gesundheitsprofil</h1>    <div class="meta-bar">
-      <p class="meta-text">Version 0.1.18-test · Generiert: 2026-10-12 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/de8697abed775e9772c2572c1226a4a01de18aba">de8697a</a> ·
+      <p class="meta-text">Version 0.1.19-test · Generiert: 2026-10-12 ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/31c8b31be7c14726279a565c1cabb7ede083eb2c">31c8b31</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html">EN</a><a data-keep-scope href="browse.de.html" class="active">DE</a></div>
     </div>
@@ -488,26 +488,26 @@
       <td></td>
       <td class="discussion"><p>Ähnlich wie bei BMI (berechnet)</p></td>
     </tr>
-    <tr data-category="nutrition" data-observation="cereals-potatoes-rice-pasta-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+    <tr data-category="nutrition" data-observation="cereals-potatoes-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
-      <td>Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)</td>
+      <td>Getreide/Erdäpfel (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Fragebogen ergänzen</p></td>
+      <td class="discussion"><p>@Thomas: passt die kategorielle Abfrage?</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="dairy-products-portions-day" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Milchprodukte (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Milchprodukte müssen noch getrennt werden. --&gt; erledigt</p></td>
+      <td class="discussion"><p>@Thomas: Check kategorien</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="fish-portions-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
       <td>Fisch (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Muss auf Fisch und Fleisch aufgeteilt werden. --&gt; erledigt</p></td>
+      <td class="discussion"><p>@Mirna: Hab die Info von der AGES eingefügt</p></td>
     </tr>
     <tr data-category="nutrition" data-observation="fruit-vegetable-consumption" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
@@ -549,11 +549,11 @@
       <td>Öle/Fette/Nüsse/Samen (Portionen/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Milchprodukte müssen noch getrennt werden. --&gt; erledigt</p></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="nutrition" data-observation="sugary-salty-foods-portions-week" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f2c57c;"></span>Ernährung</td>
-      <td>Zucker- und salzreiche Lebensmittel (Portionen/Woche)</td>
+      <td>Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-sugarsalty-observation.html" target="_blank" rel="noopener">at-prenudge-nutrition-sugarsalty-observation</a></div></td>
       <td class="discussion"><p>Bei allen Ernährungsfragen von der letzten Woche.</p><p>Bild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.</p></td>
@@ -595,17 +595,17 @@
     </tr>
     <tr data-category="psychosocial-factors" data-observation="potential-access-barriers" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
-      <td>Potenzielle Zugangshindernisse</td>
+      <td>Diskriminierung im Gesundheitssystem</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Müssen daraus zwei fragen mache, Sexuelle Orientierung gehört zu den soziodemografischen, Zugangsbeschränkung bleibt da</p></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-stress" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
       <td>Selbstbericht über Stress</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html" target="_blank" rel="noopener">at-prenudge-pss10-score-observation</a></div></td>
-      <td class="discussion"><p>Fragebögen</p></td>
+      <td class="discussion"><p>Fragebögen</p><p>Messinstrument in PSS-4 und PSS-10 aufspliten?</p></td>
     </tr>
     <tr data-category="psychosocial-factors" data-observation="self-reported-resilience" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #6e4e69;"></span>Psychosoziale Faktoren</td>
@@ -647,7 +647,7 @@
       <td>Verlust des Körpergewichts (kg)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Frage nach ungewollten Gewichtsverlust ?</p><p><strong>Haben Sie in den letzten 6 Monaten ungewollt Gewicht verloren?</strong></p><p>☐ Nein<br>☐ Ja</p><p>Literatur: MNA; SNAQ</p></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="quality-of-life" data-observation="quality-of-life-score" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #f8e4bf;"></span>Lebensqualität</td>
@@ -672,7 +672,7 @@
     </tr>
     <tr data-category="self-management" data-observation="medication-side-effects" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
-      <td>Eigenständige Kontrolle von Medikamenten- und Impfstatus</td>
+      <td>Nebenwirkungen von Medikamenten</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
       <td class="discussion"><p>Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.</p><p>Erinnerung an Überprüfung des Impfstatus</p></td>
@@ -698,6 +698,13 @@
       <td></td>
       <td class="discussion"><p>Eigenständige Dokumentation --&gt; überall streichen</p></td>
     </tr>
+    <tr data-category="self-management" data-observation="vaccination-status-check" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>
+      <td>Vaccination-status-check</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td></td>
+      <td class="discussion"></td>
+    </tr>
     <tr data-category="sleep" data-observation="self-reported-chronotype" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
       <td>Selbstberichteter Chronotyp</td>
@@ -710,7 +717,7 @@
       <td>Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"></td>
+      <td class="discussion"><p>validierte Version gibt es momentan nicht. Wir haben aber eine SHIFT2Health eine Forward-Backward-Translation machen lassen</p></td>
     </tr>
     <tr data-category="sleep" data-observation="sleep-duration" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #007ba7;"></span>Schlaf</td>
@@ -745,7 +752,7 @@
       <td>Entwöhnungsversuche (Anzahl/Jahr)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Alle Fragen zum Rauchen könnten von der DEBRA Studie genommen werden: <a href="https://osf.io/ndu6r/files/snm3p" target="_blank" rel="noopener">https://osf.io/ndu6r/files/snm3p</a></p></td>
+      <td class="discussion"><p>Beschreibung fehlt</p></td>
     </tr>
     <tr data-category="smoking" data-observation="nicotine-addiction" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #004e64;"></span>Rauchen</td>
@@ -780,7 +787,7 @@
       <td>Wohnform (Eigenheim, Mietwohnung, Sonstiges)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>Frage konkret noch nachschauen</p></td>
+      <td class="discussion"></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="residence" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
@@ -794,7 +801,7 @@
       <td>Familienstand (ledig, verheiratet, in Partnerschaft, getrennt, verwitwet)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
-      <td class="discussion"><p>noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)</p><p>sollte nur in Beziehung sein?</p></td>
+      <td class="discussion"><p>noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)</p><p>sollte nur in Beziehung sein?</p><p>@Thomas: Hab im Athis nachgeschaut. Es wird gleich erhoben. Wenn ich eine Partnerschaft habe, aber nicht verheiratet bin, bin ich ledig. Wir müssten es ändern und nicht nach dem Familienstand, sondern der aktuellen Lebensstiation fragen:</p><p><strong>„Wie ist Ihre aktuelle Lebenssituation?“</strong></p><p>- Ich lebe in einer festen Partnerschaft / Ehe.<br>- Ich bin Single / lebe in keiner festen Partnerschaft<br>- oder nach der Haushaltsgröße</p></td>
     </tr>
     <tr data-category="sociodemographic-data" data-observation="ethnicity" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
@@ -813,6 +820,13 @@
     <tr data-category="sociodemographic-data" data-observation="employment-status-income" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
       <td>Berufliche Situation / Einkommen</td>
+      <td><div>Questionnaire · manual (self-reported)</div></td>
+      <td></td>
+      <td class="discussion"></td>
+    </tr>
+    <tr data-category="sociodemographic-data" data-observation="sexuelle-orientation" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
+      <td><span class="swatch" style="background-color: #e28913;"></span>Soziodemografische Daten</td>
+      <td>Sexuelle Orientierung</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td></td>
       <td class="discussion"></td>
@@ -841,8 +855,8 @@
   <button type="button" class="pager-btn" id="pager-next" aria-label="Nächste Seite">›</button>
 </div>
 </div>
-<script src="scope.js?v=0.1.18-test"></script>
-<script src="browse.js?v=0.1.18-test"></script>
+<script src="scope.js?v=0.1.19-test"></script>
+<script src="browse.js?v=0.1.19-test"></script>
   </main>
 </div>
 

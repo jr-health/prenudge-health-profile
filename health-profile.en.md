@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.18-test | Generated: 2026-10-12_
+_Version: 0.1.19-test | Generated: 2026-10-12_
 
 ---
 
@@ -13,7 +13,7 @@ _Version: 0.1.18-test | Generated: 2026-10-12_
   - [Waist circumference (cm)](#waist-circumference-cm)
   - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
 - [Nutrition](#nutrition)
-  - [Cereals, potatoes, rice, and pasta (portions/day)](#cereals-potatoes-rice-and-pasta-portionsday)
+  - [Cereals, potatoes (portions/day)](#cereals-potatoes-portionsday)
   - [Dairy products (portions/day)](#dairy-products-portionsday)
   - [Fish (portions/week)](#fish-portionsweek)
   - [Fruit and vegetable consumption (portions/day)](#fruit-and-vegetable-consumption-portionsday)
@@ -47,6 +47,7 @@ _Version: 0.1.18-test | Generated: 2026-10-12_
   - [Blood glucose level (mmol/l)](#blood-glucose-level-mmoll)
   - [Blood pressure (mmHg?)](#blood-pressure-mmhg)
   - [Heart rate (bpm?)](#heart-rate-bpm)
+  - [Vaccination-status-check](#vaccination-status-check)
 - [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [Self-reported chronotype](#self-reported-chronotype)
@@ -68,6 +69,7 @@ _Version: 0.1.18-test | Generated: 2026-10-12_
   - [Origin (Ethnicity)](#origin-ethnicity)
   - [Highest completed education (ISCED level)](#highest-completed-education-isced-level)
   - [Employment status / Income](#employment-status-income)
+  - [sexuelle-orientation](#sexuelle-orientation)
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
@@ -195,11 +197,13 @@ Optional: alle 3 Monate
 
 <img src="media/apple.png" alt="Nutrition" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-### Cereals, potatoes, rice, and pasta (portions/day)
+### Cereals, potatoes (portions/day)
 
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -211,6 +215,7 @@ Optional: alle 3 Monate
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -227,12 +232,14 @@ Optional: alle 3 Monate
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch
 
 ### Fruit and vegetable consumption (portions/day)
 
@@ -306,12 +313,14 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
 - **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch
 
 ### Non-alcoholic, unsweetened drinks (glasses/day)
 
@@ -331,6 +340,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -605,11 +615,12 @@ max: 24 Stunden
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
-- https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com
+- https://www.statcan.gc.ca/en/survey/household/5391
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
@@ -649,6 +660,9 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **Recommended Monitoring Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/
 
 ### Self-reported emotional burden
 
@@ -698,8 +712,13 @@ max: 16 (PSS-4) und 40 (PSS-10)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** nicht zutreffend
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://pubmed.ncbi.nlm.nih.gov/27760568/
 
 ### Susceptibility to infection (number within a defined period)
 
@@ -714,8 +733,13 @@ max: 16 (PSS-4) und 40 (PSS-10)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** ja/ oder Nein
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.
 
 ---
 
@@ -850,6 +874,20 @@ Diastolisch:0-500
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+### Vaccination-status-check
+
+**Verified Health Information:**
+- []()
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html
+
 ---
 
 ## Sexuality
@@ -878,8 +916,13 @@ _No observations recorded._
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** Für den Gesamtscore: 13-65 Punkte
+- **Recommended Monitoring Frequency:** 2x pro Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- 13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.
 
 ### Sleep duration (hours/night)
 
@@ -1045,6 +1088,7 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1) erste Frage: 0-100
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1119,8 +1163,12 @@ max: 120
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-6
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation
 
 ### Residence (urban/rural)
 
@@ -1186,6 +1234,18 @@ max: 120
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+### sexuelle-orientation
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html
+
 ---
 
 ## Workability
@@ -1227,9 +1287,9 @@ max: 49
 
 ## Edit History
 
-_Changes since version v0.1.18-test:_
+_Changes since version v0.1.19-test:_
 
 | Date | Author |
 |---|---|
 | 2026-10-12 | shaide79 |
-| 2026-10-12 | Thomas Truskaller |
+| 2026-10-12 | Theresa Weitlaner |

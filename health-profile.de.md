@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.18-test | Generiert: 2026-10-12_
+_Version: 0.1.19-test | Generiert: 2026-10-12_
 
 ---
 
@@ -13,7 +13,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
   - [Hüft-Taillen-Verhältnis](#huft-taillen-verhaltnis)
 - [Ernährung](#ernahrung)
-  - [Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)](#getreideerdapfelreisnudeln-portionentag)
+  - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdapfel-portionentag)
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
   - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
@@ -22,7 +22,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesusste-getranke-glasertag)
   - [Öle/Fette/Nüsse/Samen (Portionen/Tag)](#olefettenussesamen-portionentag)
-  - [Zucker- und salzreiche Lebensmittel (Portionen/Woche)](#zucker--und-salzreiche-lebensmittel-portionenwoche)
+  - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
@@ -30,7 +30,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
-  - [Potenzielle Zugangshindernisse](#potenzielle-zugangshindernisse)
+  - [Diskriminierung im Gesundheitssystem](#diskriminierung-im-gesundheitssystem)
   - [Selbstbericht über Stress](#selbstbericht-uber-stress)
   - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
   - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
@@ -43,10 +43,11 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
 - [Selbstmanagement](#selbstmanagement)
   - [Verständnis von gesundheitsbezogener Information](#verstandnis-von-gesundheitsbezogener-information)
   - [Meldung von Symptomen oder Veränderungen an Fachkräfte](#meldung-von-symptomen-oder-veranderungen-an-fachkrafte)
-  - [Eigenständige Kontrolle von Medikamenten- und Impfstatus](#eigenstandige-kontrolle-von-medikamenten--und-impfstatus)
+  - [Nebenwirkungen von Medikamenten](#nebenwirkungen-von-medikamenten)
   - [Blutzuckerwert (mg/dl)](#blutzuckerwert-mgdl)
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
+  - [Vaccination-status-check](#vaccination-status-check)
 - [Sexualität](#sexualitat)
 - [Schlaf](#schlaf)
   - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
@@ -68,6 +69,7 @@ _Version: 0.1.18-test | Generiert: 2026-10-12_
   - [Alltagssprache](#alltagssprache)
   - [Höchste abgeschlossene Schulbildung (ISCED-Level)](#hochste-abgeschlossene-schulbildung-isced-level)
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
+  - [Sexuelle Orientierung](#sexuelle-orientierung)
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
@@ -224,14 +226,15 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 
 ### Taillen-/Bauchumfang (cm)
 
-**Beschreibung für Fachpersonal:**
+**Information für Bevölkerung:**
 
-Der **Bauchumfang** bzw. **Taillenumfang** (_waist circumference_) bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe "Rippe") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm "Beckenkamm") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe "Fettgewebe"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett "Viszeralfett").
+Der **Bauchumfang** bzw. **Taillenumfang**  bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe "Rippe") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm "Beckenkamm") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe "Fettgewebe"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett "Viszeralfett").
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** cm
+- **Datenformat:** metrisch
 - **Wertebereich:** 30-250 cm
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
@@ -278,20 +281,25 @@ Männer <0,90; ≥0,90
 
 <img src="media/apple.png" alt="Ernährung" width="48" style="background-color: #f2c57c; padding: 6px; border-radius: 6px;">
 
-### Getreide/Erdäpfel/Reis/Nudeln (Portionen/Tag)
+### Getreide/Erdäpfel (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 
 Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-4
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Getreide und Erdäpfel: Empfohlene Portionsgrößen
+- ## Empfohlene Portionsgrößen
 
 Essen Sie **täglich Getreide und Erdäpfel**. Empfohlen werden
 
@@ -314,9 +322,9 @@ Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Voll
 
 ### Milchprodukte (Portionen/Tag)
 
-**Information für Bevölkerung:**
+**Population:** Allgemeinbevölkerung
 
-### Milch und Milchprodukte – täglich
+**Information für Bevölkerung:**
 
 Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.
 
@@ -325,6 +333,8 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -333,10 +343,16 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 **Spezifische Normen:**
 - **2 Portionen Milch und Milchprodukte/Tag**
 
+**Scoring-Algorithmus:** nicht zutreffend
+
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
 ### Fisch (Portionen/Woche)
+
+**Information für Bevölkerung:**
+
+Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.
 
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
@@ -345,29 +361,37 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Portionen/Woche 1 Portion = siehe unten
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen
+- ## Ernährungsempfehlungen
 
-Wenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. 
+Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
 
-Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden.
+Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.
 
-**Eine Portion entspricht:** 
+## Tipps für Einkauf & Verzehr
 
-| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
-| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
-| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
+- Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).
+- Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.
+- Auf Tracking-Möglichkeiten und Kennzeichnungen achten.
+- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.
+- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.
+- Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.
+- Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.
+- Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.
+- Haben Sie Fadenwürmer im Fisch gefunden, dann wenden Sie sich an die Lebensmittelaufsicht Ihres Bundeslandes und reklamieren Sie das Produkt im Handel.
 
-Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
-
-Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- [AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch)
 
 ### Gemüse- und Obstkonsum (Portionen/Tag)
 
@@ -443,15 +467,16 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 ### Hülsenfrüchte (Portionen/Woche)
 
-**Information für Bevölkerung:**
+**Population:** Allgemeinbevölkerung
 
-### Hülsenfrüchte und daraus hergestellte Produkte – wöchentlich
+**Information für Bevölkerung:**
 
 Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
 - **Wertebereich:** 1x pro Jahr
 - **Erfassungsfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -465,6 +490,14 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 ### Fleisch (Portionen/Woche)
 
+**Population:** Erwachsene
+
+**Information für Bevölkerung:**
+
+## Allgemein
+
+Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).
+
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
 
@@ -472,29 +505,22 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Portionen/Woche 1 Portion = siehe unten
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
 - **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Fisch, Fleisch, Wurst: Empfohlene Portionsgrößen
+- ### Ernährungsempfehlungen
 
-Wenn Sie sich mit **Fisch und Fleisch** ernähren: Essen Sie pro Woche **1 Portion Fisch** und **1 Portion Fleisch.** Wahlweise können Sie pro Woche zusätzlich **1 Portion Fisch oder Fleisch** essen. 
+Fleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen, Zink und B-Vitaminen. Nach den Empfehlungen der österreichischen Ernährungspyramide sollten wöchentlich maximal 3 Portionen davon konsumiert werden.
 
-Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
-
-**Eine Portion entspricht:** 
-
-| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
-| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
-| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
-
-Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
-
-Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
+- [AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch)
 
 ### Alkoholfreie, ungesüßte Getränke (Gläser/Tag)
 
@@ -541,18 +567,40 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell 1-4
+- **Wertebereich:** 1-4
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+- Die Ernährungsempfehlungen auf einen Blick zeigt die [Österreichischen Ernährungspyramide](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide.html "Öffnet im selben Fenster"). Es gibt sie in zwei Varianten: mit Fisch und Fleisch, ohne Fisch und Fleisch.
+
+Pflanzliche Öle, Nüsse und Samen sollten **täglich** in moderaten Mengen konsumiert werden: **rund 2 Portionen. Eine Portion entspricht:**
+
+| Fette und Öle | 1 - 2 Esslöffel | 10 - 25 g |
+| Nüsse, Samen | 2 Esslöffel | ca. 25 g |
+
+Streich-, Back- und Bratfette wie Butter, Margarine oder Schmalz und fettreiche Milchprodukte, wie Schlagobers, Sauerrahm, Crème Fraîche, sparsam verwenden. Achten Sie auf fettarme Zubereitungsmethoden, z.B. dünsten, dampfgaren, grillen statt frittieren oder panieren.
+
+Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3-reiche pflanzliche Produkte, z.B. Rapsöl, Leinöl, Walnüsse und daraus hergestellte Öle, gegenüber jenen mit einem hohen Gehalt an Omega-6-Fettsäuren, z.B. Sonnenblumenöl oder Maiskeimöl.
+
+**Scoring-Algorithmus:** nicht zutreffen
+
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
-### Zucker- und salzreiche Lebensmittel (Portionen/Woche)
+### Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)
 
 **Beschreibung für Fachpersonal:**
 
@@ -1011,35 +1059,22 @@ max: 24 Stunden
 
 <img src="media/brain-circuit-white.png" alt="Psychosoziale Faktoren" width="48" style="background-color: #6e4e69; padding: 6px; border-radius: 6px;">
 
-### Potenzielle Zugangshindernisse
+### Diskriminierung im Gesundheitssystem
 
-**Information für Bevölkerung:**
-
-Potenzielle Zugangshindernisse (z. B. ethnische Minderheit, LGBTQ+, ältere Person, körperliche oder sensorische Einschränkung, Behinderung)
-
-Vorschlag:
-
-**Wie würden Sie Ihre sexuelle Orientierung beschreiben?**
-
-- Heterosexuell
-- Lesbisch oder schwul
-- Bisexuell
-- Eine andere sexuelle Orientierung, nämlich: ________
-- Weiß nicht
-- Möchte ich nicht angeben
+**Population:** Allgemeinbevölkerung
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell (mit Mehrfachnennung)
+- **Wertebereich:** nicht zutreffend
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
-- https://www.oecd.org/en/publications/oecd-style-guide-fourth-edition_2ca15c7e-en/full-report/component-10.html?utm_source=chatgpt.com
-
-**Messinstrument 2** — Questionnaire · manual (self-reported)
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
+- [Survey on Health Care Access and Experiences - Primary and Specialist Care](https://www.statcan.gc.ca/en/survey/household/5391)
 
 ### Selbstbericht über Stress
 
@@ -1081,8 +1116,7 @@ PSS-10: Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingesch�
 **Scoring-Algorithmus:** PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.
 PSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.
 Für die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.
-Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der
-Selbstwirksamkeitsskala (siehe NextCloud!)
+Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der Selbstwirksamkeitsskala (siehe NextCloud!)
 
 **Quellen:**
 - [Subjektiv – PSS-4 und PSS-10](doi.org/10.2307/2136404)
@@ -1098,22 +1132,12 @@ Selbstwirksamkeitsskala (siehe NextCloud!)
 
 ### Selbstbericht über Resilienz
 
-**Beschreibung für Fachpersonal:**
-
-Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:
-
-1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.
-2. Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_
-3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.
-4. Es ist für mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.
-5. Ich habe das Gefühl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.
-6. Ich komme meistens gut durch schwere Zeiten durch
-
 **Population:** Allgemeinbevölkerung
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** Kategoriel
 - **Wertebereich:** jeder wert kann 1-5 sein
 - **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
@@ -1123,6 +1147,9 @@ Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) od
 - Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden
 
 **Scoring-Algorithmus:** Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.
+
+**Quellen:**
+- [Brief Resilience Scale (Deutsche Version)](https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/)
 
 ### Selbstbericht über emotionale Belastung
 
@@ -1197,8 +1224,16 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** nicht zutreffend
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+
+**Quellen:**
+- [Cleland C, Kearns A, Tannahill C, Ellaway A. The impact of life events on adult physical and mental health and well-being: longitudinal analysis using the GoWell health and well-being survey. BMC Res Notes. 2016 Oct 18;9(1):470. doi: 10.1186/s13104-016-2278-x. PMID: 27760568; PMCID: PMC5070029.](https://pubmed.ncbi.nlm.nih.gov/27760568/)
 
 ### Infektanfälligkeit (Anzahl innerhalb definierter Periode)
 
@@ -1213,8 +1248,16 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** dichotom
+- **Wertebereich:** ja/ oder Nein
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+
+**Quellen:**
+- [Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.](Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.)
 
 ---
 
@@ -1305,7 +1348,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Eigenständige Kontrolle von Medikamenten- und Impfstatus
+### Nebenwirkungen von Medikamenten
 
 #### Messinstrumente
 
@@ -1554,6 +1597,24 @@ Diastolisch:0-500
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+### Vaccination-status-check
+
+**Beschreibung für Fachpersonal:**
+
+Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.
+
+**Verifizierte Gesundheitsinformation:**
+- []()
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [Impfplan Österreich](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html)
+
 ---
 
 ## Sexualität
@@ -1581,11 +1642,25 @@ _Keine Beobachtungen erfasst._
 
 ### Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** Für den Gesamtscore: 13-65 Punkte
+- **Empfohlene Monitoringfrequenz:** 2x pro Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- -  **13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.
+- **28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.
+- **42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern.
+
+**Scoring-Algorithmus:** Punkte zusammenzählen
+
+**Quellen:**
+- 13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.
 
 ### Schlafdauer (Stunden/Nacht)
 
@@ -1854,6 +1929,7 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Wertebereich:** 1) erste Frage: 0-100
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -2011,11 +2087,20 @@ Nicht erforderlich
 
 ### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell (1-6) mit Einfach-Antwort
+- **Wertebereich:** 1-6
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Statistik Austria. Wohnsitutation](https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation)
 
 ### Wohnortgröße (Stadt/Land)
 
@@ -2103,6 +2188,19 @@ Nicht erforderlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+### Sexuelle Orientierung
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [OECD. Society at a Glance 2019](https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html)
+
 ---
 
 ## Arbeit
@@ -2176,9 +2274,9 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 
 ## Bearbeitungshistorie
 
-_Änderungen seit Version v0.1.18-test:_
+_Änderungen seit Version v0.1.19-test:_
 
 | Datum | Bearbeiter |
 |---|---|
 | 2026-10-12 | shaide79 |
-| 2026-10-12 | Thomas Truskaller |
+| 2026-10-12 | Theresa Weitlaner |
