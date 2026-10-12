@@ -68,6 +68,7 @@ _Version: 0.1.19-test | Generated: 2026-10-12_
   - [Origin (Ethnicity)](#origin-ethnicity)
   - [Highest completed education (ISCED level)](#highest-completed-education-isced-level)
   - [Employment status / Income](#employment-status-income)
+  - [sexuelle-orientation](#sexuelle-orientation)
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
@@ -1208,6 +1209,18 @@ max: 120
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+### sexuelle-orientation
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-5
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html
 
 ---
 

@@ -68,6 +68,7 @@ _Version: 0.1.19-test | Generiert: 2026-10-12_
   - [Alltagssprache](#alltagssprache)
   - [Höchste abgeschlossene Schulbildung (ISCED-Level)](#hochste-abgeschlossene-schulbildung-isced-level)
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
+  - [Sexuelle Orientierung](#sexuelle-orientierung)
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
@@ -2151,6 +2152,19 @@ Nicht erforderlich
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+### Sexuelle Orientierung
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** kategoriell
+- **Wertebereich:** 1-5
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [OECD. Society at a Glance 2019](https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html)
 
 ---
 
