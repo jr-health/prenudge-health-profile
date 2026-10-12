@@ -21,12 +21,12 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "Frage die die Österreichischen Ernährungsempfehlungen abfragt",
+        "specific-questions": "**„Wie viele Portionen Fisch essen Sie in einer normalen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
         "unit": "Portionen/Woche\n1 Portion = siehe unten",
-        "data-format": "",
+        "data-format": "kategoriell",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-5",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [
@@ -81,7 +81,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-5",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
@@ -91,6 +91,7 @@
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
           },
           {
+            "source-description": "",
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
           }
         ],
