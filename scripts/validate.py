@@ -85,11 +85,13 @@ def check_references(
     field: str,
     target_name: str,
     target_keys: set[str],
+    required: bool = True,
 ):
     for e in entries:
         ref = e.get("de", {}).get(field) or e.get("en", {}).get(field)
         if not ref:
-            _warn(f"[{name}] {e['_file']} (key='{key_of(e)}'): missing '{field}'")
+            if required:
+                _warn(f"[{name}] {e['_file']} (key='{key_of(e)}'): missing '{field}'")
             continue
         if ref not in target_keys:
             _error(
@@ -126,7 +128,7 @@ def main():
 
     print("Checking references...")
     check_references("dimensions",   dimensions,   "category",  "categories",  cat_keys)
-    check_references("observations", observations, "dimension", "dimensions",  dim_keys)
+    check_references("observations", observations, "dimension", "dimensions",  dim_keys, required=False)  # optional, being phased out
     check_references("observations", observations, "category",  "categories",  cat_keys)
 
     print()
