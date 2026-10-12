@@ -4,25 +4,30 @@
     "key": "oils-fats-nuts-seeds-portions-day",
     "dataset-scope": "Extension",
     "title": "Öle/Fette/Nüsse/Samen (Portionen/Tag)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
+    "description": "",
+    "citizen-info": "In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.",
+    "verified-health-links": [],
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "",
+        "device": "Fragebogen, der die österreichischen Ernährungsempfehlungen abfragt",
+        "specific-questions": "**„An einem normalen Tag: Wie viele Portionen an pflanzlichen Ölen, Nüssen oder Samen verzehren Sie insgesamt?“** _Orientierungshilfe für 1 Portion: **1 Esslöffel** hochwertiges Pflanzenöl (z. B. Raps-, Lein- oder Olivenöl) zum Kochen oder für den Salat; **2 Esslöffel** ungesalzene Nüsse oder Samen (z. B. Walnüsse, Kürbiskerne, Leinsamen)_\n\n_Antwortmöglichkeit (Einzelantwort): 1)_ 0 Portionen / Ich verwende diese Produkte im Alltag nicht; 2) 1 Portion am Tag; 3) 2 Portionen am Tag ; 4) 3 oder mehr Portionen am Tag",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell 1-4",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-4",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
-        "norms": [],
-        "scoring-algorithm": "",
+        "norms": [
+          {
+            "specific-norm": "Die Ernährungsempfehlungen auf einen Blick zeigt die [Österreichischen Ernährungspyramide](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide.html \"Öffnet im selben Fenster\"). Es gibt sie in zwei Varianten: mit Fisch und Fleisch, ohne Fisch und Fleisch.\n\nPflanzliche Öle, Nüsse und Samen sollten **täglich** in moderaten Mengen konsumiert werden: **rund 2 Portionen. Eine Portion entspricht:**\n\n| Fette und Öle | 1 - 2 Esslöffel | 10 - 25 g |\n| Nüsse, Samen | 2 Esslöffel | ca. 25 g |\n\nStreich-, Back- und Bratfette wie Butter, Margarine oder Schmalz und fettreiche Milchprodukte, wie Schlagobers, Sauerrahm, Crème Fraîche, sparsam verwenden. Achten Sie auf fettarme Zubereitungsmethoden, z.B. dünsten, dampfgaren, grillen statt frittieren oder panieren.\n\nInsbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3-reiche pflanzliche Produkte, z.B. Rapsöl, Leinöl, Walnüsse und daraus hergestellte Öle, gegenüber jenen mit einem hohen Gehalt an Omega-6-Fettsäuren, z.B. Sonnenblumenöl oder Maiskeimöl."
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffen",
         "sources": [
           {
             "source-description": "",
@@ -37,19 +42,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
     "key": "oils-fats-nuts-seeds-portions-day",
     "dataset-scope": "Extension",
     "title": "Oils, fats, nuts, and seeds (portions/day)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -57,7 +63,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-4",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
@@ -75,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+    "discussion": ""
   }
 }
