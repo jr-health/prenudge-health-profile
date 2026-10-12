@@ -1,0 +1,59 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "sexuelle-orientation",
+    "dataset-scope": "Extension",
+    "title": "Sexuelle Orientierung",
+    "category": "sociodemographic-data",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) Asexuell ;5) Ich bezeichne mich anders / Eine andere Orientierung; 6) Weiß nicht / Keine Angabe",
+        "unit": "",
+        "data-format": "kategoriell",
+        "data-type": "",
+        "range-of-vales": "1-5",
+        "acquisition-frequency": "",
+        "recommended-monitoring-frequency": "",
+        "norms": [],
+        "scoring-algorithm": "",
+        "sources": [],
+        "terminology-codes": [],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "sexuelle-orientation",
+    "dataset-scope": "Extension",
+    "title": "sexuelle-orientation",
+    "category": "sociodemographic-data",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "data-type": "",
+        "source-type": "Questionnaire · manual (self-reported)",
+        "range-of-vales": "1-5"
+      }
+    ],
+    "discussion": ""
+  }
+}
