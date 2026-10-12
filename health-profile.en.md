@@ -71,6 +71,7 @@ _Version: 0.1.19-test | Generated: 2026-10-12_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
+- [Edit History](#edit-history)
 
 ---
 
@@ -1232,3 +1233,11 @@ max: 49
 - Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.19-test:_
+
+| Date | Author |
+|---|---|
+| 2026-10-12 | shaide79 |

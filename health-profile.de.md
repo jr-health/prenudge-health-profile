@@ -71,6 +71,7 @@ _Version: 0.1.19-test | Generiert: 2026-10-12_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit](#erwerbstatigkeit)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2218,3 +2219,11 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.19-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-10-12 | shaide79 |
