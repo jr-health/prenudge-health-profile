@@ -4,21 +4,22 @@
     "key": "dairy-products-portions-day",
     "dataset-scope": "Extension",
     "title": "Milchprodukte (Portionen/Tag)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "population": "",
+    "description": "",
+    "citizen-info": "Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.\n\nPflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.",
+    "verified-health-links": [],
+    "population": "Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "### Milch und Milchprodukte – täglich\n\nMilch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.\n\nPflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Portionen Milchprodukte pro Tag",
-        "specific-questions": "",
+        "specific-questions": "**„An einem normalen Tag: Wie viele Portionen an Milch oder Milchprodukten essen oder trinken Sie insgesamt?“** _Orientierungshilfe für 1 Portion: 1 Glas Milch / Buttermilch oder 1 Becher Joghurt / Topfen (ca. 150–200 ml/g) 2 handflächengroße, dünne Scheiben Käse (ca. 50–60 g)_\n\n_Antwortmöglichkeiten (Einfachnennung) 1)_ 0 Portionen / Ich konsumiere keine Milchprodukte; 2) 1 Portion am Tag*; 3)* 2 Portionen am Tag; 4) 3 Portionen am Tag; 5) 4 oder mehr Portionen am Tag",
         "unit": "",
-        "data-format": "",
+        "data-format": "kategoriell",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-5",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [
@@ -26,7 +27,7 @@
             "specific-norm": "**2 Portionen Milch und Milchprodukte/Tag**"
           }
         ],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [
           {
             "source-description": "",
@@ -41,19 +42,20 @@
         "app-providers": []
       }
     ],
-    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+    "discussion": "@Thomas: Check kategorien"
   },
   "en": {
     "template": "observation",
     "key": "dairy-products-portions-day",
     "dataset-scope": "Extension",
     "title": "Dairy products (portions/day)",
-    "description": "",
     "category": "nutrition",
     "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -61,7 +63,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
+        "range-of-vales": "1-5",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
@@ -79,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Milchprodukte müssen noch getrennt werden. --> erledigt"
+    "discussion": "@Thomas: Check kategorien"
   }
 }
