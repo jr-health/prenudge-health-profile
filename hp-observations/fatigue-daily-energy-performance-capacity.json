@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden"
+    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden"
+    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
   }
 }
