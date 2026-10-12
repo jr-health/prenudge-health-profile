@@ -659,6 +659,9 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/
+
 ### Self-reported emotional burden
 
 **Verified Health Information:**

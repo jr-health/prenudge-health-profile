@@ -1,8 +1,8 @@
 {
   "version": "0.1.19-test",
-  "generated": "2026-10-12T11:17:42.004159+00:00",
+  "generated": "2026-10-12T11:28:16.752237+00:00",
   "scope": "combined",
-  "commit": "5b253f441fff63d35c93d4be1e9b66eca818db8e",
+  "commit": "5f9a599628f364955eace91900bdd997d896ff8e",
   "activity": {
     "since": "v0.1.19-test",
     "entries": [
@@ -4024,7 +4024,7 @@
                 "title": "Selbstbericht über Resilienz",
                 "category": "psychosocial-factors",
                 "dimension": "coping-ability",
-                "description": "Skala meist von **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert:\n\n1. Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.\n2. Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_\n3. Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.\n4. Es ist für mich schwer, mich von einer schlechten Neuigkeit zu erholen _(oder vergleichbare Formulierung)_.\n5. Ich habe das Gefühl, dass ich mich nach einer harten Phase nur langsam wieder fange _(oder konventionell Item 5)_.\n6. Ich komme meistens gut durch schwere Zeiten durch",
+                "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
                 "population": "Allgemeinbevölkerung",
@@ -4033,9 +4033,9 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Chmitorz, A., Wenzel, M., Stieglitz, R.-D., Kunzler, A., Bagusat, C., Helmreich, I., Gerlicher, A., Kampa, M., Kubiak, T., Kalisch, R., Lieb, K. & Tüscher, O. (2018). Population-based validation of a German version of the Brief Resilience Scale. PLOS ONE, 13(2), e0192761.DOI: 10.1371/journal.pone.019276",
-                    "specific-questions": "",
+                    "specific-questions": "**1) Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**2) Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**3) Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**4) Es fällt mir schwer zur Normalität zurückzukehren, wenn etwas Schlimmes passiert ist.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**5) Normalerweise überstehe ich schwierige Zeiten ohne größere Probleme.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**6) Ich brauche tendenziell lange, um über Rückschläge in meinem Leben hinwegzukommen.**\n\n> Antwortmöglichkeit: 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert",
                     "unit": "",
-                    "data-format": "",
+                    "data-format": "Kategoriel",
                     "data-type": "",
                     "range-of-vales": "jeder wert kann 1-5 sein",
                     "acquisition-frequency": "",
@@ -4046,7 +4046,12 @@
                       }
                     ],
                     "scoring-algorithm": "Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Brief Resilience Scale (Deutsche Version)",
+                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -4080,7 +4085,11 @@
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
