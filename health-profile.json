@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:24:11.645155+00:00",
+  "generated": "2026-10-21T14:25:21.469232+00:00",
   "scope": "combined",
-  "commit": "9ba044890b3bf39ef0e8064aa35264f51114a341",
+  "commit": "31e8453b493672c265f08477822a8edc1d187bb1",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8434,7 +8434,7 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "vadliderte Frage von OECD",
                     "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) oder; 5) Weiß nicht / Keine Angabe",
                     "unit": "",
                     "data-format": "kategoriell",
