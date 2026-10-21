@@ -50,7 +50,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Vaccination-status-check](#vaccination-status-check)
 - [Sexualität](#sexualitat)
 - [Schlaf](#schlaf)
-  - [Selbstberichteter Chronotyp](#selbstberichteter-chronotyp)
+  - [Chronotyp](#chronotyp)
   - [Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)](#schlafhygiene-haufigkeit-der-einhaltung-schlaffordernder-routinenwoche)
   - [Schlafdauer (Stunden/Nacht)](#schlafdauer-stundennacht)
   - [Selbstangegebene Einschätzung der Schlafqualität](#selbstangegebene-einschatzung-der-schlafqualitat)
@@ -1629,7 +1629,7 @@ _Keine Beobachtungen erfasst._
 
 <img src="media/bed_white.png" alt="Schlaf" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
 
-### Selbstberichteter Chronotyp
+### Chronotyp
 
 **Population:** Allgemeinbevölkerung
 

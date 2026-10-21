@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:13:17.771749+00:00",
+  "generated": "2026-10-21T14:13:56.942790+00:00",
   "scope": "combined",
-  "commit": "1f5b020b60590685f4defc8ff42346165880679d",
+  "commit": "b28c5b7764dc54e865fc598b2a22bec7907084c5",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -6022,13 +6022,14 @@
                 "template": "observation",
                 "key": "self-reported-chronotype",
                 "dataset-scope": "Extension",
-                "title": "Selbstberichteter Chronotyp",
-                "description": "",
+                "title": "Chronotyp",
                 "category": "sleep",
                 "dimension": "chronotyp",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -6058,12 +6059,13 @@
                 "key": "self-reported-chronotype",
                 "dataset-scope": "Extension",
                 "title": "Self-reported chronotype",
-                "description": "",
                 "category": "sleep",
                 "dimension": "chronotyp",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
