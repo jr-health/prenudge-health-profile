@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "",
+        "specific-questions": "Vom Athis; 2026: Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch folgende Beschwerden beeinträchtigt? Müdigkeit oder das Gefühl, wenig Energie\n\nAntwortmöglichkeit: – Nie [1]; An manchen Tagen [2]; An mehr als der Hälfte der Tage; Beinahe jeden Tag [4]",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -33,7 +33,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
+    "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
   },
   "en": {
     "template": "observation",
@@ -67,6 +67,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
+    "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
   }
 }
