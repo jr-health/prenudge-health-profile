@@ -1574,6 +1574,8 @@ Diastolisch:0-500
 
 ### Herzfrequenz (bpm)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Wearable device / sensor · automated
