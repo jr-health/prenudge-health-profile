@@ -14,7 +14,7 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "Patient-Reported Adverse Drug Event Questionnaire - Selbstbeobachtungen von Medikamenten(neben)wirkung",
+        "device": "Patient-Reported Adverse Drug Event Questionnaire",
         "specific-questions": "**Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?**\n_Bitte wählen Sie alle zutreffenden Antworten aus._\n\n☐ Übelkeit oder Erbrechen\n☐ Durchfall oder Verstopfung\n☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden\n☐ Schwindel oder Benommenheit\n☐ Kopfschmerzen\n☐ Müdigkeit oder Schläfrigkeit\n☐ Schlafstörungen\n☐ Konzentrations- oder Gedächtnisprobleme\n☐ Hautausschlag oder Juckreiz\n☐ Schwitzen\n☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden\n☐ Atembeschwerden\n☐ Appetitveränderungen\n☐ Ungewollte Gewichtszunahme\n☐ Ungewollter Gewichtsverlust\n☐ Muskel- oder Gelenkschmerzen\n☐ Sexuelle Beschwerden\n☐ Probleme beim Wasserlassen\n☐ Stimmungsschwankungen oder andere psychische Beschwerden\n☐ Andere Nebenwirkung, nämlich: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine Nebenwirkungen bemerkt",
         "unit": "multiple Antwortmöglichkeit möglich",
         "data-format": "kategoriell",
