@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T12:56:12.122098+00:00",
+  "generated": "2026-10-21T12:59:20.910784+00:00",
   "scope": "combined",
-  "commit": "feade02a0a0efb3252ba0d9c05b92f9746ae16e4",
+  "commit": "546e9807ff71451d127bc558250febb7ad6d7fb8",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8861,6 +8861,40 @@
         "key": "telbiomed",
         "name": "TELBIOMED",
         "app-name": "Digitale Präventionsambulanz"
+      }
+    }
+  ],
+  "orphaned_observations": [
+    {
+      "de": {
+        "template": "observation",
+        "key": "eggs",
+        "dataset-scope": "Extension",
+        "title": "eggs",
+        "category": "nutrition",
+        "dimension": "",
+        "description": "",
+        "citizen-info": "",
+        "verified-health-links": [],
+        "population": "",
+        "disease-association": [],
+        "measurement-instrument": [],
+        "discussion": ""
+      },
+      "en": {
+        "template": "observation",
+        "key": "eggs",
+        "dataset-scope": "Extension",
+        "title": "eggs",
+        "category": "nutrition",
+        "dimension": "",
+        "description": "",
+        "citizen-info": "[https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier) \n\nHomepage geht grad nicht soll von dem kopiert werden.",
+        "verified-health-links": [],
+        "population": "Allgemeinbevölkerung",
+        "disease-association": [],
+        "measurement-instrument": [],
+        "discussion": ""
       }
     }
   ]
