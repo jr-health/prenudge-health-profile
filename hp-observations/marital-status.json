@@ -14,8 +14,8 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
-        "specific-questions": "**F59 „Was ist Ihr Familienstand?“** \n\n- ☐ Ledig\n- ☐ Verheiratet oder Partnerschaft\n- ☐ Verwitwet \n- ☐ Geschieden oder aufgelöste eingetragene Partnerschaft \n\nSie sind in einer Partnerschaft, aber nicht verheiratet? Bitte antworten Sie mit Ledig.",
+        "device": "nicht standardisierte Frage",
+        "specific-questions": "**„Wie ist Ihre aktuelle Lebenssituation?**\n\nAntwortmöglichkeit: 1) Ich lebe in einer festen Partnerschaft / Ehe/Beziehung im selben Haushalt. 2)  Ich lebe in einer festen Partnerschaft / Ehe/Beziehung in getrennten Haushalt. 3) Ich bin Single / lebe in keiner festen Partnerschaft",
         "unit": "",
         "data-format": "",
         "data-type": "",
@@ -42,7 +42,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?\n\n@Thomas: Hab im Athis nachgeschaut. Es wird gleich erhoben. Wenn ich eine Partnerschaft habe, aber nicht verheiratet bin, bin ich ledig. Wir müssten es ändern und nicht nach dem Familienstand, sondern der aktuellen Lebensstiation fragen: \n\n**„Wie ist Ihre aktuelle Lebenssituation?“**\n\n- Ich lebe in einer festen Partnerschaft / Ehe.\n- Ich bin Single / lebe in keiner festen Partnerschaft\n- oder nach der Haushaltsgröße"
+    "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?\n\n@Thomas: Hab im Athis nachgeschaut. Es wird gleich erhoben. Wenn ich eine Partnerschaft habe, aber nicht verheiratet bin, bin ich ledig. Wir müssten es ändern und nicht nach dem Familienstand, sondern der aktuellen Lebensstiation fragen: \n\n**„Wie ist Ihre aktuelle Lebenssituation?“**\n\n- Ich lebe in einer festen Partnerschaft / Ehe.\n- Ich bin Single / lebe in keiner festen Partnerschaft"
   },
   "en": {
     "template": "observation",
@@ -81,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?\n\n@Thomas: Hab im Athis nachgeschaut. Es wird gleich erhoben. Wenn ich eine Partnerschaft habe, aber nicht verheiratet bin, bin ich ledig. Wir müssten es ändern und nicht nach dem Familienstand, sondern der aktuellen Lebensstiation fragen: \n\n**„Wie ist Ihre aktuelle Lebenssituation?“**\n\n- Ich lebe in einer festen Partnerschaft / Ehe.\n- Ich bin Single / lebe in keiner festen Partnerschaft\n- oder nach der Haushaltsgröße"
+    "discussion": "noch im Athis nachschauen. Vl ist die Frage dort besser (brauchen partnerschaft nicht verheiratet)\n\nsollte nur in Beziehung sein?\n\n@Thomas: Hab im Athis nachgeschaut. Es wird gleich erhoben. Wenn ich eine Partnerschaft habe, aber nicht verheiratet bin, bin ich ledig. Wir müssten es ändern und nicht nach dem Familienstand, sondern der aktuellen Lebensstiation fragen: \n\n**„Wie ist Ihre aktuelle Lebenssituation?“**\n\n- Ich lebe in einer festen Partnerschaft / Ehe.\n- Ich bin Single / lebe in keiner festen Partnerschaft"
   }
 }
