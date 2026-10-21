@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T12:55:13.080978+00:00",
+  "generated": "2026-10-21T12:56:12.122098+00:00",
   "scope": "combined",
-  "commit": "66d7f862ea96cf2f8dc45503dbdbafe31532e9be",
+  "commit": "feade02a0a0efb3252ba0d9c05b92f9746ae16e4",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1846,7 +1846,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie in einer normalen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\n**Antwortmöglichkeiten: 1)** 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
+                    "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie in einer normalen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
                     "unit": "Portionen/Woche\n1 Portion = siehe unten",
                     "data-format": "kategoriell",
                     "data-type": "",
@@ -1877,7 +1877,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden. --> erledigt"
+                "discussion": ""
               },
               "en": {
                 "template": "observation",
@@ -1915,6 +1915,7 @@
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
                       },
                       {
+                        "source-description": "",
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
                       }
                     ],
@@ -1926,7 +1927,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Muss auf Fisch und Fleisch aufgeteilt werden. --> erledigt"
+                "discussion": ""
               }
             },
             {
