@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:16:00.078189+00:00",
+  "generated": "2026-10-21T14:17:16.258199+00:00",
   "scope": "combined",
-  "commit": "8aef2e8f7a5a0b63eae0b780239fb1a790d56874",
+  "commit": "492631ff2f82cc017265dba30a633e7521dc8d23",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8632,7 +8632,7 @@
                 "template": "observation",
                 "key": "employment",
                 "dataset-scope": "Extension",
-                "title": "Erwerbstätigkeit",
+                "title": "Erwerbstätigkeit 1) In Ausbildung; 2) Erwerbstätig; 3) In Pension / Ruhestand; 4) Dauerhaft erwerbsunfähig; 5) Arbeitslos; 6) Haushaltsführend)",
                 "category": "work",
                 "dimension": "workability",
                 "description": "",

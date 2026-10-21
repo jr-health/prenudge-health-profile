@@ -71,7 +71,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Berufliche Situation / Einkommen](#berufliche-situation-einkommen)
   - [Sexuelle Orientierung](#sexuelle-orientierung)
 - [Arbeit](#arbeit)
-  - [Erwerbstätigkeit](#erwerbstatigkeit)
+  - [Erwerbstätigkeit 1) In Ausbildung; 2) Erwerbstätig; 3) In Pension / Ruhestand; 4) Dauerhaft erwerbsunfähig; 5) Arbeitslos; 6) Haushaltsführend)](#erwerbstatigkeit-1-in-ausbildung-2-erwerbstatig-3-in-pension-ruhestand-4-dauerhaft-erwerbsunfahig-5-arbeitslos-6-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 
@@ -2207,7 +2207,7 @@ Nicht erforderlich
 
 <img src="media/briefcase-business.png" alt="Arbeit" width="48" style="background-color: #C5DDC8; padding: 6px; border-radius: 6px;">
 
-### Erwerbstätigkeit
+### Erwerbstätigkeit 1) In Ausbildung; 2) Erwerbstätig; 3) In Pension / Ruhestand; 4) Dauerhaft erwerbsunfähig; 5) Arbeitslos; 6) Haushaltsführend)
 
 #### Messinstrumente
 
