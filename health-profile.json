@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:08:14.704074+00:00",
+  "generated": "2026-10-21T14:09:50.318913+00:00",
   "scope": "combined",
-  "commit": "993f6ff2a111a39b08599f2590fa6305836f3828",
+  "commit": "5a4d506dfefab6b0390bfa1c992df0c7f7bffcc1",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -4631,7 +4631,7 @@
                 "template": "observation",
                 "key": "self-reported-significant-life-events",
                 "dataset-scope": "Extension",
-                "title": "Selbstbericht über bedeutende Lebensereignisse",
+                "title": "Bedeutende Lebensereignisse",
                 "category": "psychosocial-factors",
                 "dimension": "lifeevents",
                 "description": "",
@@ -4697,6 +4697,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
                       }
                     ],

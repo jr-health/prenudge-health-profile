@@ -35,7 +35,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
   - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
   - [Müdigkeit](#mudigkeit)
-  - [Selbstbericht über bedeutende Lebensereignisse](#selbstbericht-uber-bedeutende-lebensereignisse)
+  - [Bedeutende Lebensereignisse](#bedeutende-lebensereignisse)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
   - [Verlust des Körpergewichts (kg)](#verlust-des-korpergewichts-kg)
 - [Lebensqualität](#lebensqualitat)
@@ -1215,7 +1215,7 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Selbstbericht über bedeutende Lebensereignisse
+### Bedeutende Lebensereignisse
 
 **Information für Bevölkerung:**
 
