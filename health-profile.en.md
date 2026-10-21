@@ -17,7 +17,6 @@ _Version: 0.1.20-test | Generated: 2026-10-21_
   - [Dairy products (portions/day)](#dairy-products-portionsday)
   - [Fish (portions/week)](#fish-portionsweek)
   - [Fruit and vegetable consumption (portions/day)](#fruit-and-vegetable-consumption-portionsday)
-  - [Highly processed foods (portions/day)](#highly-processed-foods-portionsday)
   - [Legumes (portions/week)](#legumes-portionsweek)
   - [Meat (portions/week)](#meat-portionsweek)
   - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
@@ -281,16 +280,6 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 | http://snomed.info/sct | 226448008 |  |
 | http://snomed.info/sct | 364395008 |  |
 | http://snomed.info/sct | 301961000000107 |  |
-
-### Highly processed foods (portions/day)
-
-#### Measurement Instruments
-
-**Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Acquisition Frequency:** 1x pro Jahr
-- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
 
 ### Legumes (portions/week)
 

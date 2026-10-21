@@ -17,7 +17,6 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
   - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
-  - [Stark verarbeitete Lebensmittel (Portionen/Tag)](#stark-verarbeitete-lebensmittel-portionentag)
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesusste-getranke-glasertag)
@@ -454,16 +453,6 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 | http://snomed.info/sct | 226448008 | Vegetable intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
 | http://snomed.info/sct | 301961000000107 | Five or more portions of fruit and vegetables per day |
-
-### Stark verarbeitete Lebensmittel (Portionen/Tag)
-
-#### Messinstrumente
-
-**Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Erfassungsfrequenz:** 1x pro Jahr
-- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
-- **FHIR IG Status:** draft
-- **Sunburst-Chart Status:** draft
 
 ### Hülsenfrüchte (Portionen/Woche)
 

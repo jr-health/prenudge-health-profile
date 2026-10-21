@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:23:51.635775+00:00",
+  "generated": "2026-10-21T14:24:11.645155+00:00",
   "scope": "combined",
-  "commit": "c305e15531914255d443a3598a68bc1f20c244f0",
+  "commit": "9ba044890b3bf39ef0e8064aa35264f51114a341",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1664,76 +1664,6 @@
                   }
                 ],
                 "discussion": "Obst und Gemüse splitten\n\nBei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
-              }
-            },
-            {
-              "de": {
-                "template": "observation",
-                "key": "highly-processed-foods-portions-day",
-                "dataset-scope": "Extension",
-                "title": "Stark verarbeitete Lebensmittel (Portionen/Tag)",
-                "description": "",
-                "category": "nutrition",
-                "dimension": "dietary-pattern",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "1x pro Jahr",
-                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
-                    "norms": [],
-                    "scoring-algorithm": "",
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
-              },
-              "en": {
-                "template": "observation",
-                "key": "highly-processed-foods-portions-day",
-                "dataset-scope": "Extension",
-                "title": "Highly processed foods (portions/day)",
-                "description": "",
-                "category": "nutrition",
-                "dimension": "dietary-pattern",
-                "population": "",
-                "disease-association": [],
-                "citizen-info": "",
-                "measurement-instrument": [
-                  {
-                    "source-type": "Questionnaire · manual (self-reported)",
-                    "specific-questions": "",
-                    "unit": "",
-                    "data-format": "",
-                    "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "1x pro Jahr",
-                    "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
-                    "norms": [],
-                    "sources": [],
-                    "terminology-codes": [],
-                    "pn-fhir-ig-link": "",
-                    "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft",
-                    "qualification": "",
-                    "app-providers": []
-                  }
-                ],
-                "discussion": ""
               }
             },
             {
