@@ -7,7 +7,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
 ## Inhaltsverzeichnis
 
 - [Alkohol](#alkohol)
-  - [Konsumhäufigkeit von Alkohol (Tage/Woche oder Getränke/Tag)](#konsumhaufigkeit-von-alkohol-tagewoche-oder-getranketag)
+  - [Alkohol (Tage/Woche oder Getränke/Tag)](#alkohol-tagewoche-oder-getranketag)
 - [Anthropometrie](#anthropometrie)
   - [Body-Mass-Index (kg/m²)](#body-mass-index-kgm2)
   - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
@@ -81,7 +81,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
 
 <img src="media/wine_white.png" alt="Alkohol" width="48" style="background-color: #00a256; padding: 6px; border-radius: 6px;">
 
-### Konsumhäufigkeit von Alkohol (Tage/Woche oder Getränke/Tag)
+### Alkohol (Tage/Woche oder Getränke/Tag)
 
 **Beschreibung für Fachpersonal:**
 
