@@ -4,17 +4,18 @@
     "key": "health-literacy",
     "dataset-scope": "Extension",
     "title": "Verständnis von gesundheitsbezogener Information",
-    "description": "",
     "category": "self-management",
     "dimension": "communication-understanding",
-    "population": "",
-    "disease-association": [],
+    "description": "",
     "citizen-info": "",
+    "verified-health-links": [],
+    "population": "Allgemeinbevölkerung",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Brief Health Literacy Screener",
-        "specific-questions": "Health Literacy Screener, 3 Fragen",
+        "specific-questions": "Health Literacy Screener, 3 Fragen\n\n1. **Probleme beim Lesen von Krankenhausunterlagen:**\n    - _Wie oft haben Sie Probleme, wenn Ihnen medizinische Merkblätter oder Krankenhausunterlagen ausgehändigt werden?_\n2. **Hilfe beim Lesen von Material:**\n    - _Wie oft müssen Sie sich von anderen helfen lassen, wenn Sie Krankenhaus- oder Arztformulare lesen?_\n3. **Selbstvertrauen beim Ausfüllen von Formularen:**\n    - _Wie sicher fühlen Sie sich, wenn Sie medizinische Formulare alleine ausfüllen müssen?_",
         "unit": "",
         "data-format": "kategoriell",
         "data-type": "",
@@ -23,7 +24,12 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "scoring-algorithm": "",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
+            "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -39,12 +45,13 @@
     "key": "health-literacy",
     "dataset-scope": "Extension",
     "title": "Health literacy",
-    "description": "",
     "category": "self-management",
     "dimension": "communication-understanding",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -56,7 +63,12 @@
         "acquisition-frequency": "jährlich",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
