@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:29:03.583959+00:00",
+  "generated": "2026-10-21T14:30:04.559857+00:00",
   "scope": "combined",
-  "commit": "f8eacaaa3b2f67c7488b76989f2fb8205357e693",
+  "commit": "a842da5e3d74544b56860c314018f7902986a12e",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5239,12 +5239,13 @@
                 "key": "reporting-symptoms-or-changes",
                 "dataset-scope": "Extension",
                 "title": "Meldung von Symptomen oder Veränderungen an Fachkräfte",
-                "description": "",
                 "category": "self-management",
                 "dimension": "communication-understanding",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -5267,32 +5268,41 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
               },
               "en": {
                 "template": "observation",
                 "key": "reporting-symptoms-or-changes",
                 "dataset-scope": "Extension",
                 "title": "Reporting symptoms or changes to healthcare professionals",
-                "description": "",
                 "category": "self-management",
                 "dimension": "communication-understanding",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
                     "data-type": "",
                     "range-of-vales": "",
                     "acquisition-frequency": "",
                     "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
               }
             }
           ]
