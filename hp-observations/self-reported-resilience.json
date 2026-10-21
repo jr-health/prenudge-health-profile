@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "self-reported-resilience",
     "dataset-scope": "Extension",
-    "title": "Selbstbericht über Resilienz",
+    "title": "Resilienz",
     "category": "psychosocial-factors",
     "dimension": "coping-ability",
     "description": "",
@@ -14,7 +14,7 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "Chmitorz, A., Wenzel, M., Stieglitz, R.-D., Kunzler, A., Bagusat, C., Helmreich, I., Gerlicher, A., Kampa, M., Kubiak, T., Kalisch, R., Lieb, K. & Tüscher, O. (2018). Population-based validation of a German version of the Brief Resilience Scale. PLOS ONE, 13(2), e0192761.DOI: 10.1371/journal.pone.019276",
+        "device": "Brief Resilience Scale",
         "specific-questions": "**1) Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**2) Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**3) Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**4) Es fällt mir schwer zur Normalität zurückzukehren, wenn etwas Schlimmes passiert ist.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**5) Normalerweise überstehe ich schwierige Zeiten ohne größere Probleme.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**6) Ich brauche tendenziell lange, um über Rückschläge in meinem Leben hinwegzukommen.**\n\n> Antwortmöglichkeit: 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert",
         "unit": "",
         "data-format": "Kategoriel",
@@ -42,7 +42,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
+    "discussion": "Die DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
   },
   "en": {
     "template": "observation",
@@ -69,6 +69,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
           }
         ],
@@ -80,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "\\*Es muss erst entschieden werden, ob wir diesen Indikator behalten oder nicht.\n\nDie DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
+    "discussion": "Die DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
   }
 }
