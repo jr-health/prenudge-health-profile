@@ -31,7 +31,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Diskriminierung im Gesundheitssystem](#diskriminierung-im-gesundheitssystem)
-  - [Selbstbericht über Stress](#selbstbericht-uber-stress)
+  - [Stress](#stress)
   - [Resilienz](#resilienz)
   - [Emotionale Belastung](#emotionale-belastung)
   - [Müdigkeit](#mudigkeit)
@@ -1076,7 +1076,7 @@ max: 24 Stunden
 **Quellen:**
 - [Survey on Health Care Access and Experiences - Primary and Specialist Care](https://www.statcan.gc.ca/en/survey/household/5391)
 
-### Selbstbericht über Stress
+### Stress
 
 **Beschreibung für Fachpersonal:**
 
@@ -1332,6 +1332,8 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Verständnis von gesundheitsbezogener Information
 
+**Population:** Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -1339,6 +1341,9 @@ The second transformation method converts domain scores to a 0-100 scale.
 - **Erfassungsfrequenz:** jährlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Quellen:**
+- [Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.](Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.)
 
 ### Meldung von Symptomen oder Veränderungen an Fachkräfte
 

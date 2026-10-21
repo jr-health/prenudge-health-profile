@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:21:24.916932+00:00",
+  "generated": "2026-10-21T14:23:51.635775+00:00",
   "scope": "combined",
-  "commit": "0d6cf8132d32c105da4682432f10c654e867e941",
+  "commit": "c305e15531914255d443a3598a68bc1f20c244f0",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -3875,7 +3875,7 @@
                 "template": "observation",
                 "key": "self-reported-stress",
                 "dataset-scope": "Minimalset",
-                "title": "Selbstbericht über Stress",
+                "title": "Stress",
                 "category": "psychosocial-factors",
                 "dimension": "chronic-stress",
                 "description": "Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Personen.\nDefinition: „Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Everyone experiences stress to some degree. The way we respond to stress, however, makes a big difference to our overall well-being“ (World Health Organization, 2026)\n“Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026)\n„Some stress is positive. It causes our bodies to release adrenaline, which helps us to accomplish assignments and projects, and can even enhance our performance and problem-solving ability. But chronic stress, which is constant and persists over an extended period of time, can be debilitating and overwhelming. Chronic stress can affect both our physical and psychological well-being by causing a variety of problems including anxiety, insomnia, muscle pain, high blood pressure, and a weakened immune system. Research shows that stress can contribute to the development of major illnesses, such as heart disease, depression, and obesity“ (APA, 2024).\n“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).\nEmpfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.",
@@ -5227,17 +5227,18 @@
                 "key": "health-literacy",
                 "dataset-scope": "Extension",
                 "title": "Verständnis von gesundheitsbezogener Information",
-                "description": "",
                 "category": "self-management",
                 "dimension": "communication-understanding",
-                "population": "",
-                "disease-association": [],
+                "description": "",
                 "citizen-info": "",
+                "verified-health-links": [],
+                "population": "Allgemeinbevölkerung",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Brief Health Literacy Screener",
-                    "specific-questions": "Health Literacy Screener, 3 Fragen",
+                    "specific-questions": "Health Literacy Screener, 3 Fragen\n\n1. **Probleme beim Lesen von Krankenhausunterlagen:**\n    - _Wie oft haben Sie Probleme, wenn Ihnen medizinische Merkblätter oder Krankenhausunterlagen ausgehändigt werden?_\n2. **Hilfe beim Lesen von Material:**\n    - _Wie oft müssen Sie sich von anderen helfen lassen, wenn Sie Krankenhaus- oder Arztformulare lesen?_\n3. **Selbstvertrauen beim Ausfüllen von Formularen:**\n    - _Wie sicher fühlen Sie sich, wenn Sie medizinische Formulare alleine ausfüllen müssen?_",
                     "unit": "",
                     "data-format": "kategoriell",
                     "data-type": "",
@@ -5246,7 +5247,12 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
+                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -5262,12 +5268,13 @@
                 "key": "health-literacy",
                 "dataset-scope": "Extension",
                 "title": "Health literacy",
-                "description": "",
                 "category": "self-management",
                 "dimension": "communication-understanding",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -5279,7 +5286,12 @@
                     "acquisition-frequency": "jährlich",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",

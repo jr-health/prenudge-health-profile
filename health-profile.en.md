@@ -793,6 +793,9 @@ max: 20 (Transformiert 100)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.
+
 ### Reporting symptoms or changes to healthcare professionals
 
 #### Measurement Instruments
