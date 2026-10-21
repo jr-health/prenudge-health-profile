@@ -33,7 +33,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Diskriminierung im Gesundheitssystem](#diskriminierung-im-gesundheitssystem)
   - [Selbstbericht über Stress](#selbstbericht-uber-stress)
   - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
-  - [Selbstbericht über emotionale Belastung](#selbstbericht-uber-emotionale-belastung)
+  - [Emotionale Belastung](#emotionale-belastung)
   - [Müdigkeit](#mudigkeit)
   - [Bedeutende Lebensereignisse](#bedeutende-lebensereignisse)
   - [Infektanfälligkeit (Anzahl innerhalb definierter Periode)](#infektanfalligkeit-anzahl-innerhalb-definierter-periode)
@@ -1151,7 +1151,7 @@ Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala u
 **Quellen:**
 - [Brief Resilience Scale (Deutsche Version)](https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/)
 
-### Selbstbericht über emotionale Belastung
+### Emotionale Belastung
 
 **Beschreibung für Fachpersonal:**
 
