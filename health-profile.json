@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:30:55.108526+00:00",
+  "generated": "2026-10-21T14:31:37.005201+00:00",
   "scope": "combined",
-  "commit": "ee0c7550204349013703326ef6b833aa84380999",
+  "commit": "78cb0d20a8a2bb8193e8b1576670f0e61c4bf172",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5347,7 +5347,7 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Patient-Reported Adverse Drug Event Questionnaire - Selbstbeobachtungen von Medikamenten(neben)wirkung",
+                    "device": "Patient-Reported Adverse Drug Event Questionnaire",
                     "specific-questions": "**Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?**\n_Bitte wählen Sie alle zutreffenden Antworten aus._\n\n☐ Übelkeit oder Erbrechen\n☐ Durchfall oder Verstopfung\n☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden\n☐ Schwindel oder Benommenheit\n☐ Kopfschmerzen\n☐ Müdigkeit oder Schläfrigkeit\n☐ Schlafstörungen\n☐ Konzentrations- oder Gedächtnisprobleme\n☐ Hautausschlag oder Juckreiz\n☐ Schwitzen\n☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden\n☐ Atembeschwerden\n☐ Appetitveränderungen\n☐ Ungewollte Gewichtszunahme\n☐ Ungewollter Gewichtsverlust\n☐ Muskel- oder Gelenkschmerzen\n☐ Sexuelle Beschwerden\n☐ Probleme beim Wasserlassen\n☐ Stimmungsschwankungen oder andere psychische Beschwerden\n☐ Andere Nebenwirkung, nämlich: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine Nebenwirkungen bemerkt",
                     "unit": "multiple Antwortmöglichkeit möglich",
                     "data-format": "kategoriell",
