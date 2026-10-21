@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.20-test | Generiert: 2026-10-12_
+_Version: 0.1.20-test | Generiert: 2026-10-21_
 
 ---
 
@@ -2283,4 +2283,5 @@ _Änderungen seit Version v0.1.20-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
