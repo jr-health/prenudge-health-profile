@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:11:47.859379+00:00",
+  "generated": "2026-10-21T14:12:11.890399+00:00",
   "scope": "combined",
-  "commit": "dd62924b4fa491dbb65f12238c569d528debc747",
+  "commit": "b01ec66e5e5658c565fbc822bb920953707996b3",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -4643,7 +4643,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "GoWell health and well-being survey",
-                    "specific-questions": "Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt? (\\*\\*Bitte wählen Sie alle zutreffenden Antworten aus.)\n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
+                    "specific-questions": "Haben Sie in den letzten 3 Jahren eines oder mehrere der folgenden Lebensereignisse erlebt? \n\n☐ Schwerwiegendes gesundheitliches Ereignis, Krankheit oder Behinderung bei mir oder einer Person in meinem Haushalt\n☐ Neue Arbeitsstelle oder Beförderung\n☐ Arbeitslosigkeit, Kündigung oder Verringerung der Arbeitszeit\n☐ Schwangerschaft oder Geburt eines Kindes / Elternschaft\n☐ Schwerwiegende Probleme oder Trennung von einer Partnerin/einem Partner\n☐ Tod einer nahestehenden Person\n☐ Heirat oder Zusammenziehen mit einer Partnerin/einem Partner\n☐ Opfer einer Straftat geworden\n☐ Verhaltensprobleme eines Kindes zu Hause oder Probleme in der Schule\n☐ Verbesserungen oder Renovierungen meiner Wohnung/meines Hauses\n☐ Umzug in eine andere Wohnung/ein anderes Haus\n☐ Keines davon",
                     "unit": "",
                     "data-format": "kategoriell",
                     "data-type": "",
