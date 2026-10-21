@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "self-reported-significant-life-events",
     "dataset-scope": "Extension",
-    "title": "Selbstbericht über bedeutende Lebensereignisse",
+    "title": "Bedeutende Lebensereignisse",
     "category": "psychosocial-factors",
     "dimension": "lifeevents",
     "description": "",
@@ -69,6 +69,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
           }
         ],
