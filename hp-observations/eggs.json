@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "eggs",
     "dataset-scope": "Extension",
-    "title": "eggs",
+    "title": "Eier (Portionen/Woche)",
     "category": "nutrition",
     "dimension": "",
     "description": "",
