@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "employment",
     "dataset-scope": "Extension",
-    "title": "Erwerbstätigkeit",
+    "title": "Erwerbstätigkeit 1) In Ausbildung; 2) Erwerbstätig; 3) In Pension / Ruhestand; 4) Dauerhaft erwerbsunfähig; 5) Arbeitslos; 6) Haushaltsführend)",
     "category": "work",
     "dimension": "workability",
     "description": "",
