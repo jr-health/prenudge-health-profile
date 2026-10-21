@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:18:40.307948+00:00",
+  "generated": "2026-10-21T14:21:24.916932+00:00",
   "scope": "combined",
-  "commit": "553897f5d7de9bc07d2c7f34008336af52e6eb34",
+  "commit": "0d6cf8132d32c105da4682432f10c654e867e941",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -6523,7 +6523,7 @@
                 "template": "observation",
                 "key": "sleep-quality",
                 "dataset-scope": "Minimalset",
-                "title": "Selbstangegebene Einschätzung der Schlafqualität",
+                "title": "Einschätzung der Schlafqualität",
                 "category": "sleep",
                 "dimension": "sleep-quality",
                 "description": "Dieser Gesundheitsindikator zeigt die selbstangegebene Einschätzung der Schlafqualität der Personen an.\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\n„So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024).\n„Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).\nSonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).\nEmpfehlung: nicht anwendbar",

@@ -53,7 +53,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Chronotyp](#chronotyp)
   - [Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)](#schlafhygiene-haufigkeit-der-einhaltung-schlaffordernder-routinenwoche)
   - [Schlafdauer (Stunden/Nacht)](#schlafdauer-stundennacht)
-  - [Selbstangegebene Einschätzung der Schlafqualität](#selbstangegebene-einschatzung-der-schlafqualitat)
+  - [Einschätzung der Schlafqualität](#einschatzung-der-schlafqualitat)
   - [Dauer der Einschlafzeit (durchschnittliche Minuten)](#dauer-der-einschlafzeit-durchschnittliche-minuten)
 - [Rauchen](#rauchen)
   - [Raucher:innenstatus (nie, ehemalig, aktuell)](#raucherinnenstatus-nie-ehemalig-aktuell)
@@ -1732,7 +1732,7 @@ max: 24
 |---|---|---|
 | http://loinc.org | 93832-4 | Sleep duration |
 
-### Selbstangegebene Einschätzung der Schlafqualität
+### Einschätzung der Schlafqualität
 
 **Beschreibung für Fachpersonal:**
 
