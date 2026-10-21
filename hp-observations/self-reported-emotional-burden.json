@@ -3,18 +3,18 @@
     "template": "observation",
     "key": "self-reported-emotional-burden",
     "dataset-scope": "Minimalset",
-    "title": "Selbstbericht über emotionale Belastung",
-    "description": "Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.\nDefinition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nEmpfehlung: nicht anwendbar",
+    "title": "Emotionale Belastung",
     "category": "psychosocial-factors",
     "dimension": "emotional-distress",
-    "population": "erwachsene Allgemeinbevölkerung",
-    "disease-association": [],
+    "description": "Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.\nDefinition: „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)\nEmpfehlung: nicht anwendbar",
     "citizen-info": "Laienhafte Information:\nDieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
     "verified-health-links": [
       {
         "title": "pro mente Austria",
         "url": "https://www.promenteaustria.at/",
-        "audience": ["Healthcare professionals"],
+        "audience": [
+          "Healthcare professionals"
+        ],
         "note": ""
       },
       {
@@ -26,34 +26,46 @@
       {
         "title": "Leitlinie Unipolare Depression",
         "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
-        "audience": ["Healthcare professionals"],
+        "audience": [
+          "Healthcare professionals"
+        ],
         "note": ""
       },
       {
         "title": "Plattform Psyche (Gesundheitsfonds Steiermark)",
         "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "ÖGK: Broschüre psychische Gesundheit",
         "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "oesterreich.gv.at: Psychosoziale Gesundheit",
         "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "ÖGK: Psychische Gesundheit",
         "url": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       }
     ],
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -123,17 +135,17 @@
     "key": "self-reported-emotional-burden",
     "dataset-scope": "Minimalset",
     "title": "Self-reported emotional burden",
-    "description": "",
     "category": "psychosocial-factors",
     "dimension": "emotional-distress",
-    "population": "",
-    "disease-association": [],
+    "description": "",
     "citizen-info": "",
     "verified-health-links": [
       {
         "title": "",
         "url": "https://www.promenteaustria.at/",
-        "audience": ["Healthcare professionals"],
+        "audience": [
+          "Healthcare professionals"
+        ],
         "note": ""
       },
       {
@@ -145,34 +157,46 @@
       {
         "title": "",
         "url": "https://register.awmf.org/assets/guidelines/nvl-005l_S3_Unipolare-Depression_2023-07.pdf",
-        "audience": ["Healthcare professionals"],
+        "audience": [
+          "Healthcare professionals"
+        ],
         "note": ""
       },
       {
         "title": "",
         "url": "https://gesundheitsfonds-steiermark.at/plattform-psyche/",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "",
         "url": "https://www.gesundheitskasse.at/cdscontent/load?contentid=10008.784946&version=1704794297",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "",
         "url": "https://www.oesterreich.gv.at/de/themen/hilfe_und_finanzielle_unterstuetzung_erhalten/2/psychosoziale-gesundheit",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       },
       {
         "title": "",
         "url": "https://www.oegk.at/cdscontent/?contentid=10007.895362&portal=oegkportal",
-        "audience": ["Laymen / citizens"],
+        "audience": [
+          "Laymen / citizens"
+        ],
         "note": ""
       }
     ],
+    "population": "",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -186,6 +210,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
           }
         ],
