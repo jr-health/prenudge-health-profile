@@ -1,0 +1,32 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "eggs",
+    "dataset-scope": "Extension",
+    "title": "eggs",
+    "category": "nutrition",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "eggs",
+    "dataset-scope": "Extension",
+    "title": "eggs",
+    "category": "nutrition",
+    "dimension": "",
+    "description": "",
+    "citizen-info": "[https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier) \n\nHomepage geht grad nicht soll von dem kopiert werden.",
+    "verified-health-links": [],
+    "population": "Allgemeinbevölkerung",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
