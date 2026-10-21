@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T12:59:20.910784+00:00",
+  "generated": "2026-10-21T13:51:15.170191+00:00",
   "scope": "combined",
-  "commit": "546e9807ff71451d127bc558250febb7ad6d7fb8",
+  "commit": "b6754fd899f461d77aaa708467c5109629abd5cb",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -4545,7 +4545,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "",
+                    "specific-questions": "Vom Athis; 2026: Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch folgende Beschwerden beeinträchtigt? Müdigkeit oder das Gefühl, wenig Energie\n\nAntwortmöglichkeit: – Nie [1]; An manchen Tagen [2]; An mehr als der Hälfte der Tage; Beinahe jeden Tag [4]",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
@@ -4563,7 +4563,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
+                "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
               },
               "en": {
                 "template": "observation",
@@ -4597,7 +4597,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "müdigkeit bleibt, Frage muss noch gesucht werden\n\nFatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung_\n\nEpworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_ \n\n_Thomas muss entscheiden!_"
+                "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
               }
             }
           ]
