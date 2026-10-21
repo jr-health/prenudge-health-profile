@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T13:51:15.170191+00:00",
+  "generated": "2026-10-21T13:56:24.786018+00:00",
   "scope": "combined",
-  "commit": "b6754fd899f461d77aaa708467c5109629abd5cb",
+  "commit": "99d319db9886777d5cf979dfe72043f0d6ab1ca5",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -4797,7 +4797,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Diskussion mit Franz bleibt noch offen"
+                "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun"
               },
               "en": {
                 "template": "observation",
@@ -4831,7 +4831,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Diskussion mit Franz bleibt noch offen"
+                "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun"
               }
             }
           ]
