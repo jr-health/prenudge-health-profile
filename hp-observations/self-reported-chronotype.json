@@ -3,13 +3,14 @@
     "template": "observation",
     "key": "self-reported-chronotype",
     "dataset-scope": "Extension",
-    "title": "Selbstberichteter Chronotyp",
-    "description": "",
+    "title": "Chronotyp",
     "category": "sleep",
     "dimension": "chronotyp",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -39,12 +40,13 @@
     "key": "self-reported-chronotype",
     "dataset-scope": "Extension",
     "title": "Self-reported chronotype",
-    "description": "",
     "category": "sleep",
     "dimension": "chronotyp",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
