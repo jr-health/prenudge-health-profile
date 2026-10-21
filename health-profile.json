@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:13:56.942790+00:00",
+  "generated": "2026-10-21T14:14:20.643417+00:00",
   "scope": "combined",
-  "commit": "b28c5b7764dc54e865fc598b2a22bec7907084c5",
+  "commit": "ad2e82a7bb1354a89afd08ff25a3843b7ac27199",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5856,7 +5856,7 @@
                 "template": "observation",
                 "key": "vaccination-status-check",
                 "dataset-scope": "Extension",
-                "title": "Vaccination-status-check",
+                "title": "Impfstatus",
                 "category": "self-management",
                 "dimension": "self-monitoring",
                 "description": "Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.",

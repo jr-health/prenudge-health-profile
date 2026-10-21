@@ -47,7 +47,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Blutzuckerwert (mg/dl)](#blutzuckerwert-mgdl)
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
-  - [Vaccination-status-check](#vaccination-status-check)
+  - [Impfstatus](#impfstatus)
 - [Sexualität](#sexualitat)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
@@ -1597,7 +1597,7 @@ Diastolisch:0-500
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Vaccination-status-check
+### Impfstatus
 
 **Beschreibung für Fachpersonal:**
 
