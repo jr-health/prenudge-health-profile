@@ -55,7 +55,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Einschätzung der Schlafqualität](#einschatzung-der-schlafqualitat)
   - [Dauer der Einschlafzeit (durchschnittliche Minuten)](#dauer-der-einschlafzeit-durchschnittliche-minuten)
 - [Rauchen](#rauchen)
-  - [Raucher:innenstatus (nie, ehemalig, aktuell)](#raucherinnenstatus-nie-ehemalig-aktuell)
+  - [Rauchverhalten](#rauchverhalten)
   - [Entwöhnungsversuche (Anzahl/Jahr)](#entwohnungsversuche-anzahljahr)
   - [Nikotinabhängigkeit](#nikotinabhangigkeit)
   - [Pack years](#pack-years)
@@ -1845,7 +1845,7 @@ Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeich
 
 <img src="media/cigarette-off.png" alt="Rauchen" width="48" style="background-color: #004e64; padding: 6px; border-radius: 6px;">
 
-### Raucher:innenstatus (nie, ehemalig, aktuell)
+### Rauchverhalten
 
 **Beschreibung für Fachpersonal:**
 

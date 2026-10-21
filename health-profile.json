@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:25:21.469232+00:00",
+  "generated": "2026-10-21T14:29:03.583959+00:00",
   "scope": "combined",
-  "commit": "31e8453b493672c265f08477822a8edc1d187bb1",
+  "commit": "f8eacaaa3b2f67c7488b76989f2fb8205357e693",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -7001,7 +7001,7 @@
                 "template": "observation",
                 "key": "smoking-status",
                 "dataset-scope": "Minimalset",
-                "title": "Raucher:innenstatus (nie, ehemalig, aktuell)",
+                "title": "Rauchverhalten",
                 "category": "smoking",
                 "dimension": "smoking-status",
                 "description": "Der Raucher:innenstatus zeigt auf, ob die Person aktuell raucht oder nicht bzw. ob diese in der Vergangenheit geraucht hat. Dabei werden auch die Häufigkeit sowie die Art des Konsums erfasst.\nDefinition:\n“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)\n“Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)\n“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)\n“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)\n“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)\nEmpfehlung:\n„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products“ (World Health Organization, 2025).\n“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).",
