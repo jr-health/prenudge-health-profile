@@ -32,7 +32,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
   - [Diskriminierung im Gesundheitssystem](#diskriminierung-im-gesundheitssystem)
   - [Selbstbericht über Stress](#selbstbericht-uber-stress)
-  - [Selbstbericht über Resilienz](#selbstbericht-uber-resilienz)
+  - [Resilienz](#resilienz)
   - [Emotionale Belastung](#emotionale-belastung)
   - [Müdigkeit](#mudigkeit)
   - [Bedeutende Lebensereignisse](#bedeutende-lebensereignisse)
@@ -1130,7 +1130,7 @@ Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala u
 | http://snomed.info/sct | 1193534004 | High perceived stress |
 | http://snomed.info/sct | 23085004 | Increased stress |
 
-### Selbstbericht über Resilienz
+### Resilienz
 
 **Population:** Allgemeinbevölkerung
 
