@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-21T14:15:35.570419+00:00",
+  "generated": "2026-10-21T14:16:00.078189+00:00",
   "scope": "combined",
-  "commit": "1855e1f4fef67c00594157dc8f43fa83fb4af4c9",
+  "commit": "8aef2e8f7a5a0b63eae0b780239fb1a790d56874",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8875,7 +8875,7 @@
         "template": "observation",
         "key": "eggs",
         "dataset-scope": "Extension",
-        "title": "eggs",
+        "title": "Eier (Portionen/Woche)",
         "category": "nutrition",
         "dimension": "",
         "description": "",
