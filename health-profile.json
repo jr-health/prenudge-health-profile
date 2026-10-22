@@ -1,28 +1,11 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-10-22T13:45:32.261838+00:00",
+  "generated": "2026-10-22T13:46:11.038968+00:00",
   "scope": "combined",
-  "commit": "fa68041b1415db4336c0069fa80023ff6357e760",
+  "commit": "91b592462a6e7bc1bf54095b725473e211fa8fbb",
   "activity": {
-    "since": "v0.1.20-test",
-    "entries": [
-      {
-        "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
-      },
-      {
-        "date": "2026-10-22",
-        "author": "shaide79"
-      },
-      {
-        "date": "2026-10-21",
-        "author": "shaide79"
-      },
-      {
-        "date": "2026-10-12",
-        "author": "shaide79"
-      }
-    ]
+    "since": "v0.0.21-test",
+    "entries": []
   },
   "categories": [
     {
