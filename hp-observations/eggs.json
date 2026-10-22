@@ -22,7 +22,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Frage nach den Ernährungsempfehlungen",
-        "specific-questions": "Wie viele Eier isst du durchschnittlich pro Woche?\n\nAntwortmöglichkeit:  1) 1 – Nie: 0 Eier pro Woche; 2) 1–2 Eier pro Woche; 3) 3 Eier pro Woche; 4)  mehr als 3 Eier pro Woche",
+        "specific-questions": "Wie viele Eier essen Sie durchschnittlich pro Woche?\n\nAntwortmöglichkeit:  1) 1 – Nie: 0 Eier pro Woche; 2) 1–2 Eier pro Woche; 3) 3 Eier pro Woche; 4)  mehr als 3 Eier pro Woche",
         "unit": "kategoriell",
         "data-format": "",
         "data-type": "",
