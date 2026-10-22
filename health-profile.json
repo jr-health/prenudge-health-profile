@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:40:19.814003+00:00",
+  "generated": "2026-10-22T07:40:51.030898+00:00",
   "scope": "combined",
-  "commit": "5869f4b0f7a799cd3cb8f9966c6c12b00302939e",
+  "commit": "7f2dc9891f92601634295351d8439bdcca42505d",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8576,12 +8576,12 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "vadliderte Frage von OECD",
+                    "device": "validerte Frage von OECD",
                     "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) oder; 5) Weiß nicht / Keine Angabe",
                     "unit": "",
                     "data-format": "kategoriell",

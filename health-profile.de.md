@@ -2350,6 +2350,8 @@ Nicht erforderlich
 
 ### Sexuelle Orientierung
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
