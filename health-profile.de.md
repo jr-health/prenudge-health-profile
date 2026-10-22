@@ -1206,6 +1206,8 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 
 ### Bedeutende Lebensereignisse
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 **Information für Bevölkerung:**
 
 Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)

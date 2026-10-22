@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:30:25.985893+00:00",
+  "generated": "2026-10-22T06:31:15.557534+00:00",
   "scope": "combined",
-  "commit": "7efba9b0f6d03a9d043f4c56ef8c4b634d0fc347",
+  "commit": "7712cd3772e0edc81418684ae1a4b77f1009d57f",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -4575,7 +4575,7 @@
                 "description": "",
                 "citizen-info": "Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jobverlust, schwere Erkrankung) (ja/nein)",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
