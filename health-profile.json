@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:26:42.530541+00:00",
+  "generated": "2026-10-22T07:27:58.253316+00:00",
   "scope": "combined",
-  "commit": "33507f1c7aa24c13982d306fbffbb2c689658141",
+  "commit": "b8b3348873c2a091b9495966d57df1dc81af702c",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -2070,7 +2070,7 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Fragebogen, der die österreichischen Ernährungsempfehlungen abfragt",
+                    "device": "österreichischen Ernährungsempfehlungen",
                     "specific-questions": "**„An einem normalen Tag: Wie viele Portionen an pflanzlichen Ölen, Nüssen oder Samen verzehren Sie insgesamt?“** _Orientierungshilfe für 1 Portion: **1 Esslöffel** hochwertiges Pflanzenöl (z. B. Raps-, Lein- oder Olivenöl) zum Kochen oder für den Salat; **2 Esslöffel** ungesalzene Nüsse oder Samen (z. B. Walnüsse, Kürbiskerne, Leinsamen)_\n\n_Antwortmöglichkeit (Einzelantwort): 1)_ 0 Portionen / Ich verwende diese Produkte im Alltag nicht; 2) 1 Portion am Tag; 3) 2 Portionen am Tag ; 4) 3 oder mehr Portionen am Tag",
                     "unit": "",
                     "data-format": "kategoriell 1-4",
