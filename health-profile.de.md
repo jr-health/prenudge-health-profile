@@ -226,6 +226,8 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 
 ### Taillen-/Bauchumfang (cm)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 **Information für Bevölkerung:**
 
 Der **Bauchumfang** bzw. **Taillenumfang**  bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe "Rippe") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm "Beckenkamm") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe "Fettgewebe"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett "Viszeralfett").
