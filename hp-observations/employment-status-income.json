@@ -4,12 +4,13 @@
     "key": "employment-status-income",
     "dataset-scope": "Extension",
     "title": "Berufliche Situation / Einkommen",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "socio-economic-status",
-    "population": "",
-    "disease-association": [],
+    "description": "",
     "citizen-info": "",
+    "verified-health-links": [],
+    "population": "erwachsene Allgemeinbevölkerung",
+    "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -32,31 +33,40 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "noch offen"
   },
   "en": {
     "template": "observation",
     "key": "employment-status-income",
     "dataset-scope": "Extension",
     "title": "Employment status / Income",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "socio-economic-status",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
         "data-type": "",
         "range-of-vales": "",
         "acquisition-frequency": "",
         "recommended-monitoring-frequency": "",
+        "norms": [],
+        "sources": [],
+        "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
-        "vis-status": "draft"
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "noch offen"
   }
 }
