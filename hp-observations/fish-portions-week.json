@@ -16,13 +16,13 @@
         "note": ""
       }
     ],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Frage die die Österreichischen Ernährungsempfehlungen abfragt",
-        "specific-questions": "**„Wie viele Portionen Fisch essen Sie in einer normalen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
+        "specific-questions": "**„Wie viele Portionen Fisch essen Sie durchschnittlich pro Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 oder mehr Portionen pro Woche",
         "unit": "Portionen/Woche\n1 Portion = siehe unten",
         "data-format": "kategoriell",
         "data-type": "",
