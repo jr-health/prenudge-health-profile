@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:46:36.901039+00:00",
+  "generated": "2026-10-22T06:47:28.490129+00:00",
   "scope": "combined",
-  "commit": "43af6cf8b72b55e995c7a115912571ff3b708a11",
+  "commit": "8b5a22303a10c9151ab9e779b9317462591fd693",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5999,12 +5999,12 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "Allgemeinbevölkerung",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "nicht standardisierte Frage",
                     "specific-questions": "Man spricht bei Menschen von \"Morgen-\" und \"Abendtypen\". Zu welchem der folgenden Typen zählen Sie sich?\n\n1. Eindeutig ein \"Morgentyp“\n2. Eher ein \"Morgen-\" als ein \"Abendtyp“\n3. Weder ein Morgen- noch ein Abendtyp\n4. Eher ein „Abend-\" als ein \"Morgentyp“\n5. Eindeutig ein \"Abendtyp“",
                     "unit": "",
                     "data-format": "",

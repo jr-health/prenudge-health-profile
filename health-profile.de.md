@@ -1626,7 +1626,7 @@ _Keine Beobachtungen erfasst._
 
 ### Chronotyp
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
