@@ -430,7 +430,7 @@
   <main>
 <h1 class="page-title">Tabelle — PräNUDGE Gesundheitsprofil</h1>    <div class="meta-bar">
       <p class="meta-text">Version 0.1.20-test · Generiert: 2026-10-22 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/ab037bbef69b7bb788442658b44865fc55631fd0">ab037bb</a> ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/6abd104ef7563d5336c92c3a4c364891a173faa2">6abd104</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html">EN</a><a data-keep-scope href="browse.de.html" class="active">DE</a></div>
     </div>
@@ -682,7 +682,7 @@
       <td>Blutzuckerwert (mg/dl)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td></td>
-      <td class="discussion"><p>Anmerkung von Graz: Hba1C wird nicht dabei sein; Uhrzeit soll unbedingt dabei sein (erledigt)</p></td>
+      <td class="discussion"><p>Anmerkung von Graz: Hba1C wird nicht dabei sein; Uhrzeit soll unbedingt dabei sein (erledigt)</p><p>- Von Medicus.AI ist die Frage gekommen, wie wir den Blutzucker genau abbilden wollen, weil ein erster Entwurf im aktuellen FHIR-IG schon enthalten ist, obwohl Blutzucker zum Extended-Set gehört.<br>    - Unser Vorschlag:<br>        - Labormessungen sind out of Scope<br>        - CGM-Messungen sind out of Scope<br>        - Messungen im Urin sind out of Scope<br>        - Umsetzung bleibt bei LOINC 41653-7 “Glucose [Mass/volume] in Capillary blood by Glucometer”, Einheit mg/dl<br>        - Der Meal Context bleibt SNOMED-codiert, damit die GDAs den Wert auch korrekt interpretieren können<br>            - 16985007  "Fasting"<br>            - 307165006 "Before meal"<br>            - 24863003  "Postprandial"<br>            - Die Apps müssen diesen Kontext verpflichtend mitliefern, „unbekannt“ gibt es nicht.<br>        - Alternative Codes werden nicht genutzt<br>            - 41604-0 Fasting glucose [Mass/volume] in Capillary blood by Glucometer<br>            - 1558-6 Fasting glucose [Mass/volume] in Serum or Plasma (nur Labor)<br>            - 2345-7 Glucose [Mass/volume] in Serum or Plasma (nur Labor)<br>            - 16915-1 Glucose [Mass/volume] in Serum or Plasma --post meal (nur Labor)</p></td>
     </tr>
     <tr data-category="self-management" data-observation="blood-pressure" data-scope="extended" data-source-type="Questionnaire · manual (self-reported) Wearable device / sensor · automated" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #c7d2d3;"></span>Selbstmanagement</td>

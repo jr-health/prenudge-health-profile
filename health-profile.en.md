@@ -1314,6 +1314,7 @@ _Changes since version v0.1.20-test:_
 
 | Date | Author |
 |---|---|
+| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-22 | shaide79 |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
