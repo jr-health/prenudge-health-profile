@@ -1,18 +1,18 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:04:02.340705+00:00",
+  "generated": "2026-10-22T07:05:16.835141+00:00",
   "scope": "combined",
-  "commit": "6abd104ef7563d5336c92c3a4c364891a173faa2",
+  "commit": "2af488c46160cfef9419d346c8f0ec6aabf8930f",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
       {
         "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-10-22",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-10-21",
@@ -7451,18 +7451,18 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "DEBRA Baseline Questionnaire (Frage 29)",
-                    "specific-questions": "**Wie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?** Mit einem ernsthaften Versuch meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, nie wieder zu rauchen. Bitte berücksichtigen Sie auch einen Versuch, den Sie derzeit unternehmen, sowie jeden erfolgreichen Versuch innerhalb des letzten Jahres.\n\n**Antwortmöglichkeiten:** 1) Ja, ich habe im vergangenen Jahr XX Versuche unternommen.\n(Bitte geben Sie eine Zahl zwischen 0 und 100 an.) 2) Ich habe keinen Versuch unternommen.\n(Wert „0“ wird automatisch gesetzt.)",
+                    "specific-questions": "**Wie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?** Mit einem ernsthaften Versuch meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, nie wieder zu rauchen. Bitte berücksichtigen Sie auch einen Versuch, den Sie derzeit unternehmen, sowie jeden erfolgreichen Versuch innerhalb des letzten Jahres.\n\n**Antwortmöglichkeiten:** 1) Ja, ich habe im vergangenen Jahr XX Versuche unternommen.\n(Bitte geben Sie eine Zahl zwischen 0 und 100 an.) \n\n2\\) Ich habe keinen Versuch unternommen.\n(Wert „0“ wird automatisch gesetzt.)",
                     "unit": "",
-                    "data-format": "",
+                    "data-format": "ganze Zahl;",
                     "data-type": "",
                     "range-of-vales": "1) erste Frage: 0-100",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
@@ -7480,7 +7480,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung fehlt"
+                "discussion": "@Mirna: Beschreibung fehlt; kann Tobias weiterhelfen?"
               },
               "en": {
                 "template": "observation",
@@ -7502,7 +7502,7 @@
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "1) erste Frage: 0-100",
-                    "acquisition-frequency": "",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [
@@ -7519,7 +7519,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Beschreibung fehlt"
+                "discussion": "@Mirna: Beschreibung fehlt; kann Tobias weiterhelfen?"
               }
             },
             {

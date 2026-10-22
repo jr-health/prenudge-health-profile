@@ -1110,6 +1110,7 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **Range of Values:** 1) erste Frage: 0-100
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1314,7 +1315,7 @@ _Changes since version v0.1.20-test:_
 
 | Date | Author |
 |---|---|
-| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-22 | shaide79 |
+| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
