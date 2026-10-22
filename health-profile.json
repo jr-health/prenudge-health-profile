@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:51:36.861746+00:00",
+  "generated": "2026-10-22T07:01:35.409486+00:00",
   "scope": "combined",
-  "commit": "4454b0ea87acf47e13a809feed2fa65e29d63fac",
+  "commit": "e0900c44722aeea467c3b71bf0488ace2b63a41f",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1294,6 +1294,92 @@
                   }
                 ],
                 "discussion": "@Thomas: Check kategorien"
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "eggs",
+                "dataset-scope": "Extension",
+                "title": "Eier (Portionen/Woche)",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "description": "**\"Allgemein**\n\nEin Hühnerei der Größe M (-Mittel) ist zwischen 53 und 63 Gramm schwer. Bei der Annahme eines durchschnittlichen Gewichtes von 58 g hat das Ei dieser Sortierung in etwa 90 Kilokalorien (kcal) bzw. 375 kiloJoule (kJ). Neben den Eiern der Größe M sind noch Eier der Gewichtsklassen XL- Sehr groß mit einem Gewicht von 73 g und mehr, Eier der Gewichtsklasse L – Groß mit einem Gewicht zwischen 63 g bis unter 73 g und Eier der Gewichtsklasse S- Klein mit einem Gewicht unter 53 erhältlich.\n\nZu Ostern haben gefärbte Eier Hochsaison. Im Handel mittlerweile ganzjährig erhältliche, gefärbte, gekochte Ostereier/Eier dürfen nur mit zugelassenen Lebensmittelfarbstoffen gefärbt werden. Für die Färbung von Bio-Eiern darf nur eine kleine speziell ausgewählte Anzahl an Farbstoffen (nur in der natürlichen Form) verwendet werden.\n\nZusätzlich zu den Farbstoffen dürfen spezielle Überzugsmittel verwendet werden.\n\nSowohl gefärbte, gekochte Eier als auch rohe Eier müssen im Verkauf im Handel gekennzeichnet werden. Es gelten teilweise verschiedene Kennzeichnungsvorschriften. Für gefärbte, gekochte Eier ist auch eine Zutatenliste vorgeschrieben. Genaueres dazu finden Sie unter Fachinformation.\n\nEier können allerdings auch Träger von Krankheitserregern wie z. B. [Salmonellen](https://www.ages.at/mensch/krankheit/krankheitserreger-von-a-bis-z/salmonellen) sein.\n\n**Ernährungsempfehlungen**\n\nEier zeichnen sich durch einen hohen Proteingehalt aus. Dieses Eiprotein besitzt eine hohe biologische Wertigkeit. Das bedeutet, dass das im Hühnerei enthaltene Eiweiß sehr gut zur Bildung von körpereigenem Eiweiß umgebaut werden kann. Weiters sind Eier Lieferanten von Vitaminen (z.B. Vitamin A, Vitamin D, Folsäure und Biotin) sowie Mineralstoffen und Spurenelementen wie z.B. dem Selen.\n\nBei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil unserer Zellmembranen ist. Cholesterin ist im Hühnerei nur im Dotter enthalten. Eier müssen aber aufgrund ihres Cholesteringehalts aber in der Ernährung nicht vermieden werden. Werden die Empfehlungen der österreichischen Ernährungspyramide von maximal 3 Eiern pro Woche eingehalten, kann man als gesunder Mensch davon ausgehen, dass der Verzehr von Eiern keine negativen gesundheitlichen Auswirkungen hat. Wir unterstützen Sie mit unserem Online-Tool [„Lebensmittel unter der Lupe“](https://lebensmittellupe.at/index.php?id=1481 \"Lebensmittellupe\"), um eine optimale Auswahl an Lebensmitteln zu treffen.\"",
+                "citizen-info": "## Allgemein\n\nEin Hühnerei der Größe M (-Mittel) ist zwischen 53 und 63 Gramm schwer. Bei der Annahme eines durchschnittlichen Gewichtes von 58 g hat das Ei dieser Sortierung in etwa 90 Kilokalorien (kcal) bzw. 375 kiloJoule (kJ). Neben den Eiern der Größe M sind noch Eier der Gewichtsklassen XL- Sehr groß mit einem Gewicht von 73 g und mehr, Eier der Gewichtsklasse L – Groß mit einem Gewicht zwischen 63 g bis unter 73 g und Eier der Gewichtsklasse S- Klein mit einem Gewicht unter 53 erhältlich.\n\nZu Ostern haben gefärbte Eier Hochsaison. Im Handel mittlerweile ganzjährig erhältliche, gefärbte, gekochte Ostereier/Eier dürfen nur mit zugelassenen Lebensmittelfarbstoffen gefärbt werden. Für die Färbung von Bio-Eiern darf nur eine kleine speziell ausgewählte Anzahl an Farbstoffen (nur in der natürlichen Form) verwendet werden.\n\nZusätzlich zu den Farbstoffen dürfen spezielle Überzugsmittel verwendet werden.\n\nSowohl gefärbte, gekochte Eier als auch rohe Eier müssen im Verkauf im Handel gekennzeichnet werden. Es gelten teilweise verschiedene Kennzeichnungsvorschriften. Für gefärbte, gekochte Eier ist auch eine Zutatenliste vorgeschrieben. Genaueres dazu finden Sie unter Fachinformation.\n\nEier können allerdings auch Träger von Krankheitserregern wie z. B. [Salmonellen](https://www.ages.at/mensch/krankheit/krankheitserreger-von-a-bis-z/salmonellen) sein.\n\n### Ernährungsempfehlungen\n\nEier zeichnen sich durch einen hohen Proteingehalt aus. Dieses Eiprotein besitzt eine hohe biologische Wertigkeit. Das bedeutet, dass das im Hühnerei enthaltene Eiweiß sehr gut zur Bildung von körpereigenem Eiweiß umgebaut werden kann. Weiters sind Eier Lieferanten von Vitaminen (z.B. Vitamin A, Vitamin D, Folsäure und Biotin) sowie Mineralstoffen und Spurenelementen wie z.B. dem Selen.\n\nBei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil unserer Zellmembranen ist. Cholesterin ist im Hühnerei nur im Dotter enthalten. Eier müssen aber aufgrund ihres Cholesteringehalts aber in der Ernährung nicht vermieden werden. Werden die Empfehlungen der österreichischen Ernährungspyramide von maximal 3 Eiern pro Woche eingehalten, kann man als gesunder Mensch davon ausgehen, dass der Verzehr von Eiern keine negativen gesundheitlichen Auswirkungen hat. Wir unterstützen Sie mit unserem Online-Tool [„Lebensmittel unter der Lupe“](https://lebensmittellupe.at/index.php?id=1481 \"Lebensmittellupe\"), um eine optimale Auswahl an Lebensmitteln zu treffen.",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
+                    "audience": [],
+                    "note": ""
+                  }
+                ],
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "Frage nach den Ernährungsempfehlungen",
+                    "specific-questions": "Wie viele Eier isst du durchschnittlich pro Woche?\n\nAntwortmöglichkeit:  1) 1 – Nie: 0 Eier pro Woche; 2) 1–2 Eier pro Woche; 3) 3 Eier pro Woche; 4)  mehr als 3 Eier pro Woche",
+                    "unit": "kategoriell",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "1-4",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "nicht zutreffend",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "eggs",
+                "dataset-scope": "Extension",
+                "title": "eggs",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "description": "",
+                "citizen-info": "[https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier) \n\nHomepage geht grad nicht soll von dem kopiert werden.",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
+                    "audience": [],
+                    "note": ""
+                  }
+                ],
+                "population": "Allgemeinbevölkerung",
+                "disease-association": [],
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "1-4",
+                    "acquisition-frequency": "alle 6 Monate",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": ""
               }
             },
             {
@@ -8850,40 +8936,6 @@
         "key": "telbiomed",
         "name": "TELBIOMED",
         "app-name": "Digitale Präventionsambulanz"
-      }
-    }
-  ],
-  "orphaned_observations": [
-    {
-      "de": {
-        "template": "observation",
-        "key": "eggs",
-        "dataset-scope": "Extension",
-        "title": "Eier (Portionen/Woche)",
-        "category": "nutrition",
-        "dimension": "",
-        "description": "",
-        "citizen-info": "",
-        "verified-health-links": [],
-        "population": "",
-        "disease-association": [],
-        "measurement-instrument": [],
-        "discussion": ""
-      },
-      "en": {
-        "template": "observation",
-        "key": "eggs",
-        "dataset-scope": "Extension",
-        "title": "eggs",
-        "category": "nutrition",
-        "dimension": "",
-        "description": "",
-        "citizen-info": "[https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier) \n\nHomepage geht grad nicht soll von dem kopiert werden.",
-        "verified-health-links": [],
-        "population": "Allgemeinbevölkerung",
-        "disease-association": [],
-        "measurement-instrument": [],
-        "discussion": ""
       }
     }
   ]

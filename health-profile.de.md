@@ -15,6 +15,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-22_
 - [Ernährung](#ernahrung)
   - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdapfel-portionentag)
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
+  - [Eier (Portionen/Woche)](#eier-portionenwoche)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
   - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
@@ -346,6 +347,64 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+
+### Eier (Portionen/Woche)
+
+**Beschreibung für Fachpersonal:**
+
+**"Allgemein**
+
+Ein Hühnerei der Größe M (-Mittel) ist zwischen 53 und 63 Gramm schwer. Bei der Annahme eines durchschnittlichen Gewichtes von 58 g hat das Ei dieser Sortierung in etwa 90 Kilokalorien (kcal) bzw. 375 kiloJoule (kJ). Neben den Eiern der Größe M sind noch Eier der Gewichtsklassen XL- Sehr groß mit einem Gewicht von 73 g und mehr, Eier der Gewichtsklasse L – Groß mit einem Gewicht zwischen 63 g bis unter 73 g und Eier der Gewichtsklasse S- Klein mit einem Gewicht unter 53 erhältlich.
+
+Zu Ostern haben gefärbte Eier Hochsaison. Im Handel mittlerweile ganzjährig erhältliche, gefärbte, gekochte Ostereier/Eier dürfen nur mit zugelassenen Lebensmittelfarbstoffen gefärbt werden. Für die Färbung von Bio-Eiern darf nur eine kleine speziell ausgewählte Anzahl an Farbstoffen (nur in der natürlichen Form) verwendet werden.
+
+Zusätzlich zu den Farbstoffen dürfen spezielle Überzugsmittel verwendet werden.
+
+Sowohl gefärbte, gekochte Eier als auch rohe Eier müssen im Verkauf im Handel gekennzeichnet werden. Es gelten teilweise verschiedene Kennzeichnungsvorschriften. Für gefärbte, gekochte Eier ist auch eine Zutatenliste vorgeschrieben. Genaueres dazu finden Sie unter Fachinformation.
+
+Eier können allerdings auch Träger von Krankheitserregern wie z. B. [Salmonellen](https://www.ages.at/mensch/krankheit/krankheitserreger-von-a-bis-z/salmonellen) sein.
+
+**Ernährungsempfehlungen**
+
+Eier zeichnen sich durch einen hohen Proteingehalt aus. Dieses Eiprotein besitzt eine hohe biologische Wertigkeit. Das bedeutet, dass das im Hühnerei enthaltene Eiweiß sehr gut zur Bildung von körpereigenem Eiweiß umgebaut werden kann. Weiters sind Eier Lieferanten von Vitaminen (z.B. Vitamin A, Vitamin D, Folsäure und Biotin) sowie Mineralstoffen und Spurenelementen wie z.B. dem Selen.
+
+Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil unserer Zellmembranen ist. Cholesterin ist im Hühnerei nur im Dotter enthalten. Eier müssen aber aufgrund ihres Cholesteringehalts aber in der Ernährung nicht vermieden werden. Werden die Empfehlungen der österreichischen Ernährungspyramide von maximal 3 Eiern pro Woche eingehalten, kann man als gesunder Mensch davon ausgehen, dass der Verzehr von Eiern keine negativen gesundheitlichen Auswirkungen hat. Wir unterstützen Sie mit unserem Online-Tool [„Lebensmittel unter der Lupe“](https://lebensmittellupe.at/index.php?id=1481 "Lebensmittellupe"), um eine optimale Auswahl an Lebensmitteln zu treffen."
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+## Allgemein
+
+Ein Hühnerei der Größe M (-Mittel) ist zwischen 53 und 63 Gramm schwer. Bei der Annahme eines durchschnittlichen Gewichtes von 58 g hat das Ei dieser Sortierung in etwa 90 Kilokalorien (kcal) bzw. 375 kiloJoule (kJ). Neben den Eiern der Größe M sind noch Eier der Gewichtsklassen XL- Sehr groß mit einem Gewicht von 73 g und mehr, Eier der Gewichtsklasse L – Groß mit einem Gewicht zwischen 63 g bis unter 73 g und Eier der Gewichtsklasse S- Klein mit einem Gewicht unter 53 erhältlich.
+
+Zu Ostern haben gefärbte Eier Hochsaison. Im Handel mittlerweile ganzjährig erhältliche, gefärbte, gekochte Ostereier/Eier dürfen nur mit zugelassenen Lebensmittelfarbstoffen gefärbt werden. Für die Färbung von Bio-Eiern darf nur eine kleine speziell ausgewählte Anzahl an Farbstoffen (nur in der natürlichen Form) verwendet werden.
+
+Zusätzlich zu den Farbstoffen dürfen spezielle Überzugsmittel verwendet werden.
+
+Sowohl gefärbte, gekochte Eier als auch rohe Eier müssen im Verkauf im Handel gekennzeichnet werden. Es gelten teilweise verschiedene Kennzeichnungsvorschriften. Für gefärbte, gekochte Eier ist auch eine Zutatenliste vorgeschrieben. Genaueres dazu finden Sie unter Fachinformation.
+
+Eier können allerdings auch Träger von Krankheitserregern wie z. B. [Salmonellen](https://www.ages.at/mensch/krankheit/krankheitserreger-von-a-bis-z/salmonellen) sein.
+
+### Ernährungsempfehlungen
+
+Eier zeichnen sich durch einen hohen Proteingehalt aus. Dieses Eiprotein besitzt eine hohe biologische Wertigkeit. Das bedeutet, dass das im Hühnerei enthaltene Eiweiß sehr gut zur Bildung von körpereigenem Eiweiß umgebaut werden kann. Weiters sind Eier Lieferanten von Vitaminen (z.B. Vitamin A, Vitamin D, Folsäure und Biotin) sowie Mineralstoffen und Spurenelementen wie z.B. dem Selen.
+
+Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil unserer Zellmembranen ist. Cholesterin ist im Hühnerei nur im Dotter enthalten. Eier müssen aber aufgrund ihres Cholesteringehalts aber in der Ernährung nicht vermieden werden. Werden die Empfehlungen der österreichischen Ernährungspyramide von maximal 3 Eiern pro Woche eingehalten, kann man als gesunder Mensch davon ausgehen, dass der Verzehr von Eiern keine negativen gesundheitlichen Auswirkungen hat. Wir unterstützen Sie mit unserem Online-Tool [„Lebensmittel unter der Lupe“](https://lebensmittellupe.at/index.php?id=1481 "Lebensmittellupe"), um eine optimale Auswahl an Lebensmitteln zu treffen.
+
+**Verifizierte Gesundheitsinformation:**
+- [https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier)
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** kategoriell
+- **Wertebereich:** 1-4
+- **Erfassungsfrequenz:** alle 6 Monate
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 ### Fisch (Portionen/Woche)
 

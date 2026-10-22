@@ -15,6 +15,7 @@ _Version: 0.1.20-test | Generated: 2026-10-22_
 - [Nutrition](#nutrition)
   - [Cereals, potatoes (portions/day)](#cereals-potatoes-portionsday)
   - [Dairy products (portions/day)](#dairy-products-portionsday)
+  - [eggs](#eggs)
   - [Fish (portions/week)](#fish-portionsweek)
   - [Fruit and vegetable consumption (portions/day)](#fruit-and-vegetable-consumption-portionsday)
   - [Legumes (portions/week)](#legumes-portionsweek)
@@ -222,6 +223,27 @@ Optional: alle 3 Monate
 
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+
+### eggs
+
+**Population:** Allgemeinbevölkerung
+
+**Information for the Public:**
+
+[https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier) 
+
+Homepage geht grad nicht soll von dem kopiert werden.
+
+**Verified Health Information:**
+- [https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier)
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
+- **Acquisition Frequency:** alle 6 Monate
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ### Fish (portions/week)
 
