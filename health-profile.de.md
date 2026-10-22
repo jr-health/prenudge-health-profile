@@ -1188,7 +1188,7 @@ Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala u
 
 ### Resilienz
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
