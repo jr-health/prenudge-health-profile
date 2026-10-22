@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:16:55.981620+00:00",
+  "generated": "2026-10-22T07:18:07.602288+00:00",
   "scope": "combined",
-  "commit": "82ec8d96393c5c856d1550761cf1b07b09225542",
+  "commit": "a3151cff5aea8d8c7cd050307f921e119f12ca2e",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5852,12 +5852,12 @@
                   },
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "Selbstmessung",
                     "specific-questions": "Genaue Anweisung hinzufügen",
                     "unit": "bpm",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "0-500",
                     "acquisition-frequency": "individuell",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
@@ -5910,7 +5910,7 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "0-500",
                     "acquisition-frequency": "individuell",
                     "recommended-monitoring-frequency": "",
                     "norms": [],

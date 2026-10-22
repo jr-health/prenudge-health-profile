@@ -1654,6 +1654,7 @@ Diastolisch: 0-500
 
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** bpm
+- **Wertebereich:** 0-500
 - **Erfassungsfrequenz:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft

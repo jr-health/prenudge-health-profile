@@ -891,6 +891,7 @@ Diastolisch: 0-500
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
+- **Range of Values:** 0-500
 - **Acquisition Frequency:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
