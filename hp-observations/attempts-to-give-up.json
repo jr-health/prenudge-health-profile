@@ -9,18 +9,18 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "DEBRA Baseline Questionnaire (Frage 29)",
-        "specific-questions": "**Wie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?** Mit einem ernsthaften Versuch meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, nie wieder zu rauchen. Bitte berücksichtigen Sie auch einen Versuch, den Sie derzeit unternehmen, sowie jeden erfolgreichen Versuch innerhalb des letzten Jahres.\n\n**Antwortmöglichkeiten:** 1) Ja, ich habe im vergangenen Jahr XX Versuche unternommen.\n(Bitte geben Sie eine Zahl zwischen 0 und 100 an.) 2) Ich habe keinen Versuch unternommen.\n(Wert „0“ wird automatisch gesetzt.)",
+        "specific-questions": "**Wie viele ernsthafte Versuche, mit dem Rauchen aufzuhören, haben Sie in den letzten 12 Monaten unternommen?** Mit einem ernsthaften Versuch meine ich, dass Sie sich vorgenommen haben, dafür zu sorgen, nie wieder zu rauchen. Bitte berücksichtigen Sie auch einen Versuch, den Sie derzeit unternehmen, sowie jeden erfolgreichen Versuch innerhalb des letzten Jahres.\n\n**Antwortmöglichkeiten:** 1) Ja, ich habe im vergangenen Jahr XX Versuche unternommen.\n(Bitte geben Sie eine Zahl zwischen 0 und 100 an.) \n\n2\\) Ich habe keinen Versuch unternommen.\n(Wert „0“ wird automatisch gesetzt.)",
         "unit": "",
-        "data-format": "",
+        "data-format": "ganze Zahl;",
         "data-type": "",
         "range-of-vales": "1) erste Frage: 0-100",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "scoring-algorithm": "",
@@ -38,7 +38,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Beschreibung fehlt"
+    "discussion": "@Mirna: Beschreibung fehlt; kann Tobias weiterhelfen?"
   },
   "en": {
     "template": "observation",
@@ -60,7 +60,7 @@
         "data-format": "",
         "data-type": "",
         "range-of-vales": "1) erste Frage: 0-100",
-        "acquisition-frequency": "",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
@@ -77,6 +77,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Beschreibung fehlt"
+    "discussion": "@Mirna: Beschreibung fehlt; kann Tobias weiterhelfen?"
   }
 }
