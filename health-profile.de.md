@@ -1709,7 +1709,7 @@ _Keine Beobachtungen erfasst._
 
 ### Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
