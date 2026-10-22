@@ -841,13 +841,14 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 
 ### Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)
 
-**Population:** Gleichgewichtstraining wird für ältere Erwachsene (ab 65 Jahren) empfohlen
+**Population:** erwachsene Allgemeinbevölkerung
+Gleichgewichtstraining wird für ältere Erwachsene (ab 65 Jahren) empfohlen
 
 **Information für Bevölkerung:**
 
 Beweglichkeitstraining
 
-Beweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.
+"Beweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.
 
 In Kombination mit dem Krafttraining eingesetzt, kann Beweglichkeitstraining einen wertvollen Beitrag zur Beseitigung muskulärer Dysbalancen liefern, die oftmals Folgeerscheinungen einseitiger Belastungen in Beruf, Haushalt und Freizeit sind.
 
@@ -871,7 +872,7 @@ Beweglichkeit ist eine Fitnesskomponente neben Ausdauer, Kraft, Schnelligkeit un
 
 Wofür sind Gleichgewichtsübungen gut?
 
-Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.
+Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht."
 
 #### Messinstrumente
 
