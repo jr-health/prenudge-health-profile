@@ -904,6 +904,8 @@ Diastolisch: 0-500
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1 oder 2
+- **Acquisition Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

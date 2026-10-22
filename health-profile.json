@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:19:12.461896+00:00",
+  "generated": "2026-10-22T07:20:37.561523+00:00",
   "scope": "combined",
-  "commit": "b1a7cb62327a2e1071ceccaa796fbbf9d126d951",
+  "commit": "d177057c62a7196dd46fe19c185f13c23dc1c8e9",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -5944,18 +5944,18 @@
                     "note": ""
                   }
                 ],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "unstandardisierte  Fragebogen",
-                    "specific-questions": "Haben Sie den Abgleich Ihres Impfpasses mit dem aktuellen Impfplan bereits durchgeführt und dokumentiert?",
+                    "specific-questions": "Haben Sie den Abgleich Ihres Impfpasses mit dem aktuellen Impfplan bereits durchgeführt und dokumentiert?\n\nAntwortmöglichkeit: Ja, nein",
                     "unit": "",
-                    "data-format": "",
+                    "data-format": "dichotom",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "1 oder 2",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "scoring-algorithm": "",
@@ -5994,8 +5994,8 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "1 oder 2",
+                    "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [

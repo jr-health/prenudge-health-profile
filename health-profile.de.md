@@ -1665,12 +1665,17 @@ Diastolisch: 0-500
 
 Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit des Bundesministeriums für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz und den [Mitgliedern des Nationalen Impfgremiums](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/Nationales-Impfgremium.html) nach den neuesten Erkenntnissen der Wissenschaft präzisiert und aktualisiert.
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 **Verifizierte Gesundheitsinformation:**
 - []()
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** dichotom
+- **Wertebereich:** 1 oder 2
+- **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
