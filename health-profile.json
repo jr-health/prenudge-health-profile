@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:29:23.633315+00:00",
+  "generated": "2026-10-22T06:29:45.670842+00:00",
   "scope": "combined",
-  "commit": "4614ab04da34441972c46bfe7372069aa675ab4a",
+  "commit": "934767921a09c5564ed6f9398d717ca2ad0c7912",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8170,7 +8170,7 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {

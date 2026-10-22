@@ -2203,6 +2203,8 @@ Nicht erforderlich
 
 ### Alltagssprache
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
