@@ -9,12 +9,12 @@
     "description": "",
     "citizen-info": "Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.\n\nPflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.",
     "verified-health-links": [],
-    "population": "Allgemeinbevölkerung",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "Portionen Milchprodukte pro Tag",
+        "device": "österreichische Ernährungsempfehlungen",
         "specific-questions": "**„An einem normalen Tag: Wie viele Portionen an Milch oder Milchprodukten essen oder trinken Sie insgesamt?“** _Orientierungshilfe für 1 Portion: 1 Glas Milch / Buttermilch oder 1 Becher Joghurt / Topfen (ca. 150–200 ml/g) 2 handflächengroße, dünne Scheiben Käse (ca. 50–60 g)_\n\n_Antwortmöglichkeiten (Einfachnennung) 1)_ 0 Portionen / Ich konsumiere keine Milchprodukte; 2) 1 Portion am Tag*; 3)* 2 Portionen am Tag; 4) 3 Portionen am Tag; 5) 4 oder mehr Portionen am Tag",
         "unit": "",
         "data-format": "kategoriell",
@@ -42,7 +42,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Thomas: Check kategorien"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -81,6 +81,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Thomas: Check kategorien"
+    "discussion": ""
   }
 }
