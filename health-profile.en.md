@@ -48,7 +48,6 @@ _Version: 0.1.20-test | Generated: 2026-10-22_
   - [Blood pressure (mmHg?)](#blood-pressure-mmhg)
   - [Heart rate (bpm?)](#heart-rate-bpm)
   - [Vaccination-status-check](#vaccination-status-check)
-- [Sexuality](#sexuality)
 - [Sleep](#sleep)
   - [Self-reported chronotype](#self-reported-chronotype)
   - [Sleep hygiene (frequency of adherence to sleep-promoting routines/week)](#sleep-hygiene-frequency-of-adherence-to-sleep-promoting-routinesweek)
@@ -914,14 +913,6 @@ Diastolisch: 0-500
 
 ---
 
-## Sexuality
-
-<img src="media/venus-and-mars.png" alt="Sexuality" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
-
-_No observations recorded._
-
----
-
 ## Sleep
 
 <img src="media/bed_white.png" alt="Sleep" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
@@ -1318,7 +1309,7 @@ _Changes since version v0.1.20-test:_
 
 | Date | Author |
 |---|---|
-| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-22 | shaide79 |
+| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |

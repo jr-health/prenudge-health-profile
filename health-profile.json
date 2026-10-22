@@ -1,18 +1,18 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:58:47.622075+00:00",
+  "generated": "2026-10-22T08:35:54.293295+00:00",
   "scope": "combined",
-  "commit": "05cc358d47cbfba55630746d30ad3c02371216d2",
+  "commit": "f99c829e4f0bbc4481d9d8da1e9fe2013113b839",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
       {
         "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-10-22",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-10-21",
@@ -6018,31 +6018,6 @@
           ]
         }
       ]
-    },
-    {
-      "de": {
-        "template": "category",
-        "key": "sexuality",
-        "dataset-scope": "Extension",
-        "title": "Sexualität",
-        "icon_upload": "/media/venus-and-mars.png",
-        "color": "#D6C6C2",
-        "description-professional": "",
-        "description-laymen": "",
-        "discussion": ""
-      },
-      "en": {
-        "template": "category",
-        "key": "sexuality",
-        "dataset-scope": "Extension",
-        "title": "Sexuality",
-        "icon_upload": "/media/venus-and-mars.png",
-        "color": "#D6C6C2",
-        "description-professional": "",
-        "description-laymen": "",
-        "discussion": ""
-      },
-      "dimensions": []
     },
     {
       "de": {

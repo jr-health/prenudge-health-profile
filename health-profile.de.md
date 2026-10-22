@@ -48,7 +48,6 @@ _Version: 0.1.20-test | Generiert: 2026-10-22_
   - [Blutdruck (mmHg)](#blutdruck-mmhg)
   - [Herzfrequenz (bpm)](#herzfrequenz-bpm)
   - [Impfstatus](#impfstatus)
-- [Sexualität](#sexualitat)
 - [Schlaf](#schlaf)
   - [Chronotyp](#chronotyp)
   - [Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)](#schlafhygiene-haufigkeit-der-einhaltung-schlaffordernder-routinenwoche)
@@ -1686,14 +1685,6 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 
 ---
 
-## Sexualität
-
-<img src="media/venus-and-mars.png" alt="Sexualität" width="48" style="background-color: #D6C6C2; padding: 6px; border-radius: 6px;">
-
-_Keine Beobachtungen erfasst._
-
----
-
 ## Schlaf
 
 <img src="media/bed_white.png" alt="Schlaf" width="48" style="background-color: #007ba7; padding: 6px; border-radius: 6px;">
@@ -2449,7 +2440,7 @@ _Änderungen seit Version v0.1.20-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-22 | shaide79 |
+| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
