@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:31:15.557534+00:00",
+  "generated": "2026-10-22T06:31:50.164837+00:00",
   "scope": "combined",
-  "commit": "7712cd3772e0edc81418684ae1a4b77f1009d57f",
+  "commit": "9ba610fd7b58fba1a2fd0492348d485cfb58d56e",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8164,7 +8164,7 @@
                 "template": "observation",
                 "key": "ethnicity",
                 "dataset-scope": "Extension",
-                "title": "Alltagssprache - Statistik Austria",
+                "title": "Alltagssprache",
                 "category": "sociodemographic-data",
                 "dimension": "origin",
                 "description": "",
@@ -8175,7 +8175,7 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
+                    "device": "Statistik Austria",
                     "specific-questions": "Welche Sprache sprechen Sie mit Ihren Freund:innen?\n\nAntwortmöglichkeiten: 1) Ausschließlich Deutsch; 2) Überwiegend Deutsch; 3) Deutsch und eine andere Sprache (bzw. Sprachen); 4) Überwiegend eine andere Sprache (bzw. Sprachen); 5) Ausschließlich eine andere Sprache (bzw. Sprachen)\n\nWelche Sprache sprechen Sie zu Hause?\n\nAntwortmöglichkeit: 1) Ausschließlich Deutsch; 2) Überwiegend Deutsch; 3) Deutsch und eine andere Sprache (bzw. Sprachen); 4) Überwiegend eine andere Sprache (bzw. Sprachen); 5) Ausschließlich eine andere Sprache (bzw. Sprachen)",
                     "unit": "",
                     "data-format": "Kategoriell",
