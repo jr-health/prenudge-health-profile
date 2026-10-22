@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T09:18:00.708623+00:00",
+  "generated": "2026-10-22T09:23:58.086349+00:00",
   "scope": "combined",
-  "commit": "f525a8c61732f9694d59703edf2930751601cb59",
+  "commit": "9d863d5aa2cf9dcc84a561efe5dafe4f4e65349e",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -3345,7 +3345,7 @@
                     ]
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable"
+                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR IG Review: Der User kann nicht mit \"Nie oder seltener als einmal pro Woche\" antworten nur mit \"Weiß nicht\" oder \"Keine Angabe\" oder Antworten zwischen 1-7 Tage pro Woche.\n\nUnser Vorschlag: Antwortoption \"Nie oder seltener als einmal pro Woche\" hinzufügen. EHIS-PAQ Q8 bietet diese Antwortoption an. ATHIS PE8 nicht, weil das in einer separaten Follow-Up Frage PE8a erhoben wird."
               },
               "en": {
                 "template": "observation",
@@ -3440,7 +3440,7 @@
                     ]
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable"
+                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR IG Review: Der User kann nicht mit \"Nie oder seltener als einmal pro Woche\" antworten nur mit \"Weiß nicht\" oder \"Keine Angabe\" oder Antworten zwischen 1-7 Tage pro Woche.\n\nUnser Vorschlag: Antwortoption \"Nie oder seltener als einmal pro Woche\" hinzufügen. EHIS-PAQ Q8 bietet diese Antwortoption an. ATHIS PE8 nicht, weil das in einer separaten Follow-Up Frage PE8a erhoben wird."
               }
             }
           ]
