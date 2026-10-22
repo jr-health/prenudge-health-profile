@@ -2361,6 +2361,8 @@ Nicht erforderlich
 
 ### Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
@@ -2435,7 +2437,7 @@ _Änderungen seit Version v0.1.20-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-10-22 | shaide79 |
 | 2026-10-22 | Theresa Weitlaner |
+| 2026-10-22 | shaide79 |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |

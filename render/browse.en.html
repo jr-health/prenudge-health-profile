@@ -430,7 +430,7 @@
   <main>
 <h1 class="page-title">Table — PreNUDGE Health Profile</h1>    <div class="meta-bar">
       <p class="meta-text">Version 0.1.20-test · Generated: 2026-10-22 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/2af488c46160cfef9419d346c8f0ec6aabf8930f">2af488c</a> ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/ed5f6dad619cba96cbf4ec5d873059142702330c">ed5f6da</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PreNUDGE Consortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html" class="active">EN</a><a data-keep-scope href="browse.de.html">DE</a></div>
     </div>
@@ -465,7 +465,7 @@
       <td>Alcohol consumption frequency (days/week or drinks/day)</td>
       <td><div>Questionnaire · manual (self-reported)</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-alcoholuse-observation.html" target="_blank" rel="noopener">at-prenudge-alcoholuse-observation</a></div></td>
-      <td class="discussion"><p>Fragebogen</p></td>
+      <td class="discussion"><p>Fragebogen</p><p>Von FHIR IG Review: Medicus.AI hat angemerkt, dass wir derzeit einen Fragebogen (ATHIS) zur Häufigkeit umsetzen und daraus eine Observation zur Menge ableiten – das passt nicht zusammen.</p><p>- Unser Vorschlag:<br>        - Wir fügen zusätzlich einen Fragebogen zur Menge hinzu und leiten daraus die Observation zur Menge ab<br>            - z.B. <a href="https://loinc.org/72109-2" target="_blank" rel="noopener">https://loinc.org/72109-2</a> AUDIT-C<br>            - Alternativ: umformulieren "Wieviele Standarddrinks trinken sie pro Woche" und dann durch 7 dividieren<br>            - Alternativ: ATHIS AL2+AL4+AL3A-E+AL4A-E (ist aber sehr aufwändig)<br>        - Die derzeitige ATHIS AL1-Frage wird nicht auf eine Observation gemappt<br>        - Braucht es dann einen Indikator für Häufigkeit und einen für Menge?</p></td>
     </tr>
     <tr data-category="anthropometry" data-observation="body-mass-index" data-scope="minimalset" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #e0d3de;"></span>Anthropometry</td>

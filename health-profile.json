@@ -1,18 +1,18 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:05:16.835141+00:00",
+  "generated": "2026-10-22T07:05:50.876732+00:00",
   "scope": "combined",
-  "commit": "2af488c46160cfef9419d346c8f0ec6aabf8930f",
+  "commit": "ed5f6dad619cba96cbf4ec5d873059142702330c",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
       {
         "date": "2026-10-22",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-10-21",
@@ -389,7 +389,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen"
+                "discussion": "Fragebogen\n\nVon FHIR IG Review: Medicus.AI hat angemerkt, dass wir derzeit einen Fragebogen (ATHIS) zur Häufigkeit umsetzen und daraus eine Observation zur Menge ableiten – das passt nicht zusammen.\n\n    - Unser Vorschlag:\n        - Wir fügen zusätzlich einen Fragebogen zur Menge hinzu und leiten daraus die Observation zur Menge ab\n            - z.B. [https://loinc.org/72109-2](https://loinc.org/72109-2) AUDIT-C\n            - Alternativ: umformulieren \"Wieviele Standarddrinks trinken sie pro Woche\" und dann durch 7 dividieren\n            - Alternativ: ATHIS AL2+AL4+AL3A-E+AL4A-E (ist aber sehr aufwändig)\n        - Die derzeitige ATHIS AL1-Frage wird nicht auf eine Observation gemappt\n        - Braucht es dann einen Indikator für Häufigkeit und einen für Menge?"
               },
               "en": {
                 "template": "observation",
@@ -573,7 +573,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen"
+                "discussion": "Fragebogen\n\nVon FHIR IG Review: Medicus.AI hat angemerkt, dass wir derzeit einen Fragebogen (ATHIS) zur Häufigkeit umsetzen und daraus eine Observation zur Menge ableiten – das passt nicht zusammen.\n\n    - Unser Vorschlag:\n        - Wir fügen zusätzlich einen Fragebogen zur Menge hinzu und leiten daraus die Observation zur Menge ab\n            - z.B. [https://loinc.org/72109-2](https://loinc.org/72109-2) AUDIT-C\n            - Alternativ: umformulieren \"Wieviele Standarddrinks trinken sie pro Woche\" und dann durch 7 dividieren\n            - Alternativ: ATHIS AL2+AL4+AL3A-E+AL4A-E (ist aber sehr aufwändig)\n        - Die derzeitige ATHIS AL1-Frage wird nicht auf eine Observation gemappt\n        - Braucht es dann einen Indikator für Häufigkeit und einen für Menge?"
               }
             }
           ]
@@ -8726,7 +8726,7 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
