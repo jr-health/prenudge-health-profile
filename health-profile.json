@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:29:45.670842+00:00",
+  "generated": "2026-10-22T06:30:25.985893+00:00",
   "scope": "combined",
-  "commit": "934767921a09c5564ed6f9398d717ca2ad0c7912",
+  "commit": "7efba9b0f6d03a9d043f4c56ef8c4b634d0fc347",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8164,7 +8164,7 @@
                 "template": "observation",
                 "key": "ethnicity",
                 "dataset-scope": "Extension",
-                "title": "Alltagssprache",
+                "title": "Alltagssprache - Statistik Austria",
                 "category": "sociodemographic-data",
                 "dimension": "origin",
                 "description": "",
