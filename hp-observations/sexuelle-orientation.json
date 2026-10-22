@@ -9,12 +9,12 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "vadliderte Frage von OECD",
+        "device": "validerte Frage von OECD",
         "specific-questions": "**„Wie würden Sie Ihre sexuelle Orientierung am besten beschreiben?“**\n\nAntwortmöglichkeit (Einzel-Antwort): 1) Heterosexuell; 2) Homosexuell / Lesbisch / Schwul; 3)Bisexuell; 4) oder; 5) Weiß nicht / Keine Angabe",
         "unit": "",
         "data-format": "kategoriell",
