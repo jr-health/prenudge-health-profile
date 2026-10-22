@@ -9,15 +9,15 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "Allgemeinbevölkerung",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "Diskriminierung im Gesundheitssystem",
+        "device": "Diskriminierung im Gesundheitssystem -Survey on Health Care Access and Experiences -",
         "specific-questions": "**1) Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\nAntwortmöglichkeiten: Ja, nein\n\n**2) Wenn ja, dann bitte auswählen (Mehrfachnennungen möglich).**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine der genannten Erfahrungen\n\nModifiziert nach: [https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
         "unit": "",
-        "data-format": "kategoriell (mit Mehrfachnennung)",
+        "data-format": "dichotom\nkategoriell (mit Mehrfachnennung)",
         "data-type": "",
         "range-of-vales": "nicht zutreffend",
         "acquisition-frequency": "",
