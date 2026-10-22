@@ -2064,6 +2064,8 @@ _Bei gelegentlichem Rauchen handelt es sich um eine Schätzung. Die Berechnung b
 
 Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)

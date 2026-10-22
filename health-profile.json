@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:24:12.241417+00:00",
+  "generated": "2026-10-22T06:28:14.082623+00:00",
   "scope": "combined",
-  "commit": "731d03817e86225bd0153b94a0e102031a882754",
+  "commit": "c46f631890e77e86d2a795e682585673ba1e73ea",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -7493,7 +7493,7 @@
                 "description": "**Ihr bisheriger Zigarettenkonsum**\n\nBitte kreuzen Sie die zutreffende Antwort an oder tragen Sie die gewünschte Angabe ein.\n\n**Wie haben Sie überwiegend geraucht?**\n\n☐ Täglich oder fast täglich\n☐ Gelegentlich (nicht täglich)\n☐ Nie geraucht\n\n\n\n\n_Falls Sie „Nie geraucht“ angekreuzt haben, müssen Sie keine weiteren Angaben machen._\n\n**Falls Sie täglich oder fast täglich geraucht haben**\n\n**Wie viele Jahre haben Sie insgesamt geraucht?**\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Jahre\n_Beispiel: 20 Jahre_\n\n**Wie viele Zigaretten haben Sie an einem typischen Rauchtag geraucht?**\n\n☐ 5 Zigaretten\n☐ 10 Zigaretten\n☐ 15 Zigaretten\n☐ 20 Zigaretten (1 Packung)\n☐ 30 Zigaretten\n☐ 40 Zigaretten (2 Packungen)\n☐ Andere Anzahl: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Zigaretten pro Rauchtag\n\n\n\n\n**Falls Sie gelegentlich, aber nicht täglich geraucht haben**\n\n**Wie viele Jahre haben Sie insgesamt geraucht?**\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Jahre\n_Beispiel: 20 Jahre_\n\n**Wie viele Zigaretten haben Sie an einem typischen Rauchtag geraucht?**\n\n☐ 5 Zigaretten\n☐ 10 Zigaretten\n☐ 15 Zigaretten\n☐ 20 Zigaretten (1 Packung)\n☐ 30 Zigaretten\n☐ 40 Zigaretten (2 Packungen)\n☐ Andere Anzahl: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Zigaretten pro Rauchtag\n\n**An wie vielen Tagen pro Woche haben Sie ungefähr geraucht?**\n\n☐ 1 Tag\n☐ 2 Tage\n☐ 3 Tage\n☐ 4 Tage\n☐ 5 Tage\n☐ 6 Tage\n\n\n\n\n**Geschätzter Zigarettenkonsum**\n\n_Für die Dokumentation durch medizinisches Fachpersonal_\n\n\\_\\_**,** Pack-Years\n\nBei **täglichem oder fast täglichem Rauchen**:\n\nPack-Years=(Zigaretten pro Tag20)×Anzahl der JahrePack-Years=(20Zigaretten pro Tag)×Anzahl der Jahre\n\nBei **gelegentlichem Rauchen**:\n\nPack-Years=(Zigaretten pro Rauchtag20)×Anzahl der Jahre×(Rauchtage pro Woche7)Pack-Years=(20Zigaretten pro Rauchtag)×Anzahl der Jahre×(7Rauchtage pro Woche)\n\n_Bei gelegentlichem Rauchen handelt es sich um eine Schätzung. Die Berechnung berücksichtigt die durchschnittliche Anzahl der Rauchtage pro Woche und eignet sich für eine vereinfachte Raucheranamnese._\n\nPack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
@@ -7517,7 +7517,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
+                "discussion": "muss es noch mit dem minimalset abgleichen; da haben wir jetzt doppelte Sachen drinnen"
               },
               "en": {
                 "template": "observation",
@@ -7551,7 +7551,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "es muss nur eine Frage zu den Rauchjahren eingefügt werden.\n\nZu diskutieren: Wie tun wir mit Veränderungen? (Baher und Tobias Ledermüller)"
+                "discussion": "muss es noch mit dem minimalset abgleichen; da haben wir jetzt doppelte Sachen drinnen"
               }
             }
           ]
