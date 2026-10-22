@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:01:35.409486+00:00",
+  "generated": "2026-10-22T07:02:55.751339+00:00",
   "scope": "combined",
-  "commit": "e0900c44722aeea467c3b71bf0488ace2b63a41f",
+  "commit": "ab037bbef69b7bb788442658b44865fc55631fd0",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1327,9 +1327,18 @@
                     "range-of-vales": "1-4",
                     "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
-                    "norms": [],
+                    "norms": [
+                      {
+                        "specific-norm": ""
+                      }
+                    ],
                     "scoring-algorithm": "nicht zutreffend",
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "Österreichische Ernährungsempfehlung",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
@@ -1370,7 +1379,12 @@
                     "acquisition-frequency": "alle 6 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
-                    "sources": [],
+                    "sources": [
+                      {
+                        "source-description": "",
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+                      }
+                    ],
                     "terminology-codes": [],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",

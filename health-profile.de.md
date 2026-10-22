@@ -404,7 +404,12 @@ Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil 
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Spezifische Normen:**
+
 **Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Österreichische Ernährungsempfehlung](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
 ### Fisch (Portionen/Woche)
 

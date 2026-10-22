@@ -245,6 +245,9 @@ Homepage geht grad nicht soll von dem kopiert werden.
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html
+
 ### Fish (portions/week)
 
 **Verified Health Information:**
