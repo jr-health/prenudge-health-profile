@@ -522,7 +522,7 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 ### Hülsenfrüchte (Portionen/Woche)
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
@@ -532,7 +532,7 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Datenformat:** kategoriell
-- **Wertebereich:** 1x pro Jahr
+- **Wertebereich:** alle 6 Monate
 - **Erfassungsfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft

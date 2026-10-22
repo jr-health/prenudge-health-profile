@@ -311,7 +311,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 1x pro Jahr
+- **Range of Values:** alle 6 Monate
 - **Acquisition Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft

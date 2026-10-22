@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:18:07.602288+00:00",
+  "generated": "2026-10-22T07:19:12.461896+00:00",
   "scope": "combined",
-  "commit": "a3151cff5aea8d8c7cd050307f921e119f12ca2e",
+  "commit": "b1a7cb62327a2e1071ceccaa796fbbf9d126d951",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1785,17 +1785,17 @@
                 "description": "",
                 "citizen-info": "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).",
                 "verified-health-links": [],
-                "population": "Allgemeinbevölkerung",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "Frage, die die österreichischen Ernährungsempfehlungen erhebt",
-                    "specific-questions": "**„Wie viele Portionen an Hülsenfrüchten (wie Linsen, Kichererbsen, Bohnen, Erbsen oder Sojaprodukte wie Tofu) essen Sie in einer normalen Woche insgesamt?“** _Orientierungshilfe für 1 Portion:_ 1) 2 Fäuste voll gekochte Linsen, Kichererbsen oder Bohnen; 2) 1 Handtellergroßes Stück Tofu oder Tempeh\n\nAntwortmöglichkeit (Einfachauswahl): _1)_ 0 Portionen / Ich esse keine Hülsenfrüchte;  2) 1 bis 2 Portionen pro Woche; 3) 3 bis 4 Portionen pro Woche; 4) 5 oder mehr Portionen pro Woche",
+                    "device": "österreichischen Ernährungsempfehlungen",
+                    "specific-questions": "**„Wie viele Portionen an Hülsenfrüchten (wie Linsen, Kichererbsen, Bohnen, Erbsen oder Sojaprodukte wie Tofu) essen Sie in einer normalen Woche insgesamt?“** _Orientierungshilfe für 1 Portion:_ 1) 2 Fäuste voll gekochte Linsen, Kichererbsen oder Bohnen; 2) 1 Handtellergroßes Stück Tofu oder Tempeh\n\nAntwortmöglichkeit (Einfachauswahl): _1)_ 0 Portionen / Nie;  2) 1 bis 2 Portionen pro Woche; 3) 3 bis 4 Portionen pro Woche; 4) 5 oder mehr Portionen pro Woche",
                     "unit": "",
                     "data-format": "kategoriell",
                     "data-type": "",
-                    "range-of-vales": "1x pro Jahr",
+                    "range-of-vales": "alle 6 Monate",
                     "acquisition-frequency": "Optimum: alle 3 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [
@@ -1839,7 +1839,7 @@
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "1x pro Jahr",
+                    "range-of-vales": "alle 6 Monate",
                     "acquisition-frequency": "Optimum: alle 3 Monate",
                     "recommended-monitoring-frequency": "",
                     "norms": [],
