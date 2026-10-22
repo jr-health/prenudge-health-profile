@@ -1392,7 +1392,7 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Verständnis von gesundheitsbezogener Information
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
