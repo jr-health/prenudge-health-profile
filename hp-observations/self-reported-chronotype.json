@@ -9,12 +9,12 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "Allgemeinbevölkerung",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "",
+        "device": "nicht standardisierte Frage",
         "specific-questions": "Man spricht bei Menschen von \"Morgen-\" und \"Abendtypen\". Zu welchem der folgenden Typen zählen Sie sich?\n\n1. Eindeutig ein \"Morgentyp“\n2. Eher ein \"Morgen-\" als ein \"Abendtyp“\n3. Weder ein Morgen- noch ein Abendtyp\n4. Eher ein „Abend-\" als ein \"Morgentyp“\n5. Eindeutig ein \"Abendtyp“",
         "unit": "",
         "data-format": "",
