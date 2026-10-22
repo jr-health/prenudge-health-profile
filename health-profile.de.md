@@ -287,7 +287,7 @@ Männer <0,90; ≥0,90
 
 Getreide, Getreideprodukte und Erdäpfel sind gute Kohlenhydratquellen. Sie enthalten hochwertiges Eiweiß und liefern viele Vitamine – vor allem Vitamin B – Mineralstoffe, Ballaststoffe und sekundäre Pflanzenstoffe Das gilt besonders für Vollkornprodukte. Wichtige Getreidearten sind Weizen, Roggen, Reis, Gerste, Mais, Hirse, Hafer oder Dinkel. Getreideprodukte sind z.B. Brot oder Nudeln.
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
