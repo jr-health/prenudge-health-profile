@@ -1,11 +1,16 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-10-22T13:46:11.038968+00:00",
+  "generated": "2026-10-22T14:38:10.229828+00:00",
   "scope": "combined",
-  "commit": "91b592462a6e7bc1bf54095b725473e211fa8fbb",
+  "commit": "a99c51878be9fbf25930acf4d841f42ec1832a65",
   "activity": {
     "since": "v0.0.21-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-10-22",
+        "author": "Theresa Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -2502,11 +2507,9 @@
                 "key": "moderate-vigorous-endurance-oriented-activity-minutes-week",
                 "dataset-scope": "Minimalset",
                 "title": "Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel ausdauerorientierte Aktivität die Personen pro Woche betreiben.\nDefinition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020)\nEmpfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von ausdauerorientierter Bewegung mit mittlerer Intensität im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) ODER „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität ODER eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
-                "population": "erwachsene Allgemeinbevölkerung",
-                "disease-association": [],
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel ausdauerorientierte Aktivität die Personen pro Woche betreiben.\nDefinition: „Ausdauerorientierte Bewegung/Ausdauertraining: In den Bewegungsempfehlungen wird der Begriff „ausdauerorientierte Bewegung“ verwendet. Von ausdauerorientierter Bewegung spricht man, wenn sich Personen durch den Einsatz großer Muskelgruppen zyklisch über einen längeren Zeitraum bewegen. Zügiges Gehen, Laufen, Radfahren, Tanzen, aktive Mobilität, Basketball Spielen und Schwimmen sind einige Beispiele für ausdauerorientierte Bewegung. Im Gegensatz zum Ausdauertraining wird ausdauerorientierte Bewegung häufig bewusst im Alltag eingesetzt, jedoch wurde im Vorhinein kein konkretes Trainingsziel (z.B. 10-km Lauf in einer bestimmten Zeit) formuliert und es wurde kein Trainingsplan erstellt.“ (Fonds Gesundes Österreich, 2020)\n„Ausdauer kann entweder so gemacht werden, dass man über längere Zeit ein gleichbleibendes Tempo hält (Dauermethode) oder in Abschnitten mit wechselnder Belastung und Pausen (Intervalltraining).“ (Fonds Gesundes Österreich, 2020)\nEmpfehlung für gesunde Erwachsene: „Die Österreichischen Bewegungsempfehlungen beinhalten die Durchführung von ausdauerorientierter Bewegung mit mittlerer Intensität im Ausmaß von mindestens 150 bis 300 Minuten pro Woche. Hierzu gehören zügiges Gehen, Laufen, Radfahren, Schwimmen, Basketball oder Tanzen.“ (Fonds Gesundes Österreich, 2020) ODER „75 Minuten bis 150 Minuten pro Woche mit höherer Intensität ODER eine entsprechende Kombination aus ausdauerorientierter Bewegung mit mittlerer und höherer Intensität durchführen“ (Fonds Gesundes Österreich, 2020).",
                 "citizen-info": "Laienhafte Information:\n“Regelmäßige Bewegung ist eine der wirksamsten und wichtigsten Maßnahmen, die Menschen ergreifen können, um ihre Gesundheit auf vielen Ebenen zu verbessern. Der Wechsel von keiner oder wenig Bewegung zu mehr und regelmäßiger Bewegung ist ein entscheidender Beitrag für die Gesundheit, unabhängig von Alter, Geschlecht, ethnischer Zugehörigkeit und Körper-, Sinnes- oder Mentalbehinderungen” (Fonds Gesundes Österreich, 2020).\n„Körperliche Aktivität wirkt sich positiv auf die Gesundheit aus. Wer regelmäßig aktiv ist, kann damit das allgemeine Wohlbefinden und die körperliche, psychische und soziale Gesundheit steigern sowie das Herz-Kreislaufsystem und die Entwicklung des Muskel-Skelettsystems stärken. Gleichzeitig kann regelmäßige körperliche Aktivität zur Prävention von Übergewicht, Rückenschmerzen, Herz-Kreislauf- oder Krebserkrankungen beitragen. Im Gegensatz dazu stehen lange Sitzzeiten, die sich negativ auf die Gesundheit auswirken können.“ (Robert Koch-Institut, 2025)",
                 "verified-health-links": [
                   {
@@ -2543,6 +2546,8 @@
                     "note": ""
                   }
                 ],
+                "population": "erwachsene Allgemeinbevölkerung",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
@@ -2641,7 +2646,7 @@
                     ]
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)",
+                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)\n\nVon FHIR IG Review: @APCA fragen ob folgende Änderung bzgl. LOINC Codes Sinn macht oder etwas dagegen spricht:\n\n- 77592-4 → 101689-8 \"Duration of moderate activity\"\n- 77593-2 → 101690-6 \"Duration of vigorous activity\"",
                 "terminology-codes": [
                   {
                     "code": "77593-2",
@@ -2660,11 +2665,9 @@
                 "key": "moderate-vigorous-endurance-oriented-activity-minutes-week",
                 "dataset-scope": "Minimalset",
                 "title": "Moderate and vigorous endurance-oriented activity (minutes/week)",
-                "description": "_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._",
                 "category": "physical-activity",
                 "dimension": "endurance-oriented-activity",
-                "population": "",
-                "disease-association": [],
+                "description": "_Endurance based physical activity indicator dimension covers total weekly minutes of moderate and vigorous aerobic activity and compliance with recommended thresholds (≥150 min moderate or ≥75 min vigorous activity/week)._",
                 "citizen-info": "Regular evidence-based physical activity, such as brisk walking or cycling, strengthens the heart and lungs, improves metabolism, and helps prevent diseases like Type 2 Diabetes and Cardiovascular Disease. It also supports mental well-being and helps maintain mobility and independence as people age.",
                 "verified-health-links": [
                   {
@@ -2701,6 +2704,8 @@
                     "note": ""
                   }
                 ],
+                "population": "",
+                "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Wearable device / sensor · automated",
@@ -2785,7 +2790,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)"
+                "discussion": "Fragebogen und/oder Wearable\n\n(messen unterschiedliche Dinge und können nicht umgerechnet werden!)\n\nVon FHIR IG Review: @APCA fragen ob folgende Änderung bzgl. LOINC Codes Sinn macht oder etwas dagegen spricht:\n\n- 77592-4 → 101689-8 \"Duration of moderate activity\"\n- 77593-2 → 101690-6 \"Duration of vigorous activity\""
               }
             }
           ]
