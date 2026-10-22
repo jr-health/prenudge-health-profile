@@ -29,9 +29,18 @@
         "range-of-vales": "1-4",
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
-        "norms": [],
+        "norms": [
+          {
+            "specific-norm": ""
+          }
+        ],
         "scoring-algorithm": "nicht zutreffend",
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "Österreichische Ernährungsempfehlung",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
@@ -72,7 +81,12 @@
         "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
-        "sources": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+          }
+        ],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
