@@ -7,19 +7,19 @@
     "category": "self-management",
     "dimension": "self-monitoring",
     "description": "",
-    "citizen-info": "## Definition\n\nAls **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.\n\n## Nomenklatur\n\nDa die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.\n\n## Einteilung\n\nIn Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:\n\n| [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |\n| [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |\n| [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |\n| [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |\n\nDes Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem[HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte[Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.",
+    "citizen-info": "**\"Definition**\n\nAls **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.\n\n**Nomenklatur**\n\nDa die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.\n\n**Einteilung**\n\nIn Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:\n\n| [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |\n| [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |\n| [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |\n| [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |\n\nDes Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem [HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte [Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.\"",
     "verified-health-links": [],
-    "population": "Erwachsene (Schwangere sind ausgenommen)",
+    "population": "erwachsene Allgemeinbevölkerung (Schwangere sind ausgenommen)",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Selbstmesssung laut Gerätebeschreibung",
-        "specific-questions": "Selbsteingabe in mg/dl\n\nUhrzeit\n\nNüchtern: Sind sie bei der messung nüchtern? Ja, nein",
-        "unit": "Selbstangabe: mg/dl\nUhrzeit: 09:00\nnüchtern: dichotom",
+        "specific-questions": "-Selbsteingabe\n\n-Uhrzeit\n\n-Nüchtern: Vor wie vielen Stunden haben Sie das letzte Mal gegessen?",
+        "unit": "Selbstangabe: mg/dl\nUhrzeit: 09:00\nnüchtern: h",
         "data-format": "Selbstangabe: mg/dl (metrische ohne Nachkomma)\nUhrzeit: 09:00\nnüchtern: dichotom",
         "data-type": "",
-        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
+        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: 0-24",
         "acquisition-frequency": "abhängig, muss mit GDA besprochen werden",
         "recommended-monitoring-frequency": "abhängig, muss mit GDA besprochen werden",
         "norms": [
@@ -71,7 +71,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein (erledigt)"
+    "discussion": "Anmerkung von Graz: Hba1C wird nicht dabei sein; Uhrzeit soll unbedingt dabei sein (erledigt)"
   },
   "en": {
     "template": "observation",
@@ -92,7 +92,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: dichotom",
+        "range-of-vales": "Selbstangabe: 0-1000\nUhrzeit: 00:00-24:00\nnüchtern: 0-24",
         "acquisition-frequency": "abhängig, muss mit GDA besprochen werden",
         "recommended-monitoring-frequency": "abhängig, muss mit GDA besprochen werden",
         "norms": [],
@@ -133,6 +133,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Hba1C wird nicht dabei sein\n\nUhrzeit soll unbedingt dabei sein (erledigt)"
+    "discussion": "Anmerkung von Graz: Hba1C wird nicht dabei sein; Uhrzeit soll unbedingt dabei sein (erledigt)"
   }
 }
