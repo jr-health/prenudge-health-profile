@@ -1362,19 +1362,19 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Blutzuckerwert (mg/dl)
 
-**Population:** Erwachsene (Schwangere sind ausgenommen)
+**Population:** erwachsene Allgemeinbevölkerung (Schwangere sind ausgenommen)
 
 **Information für Bevölkerung:**
 
-## Definition
+**"Definition**
 
 Als **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.
 
-## Nomenklatur
+**Nomenklatur**
 
 Da die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.
 
-## Einteilung
+**Einteilung**
 
 In Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:
 
@@ -1383,16 +1383,16 @@ In Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:
 | [Postprandialer](https://flexikon.doccheck.com/de/Postprandial)Blutzucker | Blutentnahme meist 1-2 Stunden *nach* einer Mahlzeit (*2-Stunden-Glukosewert*) |
 | [Glucose-Tagesprofil](https://flexikon.doccheck.com/de/Blutzuckertagesprofil) | Blutentnahmen um 8:00 Uhr nüchtern, um 12:00 Uhr und um 16:00 Uhr |
 
-Des Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem[HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte[Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet.
+Des Weiteren wird – vor allem in der Kommunikation mit dem Patienten – der aus dem [HbA1c](https://flexikon.doccheck.com/de/HbA1)-Wert ermittelte [Durchschnittsblutzucker](https://flexikon.doccheck.com/de/Durchschnittsblutzucker) verwendet."
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Einheit:** Selbstangabe: mg/dl Uhrzeit: 09:00 nüchtern: dichotom
+- **Einheit:** Selbstangabe: mg/dl Uhrzeit: 09:00 nüchtern: h
 - **Datenformat:** Selbstangabe: mg/dl (metrische ohne Nachkomma) Uhrzeit: 09:00 nüchtern: dichotom
 - **Wertebereich:** Selbstangabe: 0-1000
 Uhrzeit: 00:00-24:00
-nüchtern: dichotom
+nüchtern: 0-24
 - **Erfassungsfrequenz:** abhängig, muss mit GDA besprochen werden
 - **Empfohlene Monitoringfrequenz:** abhängig, muss mit GDA besprochen werden
 - **FHIR IG Status:** draft

@@ -813,7 +813,7 @@ max: 20 (Transformiert 100)
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
 - **Range of Values:** Selbstangabe: 0-1000
 Uhrzeit: 00:00-24:00
-nüchtern: dichotom
+nüchtern: 0-24
 - **Acquisition Frequency:** abhängig, muss mit GDA besprochen werden
 - **Recommended Monitoring Frequency:** abhängig, muss mit GDA besprochen werden
 - **FHIR IG Status:** draft
