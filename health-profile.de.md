@@ -545,7 +545,7 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 ### Fleisch (Portionen/Woche)
 
-**Population:** Erwachsene
+**Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 

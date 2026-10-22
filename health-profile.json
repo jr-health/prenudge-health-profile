@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:09:35.290690+00:00",
+  "generated": "2026-10-22T07:12:00.468227+00:00",
   "scope": "combined",
-  "commit": "9e90650c34e8751cb2e545ce5d7170b2d94b8cbf",
+  "commit": "b26beebd1d45c68be1c1df2db53f748c3ce4b2ea",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -1878,13 +1878,13 @@
                     "note": ""
                   }
                 ],
-                "population": "Erwachsene",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie in einer normalen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
+                    "device": "Frage nach den österreichischen Ernährungsempfehlungen",
+                    "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie durchschnittlich pro Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
                     "unit": "Portionen/Woche\n1 Portion = siehe unten",
                     "data-format": "kategoriell",
                     "data-type": "",
