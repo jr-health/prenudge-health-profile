@@ -3,7 +3,7 @@
     "template": "observation",
     "key": "ethnicity",
     "dataset-scope": "Extension",
-    "title": "Alltagssprache",
+    "title": "Alltagssprache - Statistik Austria",
     "category": "sociodemographic-data",
     "dimension": "origin",
     "description": "",
