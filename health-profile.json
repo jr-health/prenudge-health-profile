@@ -1,18 +1,18 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T07:20:37.561523+00:00",
+  "generated": "2026-10-22T07:21:29.744467+00:00",
   "scope": "combined",
-  "commit": "d177057c62a7196dd46fe19c185f13c23dc1c8e9",
+  "commit": "ca35e4084b5fd171a63cba5cf38591e4f928e42c",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
       {
         "date": "2026-10-22",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-10-21",
@@ -6726,7 +6726,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable"
+                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep"
               },
               "en": {
                 "template": "observation",
@@ -6849,7 +6849,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable"
+                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep"
               }
             },
             {
