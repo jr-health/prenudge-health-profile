@@ -837,13 +837,17 @@ nüchtern: dichotom
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** systolisch: 500
+diastolisch: 500
+Blutdruck: 500
+- **Acquisition Frequency:** abhängig
 - **Recommended Monitoring Frequency:** abhängig
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** Systolisch: 0-500
-Diastolisch:0-500
+Diastolisch: 0-500
 - **Acquisition Frequency:** keine Empfehlung, individuell abstimmen
 - **Recommended Monitoring Frequency:** abhängig vom Ziel
 - **FHIR IG Status:** draft
