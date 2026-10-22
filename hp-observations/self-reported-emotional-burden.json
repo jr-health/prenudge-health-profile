@@ -128,7 +128,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen"
+    "discussion": "Fragebogen\n\nVon FHIR IG Review: Von medicus.ai kam die Frage warum die Whooley Questions und nicht PHQ-2 verwendet wurden. PHQ-2 unterscheidet sich angeblich von WHOQOL-BREF. PHQ-2 hat hier z.B. 2 Fragen mit einer 4-Punkte Skala über die letzten 2 Wochen: [https://www.hiv.uw.edu/page/mental-health-screening/phq-2](https://www.hiv.uw.edu/page/mental-health-screening/phq-2)."
   },
   "en": {
     "template": "observation",
@@ -253,6 +253,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen"
+    "discussion": "Fragebogen\n\nVon FHIR IG Review: Von medicus.ai kam die Frage warum die Whooley Questions und nicht PHQ-2 verwendet wurden. PHQ-2 unterscheidet sich angeblich von WHOQOL-BREF. PHQ-2 hat hier z.B. 2 Fragen mit einer 4-Punkte Skala über die letzten 2 Wochen: [https://www.hiv.uw.edu/page/mental-health-screening/phq-2](https://www.hiv.uw.edu/page/mental-health-screening/phq-2)."
   }
 }
