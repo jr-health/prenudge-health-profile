@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.20-test | Generiert: 2026-10-21_
+_Version: 0.1.20-test | Generiert: 2026-10-22_
 
 ---
 
@@ -58,7 +58,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-21_
   - [Rauchverhalten](#rauchverhalten)
   - [Entwöhnungsversuche (Anzahl/Jahr)](#entwohnungsversuche-anzahljahr)
   - [Nikotinabhängigkeit](#nikotinabhangigkeit)
-  - [Pack years](#pack-years)
+  - [Pack years - nicht validiert mit Pulmologe entwickelt](#pack-years---nicht-validiert-mit-pulmologe-entwickelt)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter (Jahre)](#alter-jahre)
   - [Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)](#geschlecht-weiblich-mannlich-inter-divers-offen-keine-angabe)
@@ -1978,9 +1978,89 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
-### Pack years
+### Pack years - nicht validiert mit Pulmologe entwickelt
 
 **Beschreibung für Fachpersonal:**
+
+**Ihr bisheriger Zigarettenkonsum**
+
+Bitte kreuzen Sie die zutreffende Antwort an oder tragen Sie die gewünschte Angabe ein.
+
+**Wie haben Sie überwiegend geraucht?**
+
+☐ Täglich oder fast täglich
+☐ Gelegentlich (nicht täglich)
+☐ Nie geraucht
+
+
+
+
+_Falls Sie „Nie geraucht“ angekreuzt haben, müssen Sie keine weiteren Angaben machen._
+
+**Falls Sie täglich oder fast täglich geraucht haben**
+
+**Wie viele Jahre haben Sie insgesamt geraucht?**
+
+\_\_\_\_\_\_\_\_\_\_ Jahre
+_Beispiel: 20 Jahre_
+
+**Wie viele Zigaretten haben Sie an einem typischen Rauchtag geraucht?**
+
+☐ 5 Zigaretten
+☐ 10 Zigaretten
+☐ 15 Zigaretten
+☐ 20 Zigaretten (1 Packung)
+☐ 30 Zigaretten
+☐ 40 Zigaretten (2 Packungen)
+☐ Andere Anzahl: \_\_\_\_\_\_\_\_\_\_ Zigaretten pro Rauchtag
+
+
+
+
+**Falls Sie gelegentlich, aber nicht täglich geraucht haben**
+
+**Wie viele Jahre haben Sie insgesamt geraucht?**
+
+\_\_\_\_\_\_\_\_\_\_ Jahre
+_Beispiel: 20 Jahre_
+
+**Wie viele Zigaretten haben Sie an einem typischen Rauchtag geraucht?**
+
+☐ 5 Zigaretten
+☐ 10 Zigaretten
+☐ 15 Zigaretten
+☐ 20 Zigaretten (1 Packung)
+☐ 30 Zigaretten
+☐ 40 Zigaretten (2 Packungen)
+☐ Andere Anzahl: \_\_\_\_\_\_\_\_\_\_ Zigaretten pro Rauchtag
+
+**An wie vielen Tagen pro Woche haben Sie ungefähr geraucht?**
+
+☐ 1 Tag
+☐ 2 Tage
+☐ 3 Tage
+☐ 4 Tage
+☐ 5 Tage
+☐ 6 Tage
+
+
+
+
+**Geschätzter Zigarettenkonsum**
+
+_Für die Dokumentation durch medizinisches Fachpersonal_
+
+\_\_**,** Pack-Years
+
+Bei **täglichem oder fast täglichem Rauchen**:
+
+Pack-Years=(Zigaretten pro Tag20)×Anzahl der JahrePack-Years=(20Zigaretten pro Tag)×Anzahl der Jahre
+
+Bei **gelegentlichem Rauchen**:
+
+Pack-Years=(Zigaretten pro Rauchtag20)×Anzahl der Jahre×(Rauchtage pro Woche7)Pack-Years=(20Zigaretten pro Rauchtag)×Anzahl der Jahre×(7Rauchtage pro Woche)
+
+_Bei gelegentlichem Rauchen handelt es sich um eine Schätzung. Die Berechnung berücksichtigt die durchschnittliche Anzahl der Rauchtage pro Woche und eignet sich für eine vereinfachte Raucheranamnese._
 
 Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
 
@@ -2279,5 +2359,6 @@ _Änderungen seit Version v0.1.20-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-10-22 | shaide79 |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
