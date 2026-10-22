@@ -1051,12 +1051,12 @@ max: 24 Stunden
 
 ### Diskriminierung im Gesundheitssystem
 
-**Population:** Allgemeinbevölkerung
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Datenformat:** kategoriell (mit Mehrfachnennung)
+- **Datenformat:** dichotom kategoriell (mit Mehrfachnennung)
 - **Wertebereich:** nicht zutreffend
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
