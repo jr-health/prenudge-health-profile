@@ -413,6 +413,8 @@ Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil 
 
 ### Fisch (Portionen/Woche)
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 **Information für Bevölkerung:**
 
 Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.
@@ -2437,7 +2439,7 @@ _Änderungen seit Version v0.1.20-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-22 | shaide79 |
+| 2026-10-22 | Theresa Weitlaner |
 | 2026-10-21 | shaide79 |
 | 2026-10-12 | shaide79 |
