@@ -122,7 +122,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.\n\nVon FHIR IG Review: Von medicus.ai kam die Frage, warum die ursprünglich angedachte Frage DH6 vom ATHIS nach zuckerhaltigen Erfrischungsgetränken auf \"Konsumhäufigkeit fett-, zucker- und salzreicher Lebensmittel\" geändert wurde? Macht es Sinn eine abgeänderte Frage statt der DH6 ATHIS Frage zu verwenden?"
   },
   "en": {
     "template": "observation",
@@ -241,6 +241,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+    "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.\n\nVon FHIR IG Review: Von medicus.ai kam die Frage, warum die ursprünglich angedachte Frage DH6 vom ATHIS nach zuckerhaltigen Erfrischungsgetränken auf \"Konsumhäufigkeit fett-, zucker- und salzreicher Lebensmittel\" geändert wurde? Macht es Sinn eine abgeänderte Frage statt der DH6 ATHIS Frage zu verwenden?"
   }
 }
