@@ -97,7 +97,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!"
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!\n\nVon FHIR IG Review: Von medicus.ai ist die Frage gekommen warum die Frage Zu-Fuß-Gehen hinzugefügt wurde? EHIS-PAQ fragt nicht direkt nach den Schritten/Tag.\n\nUnser Vorschlag: So lassen und evtl. Umbenennung des Indikators auf nur Alltagsaktivität/Zu-Fuß-Gehen. Es gibt im IG auch noch ein sogenanntes QuantityQuestionnaire das direkt nach den Anzahl der Schritten fragt.\n\nAllgemein für alle Fragebögen spezifische Frage in diesem Fall z.B. Q2, Q3 im Feld Measurment instrument mit aufnehmen."
   },
   "en": {
     "template": "observation",
@@ -185,6 +185,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!"
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!\n\nVon FHIR IG Review: Von medicus.ai ist die Frage gekommen warum die Frage Zu-Fuß-Gehen hinzugefügt wurde? EHIS-PAQ fragt nicht direkt nach den Schritten/Tag.\n\nUnser Vorschlag: So lassen und evtl. Umbenennung des Indikators auf nur Alltagsaktivität/Zu-Fuß-Gehen. Es gibt im IG auch noch ein sogenanntes QuantityQuestionnaire das direkt nach den Anzahl der Schritten fragt.\n\nAllgemein für alle Fragebögen spezifische Frage in diesem Fall z.B. Q2, Q3 im Feld Measurment instrument mit aufnehmen."
   }
 }
