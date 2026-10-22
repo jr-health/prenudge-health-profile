@@ -7,7 +7,7 @@
     "category": "sleep",
     "dimension": "sleep-quality",
     "description": "",
-    "citizen-info": "Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.\n\nDie **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen.",
+    "citizen-info": "\"Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.\n\nDie **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen.\"",
     "verified-health-links": [
       {
         "title": "\"Der Schlaf\", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i",
@@ -22,7 +22,7 @@
         "note": ""
       }
     ],
-    "population": "Erwachsene",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
@@ -30,13 +30,13 @@
         "device": "",
         "specific-questions": "",
         "unit": "min",
-        "data-format": "",
+        "data-format": "min",
         "data-type": "",
-        "range-of-vales": ">0",
-        "acquisition-frequency": "Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein.",
+        "range-of-vales": ">=0",
+        "acquisition-frequency": "Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein, damit man gute Aussagen treffen kann.",
         "recommended-monitoring-frequency": "2x/Jahr",
         "norms": [],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [],
         "terminology-codes": [],
         "pn-fhir-ig-link": "",
@@ -47,12 +47,12 @@
       },
       {
         "source-type": "Questionnaire · manual (self-reported)",
-        "device": "PSQI Frage zum Einschlagen - die beiben Erhebungen (questionnaire, wearable) dürfen nicht miteinander verglichen werden.",
+        "device": "PSQI - Frage zum Einschlagen",
         "specific-questions": "Wie lange hat es während der letzten vier Wochen gewöhnlich gedauert, bis Sie eingeschlafen sind?",
         "unit": "Minuten",
-        "data-format": "min (ohne Sekunden)",
+        "data-format": "min (ohne Sekunden)\n\nDie beiben Erhebungen (questionnaire, wearable) dürfen nicht miteinander verglichen werden.",
         "data-type": "",
-        "range-of-vales": ">0",
+        "range-of-vales": ">?0",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "",
         "norms": [],
@@ -71,7 +71,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Pittsburg fragebogen dazu! (nie vergleichbar Fragebogen und Uhr)\n\n@Mirna: Originallit hat ich hinzugefügt. Beschreibungen fehlen noch"
+    "discussion": "@Mirna: Originallit hat ich hinzugefügt. Beschreibungen fehlen noch"
   },
   "en": {
     "template": "observation",
@@ -84,7 +84,10 @@
     "citizen-info": "",
     "verified-health-links": [
       {
-        "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/"
+        "title": "",
+        "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/",
+        "audience": [],
+        "note": ""
       }
     ],
     "population": "",
@@ -96,8 +99,8 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": ">0",
-        "acquisition-frequency": "Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein.",
+        "range-of-vales": ">=0",
+        "acquisition-frequency": "Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein, damit man gute Aussagen treffen kann.",
         "recommended-monitoring-frequency": "2x/Jahr",
         "norms": [],
         "sources": [],
@@ -114,12 +117,13 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": ">0",
+        "range-of-vales": ">?0",
         "acquisition-frequency": "2x/Jahr",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
           }
         ],
@@ -131,6 +135,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Pittsburg fragebogen dazu! (nie vergleichbar Fragebogen und Uhr)\n\n@Mirna: Originallit hat ich hinzugefügt. Beschreibungen fehlen noch"
+    "discussion": "@Mirna: Originallit hat ich hinzugefügt. Beschreibungen fehlen noch"
   }
 }
