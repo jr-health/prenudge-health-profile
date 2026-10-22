@@ -19,7 +19,7 @@ _Version: 0.1.20-test | Generiert: 2026-10-22_
   - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
-  - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag)](#alkoholfreie-ungesusste-getranke-glasertag)
+  - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen](#alkoholfreie-ungesusste-getranke-glasertag---osterreichische-ernahrungsempfehlungen)
   - [Öle/Fette/Nüsse/Samen (Portionen/Tag)](#olefettenussesamen-portionentag)
   - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
@@ -511,7 +511,7 @@ Fleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen,
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - [AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch)
 
-### Alkoholfreie, ungesüßte Getränke (Gläser/Tag)
+### Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen
 
 **Beschreibung für Fachpersonal:**
 
