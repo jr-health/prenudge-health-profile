@@ -430,7 +430,7 @@
   <main>
 <h1 class="page-title">Tabelle — PräNUDGE Gesundheitsprofil</h1>    <div class="meta-bar">
       <p class="meta-text">Version 0.1.20-test · Generiert: 2026-10-22 ·
-        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/9242c83b6505ede26d774707a1b1050f822ebf1d">9242c83</a> ·
+        Commit <a href="https://github.com/jr-health/prenudge-health-profile/commit/db73e18595080a13f28d261db3675bd1f6927adf">db73e18</a> ·
         <a class="consortium-link" href="https://prenudge.at/#konsortium">PräNUDGE Konsortium</a></p>
       <div class="lang-switch"><a data-keep-scope href="browse.en.html">EN</a><a data-keep-scope href="browse.de.html" class="active">DE</a></div>
     </div>
@@ -570,7 +570,7 @@
       <td>Alltagsaktivität (Schritte/Tag)</td>
       <td><div>Questionnaire · manual (self-reported)</div><div>Wearable device / sensor · automated</div></td>
       <td><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-StepCountEhisPaqQuestionnaire.html" target="_blank" rel="noopener">StepCountEhisPaqQuestionnaire</a></div><div><a href="https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-stepcount-observation.html" target="_blank" rel="noopener">at-prenudge-stepcount-observation</a></div></td>
-      <td class="discussion"><p>Fragebogen und/oder Wearable</p><p>Anmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!</p></td>
+      <td class="discussion"><p>Fragebogen und/oder Wearable</p><p>Anmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!</p><p>Von FHIR IG Review: Von medicus.ai ist die Frage gekommen warum die Frage Zu-Fuß-Gehen hinzugefügt wurde? EHIS-PAQ fragt nicht direkt nach den Schritten/Tag.</p><p>Unser Vorschlag: So lassen und evtl. Umbenennung des Indikators auf nur Alltagsaktivität/Zu-Fuß-Gehen. Es gibt im IG auch noch ein sogenanntes QuantityQuestionnaire das direkt nach den Anzahl der Schritten fragt.</p><p>Allgemein für alle Fragebögen spezifische Frage in diesem Fall z.B. Q2, Q3 im Feld Measurment instrument mit aufnehmen.</p></td>
     </tr>
     <tr data-category="physical-activity" data-observation="flexibility-and-balance-training-units-week" data-scope="extended" data-source-type="Questionnaire · manual (self-reported)" data-fhir-status="draft" data-vis-status="draft">
       <td><span class="swatch" style="background-color: #9bc6a0;"></span>Körperliche Aktivität</td>
