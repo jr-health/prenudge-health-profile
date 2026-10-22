@@ -1,18 +1,18 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T08:35:54.293295+00:00",
+  "generated": "2026-10-22T09:18:00.708623+00:00",
   "scope": "combined",
-  "commit": "f99c829e4f0bbc4481d9d8da1e9fe2013113b839",
+  "commit": "f525a8c61732f9694d59703edf2930751601cb59",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
       {
         "date": "2026-10-22",
-        "author": "shaide79"
+        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-10-22",
-        "author": "Theresa Weitlaner"
+        "author": "shaide79"
       },
       {
         "date": "2026-10-21",
@@ -2264,7 +2264,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.\n\nVon FHIR IG Review: Von medicus.ai kam die Frage, warum die ursprünglich angedachte Frage DH6 vom ATHIS nach zuckerhaltigen Erfrischungsgetränken auf \"Konsumhäufigkeit fett-, zucker- und salzreicher Lebensmittel\" geändert wurde? Macht es Sinn eine abgeänderte Frage statt der DH6 ATHIS Frage zu verwenden?"
               },
               "en": {
                 "template": "observation",
@@ -2383,7 +2383,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen.\n\nVon FHIR IG Review: Von medicus.ai kam die Frage, warum die ursprünglich angedachte Frage DH6 vom ATHIS nach zuckerhaltigen Erfrischungsgetränken auf \"Konsumhäufigkeit fett-, zucker- und salzreicher Lebensmittel\" geändert wurde? Macht es Sinn eine abgeänderte Frage statt der DH6 ATHIS Frage zu verwenden?"
               }
             }
           ]
