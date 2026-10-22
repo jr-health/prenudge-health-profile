@@ -1013,14 +1013,14 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** >0
-- **Acquisition Frequency:** Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein.
+- **Range of Values:** >=0
+- **Acquisition Frequency:** Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein, damit man gute Aussagen treffen kann.
 - **Recommended Monitoring Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
-- **Range of Values:** >0
+- **Range of Values:** >?0
 - **Acquisition Frequency:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft

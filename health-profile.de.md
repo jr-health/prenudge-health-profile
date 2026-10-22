@@ -1805,13 +1805,13 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 ### Dauer der Einschlafzeit (durchschnittliche Minuten)
 
-**Population:** Erwachsene
+**Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.
+"Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.
 
-Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen.
+Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen."
 
 **Verifizierte Gesundheitsinformation:**
 - ["Der Schlaf", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i]()
@@ -1821,16 +1821,19 @@ Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeich
 
 **Messinstrument 1** — Wearable device / sensor · automated
 - **Einheit:** min
-- **Wertebereich:** >0
-- **Erfassungsfrequenz:** Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein.
+- **Datenformat:** min
+- **Wertebereich:** >=0
+- **Erfassungsfrequenz:** Die Messung sollte von mindestens 4 von 7 aufeinanderfolgenden Tagen vorhanden sein, damit man gute Aussagen treffen kann.
 - **Empfohlene Monitoringfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Scoring-Algorithmus:** nicht zutreffend
+
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** Minuten
-- **Datenformat:** min (ohne Sekunden)
-- **Wertebereich:** >0
+- **Datenformat:** min (ohne Sekunden)  Die beiben Erhebungen (questionnaire, wearable) dürfen nicht miteinander verglichen werden.
+- **Wertebereich:** >?0
 - **Erfassungsfrequenz:** 2x/Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
