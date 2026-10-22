@@ -1,8 +1,8 @@
 {
   "version": "0.1.20-test",
-  "generated": "2026-10-22T06:42:32.856639+00:00",
+  "generated": "2026-10-22T06:43:07.289064+00:00",
   "scope": "combined",
-  "commit": "7aee906c3fa47167562948ebf4e2447ede13bd04",
+  "commit": "f17f3a38e9cb245816b2c3ba053970ff52011c5b",
   "activity": {
     "since": "v0.1.20-test",
     "entries": [
@@ -8419,7 +8419,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "noch offen"
+                "discussion": "noch offen\n\n@Felix: Da wird es noch zu Änderungen/Anpassungen kommen"
               },
               "en": {
                 "template": "observation",
@@ -8453,7 +8453,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "noch offen"
+                "discussion": "noch offen\n\n@Felix: Da wird es noch zu Änderungen/Anpassungen kommen"
               }
             },
             {
