@@ -16,18 +16,18 @@
         "note": ""
       }
     ],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "unstandardisierte  Fragebogen",
-        "specific-questions": "Haben Sie den Abgleich Ihres Impfpasses mit dem aktuellen Impfplan bereits durchgeführt und dokumentiert?",
+        "specific-questions": "Haben Sie den Abgleich Ihres Impfpasses mit dem aktuellen Impfplan bereits durchgeführt und dokumentiert?\n\nAntwortmöglichkeit: Ja, nein",
         "unit": "",
-        "data-format": "",
+        "data-format": "dichotom",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1 oder 2",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "scoring-algorithm": "",
@@ -66,8 +66,8 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "",
-        "acquisition-frequency": "",
+        "range-of-vales": "1 oder 2",
+        "acquisition-frequency": "alle 6 Monate",
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [
