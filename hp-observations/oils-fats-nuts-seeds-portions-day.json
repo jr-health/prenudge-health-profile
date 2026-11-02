@@ -34,7 +34,38 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80465-8",
+            "display": "Oil servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "819967009",
+            "display": "Estimated quantity of intake of fat and oil in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "870372004",
+            "display": "Fat and oil intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226063003",
+            "display": "Vegetable oil intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226456006",
+            "display": "Nuts and seeds intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +104,38 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80465-8",
+            "display": "Oil servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "819967009",
+            "display": "Estimated quantity of intake of fat and oil in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "870372004",
+            "display": "Fat and oil intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226063003",
+            "display": "Vegetable oil intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226456006",
+            "display": "Nuts and seeds intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
