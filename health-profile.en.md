@@ -198,6 +198,14 @@ Optional: alle 3 Monate
 **Sources:**
 - https://www.ncbi.nlm.nih.gov/books/NBK2003/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 248367009 | Waist/hip ratio |
+| http://snomed.info/sct | 284472007 | Hip circumference |
+| http://snomed.info/sct | 1162535003 | Waist circumference at midpoint between lowest rib and iliac crest |
+
 ---
 
 ## Nutrition

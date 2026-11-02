@@ -284,6 +284,14 @@ Männer <0,90; ≥0,90
 **Quellen:**
 - [Overweight and obesity: Background". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.](https://www.ncbi.nlm.nih.gov/books/NBK2003/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 248367009 | Waist/hip ratio |
+| http://snomed.info/sct | 284472007 | Hip circumference |
+| http://snomed.info/sct | 1162535003 | Waist circumference at midpoint between lowest rib and iliac crest |
+
 ---
 
 ## Ernährung
