@@ -1706,6 +1706,15 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 **Quellen:**
 - [Impfplan Österreich](https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 408864009 | Vaccination status |
+| http://snomed.info/sct | 268558004 | Immunization status screening |
+| http://snomed.info/sct | 373066001 | Yes |
+| http://snomed.info/sct | 373067005 | No |
+
 ---
 
 ## Schlaf

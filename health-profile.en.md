@@ -934,6 +934,15 @@ Diastolisch: 0-500
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 408864009 | Vaccination status |
+| http://snomed.info/sct | 268558004 | Immunization status screening |
+| http://snomed.info/sct | 373066001 | Yes |
+| http://snomed.info/sct | 373067005 | No |
+
 ---
 
 ## Sleep
