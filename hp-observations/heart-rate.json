@@ -29,7 +29,23 @@
         ],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364075005",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78564009",
+            "display": "Pulse rate"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -49,7 +65,23 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364075005",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78564009",
+            "display": "Pulse rate"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -83,7 +115,23 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364075005",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78564009",
+            "display": "Pulse rate"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -101,7 +149,23 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364075005",
+            "display": "Heart rate"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78564009",
+            "display": "Pulse rate"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
