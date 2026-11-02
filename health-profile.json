@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:39:48.069484+00:00",
+  "generated": "2026-11-02T21:42:31.180539+00:00",
   "scope": "combined",
-  "commit": "3b1e42ced9ed478e430b060223f3d258a18a4792",
+  "commit": "fc2fff7c8391ff8d0b1b9f577b98a688168a24eb",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -4944,7 +4944,48 @@
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "44254-1",
+                        "display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6568-5",
+                        "display": "Not at all"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6569-3",
+                        "display": "Several days"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6570-1",
+                        "display": "More than half the days"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6571-9",
+                        "display": "Nearly every day"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "84229001",
+                        "display": "Fatigue"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248274002",
+                        "display": "Lack of energy"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224960004",
+                        "display": "Tired"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -4978,7 +5019,48 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "44254-1",
+                        "display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6568-5",
+                        "display": "Not at all"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6569-3",
+                        "display": "Several days"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6570-1",
+                        "display": "More than half the days"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA6571-9",
+                        "display": "Nearly every day"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "84229001",
+                        "display": "Fatigue"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248274002",
+                        "display": "Lack of energy"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224960004",
+                        "display": "Tired"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

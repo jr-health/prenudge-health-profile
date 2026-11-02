@@ -803,6 +803,19 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 44254-1 | Feeling tired or having little energy in last 2 weeks [Reported.PHQ] |
+| http://loinc.org | LA6568-5 | Not at all |
+| http://loinc.org | LA6569-3 | Several days |
+| http://loinc.org | LA6570-1 | More than half the days |
+| http://loinc.org | LA6571-9 | Nearly every day |
+| http://snomed.info/sct | 84229001 | Fatigue |
+| http://snomed.info/sct | 248274002 | Lack of energy |
+| http://snomed.info/sct | 224960004 | Tired |
+
 ### Self-reported significant life events
 
 #### Measurement Instruments
