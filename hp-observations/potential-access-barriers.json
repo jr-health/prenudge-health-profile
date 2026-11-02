@@ -30,7 +30,33 @@
             "system": "https://www.statcan.gc.ca/en/survey/household/5391"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "135331000146104",
+            "display": "Victim of discrimination"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1003002",
+            "display": "Religious discrimination"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29338006",
+            "display": "Political discrimination"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -69,7 +95,33 @@
             "system": "https://www.statcan.gc.ca/en/survey/household/5391"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "135331000146104",
+            "display": "Victim of discrimination"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1003002",
+            "display": "Religious discrimination"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "29338006",
+            "display": "Political discrimination"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
