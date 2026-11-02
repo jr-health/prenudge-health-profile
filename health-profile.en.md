@@ -854,6 +854,26 @@ max: 16 (PSS-4) und 40 (PSS-10)
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/27760568/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 365574009 | Life event finding |
+| http://snomed.info/sct | 276068009 | Changed job |
+| http://snomed.info/sct | 224468004 | Promoted at work |
+| http://snomed.info/sct | 266956001 | Loss of job |
+| http://snomed.info/sct | 160901009 | Made redundant |
+| http://snomed.info/sct | 77386006 | Pregnancy |
+| http://snomed.info/sct | 160788005 | Separation |
+| http://snomed.info/sct | 398033008 | Death of relative |
+| http://snomed.info/sct | 74506000 | Bereavement |
+| http://snomed.info/sct | 160787000 | Marriage |
+| http://snomed.info/sct | 38070000 | Cohabiting |
+| http://snomed.info/sct | 95934001 | Victim of crime |
+| http://snomed.info/sct | 386817001 | Behavior problem of childhood and adolescence |
+| http://snomed.info/sct | 161128009 | Behavioral problems at school |
+| http://snomed.info/sct | 360885002 | Change of residence status |
+
 ### Susceptibility to infection (number within a defined period)
 
 #### Measurement Instruments

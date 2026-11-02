@@ -1415,6 +1415,26 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 **Quellen:**
 - [Cleland C, Kearns A, Tannahill C, Ellaway A. The impact of life events on adult physical and mental health and well-being: longitudinal analysis using the GoWell health and well-being survey. BMC Res Notes. 2016 Oct 18;9(1):470. doi: 10.1186/s13104-016-2278-x. PMID: 27760568; PMCID: PMC5070029.](https://pubmed.ncbi.nlm.nih.gov/27760568/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 365574009 | Life event finding |
+| http://snomed.info/sct | 276068009 | Changed job |
+| http://snomed.info/sct | 224468004 | Promoted at work |
+| http://snomed.info/sct | 266956001 | Loss of job |
+| http://snomed.info/sct | 160901009 | Made redundant |
+| http://snomed.info/sct | 77386006 | Pregnancy |
+| http://snomed.info/sct | 160788005 | Separation |
+| http://snomed.info/sct | 398033008 | Death of relative |
+| http://snomed.info/sct | 74506000 | Bereavement |
+| http://snomed.info/sct | 160787000 | Marriage |
+| http://snomed.info/sct | 38070000 | Cohabiting |
+| http://snomed.info/sct | 95934001 | Victim of crime |
+| http://snomed.info/sct | 386817001 | Behavior problem of childhood and adolescence |
+| http://snomed.info/sct | 161128009 | Behavioral problems at school |
+| http://snomed.info/sct | 360885002 | Change of residence status |
+
 ### Infektanfälligkeit (Anzahl innerhalb definierter Periode)
 
 #### Messinstrumente
