@@ -1662,6 +1662,20 @@ nüchtern: 0-24
 **Quellen:**
 - [Definition and Diagnosis of Diabetes Mellitus and Intermediate Hyperglycemia: report of a WHO/IDF consultation. (pdf; 1,5 MB) In: who.int. 2006, S. 36, abgerufen am 20. Februar 2011 (englisch, ISBN 92-4-159493-4).](https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 41653-7 | Glucose [Mass/volume] in Capillary blood by Glucometer |
+| http://loinc.org | 14743-9 | Glucose [Moles/volume] in Capillary blood by Glucometer |
+| http://loinc.org | 41604-0 | Fasting glucose [Mass/volume] in Capillary blood by Glucometer |
+| http://snomed.info/sct | 302789003 | Capillary blood glucose measurement |
+| http://snomed.info/sct | 434912009 | Blood glucose concentration |
+| http://snomed.info/sct | 16985007 | Fasting |
+| http://snomed.info/sct | 307165006 | Before meal |
+| http://snomed.info/sct | 24863003 | Postprandial |
+| http://snomed.info/sct | 337414009 | Glucometer |
+
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** mg/dl
 - **Datenformat:** metrische Werte ohne Nachkomma
@@ -1676,6 +1690,13 @@ nüchtern: 0-24
 
 **Quellen:**
 - [Leitlinieupdate 2026](https://www.oedg.at/oedg_leitlinien.html)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 99504-3 | Glucose [Mass/volume] in Interstitial fluid |
+| http://snomed.info/sct | 439926003 | Ambulatory continuous glucose monitoring of interstitial tissue fluid |
 
 ### Blutdruck (mmHg)
 

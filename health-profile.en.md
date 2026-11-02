@@ -1030,6 +1030,20 @@ nüchtern: 0-24
 **Sources:**
 - https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 41653-7 | Glucose [Mass/volume] in Capillary blood by Glucometer |
+| http://loinc.org | 14743-9 | Glucose [Moles/volume] in Capillary blood by Glucometer |
+| http://loinc.org | 41604-0 | Fasting glucose [Mass/volume] in Capillary blood by Glucometer |
+| http://snomed.info/sct | 302789003 | Capillary blood glucose measurement |
+| http://snomed.info/sct | 434912009 | Blood glucose concentration |
+| http://snomed.info/sct | 16985007 | Fasting |
+| http://snomed.info/sct | 307165006 | Before meal |
+| http://snomed.info/sct | 24863003 | Postprandial |
+| http://snomed.info/sct | 337414009 | Glucometer |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** 0-1000
 - **Acquisition Frequency:** individuell mit GDA abstimmen
@@ -1039,6 +1053,13 @@ nüchtern: 0-24
 
 **Sources:**
 - https://www.oedg.at/oedg_leitlinien.html
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 99504-3 | Glucose [Mass/volume] in Interstitial fluid |
+| http://snomed.info/sct | 439926003 | Ambulatory continuous glucose monitoring of interstitial tissue fluid |
 
 ### Blood pressure (mmHg?)
 
