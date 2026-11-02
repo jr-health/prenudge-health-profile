@@ -652,6 +652,16 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 8999-5 | Fluid intake oral Estimated |
+| http://snomed.info/sct | 789336006 | Estimated quantity of intake of water via oral route in 24 hours |
+| http://snomed.info/sct | 879871005 | Estimated intake of fluid in 24 hours |
+| http://snomed.info/sct | 226354008 | Water intake |
+| http://snomed.info/sct | 251992000 | Fluid intake |
+
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
 **Population:** erwachsene Allgemeinbevölkerung

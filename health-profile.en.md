@@ -379,6 +379,16 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 8999-5 | Fluid intake oral Estimated |
+| http://snomed.info/sct | 789336006 | Estimated quantity of intake of water via oral route in 24 hours |
+| http://snomed.info/sct | 879871005 | Estimated intake of fluid in 24 hours |
+| http://snomed.info/sct | 226354008 | Water intake |
+| http://snomed.info/sct | 251992000 | Fluid intake |
+
 ### Oils, fats, nuts, and seeds (portions/day)
 
 #### Measurement Instruments

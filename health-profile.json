@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:14:55.733066+00:00",
+  "generated": "2026-11-02T21:15:22.181959+00:00",
   "scope": "combined",
-  "commit": "57a89c0d6614d5ced22b4755ca64e3603ebf40c4",
+  "commit": "bff3c5addb8d0ef09fe8d7f17d15ad56755b3fcd",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -2118,7 +2118,33 @@
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8999-5",
+                        "display": "Fluid intake oral Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789336006",
+                        "display": "Estimated quantity of intake of water via oral route in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "879871005",
+                        "display": "Estimated intake of fluid in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226354008",
+                        "display": "Water intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "251992000",
+                        "display": "Fluid intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -2157,7 +2183,33 @@
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8999-5",
+                        "display": "Fluid intake oral Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789336006",
+                        "display": "Estimated quantity of intake of water via oral route in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "879871005",
+                        "display": "Estimated intake of fluid in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226354008",
+                        "display": "Water intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "251992000",
+                        "display": "Fluid intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
