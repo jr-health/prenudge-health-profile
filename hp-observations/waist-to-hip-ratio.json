@@ -34,7 +34,23 @@
             "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "248367009",
+            "display": "Waist/hip ratio"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "284472007",
+            "display": "Hip circumference"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1162535003",
+            "display": "Waist circumference at midpoint between lowest rib and iliac crest"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +89,23 @@
             "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "248367009",
+            "display": "Waist/hip ratio"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "284472007",
+            "display": "Hip circumference"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1162535003",
+            "display": "Waist circumference at midpoint between lowest rib and iliac crest"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
