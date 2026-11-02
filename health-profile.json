@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:33:27.313115+00:00",
+  "generated": "2026-11-02T21:35:20.097341+00:00",
   "scope": "combined",
-  "commit": "c38a11e435b8bb8ece5db37cd2d5f92b9b766b42",
+  "commit": "573c5137f57e1444b20cf806f8659d1240a8cfd2",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -6146,7 +6146,63 @@
                     "norms": [],
                     "scoring-algorithm": "nicht zutreffend",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "85354-9",
+                        "display": "Blood pressure panel with all children optional"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8480-6",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8462-4",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "75367002",
+                        "display": "Blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271649006",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271650006",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1162737008",
+                        "display": "Self reported systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1162735000",
+                        "display": "Self reported diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "413153004",
+                        "display": "Blood pressure recorded by patient at home"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6175,7 +6231,48 @@
                         "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "85354-9",
+                        "display": "Blood pressure panel with all children optional"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8480-6",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8462-4",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "75367002",
+                        "display": "Blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271649006",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271650006",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6209,7 +6306,63 @@
                     "recommended-monitoring-frequency": "abhängig",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "85354-9",
+                        "display": "Blood pressure panel with all children optional"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8480-6",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8462-4",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "75367002",
+                        "display": "Blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271649006",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271650006",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1162737008",
+                        "display": "Self reported systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1162735000",
+                        "display": "Self reported diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "413153004",
+                        "display": "Blood pressure recorded by patient at home"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6232,7 +6385,48 @@
                         "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "85354-9",
+                        "display": "Blood pressure panel with all children optional"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8480-6",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8462-4",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "75367002",
+                        "display": "Blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271649006",
+                        "display": "Systolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271650006",
+                        "display": "Diastolic blood pressure"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

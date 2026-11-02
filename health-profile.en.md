@@ -970,6 +970,22 @@ Blutdruck: 500
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 85354-9 | Blood pressure panel with all children optional |
+| http://loinc.org | 8480-6 | Systolic blood pressure |
+| http://loinc.org | 8462-4 | Diastolic blood pressure |
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 75367002 | Blood pressure |
+| http://snomed.info/sct | 271649006 | Systolic blood pressure |
+| http://snomed.info/sct | 271650006 | Diastolic blood pressure |
+| http://snomed.info/sct | 1162737008 | Self reported systolic blood pressure |
+| http://snomed.info/sct | 1162735000 | Self reported diastolic blood pressure |
+| http://snomed.info/sct | 413153004 | Blood pressure recorded by patient at home |
+| http://snomed.info/sct | 364075005 | Heart rate |
+
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** Systolisch: 0-500
 Diastolisch: 0-500
@@ -980,6 +996,19 @@ Diastolisch: 0-500
 
 **Sources:**
 - https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 85354-9 | Blood pressure panel with all children optional |
+| http://loinc.org | 8480-6 | Systolic blood pressure |
+| http://loinc.org | 8462-4 | Diastolic blood pressure |
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 75367002 | Blood pressure |
+| http://snomed.info/sct | 271649006 | Systolic blood pressure |
+| http://snomed.info/sct | 271650006 | Diastolic blood pressure |
+| http://snomed.info/sct | 364075005 | Heart rate |
 
 ### Heart rate (bpm?)
 
