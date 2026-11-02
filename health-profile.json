@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:31:08.151721+00:00",
+  "generated": "2026-11-02T21:33:27.313115+00:00",
   "scope": "combined",
-  "commit": "aaf47934965a21931f4ab2bc177768440b174076",
+  "commit": "c38a11e435b8bb8ece5db37cd2d5f92b9b766b42",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -7353,7 +7353,13 @@
                     "norms": [],
                     "scoring-algorithm": "nicht zutreffend",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "65552-2",
+                        "display": "About how many minutes does it usually take for you to fall asleep [PhenX]"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -7378,7 +7384,13 @@
                         "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "65552-2",
+                        "display": "About how many minutes does it usually take for you to fall asleep [PhenX]"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -7419,7 +7431,13 @@
                     "recommended-monitoring-frequency": "2x/Jahr",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "65552-2",
+                        "display": "About how many minutes does it usually take for you to fall asleep [PhenX]"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -7442,7 +7460,13 @@
                         "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "65552-2",
+                        "display": "About how many minutes does it usually take for you to fall asleep [PhenX]"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

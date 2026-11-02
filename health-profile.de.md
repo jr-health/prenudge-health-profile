@@ -2011,6 +2011,12 @@ Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeich
 
 **Scoring-Algorithmus:** nicht zutreffend
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 65552-2 | About how many minutes does it usually take for you to fall asleep [PhenX] |
+
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** Minuten
 - **Datenformat:** min (ohne Sekunden)  Die beiben Erhebungen (questionnaire, wearable) dürfen nicht miteinander verglichen werden.
@@ -2023,6 +2029,12 @@ Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeich
 
 **Quellen:**
 - [Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.](Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 65552-2 | About how many minutes does it usually take for you to fall asleep [PhenX] |
 
 ---
 

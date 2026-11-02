@@ -1154,6 +1154,12 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 65552-2 | About how many minutes does it usually take for you to fall asleep [PhenX] |
+
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **Range of Values:** >?0
 - **Acquisition Frequency:** 2x/Jahr
@@ -1162,6 +1168,12 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 **Sources:**
 - Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 65552-2 | About how many minutes does it usually take for you to fall asleep [PhenX] |
 
 ---
 
