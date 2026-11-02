@@ -729,6 +729,16 @@ max: 24 Stunden
 **Sources:**
 - https://www.statcan.gc.ca/en/survey/household/5391
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 135331000146104 | Victim of discrimination |
+| http://snomed.info/sct | 373066001 | Yes |
+| http://snomed.info/sct | 373067005 | No |
+| http://snomed.info/sct | 1003002 | Religious discrimination |
+| http://snomed.info/sct | 29338006 | Political discrimination |
+
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft

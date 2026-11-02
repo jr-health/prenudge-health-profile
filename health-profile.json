@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:53:19.901142+00:00",
+  "generated": "2026-11-02T21:54:23.978232+00:00",
   "scope": "combined",
-  "commit": "85eee2162376d0007b7157033d2eb6d925986926",
+  "commit": "bd39996fba0c7396b88b2864aa8c42c323df3c85",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -4225,7 +4225,33 @@
                         "system": "https://www.statcan.gc.ca/en/survey/household/5391"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "135331000146104",
+                        "display": "Victim of discrimination"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": "No"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1003002",
+                        "display": "Religious discrimination"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "29338006",
+                        "display": "Political discrimination"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -4264,7 +4290,33 @@
                         "system": "https://www.statcan.gc.ca/en/survey/household/5391"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "135331000146104",
+                        "display": "Victim of discrimination"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": "No"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1003002",
+                        "display": "Religious discrimination"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "29338006",
+                        "display": "Political discrimination"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

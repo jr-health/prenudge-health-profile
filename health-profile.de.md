@@ -1227,6 +1227,16 @@ max: 24 Stunden
 **Quellen:**
 - [Survey on Health Care Access and Experiences - Primary and Specialist Care](https://www.statcan.gc.ca/en/survey/household/5391)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 135331000146104 | Victim of discrimination |
+| http://snomed.info/sct | 373066001 | Yes |
+| http://snomed.info/sct | 373067005 | No |
+| http://snomed.info/sct | 1003002 | Religious discrimination |
+| http://snomed.info/sct | 29338006 | Political discrimination |
+
 ### Stress
 
 **Beschreibung für Fachpersonal:**
