@@ -25,7 +25,73 @@
         "norms": [],
         "scoring-algorithm": "nicht zutreffend",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "67875-5",
+            "display": "Employment status - current"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224362002",
+            "display": "Employment status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "65853000",
+            "display": "Student"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413327003",
+            "display": "Student in full time education"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224363007",
+            "display": "Employed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160906004",
+            "display": "Self-employed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "105493001",
+            "display": "Retired"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "440584001",
+            "display": "Permanently unable to perform work activities due to medical condition"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "73438004",
+            "display": "Unemployed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "444168002",
+            "display": "Homemaker"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "700149001",
+            "display": "On parental leave"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160903007",
+            "display": "Full-time employment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160904001",
+            "display": "Part-time employment"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +125,73 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "67875-5",
+            "display": "Employment status - current"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224362002",
+            "display": "Employment status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "65853000",
+            "display": "Student"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "413327003",
+            "display": "Student in full time education"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224363007",
+            "display": "Employed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160906004",
+            "display": "Self-employed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "105493001",
+            "display": "Retired"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "440584001",
+            "display": "Permanently unable to perform work activities due to medical condition"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "73438004",
+            "display": "Unemployed"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "444168002",
+            "display": "Homemaker"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "700149001",
+            "display": "On parental leave"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160903007",
+            "display": "Full-time employment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160904001",
+            "display": "Part-time employment"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
