@@ -358,6 +358,13 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 226450000 | Pulse vegetable intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Meat (portions/week)
 
 **Verified Health Information:**

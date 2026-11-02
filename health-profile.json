@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:23:20.140839+00:00",
+  "generated": "2026-11-02T21:23:41.733357+00:00",
   "scope": "combined",
-  "commit": "ec99d1547e4cdea28f762c2aac84990285ae95b8",
+  "commit": "1d476bb8ea1c31a1010414223bc6829bfdf12586",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1966,7 +1966,18 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226450000",
+                        "display": "Pulse vegetable intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -2005,7 +2016,18 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226450000",
+                        "display": "Pulse vegetable intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

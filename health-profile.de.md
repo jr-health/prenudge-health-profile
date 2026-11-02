@@ -584,6 +584,13 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 226450000 | Pulse vegetable intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Fleisch (Portionen/Woche)
 
 **Population:** erwachsene Allgemeinbevölkerung
