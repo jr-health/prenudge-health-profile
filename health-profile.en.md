@@ -1011,6 +1011,12 @@ Diastolisch: 0-500
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 65580-3 | Do you consider yourself to be a morning person - early bird, an evening person - night owl, or neither [PhenX] |
+
 ### Sleep hygiene (frequency of adherence to sleep-promoting routines/week)
 
 #### Measurement Instruments

@@ -1785,6 +1785,12 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 65580-3 | Do you consider yourself to be a morning person - early bird, an evening person - night owl, or neither [PhenX] |
+
 ### Schlafhygiene (Häufigkeit der Einhaltung schlaffördernder Routinen/Woche)
 
 **Population:** erwachsene Allgemeinbevölkerung
