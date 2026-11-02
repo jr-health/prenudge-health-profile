@@ -934,6 +934,19 @@ max: 20 (Transformiert 100)
 **Sources:**
 - Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 95871-0 | Total score [BRIEF] |
+| http://loinc.org | 95867-8 | Help reading hospital materials |
+| http://loinc.org | 95870-2 | Confidence filling out medical forms |
+| http://loinc.org | 95868-6 | Difficulty understanding written information about medical condition |
+| http://snomed.info/sct | 870552008 | Health literacy |
+| http://snomed.info/sct | 871869008 | Difficulty demonstrating health literacy |
+| http://snomed.info/sct | 871870009 | Able to demonstrate health literacy |
+| http://snomed.info/sct | 871872001 | Unable to demonstrate health literacy |
+
 ### Reporting symptoms or changes to healthcare professionals
 
 #### Measurement Instruments
