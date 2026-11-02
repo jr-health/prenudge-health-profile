@@ -1311,6 +1311,19 @@ max: 120
 **Sources:**
 - https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 224210002 | Housing ownership and tenure |
+| http://snomed.info/sct | 302145009 | Owns own home |
+| http://snomed.info/sct | 160938009 | House rented from council |
+| http://snomed.info/sct | 160939001 | House rented from housing association |
+| http://snomed.info/sct | 160940004 | House rented from private landlord |
+| http://snomed.info/sct | 224213000 | Lives in rented accommodation |
+| http://snomed.info/sct | 224217004 | Lives in tied accommodation |
+| http://snomed.info/sct | 224212005 | Home owned by family member |
+
 ### Residence (urban/rural)
 
 #### Measurement Instruments
