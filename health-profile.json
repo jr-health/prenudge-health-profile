@@ -1,11 +1,15 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-10-22T14:38:10.229828+00:00",
+  "generated": "2026-11-02T14:52:31.837120+00:00",
   "scope": "combined",
-  "commit": "a99c51878be9fbf25930acf4d841f42ec1832a65",
+  "commit": "4a2d9d13756182381fe99484d489145019186b8b",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
+      {
+        "date": "2026-11-02",
+        "author": "shaide79"
+      },
       {
         "date": "2026-10-22",
         "author": "Theresa Weitlaner"
@@ -6491,7 +6495,7 @@
                 "note": ""
               }
             ],
-            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
+            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
             "id_tech": "sleep-quality"
           },
           "en": {
@@ -6552,7 +6556,7 @@
                 "note": ""
               }
             ],
-            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)",
+            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
             "id_tech": "sleep-quality"
           },
           "observations": [
