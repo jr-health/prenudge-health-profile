@@ -25,7 +25,13 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "65580-3",
+            "display": "Do you consider yourself to be a morning person - early bird, an evening person - night owl, or neither [PhenX]"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +65,13 @@
         "recommended-monitoring-frequency": "1x",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "65580-3",
+            "display": "Do you consider yourself to be a morning person - early bird, an evening person - night owl, or neither [PhenX]"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
