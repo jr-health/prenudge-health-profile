@@ -1070,11 +1070,27 @@ Diastolisch: 0-500
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 364075005 | Heart rate |
+| http://snomed.info/sct | 78564009 | Pulse rate |
+
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **Range of Values:** 0-500
 - **Acquisition Frequency:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 364075005 | Heart rate |
+| http://snomed.info/sct | 78564009 | Pulse rate |
 
 ### Vaccination-status-check
 

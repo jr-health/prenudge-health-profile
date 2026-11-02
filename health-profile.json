@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:47:41.248370+00:00",
+  "generated": "2026-11-02T21:48:40.960844+00:00",
   "scope": "combined",
-  "commit": "7c1f3939ecdece66928daa767afa5cf2000f800b",
+  "commit": "62987c0a1ade39926c8988cd9ee6d59100f1261f",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -6786,7 +6786,23 @@
                     ],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78564009",
+                        "display": "Pulse rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6806,7 +6822,23 @@
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78564009",
+                        "display": "Pulse rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6840,7 +6872,23 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78564009",
+                        "display": "Pulse rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6858,7 +6906,23 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8867-4",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364075005",
+                        "display": "Heart rate"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78564009",
+                        "display": "Pulse rate"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

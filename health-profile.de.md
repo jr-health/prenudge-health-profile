@@ -1834,12 +1834,28 @@ Diastolisch: 0-500
 **Spezifische Normen:**
 - 60-100 bpm in Ruhe
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 364075005 | Heart rate |
+| http://snomed.info/sct | 78564009 | Pulse rate |
+
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** bpm
 - **Wertebereich:** 0-500
 - **Erfassungsfrequenz:** individuell
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 8867-4 | Heart rate |
+| http://snomed.info/sct | 364075005 | Heart rate |
+| http://snomed.info/sct | 78564009 | Pulse rate |
 
 ### Impfstatus
 
