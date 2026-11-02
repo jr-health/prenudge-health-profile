@@ -2448,6 +2448,18 @@ Nicht erforderlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 365508006 | Residence and accommodation circumstances - finding |
+| http://snomed.info/sct | 224807002 | Urban environment |
+| http://snomed.info/sct | 78153003 | City dweller |
+| http://snomed.info/sct | 62709005 | Suburban dweller |
+| http://snomed.info/sct | 224808007 | Town in rural environment |
+| http://snomed.info/sct | 224804009 | Rural environment |
+| http://snomed.info/sct | 5794003 | Country dweller |
+
 ### Familienstand (ledig, verheiratet, in Partnerschaft, getrennt, verwitwet)
 
 #### Messinstrumente

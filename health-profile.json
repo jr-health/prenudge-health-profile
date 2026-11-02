@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:35:20.097341+00:00",
+  "generated": "2026-11-02T21:36:59.363384+00:00",
   "scope": "combined",
-  "commit": "573c5137f57e1444b20cf806f8659d1240a8cfd2",
+  "commit": "6768bc8ecff754043e8347ee8ae13b3b6b3d2220",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -8942,7 +8942,43 @@
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "365508006",
+                        "display": "Residence and accommodation circumstances - finding"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224807002",
+                        "display": "Urban environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78153003",
+                        "display": "City dweller"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62709005",
+                        "display": "Suburban dweller"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224808007",
+                        "display": "Town in rural environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224804009",
+                        "display": "Rural environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "5794003",
+                        "display": "Country dweller"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -8976,7 +9012,43 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "365508006",
+                        "display": "Residence and accommodation circumstances - finding"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224807002",
+                        "display": "Urban environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "78153003",
+                        "display": "City dweller"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62709005",
+                        "display": "Suburban dweller"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224808007",
+                        "display": "Town in rural environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "224804009",
+                        "display": "Rural environment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "5794003",
+                        "display": "Country dweller"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
