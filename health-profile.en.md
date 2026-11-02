@@ -817,6 +817,13 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 102463001 | Susceptibility to infections |
+| http://snomed.info/sct | 102466009 | Increased susceptibility to infections |
+
 ### Change in body weight over defined periods (kg)
 
 #### Measurement Instruments

@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:21:02.215410+00:00",
+  "generated": "2026-11-02T21:23:20.140839+00:00",
   "scope": "combined",
-  "commit": "3984644bdfc77e94b62fb1ce8f06e29601dd9fba",
+  "commit": "ec99d1547e4cdea28f762c2aac84990285ae95b8",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -5157,7 +5157,18 @@
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "102463001",
+                        "display": "Susceptibility to infections"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "102466009",
+                        "display": "Increased susceptibility to infections"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -5191,7 +5202,18 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "102463001",
+                        "display": "Susceptibility to infections"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "102466009",
+                        "display": "Increased susceptibility to infections"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

@@ -1378,6 +1378,13 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 102463001 | Susceptibility to infections |
+| http://snomed.info/sct | 102466009 | Increased susceptibility to infections |
+
 ### Verlust des Körpergewichts (kg)
 
 #### Messinstrumente
