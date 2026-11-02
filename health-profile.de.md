@@ -365,6 +365,16 @@ Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie un
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 80461-7 | Dairy servings 24 hour Estimated |
+| http://snomed.info/sct | 890463002 | Estimated intake of mammalian milk based food servings in 24 hours |
+| http://snomed.info/sct | 226403009 | Dairy food intake |
+| http://snomed.info/sct | 226404003 | Milk intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Eier (Portionen/Woche)
 
 **Beschreibung für Fachpersonal:**

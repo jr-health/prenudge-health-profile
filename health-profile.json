@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:16:37.489033+00:00",
+  "generated": "2026-11-02T21:18:56.889279+00:00",
   "scope": "combined",
-  "commit": "8205fd9f8940ee2497935d98bc5164f12965fb82",
+  "commit": "da1d22c53d60f15a5c857c78005ccd5a1b89a3a9",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1310,7 +1310,33 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80461-7",
+                        "display": "Dairy servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "890463002",
+                        "display": "Estimated intake of mammalian milk based food servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226403009",
+                        "display": "Dairy food intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226404003",
+                        "display": "Milk intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -1349,7 +1375,33 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80461-7",
+                        "display": "Dairy servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "890463002",
+                        "display": "Estimated intake of mammalian milk based food servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226403009",
+                        "display": "Dairy food intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226404003",
+                        "display": "Milk intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

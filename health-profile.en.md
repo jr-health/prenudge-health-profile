@@ -239,6 +239,16 @@ Optional: alle 3 Monate
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 80461-7 | Dairy servings 24 hour Estimated |
+| http://snomed.info/sct | 890463002 | Estimated intake of mammalian milk based food servings in 24 hours |
+| http://snomed.info/sct | 226403009 | Dairy food intake |
+| http://snomed.info/sct | 226404003 | Milk intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### eggs
 
 **Population:** Allgemeinbevölkerung
