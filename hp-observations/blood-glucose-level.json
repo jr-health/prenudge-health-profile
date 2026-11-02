@@ -34,7 +34,53 @@
             "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "41653-7",
+            "display": "Glucose [Mass/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "14743-9",
+            "display": "Glucose [Moles/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "41604-0",
+            "display": "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "302789003",
+            "display": "Capillary blood glucose measurement"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "434912009",
+            "display": "Blood glucose concentration"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "16985007",
+            "display": "Fasting"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307165006",
+            "display": "Before meal"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "24863003",
+            "display": "Postprandial"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "337414009",
+            "display": "Glucometer"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -63,7 +109,18 @@
             "system": "https://www.oedg.at/oedg_leitlinien.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "99504-3",
+            "display": "Glucose [Mass/volume] in Interstitial fluid"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "439926003",
+            "display": "Ambulatory continuous glucose monitoring of interstitial tissue fluid"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -102,7 +159,53 @@
             "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "41653-7",
+            "display": "Glucose [Mass/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "14743-9",
+            "display": "Glucose [Moles/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "41604-0",
+            "display": "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "302789003",
+            "display": "Capillary blood glucose measurement"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "434912009",
+            "display": "Blood glucose concentration"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "16985007",
+            "display": "Fasting"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "307165006",
+            "display": "Before meal"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "24863003",
+            "display": "Postprandial"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "337414009",
+            "display": "Glucometer"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -125,7 +228,18 @@
             "system": "https://www.oedg.at/oedg_leitlinien.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "99504-3",
+            "display": "Glucose [Mass/volume] in Interstitial fluid"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "439926003",
+            "display": "Ambulatory continuous glucose monitoring of interstitial tissue fluid"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
