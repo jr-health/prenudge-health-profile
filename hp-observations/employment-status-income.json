@@ -25,7 +25,28 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "67875-5",
+            "display": "Employment status - current"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224362002",
+            "display": "Employment status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224167002",
+            "display": "Income details"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224164009",
+            "display": "Financial circumstances"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +80,28 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "67875-5",
+            "display": "Employment status - current"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224362002",
+            "display": "Employment status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224167002",
+            "display": "Income details"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224164009",
+            "display": "Financial circumstances"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
