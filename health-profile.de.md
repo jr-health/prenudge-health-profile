@@ -337,6 +337,17 @@ Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Voll
 **Quellen:**
 - [Österreichische Ernährungsempfehlungen (AGES)](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 80455-9 | Grain servings 24 hour Estimated |
+| http://snomed.info/sct | 789332008 | Estimated intake of grain servings in 24 hours |
+| http://snomed.info/sct | 226397003 | Cereal intake |
+| http://snomed.info/sct | 226394005 | Bread intake |
+| http://snomed.info/sct | 226449000 | Potato intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Milchprodukte (Portionen/Tag)
 
 **Population:** erwachsene Allgemeinbevölkerung

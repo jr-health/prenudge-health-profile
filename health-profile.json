@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:43:21.261574+00:00",
+  "generated": "2026-11-02T21:44:04.783105+00:00",
   "scope": "combined",
-  "commit": "3f621b2bf6191697b091f4cdfd133945f144b261",
+  "commit": "cf2f02cd474cb6cda48cdb75d296c61d863d9dfa",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1224,7 +1224,38 @@
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80455-9",
+                        "display": "Grain servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789332008",
+                        "display": "Estimated intake of grain servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226397003",
+                        "display": "Cereal intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226394005",
+                        "display": "Bread intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226449000",
+                        "display": "Potato intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -1263,7 +1294,38 @@
                         "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80455-9",
+                        "display": "Grain servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "789332008",
+                        "display": "Estimated intake of grain servings in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226397003",
+                        "display": "Cereal intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226394005",
+                        "display": "Bread intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226449000",
+                        "display": "Potato intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
