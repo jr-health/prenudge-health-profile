@@ -34,7 +34,38 @@
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80455-9",
+            "display": "Grain servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "789332008",
+            "display": "Estimated intake of grain servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226397003",
+            "display": "Cereal intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226394005",
+            "display": "Bread intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226449000",
+            "display": "Potato intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +104,38 @@
             "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80455-9",
+            "display": "Grain servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "789332008",
+            "display": "Estimated intake of grain servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226397003",
+            "display": "Cereal intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226394005",
+            "display": "Bread intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226449000",
+            "display": "Potato intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
