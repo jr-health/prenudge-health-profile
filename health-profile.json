@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:30:28.299049+00:00",
+  "generated": "2026-11-02T21:31:08.151721+00:00",
   "scope": "combined",
-  "commit": "0a6b04d9366c7a558645a74e7f6e9c33fa39db32",
+  "commit": "aaf47934965a21931f4ab2bc177768440b174076",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -8124,7 +8124,33 @@
                     "norms": [],
                     "scoring-algorithm": "",
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8664-5",
+                        "display": "Cigarettes smoked total (pack per year) - Reported"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8663-7",
+                        "display": "Cigarettes smoked current (pack per day) - Reported"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "401201003",
+                        "display": "Cigarette pack-years"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "782516008",
+                        "display": "Number of calculated smoking pack years"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230056004",
+                        "display": "Cigarette consumption"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -8158,7 +8184,33 @@
                     "recommended-monitoring-frequency": "",
                     "norms": [],
                     "sources": [],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8664-5",
+                        "display": "Cigarettes smoked total (pack per year) - Reported"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "8663-7",
+                        "display": "Cigarettes smoked current (pack per day) - Reported"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "401201003",
+                        "display": "Cigarette pack-years"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "782516008",
+                        "display": "Number of calculated smoking pack years"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "230056004",
+                        "display": "Cigarette consumption"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

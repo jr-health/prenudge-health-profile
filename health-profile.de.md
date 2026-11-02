@@ -2269,6 +2269,16 @@ Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 8664-5 | Cigarettes smoked total (pack per year) - Reported |
+| http://loinc.org | 8663-7 | Cigarettes smoked current (pack per day) - Reported |
+| http://snomed.info/sct | 401201003 | Cigarette pack-years |
+| http://snomed.info/sct | 782516008 | Number of calculated smoking pack years |
+| http://snomed.info/sct | 230056004 | Cigarette consumption |
+
 ---
 
 ## Soziodemografische Daten
