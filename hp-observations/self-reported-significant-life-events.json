@@ -34,7 +34,83 @@
             "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "365574009",
+            "display": "Life event finding"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "276068009",
+            "display": "Changed job"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224468004",
+            "display": "Promoted at work"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266956001",
+            "display": "Loss of job"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160901009",
+            "display": "Made redundant"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "77386006",
+            "display": "Pregnancy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160788005",
+            "display": "Separation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "398033008",
+            "display": "Death of relative"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "74506000",
+            "display": "Bereavement"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160787000",
+            "display": "Marriage"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "38070000",
+            "display": "Cohabiting"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "95934001",
+            "display": "Victim of crime"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386817001",
+            "display": "Behavior problem of childhood and adolescence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161128009",
+            "display": "Behavioral problems at school"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "360885002",
+            "display": "Change of residence status"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +149,83 @@
             "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "365574009",
+            "display": "Life event finding"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "276068009",
+            "display": "Changed job"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224468004",
+            "display": "Promoted at work"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "266956001",
+            "display": "Loss of job"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160901009",
+            "display": "Made redundant"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "77386006",
+            "display": "Pregnancy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160788005",
+            "display": "Separation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "398033008",
+            "display": "Death of relative"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "74506000",
+            "display": "Bereavement"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160787000",
+            "display": "Marriage"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "38070000",
+            "display": "Cohabiting"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "95934001",
+            "display": "Victim of crime"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386817001",
+            "display": "Behavior problem of childhood and adolescence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161128009",
+            "display": "Behavioral problems at school"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "360885002",
+            "display": "Change of residence status"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
