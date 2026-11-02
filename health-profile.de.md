@@ -1904,6 +1904,12 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 **Quellen:**
 - 13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 443483005 | Inadequate sleep hygiene |
+
 ### Schlafdauer (Stunden/Nacht)
 
 **Beschreibung für Fachpersonal:**
