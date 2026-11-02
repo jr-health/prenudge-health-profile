@@ -1281,6 +1281,12 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 **Sources:**
 - https://osf.io/ndu6r/files/snm3p
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 160616005 | Trying to give up smoking |
+
 ### nicotine addiction
 
 #### Measurement Instruments

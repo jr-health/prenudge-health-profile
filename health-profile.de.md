@@ -2173,6 +2173,12 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 **Quellen:**
 - https://osf.io/ndu6r/files/snm3p
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 160616005 | Trying to give up smoking |
+
 ### Nikotinabhängigkeit
 
 **Beschreibung für Fachpersonal:**

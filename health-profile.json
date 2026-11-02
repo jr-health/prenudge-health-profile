@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:42:31.180539+00:00",
+  "generated": "2026-11-02T21:43:21.261574+00:00",
   "scope": "combined",
-  "commit": "fc2fff7c8391ff8d0b1b9f577b98a688168a24eb",
+  "commit": "3f621b2bf6191697b091f4cdfd133945f144b261",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -8233,7 +8233,13 @@
                         "system": "https://osf.io/ndu6r/files/snm3p"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "160616005",
+                        "display": "Trying to give up smoking"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -8272,7 +8278,13 @@
                         "system": "https://osf.io/ndu6r/files/snm3p"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "160616005",
+                        "display": "Trying to give up smoking"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
