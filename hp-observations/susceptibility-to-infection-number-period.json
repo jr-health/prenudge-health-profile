@@ -25,7 +25,18 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "102463001",
+            "display": "Susceptibility to infections"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "102466009",
+            "display": "Increased susceptibility to infections"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +70,18 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "102463001",
+            "display": "Susceptibility to infections"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "102466009",
+            "display": "Increased susceptibility to infections"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
