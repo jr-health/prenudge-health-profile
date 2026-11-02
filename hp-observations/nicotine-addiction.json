@@ -25,7 +25,28 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "762992005",
+            "display": "Assessment using Fagerstrom Test for Nicotine Dependence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "762991003",
+            "display": "Fagerstrom Test for Nicotine Dependence total score"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "273453005",
+            "display": "Fagerstrom test for nicotine dependence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "56294008",
+            "display": "Nicotine dependence"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +80,28 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "762992005",
+            "display": "Assessment using Fagerstrom Test for Nicotine Dependence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "762991003",
+            "display": "Fagerstrom Test for Nicotine Dependence total score"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "273453005",
+            "display": "Fagerstrom test for nicotine dependence"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "56294008",
+            "display": "Nicotine dependence"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
