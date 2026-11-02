@@ -255,6 +255,13 @@ Homepage geht grad nicht soll von dem kopiert werden.
 **Sources:**
 - https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 226419002 | Egg intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Fish (portions/week)
 
 **Verified Health Information:**

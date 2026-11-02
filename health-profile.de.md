@@ -420,6 +420,13 @@ Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil 
 **Quellen:**
 - [Österreichische Ernährungsempfehlung](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 226419002 | Egg intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Fisch (Portionen/Woche)
 
 **Population:** erwachsene Allgemeinbevölkerung

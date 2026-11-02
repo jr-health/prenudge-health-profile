@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:07:40.794733+00:00",
+  "generated": "2026-11-02T21:10:10.401918+00:00",
   "scope": "combined",
-  "commit": "782d546280541dbf53a45fad6f8430b2eacfaf3b",
+  "commit": "fd8e31cb0e7b5542e22d5093b32d73d358dd6668",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1371,7 +1371,18 @@
                         "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226419002",
+                        "display": "Egg intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -1417,7 +1428,18 @@
                         "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226419002",
+                        "display": "Egg intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
