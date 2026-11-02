@@ -1302,6 +1302,20 @@ Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala u
 **Quellen:**
 - [Brief Resilience Scale (Deutsche Version)](https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 100360-7 | Brief Resilience Scale panel [BRS] |
+| http://loinc.org | 100361-5 | Quickly recover from bad events |
+| http://loinc.org | 100362-3 | Difficulty making it through stressful events |
+| http://loinc.org | 100363-1 | Easily recover from a stressful event |
+| http://loinc.org | 100364-9 | Difficulty recovering from bad events |
+| http://loinc.org | 100365-6 | Easily recover from difficulties |
+| http://loinc.org | 100366-4 | Lengthy recovery from setbacks |
+| http://snomed.info/sct | 733903006 | Psychological resilience |
+| http://snomed.info/sct | 733904000 | Lack of psychological resilience |
+
 ### Emotionale Belastung
 
 **Beschreibung für Fachpersonal:**
