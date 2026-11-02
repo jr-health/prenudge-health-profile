@@ -1151,6 +1151,15 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 762992005 | Assessment using Fagerstrom Test for Nicotine Dependence |
+| http://snomed.info/sct | 762991003 | Fagerstrom Test for Nicotine Dependence total score |
+| http://snomed.info/sct | 273453005 | Fagerstrom test for nicotine dependence |
+| http://snomed.info/sct | 56294008 | Nicotine dependence |
+
 ### Pack Years
 
 #### Measurement Instruments
