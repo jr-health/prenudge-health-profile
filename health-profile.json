@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:14:26.612776+00:00",
+  "generated": "2026-11-02T21:14:55.733066+00:00",
   "scope": "combined",
-  "commit": "2947af0366b59826a71874442ba81a2ad7669984",
+  "commit": "57a89c0d6614d5ced22b4755ca64e3603ebf40c4",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -3237,7 +3237,18 @@
                         "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "229070002",
+                        "display": "Stretching exercises"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "386293009",
+                        "display": "Balance exercises"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -3276,7 +3287,18 @@
                         "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "229070002",
+                        "display": "Stretching exercises"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "386293009",
+                        "display": "Balance exercises"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

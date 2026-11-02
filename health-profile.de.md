@@ -992,6 +992,13 @@ Optional: alle 3 Monate
 **Quellen:**
 - [Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 229070002 | Stretching exercises |
+| http://snomed.info/sct | 386293009 | Balance exercises |
+
 ### Muskelkräftigende Übungen (Einheiten/Woche)
 
 **Beschreibung für Fachpersonal:**

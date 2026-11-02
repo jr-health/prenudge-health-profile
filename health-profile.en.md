@@ -560,6 +560,13 @@ Optional: alle 3 Monate
 **Sources:**
 - https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 229070002 | Stretching exercises |
+| http://snomed.info/sct | 386293009 | Balance exercises |
+
 ### Muscle-strengthening exercises (units/week)
 
 **Verified Health Information:**
