@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:26:17.413625+00:00",
+  "generated": "2026-11-02T21:27:57.885880+00:00",
   "scope": "combined",
-  "commit": "2f01399e0a28209261ea0b2a1466574c5fc76edf",
+  "commit": "fcc799de87d359bcd511310eb43bc93f5d3f6ac6",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -9182,7 +9182,68 @@
                         "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "76690-7",
+                        "display": "Sexual orientation"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22876-9",
+                        "display": "Heterosexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22875-1",
+                        "display": "Homosexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22877-7",
+                        "display": "Bisexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA46-8",
+                        "display": "Other"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA20384-6",
+                        "display": "Asked but unknown"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "66621004",
+                        "display": "Sexual orientation"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "20430005",
+                        "display": "Heterosexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "38628009",
+                        "display": "Gay"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "89217008",
+                        "display": "Female homosexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "42035005",
+                        "display": "Bisexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "440583007",
+                        "display": "Sexual orientation unknown"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -9221,7 +9282,68 @@
                         "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "76690-7",
+                        "display": "Sexual orientation"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22876-9",
+                        "display": "Heterosexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22875-1",
+                        "display": "Homosexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA22877-7",
+                        "display": "Bisexual"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA46-8",
+                        "display": "Other"
+                      },
+                      {
+                        "system": "http://loinc.org",
+                        "code": "LA20384-6",
+                        "display": "Asked but unknown"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "66621004",
+                        "display": "Sexual orientation"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "20430005",
+                        "display": "Heterosexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "38628009",
+                        "display": "Gay"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "89217008",
+                        "display": "Female homosexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "42035005",
+                        "display": "Bisexual"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "440583007",
+                        "display": "Sexual orientation unknown"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

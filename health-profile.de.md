@@ -2494,6 +2494,23 @@ Nicht erforderlich
 **Quellen:**
 - [OECD. Society at a Glance 2019](https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 76690-7 | Sexual orientation |
+| http://loinc.org | LA22876-9 | Heterosexual |
+| http://loinc.org | LA22875-1 | Homosexual |
+| http://loinc.org | LA22877-7 | Bisexual |
+| http://loinc.org | LA46-8 | Other |
+| http://loinc.org | LA20384-6 | Asked but unknown |
+| http://snomed.info/sct | 66621004 | Sexual orientation |
+| http://snomed.info/sct | 20430005 | Heterosexual |
+| http://snomed.info/sct | 38628009 | Gay |
+| http://snomed.info/sct | 89217008 | Female homosexual |
+| http://snomed.info/sct | 42035005 | Bisexual |
+| http://snomed.info/sct | 440583007 | Sexual orientation unknown |
+
 ---
 
 ## Arbeit
