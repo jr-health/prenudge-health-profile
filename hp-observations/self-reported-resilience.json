@@ -34,7 +34,53 @@
             "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "100360-7",
+            "display": "Brief Resilience Scale panel [BRS]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100361-5",
+            "display": "Quickly recover from bad events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100362-3",
+            "display": "Difficulty making it through stressful events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100363-1",
+            "display": "Easily recover from a stressful event"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100364-9",
+            "display": "Difficulty recovering from bad events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100365-6",
+            "display": "Easily recover from difficulties"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100366-4",
+            "display": "Lengthy recovery from setbacks"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "733903006",
+            "display": "Psychological resilience"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "733904000",
+            "display": "Lack of psychological resilience"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +119,53 @@
             "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "100360-7",
+            "display": "Brief Resilience Scale panel [BRS]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100361-5",
+            "display": "Quickly recover from bad events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100362-3",
+            "display": "Difficulty making it through stressful events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100363-1",
+            "display": "Easily recover from a stressful event"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100364-9",
+            "display": "Difficulty recovering from bad events"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100365-6",
+            "display": "Easily recover from difficulties"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "100366-4",
+            "display": "Lengthy recovery from setbacks"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "733903006",
+            "display": "Psychological resilience"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "733904000",
+            "display": "Lack of psychological resilience"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
