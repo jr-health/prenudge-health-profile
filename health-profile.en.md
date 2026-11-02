@@ -982,6 +982,38 @@ max: 20 (Transformiert 100)
 **Sources:**
 - https://pubmed.ncbi.nlm.nih.gov/23553447/
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 401207004 | Medication side effects present |
+| http://snomed.info/sct | 408508002 | Has shown no side effects from medication |
+| http://snomed.info/sct | 62014003 | Adverse reaction to drug |
+| http://snomed.info/sct | 422587007 | Nausea |
+| http://snomed.info/sct | 422400008 | Vomiting |
+| http://snomed.info/sct | 62315008 | Diarrhea |
+| http://snomed.info/sct | 14760008 | Constipation |
+| http://snomed.info/sct | 21522001 | Abdominal pain |
+| http://snomed.info/sct | 404640003 | Dizziness |
+| http://snomed.info/sct | 25064002 | Headache |
+| http://snomed.info/sct | 84229001 | Fatigue |
+| http://snomed.info/sct | 271782001 | Drowsy |
+| http://snomed.info/sct | 39898005 | Sleep disorder |
+| http://snomed.info/sct | 26329005 | Poor concentration |
+| http://snomed.info/sct | 386807006 | Memory impairment |
+| http://snomed.info/sct | 271807003 | Eruption |
+| http://snomed.info/sct | 418363000 | Itching of skin |
+| http://snomed.info/sct | 52613005 | Excessive sweating |
+| http://snomed.info/sct | 80313002 | Palpitations |
+| http://snomed.info/sct | 267036007 | Dyspnea |
+| http://snomed.info/sct | 249473004 | Altered appetite |
+| http://snomed.info/sct | 262286000 | Weight increased |
+| http://snomed.info/sct | 262285001 | Weight decreased |
+| http://snomed.info/sct | 279069000 | Musculoskeletal pain |
+| http://snomed.info/sct | 56925008 | Abnormal sexual function |
+| http://snomed.info/sct | 249274008 | Urinary symptoms |
+| http://snomed.info/sct | 18963009 | Mood swings |
+
 ### Blood glucose level (mmol/l)
 
 #### Measurement Instruments

@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:48:40.960844+00:00",
+  "generated": "2026-11-02T21:50:05.389694+00:00",
   "scope": "combined",
-  "commit": "62987c0a1ade39926c8988cd9ee6d59100f1261f",
+  "commit": "68aaa7160afa191f0ecead4cb764c7896f60134a",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -6223,7 +6223,143 @@
                         "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "401207004",
+                        "display": "Medication side effects present"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "408508002",
+                        "display": "Has shown no side effects from medication"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62014003",
+                        "display": "Adverse reaction to drug"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "422587007",
+                        "display": "Nausea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "422400008",
+                        "display": "Vomiting"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62315008",
+                        "display": "Diarrhea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "14760008",
+                        "display": "Constipation"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "21522001",
+                        "display": "Abdominal pain"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "404640003",
+                        "display": "Dizziness"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "25064002",
+                        "display": "Headache"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "84229001",
+                        "display": "Fatigue"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271782001",
+                        "display": "Drowsy"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "39898005",
+                        "display": "Sleep disorder"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "26329005",
+                        "display": "Poor concentration"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "386807006",
+                        "display": "Memory impairment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271807003",
+                        "display": "Eruption"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "418363000",
+                        "display": "Itching of skin"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "52613005",
+                        "display": "Excessive sweating"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "80313002",
+                        "display": "Palpitations"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "267036007",
+                        "display": "Dyspnea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "249473004",
+                        "display": "Altered appetite"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262286000",
+                        "display": "Weight increased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262285001",
+                        "display": "Weight decreased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "279069000",
+                        "display": "Musculoskeletal pain"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "56925008",
+                        "display": "Abnormal sexual function"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "249274008",
+                        "display": "Urinary symptoms"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "18963009",
+                        "display": "Mood swings"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -6262,7 +6398,143 @@
                         "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "401207004",
+                        "display": "Medication side effects present"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "408508002",
+                        "display": "Has shown no side effects from medication"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62014003",
+                        "display": "Adverse reaction to drug"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "422587007",
+                        "display": "Nausea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "422400008",
+                        "display": "Vomiting"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "62315008",
+                        "display": "Diarrhea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "14760008",
+                        "display": "Constipation"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "21522001",
+                        "display": "Abdominal pain"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "404640003",
+                        "display": "Dizziness"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "25064002",
+                        "display": "Headache"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "84229001",
+                        "display": "Fatigue"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271782001",
+                        "display": "Drowsy"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "39898005",
+                        "display": "Sleep disorder"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "26329005",
+                        "display": "Poor concentration"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "386807006",
+                        "display": "Memory impairment"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271807003",
+                        "display": "Eruption"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "418363000",
+                        "display": "Itching of skin"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "52613005",
+                        "display": "Excessive sweating"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "80313002",
+                        "display": "Palpitations"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "267036007",
+                        "display": "Dyspnea"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "249473004",
+                        "display": "Altered appetite"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262286000",
+                        "display": "Weight increased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262285001",
+                        "display": "Weight decreased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "279069000",
+                        "display": "Musculoskeletal pain"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "56925008",
+                        "display": "Abnormal sexual function"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "249274008",
+                        "display": "Urinary symptoms"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "18963009",
+                        "display": "Mood swings"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
