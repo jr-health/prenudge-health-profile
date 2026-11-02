@@ -492,6 +492,13 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - [AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 226441002 | Fish intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Gemüse- und Obstkonsum (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**

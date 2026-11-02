@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:18:56.889279+00:00",
+  "generated": "2026-11-02T21:19:40.139065+00:00",
   "scope": "combined",
-  "commit": "da1d22c53d60f15a5c857c78005ccd5a1b89a3a9",
+  "commit": "9249b967c3ae2e929d5a6924ff54564b94e7d654",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1581,7 +1581,18 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226441002",
+                        "display": "Fish intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -1631,7 +1642,18 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226441002",
+                        "display": "Fish intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

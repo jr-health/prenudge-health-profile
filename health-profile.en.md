@@ -297,6 +297,13 @@ Homepage geht grad nicht soll von dem kopiert werden.
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 226441002 | Fish intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Fruit and vegetable consumption (portions/day)
 
 **Verified Health Information:**
