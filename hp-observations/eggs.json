@@ -41,7 +41,18 @@
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226419002",
+            "display": "Egg intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -87,7 +98,18 @@
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226419002",
+            "display": "Egg intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
