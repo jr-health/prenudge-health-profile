@@ -37,7 +37,28 @@
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "408864009",
+            "display": "Vaccination status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "268558004",
+            "display": "Immunization status screening"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -76,7 +97,28 @@
             "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "408864009",
+            "display": "Vaccination status"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "268558004",
+            "display": "Immunization status screening"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373066001",
+            "display": "Yes"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "373067005",
+            "display": "No"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
