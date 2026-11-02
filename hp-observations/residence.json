@@ -25,7 +25,43 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "365508006",
+            "display": "Residence and accommodation circumstances - finding"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224807002",
+            "display": "Urban environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78153003",
+            "display": "City dweller"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "62709005",
+            "display": "Suburban dweller"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224808007",
+            "display": "Town in rural environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224804009",
+            "display": "Rural environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "5794003",
+            "display": "Country dweller"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +95,43 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "365508006",
+            "display": "Residence and accommodation circumstances - finding"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224807002",
+            "display": "Urban environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "78153003",
+            "display": "City dweller"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "62709005",
+            "display": "Suburban dweller"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224808007",
+            "display": "Town in rural environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224804009",
+            "display": "Rural environment"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "5794003",
+            "display": "Country dweller"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
