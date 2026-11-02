@@ -247,6 +247,14 @@ Der **Bauchumfang** bzw. **Taillenumfang**  bezeichnet den in der Mitte zwischen
 **Quellen:**
 - [Mike E. J. Lean et al.: Waist circumference as a measure for indicating need for weight management. In: British Medical Journal. Vol. 311, 15. Juli 1995, S. 158–161, doi:10.1136/bmj.311.6998.158.](https://www.bmj.com/content/311/6998/158)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 1162535003 | Waist circumference at midpoint between lowest rib and iliac crest |
+| http://snomed.info/sct | 276361009 | Waist circumference |
+| http://snomed.info/sct | 445396007 | Measurement of circumference of waist |
+
 ### Hüft-Taillen-Verhältnis
 
 **Beschreibung für Fachpersonal:**
@@ -2440,5 +2448,6 @@ _Änderungen seit Version v0.0.21-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |
 | 2026-10-22 | Theresa Weitlaner |

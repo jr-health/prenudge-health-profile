@@ -177,6 +177,14 @@ Optional: alle 3 Monate
 **Sources:**
 - https://www.bmj.com/content/311/6998/158
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 1162535003 | Waist circumference at midpoint between lowest rib and iliac crest |
+| http://snomed.info/sct | 276361009 | Waist circumference |
+| http://snomed.info/sct | 445396007 | Measurement of circumference of waist |
+
 ### Waist-to-hip ratio (WHR)
 
 #### Measurement Instruments
@@ -1309,5 +1317,6 @@ _Changes since version v0.0.21-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |
 | 2026-10-22 | Theresa Weitlaner |
