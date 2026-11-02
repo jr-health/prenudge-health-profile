@@ -2479,6 +2479,15 @@ Nicht erforderlich
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 67875-5 | Employment status - current |
+| http://snomed.info/sct | 224362002 | Employment status |
+| http://snomed.info/sct | 224167002 | Income details |
+| http://snomed.info/sct | 224164009 | Financial circumstances |
+
 ### Sexuelle Orientierung
 
 **Population:** erwachsene Allgemeinbevölkerung
