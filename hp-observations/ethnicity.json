@@ -30,7 +30,23 @@
             "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161139007",
+            "display": "Language spoken"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "370157003",
+            "display": "Main spoken language"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "407643006",
+            "display": "Main spoken language German"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -69,7 +85,23 @@
             "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "161139007",
+            "display": "Language spoken"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "370157003",
+            "display": "Main spoken language"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "407643006",
+            "display": "Main spoken language German"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
