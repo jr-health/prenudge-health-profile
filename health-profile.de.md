@@ -2473,6 +2473,16 @@ Nicht erforderlich
 **Quellen:**
 - [Statistik Austria. Mikrozensus Erkläuterung und Fragebogen 2025](Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 45404-1 | Marital status |
+| http://snomed.info/sct | 224083004 | Marital or partnership status |
+| http://snomed.info/sct | 408821002 | Lives with partner |
+| http://snomed.info/sct | 38070000 | Cohabiting |
+| http://snomed.info/sct | 125681006 | Single person |
+
 ### Alltagssprache
 
 **Population:** erwachsene Allgemeinbevölkerung
