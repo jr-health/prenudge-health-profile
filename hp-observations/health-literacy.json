@@ -30,7 +30,48 @@
             "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "95871-0",
+            "display": "Total score [BRIEF]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95867-8",
+            "display": "Help reading hospital materials"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95870-2",
+            "display": "Confidence filling out medical forms"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95868-6",
+            "display": "Difficulty understanding written information about medical condition"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "870552008",
+            "display": "Health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871869008",
+            "display": "Difficulty demonstrating health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871870009",
+            "display": "Able to demonstrate health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871872001",
+            "display": "Unable to demonstrate health literacy"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -69,7 +110,48 @@
             "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "95871-0",
+            "display": "Total score [BRIEF]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95867-8",
+            "display": "Help reading hospital materials"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95870-2",
+            "display": "Confidence filling out medical forms"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "95868-6",
+            "display": "Difficulty understanding written information about medical condition"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "870552008",
+            "display": "Health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871869008",
+            "display": "Difficulty demonstrating health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871870009",
+            "display": "Able to demonstrate health literacy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "871872001",
+            "display": "Unable to demonstrate health literacy"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
