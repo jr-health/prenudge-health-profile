@@ -34,7 +34,33 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80461-7",
+            "display": "Dairy servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "890463002",
+            "display": "Estimated intake of mammalian milk based food servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226403009",
+            "display": "Dairy food intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226404003",
+            "display": "Milk intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +99,33 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "80461-7",
+            "display": "Dairy servings 24 hour Estimated"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "890463002",
+            "display": "Estimated intake of mammalian milk based food servings in 24 hours"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226403009",
+            "display": "Dairy food intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226404003",
+            "display": "Milk intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
