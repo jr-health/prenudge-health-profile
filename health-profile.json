@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:15:22.181959+00:00",
+  "generated": "2026-11-02T21:16:37.489033+00:00",
   "scope": "combined",
-  "commit": "bff3c5addb8d0ef09fe8d7f17d15ad56755b3fcd",
+  "commit": "8205fd9f8940ee2497935d98bc5164f12965fb82",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -2256,7 +2256,38 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80465-8",
+                        "display": "Oil servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "819967009",
+                        "display": "Estimated quantity of intake of fat and oil in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "870372004",
+                        "display": "Fat and oil intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226063003",
+                        "display": "Vegetable oil intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226456006",
+                        "display": "Nuts and seeds intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -2295,7 +2326,38 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "80465-8",
+                        "display": "Oil servings 24 hour Estimated"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "819967009",
+                        "display": "Estimated quantity of intake of fat and oil in 24 hours"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "870372004",
+                        "display": "Fat and oil intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226063003",
+                        "display": "Vegetable oil intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226456006",
+                        "display": "Nuts and seeds intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

@@ -403,6 +403,17 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 80465-8 | Oil servings 24 hour Estimated |
+| http://snomed.info/sct | 819967009 | Estimated quantity of intake of fat and oil in 24 hours |
+| http://snomed.info/sct | 870372004 | Fat and oil intake |
+| http://snomed.info/sct | 226063003 | Vegetable oil intake |
+| http://snomed.info/sct | 226456006 | Nuts and seeds intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Consumption of sugary and salty foods (portions/week)
 
 **Verified Health Information:**
