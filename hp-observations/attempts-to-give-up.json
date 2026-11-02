@@ -30,7 +30,13 @@
             "system": "https://osf.io/ndu6r/files/snm3p"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160616005",
+            "display": "Trying to give up smoking"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -69,7 +75,13 @@
             "system": "https://osf.io/ndu6r/files/snm3p"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160616005",
+            "display": "Trying to give up smoking"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
