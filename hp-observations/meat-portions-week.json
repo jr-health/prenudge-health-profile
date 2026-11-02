@@ -45,7 +45,23 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226426002",
+            "display": "Meat intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226438006",
+            "display": "Processed meat intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -95,7 +111,23 @@
             "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226426002",
+            "display": "Meat intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "226438006",
+            "display": "Processed meat intake"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "364395008",
+            "display": "Dietary intake"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
