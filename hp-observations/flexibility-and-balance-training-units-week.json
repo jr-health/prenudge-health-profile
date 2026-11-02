@@ -34,7 +34,18 @@
             "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "229070002",
+            "display": "Stretching exercises"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386293009",
+            "display": "Balance exercises"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +84,18 @@
             "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "229070002",
+            "display": "Stretching exercises"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386293009",
+            "display": "Balance exercises"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
