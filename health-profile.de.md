@@ -601,6 +601,14 @@ Fleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen,
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - [AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 226426002 | Meat intake |
+| http://snomed.info/sct | 226438006 | Processed meat intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen
 
 **Beschreibung für Fachpersonal:**

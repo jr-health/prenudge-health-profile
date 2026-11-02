@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:13:28.153640+00:00",
+  "generated": "2026-11-02T21:14:26.612776+00:00",
   "scope": "combined",
-  "commit": "e6bd662c1f81cccc4290650df8ffbb1d546f28df",
+  "commit": "2947af0366b59826a71874442ba81a2ad7669984",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1989,7 +1989,23 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226426002",
+                        "display": "Meat intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226438006",
+                        "display": "Processed meat intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -2039,7 +2055,23 @@
                         "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226426002",
+                        "display": "Meat intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "226438006",
+                        "display": "Processed meat intake"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "364395008",
+                        "display": "Dietary intake"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

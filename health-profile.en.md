@@ -358,6 +358,14 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 226426002 | Meat intake |
+| http://snomed.info/sct | 226438006 | Processed meat intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
+
 ### Non-alcoholic, unsweetened drinks (glasses/day)
 
 #### Measurement Instruments
