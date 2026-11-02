@@ -34,7 +34,13 @@
             "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "443483005",
+            "display": "Inadequate sleep hygiene"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -73,7 +79,13 @@
             "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "443483005",
+            "display": "Inadequate sleep hygiene"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
