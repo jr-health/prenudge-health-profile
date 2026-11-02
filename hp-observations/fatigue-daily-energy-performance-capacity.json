@@ -25,7 +25,48 @@
         "norms": [],
         "scoring-algorithm": "",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "44254-1",
+            "display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6568-5",
+            "display": "Not at all"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6569-3",
+            "display": "Several days"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6570-1",
+            "display": "More than half the days"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6571-9",
+            "display": "Nearly every day"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "248274002",
+            "display": "Lack of energy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224960004",
+            "display": "Tired"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -59,7 +100,48 @@
         "recommended-monitoring-frequency": "",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "44254-1",
+            "display": "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6568-5",
+            "display": "Not at all"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6569-3",
+            "display": "Several days"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6570-1",
+            "display": "More than half the days"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6571-9",
+            "display": "Nearly every day"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "84229001",
+            "display": "Fatigue"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "248274002",
+            "display": "Lack of energy"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224960004",
+            "display": "Tired"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
