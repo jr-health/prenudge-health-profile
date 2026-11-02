@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:20:24.355886+00:00",
+  "generated": "2026-11-02T21:21:02.215410+00:00",
   "scope": "combined",
-  "commit": "bfe90cc4713e50b19c64a3e91390777a21e28221",
+  "commit": "3984644bdfc77e94b62fb1ce8f06e29601dd9fba",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -5264,7 +5264,38 @@
                         "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "98969-9",
+                        "display": "Lost weight in last 3 months"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "448765001",
+                        "display": "Unintentional weight loss"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248346009",
+                        "display": "Weight change"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262285001",
+                        "display": "Weight decreased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": "No"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -5299,10 +5330,42 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "98969-9",
+                        "display": "Lost weight in last 3 months"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "448765001",
+                        "display": "Unintentional weight loss"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "248346009",
+                        "display": "Weight change"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "262285001",
+                        "display": "Weight decreased"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373066001",
+                        "display": "Yes"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "373067005",
+                        "display": "No"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
