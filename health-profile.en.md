@@ -1472,6 +1472,14 @@ max: 120
 **Sources:**
 - https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210
 
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 161139007 | Language spoken |
+| http://snomed.info/sct | 370157003 | Main spoken language |
+| http://snomed.info/sct | 407643006 | Main spoken language German |
+
 ### Highest completed education (ISCED level)
 
 #### Measurement Instruments

@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-02T21:45:00.331603+00:00",
+  "generated": "2026-11-02T21:45:48.151120+00:00",
   "scope": "combined",
-  "commit": "4b8d2c7665c5f214a55e6602bf2038232882ec0d",
+  "commit": "b9ff57ecb0a9dcffa8fefd95d8cbac656a818b42",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -9519,7 +9519,23 @@
                         "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "161139007",
+                        "display": "Language spoken"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "370157003",
+                        "display": "Main spoken language"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "407643006",
+                        "display": "Main spoken language German"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
@@ -9558,7 +9574,23 @@
                         "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
                       }
                     ],
-                    "terminology-codes": [],
+                    "terminology-codes": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "161139007",
+                        "display": "Language spoken"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "370157003",
+                        "display": "Main spoken language"
+                      },
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "407643006",
+                        "display": "Main spoken language German"
+                      }
+                    ],
                     "pn-fhir-ig-link": "",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",

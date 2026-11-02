@@ -2542,6 +2542,14 @@ Nicht erforderlich
 **Quellen:**
 - [Statistik Austria; Erhebung „Migration & Integration“](https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210)
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 161139007 | Language spoken |
+| http://snomed.info/sct | 370157003 | Main spoken language |
+| http://snomed.info/sct | 407643006 | Main spoken language German |
+
 ### Höchste abgeschlossene Schulbildung (ISCED-Level)
 
 **Beschreibung für Fachpersonal:**
