@@ -2532,6 +2532,24 @@ Frage 2) 1 oder 2
 
 **Scoring-Algorithmus:** nicht zutreffend
 
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 67875-5 | Employment status - current |
+| http://snomed.info/sct | 224362002 | Employment status |
+| http://snomed.info/sct | 65853000 | Student |
+| http://snomed.info/sct | 413327003 | Student in full time education |
+| http://snomed.info/sct | 224363007 | Employed |
+| http://snomed.info/sct | 160906004 | Self-employed |
+| http://snomed.info/sct | 105493001 | Retired |
+| http://snomed.info/sct | 440584001 | Permanently unable to perform work activities due to medical condition |
+| http://snomed.info/sct | 73438004 | Unemployed |
+| http://snomed.info/sct | 444168002 | Homemaker |
+| http://snomed.info/sct | 700149001 | On parental leave |
+| http://snomed.info/sct | 160903007 | Full-time employment |
+| http://snomed.info/sct | 160904001 | Part-time employment |
+
 ### Arbeitsfähigkeit (Score)
 
 **Beschreibung für Fachpersonal:**
