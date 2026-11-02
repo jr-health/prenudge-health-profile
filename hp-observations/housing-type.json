@@ -30,7 +30,48 @@
             "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224210002",
+            "display": "Housing ownership and tenure"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "302145009",
+            "display": "Owns own home"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160938009",
+            "display": "House rented from council"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160939001",
+            "display": "House rented from housing association"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160940004",
+            "display": "House rented from private landlord"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224213000",
+            "display": "Lives in rented accommodation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224217004",
+            "display": "Lives in tied accommodation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224212005",
+            "display": "Home owned by family member"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -65,10 +106,52 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
           }
         ],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224210002",
+            "display": "Housing ownership and tenure"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "302145009",
+            "display": "Owns own home"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160938009",
+            "display": "House rented from council"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160939001",
+            "display": "House rented from housing association"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "160940004",
+            "display": "House rented from private landlord"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224213000",
+            "display": "Lives in rented accommodation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224217004",
+            "display": "Lives in tied accommodation"
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "224212005",
+            "display": "Home owned by family member"
+          }
+        ],
         "pn-fhir-ig-link": "",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
