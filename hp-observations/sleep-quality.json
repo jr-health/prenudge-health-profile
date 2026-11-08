@@ -62,33 +62,38 @@
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "61987-4",
-            "display": "My sleep quality was... in past 7 days [PROMIS]"
+            "code": "98917-8",
+            "display": "WHO Quality of life-BREF [WHOQOL_BREF]"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA9615-1",
-            "display": "Very poor"
+            "code": "98933-5",
+            "display": "Satisfaction with sleep in last 2 weeks"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8969-3",
-            "display": "Poor"
+            "code": "LA14638-3",
+            "display": "Very dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8968-5",
-            "display": "Fair"
+            "code": "LA29496-9",
+            "display": "Dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8967-7",
-            "display": "Good"
+            "code": "LA31733-1",
+            "display": "Neither satisfied nor dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA13913-1",
-            "display": "Very Good"
+            "code": "LA29495-1",
+            "display": "Satisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA14642-5",
+            "display": "Very satisfied"
           },
           {
             "system": "http://snomed.info/sct",
@@ -124,7 +129,33 @@
         ],
         "scoring-algorithm": "nicht zutreffend",
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "93832-4",
+            "display": "Sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93831-6",
+            "display": "Deep sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93830-8",
+            "display": "Light sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93829-0",
+            "display": "REM sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "103210-1",
+            "display": "Awakening duration"
+          }
+        ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -132,7 +163,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep"
+    "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
   },
   "en": {
     "template": "observation",
@@ -191,43 +222,48 @@
         "terminology-codes": [
           {
             "system": "http://loinc.org",
-            "code": "61987-4",
-            "display": ""
+            "code": "98917-8",
+            "display": "WHO Quality of life-BREF [WHOQOL_BREF]"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA9615-1",
-            "display": ""
+            "code": "98933-5",
+            "display": "Satisfaction with sleep in last 2 weeks"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8969-3",
-            "display": ""
+            "code": "LA14638-3",
+            "display": "Very dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8968-5",
-            "display": ""
+            "code": "LA29496-9",
+            "display": "Dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA8967-7",
-            "display": ""
+            "code": "LA31733-1",
+            "display": "Neither satisfied nor dissatisfied"
           },
           {
             "system": "http://loinc.org",
-            "code": "LA13913-1",
-            "display": ""
+            "code": "LA29495-1",
+            "display": "Satisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA14642-5",
+            "display": "Very satisfied"
           },
           {
             "system": "http://snomed.info/sct",
             "code": "248254009",
-            "display": ""
+            "display": "Quality of sleep"
           },
           {
             "system": "http://snomed.info/sct",
             "code": "11741000202105",
-            "display": ""
+            "display": "Good quality of sleep"
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-SleepQualityQuestionnaire.html",
@@ -247,7 +283,33 @@
         "recommended-monitoring-frequency": "je länger desto besser >=10 Tage",
         "norms": [],
         "sources": [],
-        "terminology-codes": [],
+        "terminology-codes": [
+          {
+            "system": "http://loinc.org",
+            "code": "93832-4",
+            "display": "Sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93831-6",
+            "display": "Deep sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93830-8",
+            "display": "Light sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "93829-0",
+            "display": "REM sleep duration"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "103210-1",
+            "display": "Awakening duration"
+          }
+        ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
@@ -255,6 +317,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep"
+    "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
   }
 }
