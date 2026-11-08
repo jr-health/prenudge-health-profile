@@ -2142,12 +2142,13 @@ Informationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schl
 
 | System | Code | Bezeichnung |
 |---|---|---|
-| http://loinc.org | 61987-4 | My sleep quality was... in past 7 days [PROMIS] |
-| http://loinc.org | LA9615-1 | Very poor |
-| http://loinc.org | LA8969-3 | Poor |
-| http://loinc.org | LA8968-5 | Fair |
-| http://loinc.org | LA8967-7 | Good |
-| http://loinc.org | LA13913-1 | Very Good |
+| http://loinc.org | 98917-8 | WHO Quality of life-BREF [WHOQOL_BREF] |
+| http://loinc.org | 98933-5 | Satisfaction with sleep in last 2 weeks |
+| http://loinc.org | LA14638-3 | Very dissatisfied |
+| http://loinc.org | LA29496-9 | Dissatisfied |
+| http://loinc.org | LA31733-1 | Neither satisfied nor dissatisfied |
+| http://loinc.org | LA29495-1 | Satisfied |
+| http://loinc.org | LA14642-5 | Very satisfied |
 | http://snomed.info/sct | 248254009 | Quality of sleep |
 | http://snomed.info/sct | 11741000202105 | Good quality of sleep |
 
@@ -2167,6 +2168,16 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 - nicht zutreffend
 
 **Scoring-Algorithmus:** nicht zutreffend
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 93832-4 | Sleep duration |
+| http://loinc.org | 93831-6 | Deep sleep duration |
+| http://loinc.org | 93830-8 | Light sleep duration |
+| http://loinc.org | 93829-0 | REM sleep duration |
+| http://loinc.org | 103210-1 | Awakening duration |
 
 ### Dauer der Einschlafzeit (durchschnittliche Minuten)
 

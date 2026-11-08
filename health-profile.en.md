@@ -1305,14 +1305,15 @@ max: 24
 
 | System | Code | Display |
 |---|---|---|
-| http://loinc.org | 61987-4 |  |
-| http://loinc.org | LA9615-1 |  |
-| http://loinc.org | LA8969-3 |  |
-| http://loinc.org | LA8968-5 |  |
-| http://loinc.org | LA8967-7 |  |
-| http://loinc.org | LA13913-1 |  |
-| http://snomed.info/sct | 248254009 |  |
-| http://snomed.info/sct | 11741000202105 |  |
+| http://loinc.org | 98917-8 | WHO Quality of life-BREF [WHOQOL_BREF] |
+| http://loinc.org | 98933-5 | Satisfaction with sleep in last 2 weeks |
+| http://loinc.org | LA14638-3 | Very dissatisfied |
+| http://loinc.org | LA29496-9 | Dissatisfied |
+| http://loinc.org | LA31733-1 | Neither satisfied nor dissatisfied |
+| http://loinc.org | LA29495-1 | Satisfied |
+| http://loinc.org | LA14642-5 | Very satisfied |
+| http://snomed.info/sct | 248254009 | Quality of sleep |
+| http://snomed.info/sct | 11741000202105 | Good quality of sleep |
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** nicht zutreffend
@@ -1323,6 +1324,16 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 93832-4 | Sleep duration |
+| http://loinc.org | 93831-6 | Deep sleep duration |
+| http://loinc.org | 93830-8 | Light sleep duration |
+| http://loinc.org | 93829-0 | REM sleep duration |
+| http://loinc.org | 103210-1 | Awakening duration |
 
 ### Time taken to fall asleep (average minutes)
 
