@@ -113,17 +113,22 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 
 | System | Code | Display |
 |---|---|---|
-| http://snomed.info/sct | 105542008 |  |
-| http://loinc.org | 74013-4 |  |
-| http://snomed.info/sct | 69620002 |  |
-| http://snomed.info/sct | 229800002 |  |
-| http://snomed.info/sct | 783261004 |  |
-| http://snomed.info/sct | 307447001 |  |
-| http://snomed.info/sct | 396113003 |  |
-| http://snomed.info/sct | 445547001 |  |
-| http://snomed.info/sct | 445241000124107 |  |
-| http://snomed.info/sct | 307452006 |  |
-| http://snomed.info/sct | 307450003 |  |
+| http://snomed.info/sct | 105542008 | Current non-drinker of alcohol |
+| http://loinc.org | 74013-4 | Alcoholic drinks per day |
+| http://snomed.info/sct | 69620002 | Daily |
+| http://snomed.info/sct | 229800002 | Twice weekly |
+| http://snomed.info/sct | 783261004 | Lifetime non-drinker of alcohol |
+| http://snomed.info/sct | 307447001 | Six times weekly |
+| http://snomed.info/sct | 396113003 | Three to four times |
+| http://snomed.info/sct | 445547001 | Every two months |
+| http://snomed.info/sct | 445241000124107 | Less than once a month |
+| http://snomed.info/sct | 307452006 | Three times monthly |
+| http://snomed.info/sct | 307450003 | Once monthly |
+| http://loinc.org | 72109-2 | Alcohol Use Disorder Identification Test - Consumption [AUDIT-C] |
+| http://loinc.org | 68518-0 | How often do you have a drink containing alcohol |
+| http://loinc.org | 68519-8 | How many standard drinks containing alcohol do you have on a typical day |
+| http://loinc.org | 68520-6 | How often do you have 6 or more drinks on 1 occasion |
+| http://loinc.org | 75626-2 | Total score [AUDIT-C] |
 
 ---
 
