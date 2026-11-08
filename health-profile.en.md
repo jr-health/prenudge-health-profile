@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.0.21-test | Generated: 2026-11-02_
+_Version: 0.0.21-test | Generated: 2026-11-08_
 
 ---
 
@@ -530,10 +530,9 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 
 | System | Code | Display |
 |---|---|---|
-| http://loinc.org | 101691-4 |  |
-| http://loinc.org | 77592-4 |  |
-| http://loinc.org | 77593-2 |  |
-| http://snomed.info/sct | 246501002 |  |
+| http://loinc.org | 101691-4 | Duration of physical activity |
+| http://loinc.org | 101689-8 | Duration of moderate activity |
+| http://loinc.org | 101690-6 | Duration of vigorous activity |
 
 **Measurement Instrument 2** — Questionnaire · manual (self-reported)
 - **Range of Values:** für Q7:
@@ -552,8 +551,8 @@ max: in Minuten: 15.120/Woche
 
 | System | Code | Display |
 |---|---|---|
-| http://loinc.org | 101691-4 |  |
-| http://snomed.info/sct | 68130003 |  |
+| http://loinc.org | 101691-4 | Duration of physical activity |
+| http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
 
 ### Everyday activity (steps/day)
 
@@ -1734,6 +1733,7 @@ _Changes since version v0.0.21-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-08 | felixrath |
 | 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |
 | 2026-10-22 | Theresa Weitlaner |

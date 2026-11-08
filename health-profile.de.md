@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.0.21-test | Generiert: 2026-11-02_
+_Version: 0.0.21-test | Generiert: 2026-11-08_
 
 ---
 
@@ -866,9 +866,8 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 101691-4 | Duration of physical activity |
-| http://loinc.org | 77592-4 | Moderate physical activity [IPAQ] |
-| http://loinc.org | 77593-2 | Vigorous physical activity [IPAQ] |
-| http://snomed.info/sct | 246501002 | Technique |
+| http://loinc.org | 101689-8 | Duration of moderate activity |
+| http://loinc.org | 101690-6 | Duration of vigorous activity |
 
 **Messinstrument 2** — Questionnaire · manual (self-reported)
 - **Einheit:** kategorielle Variable:  Q4 (Tage pro Woche),  Q5 (Stunden pro Tag), Q6 (Tage pro Woche) Q7: Minuten pro Woche
@@ -2865,6 +2864,7 @@ _Änderungen seit Version v0.0.21-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-08 | felixrath |
 | 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |
 | 2026-10-22 | Theresa Weitlaner |
