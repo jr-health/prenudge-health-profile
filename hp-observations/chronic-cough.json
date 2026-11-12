@@ -19,7 +19,7 @@
     "population": "",
     "disease-association": [],
     "measurement-instrument": [],
-    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
   },
   "en": {
     "template": "observation",
@@ -41,6 +41,6 @@
     "population": "",
     "disease-association": [],
     "measurement-instrument": [],
-    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
   }
 }
