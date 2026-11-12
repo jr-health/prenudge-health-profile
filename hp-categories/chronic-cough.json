@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "category",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "title": "Husten",
+    "icon_upload": "",
+    "color": "",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "Wollen wir die Bezeichnung so?"
+  },
+  "en": {
+    "template": "category",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "title": "chronic-cough",
+    "icon_upload": "",
+    "color": "",
+    "description-professional": "",
+    "description-laymen": "",
+    "discussion": "Wollen wir die Bezeichnung so?"
+  }
+}
