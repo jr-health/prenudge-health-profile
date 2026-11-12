@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-12T15:00:56.610991+00:00",
+  "generated": "2026-11-12T15:02:28.663602+00:00",
   "scope": "combined",
-  "commit": "ac5d4365f8e5dfd777f431362f747840941d6841",
+  "commit": "e6e34dad8d7509cbf9db1bfbb6eaed80be48b01a",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1144,7 +1144,80 @@
         "description-laymen": "",
         "discussion": "Wollen wir die Bezeichnung so?"
       },
-      "dimensions": []
+      "dimensions": [
+        {
+          "de": {
+            "template": "dimension",
+            "key": "chronic-cough",
+            "dataset-scope": "Minimalset",
+            "category": "chronic-cough",
+            "title": "Husten",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "en": {
+            "template": "dimension",
+            "key": "chronic-cough",
+            "dataset-scope": "Minimalset",
+            "category": "chronic-cough",
+            "title": "chronic-cough",
+            "description_professional": "",
+            "description_layman": "",
+            "verified-health-links": [],
+            "discussion": ""
+          },
+          "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "chronic-cough",
+                "dataset-scope": "Minimalset",
+                "title": "Husten",
+                "category": "self-management",
+                "dimension": "chronic-cough",
+                "description": "_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_",
+                "citizen-info": "",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "",
+                    "audience": [],
+                    "note": "Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)"
+                  }
+                ],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
+              },
+              "en": {
+                "template": "observation",
+                "key": "chronic-cough",
+                "dataset-scope": "Minimalset",
+                "title": "husten",
+                "category": "self-management",
+                "dimension": "chronic-cough",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "",
+                    "audience": [],
+                    "note": ""
+                  }
+                ],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "de": {
@@ -3330,52 +3403,6 @@
             "id_tech": "everyday-activity"
           },
           "observations": [
-            {
-              "de": {
-                "template": "observation",
-                "key": "chronic-cough",
-                "dataset-scope": "Minimalset",
-                "title": "Husten",
-                "category": "self-management",
-                "dimension": "everyday-activity",
-                "description": "_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_",
-                "citizen-info": "",
-                "verified-health-links": [
-                  {
-                    "title": "",
-                    "url": "",
-                    "audience": [],
-                    "note": "Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)"
-                  }
-                ],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [],
-                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
-              },
-              "en": {
-                "template": "observation",
-                "key": "chronic-cough",
-                "dataset-scope": "Minimalset",
-                "title": "husten",
-                "category": "self-management",
-                "dimension": "everyday-activity",
-                "description": "",
-                "citizen-info": "",
-                "verified-health-links": [
-                  {
-                    "title": "",
-                    "url": "",
-                    "audience": [],
-                    "note": ""
-                  }
-                ],
-                "population": "",
-                "disease-association": [],
-                "measurement-instrument": [],
-                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
-              }
-            },
             {
               "de": {
                 "template": "observation",

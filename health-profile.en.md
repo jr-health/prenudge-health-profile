@@ -13,6 +13,7 @@ _Version: 0.0.21-test | Generated: 2026-11-12_
   - [Waist circumference (cm)](#waist-circumference-cm)
   - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
 - [chronic-cough](#chronic-cough)
+  - [husten](#husten)
 - [Nutrition](#nutrition)
   - [Cereals, potatoes (portions/day)](#cereals-potatoes-portionsday)
   - [Dairy products (portions/day)](#dairy-products-portionsday)
@@ -26,7 +27,6 @@ _Version: 0.0.21-test | Generated: 2026-11-12_
   - [Consumption of sugary and salty foods (portions/week)](#consumption-of-sugary-and-salty-foods-portionsweek)
 - [Physical Activity](#physical-activity)
   - [Moderate and vigorous endurance-oriented activity (minutes/week)](#moderate-and-vigorous-endurance-oriented-activity-minutesweek)
-  - [husten](#husten)
   - [Everyday activity (steps/day)](#everyday-activity-stepsday)
   - [Flexibility and balance training (units/week)](#flexibility-and-balance-training-unitsweek)
   - [Muscle-strengthening exercises (units/week)](#muscle-strengthening-exercises-unitsweek)
@@ -217,7 +217,10 @@ Optional: alle 3 Monate
 
 ## chronic-cough
 
-_No observations recorded._
+### husten
+
+**Verified Health Information:**
+- []()
 
 ---
 
@@ -566,11 +569,6 @@ max: in Minuten: 15.120/Woche
 |---|---|---|
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
-
-### husten
-
-**Verified Health Information:**
-- []()
 
 ### Everyday activity (steps/day)
 

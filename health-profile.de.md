@@ -13,6 +13,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-12_
   - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
   - [Hüft-Taillen-Verhältnis](#huft-taillen-verhaltnis)
 - [Husten](#husten)
+  - [Husten](#husten)
 - [Ernährung](#ernahrung)
   - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdapfel-portionentag)
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
@@ -26,7 +27,6 @@ _Version: 0.0.21-test | Generiert: 2026-11-12_
   - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
-  - [Husten](#husten)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
   - [Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)](#beweglichkeits--und-gleichgewichtstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
@@ -303,7 +303,14 @@ Männer <0,90; ≥0,90
 
 ## Husten
 
-_Keine Beobachtungen erfasst._
+### Husten
+
+**Beschreibung für Fachpersonal:**
+
+_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_
+
+**Verifizierte Gesundheitsinformation:**
+- []() — Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)
 
 ---
 
@@ -929,15 +936,6 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 |---|---|---|
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
-
-### Husten
-
-**Beschreibung für Fachpersonal:**
-
-_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_
-
-**Verifizierte Gesundheitsinformation:**
-- []() — Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)
 
 ### Alltagsaktivität (Schritte/Tag)
 
