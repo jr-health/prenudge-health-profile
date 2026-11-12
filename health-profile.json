@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-12T14:59:26.403222+00:00",
+  "generated": "2026-11-12T15:00:56.610991+00:00",
   "scope": "combined",
-  "commit": "be8c255dc16f88de3133f6863ff0b94b2dc041ca",
+  "commit": "ac5d4365f8e5dfd777f431362f747840941d6841",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1126,7 +1126,7 @@
         "template": "category",
         "key": "chronic-cough",
         "dataset-scope": "Minimalset",
-        "title": "Husten???",
+        "title": "Husten",
         "icon_upload": "",
         "color": "",
         "description-professional": "",
