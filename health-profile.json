@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-12T08:28:35.053273+00:00",
+  "generated": "2026-11-12T14:59:26.403222+00:00",
   "scope": "combined",
-  "commit": "46e928c7e44797957353b112334d5fa13092a899",
+  "commit": "be8c255dc16f88de3133f6863ff0b94b2dc041ca",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1120,6 +1120,31 @@
           ]
         }
       ]
+    },
+    {
+      "de": {
+        "template": "category",
+        "key": "chronic-cough",
+        "dataset-scope": "Minimalset",
+        "title": "Husten???",
+        "icon_upload": "",
+        "color": "",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "Wollen wir die Bezeichnung so?"
+      },
+      "en": {
+        "template": "category",
+        "key": "chronic-cough",
+        "dataset-scope": "Minimalset",
+        "title": "chronic-cough",
+        "icon_upload": "",
+        "color": "",
+        "description-professional": "",
+        "description-laymen": "",
+        "discussion": "Wollen wir die Bezeichnung so?"
+      },
+      "dimensions": []
     },
     {
       "de": {

@@ -12,6 +12,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-12_
   - [Body-Mass-Index (kg/m²)](#body-mass-index-kgm2)
   - [Taillen-/Bauchumfang (cm)](#taillen-bauchumfang-cm)
   - [Hüft-Taillen-Verhältnis](#huft-taillen-verhaltnis)
+- [Husten???](#husten)
 - [Ernährung](#ernahrung)
   - [Getreide/Erdäpfel (Portionen/Tag)](#getreideerdapfel-portionentag)
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
@@ -297,6 +298,12 @@ Männer <0,90; ≥0,90
 | http://snomed.info/sct | 248367009 | Waist/hip ratio |
 | http://snomed.info/sct | 284472007 | Hip circumference |
 | http://snomed.info/sct | 1162535003 | Waist circumference at midpoint between lowest rib and iliac crest |
+
+---
+
+## Husten???
+
+_Keine Beobachtungen erfasst._
 
 ---
 
