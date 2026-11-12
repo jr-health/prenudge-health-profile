@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.0.21-test | Generated: 2026-11-08_
+_Version: 0.0.21-test | Generated: 2026-11-12_
 
 ---
 
@@ -25,6 +25,7 @@ _Version: 0.0.21-test | Generated: 2026-11-08_
   - [Consumption of sugary and salty foods (portions/week)](#consumption-of-sugary-and-salty-foods-portionsweek)
 - [Physical Activity](#physical-activity)
   - [Moderate and vigorous endurance-oriented activity (minutes/week)](#moderate-and-vigorous-endurance-oriented-activity-minutesweek)
+  - [husten](#husten)
   - [Everyday activity (steps/day)](#everyday-activity-stepsday)
   - [Flexibility and balance training (units/week)](#flexibility-and-balance-training-unitsweek)
   - [Muscle-strengthening exercises (units/week)](#muscle-strengthening-exercises-unitsweek)
@@ -558,6 +559,11 @@ max: in Minuten: 15.120/Woche
 |---|---|---|
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
+
+### husten
+
+**Verified Health Information:**
+- []()
 
 ### Everyday activity (steps/day)
 
@@ -1749,6 +1755,7 @@ _Changes since version v0.0.21-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-12 | shaide79 |
 | 2026-11-08 | felixrath |
 | 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |

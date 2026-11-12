@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.0.21-test | Generiert: 2026-11-08_
+_Version: 0.0.21-test | Generiert: 2026-11-12_
 
 ---
 
@@ -25,6 +25,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-08_
   - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
+  - [Husten](#husten)
   - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
   - [Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)](#beweglichkeits--und-gleichgewichtstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
@@ -921,6 +922,15 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 |---|---|---|
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
+
+### Husten
+
+**Beschreibung für Fachpersonal:**
+
+_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_
+
+**Verifizierte Gesundheitsinformation:**
+- []() — Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)
 
 ### Alltagsaktivität (Schritte/Tag)
 
@@ -2880,6 +2890,7 @@ _Änderungen seit Version v0.0.21-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-12 | shaide79 |
 | 2026-11-08 | felixrath |
 | 2026-11-02 | felixrath |
 | 2026-11-02 | shaide79 |

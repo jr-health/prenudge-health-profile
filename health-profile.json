@@ -1,11 +1,15 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-08T21:13:04.782879+00:00",
+  "generated": "2026-11-12T08:27:49.435411+00:00",
   "scope": "combined",
-  "commit": "d073c824b098c5ad2b2b0311dc139b91def0fdcc",
+  "commit": "2dfc42fb17aa6b94e73a5c351476fa12655d477f",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
+      {
+        "date": "2026-11-12",
+        "author": "shaide79"
+      },
       {
         "date": "2026-11-08",
         "author": "felixrath"
@@ -3301,6 +3305,52 @@
             "id_tech": "everyday-activity"
           },
           "observations": [
+            {
+              "de": {
+                "template": "observation",
+                "key": "chronic-cough",
+                "dataset-scope": "Minimalset",
+                "title": "Husten",
+                "category": "self-management",
+                "dimension": "everyday-activity",
+                "description": "_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_",
+                "citizen-info": "",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "",
+                    "audience": [],
+                    "note": "Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)"
+                  }
+                ],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+              },
+              "en": {
+                "template": "observation",
+                "key": "chronic-cough",
+                "dataset-scope": "Minimalset",
+                "title": "husten",
+                "category": "self-management",
+                "dimension": "everyday-activity",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [
+                  {
+                    "title": "",
+                    "url": "",
+                    "audience": [],
+                    "note": ""
+                  }
+                ],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+              }
+            },
             {
               "de": {
                 "template": "observation",
