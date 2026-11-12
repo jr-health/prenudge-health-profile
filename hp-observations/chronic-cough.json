@@ -1,0 +1,46 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "title": "Husten",
+    "category": "self-management",
+    "dimension": "everyday-activity",
+    "description": "_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_",
+    "citizen-info": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": "Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)"
+      }
+    ],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+  },
+  "en": {
+    "template": "observation",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "title": "husten",
+    "category": "self-management",
+    "dimension": "everyday-activity",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [
+      {
+        "title": "",
+        "url": "",
+        "audience": [],
+        "note": ""
+      }
+    ],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+  }
+}
