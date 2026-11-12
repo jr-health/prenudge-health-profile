@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-12T08:27:49.435411+00:00",
+  "generated": "2026-11-12T08:28:35.053273+00:00",
   "scope": "combined",
-  "commit": "2dfc42fb17aa6b94e73a5c351476fa12655d477f",
+  "commit": "46e928c7e44797957353b112334d5fa13092a899",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -3326,7 +3326,7 @@
                 "population": "",
                 "disease-association": [],
                 "measurement-instrument": [],
-                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
               },
               "en": {
                 "template": "observation",
@@ -3348,7 +3348,7 @@
                 "population": "",
                 "disease-association": [],
                 "measurement-instrument": [],
-                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\nCodierung fehlt noch!\n\n@Tobias und Baher: Frage dazu"
+                "discussion": "@Mirna: Bitte Beschreibung dazu; \n\n@Tobias und Baher: Frage hinzugefügt nicht Validiert. \n\nIndikatordimension für mich nicht klar"
               }
             },
             {
