@@ -1,0 +1,24 @@
+{
+  "de": {
+    "template": "dimension",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "category": "chronic-cough",
+    "title": "Husten",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "dimension",
+    "key": "chronic-cough",
+    "dataset-scope": "Minimalset",
+    "category": "chronic-cough",
+    "title": "chronic-cough",
+    "description_professional": "",
+    "description_layman": "",
+    "verified-health-links": [],
+    "discussion": ""
+  }
+}
