@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T13:40:37.460475+00:00",
+  "generated": "2026-11-16T13:44:35.256455+00:00",
   "scope": "combined",
-  "commit": "72ade902eeebdf45308fe1394e1282c705d5160c",
+  "commit": "d7bb6c86cdd47aef93c16feae1d33872195a6f01",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -2927,31 +2927,6 @@
               }
             }
           ]
-        },
-        {
-          "de": {
-            "template": "dimension",
-            "key": "fuits",
-            "dataset-scope": "Minimalset",
-            "category": "nutrition",
-            "title": "Obst",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "en": {
-            "template": "dimension",
-            "key": "fuits",
-            "dataset-scope": "Minimalset",
-            "category": "nutrition",
-            "title": "fruits",
-            "description_professional": "",
-            "description_layman": "",
-            "verified-health-links": [],
-            "discussion": ""
-          },
-          "observations": []
         }
       ]
     },
