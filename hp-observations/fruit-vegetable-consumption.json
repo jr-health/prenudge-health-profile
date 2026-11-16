@@ -118,11 +118,6 @@
             "system": "http://snomed.info/sct",
             "code": "364395008",
             "display": "Dietary intake"
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "301961000000107",
-            "display": "Five or more portions of fruit and vegetables per day"
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-vegetableportions-observation.html",
@@ -246,11 +241,6 @@
           {
             "system": "http://snomed.info/sct",
             "code": "364395008",
-            "display": ""
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "301961000000107",
             "display": ""
           }
         ],
