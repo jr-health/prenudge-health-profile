@@ -1198,7 +1198,6 @@ max: 24 Stunden
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 87705-0 | Sedentary activity 24 hour |
-| http://snomed.info/sct | 415510005 | Sedentary lifestyle (finding) |
 
 **Messinstrument 2** — Wearable device / sensor · automated
 - **Einheit:** Stunden und/oder Minuten (Minuten bitte in Stunden umrechnen!)

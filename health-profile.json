@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T10:17:36.651066+00:00",
+  "generated": "2026-11-16T10:20:21.601938+00:00",
   "scope": "combined",
-  "commit": "0bce3eb4caa045e8c6248854783fe66911906200",
+  "commit": "1cb061594db4f561dbf4f5284e18ecad18632245",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -4139,11 +4139,6 @@
                         "system": "http://loinc.org",
                         "code": "87705-0",
                         "display": "Sedentary activity 24 hour"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "415510005",
-                        "display": "Sedentary lifestyle (finding)"
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html",
@@ -4243,11 +4238,6 @@
                       {
                         "system": "http://loinc.org",
                         "code": "87705-0",
-                        "display": ""
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "415510005",
                         "display": ""
                       }
                     ],

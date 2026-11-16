@@ -708,7 +708,6 @@ max: 24 Stunden
 | System | Code | Display |
 |---|---|---|
 | http://loinc.org | 87705-0 |  |
-| http://snomed.info/sct | 415510005 |  |
 
 **Measurement Instrument 2** — Wearable device / sensor · automated
 - **Range of Values:** min: 0 Stunden
