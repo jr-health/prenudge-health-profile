@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "ISCED-Level (UNESCO Institute for Statistics, 2012)",
-        "specific-questions": "ISCED-Level\nWas ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?\nAntwortmöglichkeit: 1) ISCED 1: Volksschule 2)ISCED 2: Hauptschule, Mittelschulen, Unterstufen von AHS; 3) ISCED 3a: Polytechnische Schule 4) ISCED 3b: Berufsbildende mittlere Schulen (HASCH, Fachschulen) 5) ISCED 3c: Berufsbildende höhere Schulen (HAK, HABLA, HTL) und AHS-Oberstufe 6) ISCED 4: Lehre mit Matura, Gesundheits- und Krankenpflegeschule (nicht-tertiär), Meister- oder Diplomprüfung 7) ISCED 5: Kolleg, tertiäre Hebammenakademien bzw. medizinisch-technische Ausbildungen im Kurzzyklus 8) ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Doktor)",
+        "specific-questions": "ISCED-Level\nWas ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?\nAntwortmöglichkeit: ISCED 1: Volksschule; ISCED 2: Hauptschule, Mittelschule, AHS-Unterstufe, Polytechnische Schule; ISCED 3: Lehre, BMS (z. B. HASCH, Fachschulen), AHS-Oberstufe; ISCED 4: Berufsreifeprüfung, Gesundheits- und Krankenpflegeschule; ISCED 5: BHS-Abschluss (HAK, HLW, HTL), Kolleg, Meisterprüfung; ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Diplomstudium, Doktorat)",
         "unit": "Höchste abgeschlossene Schulbildung",
         "data-format": "ISCED-Level (ordinal)",
         "data-type": "",
