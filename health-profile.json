@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T13:44:35.256455+00:00",
+  "generated": "2026-11-16T13:46:09.323101+00:00",
   "scope": "combined",
-  "commit": "d7bb6c86cdd47aef93c16feae1d33872195a6f01",
+  "commit": "ff7c875da629d1ca4b59f491accbe5f0fbc78bf6",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -2529,6 +2529,38 @@
                     "app-providers": []
                   }
                 ],
+                "discussion": ""
+              }
+            },
+            {
+              "de": {
+                "template": "observation",
+                "key": "obst",
+                "dataset-scope": "Minimalset",
+                "title": "Obst (Portionen/Tag)",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
+                "discussion": ""
+              },
+              "en": {
+                "template": "observation",
+                "key": "obst",
+                "dataset-scope": "Minimalset",
+                "title": "Obst",
+                "category": "nutrition",
+                "dimension": "dietary-pattern",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
+                "population": "",
+                "disease-association": [],
+                "measurement-instrument": [],
                 "discussion": ""
               }
             },

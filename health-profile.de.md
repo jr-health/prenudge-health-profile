@@ -23,6 +23,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-16_
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen](#alkoholfreie-ungesusste-getranke-glasertag---osterreichische-ernahrungsempfehlungen)
+  - [Obst (Portionen/Tag)](#obst-portionentag)
   - [Öle/Fette/Nüsse/Samen (Portionen/Tag)](#olefettenussesamen-portionentag)
   - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
@@ -715,6 +716,8 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 | http://snomed.info/sct | 879871005 | Estimated intake of fluid in 24 hours |
 | http://snomed.info/sct | 226354008 | Water intake |
 | http://snomed.info/sct | 251992000 | Fluid intake |
+
+### Obst (Portionen/Tag)
 
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
