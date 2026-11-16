@@ -1640,7 +1640,6 @@ max: 120
 | System | Code | Display |
 |---|---|---|
 | http://loinc.org | 82589-3 |  |
-| http://snomed.info/sct | 342271000000107 |  |
 | http://snomed.info/sct | 224297003 |  |
 | http://snomed.info/sct | 473461003 |  |
 

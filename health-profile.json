@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T10:16:57.955189+00:00",
+  "generated": "2026-11-16T10:17:36.651066+00:00",
   "scope": "combined",
-  "commit": "2cd4356926e669be9555679f97806e4558bd4810",
+  "commit": "0bce3eb4caa045e8c6248854783fe66911906200",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -10560,12 +10560,13 @@
                 "key": "education-level-isced",
                 "dataset-scope": "Minimalset",
                 "title": "Höchste abgeschlossene Schulbildung (ISCED-Level)",
-                "description": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
                 "category": "sociodemographic-data",
                 "dimension": "socio-economic-status",
+                "description": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+                "citizen-info": "Nicht erforderlich",
+                "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Nicht erforderlich",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -10597,11 +10598,6 @@
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "342271000000107",
-                        "display": "Educated to primary level"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
                         "code": "224297003",
                         "display": "Educated to secondary school level"
                       },
@@ -10625,45 +10621,52 @@
                 "key": "education-level-isced",
                 "dataset-scope": "Minimalset",
                 "title": "Highest completed education (ISCED level)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "socio-economic-status",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
-                    "data-type": "",
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
                     "range-of-vales": "nicht zutreffend",
                     "acquisition-frequency": "einmalig",
                     "recommended-monitoring-frequency": "einmalig (oder 1x im Jahr; falls sich noch was ändert)",
+                    "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
                       }
                     ],
                     "terminology-codes": [
                       {
                         "system": "http://loinc.org",
-                        "code": "82589-3"
+                        "code": "82589-3",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "342271000000107"
+                        "code": "224297003",
+                        "display": ""
                       },
                       {
                         "system": "http://snomed.info/sct",
-                        "code": "224297003"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "473461003"
+                        "code": "473461003",
+                        "display": ""
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-education-observation.html",
                     "pn-fhir-ig-status": "draft",
-                    "vis-status": "draft"
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
                   }
                 ],
                 "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."

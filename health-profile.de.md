@@ -2733,7 +2733,6 @@ Nicht erforderlich
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 82589-3 | Highest level of education |
-| http://snomed.info/sct | 342271000000107 | Educated to primary level |
 | http://snomed.info/sct | 224297003 | Educated to secondary school level |
 | http://snomed.info/sct | 473461003 | Educated to high school level |
 
