@@ -2598,9 +2598,6 @@ Nicht erforderlich
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://snomed.info/sct | 33791000087105 | Identifies as nonbinary gender |
-| http://snomed.info/sct | 911581000124109 | Identifies as transgender woman |
-| http://snomed.info/sct | 911601000124109 | Identifies as transgender man |
-| http://snomed.info/sct | 551641000124102 | Identifies as cisgender |
 
 ### Wohnform (Eigenheim, Mietwohnung, Sonstiges)
 
@@ -2895,6 +2892,7 @@ _Änderungen seit Version v0.0.21-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-16 | felixrath |
 | 2026-11-16 | shaide79 |
 | 2026-11-12 | shaide79 |
 | 2026-11-08 | felixrath |

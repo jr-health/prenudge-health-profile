@@ -1,11 +1,15 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T08:19:55.591397+00:00",
+  "generated": "2026-11-16T10:12:24.917476+00:00",
   "scope": "combined",
-  "commit": "e73405bacd2994339a535374e1d2a579f50eff1a",
+  "commit": "5b31509be9ecd5389d6df013887f72b4e9d005a1",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
+      {
+        "date": "2026-11-16",
+        "author": "felixrath"
+      },
       {
         "date": "2026-11-16",
         "author": "shaide79"
@@ -9814,12 +9818,13 @@
                 "key": "gender",
                 "dataset-scope": "Minimalset",
                 "title": "Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)",
-                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\nDefinition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
                 "category": "sociodemographic-data",
                 "dimension": "gender",
+                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\nDefinition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+                "citizen-info": "Nicht erforderlich",
+                "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
-                "citizen-info": "Nicht erforderlich",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -9848,21 +9853,6 @@
                         "system": "http://snomed.info/sct",
                         "code": "33791000087105",
                         "display": "Identifies as nonbinary gender"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "911581000124109",
-                        "display": "Identifies as transgender woman"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "911601000124109",
-                        "display": "Identifies as transgender man"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "551641000124102",
-                        "display": "Identifies as cisgender"
                       }
                     ],
                     "pn-fhir-ig-link": "https://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4/StructureDefinition-at-aps-patient.html",
@@ -9879,12 +9869,13 @@
                 "key": "gender",
                 "dataset-scope": "Minimalset",
                 "title": "Gender (female, male, inter, diverse, open, no answer)",
-                "description": "",
                 "category": "sociodemographic-data",
                 "dimension": "gender",
+                "description": "",
+                "citizen-info": "",
+                "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "citizen-info": "",
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
@@ -9898,6 +9889,7 @@
                     "norms": [],
                     "sources": [
                       {
+                        "source-description": "",
                         "system": "Nicht anwendbar"
                       }
                     ],
@@ -9905,21 +9897,6 @@
                       {
                         "system": "http://snomed.info/sct",
                         "code": "33791000087105",
-                        "display": ""
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "911581000124109",
-                        "display": ""
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "911601000124109",
-                        "display": ""
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "551641000124102",
                         "display": ""
                       }
                     ],

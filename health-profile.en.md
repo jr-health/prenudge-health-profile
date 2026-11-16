@@ -1534,9 +1534,6 @@ max: 120
 | System | Code | Display |
 |---|---|---|
 | http://snomed.info/sct | 33791000087105 |  |
-| http://snomed.info/sct | 911581000124109 |  |
-| http://snomed.info/sct | 911601000124109 |  |
-| http://snomed.info/sct | 551641000124102 |  |
 
 ### Housing type (owned home, rented apartment, other)
 
@@ -1760,6 +1757,7 @@ _Changes since version v0.0.21-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-16 | felixrath |
 | 2026-11-16 | shaide79 |
 | 2026-11-12 | shaide79 |
 | 2026-11-08 | felixrath |
