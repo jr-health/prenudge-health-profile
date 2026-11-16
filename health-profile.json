@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T13:47:06.744322+00:00",
+  "generated": "2026-11-16T13:48:12.389863+00:00",
   "scope": "combined",
-  "commit": "717de838f24118759256f8909c1999bf7b5d2f9e",
+  "commit": "b1e19a7304004a9d8a0a54830e76c08bed79ff7e",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -1956,7 +1956,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-                    "specific-questions": "**DH1 „Wie oft essen Sie Obst? Nicht gemeint sind hier Obstsäfte.“**\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH2: Wie viele Portionen Obst essen Sie pro Tag?** Eine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: \\_\\_\\_ Portionen/Tag\n\n**DH3: Wie oft essen Sie Gemüse oder Salat?** Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse.\nNicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies.\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH4: Wie viele Portionen Gemüse oder Salat essen Sie pro Tag? Eine Portion entspricht einer Handvoll Gemüse oder Salat. E**ine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: \\_\\_\\_ Portionen/Tag",
+                    "specific-questions": "**DH3: Wie oft essen Sie Gemüse oder Salat?** Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse.\nNicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies.\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH4: Wie viele Portionen Gemüse oder Salat essen Sie pro Tag? Eine Portion entspricht einer Handvoll Gemüse oder Salat. E**ine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: \\_\\_\\_ Portionen/Tag",
                     "unit": "Portionen Obst und Gemüse pro Tag",
                     "data-format": "DH1 und DH3: Kategoriell\nDH2 und DH4: Angabe Protionen (ganze Zahl)",
                     "data-type": "",
@@ -2019,7 +2019,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Obst und Gemüse splitten\n\nBei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
               },
               "en": {
                 "template": "observation",
@@ -2143,7 +2143,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Obst und Gemüse splitten\n\nBei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
+                "discussion": "Bei allen Ernährungsfragen von der letzten Woche.\n\nBild das beim GDA und in der Citizen-App entstehen soll, soll der Ernährungspyramide entsprechen."
               }
             },
             {
