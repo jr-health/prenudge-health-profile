@@ -719,6 +719,12 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 
 ### Obst (Portionen/Tag)
 
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
 **Population:** erwachsene Allgemeinbevölkerung

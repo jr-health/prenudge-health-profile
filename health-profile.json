@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T13:48:12.389863+00:00",
+  "generated": "2026-11-16T13:49:20.147605+00:00",
   "scope": "combined",
-  "commit": "b1e19a7304004a9d8a0a54830e76c08bed79ff7e",
+  "commit": "0499ee3b80467af656fdc43a95fb744762f89294",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -2545,8 +2545,29 @@
                 "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "measurement-instrument": [],
-                "discussion": ""
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "device": "",
+                    "specific-questions": "**DH1 „Wie oft essen Sie Obst? Nicht gemeint sind hier Obstsäfte.“**\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH2: Wie viele Portionen Obst essen Sie pro Tag?** Eine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: \\_\\_\\_ Portionen/Tag",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "scoring-algorithm": "",
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Theresa kopiert noch weiter"
               },
               "en": {
                 "template": "observation",
@@ -2560,8 +2581,27 @@
                 "verified-health-links": [],
                 "population": "",
                 "disease-association": [],
-                "measurement-instrument": [],
-                "discussion": ""
+                "measurement-instrument": [
+                  {
+                    "source-type": "Questionnaire · manual (self-reported)",
+                    "specific-questions": "",
+                    "unit": "",
+                    "data-format": "",
+                    "data-type": "",
+                    "range-of-vales": "",
+                    "acquisition-frequency": "",
+                    "recommended-monitoring-frequency": "",
+                    "norms": [],
+                    "sources": [],
+                    "terminology-codes": [],
+                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-status": "draft",
+                    "vis-status": "draft",
+                    "qualification": "",
+                    "app-providers": []
+                  }
+                ],
+                "discussion": "Theresa kopiert noch weiter"
               }
             },
             {

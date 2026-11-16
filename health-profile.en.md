@@ -442,6 +442,12 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 
 ### Obst
 
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
 ### Oils, fats, nuts, and seeds (portions/day)
 
 #### Measurement Instruments
