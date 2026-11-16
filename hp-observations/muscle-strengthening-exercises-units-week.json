@@ -34,7 +34,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
-        "specific-questions": "EHIS_PAQ (Q8)\nQ8(=PE8 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie körperliche Aktivitäten aus, die speziell für den Aufbau oder die Kräftigung der Muskulatur gedacht sind? Zum Beispiel Krafttraining oder Kräftigungsübungen (mit Gewichten, Thera-Band, eigenem Körpergewicht), Kniebeugen, Liegestützen oder Sit-ups.\nAntwortmöglichkeiten: 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche",
+        "specific-questions": "EHIS_PAQ (Q8)\nQ8(=PE8 ATHIS): An wie vielen Tagen in einer typischen Woche üben Sie körperliche Aktivitäten aus, die speziell für den Aufbau oder die Kräftigung der Muskulatur gedacht sind? Zum Beispiel Krafttraining oder Kräftigungsübungen (mit Gewichten, Thera-Band, eigenem Körpergewicht), Kniebeugen, Liegestützen oder Sit-ups.\nAntwortmöglichkeiten: 1 Tag pro Woche; 2 Tage pro Woche; 3 Tage pro Woche; 4 Tage pro Woche; 5 Tage pro Woche; 6 Tage pro Woche; 7 Tage pro Woche; nie oder seltener als einmal pro Woche;",
         "unit": "Anzahl der Tage (pro Woche)",
         "data-format": "kategoriell (7 Antwortmöglichkeiten)",
         "data-type": "",
