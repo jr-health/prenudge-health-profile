@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T14:18:13.087675+00:00",
+  "generated": "2026-11-16T14:24:37.868433+00:00",
   "scope": "combined",
-  "commit": "dc953402be3a98adcdeea5825d7306680f030f19",
+  "commit": "1374ed6ae4b148d9396bd7e51b06f6d464d4f394",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -5116,8 +5116,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "PHQ-2; “Whooley Questions” (BÄK & KBV & AWMF, 2022)",
-                    "specific-questions": "PHQ-2; „Whooley Questions“\n\n1. Fühlten Sie sich im letzten Monat häufig niedergeschlagen, traurig bedrückt oder hoffnungslos?\nAntwortmöglichkeiten: 1) Ja, 2) Nein\n2. Hatten Sie im letzten Monat deutlich weniger Lust und Freude an Dingen, die Sie sonst gerne tun?\nAntwortmöglichkeiten: 1) Ja, 2) Nein",
+                    "device": "“Whooley Questions” (BÄK & KBV & AWMF, 2022)",
+                    "specific-questions": "„Whooley Questions“\n\n1. Fühlten Sie sich im letzten Monat häufig niedergeschlagen, traurig bedrückt oder hoffnungslos?\nAntwortmöglichkeiten: 1) Ja, 2) Nein\n2. Hatten Sie im letzten Monat deutlich weniger Lust und Freude an Dingen, die Sie sonst gerne tun?\nAntwortmöglichkeiten: 1) Ja, 2) Nein",
                     "unit": "Selbstbericht über emotionale Belastung",
                     "data-format": "Dichotome Antwortmöglichkeit (nominal)",
                     "data-type": "",
