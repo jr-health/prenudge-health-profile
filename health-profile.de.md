@@ -590,7 +590,6 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 | http://snomed.info/sct | 226452008 | Fruit intake |
 | http://snomed.info/sct | 226448008 | Vegetable intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
-| http://snomed.info/sct | 301961000000107 | Five or more portions of fruit and vegetables per day |
 
 ### Hülsenfrüchte (Portionen/Woche)
 

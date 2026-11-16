@@ -370,7 +370,6 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 | http://snomed.info/sct | 226452008 |  |
 | http://snomed.info/sct | 226448008 |  |
 | http://snomed.info/sct | 364395008 |  |
-| http://snomed.info/sct | 301961000000107 |  |
 
 ### Legumes (portions/week)
 
