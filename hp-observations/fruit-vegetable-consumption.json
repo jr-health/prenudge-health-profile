@@ -1,9 +1,9 @@
 {
   "de": {
     "template": "observation",
-    "key": "fruit-vegetable-consumption",
+    "key": "vegetable-consumption",
     "dataset-scope": "Minimalset",
-    "title": "Gemüse- und Obstkonsum (Portionen/Tag)",
+    "title": "Gemüsekonsum (Portionen/Tag)",
     "category": "nutrition",
     "dimension": "dietary-pattern",
     "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse abgefragt.\nDefinition:\n„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\nEmpfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
@@ -131,9 +131,9 @@
   },
   "en": {
     "template": "observation",
-    "key": "fruit-vegetable-consumption",
+    "key": "vegetable-consumption",
     "dataset-scope": "Minimalset",
-    "title": "Fruit and vegetable consumption (portions/day)",
+    "title": "Vegetable consumption (portions/day)",
     "category": "nutrition",
     "dimension": "dietary-pattern",
     "description": "",
