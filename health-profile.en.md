@@ -1435,7 +1435,6 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 | http://snomed.info/sct | 35371000087109 |  |
 | http://snomed.info/sct | 266919005 |  |
 | http://snomed.info/sct | 221000119102 |  |
-| http://snomed.info/sct | 598111000000509 |  |
 
 ### attempts to give up
 

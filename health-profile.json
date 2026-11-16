@@ -1,8 +1,8 @@
 {
   "version": "0.0.21-test",
-  "generated": "2026-11-16T10:12:24.917476+00:00",
+  "generated": "2026-11-16T10:13:53.651591+00:00",
   "scope": "combined",
-  "commit": "5b31509be9ecd5389d6df013887f72b4e9d005a1",
+  "commit": "8c8514b4a4afa23f709f48ac7f17efbb6b5d056a",
   "activity": {
     "since": "v0.0.21-test",
     "entries": [
@@ -9139,11 +9139,6 @@
                         "system": "http://snomed.info/sct",
                         "code": "221000119102",
                         "display": "Never smoked any substance"
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "598111000000509",
-                        "display": "Nicotine pouch (product)"
                       }
                     ],
                     "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html",
@@ -9275,11 +9270,6 @@
                       {
                         "system": "http://snomed.info/sct",
                         "code": "221000119102",
-                        "display": ""
-                      },
-                      {
-                        "system": "http://snomed.info/sct",
-                        "code": "598111000000509",
                         "display": ""
                       }
                     ],

@@ -2328,7 +2328,6 @@ Wenn Raucher:in/Ex-Raucher:in zusätzliche Erhebung von Raucherjahren und Anzahl
 | http://snomed.info/sct | 35371000087109 | Uses e-cigarette occasionally |
 | http://snomed.info/sct | 266919005 | Never smoked tobacco |
 | http://snomed.info/sct | 221000119102 | Never smoked any substance |
-| http://snomed.info/sct | 598111000000509 | Nicotine pouch (product) |
 
 ### Entwöhnungsversuche (Anzahl/Jahr)
 
