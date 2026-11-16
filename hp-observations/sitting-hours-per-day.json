@@ -64,11 +64,6 @@
             "system": "http://loinc.org",
             "code": "87705-0",
             "display": "Sedentary activity 24 hour"
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "415510005",
-            "display": "Sedentary lifestyle (finding)"
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-EhisPaqSittingHoursQuestionnaire.html",
@@ -168,11 +163,6 @@
           {
             "system": "http://loinc.org",
             "code": "87705-0",
-            "display": ""
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "415510005",
             "display": ""
           }
         ],
