@@ -2564,14 +2564,7 @@ max: 120
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.
-Definition:
-weiblich
-männlich
-inter
-divers
-offen
-keine Angabe (Gleichbehandlungsanwaltschaft, 2020)
-Empfehlung: nicht anwendbar
+Antwortmöglichkeiten: weiblich, männlich, inter, divers, offen, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
