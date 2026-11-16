@@ -126,11 +126,6 @@
             "system": "http://snomed.info/sct",
             "code": "221000119102",
             "display": "Never smoked any substance"
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "598111000000509",
-            "display": "Nicotine pouch (product)"
           }
         ],
         "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-smokingstatus-observation.html",
@@ -262,11 +257,6 @@
           {
             "system": "http://snomed.info/sct",
             "code": "221000119102",
-            "display": ""
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "598111000000509",
             "display": ""
           }
         ],
