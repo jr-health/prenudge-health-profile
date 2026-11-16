@@ -1739,10 +1739,7 @@ Frage 2) 1 oder 2
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** Work-SoC:
-min: 9 (pro Item maximal 7)
-max: 63
-WAI:
+- **Range of Values:** WAI:
 min: 7
 max: 49
 - **Acquisition Frequency:** alle 6 Monate
@@ -1752,7 +1749,7 @@ max: 49
 - **Sunburst Chart Status:** draft
 
 **Sources:**
-- Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998
+- WAI: Tuomi et al 1998
 
 ---
 

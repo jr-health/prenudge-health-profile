@@ -2859,10 +2859,7 @@ Laienhafte Information: „Arbeits(bewältigungs)fähigkeit beschreibt, inwiewei
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Workability (Kategorien-Score)
 - **Datenformat:** Summenscore (ordinal)
-- **Wertebereich:** Work-SoC:
-min: 9 (pro Item maximal 7)
-max: 63
-WAI:
+- **Wertebereich:** WAI:
 min: 7
 max: 49
 - **Erfassungsfrequenz:** alle 6 Monate
@@ -2872,22 +2869,17 @@ max: 49
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ??? hoch-mittel-niedrig: Punkte-Score raussuchen
-WAI:
+- WAI:
 Kritisch (Arbeitsfähigkeit wiederherstellen): 7-27 Punkte
 Mäßig (Arbeitsfähigkeit verbessern): 28-36 Punkte
 Gut (Arbeitsfähigkeit unterstützen): 37-43 Punkte
 Sehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte
 
-**Scoring-Algorithmus:** Work-SoC (3 Faktoren):
-Handhabbarkeit
-Sinnhaftigkeit
-Verstehbarkeit
-WAI:
+**Scoring-Algorithmus:** WAI:
 Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 
 **Quellen:**
-- [Subjektiv – Work-SoC Questionnaire und WAI](Work-SoC Questionnaire: DOI: https://doi.org/10.4102/sajip.v39i1.1111 — WAI: Tuomi et al 1998)
+- [Subjektiv – Work-SoC Questionnaire und WAI](WAI: Tuomi et al 1998)
 
 ---
 
