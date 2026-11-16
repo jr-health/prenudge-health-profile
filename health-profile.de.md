@@ -19,7 +19,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-16_
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
   - [Eier (Portionen/Woche)](#eier-portionenwoche)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
-  - [Gemüse- und Obstkonsum (Portionen/Tag)](#gemuse--und-obstkonsum-portionentag)
+  - [Gemüsekonsum (Portionen/Tag)](#gemusekonsum-portionentag)
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen](#alkoholfreie-ungesusste-getranke-glasertag---osterreichische-ernahrungsempfehlungen)
@@ -531,7 +531,7 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 | http://snomed.info/sct | 226441002 | Fish intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
 
-### Gemüse- und Obstkonsum (Portionen/Tag)
+### Gemüsekonsum (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 

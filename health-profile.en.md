@@ -19,7 +19,7 @@ _Version: 0.0.21-test | Generated: 2026-11-16_
   - [Dairy products (portions/day)](#dairy-products-portionsday)
   - [eggs](#eggs)
   - [Fish (portions/week)](#fish-portionsweek)
-  - [Fruit and vegetable consumption (portions/day)](#fruit-and-vegetable-consumption-portionsday)
+  - [Vegetable consumption (portions/day)](#vegetable-consumption-portionsday)
   - [Legumes (portions/week)](#legumes-portionsweek)
   - [Meat (portions/week)](#meat-portionsweek)
   - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
@@ -332,7 +332,7 @@ Homepage geht grad nicht soll von dem kopiert werden.
 | http://snomed.info/sct | 226441002 | Fish intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
 
-### Fruit and vegetable consumption (portions/day)
+### Vegetable consumption (portions/day)
 
 **Verified Health Information:**
 - [https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
