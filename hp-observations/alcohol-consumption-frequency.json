@@ -104,7 +104,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-        "specific-questions": "ATHIS\nAL1: Wie oft haben Sie in den letzten zwölf Monaten Alkohol getrunken?\nAntwortmöglichkeit: 1) Täglich oder fast jeden Tag im letzten Jahr; 2) An 5 bis 6 Tagen pro Woche; 3) An 3 bis 4 Tagen pro Woche; 4) An 1 bis 2 Tagen pro Woche; 5) An 2 bis 3 Tagen pro Monat; 6) Einmal pro Monat; 7) Weniger als einmal pro Monat; 8) Nicht in den letzten 12 Monaten, da ich keinen Alkohol mehr trinke; 9) Nie oder lediglich einige wenige Schlucke in meinem Leben",
+        "specific-questions": "ATHIS\nAL1: Wie oft haben Sie in den letzten zwölf Monaten Alkohol getrunken?\nAntwortmöglichkeit: 1) Täglich oder fast jeden Tag im letzten Jahr; 2) An 5 bis 6 Tagen pro Woche; 3) An 3 bis 4 Tagen pro Woche; 4) An 1 bis 2 Tagen pro Woche; 5) An 2 bis 3 Tagen pro Monat; 6) Einmal pro Monat; 7) Weniger als einmal pro Monat; 8) Nicht in den letzten 12 Monaten, da ich keinen Alkohol mehr trinke; 9) Nie oder lediglich einige wenige Schlucke in meinem Leben\n\nWie viele Getränke trinken Sie im Durchschnitt an einem solchen Tag, wenn Sie Alkohol trinken? 1 Glas = 0,3 l Bier, 1/8 l Wein, 4 cl Spirituosen\n\nAntwortmöglichkeit: 16 oder mehr Getränke/Gläser pro Tag; 10-15 Getränke/Gläser pro Tag; 6 - 9 Getränke/Gläser pro Tag; 4 - 5 Getränke/Gläser pro Tag; 3 Getränke/Gläser pro Tag; 2 Getränke/Gläser pro Tag; 1 Getränk/Glas pro Tag;0 Getränk/Glas pro Tag",
         "unit": "Häufigkeit des Alkoholkonsums (in den letzten 12 Monaten)\nKonsummenge (pro Tag und/oder Woche)",
         "data-format": "Kategoriell (9 Antwortmöglichkeiten)",
         "data-type": "",
