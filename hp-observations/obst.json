@@ -1,0 +1,32 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "obst",
+    "dataset-scope": "Minimalset",
+    "title": "Obst (Portionen/Tag)",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "obst",
+    "dataset-scope": "Minimalset",
+    "title": "Obst",
+    "category": "nutrition",
+    "dimension": "dietary-pattern",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [],
+    "discussion": ""
+  }
+}
