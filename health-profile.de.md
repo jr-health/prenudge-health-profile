@@ -28,7 +28,7 @@ _Version: 0.0.21-test | Generiert: 2026-11-16_
   - [Zucker- fettes und salzreiche Lebensmittel (Portionen/Woche)](#zucker--fettes-und-salzreiche-lebensmittel-portionenwoche)
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
-  - [Alltagsaktivität (Schritte/Tag)](#alltagsaktivitat-schrittetag)
+  - [Gehen (Schritte/Tag)](#gehen-schrittetag)
   - [Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)](#beweglichkeits--und-gleichgewichtstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
@@ -945,7 +945,7 @@ Antwortmöglichkeit:  \_\_\_ Stunden und \_\_\_ Minuten pro Woche
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
 
-### Alltagsaktivität (Schritte/Tag)
+### Gehen (Schritte/Tag)
 
 **Beschreibung für Fachpersonal:**
 
