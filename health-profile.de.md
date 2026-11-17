@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.0.21-test | Generiert: 2026-11-16_
+_Version: 0.1.22-test | Generiert: 2026-11-17_
 
 ---
 
@@ -75,7 +75,6 @@ _Version: 0.0.21-test | Generiert: 2026-11-16_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2875,17 +2874,3 @@ Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 - [Subjektiv – Work-SoC Questionnaire und WAI](WAI: Tuomi et al 1998)
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.0.21-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-11-16 | shaide79 |
-| 2026-11-16 | felixrath |
-| 2026-11-12 | shaide79 |
-| 2026-11-08 | felixrath |
-| 2026-11-02 | felixrath |
-| 2026-11-02 | shaide79 |
-| 2026-10-22 | Theresa Weitlaner |

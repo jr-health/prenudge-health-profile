@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.0.21-test | Generated: 2026-11-16_
+_Version: 0.1.22-test | Generated: 2026-11-17_
 
 ---
 
@@ -75,7 +75,6 @@ _Version: 0.0.21-test | Generated: 2026-11-16_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
-- [Edit History](#edit-history)
 
 ---
 
@@ -1752,17 +1751,3 @@ max: 49
 - WAI: Tuomi et al 1998
 
 ---
-
-## Edit History
-
-_Changes since version v0.0.21-test:_
-
-| Date | Author |
-|---|---|
-| 2026-11-16 | shaide79 |
-| 2026-11-16 | felixrath |
-| 2026-11-12 | shaide79 |
-| 2026-11-08 | felixrath |
-| 2026-11-02 | felixrath |
-| 2026-11-02 | shaide79 |
-| 2026-10-22 | Theresa Weitlaner |
