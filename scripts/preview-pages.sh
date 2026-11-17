@@ -50,7 +50,20 @@ echo "  Latest release: $TAG"
 
 ASSET_URL=$(printf '%s' "$RELEASE_JSON" | grep -o '"browser_download_url": *"[^"]*health-profile\.json"' | cut -d'"' -f4)
 curl -sfL "$ASSET_URL" -o "$OUT/health-profile.json"
-GENERATED=$(grep -o '"generated": *"[^"]*"' "$OUT/health-profile.json" | head -1 | cut -d'"' -f4 | cut -c1-10)
+# The date in the download links has to be the date in the ASSET FILENAMES, which is
+# NOT health-profile.json's ".generated": release.yml builds the filenames from the
+# released commit's date (git log -1 --date=short), while ".generated" is the release
+# build's timestamp. They only agree when the release is cut on the same UTC day as
+# the last commit to main. Mirrors the same fix in pages.yml - keep the two in sync.
+ASSET_NAME=$(printf '%s' "$RELEASE_JSON" \
+  | grep -o '"name": *"health-profile-v[^"]*\.de\.docx"' | cut -d'"' -f4 \
+  | grep -E -- '-[0-9]{4}-[0-9]{2}-[0-9]{2}\.de\.docx$' | head -1 || true)
+if [ -n "$ASSET_NAME" ]; then
+  GENERATED=$(printf '%s' "$ASSET_NAME" | sed -E 's/.*-([0-9]{4}-[0-9]{2}-[0-9]{2})\.de\.docx$/\1/')
+else
+  echo "  WARNING: no dated .docx asset on $TAG; falling back to health-profile.json .generated - download links may 404." >&2
+  GENERATED=$(grep -o '"generated": *"[^"]*"' "$OUT/health-profile.json" | head -1 | cut -d'"' -f4 | cut -c1-10)
+fi
 echo "  Generated: $GENERATED"
 
 echo "Pinning render/admin/media to the released commit ($TAG)..."

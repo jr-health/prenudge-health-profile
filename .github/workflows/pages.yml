@@ -94,8 +94,23 @@ jobs:
           # release asset is the only place that has the version/date matching this release.
           gh release download "v${RELEASE_VERSION}" --repo ${{ github.repository }} \
             --pattern health-profile.json --dir _site --clobber
-
-          GENERATED=$(jq -r '.generated // ""' _site/health-profile.json | cut -c1-10)
+          # The date in the download links must be the date in the ASSET FILENAMES, and
+          # those two have different sources: release.yml derives the filename date from
+          # the released *commit* (git log -1 --date=short), while health-profile.json's
+          # ".generated" is the timestamp of the release build. They only agree when the
+          # release is started on the same UTC day as the last commit to main. v0.1.22-test
+          # (released 2026-11-17 from a 2026-11-16 commit) was the first release where they
+          # didn't, and every Downloads link 404'd. So read the date back off a real asset
+          # name instead - then the links can only ever point at files that exist.
+          ASSET=$(gh release view "v${RELEASE_VERSION}" --repo ${{ github.repository }} \
+            --json assets --jq '.assets[].name' \
+            | grep -E '^health-profile-v.*-[0-9]{4}-[0-9]{2}-[0-9]{2}\.de\.docx$' | head -n1)
+          if [ -n "$ASSET" ]; then
+            GENERATED=$(printf '%s' "$ASSET" | sed -E 's/.*-([0-9]{4}-[0-9]{2}-[0-9]{2})\.de\.docx$/\1/')
+          else
+            echo "::warning::No dated .docx asset on v${RELEASE_VERSION}; falling back to health-profile.json .generated - download links may 404."
+            GENERATED=$(jq -r '.generated // ""' _site/health-profile.json | cut -c1-10)
+          fi
 
           python scripts/render_index.py \
             --version "$RELEASE_VERSION" \
