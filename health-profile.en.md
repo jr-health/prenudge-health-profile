@@ -75,6 +75,7 @@ _Version: 0.1.22-test | Generated: 2026-11-17_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
+- [Edit History](#edit-history)
 
 ---
 
@@ -1751,3 +1752,11 @@ max: 49
 - WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.22-test:_
+
+| Date | Author |
+|---|---|
+| 2026-11-17 | Theresa.Weitlaner |
