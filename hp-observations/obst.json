@@ -39,7 +39,7 @@
     "template": "observation",
     "key": "fruit-consumption",
     "dataset-scope": "Minimalset",
-    "title": "Obst",
+    "title": "Fruit consumption (portions/day)",
     "category": "nutrition",
     "dimension": "dietary-pattern",
     "description": "",
