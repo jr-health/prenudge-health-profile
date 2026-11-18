@@ -1,11 +1,15 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-17T15:13:23.514401+00:00",
+  "generated": "2026-11-18T07:11:39.042157+00:00",
   "scope": "combined",
-  "commit": "6d3a09a793937788d2333e635b15bf4d4ae5179d",
+  "commit": "e465dc9acc16178ea94eb7d889cfe50e94851e4d",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
+      {
+        "date": "2026-11-18",
+        "author": "Philip Stampfer"
+      },
       {
         "date": "2026-11-17",
         "author": "Theresa.Weitlaner"
@@ -2511,7 +2515,7 @@
             {
               "de": {
                 "template": "observation",
-                "key": "obst",
+                "key": "fruit-consumption",
                 "dataset-scope": "Minimalset",
                 "title": "Obst (Portionen/Tag)",
                 "category": "nutrition",
@@ -2547,7 +2551,7 @@
               },
               "en": {
                 "template": "observation",
-                "key": "obst",
+                "key": "fruit-consumption",
                 "dataset-scope": "Minimalset",
                 "title": "Obst",
                 "category": "nutrition",
