@@ -65,15 +65,15 @@
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
         "specific-questions": "**DH3: Wie oft essen Sie Gemüse oder Salat?** Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse.\nNicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies.\nAntwortmöglichkeiten: 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH4: Wie viele Portionen Gemüse oder Salat essen Sie pro Tag? Eine Portion entspricht einer Handvoll Gemüse oder Salat. E**ine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke\nBei halben Portionen aufrunden.\nAntwortmöglichkeiten: \\_\\_\\_ Portionen/Tag",
-        "unit": "Portionen Obst und Gemüse pro Tag",
+        "unit": "Portionen Gemüse pro Tag",
         "data-format": "DH1 und DH3: Kategoriell\nDH2 und DH4: Angabe Protionen (ganze Zahl)",
         "data-type": "",
-        "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+        "range-of-vales": "DH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [
           {
-            "specific-norm": "≥ 5 Portionen/Tag (3 Portionen Gemüse; 2 Portionen Obst Tag) (AGES, n.d.)\nMan könnte die durchschnittlichen Portionen pro Tag berechnen."
+            "specific-norm": "≥ 3 Portionen Gemüse/Tag (AGES, n.d.)\nMan könnte die durchschnittlichen Portionen pro Tag berechnen."
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
@@ -90,24 +90,9 @@
             "display": "Vegetable servings 24 hour Estimated"
           },
           {
-            "system": "http://loinc.org",
-            "code": "80457-5",
-            "display": "Fruit servings 24 hour Estimated"
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "787758000",
-            "display": "Estimated intake of fruit servings in 24 hours"
-          },
-          {
             "system": "http://snomed.info/sct",
             "code": "789334009",
             "display": "Estimated intake of vegetable servings in 24 hours"
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "226452008",
-            "display": "Fruit intake"
           },
           {
             "system": "http://snomed.info/sct",
@@ -197,7 +182,7 @@
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "DH1: kategoriell (5 Auswahlmöglichkeiten)\nDH2: 1-99 (bei halben Portionen aufrunden)\nDH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
+        "range-of-vales": "DH3: kategoriell (5 Auswahlmöglichkeiten)\nDH4: 1-99 (bei halben Portionen aufrunden)",
         "acquisition-frequency": "1x pro Jahr",
         "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
@@ -214,23 +199,8 @@
             "display": ""
           },
           {
-            "system": "http://loinc.org",
-            "code": "80457-5",
-            "display": ""
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "787758000",
-            "display": ""
-          },
-          {
             "system": "http://snomed.info/sct",
             "code": "789334009",
-            "display": ""
-          },
-          {
-            "system": "http://snomed.info/sct",
-            "code": "226452008",
             "display": ""
           },
           {
