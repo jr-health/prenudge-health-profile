@@ -1,7 +1,7 @@
 {
   "de": {
     "template": "observation",
-    "key": "obst",
+    "key": "fruit-consumption",
     "dataset-scope": "Minimalset",
     "title": "Obst (Portionen/Tag)",
     "category": "nutrition",
@@ -37,7 +37,7 @@
   },
   "en": {
     "template": "observation",
-    "key": "obst",
+    "key": "fruit-consumption",
     "dataset-scope": "Minimalset",
     "title": "Obst",
     "category": "nutrition",
