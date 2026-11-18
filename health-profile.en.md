@@ -437,11 +437,30 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 
 ### Fruit consumption (portions/day)
 
+**Verified Health Information:**
+- []()
+
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** DH1: kategoriell (5 Auswahlmöglichkeiten)
+DH2: 1-99 (bei halben Portionen aufrunden)
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://loinc.org | 80457-5 |  |
+| http://snomed.info/sct | 787758000 |  |
+| http://snomed.info/sct | 226452008 |  |
+| http://snomed.info/sct | 364395008 |  |
 
 ### Oils, fats, nuts, and seeds (portions/day)
 

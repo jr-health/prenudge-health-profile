@@ -714,11 +714,48 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 
 ### Obst (Portionen/Tag)
 
+**Beschreibung für Fachpersonal:**
+
+„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
+Empfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
+
+**Verifizierte Gesundheitsinformation:**
+- [•	Ernährungsempfehlungen: Fleisch und Fisch •	DGEM-Leitlinien •	AWMF-Leitlinien Ernährungsmedizin •	Österreichische Ernährungspyramide •	Rezepte zum Nachkochen •	Fragen und Antworten rund um die Ernährungsempfehlungen •	FGÖ-Ernährungsbroschüre 2025 •	Gesunde Ernährung (Gesundheitsfonds Steiermark)]()
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Datenformat:** DH1: Kategoriell DH2: Angabe Protionen (ganze Zahl)
+- **Wertebereich:** DH1: kategoriell (5 Auswahlmöglichkeiten)
+DH2: 1-99 (bei halben Portionen aufrunden)
+- **Erfassungsfrequenz:** 1x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- 2 Portionen Obst Tag (AGES, n.d.)
+Man könnte die durchschnittlichen Portionen pro Tag berechnen.
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [Subjektiv – ATHIS: Gemüse und Obst](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://loinc.org | 80457-5 | Fruit servings 24 hour Estimated |
+| http://snomed.info/sct | 787758000 | Estimated intake of fruit servings in 24 hours |
+| http://snomed.info/sct | 226452008 | Fruit intake |
+| http://snomed.info/sct | 364395008 | Dietary intake |
 
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
