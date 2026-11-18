@@ -23,7 +23,7 @@ _Version: 0.1.22-test | Generated: 2026-11-18_
   - [Legumes (portions/week)](#legumes-portionsweek)
   - [Meat (portions/week)](#meat-portionsweek)
   - [Non-alcoholic, unsweetened drinks (glasses/day)](#non-alcoholic-unsweetened-drinks-glassesday)
-  - [Obst](#obst)
+  - [Fruit consumption (portions/day)](#fruit-consumption-portionsday)
   - [Oils, fats, nuts, and seeds (portions/day)](#oils-fats-nuts-and-seeds-portionsday)
   - [Consumption of sugary and salty foods (portions/week)](#consumption-of-sugary-and-salty-foods-portionsweek)
 - [Physical Activity](#physical-activity)
@@ -440,7 +440,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 | http://snomed.info/sct | 226354008 | Water intake |
 | http://snomed.info/sct | 251992000 | Fluid intake |
 
-### Obst
+### Fruit consumption (portions/day)
 
 #### Measurement Instruments
 

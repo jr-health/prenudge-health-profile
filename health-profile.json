@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-18T07:11:39.042157+00:00",
+  "generated": "2026-11-18T07:21:44.684952+00:00",
   "scope": "combined",
-  "commit": "e465dc9acc16178ea94eb7d889cfe50e94851e4d",
+  "commit": "502959fa0336c4176f4e1409d486d47d8c29853d",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -2553,7 +2553,7 @@
                 "template": "observation",
                 "key": "fruit-consumption",
                 "dataset-scope": "Minimalset",
-                "title": "Obst",
+                "title": "Fruit consumption (portions/day)",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
                 "description": "",
