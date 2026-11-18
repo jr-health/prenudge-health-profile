@@ -559,11 +559,9 @@ Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung träg
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Einheit:** Portionen Obst und Gemüse pro Tag
+- **Einheit:** Portionen Gemüse pro Tag
 - **Datenformat:** DH1 und DH3: Kategoriell DH2 und DH4: Angabe Protionen (ganze Zahl)
-- **Wertebereich:** DH1: kategoriell (5 Auswahlmöglichkeiten)
-DH2: 1-99 (bei halben Portionen aufrunden)
-DH3: kategoriell (5 Auswahlmöglichkeiten)
+- **Wertebereich:** DH3: kategoriell (5 Auswahlmöglichkeiten)
 DH4: 1-99 (bei halben Portionen aufrunden)
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
@@ -572,7 +570,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ≥ 5 Portionen/Tag (3 Portionen Gemüse; 2 Portionen Obst Tag) (AGES, n.d.)
+- ≥ 3 Portionen Gemüse/Tag (AGES, n.d.)
 Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 **Scoring-Algorithmus:** nicht zutreffend
@@ -585,10 +583,7 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 80459-1 | Vegetable servings 24 hour Estimated |
-| http://loinc.org | 80457-5 | Fruit servings 24 hour Estimated |
-| http://snomed.info/sct | 787758000 | Estimated intake of fruit servings in 24 hours |
 | http://snomed.info/sct | 789334009 | Estimated intake of vegetable servings in 24 hours |
-| http://snomed.info/sct | 226452008 | Fruit intake |
 | http://snomed.info/sct | 226448008 | Vegetable intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
 
@@ -2882,5 +2877,6 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
 | 2026-11-17 | Theresa.Weitlaner |

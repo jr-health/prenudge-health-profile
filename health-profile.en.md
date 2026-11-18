@@ -347,9 +347,7 @@ Homepage geht grad nicht soll von dem kopiert werden.
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** DH1: kategoriell (5 Auswahlmöglichkeiten)
-DH2: 1-99 (bei halben Portionen aufrunden)
-DH3: kategoriell (5 Auswahlmöglichkeiten)
+- **Range of Values:** DH3: kategoriell (5 Auswahlmöglichkeiten)
 DH4: 1-99 (bei halben Portionen aufrunden)
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
@@ -365,10 +363,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 | System | Code | Display |
 |---|---|---|
 | http://loinc.org | 80459-1 |  |
-| http://loinc.org | 80457-5 |  |
-| http://snomed.info/sct | 787758000 |  |
 | http://snomed.info/sct | 789334009 |  |
-| http://snomed.info/sct | 226452008 |  |
 | http://snomed.info/sct | 226448008 |  |
 | http://snomed.info/sct | 364395008 |  |
 
@@ -1759,5 +1754,6 @@ _Changes since version v0.1.22-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
 | 2026-11-17 | Theresa.Weitlaner |
