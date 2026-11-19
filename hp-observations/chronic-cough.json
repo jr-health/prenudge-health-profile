@@ -25,7 +25,7 @@
     "template": "observation",
     "key": "chronic-cough",
     "dataset-scope": "Minimalset",
-    "title": "husten",
+    "title": "Chronic Cough",
     "category": "self-management",
     "dimension": "chronic-cough",
     "description": "",
