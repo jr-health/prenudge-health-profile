@@ -7,7 +7,7 @@
     "category": "sleep",
     "dimension": "sleep-duration",
     "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\n**Definition:** „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).",
-    "citizen-info": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).",
+    "citizen-info": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019). „Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).",
     "verified-health-links": [
       {
         "title": "Was ist normaler Schlaf?",
@@ -22,7 +22,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "DEGS (RKI, 2009)",
-        "specific-questions": "Fragebogen (DEGS)\n**Wie viele Stunden haben Sie während der letzten 4 Wochen pro Nacht tatsächlich geschlafen?** \n\n_Antwortmöglichkeit:_ Stunden/Nacht",
+        "specific-questions": "**Wie viele Stunden haben Sie während der letzten 4 Wochen pro Nacht tatsächlich geschlafen?** \n\n_Antwortmöglichkeit:_ Stunden/Nacht",
         "unit": "Effektive Schlafzeit (Stunden) pro 24 Stunden*\n*Für Personen mit Nacht- oder Schichtarbeit: Oder wann Sie üblicherweise schlafen.",
         "data-format": "Stunden Ganzzahl (integer)",
         "data-type": "",
