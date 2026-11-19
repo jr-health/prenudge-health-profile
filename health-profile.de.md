@@ -2074,8 +2074,7 @@ Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Persone
 
 **Information für Bevölkerung:**
 
-„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).
-„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).
+„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019). „Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).
 
 **Verifizierte Gesundheitsinformation:**
 - [Was ist normaler Schlaf?](https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html)
