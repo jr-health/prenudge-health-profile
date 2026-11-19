@@ -1,8 +1,8 @@
 {
-  "version": "0.1.22-test",
-  "generated": "2026-11-19T14:48:23.638670+00:00",
+  "version": "0.0.23-test",
+  "generated": "2026-11-19T16:42:04.864476+00:00",
   "scope": "combined",
-  "commit": "1eacb3cbbd75a4603051bdd4afe760fe686ba069",
+  "commit": "b05b6d9c4748a926f4d7f6cef81342a6295429ed",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
