@@ -221,7 +221,13 @@ Optional: alle 3 Monate
 ### Chronic Cough
 
 **Verified Health Information:**
-- []()
+- [http://snomed.info/sct](http://snomed.info/sct)
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
 
 ---
 

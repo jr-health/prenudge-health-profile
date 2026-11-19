@@ -306,12 +306,18 @@ Männer <0,90; ≥0,90
 
 ### Husten
 
-**Beschreibung für Fachpersonal:**
-
-_Husten Sie an den meisten Tagen seit mindestens 8 Wochen, ohne verkühlt zu sein? Antwort: Ja/Nein (Frage von Tobias) hab nach Literatur gefragt, noch keine Antwort bekommen_
+**Population:** erwachsene Allgemeinbevölkerung
 
 **Verifizierte Gesundheitsinformation:**
-- []() — Husten-Frage ist eindeutig: SNOMED: 68154008 | Chronic cough (finding)
+- [68154008](http://snomed.info/sct)
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** dichotom
+- **Datenformat:** Kategoriell
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
 
 ---
 
