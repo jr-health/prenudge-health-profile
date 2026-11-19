@@ -540,7 +540,7 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 
 Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse abgefragt.
 **Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
- 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ern%C3%A4hrungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (Mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
+ 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ern%C3%A4hrungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)[![](/media/Ern%C3%A4hungspyramide%20ohne%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (ohne Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
