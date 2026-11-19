@@ -1540,16 +1540,13 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 **Beschreibung für Fachpersonal:**
 
-Definition:
-“Quality of life is defined by the WHO as “individuals' perceptions of their position in life in the context of the culture and value systems in which they live and in relation to their goals, expectations, standards and concerns”. It is a broad ranging concept incorporating in a complex way the persons' physical health, psychological state, level of independence, social relationships, personal beliefs and their relationships to salient features of the environment” (World Health Organization, 1998).
-“Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).
-Empfehlung: nicht anwendbar
+**Definition:** “Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Laienhafte Information: „Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)
+„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)
 
 **Verifizierte Gesundheitsinformation:**
 - [WHOQOL-BREF User Manual (WHO)](https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content)
@@ -2894,8 +2891,8 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-11-19 | M13na |
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
