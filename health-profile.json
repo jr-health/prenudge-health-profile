@@ -1,11 +1,15 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-18T13:17:53.277572+00:00",
+  "generated": "2026-11-19T09:47:00.741299+00:00",
   "scope": "combined",
-  "commit": "9b71267cbd6d63820427c5043c29d6f6852deb1f",
+  "commit": "d4ad10d15997c89216a31c4d73f02fa1b5cdf2a7",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
+      {
+        "date": "2026-11-19",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-11-18",
         "author": "shaide79"
@@ -1188,7 +1192,7 @@
                 "template": "observation",
                 "key": "chronic-cough",
                 "dataset-scope": "Minimalset",
-                "title": "husten",
+                "title": "Chronic Cough",
                 "category": "self-management",
                 "dimension": "chronic-cough",
                 "description": "",
