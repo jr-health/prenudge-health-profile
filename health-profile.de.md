@@ -2863,16 +2863,15 @@ Frage 2) 1 oder 2
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.
-Definition: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).
+**Definition:** „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).
 „Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)
 Illmarinen, J. – hier fehlt die Referenz
-Empfehlung: nicht anwendbar
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Laienhafte Information: „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).
+„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).
 „Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)
 
 **Verifizierte Gesundheitsinformation:**
@@ -2899,11 +2898,10 @@ Mäßig (Arbeitsfähigkeit verbessern): 28-36 Punkte
 Gut (Arbeitsfähigkeit unterstützen): 37-43 Punkte
 Sehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte
 
-**Scoring-Algorithmus:** WAI:
-Work Ability Index-Gesamtwert (durch Addieren der Punkte)
+**Scoring-Algorithmus:** Work Ability Index-Gesamtwert (durch Addieren der Punkte)
 
 **Quellen:**
-- [Subjektiv – Work-SoC Questionnaire und WAI](WAI: Tuomi et al 1998)
+- [WAI](WAI: Tuomi et al 1998)
 
 ---
 
@@ -2913,6 +2911,7 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-19 | shaide79 |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
