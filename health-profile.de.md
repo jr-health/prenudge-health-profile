@@ -1299,11 +1299,10 @@ max: 24 Stunden
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Personen.
-Definition: „Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Everyone experiences stress to some degree. The way we respond to stress, however, makes a big difference to our overall well-being“ (World Health Organization, 2026)
-“Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026)
-„Some stress is positive. It causes our bodies to release adrenaline, which helps us to accomplish assignments and projects, and can even enhance our performance and problem-solving ability. But chronic stress, which is constant and persists over an extended period of time, can be debilitating and overwhelming. Chronic stress can affect both our physical and psychological well-being by causing a variety of problems including anxiety, insomnia, muscle pain, high blood pressure, and a weakened immune system. Research shows that stress can contribute to the development of major illnesses, such as heart disease, depression, and obesity“ (APA, 2024).
-“Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).
-Empfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.
+**Definition:** “Stress lässt sich als ein Zustand der Sorge oder psychischen Anspannung definieren, der durch eine schwierige Situation ausgelöst wird. Stress ist eine natürliche menschliche Reaktion, die uns dazu veranlasst, Herausforderungen und Bedrohungen in unserem Leben zu bewältigen. Jeder erlebt in gewissem Maße Stress. Die Art und Weise, wie wir auf Stress reagieren, hat jedoch einen großen Einfluss auf unser allgemeines Wohlbefinden“ (World Health Organization, 2026) “Ein gewisses Maß an Stress ist positive. Er bewirkt, dass unser Körper Adrenalin ausschüttet, was uns hilft, Aufgaben und Projekte zu bewältigen, und sogar unsere Leistungsfähigkeit und Problemlösungsfähigkeit steigern kann. Chronischer stress jedoch, der ständig vorhanden ist und über einen längeren Zeitraum anhält, kann lähmend und überwältigend sein. Chronischer Stress kann sowohl unser körperliches als auch unser psychisches Wohlbefinden beeinträchtigen, indem er eine Vielzahl von Problemen verursacht, darunter Angstzustände, Schlaflosigkeit, Muskelschmerzen, Bluthochdruck und ein geschwächtes Immunsystem. Forschungsergebnisse zeigen, dass Stress zur Entstehung schwerwiegender Erkrankungen wie Herzkrankheiten, Depressionen und Adipositas beitragen kann“ (APA, 2024).
+
+
+**Empfehlung:** Stress sollte möglichst vermieden werden. Es gibt keine offiziellen Cut-off-Werte. Ein Vergleich über die Zeit ist jedoch sinnvoll.
 
 **Population:** erwachsene Allgemeinbevölkerung
 
@@ -1315,9 +1314,8 @@ Empfehlung: Stress sollte möglichst vermieden werden. Es gibt keine offiziellen
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Einheit:** Score
-- **Datenformat:** PSS-4: Gesamtscore (0-16) integer (Ganzzahl) PSS-10: Gesamtscore (0-40)  integer (Ganzzahl)
-- **Wertebereich:** min: 0
-max: 16 (PSS-4) und 40 (PSS-10)
+- **Datenformat:** offen
+- **Wertebereich:** offen
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html
@@ -1325,19 +1323,9 @@ max: 16 (PSS-4) und 40 (PSS-10)
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- PSS-4: Die angegebenen Zahlen werden addiert, um eine Summe zu erhalten. Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel (Cohen et al., 1983).
-PSS-10: Je höher die Gesamtzahl ist, desto höher ist auch das selbst eingeschätzte Stresslevel.
-0-13: Niedriges Stressniveau
-14-26: Moderates Stressniveau
-27-40: Hohes Stressniveau (Cohen et al., 1983)
+- offen
 
-**Scoring-Algorithmus:** PPS-4: Addieren der eingekreisten Zahlen, um einen Gesamtwert zu erhalten.
-PSS-10: Skala Hilflosigkeit (H): Summe der Items 1, 2, 3, 6, 9, 10; Skala Selbstwirksamkeit (S): Summe der Items 4, 5, 7, 8.
-Für die Berechnung des Gesamtscores müssen die Items 4, 5, 7 und 8 der Selbstwirksamkeitsskala invertiert werden.
-Der Gesamtscore berechnet sich aus der Summe der Items der Hilflosigkeitsskala und der Summe der invertierten Items der Selbstwirksamkeitsskala (siehe NextCloud!)
-
-**Quellen:**
-- [Subjektiv – PSS-4 und PSS-10](doi.org/10.2307/2136404)
+**Scoring-Algorithmus:** offen
 
 **Terminologiecodes:**
 
@@ -2906,8 +2894,8 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-11-19 | M13na |
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |

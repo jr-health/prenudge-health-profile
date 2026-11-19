@@ -790,16 +790,12 @@ max: 24 Stunden
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** min: 0
-max: 16 (PSS-4) und 40 (PSS-10)
+- **Range of Values:** offen
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-pss10-score-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
-
-**Sources:**
-- doi.org/10.2307/2136404
 
 **Terminology Codes:**
 
@@ -1779,8 +1775,8 @@ _Changes since version v0.1.22-test:_
 
 | Date | Author |
 |---|---|
-| 2026-11-19 | M13na |
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
