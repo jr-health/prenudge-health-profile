@@ -1,11 +1,15 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T14:01:29.851959+00:00",
+  "generated": "2026-11-19T14:48:23.638670+00:00",
   "scope": "combined",
-  "commit": "355ade2942bc4497d591858f3a177e56002ef37a",
+  "commit": "1eacb3cbbd75a4603051bdd4afe760fe686ba069",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
+      {
+        "date": "2026-11-19",
+        "author": "Theresa Weitlaner"
+      },
       {
         "date": "2026-11-19",
         "author": "shaide79"
@@ -13,10 +17,6 @@
       {
         "date": "2026-11-19",
         "author": "M13na"
-      },
-      {
-        "date": "2026-11-19",
-        "author": "Theresa Weitlaner"
       },
       {
         "date": "2026-11-18",
@@ -1141,7 +1141,7 @@
         "template": "category",
         "key": "chronic-cough",
         "dataset-scope": "Minimalset",
-        "title": "chronic-cough",
+        "title": "Chronic Cough",
         "icon_upload": "",
         "color": "",
         "description-professional": "",

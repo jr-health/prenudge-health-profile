@@ -12,7 +12,7 @@ _Version: 0.1.22-test | Generated: 2026-11-19_
   - [Body-Mass-Index (kg/m²)](#body-mass-index-kgm2)
   - [Waist circumference (cm)](#waist-circumference-cm)
   - [Waist-to-hip ratio (WHR)](#waist-to-hip-ratio-whr)
-- [chronic-cough](#chronic-cough)
+- [Chronic Cough](#chronic-cough)
   - [Chronic Cough](#chronic-cough)
 - [Nutrition](#nutrition)
   - [Cereals, potatoes (portions/day)](#cereals-potatoes-portionsday)
@@ -216,7 +216,7 @@ Optional: alle 3 Monate
 
 ---
 
-## chronic-cough
+## Chronic Cough
 
 ### Chronic Cough
 
@@ -1755,9 +1755,9 @@ _Changes since version v0.1.22-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-19 | Theresa Weitlaner |
 | 2026-11-19 | shaide79 |
 | 2026-11-19 | M13na |
-| 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
 | 2026-11-17 | Theresa.Weitlaner |
