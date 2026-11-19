@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T11:43:59.280262+00:00",
+  "generated": "2026-11-19T12:22:15.055560+00:00",
   "scope": "combined",
-  "commit": "8a291f1f84b77b8a917aa9eaa3c25ffb1c0782a2",
+  "commit": "bd9433e5b3499c3d1b14dffc81125c0637f32d7f",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -4225,8 +4225,8 @@
                 "title": "Sitzzeit (Stunden/Tag)",
                 "category": "physical-activity",
                 "dimension": "sitting",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\nDefinition von sitzendem/ruhendem Verhalten:\n“Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. The guidelines operationalize the definition of sedentary behaviour to include self-reported low movement sitting (leisure time, occupational, and total), television (TV viewing or screen time, and low levels of movement measured by devices that assess movement or posture)” (World Health Organization, 2020).\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\nEmpfehlung: „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
-                "citizen-info": "Laienhafte Information: „Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\n**Definition:**\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\n**Empfehlung:** „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
+                "citizen-info": "„Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
                 "verified-health-links": [
                   {
                     "title": "Österreichische Bewegungsempfehlungen",
@@ -4259,7 +4259,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
-                    "specific-questions": "EHIS_PAQ (Q9)\nQ9 (=PE9 ATHIS): Bei der nächsten Frage geht es um die Zeit, die Sie mit Sitzen oder Ruhen verbringen, bei der Arbeit, zu Hause, zur Fortbewegung oder mit Freunden, zum Beispiel am Schreibtisch sitzen, mit Freunden zusammensitzen, Auto, Bus, Zug fahren, Karten spielen oder fernsehen. – Die Zeit, die Sie mit Schlafen verbringen, sollte ausgeschlossen werden.\nWie viel Zeit verbringen Sie insgesamt an einem typischen Tag mit Sitzen oder Ruhen?",
+                    "specific-questions": "(=PE9 ATHIS): Bei der nächsten Frage geht es um die Zeit, die Sie mit Sitzen oder Ruhen verbringen, bei der Arbeit, zu Hause, zur Fortbewegung oder mit Freunden, zum Beispiel am Schreibtisch sitzen, mit Freunden zusammensitzen, Auto, Bus, Zug fahren, Karten spielen oder fernsehen. – Die Zeit, die Sie mit Schlafen verbringen, sollte ausgeschlossen werden.\n**Wie viel Zeit verbringen Sie insgesamt an einem typischen Tag mit Sitzen oder Ruhen?**\n\n_Antwortmöglichkeit:_ Stunden pro Tag",
                     "unit": "Stunden (pro Tag)",
                     "data-format": "Ganzzahl (integer)",
                     "data-type": "",
