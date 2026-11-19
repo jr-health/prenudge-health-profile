@@ -1354,26 +1354,6 @@ max: 24
 | http://snomed.info/sct | 248254009 | Quality of sleep |
 | http://snomed.info/sct | 11741000202105 | Good quality of sleep |
 
-**Measurement Instrument 2** — Wearable device / sensor · automated
-- **Range of Values:** nicht zutreffend
-- **Acquisition Frequency:** 1x Jährlich
-Muss mindestens 7 Tage getragen werden;
-davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang getragen werden)
-- **Recommended Monitoring Frequency:** je länger desto besser >=10 Tage
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-sleep-quality-observation.html
-- **FHIR IG Status:** draft
-- **Sunburst Chart Status:** draft
-
-**Terminology Codes:**
-
-| System | Code | Display |
-|---|---|---|
-| http://loinc.org | 93832-4 | Sleep duration |
-| http://loinc.org | 93831-6 | Deep sleep duration |
-| http://loinc.org | 93830-8 | Light sleep duration |
-| http://loinc.org | 93829-0 | REM sleep duration |
-| http://loinc.org | 103210-1 | Awakening duration |
-
 ### Time taken to fall asleep (average minutes)
 
 **Verified Health Information:**
