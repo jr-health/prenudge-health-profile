@@ -2503,14 +2503,13 @@ Pack-Years = (Zigaretten pro Tag ÷ 20) × Anzahl der Raucherjahre
 
 **Beschreibung für Fachpersonal:**
 
-Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).
-Empfehlung: nicht anwendbar
+**Definition:** Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Nicht erforderlich
+Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).
 
 #### Messinstrumente
 
