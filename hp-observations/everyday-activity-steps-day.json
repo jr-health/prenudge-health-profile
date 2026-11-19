@@ -1,13 +1,13 @@
 {
   "de": {
     "template": "observation",
-    "key": "everyday-activity-steps-day",
+    "key": "walking-steps-day",
     "dataset-scope": "Minimalset",
     "title": "Gehen (Schritte/Tag)",
     "category": "physical-activity",
     "dimension": "everyday-activity",
-    "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\nDefinition:\n„Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\nEmpfehlung: Kein wissenschaftlicher Zielwert vorhanden",
-    "citizen-info": "Laienhafte Information:\n„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
+    "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\n**Definition:** „Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\n\n**Empfehlung:** Kein wissenschaftlicher Zielwert vorhanden",
+    "citizen-info": "„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
     "verified-health-links": [
       {
         "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
@@ -34,7 +34,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
-        "specific-questions": "EHIS-PAQ (Q2, Q3)\nQ2(=PE2 ATHIS): An wie vielen Tagen in einer typischen Woche gehen Sie mindestens 10 Minuten ohne Unterbrechung zu Fuß, um von Ort zu Ort zu gelangen? (Anzahl der Tage)\nQ3(=PE3 ATHIS): Wie lange gehen Sie an einem typischen Tag zu Fuß, um von Ort zu Ort zu gelangen?\nAntwortmöglichkeit: 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag; 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr",
+        "specific-questions": "EHIS-PAQ (Q2, Q3) Q2(=PE2 ATHIS): **An wie vielen Tagen in einer typischen Woche gehen Sie mindestens 10 Minuten ohne Unterbrechung zu Fuß, um von Ort zu Ort zu gelangen?** \n\n_Antwortmöglichkeit_: (Anzahl der Tage)\nQ3(=PE3 ATHIS): **Wie lange gehen Sie an einem typischen Tag zu Fuß, um von Ort zu Ort zu gelangen?**\n_Antwortmöglichkeit_: 10 – 29 Minuten pro Tag; 30 – 59 Minuten pro Tag; 1 Stunde bis unter 2 Stunden pro Tag; 2 Stunden bis unter 3 Stunden pro Tag; 3 Stunden pro Tag oder mehr",
         "unit": "Q2: Anzahl der Tage\nQ3: Minuten pro Tag",
         "data-format": "Q2: Anzahl der Tage mit Alltagsaktivität, Ganzzahl (integer)\nQ3: ordinal (5 Antwortmöglichkeiten)",
         "data-type": "",
@@ -97,13 +97,13 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!\n\nVon FHIR IG Review: Von medicus.ai ist die Frage gekommen warum die Frage Zu-Fuß-Gehen hinzugefügt wurde? EHIS-PAQ fragt nicht direkt nach den Schritten/Tag.\n\nUnser Vorschlag: So lassen und evtl. Umbenennung des Indikators auf nur Alltagsaktivität/Zu-Fuß-Gehen. Es gibt im IG auch noch ein sogenanntes QuantityQuestionnaire das direkt nach den Anzahl der Schritten fragt.\n\nAllgemein für alle Fragebögen spezifische Frage in diesem Fall z.B. Q2, Q3 im Feld Measurment instrument mit aufnehmen."
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!"
   },
   "en": {
     "template": "observation",
-    "key": "everyday-activity-steps-day",
+    "key": "walking-steps-day",
     "dataset-scope": "Minimalset",
-    "title": "Everyday activity (steps/day)",
+    "title": "Walking (steps/day)",
     "category": "physical-activity",
     "dimension": "everyday-activity",
     "description": "",
@@ -185,6 +185,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!\n\nVon FHIR IG Review: Von medicus.ai ist die Frage gekommen warum die Frage Zu-Fuß-Gehen hinzugefügt wurde? EHIS-PAQ fragt nicht direkt nach den Schritten/Tag.\n\nUnser Vorschlag: So lassen und evtl. Umbenennung des Indikators auf nur Alltagsaktivität/Zu-Fuß-Gehen. Es gibt im IG auch noch ein sogenanntes QuantityQuestionnaire das direkt nach den Anzahl der Schritten fragt.\n\nAllgemein für alle Fragebögen spezifische Frage in diesem Fall z.B. Q2, Q3 im Feld Measurment instrument mit aufnehmen."
+    "discussion": "Fragebogen und/oder Wearable\n\nAnmerkung: Fragen des z.B. EHIS-PAQ können nicht mit gemessenen Daten verglichen werden!"
   }
 }
