@@ -548,6 +548,8 @@ Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Ge
 
 „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
 
+**Empfehlung: "**Essen Sie täglich 5 Portionen Gemüse und Obst. Eine Portion entspricht dabei einer geballten Faust. Essen Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt. Das Gemüse soll zum Teil roh sein (z. B. Salat). Ideal sind 3 Portionen Gemüse und 2 Portionen Obst." (empfehlung.at, n.d.).
+
 **"Inhaltsstoffe:** Vitamine, Mineralstoffe, Sekundäre Pflanzenstoffe, Ballaststoffe
 Ballaststoffe: Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht (empfehlung.at, n.d.).
 
