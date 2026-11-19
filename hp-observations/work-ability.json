@@ -6,7 +6,7 @@
     "title": "Arbeitsfähigkeit (Score)",
     "category": "work",
     "dimension": "workability",
-    "description": "Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.\n**Definition:** „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)\nIllmarinen, J. – hier fehlt die Referenz",
+    "description": "Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.\n**Definition:** „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
     "citizen-info": "„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
     "verified-health-links": [
       {
@@ -22,7 +22,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "WAI (INQA WAI Netzwerk, n.d.)",
-        "specific-questions": "WAI (Tuomi et al., 1998)\n\n1. Derzeitige Arbeitsfähigkeit im Vergleich zu der besten\n**Wenn Sie Ihre beste, je erreichte Arbeitsfähigkeit mit 10 Punkten bewerten: Wie viele Punkte würden Sie dann für Ihre derzeitige Arbeitsfähigkeit geben? (0 bedeutet, dass Sie derzeit arbeitsunfähig sind.)**\n_Antwortmöglichkeit:_ 0 = völlig arbeitsunfähig; 10 = derzeit die beste Arbeitsfähigkeit\n2. Arbeitsfähigkeit in Bezug zu den Arbeitsanforderungen\n**Wie schätzen Sie Ihre derzeitige Arbeitsfähigkeit in Bezug zu den körperlichen Arbeitsanforderungen ein?**\n_Antwortmöglichkeit:_ sehr gut (5), eher gut (4), mittelmäßig (3), eher schlecht (2), sehr schlecht (1)",
+        "specific-questions": "1. Derzeitige Arbeitsfähigkeit im Vergleich zu der besten\n**Wenn Sie Ihre beste, je erreichte Arbeitsfähigkeit mit 10 Punkten bewerten: Wie viele Punkte würden Sie dann für Ihre derzeitige Arbeitsfähigkeit geben? (0 bedeutet, dass Sie derzeit arbeitsunfähig sind.)**\n_Antwortmöglichkeit:_ 0 = völlig arbeitsunfähig; 10 = derzeit die beste Arbeitsfähigkeit\n2. Arbeitsfähigkeit in Bezug zu den Arbeitsanforderungen\n**Wie schätzen Sie Ihre derzeitige Arbeitsfähigkeit in Bezug zu den körperlichen Arbeitsanforderungen ein?**\n_Antwortmöglichkeit:_ sehr gut (5), eher gut (4), mittelmäßig (3), eher schlecht (2), sehr schlecht (1)",
         "unit": "Workability (Kategorien-Score)",
         "data-format": "Summenscore (ordinal)",
         "data-type": "",
