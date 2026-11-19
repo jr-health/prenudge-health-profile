@@ -2242,7 +2242,7 @@ davon müssen 4 valide Tage dabei sein (=die Uhr muss mindestens 10 Stunden lang
 
 "Die Menschen in Österreich schlafen pro Nacht im Schnitt sieben bis acht Stunden. Allerdings leidet knapp ein Drittel an Problemen beim Einschlafen bzw. Durchschlafen, und das sogar mehrmals pro Woche. Das ergab eine Studie der MedUni Wien zu den heimischen Schlafgewohnheiten.
 
-Die **Einschlafzeit** – in der Schlafforschung als **Einschlaflatenz** bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen."
+Die Einschlafzeit – in der Schlafforschung als Einschlaflatenz bezeichnet – beschreibt die Spanne vom Ausschalten des Lichts bis zum tatsächlichen Schlafen."
 
 **Verifizierte Gesundheitsinformation:**
 - ["Der Schlaf", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i]()
