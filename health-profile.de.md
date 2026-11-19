@@ -19,7 +19,7 @@ _Version: 0.1.22-test | Generiert: 2026-11-19_
   - [Milchprodukte (Portionen/Tag)](#milchprodukte-portionentag)
   - [Eier (Portionen/Woche)](#eier-portionenwoche)
   - [Fisch (Portionen/Woche)](#fisch-portionenwoche)
-  - [Gemüsekonsum (Portionen/Tag)](#gemusekonsum-portionentag)
+  - [Gemüse (Portionen/Tag)](#gemuse-portionentag)
   - [Hülsenfrüchte (Portionen/Woche)](#hulsenfruchte-portionenwoche)
   - [Fleisch (Portionen/Woche)](#fleisch-portionenwoche)
   - [Alkoholfreie, ungesüßte Getränke (Gläser/Tag) - österreichische Ernährungsempfehlungen](#alkoholfreie-ungesusste-getranke-glasertag---osterreichische-ernahrungsempfehlungen)
@@ -534,23 +534,27 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 | http://snomed.info/sct | 226441002 | Fish intake |
 | http://snomed.info/sct | 364395008 | Dietary intake |
 
-### Gemüsekonsum (Portionen/Tag)
+### Gemüse (Portionen/Tag)
 
 **Beschreibung für Fachpersonal:**
 
 Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse abgefragt.
-Definition:
-„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
-Empfehlung: 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
+**Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
+ 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Laienhafte Information: „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
+„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
+
+**"Inhaltsstoffe:** Vitamine, Mineralstoffe, Sekundäre Pflanzenstoffe, Ballaststoffe
+Ballaststoffe: Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht (empfehlung.at, n.d.).
+
+**Tipp** Im Winter, wenn das Angebot an Frischgemüse eingeschränkt ist, stellt Tiefkühlgemüse eine gute Alternative dar. Achten Sie beim Kauf von tiefgekühltem Gemüse darauf, dass in dem Produkt keine fettreichen Saucen enthalten sind. Essen Sie das Gemüse zum Teil roh (z. B. in Form von Salaten). Kochen Sie Gemüse nur kurz und halten Sie gekochtes Gemüse nur kurz warm, so bleiben Nährstoffe und der natürliche Geschmack erhalten. Gemüse und Obst idealerweise in jede Hauptmahlzeit einbauen und als Zwischenmahlzeit genießen. Beachten Sie bei der Auswahl der Gemüse- und Obstsorten das saisonale und regionale Angebot. Je bunter und vielfältiger die Auswahl, desto besser." (empfehlung.at, n.d.)
 
 **Verifizierte Gesundheitsinformation:**
-- [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
+- [Ernährungsempfehlungen: Obst und Gemüse](https://ernaehrungsempfehlung.at/empfehlungen/obst-und-gemuese/)
 - [DGEM-Leitlinien](https://www.dgem.de/leitlinien)
 - [AWMF-Leitlinien Ernährungsmedizin](https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073)
 - [Österreichische Ernährungspyramide](https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch)
@@ -579,7 +583,7 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 **Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
-- [Subjektiv – ATHIS: Gemüse und Obst](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
+- [Subjektiv – ATHIS: Gemüse](https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html)
 
 **Terminologiecodes:**
 
@@ -2904,6 +2908,7 @@ _Änderungen seit Version v0.1.22-test:_
 | Datum | Bearbeiter |
 |---|---|
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |

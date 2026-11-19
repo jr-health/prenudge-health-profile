@@ -341,7 +341,7 @@ Homepage geht grad nicht soll von dem kopiert werden.
 ### Vegetable consumption (portions/day)
 
 **Verified Health Information:**
-- [https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
+- [https://ernaehrungsempfehlung.at/empfehlungen/obst-und-gemuese/](https://ernaehrungsempfehlung.at/empfehlungen/obst-und-gemuese/)
 - [https://www.dgem.de/leitlinien](https://www.dgem.de/leitlinien)
 - [https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073](https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073)
 - [https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch](https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch)
@@ -1780,6 +1780,7 @@ _Changes since version v0.1.22-test:_
 | Date | Author |
 |---|---|
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
