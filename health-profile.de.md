@@ -2673,9 +2673,7 @@ Nicht erforderlich
 
 **Beschreibung für Fachpersonal:**
 
-Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).
-„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)
-Empfehlung: nicht anwendbar
+**Definition:** Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable). „Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
