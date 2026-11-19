@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T13:32:44.570327+00:00",
+  "generated": "2026-11-19T13:34:05.360859+00:00",
   "scope": "combined",
-  "commit": "f343e35abd1081f66b2c9a4cd9718727ef91d6a1",
+  "commit": "f0fee2d59134cc0843034bb8d27278a0fa0a7cd9",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -3558,7 +3558,7 @@
                 "category": "physical-activity",
                 "dimension": "everyday-activity",
                 "description": "Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei den Personen integriert ist.\n**Definition:** „Mit den Kindern spielen, im Garten arbeiten, das Auto etwas weiter weg vom Parkplatz parken. All das sind Beispiele für Alltagsbewegung. Die Möglichkeiten dafür sind unendlich groß. Und auch die positive Wirkung für unsere Gesundheit. 30 Minuten Gehen am Tag senkt das Risiko kardialer Erkrankungen um 19 Prozent. Und ein aktiver Alltag führt auch dazu, dass wir uns wohler fühlen“ (Die Bewegungsrevolution, 2026).\n\n**Empfehlung:** Kein wissenschaftlicher Zielwert vorhanden",
-                "citizen-info": "„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026)\n“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
+                "citizen-info": "„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026) “In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)",
                 "verified-health-links": [
                   {
                     "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
