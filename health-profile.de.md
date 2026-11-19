@@ -540,15 +540,13 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 
 Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst und Gemüse abgefragt.
 **Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
- 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
+ 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ern%C3%A4hrungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (Mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
 „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
-
-**Empfehlung: "**Essen Sie täglich 5 Portionen Gemüse und Obst. Eine Portion entspricht dabei einer geballten Faust. Essen Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt. Das Gemüse soll zum Teil roh sein (z. B. Salat). Ideal sind 3 Portionen Gemüse und 2 Portionen Obst." (empfehlung.at, n.d.).
 
 **"Inhaltsstoffe:** Vitamine, Mineralstoffe, Sekundäre Pflanzenstoffe, Ballaststoffe
 Ballaststoffe: Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht (empfehlung.at, n.d.).
@@ -2909,8 +2907,8 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-11-19 | shaide79 |
 | 2026-11-19 | M13na |
+| 2026-11-19 | shaide79 |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
