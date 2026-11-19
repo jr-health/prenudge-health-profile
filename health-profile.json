@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T10:16:24.978790+00:00",
+  "generated": "2026-11-19T10:24:59.645158+00:00",
   "scope": "combined",
-  "commit": "3ea0ae2a686e94ad4ffb086276ae36247ca12d8c",
+  "commit": "9825150336ad392128cde3970083d947958e6938",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -8199,8 +8199,8 @@
                 "title": "Schlafdauer (Stunden/Nacht)",
                 "category": "sleep",
                 "dimension": "sleep-duration",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\nDefinition: „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).\nEmpfehlung: ???",
-                "citizen-info": "Laienhafte Information:\n„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).\nInformationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).\n**Definition:** „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).",
+                "citizen-info": "„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).\n„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).",
                 "verified-health-links": [
                   {
                     "title": "Was ist normaler Schlaf?",
@@ -8215,7 +8215,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "DEGS (RKI, 2009)",
-                    "specific-questions": "Fragebogen (DEGS)\nWie viele Stunden haben Sie während der letzten 4 Wochen pro Nacht tatsächlich geschlafen? Antwortmöglichkeit: Stunden/Nacht",
+                    "specific-questions": "Fragebogen (DEGS)\n**Wie viele Stunden haben Sie während der letzten 4 Wochen pro Nacht tatsächlich geschlafen?** \n\n_Antwortmöglichkeit:_ Stunden/Nacht",
                     "unit": "Effektive Schlafzeit (Stunden) pro 24 Stunden*\n*Für Personen mit Nacht- oder Schichtarbeit: Oder wann Sie üblicherweise schlafen.",
                     "data-format": "Stunden Ganzzahl (integer)",
                     "data-type": "",
@@ -8283,7 +8283,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\nReferenz Fragebogen DEGS: PDF siehe NextCloud."
+                "discussion": ""
               },
               "en": {
                 "template": "observation",
@@ -8364,7 +8364,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\nReferenz Fragebogen DEGS: PDF siehe NextCloud."
+                "discussion": ""
               }
             }
           ]
