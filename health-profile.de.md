@@ -2248,21 +2248,17 @@ Die Einschlafzeit – in der Schlafforschung als Einschlaflatenz bezeichnet – 
 **Beschreibung für Fachpersonal:**
 
 Der Raucher:innenstatus zeigt auf, ob die Person aktuell raucht oder nicht bzw. ob diese in der Vergangenheit geraucht hat. Dabei werden auch die Häufigkeit sowie die Art des Konsums erfasst.
-Definition:
-“Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)
+**Definition:** “Aktives Rauchen: Direkte Inhalation von Tabakrauch” (Herold, 2026)
 “Passives Rauchen: Einatmen von Luft, die von Tabakrauch kontaminiert ist” (Herold, 2026)
-“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026)
-“Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026)
-“Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)
-Empfehlung:
-„All forms of tobacco use are harmful, and there is no safe level of exposure to tobacco. Cigarette smoking is the most common form of tobacco use worldwide. Other tobacco products include waterpipe tobacco, cigars, cigarillos, heated tobacco, roll-your-own tobacco, pipe tobacco, bidis and kreteks, and smokeless tobacco products“ (World Health Organization, 2025).
-“Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).
+“Sonderfall Schwangerschaft: Belastung durch das kontaminierte Blut der rauchenden Mutter” (Herold, 2026) “Nahezu 5.000 Schadstoffe im Tabakrauch, davon 70 als krebserregend eingestuft” (Herold, 2026) “Rauchen ist für bis zu 50% aller vermeidbaren Todesfälle verantwortlich: Krebserkrankungen (z.B. Lungenkrebs, Mundhöhle, Kehlkopf, Lippen, Harnblase); Kardiovaskuläre Erkrankungen: KHK und Herzinfarkt; Schlaganfall, Aortenaneurysma und pAVK; COPD” (Herold, 2026)
+
+
+**Empfehlung:** “Alle Formen des Tabakkonsums sind gesundheitsschädlich, und es gibt keine unbedenkliche Menge an Tabak. Das Rauchen von Zigaretten ist weltweit die häufigste Form des Tabakkonsums. Zu den weiteren Tabakprodukten zählen Wasserpfeifentabak, Zigarren, Zigarillos, erhitzter Tabak, Tabak zum Selbstdrehen, Pfeifentabak, Bidis und Kreteks sowie rauchfreie Tabakprodukte“ (World Health Organization, 2025).
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Laienhafte Information:
 „Dauerhaftes Rauchen verkürzt die Lebenserwartung um mehrere Jahre und hat viele gesundheitliche Nachteile. Es erhöht das Risiko für viele Krebsarten – insbesondere für Lungenkrebs und bösartige Tumoren im Mund- und Halsbereich. Mehr als 85% aller Lungenkrebserkrankungen lassen sich auf das Rauchen zurückführen.“ (IQWiG, 2022a)
 „Wichtig ist: Auch wer nur wenig oder gelegentlich raucht, schadet damit schon der Gesundheit.“ (IQWiG, 2022a)
 
