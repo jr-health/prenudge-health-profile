@@ -1779,8 +1779,8 @@ _Changes since version v0.1.22-test:_
 
 | Date | Author |
 |---|---|
-| 2026-11-19 | M13na |
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
