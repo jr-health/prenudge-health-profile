@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T14:01:08.565458+00:00",
+  "generated": "2026-11-19T14:01:29.851959+00:00",
   "scope": "combined",
-  "commit": "93b17bce434c779cd04dce5a19126e2e16e185d1",
+  "commit": "355ade2942bc4497d591858f3a177e56002ef37a",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -11319,7 +11319,7 @@
                 "category": "work",
                 "dimension": "workability",
                 "description": "Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.\n**Definition:** „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
-                "citizen-info": "„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).\n„Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
+                "citizen-info": "„Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen. Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)",
                 "verified-health-links": [
                   {
                     "title": "Handbuch Betriebliche Gesundheitsförderung",
