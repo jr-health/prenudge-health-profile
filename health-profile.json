@@ -1,18 +1,18 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T13:39:38.701022+00:00",
+  "generated": "2026-11-19T13:40:04.257409+00:00",
   "scope": "combined",
-  "commit": "126cb3f9721940ce1c7d7c1c423586c2d88d4f4d",
+  "commit": "5236d6c84e399940126c6c1b44a82510fc3192a1",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
       {
         "date": "2026-11-19",
-        "author": "shaide79"
+        "author": "M13na"
       },
       {
         "date": "2026-11-19",
-        "author": "M13na"
+        "author": "shaide79"
       },
       {
         "date": "2026-11-19",
@@ -2837,7 +2837,7 @@
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
                 "description": "Bei diesem Gesundheitsindikator wird die Konsumhäufigkeit von fett-, zucker- und salzreichen Lebensmitteln abgefragt.\n**Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\n**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ernährungspyramide%20mit%20Fisch%20und%20Fleisch.png \"Die Österreichische Ernährungspyramide (mit Fisch und Fleisch)\")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)[![](/media/Ernähungspyramide%20ohne%20Fisch%20und%20Fleisch.png \"Die Österreichische Ernährungspyramide (mit Fisch und Fleisch) \")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)",
-                "citizen-info": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)",
+                "citizen-info": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)[![](/media/Ernährungspyramide%20mit%20Fisch%20und%20Fleisch.png \"Die Österreichische Ernährungspyramide (mit Fisch und Fleisch) \")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)",
                 "verified-health-links": [
                   {
                     "title": "Ernährungsempfehlungen: Fleisch und Fisch",
