@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T13:05:31.661794+00:00",
+  "generated": "2026-11-19T13:07:43.460627+00:00",
   "scope": "combined",
-  "commit": "747db1f802bfdfa083a8c9bbfb02a124079a6e79",
+  "commit": "a4068882984f406947b81c161c7c4199936d6f50",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -708,7 +708,7 @@
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
                 "description": "Dieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.\n\n**Wie soll gemessen werden:** Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.\n\n**Definition:** „Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.): Körpergewicht (kg) : Körpergröße (m x m) = BMI\n„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).\n\n\n**Empfehlung:** „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).\n**In Kategorien:**\n<18,5 kg/m² Untergewicht\n18,5-24,9 kg/m² Normalgewicht\n25,0-29,9 kg/m² Übergewicht\n30,0-34,9 kg/m² Adipositas Grad I\n35,0-39,9 kg/m² Adipositas Grad II\n≥ 40 kg/m² Adipositas Grad III (Purnell, 2000)",
-                "citizen-info": "Laienhafte Information: „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):\nGewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
+                "citizen-info": "„Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b): Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)",
                 "verified-health-links": [
                   {
                     "title": "Was sagt der Body-Mass-Index über die Gesundheit aus?",
@@ -723,7 +723,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Selbstangaben",
-                    "specific-questions": "Frage (Selbstangaben)\nWie groß sind Sie in cm? (eine Kommastelle!)\nWelches Gewicht in kg haben Sie zurzeit? (eine Kommastelle!)",
+                    "specific-questions": "Frage (Selbstangaben)\n**Wie groß sind Sie in cm?** _(eine Kommastelle!)_\n**Welches Gewicht in kg haben Sie zurzeit?** _(eine Kommastelle!)_",
                     "unit": "Body-Mass-Index (kg/m²)",
                     "data-format": "BMI (ordinale Maßzahl)",
                     "data-type": "",

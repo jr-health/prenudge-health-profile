@@ -183,8 +183,7 @@ Dieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der sel
 
 **Information für Bevölkerung:**
 
-Laienhafte Information: „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b):
-Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)
+„Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b): Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)
 
 **Verifizierte Gesundheitsinformation:**
 - [Was sagt der Body-Mass-Index über die Gesundheit aus?](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html)
