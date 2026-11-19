@@ -1383,7 +1383,7 @@ Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten
 **Information für Bevölkerung:**
 
 Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.
-„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)
+**Definition:** „Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)
 
 **Verifizierte Gesundheitsinformation:**
 - [pro mente Austria](https://www.promenteaustria.at/) _(Zielgruppe: Healthcare professionals)_
@@ -2894,8 +2894,8 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-11-19 | M13na |
 | 2026-11-19 | shaide79 |
+| 2026-11-19 | M13na |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |

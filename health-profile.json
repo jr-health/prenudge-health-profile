@@ -1,18 +1,18 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T13:40:04.257409+00:00",
+  "generated": "2026-11-19T13:40:23.287193+00:00",
   "scope": "combined",
-  "commit": "5236d6c84e399940126c6c1b44a82510fc3192a1",
+  "commit": "7c6378f1e424d61c7d59ed5f14489cb885245f3f",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
       {
         "date": "2026-11-19",
-        "author": "M13na"
+        "author": "shaide79"
       },
       {
         "date": "2026-11-19",
-        "author": "shaide79"
+        "author": "M13na"
       },
       {
         "date": "2026-11-19",
@@ -5116,7 +5116,7 @@
                 "category": "psychosocial-factors",
                 "dimension": "emotional-distress",
                 "description": "Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.\n**Definition:** „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)",
-                "citizen-info": "Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n„Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
+                "citizen-info": "Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.\n**Definition:** „Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)",
                 "verified-health-links": [
                   {
                     "title": "pro mente Austria",
