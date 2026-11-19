@@ -818,7 +818,7 @@ Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3
 
 Bei diesem Gesundheitsindikator wird die Konsumhäufigkeit von fett-, zucker- und salzreichen Lebensmitteln abgefragt.
 **Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
-**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
+**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ernährungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch) ")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
@@ -2906,8 +2906,8 @@ _Änderungen seit Version v0.1.22-test:_
 
 | Datum | Bearbeiter |
 |---|---|
-| 2026-11-19 | shaide79 |
 | 2026-11-19 | M13na |
+| 2026-11-19 | shaide79 |
 | 2026-11-19 | Theresa Weitlaner |
 | 2026-11-18 | shaide79 |
 | 2026-11-18 | Philip Stampfer |
