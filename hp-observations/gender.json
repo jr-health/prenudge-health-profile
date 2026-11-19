@@ -48,7 +48,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
+    "discussion": "Wenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
   },
   "en": {
     "template": "observation",
@@ -93,6 +93,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
+    "discussion": "Wenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
   }
 }
