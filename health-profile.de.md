@@ -162,14 +162,16 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 
 **Beschreibung für Fachpersonal:**
 
-Empfehlung: Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.
 Dieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der selbstgemessenen Angaben zum Körpergewicht und zur Körpergröße berechnet wird, an.
-Definition:
-„Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.):
-Körpergewicht (kg) : Körpergröße (m x m) = BMI
+
+**Wie soll gemessen werden:** Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.
+
+**Definition:** „Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.): Körpergewicht (kg) : Körpergröße (m x m) = BMI
 „Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).
-Empfehlung: „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).
-In Kategorien:
+
+
+**Empfehlung:** „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).
+**In Kategorien:**
 <18,5 kg/m² Untergewicht
 18,5-24,9 kg/m² Normalgewicht
 25,0-29,9 kg/m² Übergewicht
