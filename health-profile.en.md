@@ -28,7 +28,7 @@ _Version: 0.1.22-test | Generated: 2026-11-19_
   - [Consumption of sugary and salty foods (portions/week)](#consumption-of-sugary-and-salty-foods-portionsweek)
 - [Physical Activity](#physical-activity)
   - [Moderate and vigorous endurance-oriented activity (minutes/week)](#moderate-and-vigorous-endurance-oriented-activity-minutesweek)
-  - [Everyday activity (steps/day)](#everyday-activity-stepsday)
+  - [Walking (steps/day)](#walking-stepsday)
   - [Flexibility and balance training (units/week)](#flexibility-and-balance-training-unitsweek)
   - [Muscle-strengthening exercises (units/week)](#muscle-strengthening-exercises-unitsweek)
   - [Sitting time (hours/day)](#sitting-time-hoursday)
@@ -592,7 +592,7 @@ max: in Minuten: 15.120/Woche
 | http://loinc.org | 101691-4 | Duration of physical activity |
 | http://snomed.info/sct | 68130003 | Physical activity (observable entity) |
 
-### Everyday activity (steps/day)
+### Walking (steps/day)
 
 **Verified Health Information:**
 - [https://diebewegungsrevolution.at/bewegung-tipps/](https://diebewegungsrevolution.at/bewegung-tipps/)
