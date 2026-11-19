@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T13:55:48.798261+00:00",
+  "generated": "2026-11-19T13:56:36.078196+00:00",
   "scope": "combined",
-  "commit": "e55e0e1e3c0ecb1762c6c44aee9c9a6706febb1c",
+  "commit": "0fda4332b5e5a51e5fcf9c3ba5b26761275ce67a",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -9889,7 +9889,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
+                "discussion": "Wenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
               },
               "en": {
                 "template": "observation",
@@ -9934,7 +9934,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
+                "discussion": "Wenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
               }
             }
           ]
