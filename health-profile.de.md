@@ -64,7 +64,7 @@ _Version: 0.1.22-test | Generiert: 2026-11-19_
   - [Pack years - nicht validiert mit Pulmologe entwickelt](#pack-years---nicht-validiert-mit-pulmologe-entwickelt)
 - [Soziodemografische Daten](#soziodemografische-daten)
   - [Alter (Jahre)](#alter-jahre)
-  - [Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)](#geschlecht-weiblich-mannlich-inter-divers-offen-keine-angabe)
+  - [Geschlecht (weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe)](#geschlecht-weiblich-mannlich-inter-divers-offen-unbekannt-keine-angabe)
   - [Wohnform (Eigenheim, Mietwohnung, Sonstiges)](#wohnform-eigenheim-mietwohnung-sonstiges)
   - [Wohnortgröße (Stadt/Land)](#wohnortgrosse-stadtland)
   - [Familienstand (ledig, verheiratet, in Partnerschaft, getrennt, verwitwet)](#familienstand-ledig-verheiratet-in-partnerschaft-getrennt-verwitwet)
@@ -2580,12 +2580,12 @@ max: 120
 **Quellen:**
 - [Subjektiv – Selbst definierte Frage](Nicht anwendbar)
 
-### Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)
+### Geschlecht (weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe)
 
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.
-Antwortmöglichkeiten: weiblich, männlich, inter, divers, offen, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)
+_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)
 
 **Population:** erwachsene Allgemeinbevölkerung
 

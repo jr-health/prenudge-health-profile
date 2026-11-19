@@ -1,8 +1,8 @@
 {
   "version": "0.1.22-test",
-  "generated": "2026-11-19T10:52:42.233866+00:00",
+  "generated": "2026-11-19T11:05:30.380293+00:00",
   "scope": "combined",
-  "commit": "64522140b03c2679bd04d9c077b975ac20a7406f",
+  "commit": "a640e52e02f71b855e45a72353a21a87c9237625",
   "activity": {
     "since": "v0.1.22-test",
     "entries": [
@@ -9891,10 +9891,10 @@
                 "template": "observation",
                 "key": "gender",
                 "dataset-scope": "Minimalset",
-                "title": "Geschlecht (weiblich, männlich, inter, divers, offen, keine Angabe)",
+                "title": "Geschlecht (weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe)",
                 "category": "sociodemographic-data",
                 "dimension": "gender",
-                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\nAntwortmöglichkeiten: weiblich, männlich, inter, divers, offen, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)",
+                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\n_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)",
                 "citizen-info": "Nicht erforderlich",
                 "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -9903,7 +9903,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Selbst definierte Frage",
-                    "specific-questions": "Frage: Mit welchem Geschlecht würden Sie sich identifizieren?\n\nAntwortmöglichkeiten: weiblich, männlich, inter, divers, offen, keine Angabe",
+                    "specific-questions": "**Mit welchem Geschlecht würden Sie sich identifizieren?**\n\n_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe",
                     "unit": "Geschlecht",
                     "data-format": "Geschlecht (nominal)",
                     "data-type": "",
@@ -9936,7 +9936,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "ID-Austria (automatische Übernahme)"
+                "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
               },
               "en": {
                 "template": "observation",
@@ -9981,7 +9981,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "ID-Austria (automatische Übernahme)"
+                "discussion": "@Mirna: Stimmt die Literatur? \n\nWenn andere Antworten als Weiblich und Männlich gewählt werden, können bei einigen Parametern keine Referenzwerte angegeben werden."
               }
             }
           ]
