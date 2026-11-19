@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.22-test | Generiert: 2026-11-19_
+_Version: 0.0.23-test | Generiert: 2026-11-19_
 
 ---
 
@@ -75,7 +75,6 @@ _Version: 0.1.22-test | Generiert: 2026-11-19_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2843,16 +2842,3 @@ Sehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte
 - [WAI](WAI: Tuomi et al 1998)
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.22-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-11-19 | Theresa Weitlaner |
-| 2026-11-19 | shaide79 |
-| 2026-11-19 | M13na |
-| 2026-11-18 | shaide79 |
-| 2026-11-18 | Philip Stampfer |
-| 2026-11-17 | Theresa.Weitlaner |
