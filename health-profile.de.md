@@ -2806,7 +2806,6 @@ Frage 2) 1 oder 2
 Dieser Gesundheitsindikator erhebt die Arbeitsfähigkeit der Personen.
 **Definition:** „Arbeits(bewältigungs)fähigkeit beschreibt, inwieweit ein/e ArbeitnehmerIn in der Lage ist, seine/ihre Arbeit angesichts der Arbeitsanforderungen, Gesundheit, mentalen Ressourcen, Qualifikationen, Werte und Einstellungen zu erfüllen“ (Kloimüller, n.d.).
 „Arbeitsfähigkeit ist die Übereinstimmung zwischen dem, was ein Betrieb dauerhaft verlangt und dem, was eine Person leisten kann und will“ (Kloimüller, n.d.)
-Illmarinen, J. – hier fehlt die Referenz
 
 **Population:** erwachsene Allgemeinbevölkerung
 
