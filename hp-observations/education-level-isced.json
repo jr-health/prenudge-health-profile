@@ -6,7 +6,7 @@
     "title": "Höchste abgeschlossene Schulbildung (ISCED-Level)",
     "category": "sociodemographic-data",
     "dimension": "socio-economic-status",
-    "description": "Definition: Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable).\n„Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)\nEmpfehlung: nicht anwendbar",
+    "description": "**Definition:** Dieser Indikator zeigt auf, über welche höchste abgeschlossene Schulbildung die Personen verfügen (kategorische Variable). „Der sozioökonomische Status hat wesentlichen Einfluss auf den Gesundheitszustand. Die einwirkenden Kriterien sind vielschichtig (insbesondere Ausbildungsniveau, Einkommen, Beschäftigung etc.)“ (BMASGPK, 2026a)",
     "citizen-info": "Nicht erforderlich",
     "verified-health-links": [],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "ISCED-Level (UNESCO Institute for Statistics, 2012)",
-        "specific-questions": "ISCED-Level\nWas ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?\nAntwortmöglichkeit: ISCED 1: Volksschule; ISCED 2: Hauptschule, Mittelschule, AHS-Unterstufe, Polytechnische Schule; ISCED 3: Lehre, BMS (z. B. HASCH, Fachschulen), AHS-Oberstufe; ISCED 4: Berufsreifeprüfung, Gesundheits- und Krankenpflegeschule; ISCED 5: BHS-Abschluss (HAK, HLW, HTL), Kolleg, Meisterprüfung; ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Diplomstudium, Doktorat)",
+        "specific-questions": "**Was ist Ihre höchste erfolgreich abgeschlossene Ausbildung / Ihr höchster Schul- bzw. Berufsbildungsabschluss?**\n_Antwortmöglichkeit:_ ISCED 1: Volksschule; ISCED 2: Hauptschule, Mittelschule, AHS-Unterstufe, Polytechnische Schule; ISCED 3: Lehre, BMS (z. B. HASCH, Fachschulen), AHS-Oberstufe; ISCED 4: Berufsreifeprüfung, Gesundheits- und Krankenpflegeschule; ISCED 5: BHS-Abschluss (HAK, HLW, HTL), Kolleg, Meisterprüfung; ISCED 6–8: Hochschulabschlüsse (Bachelor, Master, Diplomstudium, Doktorat)",
         "unit": "Höchste abgeschlossene Schulbildung",
         "data-format": "ISCED-Level (ordinal)",
         "data-type": "",
@@ -58,7 +58,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -113,6 +113,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "ISCED-Level\\*\n\\*Hinweis: Die ursprüngliche Version wurde durch die Autor:innen minimal abgeändert."
+    "discussion": ""
   }
 }
