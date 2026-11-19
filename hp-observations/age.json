@@ -4,12 +4,13 @@
     "key": "age",
     "dataset-scope": "Minimalset",
     "title": "Alter (Jahre)",
-    "description": "Definition: Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).\nEmpfehlung: nicht anwendbar",
     "category": "sociodemographic-data",
     "dimension": "age",
+    "description": "**Definition:** Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).",
+    "citizen-info": "Der Gesundheitsindikator „Alter“ wird in der Gesundheitsplattform in Jahren erfasst (chronologisches Alter).",
+    "verified-health-links": [],
     "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
-    "citizen-info": "Nicht erforderlich",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -48,12 +49,13 @@
     "key": "age",
     "dataset-scope": "Minimalset",
     "title": "Age (years)",
-    "description": "",
     "category": "sociodemographic-data",
     "dimension": "age",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
     "population": "",
     "disease-association": [],
-    "citizen-info": "",
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
@@ -67,6 +69,7 @@
         "norms": [],
         "sources": [
           {
+            "source-description": "",
             "system": "Nicht anwendbar"
           }
         ],
