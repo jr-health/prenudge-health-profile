@@ -1755,4 +1755,5 @@ _Changes since version v0.0.23-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-20 | M13na |
 | 2026-11-20 | Philip Stampfer |
