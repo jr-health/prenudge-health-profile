@@ -1,18 +1,18 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-20T09:44:35.479970+00:00",
+  "generated": "2026-11-20T13:42:22.610115+00:00",
   "scope": "combined",
-  "commit": "8b203062dea66b7749aae2b1696cc5f0735e8140",
+  "commit": "b3ed699e517497a2717216213878ebc90231e036",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
       {
         "date": "2026-11-20",
-        "author": "M13na"
+        "author": "Philip Stampfer"
       },
       {
         "date": "2026-11-20",
-        "author": "Philip Stampfer"
+        "author": "M13na"
       }
     ]
   },
@@ -8432,7 +8432,7 @@
                 "note": ""
               }
             ],
-            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
+            "discussion": "Schlafqualität wird per Fragebogen (WHOQOL-BREF Q16) erfasst. Gerätespezifische Schlafqualitätsscores werden nicht aufgenommen, da die Ergebnisse zwischen Geräten nicht vergleichbar sind.",
             "id_tech": "sleep-quality"
           },
           "en": {
@@ -8493,7 +8493,7 @@
                 "note": ""
               }
             ],
-            "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
+            "discussion": "Sleep quality is assessed by questionnaire (WHOQOL-BREF Q16). Device-specific sleep quality scores are excluded because results are not comparable across devices.",
             "id_tech": "sleep-quality"
           },
           "observations": [
@@ -8612,7 +8612,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
+                "discussion": "Schlafqualität wird per Fragebogen (WHOQOL-BREF Q16) erfasst. Gerätespezifische Schlafqualitätsscores werden nicht aufgenommen, da die Ergebnisse zwischen Geräten nicht vergleichbar sind.\n\nFrühere Hinweise aus dem FHIR-IG-Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
               },
               "en": {
                 "template": "observation",
@@ -8722,7 +8722,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebogen und/oder Wearable\n\nVon FHIR-IG Review:\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
+                "discussion": "Sleep quality is assessed by questionnaire (WHOQOL-BREF Q16). Device-specific sleep quality scores are excluded because results are not comparable across devices.\n\nEarlier FHIR IG review notes (in German):\n\nQuestionnaire · manual (self-reported) - WHOQOL-BREF (WHO, 1996): Die Terminologie wird auf Loinc [https://loinc.org/98933-5](https://loinc.org/98933-5) und Answer List [https://loinc.org/LL6072-4](https://loinc.org/LL6072-4) geändert. Das direkt zum WHOQOL-BREF mit [https://loinc.org/98917-8](https://loinc.org/98917-8)\n\nSchlaf Score aus Wearables sind nicht vergleichbar. Aus med. Seite wäre gut zu wissen, welche der messbaren Größen relevant sind\n\n    - total sleep time\n    - sleep efficiency (time asleep / time in bed, in %)\n    - sleep onset latency (min)\n    - wake after sleep onset (WASO, min)\n    - number of awakenings\n    - durations or shares of light/core, deep and REM sleep\n\nAntwort APCA (09.11.2026): Umstellung umgesetzt – Fragebogen jetzt LOINC 98933-5 „Satisfaction with sleep in last 2 weeks“ mit Answer List LL6072-4 (LA14638-3 / LA29496-9 / LA31733-1 / LA29495-1 / LA14642-5, entspricht 1:1 den fünf Antwortoptionen) und Panel 98917-8; PROMIS 61987-4 und die zugehörigen LA-Codes entfernt. SNOMED 248254009 (Konzept) und 11741000202105 (Interpretation) bleiben. Wearable: als codierbare Kandidaten eingetragen 93832-4 Sleep duration, 93831-6 Deep, 93830-8 Light, 93829-0 REM, 103210-1 Awakening duration (≈ WASO); Schlafeffizienz und Einschlaflatenz als Messwert haben keinen LOINC-/SNOMED-Code → lokaler Code. Auswahl der medizinisch relevanten Größen durch MED (Vorschlag: Gesamtschlafzeit, Schlafeffizienz, WASO). Codes verifiziert (tx.fhir.org)."
               }
             },
             {
