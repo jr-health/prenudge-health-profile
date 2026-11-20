@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-20T09:41:43.579474+00:00",
+  "generated": "2026-11-20T09:42:42.728356+00:00",
   "scope": "combined",
-  "commit": "ccf0074019c2ad9550e2b931ab0615f61d966082",
+  "commit": "b6101007c4becb75ce6200e3f1ae42ec6b98652c",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -1976,7 +1976,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-                    "specific-questions": "**DH4: Wie viele Portionen Gemüse oder Salat essen Sie an einem typischen Tag?** Nicht gemeint sind Kartoffeln, Gemüsesuppen sowie Gemüsesäfte. Dazu gehören: frisches oder gefrorenes, geschnittenes, püriertes oder gepresstes Gemüse. Nicht dazu gehören: (warme und kalte) Suppen sowie Gemüsesäfte aller Art oder Smoothies. \n\nEine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke Bei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
+                    "specific-questions": "**DH4: Wie viele Portionen Gemüse oder Salat essen Sie an einem typischen Tag?**\n\nEine Handvoll Gemüse oder Salat kann sein: zwei Brokkoli-Stämme, 8 Karfiol-Rosen, 4 gehäufte Suppenlöffel Kraut oder Spinat, drei gehäufte Suppenlöffel gedünstetes Gemüse, ein mittlerer Paradeiser, ein 5 cm großes Stück Gurke Bei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
                     "unit": "Portionen Gemüse pro Tag",
                     "data-format": "DH1 und DH3: Kategoriell\nDH2 und DH4: Angabe Protionen (ganze Zahl)",
                     "data-type": "",
