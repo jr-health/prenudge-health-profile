@@ -33,7 +33,7 @@
         "note": ""
       }
     ],
-    "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
+    "discussion": "Schlafqualität wird per Fragebogen (WHOQOL-BREF Q16) erfasst. Gerätespezifische Schlafqualitätsscores werden nicht aufgenommen, da die Ergebnisse zwischen Geräten nicht vergleichbar sind.",
     "id_tech": "sleep-quality"
   },
   "en": {
@@ -94,7 +94,7 @@
         "note": ""
       }
     ],
-    "discussion": "NEU: Schlafqualität auch über Wearable! (FHIR IG Link = Observation, die vom Questionnaire gemapped wird.)\n\nDer hinterlegte Wert zur Berechung der Schlafqualität ist je nach Wearable unterschiedlich. Dürfen nicht miteinander verglichen werden. Falls die Schlafqualität über Wearable erfasst wird, muss unbedingt auch erhoben werden, mit welchem Wearable es gemessen wurde.",
+    "discussion": "Sleep quality is assessed by questionnaire (WHOQOL-BREF Q16). Device-specific sleep quality scores are excluded because results are not comparable across devices.",
     "id_tech": "sleep-quality"
   }
 }
