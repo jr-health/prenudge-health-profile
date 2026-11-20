@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-20T09:42:42.728356+00:00",
+  "generated": "2026-11-20T09:44:35.479970+00:00",
   "scope": "combined",
-  "commit": "b6101007c4becb75ce6200e3f1ae42ec6b98652c",
+  "commit": "8b203062dea66b7749aae2b1696cc5f0735e8140",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -2546,7 +2546,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
-                    "specific-questions": "**DH1 „Wie oft essen Sie Obst? Nicht gemeint sind hier Obstsäfte.“**\n_Antwortmöglichkeiten:_ 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie\n\n**DH2: Wie viele Portionen Obst essen Sie pro Tag?** Eine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
+                    "specific-questions": "**Wie viele Portionen Obst essen Sie pro Tag?** \n\nEine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
                     "unit": "",
                     "data-format": "DH1: Kategoriell\nDH2: Angabe Protionen (ganze Zahl)",
                     "data-type": "",
