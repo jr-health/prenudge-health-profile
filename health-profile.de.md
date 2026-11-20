@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.0.23-test | Generiert: 2026-11-19_
+_Version: 0.0.23-test | Generiert: 2026-11-20_
 
 ---
 
@@ -75,6 +75,7 @@ _Version: 0.0.23-test | Generiert: 2026-11-19_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2825,7 +2826,7 @@ min: 7
 max: 49
 - **Erfassungsfrequenz:** alle 6 Monate
 - **Empfohlene Monitoringfrequenz:** 2x pro Jahr
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-WorkAbilityIndexQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
@@ -2842,3 +2843,11 @@ Sehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte
 - [WAI](WAI: Tuomi et al 1998)
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.0.23-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-11-20 | Philip Stampfer |

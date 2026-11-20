@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.0.23-test | Generated: 2026-11-19_
+_Version: 0.0.23-test | Generated: 2026-11-20_
 
 ---
 
@@ -75,6 +75,7 @@ _Version: 0.0.23-test | Generated: 2026-11-19_
 - [Workability](#workability)
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
+- [Edit History](#edit-history)
 
 ---
 
@@ -1739,7 +1740,7 @@ min: 7
 max: 49
 - **Acquisition Frequency:** alle 6 Monate
 - **Recommended Monitoring Frequency:** 2x pro Jahr
-- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-WorkAbilityIndexQuestionnaire.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1747,3 +1748,11 @@ max: 49
 - WAI: Tuomi et al 1998
 
 ---
+
+## Edit History
+
+_Changes since version v0.0.23-test:_
+
+| Date | Author |
+|---|---|
+| 2026-11-20 | Philip Stampfer |

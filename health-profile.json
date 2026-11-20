@@ -1,11 +1,16 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-19T16:42:35.739961+00:00",
+  "generated": "2026-11-20T08:57:37.571615+00:00",
   "scope": "combined",
-  "commit": "454cee26a6ef59b2a349227b2f7c190673afb831",
+  "commit": "32b0a8e422d9507152e74446325d5545bb160acc",
   "activity": {
     "since": "v0.0.23-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-11-20",
+        "author": "Philip Stampfer"
+      }
+    ]
   },
   "categories": [
     {
@@ -11329,14 +11334,14 @@
                       }
                     ],
                     "terminology-codes": [],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-WorkAbilityIndexQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
+                "discussion": "Die Terminologie für WAI ist noch zu klären. Der FHIR IG verwendet die lokalen CodeSystems prenudge-workability und prenudge-wai-answer."
               },
               "en": {
                 "template": "observation",
@@ -11375,14 +11380,14 @@
                       }
                     ],
                     "terminology-codes": [],
-                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-work-soc-score-observation.html",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/Questionnaire-WorkAbilityIndexQuestionnaire.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
                     "app-providers": []
                   }
                 ],
-                "discussion": "Fragebögen\nHinweis: Für Work-SoC/WAI gibt es keinen etablierten SNOMED-/LOINC-Score-Code; im FHIR-IG werden eigene CodeSystems verwendet (prenudge-workability, prenudge-wai-answer). Terminologie-Codes daher offen."
+                "discussion": "WAI terminology still needs to be clarified. The FHIR IG uses the local code systems prenudge-workability and prenudge-wai-answer."
               }
             }
           ]
