@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.0.23-test | Generiert: 2026-11-20_
+_Version: 0.0.23-test | Generiert: 2026-11-22_
 
 ---
 
@@ -2850,5 +2850,6 @@ _Änderungen seit Version v0.0.23-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-22 | M13na |
 | 2026-11-20 | Philip Stampfer |
 | 2026-11-20 | M13na |
