@@ -22,7 +22,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
-        "specific-questions": "**Wie viele Portionen Obst essen Sie pro Tag?** \n\nEine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
+        "specific-questions": "**Wie viele Portionen Obst essen Sie an einem typischen Tag?** \n\nEine Portion entspricht einer Handvoll Obst. Eine Handvoll Obst kann sein: 1 Apfel, 1 Banane, 1 Pfirsich, 2 Zwetschken, 2 Mandarinen, 2 Kiwis, 3 Marillen, 7 Erdbeeren, eine halbe Grapefruit, drei große Löffel ungezuckerter Obstsalat.\nBei halben Portionen aufrunden.\n_Antwortmöglichkeiten:_ \\_\\_\\_ Portionen/Tag",
         "unit": "",
         "data-format": "DH1: Kategoriell\nDH2: Angabe Protionen (ganze Zahl)",
         "data-type": "",
