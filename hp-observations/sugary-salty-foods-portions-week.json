@@ -64,7 +64,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Österreichische Ernährungsempfehlungen (AGES, n.d.)",
-        "specific-questions": "**Wie oft konsumieren Sie fett-, zucker- und salzreiche Lebensmittel, wie Süßigkeiten, Mehlspeisen, Knabbereien und trinken Sie energiereiche Getränke wie Limonaden in einer typischen Woche?**\n_Antwortmöglichkeiten:_ 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie",
+        "specific-questions": "**Wie oft konsumieren Sie fett-, zucker- und salzreiche Lebensmittel, wie Süßigkeiten, Mehlspeisen, Knabbereien und trinken Sie energiereiche Getränke wie Limonaden in einer typischen Woche?**\n\n\n_Antwortmöglichkeiten:_ 1) Täglich oder mehrmals täglich; 2) 4 bis 6 Mal pro Woche; 3) 1 bis 3 Mal pro Woche; 4) Weniger als einmal pro Woche; 5) Nie",
         "unit": "Konsumhäufigkeit von zucker- und salzreichen Lebensmitteln (pro Woche)\nAnzahl an Portionen zuckerhaltiger Lebensmittel (pro Tag)",
         "data-format": "Kategoriell (5 Antwortmöglichkeiten)",
         "data-type": "",
