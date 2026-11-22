@@ -15,7 +15,7 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "österreichische Ernährungsempfehlungen",
-        "specific-questions": "**„Wie viele Portionen an Milch oder Milchprodukten essen oder trinken Sie an einem typischen Tag?“** _Orientierungshilfe für 1 Portion: 1 Glas Milch / Buttermilch oder 1 Becher Joghurt / Topfen (ca. 150–200 ml/g) 2 handflächengroße, dünne Scheiben Käse (ca. 50–60 g)_\n\n_Antwortmöglichkeiten (Einfachnennung) 1)_ 0 Portionen / Ich konsumiere keine Milchprodukte; 2) 1 Portion am Tag\\*; 3)\\* 2 Portionen am Tag; 4) 3 Portionen am Tag; 5) 4 oder mehr Portionen am Tag",
+        "specific-questions": "**„Wie viele Portionen an Milch oder Milchprodukten essen oder trinken Sie an einem typischen Tag?“** \n\n_Orientierungshilfe für 1 Portion: 1 Glas Milch / Buttermilch oder 1 Becher Joghurt / Topfen (ca. 150–200 ml/g) 2 handflächengroße, dünne Scheiben Käse (ca. 50–60 g)_\n\n_Antwortmöglichkeiten (Einfachnennung) 1)_ 0 Portionen / Ich konsumiere keine Milchprodukte; 2) 1 Portion am Tag\\*; 3)\\* 2 Portionen am Tag; 4) 3 Portionen am Tag; 5) 4 oder mehr Portionen am Tag",
         "unit": "",
         "data-format": "kategoriell",
         "data-type": "",
