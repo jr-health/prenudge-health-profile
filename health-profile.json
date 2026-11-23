@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T07:09:55.933913+00:00",
+  "generated": "2026-11-23T07:20:25.039818+00:00",
   "scope": "combined",
-  "commit": "4f5c8bcdf362636b750337903f9fecfff83e4b31",
+  "commit": "b07eef5c3eb25b8b952254bdcbf1d5748e2a6353",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -9839,7 +9839,7 @@
                 "title": "Geschlecht (weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe)",
                 "category": "sociodemographic-data",
                 "dimension": "gender",
-                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\n_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)",
+                "description": "Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.\n_Antwortmöglichkeiten:_ weiblich, männlich, unbekannt, divers, inter, offen, keine Angabe (Gleichbehandlungsanwaltschaft, 2020, ID Austria, 2026)",
                 "citizen-info": "Nicht erforderlich",
                 "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -9848,7 +9848,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Selbst definierte Frage",
-                    "specific-questions": "**Mit welchem Geschlecht würden Sie sich identifizieren?**\n\n_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe",
+                    "specific-questions": "**Mit welchem Geschlecht würden Sie sich identifizieren?**\n\n_Antwortmöglichkeiten:_ weiblich, männlich, unbekannt, divers, inter, offen, keine Angabe",
                     "unit": "Geschlecht",
                     "data-format": "Geschlecht (nominal)",
                     "data-type": "",

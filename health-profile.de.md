@@ -2538,7 +2538,7 @@ max: 120
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt das Geschlecht der Personen an. Diese Angabe wird über die ID-Austria bezogen.
-_Antwortmöglichkeiten:_ weiblich, männlich, inter, divers, offen, unbekannt, keine Angabe (Gleichbehandlungsanwaltschaft, 2020)
+_Antwortmöglichkeiten:_ weiblich, männlich, unbekannt, divers, inter, offen, keine Angabe (Gleichbehandlungsanwaltschaft, 2020, ID Austria, 2026)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
