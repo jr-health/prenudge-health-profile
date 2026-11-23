@@ -554,8 +554,22 @@ Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Gemüse abg
 
 **Empfehlung:** Essen Sie täglich 5 Portionen Gemüse und Obst. Eine Portion entspricht dabei einer geballten Faust. Essen Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt. Das Gemüse soll zum Teil roh sein (z. B. Salat). Ideal sind 3 Portionen Gemüse und 2 Portionen Obst.
 
-**"Inhaltsstoffe:** Vitamine, Mineralstoffe, Sekundäre Pflanzenstoffe, Ballaststoffe
-Ballaststoffe: Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht (empfehlung.at, n.d.).
+Gemüse: Wie oft: täglich; wie viel: 3 Portionen; 1 Portion = Eine geballte Faust 
+
+In Gemüse und Obst sind sehr viele Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe. Essen Sie täglich 5 Portionen Gemüse und Obst. Am besten ist es, wenn Sie 3 Portionen Gemüse und 2 Portionen Obst essen.
+
+Dafür gibt es eine Regel: Eine geballte Faust ist 1 Portion Gemüse oder Obst. Das Gemüse soll zum Teil roh sein (z.B. Salat).
+
+Wenn Sie Gemüse oder Obst kaufen, achten Sie darauf:
+
+- Was gibt es in Ihrer Region? 
+Also in der Nähe Ihres Wohnortes.
+- Was passt zur Saison?
+Kaufen Sie Produkte, die zum Kaufzeitpunkt in der Region wachsen.
+
+Man soll zum Beispiel im Winter keine Erdbeeren essen, weil Erdbeeren im Winter nicht bei uns wachsen.
+
+Wenn Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt essen, ist das gut. Bunt essen bedeutet, dass Sie Obst und Gemüse in den unterschiedlichsten Farben essen (BMASGPK, 2026b).
 
 **Tipp** Im Winter, wenn das Angebot an Frischgemüse eingeschränkt ist, stellt Tiefkühlgemüse eine gute Alternative dar. Achten Sie beim Kauf von tiefgekühltem Gemüse darauf, dass in dem Produkt keine fettreichen Saucen enthalten sind. Essen Sie das Gemüse zum Teil roh (z. B. in Form von Salaten). Kochen Sie Gemüse nur kurz und halten Sie gekochtes Gemüse nur kurz warm, so bleiben Nährstoffe und der natürliche Geschmack erhalten. Gemüse und Obst idealerweise in jede Hauptmahlzeit einbauen und als Zwischenmahlzeit genießen. Beachten Sie bei der Auswahl der Gemüse- und Obstsorten das saisonale und regionale Angebot. Je bunter und vielfältiger die Auswahl, desto besser." (empfehlung.at, n.d.)
 
