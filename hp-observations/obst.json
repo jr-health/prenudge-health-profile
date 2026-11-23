@@ -63,7 +63,7 @@
             "display": "Dietary intake"
           }
         ],
-        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-fruitportions-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
         "qualification": "",
@@ -130,7 +130,7 @@
             "display": ""
           }
         ],
-        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-fruitportions-observation.html",
         "pn-fhir-ig-status": "draft",
         "vis-status": "draft",
         "qualification": "",
