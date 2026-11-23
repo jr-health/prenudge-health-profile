@@ -54,7 +54,7 @@
     "template": "observation",
     "key": "gender",
     "dataset-scope": "Minimalset",
-    "title": "Gender (female, male, inter, diverse, open, no answer)",
+    "title": "Gender (female, male, inter, diverse, open, unknown, no answer)",
     "category": "sociodemographic-data",
     "dimension": "gender",
     "description": "",
