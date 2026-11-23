@@ -822,7 +822,13 @@ Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3
 
 Bei diesem Gesundheitsindikator wird die Konsumhäufigkeit von fett-, zucker- und salzreichen Lebensmitteln abgefragt.
 **Definition:** „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
-**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)[![](/media/Ernährungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)[![](/media/Ernähungspyramide%20ohne%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch) ")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
+
+
+Hinweis: Wie oft: selten; Wie viel: nicht mehr als eine kleine Hand voll 
+
+Essen Sie Lebensmittel wie Süßigkeiten, Mehlspeisen und Knabbereien wie Chips nur sehr selten und wenig davon. Sie enthalten sehr viel Fett, Zucker und Salz. Wenn Sie so etwas essen, essen Sie höchstens 1 kleine Hand voll. Sie sollten selten energiereiche Getränke, wie Limonaden trinken. Auch sie enthalten viel Zucker (BMASGPK, 2026b).
+
+[![](/media/Ernährungspyramide%20mit%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)[![](/media/Ernähungspyramide%20ohne%20Fisch%20und%20Fleisch.png "Die Österreichische Ernährungspyramide (mit Fisch und Fleisch)")](https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
