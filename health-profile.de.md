@@ -87,7 +87,9 @@ _Version: 0.0.23-test | Generiert: 2026-11-23_
 
 **Beschreibung für Fachpersonal:**
 
-Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben.
+Dieser Gesundheitsindikator zeigt auf, wie häufig die Personen in den vergangenen 12 Monaten Alkohol konsumiert haben und in welcher Menge.
+
+
 **Empfehlung:** 0 Getränke pro Tag:
 “Um ein “sicheres” Maß an Alkoholkonsum zu bestimmen, müssten stichhaltige wissenschaftliche Belege zeigen, dass bis zu einem bestimmten Niveau und darunter kein Risiko für Erkrankungen oder Verletzungen im Zusammenhang mit dem Alkoholkonsum besteht. Die neue Stellungnahme der WHO stellt klar: Die derzeit verfügbaren Erkenntnisse lassen nicht auf die Existenz eines Schwellenwerts schließen, ab dem die krebserregenden Wirkungen von Alkohol „einsetzen“ und sich im menschlichen Körper bemerkbar machen.“ (World Health Organization, 2023).
 
