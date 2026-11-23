@@ -166,9 +166,10 @@ Dieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der sel
 
 **Wie soll gemessen werden:** Die Personen sollten sich vorab abmessen und abwiegen, bevor die Eingabe erfolgt, um keine selbstberichteten, sondern selbstgemessene Angaben zu haben. Dies wäre hierzu der bessere Indikator.
 
-**Definition:** „Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.): Körpergewicht (kg) : Körpergröße (m x m) = BMI
-„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).
+**Definition:** „Der Body-Mass-Index (BMI) ist ein Maß zur Beurteilung des Körpergewichts. Er beschreibt das Verhältnis des Körpergewichts zur Körpergröße und wird nach folgender Formel berechnet“ (IQWiG, n.d.): **Körpergewicht (kg) : Körpergröße (m x m) = BMI**
 
+
+„Der BMI hat auch Einschränkungen. Der BMI sagt nur wenig über den Anteil des Körperfetts am Gewicht und über die Fettverteilung aus: So kann ein Bodybuilder mit viel Muskeln und wenig Körperfett den gleichen BMI haben wie ein Mensch mit wenig Muskeln und viel Fett“ (IQWiG, n.d.) Auch macht es einen Unterschied, ob sich das Fett eher am Bauch ansammelt (gesundheitlich eher ungünstig), oder um die Hüften und Oberschenkel (gesundheitlich nicht ganz so ungünstig).
 
 **Empfehlung:** „Ein BMI von 18,5 bis 24,9 gilt als Normalgewicht, ein Wert unter 18,5 als Untergewicht und ein BMI von 25 bis 29,9 als Übergewicht. Ab einem BMI von 30 spricht man von Fettleibigkeit (Adipositas) (IQWiG, n.d.).
 **In Kategorien:**
@@ -186,7 +187,7 @@ Dieser Gesundheitsindikator zeigt den Body-Mass-Index, welcher auf Basis der sel
 „Der Body-Mass-Index (BMI) wird benutzt, um das Körpergewicht eines Menschen einzuordnen. Der BMI errechnet sich aus der Körpergröße im Verhältnis zum Körpergewicht (IQWiG, 2022b): Gewicht in Kilogramm / (Körpergröße in Metern x Körpergröße in Metern)
 
 **Verifizierte Gesundheitsinformation:**
-- [Was sagt der Body-Mass-Index über die Gesundheit aus?](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html)
+- [Was sagt der Body-Mass-Index über die Gesundheit aus?](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html) _(Zielgruppe: Laymen / citizens)_
 
 #### Messinstrumente
 

@@ -142,7 +142,7 @@ Optional: täglich/wöchentlich (numerische/metrische Variable)
 ### Body-Mass-Index (kg/m²)
 
 **Verified Health Information:**
-- [https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html)
+- [https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html](https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html) _(Audience: Laymen / citizens)_
 
 #### Measurement Instruments
 
