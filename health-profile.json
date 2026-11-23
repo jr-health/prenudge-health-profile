@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T09:37:56.749265+00:00",
+  "generated": "2026-11-23T09:45:31.147508+00:00",
   "scope": "combined",
-  "commit": "bf040553002a23fb9a361556b233b5104f32cca3",
+  "commit": "3f677701a712e8057855d6c91f2ce1e9faac1dca",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -6196,7 +6196,7 @@
                 "category": "quality-of-life",
                 "dimension": "physical-mental-social-environmental-domains",
                 "description": "**Definition:** “Lebensqualität wird von der WHO definiert als “die Wahrnehmung der/s Einzelnen hinsichtlich ihrer/seiner Stellung im Leben im Kontext der Kultur und der Wertesysteme, in denen sie/er lebt, sowie im Verhältnis zu ihren/seinen Zielen, Erwartungen, Maßstäben und Anliegen.“ Es handelt sich um ein weit gefasstes Konzept, das auf komplexe Weise die körperliche Gesundheit, den psychischen Zustand, den Grad der Selbstständigkeit, die sozialen Beziehungen, die persönlichen Überzeugungen sowie die Beziehungen des Einzelnen zu wesentlichen Merkmalen seiner Umgebung umfasst“ (World Health Organization, 1998).",
-                "citizen-info": "„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)",
+                "citizen-info": "„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b).",
                 "verified-health-links": [
                   {
                     "title": "WHOQOL-BREF User Manual (WHO)",

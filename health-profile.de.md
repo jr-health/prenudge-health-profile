@@ -1614,7 +1614,7 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 
 **Information für Bevölkerung:**
 
-„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b)
+„Wahrnehmung der eigenen Position und des eigenen Wohlbefindens durch eine Person oder eine Gemeinschaft. Lebensqualität schließt körperliche Gesundheit, psychologischen Status, Grad an Selbstständigkeit, soziale Beziehungen, persönliche Ansichten und die Beziehung zur Umwelt mit ein. Gesundheit und Lebensqualität ergänzen einander und überschneiden sich. Lebensqualität ist dort gegeben, wo Menschen ihr Leben aktiv gestalten können, ausreichend soziale Kontakte zu anderen Individuen und Gruppen pflegen und über das Maß an Selbstbewusstsein verfügen, das es ihnen ermöglicht, ihre Lebensbereiche ihren Bedürfnissen entsprechend zu gestalten“ (Fonds Gesundes Österreich, n.d.-b).
 
 **Verifizierte Gesundheitsinformation:**
 - [WHOQOL-BREF User Manual (WHO)](https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content)
