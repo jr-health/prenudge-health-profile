@@ -1168,8 +1168,11 @@ Optional: alle 3 Monate
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt auf, an wie vielen Tagen pro Woche die Personen muskelkräftigende Übungen durchgeführt haben. Hierzu gehören z.B. Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht und Gewichtstrainings an Maschinen oder mit freien Gewichten.
-**Definition:** „In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen.” (Fonds Gesundes Österreich, 2020). “Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020). “Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).
 
+
+**Definition:** „In den Bewegungsempfehlungen wird von „muskelkräftigenden Übungen, bei denen alle großen Muskelgruppen berücksichtigt werden“ gesprochen.” (Fonds Gesundes Österreich, 2020). 
+
+“Für Krafttraining eignen sich Übungen mit elastischen Bändern, Übungen mit dem eigenen Körpergewicht wie Liegestütz, Klimmzüge oder Bauchmuskeltraining sowie Gewichtstrainings an Maschinen oder mit freien Gewichten. Um eine ausgewogene Kraftentwicklung zu gewährleisten, sollen alle großen Muskelgruppen des Körpers (Bein-, Hüft-, Brust-, Rücken-, Bauch-, Schulter- und Armmuskulatur) mindestens zweimal pro Woche trainiert werden” (Fonds Gesundes Österreich, 2020). “Im Zuge dieser Empfehlungen wird Krafttraining entweder als Muskelaufbautraining oder als allgemeines Krafttraining nach dem Prinzip des anaeroben Kraftausdauertrainings empfohlen” (Fonds Gesundes Österreich, 2020).
 
 **Empfehlung:** Laut den österreichischen Bewegungsempfehlungen „sollten Erwachsene an 2 oder mehr Tagen der Woche muskelkräftigende Übungen durchführen, bei denen alle großen Muskelgruppen berücksichtigt werden.“ (Fonds Gesundes Österreich, 2020) Nicht aufeinanderfolgende Tage
 
