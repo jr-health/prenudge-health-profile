@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T07:33:16.904147+00:00",
+  "generated": "2026-11-23T07:35:00.205854+00:00",
   "scope": "combined",
-  "commit": "e8487a96ce91dea3aa7275101b5cdeedfd5d8499",
+  "commit": "6a97a9eb8b4f291843cedbc5d046cb5e1b891858",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -2538,8 +2538,8 @@
                 "title": "Obst (Portionen/Tag)",
                 "category": "nutrition",
                 "dimension": "dietary-pattern",
-                "description": "„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).\n**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)",
-                "citizen-info": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)",
+                "description": "„Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).",
+                "citizen-info": "„Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)\n\nObst: Wie oft: täglich; wie viel: 2 Portionen; 1 Portion = Eine geballte Faust \n\nIn Gemüse und Obst sind sehr viele Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe. Essen Sie täglich 5 Portionen Gemüse und Obst. Am besten ist es, wenn Sie 3 Portionen Gemüse und 2 Portionen Obst essen.\n\nDafür gibt es eine Regel: Eine geballte Faust ist 1 Portion Gemüse oder Obst. Das Gemüse soll zum Teil roh sein (z.B. Salat).\n\nWenn Sie Gemüse oder Obst kaufen, achten Sie darauf:\n\n- Was gibt es in Ihrer Region? \nAlso in der Nähe Ihres Wohnortes.\n- Was passt zur Saison?\nKaufen Sie Produkte, die zum Kaufzeitpunkt in der Region wachsen.\n\nMan soll zum Beispiel im Winter keine Erdbeeren essen, weil Erdbeeren im Winter nicht bei uns wachsen.\n\nWenn Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt essen, ist das gut. Bunt essen bedeutet, dass Sie Obst und Gemüse in den unterschiedlichsten Farben essen (BMASGPK, 2026b).",
                 "verified-health-links": [
                   {
                     "title": "•\tDGEM-Leitlinien •\tAWMF-Leitlinien Ernährungsmedizin •\tÖsterreichische Ernährungspyramide •\tRezepte zum Nachkochen •\tFragen und Antworten rund um die Ernährungsempfehlungen •\tFGÖ-Ernährungsbroschüre 2025 •\tGesunde Ernährung (Gesundheitsfonds Steiermark)",

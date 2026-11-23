@@ -730,13 +730,29 @@ Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Bros
 **Beschreibung für Fachpersonal:**
 
 „Bei den österreichischen Ernährungsempfehlungen handelt es sich um sogenannte lebensmittelbasierte Ernährungsempfehlungen (Food-Based Dietary Guidelines, FBDG), die anhand von Lebensmittelgruppen die optimale Zusammenstellung einer gesunden Ernährung darstellen. Die aktuelle Version, dargestellt in Form einer Ernährungspyramide, berücksichtigt evidenzbasierte Empfehlungen zur Nährstoffzufuhr und Erkenntnisse zur Prävention ernährungsbedingter Krankheiten“ (BMASGPK, 2026b).
-**Empfehlung:** 2 Ernährungspyramiden ( Bilder) (AGES, n.d.)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
 „Eine ausgewogene und bedarfsgerechte Ernährung trägt entscheidend zu Ihrer Gesundheit und Ihrem Wohlbefinden bei. Dabei kommt es vor allem auf die Verhältnisse von Lebensmitteln an. Die österreichischen Ernährungspyramiden veranschaulichen die aktuellen Empfehlungen mit Fisch und Fleisch sowie ohne Fisch und Fleisch.“ (AGES, n.d.)
+
+Obst: Wie oft: täglich; wie viel: 2 Portionen; 1 Portion = Eine geballte Faust 
+
+In Gemüse und Obst sind sehr viele Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe. Essen Sie täglich 5 Portionen Gemüse und Obst. Am besten ist es, wenn Sie 3 Portionen Gemüse und 2 Portionen Obst essen.
+
+Dafür gibt es eine Regel: Eine geballte Faust ist 1 Portion Gemüse oder Obst. Das Gemüse soll zum Teil roh sein (z.B. Salat).
+
+Wenn Sie Gemüse oder Obst kaufen, achten Sie darauf:
+
+- Was gibt es in Ihrer Region? 
+Also in der Nähe Ihres Wohnortes.
+- Was passt zur Saison?
+Kaufen Sie Produkte, die zum Kaufzeitpunkt in der Region wachsen.
+
+Man soll zum Beispiel im Winter keine Erdbeeren essen, weil Erdbeeren im Winter nicht bei uns wachsen.
+
+Wenn Sie viele unterschiedliche Sorten Obst und Gemüse und möglichst bunt essen, ist das gut. Bunt essen bedeutet, dass Sie Obst und Gemüse in den unterschiedlichsten Farben essen (BMASGPK, 2026b).
 
 **Verifizierte Gesundheitsinformation:**
 - [•	DGEM-Leitlinien •	AWMF-Leitlinien Ernährungsmedizin •	Österreichische Ernährungspyramide •	Rezepte zum Nachkochen •	Fragen und Antworten rund um die Ernährungsempfehlungen •	FGÖ-Ernährungsbroschüre 2025 •	Gesunde Ernährung (Gesundheitsfonds Steiermark)]()
