@@ -1,11 +1,15 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T09:51:31.391195+00:00",
+  "generated": "2026-11-23T11:58:21.517972+00:00",
   "scope": "combined",
-  "commit": "ba38f828448047dc426560919061d5f1615da06b",
+  "commit": "19f8757e587d09f9b79162bf2acd7cee929ef8c0",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
+      {
+        "date": "2026-11-23",
+        "author": "Philip Stampfer"
+      },
       {
         "date": "2026-11-23",
         "author": "M13na"
@@ -9891,7 +9895,7 @@
                 "template": "observation",
                 "key": "gender",
                 "dataset-scope": "Minimalset",
-                "title": "Gender (female, male, inter, diverse, open, no answer)",
+                "title": "Gender (female, male, inter, diverse, open, unknown, no answer)",
                 "category": "sociodemographic-data",
                 "dimension": "gender",
                 "description": "",

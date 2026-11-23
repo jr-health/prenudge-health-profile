@@ -64,7 +64,7 @@ _Version: 0.0.23-test | Generated: 2026-11-23_
   - [Pack Years](#pack-years)
 - [Sociodemographic Data](#sociodemographic-data)
   - [Age (years)](#age-years)
-  - [Gender (female, male, inter, diverse, open, no answer)](#gender-female-male-inter-diverse-open-no-answer)
+  - [Gender (female, male, inter, diverse, open, unknown, no answer)](#gender-female-male-inter-diverse-open-unknown-no-answer)
   - [Housing type (owned home, rented apartment, other)](#housing-type-owned-home-rented-apartment-other)
   - [Residence (urban/rural)](#residence-urbanrural)
   - [Marital status (single, married, in a partnership, separated, widowed)](#marital-status-single-married-in-a-partnership-separated-widowed)
@@ -1516,7 +1516,7 @@ max: 120
 **Sources:**
 - Nicht anwendbar
 
-### Gender (female, male, inter, diverse, open, no answer)
+### Gender (female, male, inter, diverse, open, unknown, no answer)
 
 #### Measurement Instruments
 
@@ -1755,6 +1755,7 @@ _Changes since version v0.0.23-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-23 | Philip Stampfer |
 | 2026-11-23 | M13na |
 | 2026-11-22 | M13na |
 | 2026-11-20 | Philip Stampfer |
