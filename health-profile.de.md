@@ -1240,8 +1240,12 @@ Mindestens 4 valide Tage
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.
+
+
 **Definition:**
 “Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).
+
+
 **Empfehlung:** „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).
 
 **Population:** erwachsene Allgemeinbevölkerung

@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T08:22:41.246470+00:00",
+  "generated": "2026-11-23T08:25:53.937049+00:00",
   "scope": "combined",
-  "commit": "d5059485de7d552548df9f6706820dd5c731fae3",
+  "commit": "d3bb7ea78f9e84c8f3150df3f386f9ea1738b497",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -4221,7 +4221,7 @@
                 "title": "Sitzzeit (Stunden/Tag)",
                 "category": "physical-activity",
                 "dimension": "sitting",
-                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\n**Definition:**\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\n**Empfehlung:** „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
+                "description": "Dieser Gesundheitsindikator zeigt auf, wie viele Stunden pro Tag die Personen in einem sitzenden bzw. ruhenden Zustand verbringen. Wichtig: Die Schlafzeit wird dabei nicht mitberücksichtigt.\n\n\n**Definition:**\n“Jedes Verhalten im Wachzustand, das durch einen Energieverbrauch von 1,5 METS oder weniger beim Sitzen, Zurücklehnen oder Liegen gekennzeichnet ist. Die meisten Büroarbeiten am Schreibtisch, Autofahren und Fernsehen sind Beispiele für sitzende Verhaltensweisen; dies gilt auch für Personen, die nicht stehen können, wie beispielsweise Rollstuhlfahrer:innen. Die Leitlinien konkretisieren die Definition von sitzendem Verhalten und beziehen selbstberichtetes Sitzen mit geringer Bewegung (in der Freizeit, beruflich und insgesamt), Fernsehen (Fernsehen oder Bildschirmzeit sowie geringe Bewegungsaktivität, gemessen mit Geräten zur Erfassung von Bewegung oder Körperhaltung) mit ein“ (World Health Organization, 2020).\n\n\n**Empfehlung:** „Langandauerndes Sitzen soll vermieden beziehungsweise immer wieder durch Bewegung unterbrochen werden“ (Fonds Gesundes Österreich, 2020).",
                 "citizen-info": "„Sitzendes Verhalten ist gekennzeichnet durch einen geringen Energieverbrauch. Hierzu zählen beispielsweise Sitzen, Liegen, Stehen, die meisten Formen von Büroarbeit, Fernsehen, Computerspielen oder Autofahren“ (Fonds Gesundes Österreich, 2020).",
                 "verified-health-links": [
                   {
@@ -4255,7 +4255,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ) (Finger et al., 2015)",
-                    "specific-questions": "(=PE9 ATHIS): Bei der nächsten Frage geht es um die Zeit, die Sie mit Sitzen oder Ruhen verbringen, bei der Arbeit, zu Hause, zur Fortbewegung oder mit Freunden, zum Beispiel am Schreibtisch sitzen, mit Freunden zusammensitzen, Auto, Bus, Zug fahren, Karten spielen oder fernsehen. – Die Zeit, die Sie mit Schlafen verbringen, sollte ausgeschlossen werden.\n**Wie viel Zeit verbringen Sie insgesamt an einem typischen Tag mit Sitzen oder Ruhen?**\n\n_Antwortmöglichkeit:_ Stunden pro Tag",
+                    "specific-questions": "(=PE9 ATHIS): Bei der nächsten Frage geht es um die Zeit, die Sie mit Sitzen oder Ruhen verbringen, bei der Arbeit, zu Hause, zur Fortbewegung oder mit Freunden, zum Beispiel am Schreibtisch sitzen, mit Freunden zusammensitzen, Auto, Bus, Zug fahren, Karten spielen oder fernsehen. – Die Zeit, die Sie mit Schlafen verbringen, sollte ausgeschlossen werden.\n**Wie viel Zeit verbringen Sie insgesamt an einem typischen Tag mit Sitzen oder Ruhen?**\n\n_Antwortmöglichkeit:_ \\_\\_\\_ Stunden pro Tag",
                     "unit": "Stunden (pro Tag)",
                     "data-format": "Ganzzahl (integer)",
                     "data-type": "",
