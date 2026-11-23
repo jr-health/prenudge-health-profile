@@ -2206,7 +2206,11 @@ max: 24
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt die selbstangegebene Einschätzung der Schlafqualität der Personen an.
+
+
 **Definition:** „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024). „So brauchen Kleinkinder viel mehr Schlaf als ältere Kinder und Erwachsene. Erst wenn sie etwa fünf Jahre alt sind, haben die meisten Kinder den Schlafrhythmus eines Erwachsenen: Sie sind tagsüber wach und schlafen die ganze Nacht durch. Die Schlafdauer nimmt bis zum Alter von etwa 80 Jahren ab“ (IQWiG, 2024). „Kleine Kinder und ältere Menschen haben außerdem einen leichteren Schlaf als Jugendliche und Erwachsene. Denn die Dauer der Tiefschlafphasen verändert sich im Laufe des Lebens“ (IQWiG, 2024).
+
+
 Sonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konstanter, aber ungewöhnlicher Tageszeit. Nachtarbeit ist jede Arbeitszeit zwischen 23 und 6 Uhr, die länger als 2 Stunden dauert. Nachtarbeitnehmer sind Arbeitnehmer, die an mind. 48 Tagen im Jahr Nacht- oder Wechselschicht leisten” (Herold, 2026).
 
 **Population:** erwachsene Allgemeinbevölkerung
@@ -2214,7 +2218,11 @@ Sonderfall: “Schichtarbeit ist Arbeit zu wechselnden Tageszeiten oder zu konst
 **Information für Bevölkerung:**
 
 „Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019).
+
+
 „Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).
+
+
 Informationsbroschüre: Gesund schlafen, Informationsbroschüre zu gesundem Schlaf, Schlafstörungen und deren Diagnostik (Heidinger, 2019)
 
 **Verifizierte Gesundheitsinformation:**
