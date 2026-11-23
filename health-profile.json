@@ -1,11 +1,15 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-22T20:54:29.368637+00:00",
+  "generated": "2026-11-23T07:09:55.933913+00:00",
   "scope": "combined",
-  "commit": "35c6f1ae5e5ee3bfa2bdd8a24eab4f89c3e01487",
+  "commit": "4f5c8bcdf362636b750337903f9fecfff83e4b31",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
+      {
+        "date": "2026-11-23",
+        "author": "M13na"
+      },
       {
         "date": "2026-11-22",
         "author": "M13na"
@@ -9107,7 +9111,7 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-                    "specific-questions": "**1) SK1: Rauchen Sie Tabakprodukte (Nicht gemeint sind Tabakerhitzer, elektronische Zigaretten oder ähnliche elektronische Produkte).**\n_Antwortmöglichkeiten:_ 1) Nein; 2) Ja, gelegentlich; 3) Ja, täglich\n**2) SK2A: Rauchen Sie täglich Zigaretten aus der Schachtel oder selbstgedrehte Zigaretten?**\n_Antwortmöglichkeit:_ Ja, Nein\n**3) Haben Sie in der Vergangenheit Tabakprodukte geraucht?**\n_Antwortmöglichkeiten:_ 1) Nein, 2) Ja, gelegentlich, 3) Ja, täglich\n**4) Wie viele Zigaretten haben Sie durchschnittlich pro Tag geraucht?**\n_Antwortmöglichkeit:_ Zigaretten pro Tag\n**5) SK4: Wie viele Jahre lang haben Sie täglich geraucht? Zählen Sie alle Zeitabschnitte, an denen Sie täglich geraucht haben, zusammen. Wenn Sie sich nicht an die genaue Anzahl der Jahre erinnern können, geben Sie bitte eine Schätzung an.**\n_Antwortmöglichkeiten:_ Anzahl der Jahre\n\n**6) SK6A: Nutzen Sie aktuell Tabakerhitzer, bei denen Tabaksticks oder loser Tabak erhitzt werden, zum Beispiel der Marken IQOS, glo, Ploom oder PAX?**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n**7) SK6B: Konsumieren Sie derzeit elektronische Zigaretten oder ähnliche elektronische Produkte? Andere elektronische Produkte sind zum Beispiel E-Shisha oder E-Pfeife.**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n**8) SK6C: Konsumieren Sie derzeit Nikotinbeutel?**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.",
+                    "specific-questions": "**1) SK1: Rauchen Sie Tabakprodukte (Nicht gemeint sind Tabakerhitzer, elektronische Zigaretten oder ähnliche elektronische Produkte).**\n_Antwortmöglichkeiten:_ 1) Nein; 2) Ja, gelegentlich; 3) Ja, täglich\n**2) SK2A: Rauchen Sie täglich Zigaretten aus der Schachtel oder selbstgedrehte Zigaretten?**\n_Antwortmöglichkeit:_ Ja, Nein\n**3) Haben Sie in der Vergangenheit Tabakprodukte geraucht?**\n_Antwortmöglichkeiten:_ 1) Nein, 2) Ja, gelegentlich, 3) Ja, täglich\n\n**6) SK6A: Nutzen Sie aktuell Tabakerhitzer, bei denen Tabaksticks oder loser Tabak erhitzt werden, zum Beispiel der Marken IQOS, glo, Ploom oder PAX?**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n**7) SK6B: Konsumieren Sie derzeit elektronische Zigaretten oder ähnliche elektronische Produkte? Andere elektronische Produkte sind zum Beispiel E-Shisha oder E-Pfeife.**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.\n**8) SK6C: Konsumieren Sie derzeit Nikotinbeutel?**\n_Antwortmöglichkeiten:_ 1) Ja, täglich; 2) Ja, gelegentlich; 3) Nein, aber früher; 4) Nein, habe ich noch nie genutzt.",
                     "unit": "Aktueller Raucher:innenstatus (Nichtraucher:in, Ex-Raucher:in, Raucher:in)",
                     "data-format": "F1: Kategoriell (3 Antwortmöglichkeiten)\nF2: Dichotom\nF3: Kategoriell (4 Antwortmöglichkeiten)\nF4: Zigaretten pro Tag, Ganzzahl (integer)\nF5: Anzahl der Jahre, Ganzzahl (integer)\nF6: Kategoriell (4 Antwortmöglichkeiten)\nF7: Kategoriell (4 Antwortmöglichkeiten)\nF8: Kategoriell (4 Antwortmöglichkeiten)",
                     "data-type": "",
