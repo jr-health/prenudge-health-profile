@@ -453,6 +453,7 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 DH2: 1-99 (bei halben Portionen aufrunden)
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
+- **FHIR IG Link:** https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-fruitportions-observation.html
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 

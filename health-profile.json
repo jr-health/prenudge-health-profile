@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T11:58:21.517972+00:00",
+  "generated": "2026-11-23T11:59:33.516728+00:00",
   "scope": "combined",
-  "commit": "19f8757e587d09f9b79162bf2acd7cee929ef8c0",
+  "commit": "41c090df69e465bac68bb73282062f4f800888b1",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -2603,7 +2603,7 @@
                         "display": "Dietary intake"
                       }
                     ],
-                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-fruitportions-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
@@ -2670,7 +2670,7 @@
                         "display": ""
                       }
                     ],
-                    "pn-fhir-ig-link": "",
+                    "pn-fhir-ig-link": "https://fhir.hl7.at/r4-JoanneumResearch-PreNUDGE-AppData-main/StructureDefinition-at-prenudge-nutrition-fruitportions-observation.html",
                     "pn-fhir-ig-status": "draft",
                     "vis-status": "draft",
                     "qualification": "",
