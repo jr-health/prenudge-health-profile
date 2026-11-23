@@ -2136,13 +2136,17 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator zeigt auf, wie viel effektive Schlafzeit die Personen haben (z.B. pro 24h oder innerhalb der letzten vier Wochen).
+
+
 **Definition:** „Einen guten Schlaf hat, wer leicht einschläft, während der Nacht nicht wieder ganz wach wird, nicht zu früh aufwacht und sich morgens erholt fühlt. Regelmäßig Probleme mit dem Ein- oder Durchschlafen zu haben, ist für gesunde Menschen in keinem Alter normal. Doch nicht jeder braucht gleich viel Schlaf – und nicht in jeder Lebensphase hat der Schlaf die gleiche Qualität“ (IQWiG, 2024).
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019). „Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).
+„Schlaf ist eine lebensnotwendige Funktion des Gehirns und des gesamten Körpers. Von allen Organen ist das Gehirn dasjenige, welches am meisten von Schlaf profitiert. Ausreichender Schlaf von guter Qualität ist notwendig, um die Funktionen des menschlichen Körpers auf kurze und lange Sicht aufrecht zu erhalten“ (Heidinger, 2019). 
+
+„Auf kurze Sicht hat Schlaf eine enorme Bedeutung für unsere geistige und körperliche Leistungsfähigkeit (insbesondere Entscheidungsfähigkeit, höhere sprachliche Fähigkeiten und Aufmerksamkeit). Auf lange Sicht ist eine ausreichende Menge von Qualitätsschlaf auch für das Immunsystem, den Stoffwechsel (z.B. Diabetesrisiko), den Blutdruck und die sonstige Gesundheit des Herz-Kreislaufsystems notwendig“ (Heidinger, 2019).
 
 **Verifizierte Gesundheitsinformation:**
 - [Was ist normaler Schlaf?](https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html)
