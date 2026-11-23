@@ -1,8 +1,8 @@
 {
   "version": "0.0.23-test",
-  "generated": "2026-11-23T11:59:33.516728+00:00",
+  "generated": "2026-11-23T12:03:35.744181+00:00",
   "scope": "combined",
-  "commit": "41c090df69e465bac68bb73282062f4f800888b1",
+  "commit": "28fa114b081e539a9eaadf1188cb487910ffd4cd",
   "activity": {
     "since": "v0.0.23-test",
     "entries": [
@@ -9822,7 +9822,7 @@
             "dataset-scope": "Minimalset",
             "category": "sociodemographic-data",
             "title": "Geschlecht",
-            "description_professional": "Definition:\nweiblich\nmännlich\ninter\ndivers\noffen\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
+            "description_professional": "Definition:\nweiblich\nmännlich\ninter\ndivers\noffen\nunbekannt\nkeine Angabe (Gleichbehandlungsanwaltschaft, 2020)\nEmpfehlung: nicht anwendbar",
             "description_layman": "Nicht erforderlich",
             "verified-health-links": [],
             "discussion": ""
