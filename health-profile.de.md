@@ -1440,14 +1440,18 @@ Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Persone
 **Beschreibung für Fachpersonal:**
 
 Dieser Gesundheitsindikator erfasst mithilfe von 2 Fragen, die selbstberichteten emotionalen Belastungen der Personen. Dies ermöglicht eine erste Einschätzung.
-**Definition:** „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026)
+
+
+**Definition:** „Psychische Gesundheit ist eine wesentliche Voraussetzung von Lebensqualität, Leistungsfähigkeit und sozialer Teilhabe. Beeinträchtigungen der psychischen Gesundheit sind weit verbreitet und reichen von leichten Belastungen bis zu schweren Symptomen oder psychischen Störungen. Sie gehen mit erheblichen individuellen und gesellschaftlichen Folgen einher und hängen sowohl mit der körperlichen Gesundheit und als auch dem Gesundheitsverhalten zusammen” (Robert Koch-Institut, 2026).
 
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
 Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zustand mithilfe von 2 Fragen zu reflektieren.
-**Definition:** „Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025)
+
+
+**Definition:** „Psychische Belastungen sind Bestandteile des Lebens und treffen früher oder später jeden von uns. Es gibt dabei Situationen, mit denen wir nicht alleine zurechtkommen. Scheuen Sie nicht davor zurück sich Hilfe zu suchen“ (ÖGK, 2025).
 
 **Verifizierte Gesundheitsinformation:**
 - [pro mente Austria](https://www.promenteaustria.at/) _(Zielgruppe: Healthcare professionals)_
