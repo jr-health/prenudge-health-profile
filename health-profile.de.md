@@ -1041,7 +1041,9 @@ Dieser Gesundheitsindikator zeigt auf, wie viel Alltagsaktivität pro Woche bei 
 
 **Information für Bevölkerung:**
 
-„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026) “In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)
+„Es muss nicht immer die schweißtreibende Sporteinheit sein. Auch kleine Bewegungen im Alltag sind ein Booster für unsere Gesundheit. Vor allem dann, wenn sie einfach sind. Und wenn sie zur täglichen Routine gehören“ (Die Bewegungsrevolution, 2026). 
+
+“In der Gesundheitsförderung wird besonderes Augenmerk auf Alltagsbewegung gelegt. Bewegung lässt sich leicht in den Alltag einbauen: Etwa, indem man die Treppe statt des Aufzugs verwendet, beim Telefonieren aufsteht oder mit dem Rad in die Arbeit fährt” (Fonds Gesundes Österreich, n.d.-a)
 
 **Verifizierte Gesundheitsinformation:**
 - [Die Bewegungsrevolution (Gesundheitsfonds Steiermark)](https://diebewegungsrevolution.at/bewegung-tipps/)
