@@ -399,6 +399,19 @@ collections:
             widget: string
             required: false
             hint: "Wearable (medical) device, sensor, etc. for acquisition: e.g. smartphone / questionnaire name e.g. WHOQOL-BREF"
+          - label: "Licence required (MED)"
+            name: licence-required
+            widget: boolean
+            default: false
+            required: false
+            i18n: duplicate
+            hint: "Tick if using this questionnaire requires a licence or permission from the copyright holder"
+          - label: "Licence / permission link (MED)"
+            name: licence-link
+            widget: string
+            required: false
+            i18n: duplicate
+            hint: "URL where the licence or permission to use this questionnaire can be requested (only shown in reports if 'Licence required' is ticked)"
           - label: "Measurement method specification (MED)"
             name: specific-questions
             widget: richtext
