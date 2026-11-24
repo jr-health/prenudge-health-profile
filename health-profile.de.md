@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.24-test | Generiert: 2026-11-24_
+_Version: 0.1.25-test | Generiert: 2026-11-24_
 
 ---
 
@@ -76,7 +76,6 @@ _Version: 0.1.24-test | Generiert: 2026-11-24_
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
 - [Literaturverzeichnis](#literaturverzeichnis)
-- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2967,11 +2966,3 @@ WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentar
 WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: <https://www.who.int/news-room/fact-sheets/detail/tobacco> [Accessed 11.06.2026].
 
 ---
-
-## Bearbeitungshistorie
-
-_Änderungen seit Version v0.1.24-test:_
-
-| Datum | Bearbeiter |
-|---|---|
-| 2026-11-24 | Theresa.Weitlaner |

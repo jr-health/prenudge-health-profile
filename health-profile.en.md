@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.24-test | Generated: 2026-11-24_
+_Version: 0.1.25-test | Generated: 2026-11-24_
 
 ---
 
@@ -76,7 +76,6 @@ _Version: 0.1.24-test | Generated: 2026-11-24_
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
 - [References](#references)
-- [Edit History](#edit-history)
 
 ---
 
@@ -1792,11 +1791,3 @@ WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentar
 WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: <https://www.who.int/news-room/fact-sheets/detail/tobacco> [Accessed 11.06.2026].
 
 ---
-
-## Edit History
-
-_Changes since version v0.1.24-test:_
-
-| Date | Author |
-|---|---|
-| 2026-11-24 | Theresa.Weitlaner |
