@@ -27,7 +27,8 @@
         "sources": [
           {
             "source-description": "de Vries ST, Mol PG, de Zeeuw D, Haaijer-Ruskamp FM, Denig P. Development and Initial Validation of a Patient-Reported Adverse Drug Event Questionnaire. Drug Saf. 2013 Sep;36(9):765-77. doi: 10.1007/s40264-013-0036-8. PMID: 23553447.",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -202,7 +203,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

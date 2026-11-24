@@ -159,6 +159,18 @@ a| {% if codes %}{% for tc in codes %}* {% if tc.get('system', '').startswith('h
 
 '''
 {% endfor %}
+{% set refs = references(profile, 'en') %}
+{% if refs %}
+
+[[references]]
+== References
+
+{% for r in refs %}
+{{ r | ref_adoc }}
+
+{% endfor %}
+'''
+{% endif %}
 {# discussion is i18n: duplicate - fall back to the other locale like other shared fields #}
 {% set ns_disc = namespace(rows=[]) %}
 {% for cat in profile.categories %}

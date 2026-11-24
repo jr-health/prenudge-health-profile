@@ -27,7 +27,8 @@
         "sources": [
           {
             "source-description": "Survey on Health Care Access and Experiences - Primary and Specialist Care",
-            "system": "https://www.statcan.gc.ca/en/survey/household/5391"
+            "system": "https://www.statcan.gc.ca/en/survey/household/5391",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -92,7 +93,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.statcan.gc.ca/en/survey/household/5391"
+            "system": "https://www.statcan.gc.ca/en/survey/household/5391",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

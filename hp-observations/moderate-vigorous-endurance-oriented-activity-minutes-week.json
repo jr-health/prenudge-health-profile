@@ -16,7 +16,8 @@
           "Healthcare professionals",
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "Broschüre Bewegung",
@@ -24,7 +25,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "WHO guidelines on physical activity and sedentary behaviour",
@@ -32,7 +34,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
       },
       {
         "title": "Broschürenbestellung",
@@ -40,7 +43,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -65,7 +69,8 @@
         "sources": [
           {
             "source-description": "Empfehlung von Fonds Gesundes Österreich, 2020 für Alltagsbewegung",
-            "system": "https://fgoe.org/glossar/alltagsbewegung"
+            "system": "https://fgoe.org/glossar/alltagsbewegung",
+            "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
           }
         ],
         "terminology-codes": [
@@ -110,7 +115,8 @@
         "sources": [
           {
             "source-description": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [
@@ -169,7 +175,8 @@
           "Healthcare professionals",
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "",
@@ -177,7 +184,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -185,7 +193,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
       },
       {
         "title": "",
@@ -193,7 +202,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -212,11 +222,13 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://fgoe.org/glossar/alltagsbewegung"
+            "system": "https://fgoe.org/glossar/alltagsbewegung",
+            "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
           },
           {
             "source-description": "",
-            "system": "https://fgoe.org/glossar/alltagsbewegung"
+            "system": "https://fgoe.org/glossar/alltagsbewegung",
+            "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
           }
         ],
         "terminology-codes": [
@@ -255,7 +267,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [

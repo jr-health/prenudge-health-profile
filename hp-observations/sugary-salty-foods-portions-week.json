@@ -13,49 +13,57 @@
         "title": "Ernährungsempfehlungen: Fleisch und Fisch",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "DGEM-Leitlinien",
         "url": "https://www.dgem.de/leitlinien",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "AWMF-Leitlinien Ernährungsmedizin",
         "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Österreichische Ernährungspyramide",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "Rezepte zum Nachkochen",
         "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
         "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "FGÖ-Ernährungsbroschüre 2025",
         "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
         "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -80,7 +88,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – ATHIS: Zuckerhaltige Lebensmittel",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [
@@ -138,49 +147,57 @@
         "title": "",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://www.dgem.de/leitlinien",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "",
         "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -199,7 +216,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [

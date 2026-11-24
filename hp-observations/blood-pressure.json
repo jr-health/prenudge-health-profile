@@ -107,7 +107,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
+            "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -261,7 +262,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
+            "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

@@ -7,6 +7,8 @@ Checks:
   - observation.dimension -> valid dimension key
   - observation.category  -> valid category key
   - de.key == en.key for every entry (i18n:duplicate consistency)
+  - Literaturverzeichnis lines (`reference` field): informational notes only, never
+    counted as warnings, so a typo there cannot block a release (--strict)
 
 Usage:
     python scripts/validate.py
@@ -14,8 +16,11 @@ Usage:
 """
 
 import json
+import re
 import argparse
 from pathlib import Path
+
+from references import iter_reference_items, resolve, URL_TOKEN
 
 ROOT = Path(__file__).parent.parent
 
@@ -99,6 +104,37 @@ def check_references(
                 f"'{field}' = '{ref}' not found in [{target_name}]"
             )
 
+YEAR_RE = re.compile(r"(?<![A-Za-z0-9])((?:19|20)\d\d[a-z]?|n\.d\.(?:-[a-z])?)(?=[.\s])")
+
+
+def check_reference_lines(observations: list[dict]):
+    """Notes (not warnings) on the `reference` fields: missing year, [URL] without a URL,
+    and near-duplicates (same author + year, different text)."""
+    by_author_year: dict[str, set[str]] = {}
+    for obs in observations:
+        for loc in ("de", "en"):
+            for item, url_field in iter_reference_items(obs.get(loc) or {}):
+                where = f"{obs['_file']} ({loc})"
+                has_url = str(item.get(url_field) or "").lower().startswith("http")
+                finished = resolve(item, url_field)
+                if not finished:
+                    continue  # empty or still the CMS template
+                raw = " ".join(str(item.get("reference") or "").split())
+                if URL_TOKEN in raw and not has_url:
+                    print(f"  NOTE    [reference] {where}: uses {URL_TOKEN} but the entry has no URL: {finished[:60]}")
+                m = YEAR_RE.search(finished)
+                if not m:
+                    print(f"  NOTE    [reference] {where}: no year (use n.d.): {finished[:60]}")
+                    continue
+                author = finished[:m.start()].strip().rstrip(".").casefold()
+                by_author_year.setdefault(f"{author} {m.group(1)}", set()).add(finished)
+    for key, texts in sorted(by_author_year.items()):
+        if len(texts) > 1:
+            print(f"  NOTE    [reference] same author/year '{key}' with {len(texts)} different texts - "
+                  f"different publications (add a/b) or inconsistent wording?")
+            for t in sorted(texts):
+                print(f"            - {t[:110]}")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Validate Health Profile referential integrity")
@@ -130,6 +166,9 @@ def main():
     check_references("dimensions",   dimensions,   "category",  "categories",  cat_keys)
     check_references("observations", observations, "dimension", "dimensions",  dim_keys, required=False)  # optional, being phased out
     check_references("observations", observations, "category",  "categories",  cat_keys)
+
+    print("Checking Literaturverzeichnis references (notes only)...")
+    check_reference_lines(observations)
 
     print()
     if not errors and not warnings:

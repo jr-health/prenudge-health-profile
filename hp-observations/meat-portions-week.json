@@ -13,7 +13,8 @@
         "title": "Ernährungsempfehlungen: Fleisch und Fisch",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,11 +39,13 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           },
           {
             "source-description": "AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
-            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -85,7 +88,8 @@
         "title": "",
         "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -104,11 +108,13 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+            "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           },
           {
             "source-description": "",
-            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
+            "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

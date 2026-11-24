@@ -29,6 +29,8 @@ import unicodedata
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
+from references import references, ref_md
+
 ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT / "render" / "templates"
 
@@ -79,6 +81,8 @@ def main():
         lstrip_blocks=True,
     )
     env.filters["anchor"] = anchor
+    env.filters["ref_md"] = ref_md
+    env.globals["references"] = references
 
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.md.j2")

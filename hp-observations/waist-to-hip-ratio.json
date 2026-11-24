@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Overweight and obesity: Background\". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.",
-            "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+            "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -86,7 +87,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+            "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

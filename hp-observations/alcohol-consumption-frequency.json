@@ -15,7 +15,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "S3-Leitlinie alkoholbezogene Störungen",
@@ -23,7 +24,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Deutsche Hauptstelle für Suchtfragen",
@@ -31,7 +33,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Deutsche Gesellschaft für Suchtforschung",
@@ -39,7 +42,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
@@ -47,7 +51,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Alkoholprävention (Gesundheitsfonds Steiermark)",
@@ -55,7 +60,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "gesundheitsinformation.de: Alkohol",
@@ -63,7 +69,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2023a. Alkohol [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "gesundheitsinformation.de: Acht Fakten über Alkohol",
@@ -71,7 +78,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "gesundheitsinformation.de: Ab wann ist Alkohol schädlich?",
@@ -79,7 +87,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "gesundheitsinformation.de: Wie wirkt Alkohol?",
@@ -87,7 +96,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2023b. Wie wirkt Alkohol - und wie schnell wird er abgebaut? [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "Sozialministerium: Alkohol",
@@ -95,7 +105,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -120,7 +131,8 @@
         "sources": [
           {
             "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [
@@ -230,7 +242,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -238,7 +251,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -246,7 +260,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -254,7 +269,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
@@ -262,7 +278,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -270,7 +287,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -278,7 +296,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2023a. Alkohol [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "",
@@ -286,7 +305,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -294,7 +314,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -302,7 +323,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2023b. Wie wirkt Alkohol - und wie schnell wird er abgebaut? [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "",
@@ -310,7 +332,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -329,7 +352,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [

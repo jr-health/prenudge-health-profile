@@ -13,7 +13,8 @@
         "title": "",
         "url": "",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -34,7 +35,8 @@
         "sources": [
           {
             "source-description": "Impfplan Österreich",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -94,7 +96,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

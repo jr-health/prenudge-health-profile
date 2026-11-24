@@ -13,7 +13,8 @@
         "title": "Handbuch Betriebliche Gesundheitsförderung",
         "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,7 +39,8 @@
         "sources": [
           {
             "source-description": "WAI",
-            "system": "WAI: Tuomi et al 1998"
+            "system": "WAI: Tuomi et al 1998",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [],
@@ -65,7 +67,8 @@
         "title": "",
         "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -84,7 +87,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "WAI: Tuomi et al 1998"
+            "system": "WAI: Tuomi et al 1998",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [],

@@ -15,7 +15,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "gesundheitsinformation.de: Rauchen",
@@ -23,7 +24,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2022a. Rauchen [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "rauchfrei.at",
@@ -31,7 +33,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "rauchfrei-programm.de",
@@ -39,7 +42,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Stabsstelle Krebsprävention (DKFZ)",
@@ -47,7 +51,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "WHO: Tobacco",
@@ -55,7 +60,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/tobacco [Accessed 11.06.2026]."
       },
       {
         "title": "Prävention und Tabakentwöhnung (Sozialministerium)",
@@ -63,7 +69,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -88,7 +95,8 @@
         "sources": [
           {
             "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [
@@ -153,7 +161,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -161,7 +170,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2022a. Rauchen [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "",
@@ -169,7 +179,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -177,7 +188,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -185,7 +197,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -193,7 +206,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/tobacco [Accessed 11.06.2026]."
       },
       {
         "title": "",
@@ -201,7 +215,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -220,7 +235,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [

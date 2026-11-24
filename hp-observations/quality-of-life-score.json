@@ -13,7 +13,8 @@
         "title": "WHOQOL-BREF User Manual (WHO)",
         "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 1998. WHOQOL User Manual. Geneva: World Health Organization."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,7 +39,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – WHOQOL-BREF",
-            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+            "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
           }
         ],
         "terminology-codes": [
@@ -101,7 +103,8 @@
         "title": "",
         "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 1998. WHOQOL User Manual. Geneva: World Health Organization."
       }
     ],
     "population": "",
@@ -120,7 +123,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+            "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
           }
         ],
         "terminology-codes": [
