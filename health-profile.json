@@ -1,11 +1,16 @@
 {
   "version": "0.1.24-test",
-  "generated": "2026-11-24T10:23:15.849580+00:00",
+  "generated": "2026-11-24T14:04:26.616863+00:00",
   "scope": "combined",
-  "commit": "a9737b974b38b39528384b47ec12c005c15bd99e",
+  "commit": "1104559551e8500037b3467aa059eb565f4eba57",
   "activity": {
     "since": "v0.1.24-test",
-    "entries": []
+    "entries": [
+      {
+        "date": "2026-11-24",
+        "author": "Theresa.Weitlaner"
+      }
+    ]
   },
   "categories": [
     {
@@ -200,7 +205,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "S3-Leitlinie alkoholbezogene Störungen",
@@ -208,7 +214,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Deutsche Hauptstelle für Suchtfragen",
@@ -216,7 +223,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Deutsche Gesellschaft für Suchtforschung",
@@ -224,7 +232,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
@@ -232,7 +241,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Alkoholprävention (Gesundheitsfonds Steiermark)",
@@ -240,7 +250,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "gesundheitsinformation.de: Alkohol",
@@ -248,7 +259,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2023a. Alkohol [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "gesundheitsinformation.de: Acht Fakten über Alkohol",
@@ -256,7 +268,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "gesundheitsinformation.de: Ab wann ist Alkohol schädlich?",
@@ -264,7 +277,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "gesundheitsinformation.de: Wie wirkt Alkohol?",
@@ -272,7 +286,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2023b. Wie wirkt Alkohol - und wie schnell wird er abgebaut? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "Sozialministerium: Alkohol",
@@ -280,7 +295,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -305,7 +321,8 @@
                     "sources": [
                       {
                         "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -415,7 +432,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -423,7 +441,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -431,7 +450,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -439,7 +459,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Handbuch: Alkoholkonsum und mögliche Folgen (Bundesministerium Soziales, Gesundheit, Pflege und Konsumentenschutz)",
@@ -447,7 +468,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -455,7 +477,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -463,7 +486,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2023a. Alkohol [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
@@ -471,7 +495,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -479,7 +504,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -487,7 +513,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2023b. Wie wirkt Alkohol - und wie schnell wird er abgebaut? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
@@ -495,7 +522,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -514,7 +542,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -695,7 +724,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2022b. Was sagt der Body-Mass-Index über die Gesundheit aus? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -720,7 +750,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – Fragen (Selbstangaben)",
-                        "system": "nicht zutreffend"
+                        "system": "nicht zutreffend",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -790,7 +821,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2022b. Was sagt der Body-Mass-Index über die Gesundheit aus? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   }
                 ],
                 "population": "",
@@ -809,7 +841,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "nicht zutreffend"
+                        "system": "nicht zutreffend",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -897,7 +930,8 @@
                     "sources": [
                       {
                         "source-description": "Mike E. J. Lean et al.: Waist circumference as a measure for indicating need for weight management. In: British Medical Journal. Vol. 311, 15. Juli 1995, S. 158–161, doi:10.1136/bmj.311.6998.158.",
-                        "system": "https://www.bmj.com/content/311/6998/158"
+                        "system": "https://www.bmj.com/content/311/6998/158",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -952,7 +986,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.bmj.com/content/311/6998/158"
+                        "system": "https://www.bmj.com/content/311/6998/158",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1015,7 +1050,8 @@
                     "sources": [
                       {
                         "source-description": "Overweight and obesity: Background\". Clinical guidelines on the identification, evaluation and treatment of overweight and obesity in adults. National Institutes of Health, National Heart, Lung, and Blood Institute: NIH Publication No. 98-4083. September 1998. p. 14.",
-                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1070,7 +1106,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/"
+                        "system": "https://www.ncbi.nlm.nih.gov/books/NBK2003/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1167,7 +1204,8 @@
                     "title": "68154008",
                     "url": "http://snomed.info/sct",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -1210,7 +1248,8 @@
                     "title": "",
                     "url": "http://snomed.info/sct",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -1400,7 +1439,8 @@
                     "sources": [
                       {
                         "source-description": "Österreichische Ernährungsempfehlungen (AGES)",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1470,7 +1510,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getreide-erdaepfel.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1548,7 +1589,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1613,7 +1655,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1668,7 +1711,8 @@
                     "title": "",
                     "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -1693,7 +1737,8 @@
                     "sources": [
                       {
                         "source-description": "Österreichische Ernährungsempfehlung",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html",
+                        "reference": "BMASGPK. 2026b. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                       }
                     ],
                     "terminology-codes": [
@@ -1731,7 +1776,8 @@
                     "title": "",
                     "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "Allgemeinbevölkerung",
@@ -1750,7 +1796,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html",
+                        "reference": "BMASGPK. 2026b. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                       }
                     ],
                     "terminology-codes": [
@@ -1790,7 +1837,8 @@
                     "title": "Ernährungsempfehlungen: Fleisch und Fisch",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -1815,11 +1863,13 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       },
                       {
                         "source-description": "AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1857,7 +1907,8 @@
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -1876,11 +1927,13 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       },
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -1920,49 +1973,57 @@
                     "title": "Ernährungsempfehlungen: Obst und Gemüse",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/obst-und-gemuese/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "DGEM-Leitlinien",
                     "url": "https://www.dgem.de/leitlinien",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "AWMF-Leitlinien Ernährungsmedizin",
                     "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Österreichische Ernährungspyramide",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "Rezepte zum Nachkochen",
                     "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
                     "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "FGÖ-Ernährungsbroschüre 2025",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
                     "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -1987,7 +2048,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – ATHIS: Gemüse",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -2035,49 +2097,57 @@
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/obst-und-gemuese/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://www.dgem.de/leitlinien",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -2096,7 +2166,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -2164,7 +2235,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2214,7 +2286,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2254,7 +2327,8 @@
                     "title": "Ernährungsempfehlungen: Fleisch und Fisch",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -2279,11 +2353,13 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       },
                       {
                         "source-description": "AGES. Fleisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2326,7 +2402,8 @@
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -2345,11 +2422,13 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       },
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fleisch",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2412,7 +2491,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2477,7 +2557,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html"
+                        "system": "https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2532,7 +2613,8 @@
                     "title": "•\tDGEM-Leitlinien •\tAWMF-Leitlinien Ernährungsmedizin •\tÖsterreichische Ernährungspyramide •\tRezepte zum Nachkochen •\tFragen und Antworten rund um die Ernährungsempfehlungen •\tFGÖ-Ernährungsbroschüre 2025 •\tGesunde Ernährung (Gesundheitsfonds Steiermark)",
                     "url": "",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -2557,7 +2639,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – ATHIS: Gemüse und Obst",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -2605,7 +2688,8 @@
                     "title": "",
                     "url": "",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -2624,7 +2708,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -2692,7 +2777,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2762,7 +2848,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen"
+                        "system": "https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -2822,49 +2909,57 @@
                     "title": "Ernährungsempfehlungen: Fleisch und Fisch",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "DGEM-Leitlinien",
                     "url": "https://www.dgem.de/leitlinien",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "AWMF-Leitlinien Ernährungsmedizin",
                     "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Österreichische Ernährungspyramide",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "Rezepte zum Nachkochen",
                     "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Fragen und Antworten rund um die Ernährungsempfehlungen",
                     "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "FGÖ-Ernährungsbroschüre 2025",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Gesunde Ernährung (Gesundheitsfonds Steiermark)",
                     "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -2889,7 +2984,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – ATHIS: Zuckerhaltige Lebensmittel",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -2947,49 +3043,57 @@
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://www.dgem.de/leitlinien",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://register.awmf.org/de/leitlinien/aktuelle-leitlinien/fachgesellschaft/073",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/rezepte-zum-nachkochen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://ernaehrungsempfehlung.at/wichtig-zu-wissen/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2025-01/fgoe_ernaehrungsbroschuere_2025_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://gesundheitsfonds-steiermark.at/gesunde-ernaehrung/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -3008,7 +3112,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -3198,7 +3303,8 @@
                       "Healthcare professionals",
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "Broschüre Bewegung",
@@ -3206,7 +3312,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "WHO guidelines on physical activity and sedentary behaviour",
@@ -3214,7 +3321,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   },
                   {
                     "title": "Broschürenbestellung",
@@ -3222,7 +3330,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -3247,7 +3356,8 @@
                     "sources": [
                       {
                         "source-description": "Empfehlung von Fonds Gesundes Österreich, 2020 für Alltagsbewegung",
-                        "system": "https://fgoe.org/glossar/alltagsbewegung"
+                        "system": "https://fgoe.org/glossar/alltagsbewegung",
+                        "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
                       }
                     ],
                     "terminology-codes": [
@@ -3292,7 +3402,8 @@
                     "sources": [
                       {
                         "source-description": "European Health Interview Survey – Physical Activity Questionnaire (EHIS-PAQ)",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -3351,7 +3462,8 @@
                       "Healthcare professionals",
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "",
@@ -3359,7 +3471,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -3367,7 +3480,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   },
                   {
                     "title": "",
@@ -3375,7 +3489,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -3394,11 +3509,13 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://fgoe.org/glossar/alltagsbewegung"
+                        "system": "https://fgoe.org/glossar/alltagsbewegung",
+                        "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
                       },
                       {
                         "source-description": "",
-                        "system": "https://fgoe.org/glossar/alltagsbewegung"
+                        "system": "https://fgoe.org/glossar/alltagsbewegung",
+                        "reference": "FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: [URL] [Accessed 11.06.2026]."
                       }
                     ],
                     "terminology-codes": [
@@ -3437,7 +3554,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -3543,19 +3661,22 @@
                     "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
                     "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Österreichische Bewegungsempfehlungen",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "Broschüre Bewegung",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -3580,7 +3701,8 @@
                     "sources": [
                       {
                         "source-description": "EHIS-PAQ (Finger et al., 2015)",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -3643,19 +3765,22 @@
                     "title": "",
                     "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -3674,7 +3799,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -3777,7 +3903,8 @@
                     "sources": [
                       {
                         "source-description": "Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
-                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+                        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                       }
                     ],
                     "terminology-codes": [
@@ -3827,7 +3954,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+                        "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+                        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                       }
                     ],
                     "terminology-codes": [
@@ -3933,19 +4061,22 @@
                     "title": "Österreichische Bewegungsempfehlungen",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "WHO guidelines on physical activity and sedentary behaviour",
                     "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   },
                   {
                     "title": "Broschüre Bewegung",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -3970,7 +4101,8 @@
                     "sources": [
                       {
                         "source-description": "EHIS-PAQ (Finger et al., 2015)",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -4038,19 +4170,22 @@
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "",
                     "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   },
                   {
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -4069,7 +4204,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -4211,25 +4347,29 @@
                     "title": "Österreichische Bewegungsempfehlungen",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
                     "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Sitzverhalten (Robert Koch-Institut)",
                     "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "WHO guidelines on physical activity and sedentary behaviour",
                     "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -4254,7 +4394,8 @@
                     "sources": [
                       {
                         "source-description": "EHIS-PAQ (Finger et al., 2015)",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -4317,25 +4458,29 @@
                     "title": "",
                     "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
                   },
                   {
                     "title": "",
                     "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
                   }
                 ],
                 "population": "",
@@ -4354,7 +4499,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+                        "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
                       }
                     ],
                     "terminology-codes": [
@@ -4479,7 +4625,8 @@
                     "sources": [
                       {
                         "source-description": "Survey on Health Care Access and Experiences - Primary and Specialist Care",
-                        "system": "https://www.statcan.gc.ca/en/survey/household/5391"
+                        "system": "https://www.statcan.gc.ca/en/survey/household/5391",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -4544,7 +4691,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.statcan.gc.ca/en/survey/household/5391"
+                        "system": "https://www.statcan.gc.ca/en/survey/household/5391",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -4805,7 +4953,8 @@
                     "sources": [
                       {
                         "source-description": "Brief Resilience Scale (Deutsche Version)",
-                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -4890,7 +5039,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+                        "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -5103,13 +5253,15 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Erste Hilfe für die Seele",
                     "url": "https://www.erstehilfefuerdieseele.at/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Leitlinie Unipolare Depression",
@@ -5117,7 +5269,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
                   },
                   {
                     "title": "Plattform Psyche (Gesundheitsfonds Steiermark)",
@@ -5125,7 +5278,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "ÖGK: Broschüre psychische Gesundheit",
@@ -5133,7 +5287,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "ÖGK 2025. Wie geht es mir? Psychische Gesundheit. Wien: Österreichische Gesundheitskasse."
                   },
                   {
                     "title": "oesterreich.gv.at: Psychosoziale Gesundheit",
@@ -5141,7 +5296,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "ÖGK: Psychische Gesundheit",
@@ -5149,7 +5305,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -5174,7 +5331,8 @@
                     "sources": [
                       {
                         "source-description": "Nationale VersorgungsLeitlinie Depression",
-                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005",
+                        "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
                       }
                     ],
                     "terminology-codes": [
@@ -5234,13 +5392,15 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://www.erstehilfefuerdieseele.at/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -5248,7 +5408,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
                   },
                   {
                     "title": "",
@@ -5256,7 +5417,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -5264,7 +5426,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "ÖGK 2025. Wie geht es mir? Psychische Gesundheit. Wien: Österreichische Gesundheitskasse."
                   },
                   {
                     "title": "",
@@ -5272,7 +5435,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -5280,7 +5444,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -5299,7 +5464,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+                        "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005",
+                        "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
                       }
                     ],
                     "terminology-codes": [
@@ -5583,7 +5749,8 @@
                     "sources": [
                       {
                         "source-description": "Cleland C, Kearns A, Tannahill C, Ellaway A. The impact of life events on adult physical and mental health and well-being: longitudinal analysis using the GoWell health and well-being survey. BMC Res Notes. 2016 Oct 18;9(1):470. doi: 10.1186/s13104-016-2278-x. PMID: 27760568; PMCID: PMC5070029.",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -5698,7 +5865,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/27760568/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -5992,7 +6160,8 @@
                     "sources": [
                       {
                         "source-description": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
-                        "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
+                        "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -6062,7 +6231,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522."
+                        "system": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -6185,7 +6355,8 @@
                     "title": "WHOQOL-BREF User Manual (WHO)",
                     "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 1998. WHOQOL User Manual. Geneva: World Health Organization."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -6210,7 +6381,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – WHOQOL-BREF",
-                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+                        "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
                       }
                     ],
                     "terminology-codes": [
@@ -6273,7 +6445,8 @@
                     "title": "",
                     "url": "https://iris.who.int/server/api/core/bitstreams/4c5cd94a-599e-450f-9141-4a21a7b74849/content",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION 1998. WHOQOL User Manual. Geneva: World Health Organization."
                   }
                 ],
                 "population": "",
@@ -6292,7 +6465,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+                        "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
                       }
                     ],
                     "terminology-codes": [
@@ -6423,7 +6597,8 @@
                     "sources": [
                       {
                         "source-description": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
-                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -6503,7 +6678,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594."
+                        "system": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -6685,7 +6861,8 @@
                     "sources": [
                       {
                         "source-description": "de Vries ST, Mol PG, de Zeeuw D, Haaijer-Ruskamp FM, Denig P. Development and Initial Validation of a Patient-Reported Adverse Drug Event Questionnaire. Drug Saf. 2013 Sep;36(9):765-77. doi: 10.1007/s40264-013-0036-8. PMID: 23553447.",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -6860,7 +7037,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/"
+                        "system": "https://pubmed.ncbi.nlm.nih.gov/23553447/",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7069,7 +7247,8 @@
                     "sources": [
                       {
                         "source-description": "Definition and Diagnosis of Diabetes Mellitus and Intermediate Hyperglycemia: report of a WHO/IDF consultation. (pdf; 1,5 MB) In: who.int. 2006, S. 36, abgerufen am 20. Februar 2011 (englisch, ISBN 92-4-159493-4).",
-                        "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+                        "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7144,7 +7323,8 @@
                     "sources": [
                       {
                         "source-description": "Leitlinieupdate 2026",
-                        "system": "https://www.oedg.at/oedg_leitlinien.html"
+                        "system": "https://www.oedg.at/oedg_leitlinien.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7194,7 +7374,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+                        "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7263,7 +7444,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.oedg.at/oedg_leitlinien.html"
+                        "system": "https://www.oedg.at/oedg_leitlinien.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7397,7 +7579,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
+                        "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7551,7 +7734,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal"
+                        "system": "https://www.bvaeb.at/cdscontent/?contentid=10007.840446&portal=bvaebbportal",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7799,7 +7983,8 @@
                     "title": "",
                     "url": "",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -7820,7 +8005,8 @@
                     "sources": [
                       {
                         "source-description": "Impfplan Österreich",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -7880,7 +8066,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Impfen/impfplan.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -8110,7 +8297,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
+                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -8155,7 +8343,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006."
+                        "system": "13-item questionnaire is the Sleep Hygiene Index (SHI) developed by David F. Mastin, Jeff Bryson, and Robert Corwyn. The original publication is Assessment of Sleep Hygiene Using the Sleep Hygiene Index, published in the Journal of Behavioral Medicine in 2006.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -8229,7 +8418,8 @@
                     "title": "Was ist normaler Schlaf?",
                     "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -8254,7 +8444,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – DEGS",
-                        "system": "PDF siehe NextCloud"
+                        "system": "PDF siehe NextCloud",
+                        "reference": "RKI 2009. Gesundheitsfragebogen 19 bis 64 Jahre, Studie zur Gesundheit Erwachsener in Deutschland (DEGS). Berlin: Robert Koch Institut."
                       }
                     ],
                     "terminology-codes": [
@@ -8322,7 +8513,8 @@
                     "title": "",
                     "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   }
                 ],
                 "population": "",
@@ -8341,7 +8533,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "PDF siehe NextCloud"
+                        "system": "PDF siehe NextCloud",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -8507,25 +8700,29 @@
                     "title": "Was ist normaler Schlaf?",
                     "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "S3-Leitlinie Schlafbezogene Atmungsstörungen",
                     "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "S3-Leitlinie Insomnie bei Erwachsenen",
                     "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "S2k-Leitlinie Gestaltung Nacht- und Schichtarbeit",
                     "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -8550,7 +8747,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – WHOQOL-BREF",
-                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+                        "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
                       }
                     ],
                     "terminology-codes": [
@@ -8623,25 +8821,29 @@
                     "title": "",
                     "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
                     "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -8660,7 +8862,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+                        "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+                        "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
                       }
                     ],
                     "terminology-codes": [
@@ -8735,13 +8938,15 @@
                     "title": "\"Der Schlaf\", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i",
                     "url": "",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
                     "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -8788,7 +8993,8 @@
                     "sources": [
                       {
                         "source-description": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
-                        "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
+                        "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -8821,7 +9027,8 @@
                     "title": "",
                     "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -8864,7 +9071,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
+                        "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -9041,7 +9249,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "gesundheitsinformation.de: Rauchen",
@@ -9049,7 +9258,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2022a. Rauchen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "rauchfrei.at",
@@ -9057,7 +9267,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "rauchfrei-programm.de",
@@ -9065,7 +9276,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "Stabsstelle Krebsprävention (DKFZ)",
@@ -9073,7 +9285,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "WHO: Tobacco",
@@ -9081,7 +9294,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/tobacco [Accessed 11.06.2026]."
                   },
                   {
                     "title": "Prävention und Tabakentwöhnung (Sozialministerium)",
@@ -9089,7 +9303,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -9114,7 +9329,8 @@
                     "sources": [
                       {
                         "source-description": "Austrian Health Interview Survey (ATHIS) (Statistik Austria, 2025)",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -9179,7 +9395,8 @@
                     "audience": [
                       "Healthcare professionals"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -9187,7 +9404,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "IQWIG. 2022a. Rauchen [Online]. Available: [URL] [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
@@ -9195,7 +9413,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -9203,7 +9422,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -9211,7 +9431,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   },
                   {
                     "title": "",
@@ -9219,7 +9440,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/tobacco [Accessed 11.06.2026]."
                   },
                   {
                     "title": "",
@@ -9227,7 +9449,8 @@
                     "audience": [
                       "Laymen / citizens"
                     ],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -9246,7 +9469,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+                        "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+                        "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
                       }
                     ],
                     "terminology-codes": [
@@ -9351,7 +9575,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://osf.io/ndu6r/files/snm3p"
+                        "system": "https://osf.io/ndu6r/files/snm3p",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -9396,7 +9621,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://osf.io/ndu6r/files/snm3p"
+                        "system": "https://osf.io/ndu6r/files/snm3p",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -9739,7 +9965,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – Selbst definierte Frage",
-                        "system": "Nicht anwendbar"
+                        "system": "Nicht anwendbar",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [],
@@ -9778,7 +10005,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Nicht anwendbar"
+                        "system": "Nicht anwendbar",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [],
@@ -9851,7 +10079,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – Selbst definierte Frage",
-                        "system": "Nicht anwendbar"
+                        "system": "Nicht anwendbar",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -9896,7 +10125,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Nicht anwendbar"
+                        "system": "Nicht anwendbar",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -9971,7 +10201,8 @@
                     "sources": [
                       {
                         "source-description": "Statistik Austria. Wohnsitutation",
-                        "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+                        "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10051,7 +10282,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+                        "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10309,7 +10541,8 @@
                     "sources": [
                       {
                         "source-description": "Statistik Austria. Mikrozensus Erkläuterung und Fragebogen 2025",
-                        "system": "Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+                        "system": "Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10374,7 +10607,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000"
+                        "system": "Modifziert nach: https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.statistik.at/stddoku/subdokumente/b_mz-arbeitskraefte-wohnungserhebung_ab_2004_mz_erlaeuterungen.pdf&ved=2ahUKEwiX-NSB5PWWAxUKXfEDHUhDFgEQ0YISegYIAAgXEAI&opi=89978449&cd&psig=AOvVaw05ZzxfQJPsiQqYUBAzFgEE&ust=1789740220084000",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10469,7 +10703,8 @@
                     "sources": [
                       {
                         "source-description": "Statistik Austria; Erhebung „Migration & Integration“",
-                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10524,7 +10759,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210"
+                        "system": "https://www.statistik.at/services/tools/serviceangebote/publikationen/detail/2210",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10613,7 +10849,8 @@
                     "sources": [
                       {
                         "source-description": "Subjektiv – ISCED-Level",
-                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced",
+                        "reference": "UNESCO INSTITUTE FOR STATISTICS 2012. International Standard Classification of Education: ISCED 2011. Montreal: UNESCO Institute for Statistics."
                       }
                     ],
                     "terminology-codes": [
@@ -10668,7 +10905,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+                        "system": "https://www.uis.unesco.org/en/methods-and-tools/isced",
+                        "reference": "UNESCO INSTITUTE FOR STATISTICS 2012. International Standard Classification of Education: ISCED 2011. Montreal: UNESCO Institute for Statistics."
                       }
                     ],
                     "terminology-codes": [
@@ -10841,7 +11079,8 @@
                     "sources": [
                       {
                         "source-description": "OECD. Society at a Glance 2019",
-                        "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+                        "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -10941,7 +11180,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+                        "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [
@@ -11304,7 +11544,8 @@
                     "title": "Handbuch Betriebliche Gesundheitsförderung",
                     "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -11329,7 +11570,8 @@
                     "sources": [
                       {
                         "source-description": "WAI",
-                        "system": "WAI: Tuomi et al 1998"
+                        "system": "WAI: Tuomi et al 1998",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [],
@@ -11356,7 +11598,8 @@
                     "title": "",
                     "url": "https://www.netzwerk-bgf.at/cdscontent/load?contentid=10008.773130&version=1673273440",
                     "audience": [],
-                    "note": ""
+                    "note": "",
+                    "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                   }
                 ],
                 "population": "",
@@ -11375,7 +11618,8 @@
                     "sources": [
                       {
                         "source-description": "",
-                        "system": "WAI: Tuomi et al 1998"
+                        "system": "WAI: Tuomi et al 1998",
+                        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
                       }
                     ],
                     "terminology-codes": [],

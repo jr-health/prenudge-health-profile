@@ -75,6 +75,8 @@ _Version: 0.1.24-test | Generiert: 2026-11-24_
 - [Arbeit](#arbeit)
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
+- [Literaturverzeichnis](#literaturverzeichnis)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -2923,3 +2925,53 @@ Sehr gut (Arbeitsfähigkeit erhalten): 44-49 Punkte
 - [WAI](WAI: Tuomi et al 1998)
 
 ---
+
+## Literaturverzeichnis
+
+AGES. n.d. Österreichische Ernährungsempfehlungen [Online]. Available: <https://ernaehrungsempfehlung.at/empfehlungen/#mit-fisch-und-fleisch> [Accessed 11.06.2026].
+
+BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF).
+
+BMASGPK. 2026b. Österreichische Ernährungsempfehlungen [Online]. Available: <https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html> [Accessed 11.06.2026].
+
+FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z
+
+FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich.
+
+FONDS GESUNDES ÖSTERREICH. n.d.-a. Alltagsbewegung [Online]. Available: <https://fgoe.org/glossar/alltagsbewegung> [Accessed 11.06.2026].
+
+IQWIG. 2022a. Rauchen [Online]. Available: <https://www.gesundheitsinformation.de/rauchen.html> [Accessed 11.06.2026].
+
+IQWIG. 2022b. Was sagt der Body-Mass-Index über die Gesundheit aus? [Online]. Available: <https://www.gesundheitsinformation.de/was-sagt-der-body-mass-index-ueber-die-gesundheit-aus.html> [Accessed 11.06.2026].
+
+IQWIG. 2023a. Alkohol [Online]. Available: <https://www.gesundheitsinformation.de/alkohol.html> [Accessed 11.06.2026].
+
+IQWIG. 2023b. Wie wirkt Alkohol - und wie schnell wird er abgebaut? [Online]. Available: <https://www.gesundheitsinformation.de/wie-wirkt-alkohol-und-wie-schnell-wird-er-abgebaut.html> [Accessed 11.06.2026].
+
+IQWIG. 2024. Was ist "normaler" Schlaf? [Online]. Available: <https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html> [Accessed 11.06.2026].
+
+ÖGK 2025. Wie geht es mir? Psychische Gesundheit. Wien: Österreichische Gesundheitskasse.
+
+RKI 2009. Gesundheitsfragebogen 19 bis 64 Jahre, Studie zur Gesundheit Erwachsener in Deutschland (DEGS). Berlin: Robert Koch Institut.
+
+STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria.
+
+UNESCO INSTITUTE FOR STATISTICS 2012. International Standard Classification of Education: ISCED 2011. Montreal: UNESCO Institute for Statistics.
+
+WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization.
+
+WORLD HEALTH ORGANIZATION 1998. WHOQOL User Manual. Geneva: World Health Organization.
+
+WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization.
+
+WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: <https://www.who.int/news-room/fact-sheets/detail/tobacco> [Accessed 11.06.2026].
+
+---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.24-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-11-24 | Theresa.Weitlaner |
