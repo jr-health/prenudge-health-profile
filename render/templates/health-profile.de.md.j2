@@ -89,6 +89,9 @@ _Keine Beobachtungen erfasst._
 
 **Messinstrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
 
+{% if instr.get('licence-required') %}
+- **Lizenz erforderlich:** Ja{{ (' — [Lizenz / Genehmigung anfordern](' ~ instr['licence-link'] ~ ')') if instr.get('licence-link') else '' }}
+{% endif %}
 {% if instr.get('unit') %}
 - **Einheit:** {{ instr.get('unit') | replace('\n', ' ') | trim }}
 {% endif %}

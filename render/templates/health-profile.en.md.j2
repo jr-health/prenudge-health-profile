@@ -89,6 +89,9 @@ _No observations recorded._
 
 **Measurement Instrument {{ loop.index }}**{% if instr.get('source-type') %} — {{ instr['source-type'] }}{% endif %}
 
+{% if instr.get('licence-required') %}
+- **Licence Required:** Yes{{ (' — [Request licence / permission](' ~ instr['licence-link'] ~ ')') if instr.get('licence-link') else '' }}
+{% endif %}
 {% if instr.get('unit') %}
 - **Unit:** {{ instr.get('unit') | replace('\n', ' ') | trim }}
 {% endif %}
