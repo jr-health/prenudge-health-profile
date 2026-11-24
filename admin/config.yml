@@ -365,6 +365,14 @@ collections:
             required: false
             i18n: translate
 
+          - label: "Reference for the Literaturverzeichnis (MED)"
+            name: reference
+            widget: text
+            required: false
+            i18n: duplicate
+            default: "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
+            hint: "One reference per field, shown in the Literaturverzeichnis. Keep the line that fits (Web page or Book/report/paper) and replace the [placeholders]; lines that still contain placeholders are ignored, so you can leave the unused one. [URL] is replaced by the URL of this entry. Use n.d. if there is no year, and 2022a/2022b if the same author has several entries in one year. Leave unchanged if this entry should not appear in the list."
+
       - label: "Population (MED)"
         name: population
         required: false
@@ -492,6 +500,13 @@ collections:
                 required: true
                 i18n: duplicate
                 hint: "e.g., https://fgoe.org/medien/reihewissen/bewegungsempfehlungen"
+              - label: "Reference for the Literaturverzeichnis (MED)"
+                name: reference
+                widget: text
+                required: false
+                i18n: duplicate
+                default: "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
+                hint: "One reference per field, shown in the Literaturverzeichnis. Keep the line that fits (Web page or Book/report/paper) and replace the [placeholders]; lines that still contain placeholders are ignored, so you can leave the unused one. [URL] is replaced by the URL of this entry. Use n.d. if there is no year, and 2022a/2022b if the same author has several entries in one year. Leave unchanged if this entry should not appear in the list."
           - label: "Terminology Codes (TECH/APCA)"
             name: "terminology-codes"
             widget: "list"
