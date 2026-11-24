@@ -1,36 +1,11 @@
 {
   "version": "0.1.24-test",
-  "generated": "2026-11-24T10:22:43.895209+00:00",
+  "generated": "2026-11-24T10:23:15.849580+00:00",
   "scope": "combined",
-  "commit": "c40e7521f6ac37601531ebec022df47c9f748ba6",
+  "commit": "a9737b974b38b39528384b47ec12c005c15bd99e",
   "activity": {
-    "since": "v0.0.23-test",
-    "entries": [
-      {
-        "date": "2026-11-24",
-        "author": "Theresa.Weitlaner"
-      },
-      {
-        "date": "2026-11-23",
-        "author": "Philip Stampfer"
-      },
-      {
-        "date": "2026-11-23",
-        "author": "M13na"
-      },
-      {
-        "date": "2026-11-22",
-        "author": "M13na"
-      },
-      {
-        "date": "2026-11-20",
-        "author": "Philip Stampfer"
-      },
-      {
-        "date": "2026-11-20",
-        "author": "M13na"
-      }
-    ]
+    "since": "v0.1.24-test",
+    "entries": []
   },
   "categories": [
     {
