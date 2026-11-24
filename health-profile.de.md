@@ -76,6 +76,7 @@ _Version: 0.1.25-test | Generiert: 2026-11-24_
   - [Erwerbstätigkeit (In Ausbildung; Erwerbstätig; In Pension / Ruhestand; Dauerhaft erwerbsunfähig; Arbeitslos; Haushaltsführend)](#erwerbstatigkeit-in-ausbildung-erwerbstatig-in-pension-ruhestand-dauerhaft-erwerbsunfahig-arbeitslos-haushaltsfuhrend)
   - [Arbeitsfähigkeit (Score)](#arbeitsfahigkeit-score)
 - [Literaturverzeichnis](#literaturverzeichnis)
+- [Bearbeitungshistorie](#bearbeitungshistorie)
 
 ---
 
@@ -1623,6 +1624,7 @@ Selbstbericht über bedeutende Lebensereignisse (z. B. Trennung, Todesfall, Jo
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Lizenz erforderlich:** Ja — [Lizenz / Genehmigung anfordern](https://www.who.int/about/policies/publishing/permissions)
 - **Einheit:** Lebensqualität Score
 - **Datenformat:** Transformierter Scorewert (0-100)
 - **Wertebereich:** min: 4 (Transformiert 0)
@@ -2966,3 +2968,11 @@ WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentar
 WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: <https://www.who.int/news-room/fact-sheets/detail/tobacco> [Accessed 11.06.2026].
 
 ---
+
+## Bearbeitungshistorie
+
+_Änderungen seit Version v0.1.25-test:_
+
+| Datum | Bearbeiter |
+|---|---|
+| 2026-11-24 | Theresa Weitlaner |

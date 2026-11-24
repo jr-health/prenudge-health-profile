@@ -76,6 +76,7 @@ _Version: 0.1.25-test | Generated: 2026-11-24_
   - [Impairment of employment](#impairment-of-employment)
   - [Work ability (Score)](#work-ability-score)
 - [References](#references)
+- [Edit History](#edit-history)
 
 ---
 
@@ -976,6 +977,7 @@ max: 24 Stunden
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Licence Required:** Yes — [Request licence / permission](https://www.who.int/about/policies/publishing/permissions)
 - **Range of Values:** min: 4 (Transformiert 0)
 max: 20 (Transformiert 100)
 - **Acquisition Frequency:** alle 6 Monate
@@ -1791,3 +1793,11 @@ WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentar
 WORLD HEALTH ORGANIZATION. 2025. Tobacco [Online]. Available: <https://www.who.int/news-room/fact-sheets/detail/tobacco> [Accessed 11.06.2026].
 
 ---
+
+## Edit History
+
+_Changes since version v0.1.25-test:_
+
+| Date | Author |
+|---|---|
+| 2026-11-24 | Theresa Weitlaner |
