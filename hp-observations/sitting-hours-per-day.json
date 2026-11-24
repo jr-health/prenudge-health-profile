@@ -13,25 +13,29 @@
         "title": "Österreichische Bewegungsempfehlungen",
         "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
         "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Sitzverhalten (Robert Koch-Institut)",
         "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "WHO guidelines on physical activity and sedentary behaviour",
         "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -56,7 +60,8 @@
         "sources": [
           {
             "source-description": "EHIS-PAQ (Finger et al., 2015)",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [
@@ -119,25 +124,29 @@
         "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "",
         "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://www.gbe.rki.de/DE/Themen/EinflussfaktorenAufDieGesundheit/GesundheitsUndRisikoverhalten/KoerperlicheAktivitaet/Sitzen/sitzen_node.html?darstellung=0&kennzahl=1&zeit=2019&geschlecht=0&standardisierung=0",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://iris.who.int/server/api/core/bitstreams/faa83413-d89e-4be9-bb01-b24671aef7ca/content",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "WORLD HEALTH ORGANIZATION 2020. WHO guidelines on physical activity and sedentary behaviour, Licence: CC BY-NC-SA 3.0 IGO. Geneva: World Health Organization."
       }
     ],
     "population": "",
@@ -156,7 +165,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [

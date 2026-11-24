@@ -16,6 +16,9 @@ _Version: {{ profile.version }} | Generiert: {{ profile.generated[:10] }}_
 {% endfor %}
 {% endfor %}
 {% endfor %}
+{% if references(profile, 'de') %}
+- [Literaturverzeichnis](#literaturverzeichnis)
+{% endif %}
 {% if profile.activity and profile.activity.entries %}
 - [Bearbeitungshistorie](#bearbeitungshistorie)
 {% endif %}
@@ -166,6 +169,17 @@ _Keine Beobachtungen erfasst._
 
 ---
 {% endfor %}
+{% set refs = references(profile, 'de') %}
+{% if refs %}
+
+## Literaturverzeichnis
+
+{% for r in refs %}
+{{ r | ref_md }}
+
+{% endfor %}
+---
+{% endif %}
 {% set activity = profile.activity %}
 {% if activity and activity.entries %}
 

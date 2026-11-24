@@ -15,13 +15,15 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Erste Hilfe für die Seele",
         "url": "https://www.erstehilfefuerdieseele.at/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Leitlinie Unipolare Depression",
@@ -29,7 +31,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
       },
       {
         "title": "Plattform Psyche (Gesundheitsfonds Steiermark)",
@@ -37,7 +40,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "ÖGK: Broschüre psychische Gesundheit",
@@ -45,7 +49,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "ÖGK 2025. Wie geht es mir? Psychische Gesundheit. Wien: Österreichische Gesundheitskasse."
       },
       {
         "title": "oesterreich.gv.at: Psychosoziale Gesundheit",
@@ -53,7 +58,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "ÖGK: Psychische Gesundheit",
@@ -61,7 +67,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -86,7 +93,8 @@
         "sources": [
           {
             "source-description": "Nationale VersorgungsLeitlinie Depression",
-            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005",
+            "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
           }
         ],
         "terminology-codes": [
@@ -146,13 +154,15 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://www.erstehilfefuerdieseele.at/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -160,7 +170,8 @@
         "audience": [
           "Healthcare professionals"
         ],
-        "note": ""
+        "note": "",
+        "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
       },
       {
         "title": "",
@@ -168,7 +179,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -176,7 +188,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "ÖGK 2025. Wie geht es mir? Psychische Gesundheit. Wien: Österreichische Gesundheitskasse."
       },
       {
         "title": "",
@@ -184,7 +197,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
@@ -192,7 +206,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -211,7 +226,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005"
+            "system": "Nationale VersorgungsLeitlinie Depression https://register.awmf.org/de/leitlinien/detail/nvl-005",
+            "reference": "BÄK & KBV & AWMF 2022. Nationale VersorgungsLeitlinie Unipolare Depression - Langfassung, Version 3.2. Berlin: Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der wissenschaftlichen Medizinischen Fachgesellschaften (AWMF)."
           }
         ],
         "terminology-codes": [

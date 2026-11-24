@@ -27,7 +27,8 @@
         "sources": [
           {
             "source-description": "OECD. Society at a Glance 2019",
-            "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+            "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -127,7 +128,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html"
+            "system": "https://www.oecd.org/en/publications/society-at-a-glance-2019_soc_glance-2019-en/full-report/component-4.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

@@ -13,25 +13,29 @@
         "title": "Was ist normaler Schlaf?",
         "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "S3-Leitlinie Schlafbezogene Atmungsstörungen",
         "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "S3-Leitlinie Insomnie bei Erwachsenen",
         "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "S2k-Leitlinie Gestaltung Nacht- und Schichtarbeit",
         "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -56,7 +60,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – WHOQOL-BREF",
-            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+            "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
           }
         ],
         "terminology-codes": [
@@ -129,25 +134,29 @@
         "title": "",
         "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
       },
       {
         "title": "",
         "url": "https://register.awmf.org/assets/guidelines/063-001l_S3_SBAS_2023-01_verlaengert_und_Hinweis_Teil-Aktualisierung.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://register.awmf.org/assets/guidelines/063-003l_S3_Insomnie-bei-Erwachsenen_2025-04.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://register.awmf.org/assets/guidelines/002-030l_S2k_Gesundheitliche-Aspekte-Gestaltung-Nacht-und-Schichtarbeit_2020-03-abgelaufen.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -166,7 +175,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.who.int/tools/whoqol/whoqol-bref"
+            "system": "https://www.who.int/tools/whoqol/whoqol-bref",
+            "reference": "WHO 1996. WHOQOL-BREF: Introduction, administration, scoring and generic version of the assessment. Geneva: World Health Organization."
           }
         ],
         "terminology-codes": [

@@ -13,7 +13,8 @@
         "title": "",
         "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,7 +39,8 @@
         "sources": [
           {
             "source-description": "Österreichische Ernährungsempfehlung",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html",
+            "reference": "BMASGPK. 2026b. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
           }
         ],
         "terminology-codes": [
@@ -76,7 +78,8 @@
         "title": "",
         "url": "https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/eier",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "Allgemeinbevölkerung",
@@ -95,7 +98,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Ern%C3%A4hrung/%C3%96sterreichische-Ern%C3%A4hrungsempfehlungen-NEU.html",
+            "reference": "BMASGPK. 2026b. Österreichische Ernährungsempfehlungen [Online]. Available: [URL] [Accessed 11.06.2026]."
           }
         ],
         "terminology-codes": [

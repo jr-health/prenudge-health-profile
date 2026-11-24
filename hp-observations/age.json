@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – Selbst definierte Frage",
-            "system": "Nicht anwendbar"
+            "system": "Nicht anwendbar",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [],
@@ -70,7 +71,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "Nicht anwendbar"
+            "system": "Nicht anwendbar",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [],

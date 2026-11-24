@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
-            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+            "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
           }
         ],
         "terminology-codes": [
@@ -81,7 +82,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf"
+            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+            "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
           }
         ],
         "terminology-codes": [

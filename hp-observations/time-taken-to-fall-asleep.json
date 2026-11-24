@@ -13,13 +13,15 @@
         "title": "\"Der Schlaf\", Stefan Seidel, MANZ Verlag Wien in Kooperation mit der MedUni Wien, 176 Seiten, Juli 2020, ISBN: 978-3-214-18548-0; 23,90 EUR. Link zum Buch im MANZ-Online-Shop: https://bit.ly/3dBU36i",
         "url": "",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -66,7 +68,8 @@
         "sources": [
           {
             "source-description": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
-            "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
+            "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -99,7 +102,8 @@
         "title": "",
         "url": "https://www.aok.de/pk/magazin/wohlbefinden/schlaf/warum-schlaf-wichtig-fuer-koerper-und-psyche-ist/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -142,7 +146,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771."
+            "system": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4. PMID: 2748771.",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

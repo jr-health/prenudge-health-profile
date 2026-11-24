@@ -15,7 +15,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2022b. Was sagt der Body-Mass-Index über die Gesundheit aus? [Online]. Available: [URL] [Accessed 11.06.2026]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -40,7 +41,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – Fragen (Selbstangaben)",
-            "system": "nicht zutreffend"
+            "system": "nicht zutreffend",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -110,7 +112,8 @@
         "audience": [
           "Laymen / citizens"
         ],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2022b. Was sagt der Body-Mass-Index über die Gesundheit aus? [Online]. Available: [URL] [Accessed 11.06.2026]."
       }
     ],
     "population": "",
@@ -129,7 +132,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "nicht zutreffend"
+            "system": "nicht zutreffend",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

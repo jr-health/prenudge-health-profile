@@ -27,7 +27,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://osf.io/ndu6r/files/snm3p"
+            "system": "https://osf.io/ndu6r/files/snm3p",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -72,7 +73,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://osf.io/ndu6r/files/snm3p"
+            "system": "https://osf.io/ndu6r/files/snm3p",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

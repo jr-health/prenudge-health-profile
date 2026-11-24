@@ -13,7 +13,8 @@
         "title": "Was ist normaler Schlaf?",
         "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,7 +39,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – DEGS",
-            "system": "PDF siehe NextCloud"
+            "system": "PDF siehe NextCloud",
+            "reference": "RKI 2009. Gesundheitsfragebogen 19 bis 64 Jahre, Studie zur Gesundheit Erwachsener in Deutschland (DEGS). Berlin: Robert Koch Institut."
           }
         ],
         "terminology-codes": [
@@ -106,7 +108,8 @@
         "title": "",
         "url": "https://www.gesundheitsinformation.de/was-ist-normaler-schlaf.html",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "IQWIG. 2024. Was ist \"normaler\" Schlaf? [Online]. Available: [URL] [Accessed 11.06.2026]."
       }
     ],
     "population": "",
@@ -125,7 +128,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "PDF siehe NextCloud"
+            "system": "PDF siehe NextCloud",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

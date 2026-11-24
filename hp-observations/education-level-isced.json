@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – ISCED-Level",
-            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced",
+            "reference": "UNESCO INSTITUTE FOR STATISTICS 2012. International Standard Classification of Education: ISCED 2011. Montreal: UNESCO Institute for Statistics."
           }
         ],
         "terminology-codes": [
@@ -86,7 +87,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced"
+            "system": "https://www.uis.unesco.org/en/methods-and-tools/isced",
+            "reference": "UNESCO INSTITUTE FOR STATISTICS 2012. International Standard Classification of Education: ISCED 2011. Montreal: UNESCO Institute for Statistics."
           }
         ],
         "terminology-codes": [

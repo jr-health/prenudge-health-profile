@@ -13,7 +13,8 @@
         "title": "•\tDGEM-Leitlinien •\tAWMF-Leitlinien Ernährungsmedizin •\tÖsterreichische Ernährungspyramide •\tRezepte zum Nachkochen •\tFragen und Antworten rund um die Ernährungsempfehlungen •\tFGÖ-Ernährungsbroschüre 2025 •\tGesunde Ernährung (Gesundheitsfonds Steiermark)",
         "url": "",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -38,7 +39,8 @@
         "sources": [
           {
             "source-description": "Subjektiv – ATHIS: Gemüse und Obst",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [
@@ -86,7 +88,8 @@
         "title": "",
         "url": "",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -105,7 +108,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html"
+            "system": "https://www.sozialministerium.gv.at/Themen/Gesundheit/Gesundheitssystem/Gesundheitsberichte/%C3%96sterreichische-Gesundheitsbefragung-2014-(ATHIS).html",
+            "reference": "STATISTIK AUSTRIA 2025. Gesundheit und Lebensstil, Fragebogen (Version 31.03.2025), ATHIS 2025 Wien: Statistik Austria."
           }
         ],
         "terminology-codes": [

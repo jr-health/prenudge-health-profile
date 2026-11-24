@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Brief Resilience Scale (Deutsche Version)",
-            "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+            "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -116,7 +117,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/"
+            "system": "https://krisendaten.de/ressourcen/erhebungsinstrument/brief-resilience-scale-deutsche-version/",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

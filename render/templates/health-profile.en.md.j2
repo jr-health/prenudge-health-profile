@@ -16,6 +16,9 @@ _Version: {{ profile.version }} | Generated: {{ profile.generated[:10] }}_
 {% endfor %}
 {% endfor %}
 {% endfor %}
+{% if references(profile, 'en') %}
+- [References](#references)
+{% endif %}
 {% if profile.activity and profile.activity.entries %}
 - [Edit History](#edit-history)
 {% endif %}
@@ -166,6 +169,17 @@ _No observations recorded._
 
 ---
 {% endfor %}
+{% set refs = references(profile, 'en') %}
+{% if refs %}
+
+## References
+
+{% for r in refs %}
+{{ r | ref_md }}
+
+{% endfor %}
+---
+{% endif %}
 {% set activity = profile.activity %}
 {% if activity and activity.entries %}
 

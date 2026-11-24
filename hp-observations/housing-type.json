@@ -27,7 +27,8 @@
         "sources": [
           {
             "source-description": "Statistik Austria. Wohnsitutation",
-            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -107,7 +108,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation"
+            "system": "https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnsituation",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

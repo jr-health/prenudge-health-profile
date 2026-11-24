@@ -31,7 +31,8 @@
         "sources": [
           {
             "source-description": "Definition and Diagnosis of Diabetes Mellitus and Intermediate Hyperglycemia: report of a WHO/IDF consultation. (pdf; 1,5 MB) In: who.int. 2006, S. 36, abgerufen am 20. Februar 2011 (englisch, ISBN 92-4-159493-4).",
-            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -106,7 +107,8 @@
         "sources": [
           {
             "source-description": "Leitlinieupdate 2026",
-            "system": "https://www.oedg.at/oedg_leitlinien.html"
+            "system": "https://www.oedg.at/oedg_leitlinien.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -156,7 +158,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia"
+            "system": "https://www.who.int/publications/i/item/definition-and-diagnosis-of-diabetes-mellitus-and-intermediate-hyperglycaemia",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [
@@ -225,7 +228,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://www.oedg.at/oedg_leitlinien.html"
+            "system": "https://www.oedg.at/oedg_leitlinien.html",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
           }
         ],
         "terminology-codes": [

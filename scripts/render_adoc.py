@@ -31,6 +31,8 @@ import unicodedata
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
+from references import references, ref_adoc
+
 ROOT = Path(__file__).parent.parent
 TEMPLATES_DIR = ROOT / "render" / "templates"
 
@@ -279,6 +281,8 @@ def main():
     env.filters["anchor"] = anchor
     env.filters["md_adoc"] = md_richtext_to_adoc
     env.filters["adoc_br"] = _apply_hardbreaks
+    env.filters["ref_adoc"] = ref_adoc
+    env.globals["references"] = references
 
     for locale in ("de", "en"):
         template = env.get_template(f"health-profile.{locale}.adoc.j2")

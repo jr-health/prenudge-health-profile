@@ -13,19 +13,22 @@
         "title": "Die Bewegungsrevolution (Gesundheitsfonds Steiermark)",
         "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "Österreichische Bewegungsempfehlungen",
         "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "Broschüre Bewegung",
         "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "erwachsene Allgemeinbevölkerung",
@@ -50,7 +53,8 @@
         "sources": [
           {
             "source-description": "EHIS-PAQ (Finger et al., 2015)",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [
@@ -113,19 +117,22 @@
         "title": "",
         "url": "https://diebewegungsrevolution.at/bewegung-tipps/",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       },
       {
         "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2022-01/WB_17_bewegungsempfehlungen_bfrei.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "FONDS GESUNDES ÖSTERREICH 2020. Österreichische Bewegungsempfehlungen (Wissensband 17). Wien: Fonds Gesundes Österreich."
       },
       {
         "title": "",
         "url": "https://fgoe.org/sites/fgoe.org/files/2023-03/Broschuere_Bewegung_2023_bfrei_0.pdf",
         "audience": [],
-        "note": ""
+        "note": "",
+        "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
       }
     ],
     "population": "",
@@ -144,7 +151,8 @@
         "sources": [
           {
             "source-description": "",
-            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/"
+            "system": "https://pubmed.ncbi.nlm.nih.gov/26634120/",
+            "reference": "FINGER, J. D., TAFFOREAU, J., GISLE, L., OJA, L., ZIESE, T., THELEN, J., MENSINK, G. B. & LANGE, C. 2015. Development of the European Health Interview Survey - Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Arch Public Health, 73, 59. 10.1186/s13690-015-0110-z"
           }
         ],
         "terminology-codes": [
