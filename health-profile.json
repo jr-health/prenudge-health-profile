@@ -1,11 +1,15 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-24T14:35:48.920378+00:00",
+  "generated": "2026-11-26T10:00:54.280463+00:00",
   "scope": "combined",
-  "commit": "d6dad100e40c39a3a69dd37d40bbfa0f4e39bc48",
+  "commit": "fdbdd905b29f300e01a2a210af374ed1b74b5679",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
+      {
+        "date": "2026-11-26",
+        "author": "shaide79"
+      },
       {
         "date": "2026-11-24",
         "author": "Theresa Weitlaner"
@@ -905,8 +909,8 @@
                 "title": "Taillen-/Bauchumfang (cm)",
                 "category": "anthropometry",
                 "dimension": "heigth-weight",
-                "description": "",
-                "citizen-info": "Der **Bauchumfang** bzw. **Taillenumfang**  bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe \"Rippe\") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm \"Beckenkamm\") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe \"Fettgewebe\"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett \"Viszeralfett\").",
+                "description": "Dieser Gesundheitsindikator zeigt auf,",
+                "citizen-info": "\"Der Bauchumfang bzw. Taillenumfang  bezeichnet den in der Mitte zwischen dem unteren Rippenbogen und dem Beckenkamm gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden Fettgewebes, des sogenannten Bauchfettes.\"",
                 "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
@@ -914,7 +918,9 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Selbstmessung",
-                    "specific-questions": "Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms (Abb.)",
+                    "licence-required": false,
+                    "licence-link": "",
+                    "specific-questions": "\"Entkleidet, außer Socken und Unterwäsche (leichtes T-Shirt anstelle eines Unterhemds)\n\nDie Person atmet tief in den Brustkorb ein, sodass der Messpunkt ertastet werden kann.\n-Markieren Sie die Mitte zwischen der untersten Rippe und dem höchsten Punkt des Beckenkamms\"",
                     "unit": "cm",
                     "data-format": "metrisch",
                     "data-type": "",
@@ -975,6 +981,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",

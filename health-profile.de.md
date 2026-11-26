@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.25-test | Generiert: 2026-11-24_
+_Version: 0.1.25-test | Generiert: 2026-11-26_
 
 ---
 
@@ -235,11 +235,15 @@ Adipositas Grad III: ≥ 40 kg/m² (Purnell, 2000)
 
 ### Taillen-/Bauchumfang (cm)
 
+**Beschreibung für Fachpersonal:**
+
+Dieser Gesundheitsindikator zeigt auf,
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Der **Bauchumfang** bzw. **Taillenumfang**  bezeichnet den in der Mitte zwischen dem unteren [Rippenbogen](https://de.wikipedia.org/wiki/Rippe "Rippe") und dem [Beckenkamm](https://de.wikipedia.org/wiki/Beckenkamm "Beckenkamm") gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden [Fettgewebes](https://de.wikipedia.org/wiki/Fettgewebe "Fettgewebe"), des sogenannten [Bauchfettes](https://de.wikipedia.org/wiki/Viszeralfett "Viszeralfett").
+"Der Bauchumfang bzw. Taillenumfang  bezeichnet den in der Mitte zwischen dem unteren Rippenbogen und dem Beckenkamm gemessenen Körperumfang. Die Messung des Bauchumfangs ist eine indirekte Methode zur Bestimmung des in der Bauchhöhle liegenden Fettgewebes, des sogenannten Bauchfettes."
 
 #### Messinstrumente
 
@@ -2975,4 +2979,5 @@ _Änderungen seit Version v0.1.25-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-26 | shaide79 |
 | 2026-11-24 | Theresa Weitlaner |
