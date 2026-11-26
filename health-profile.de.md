@@ -687,13 +687,27 @@ Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) lief
 
 ### Fleisch (Portionen/Woche)
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fleisch abgefragt.
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-## Allgemein
+**Allgemein:** Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).
 
-Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).
+**Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+
+Eine Portion entspricht: 
+
+| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
+| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
+| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
+
+Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
+
+Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
 
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
@@ -701,17 +715,22 @@ Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Siche
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Einheit:** Portionen/Woche 1 Portion = siehe unten
-- **Datenformat:** kategoriell
-- **Wertebereich:** 1-5
-- **Erfassungsfrequenz:** alle 6 Monate
+- **Einheit:** Portionen Fleisch oder Wurst pro Woche
+- **Datenformat:** ganze Zahl (halbe Portionen werden aufgerundet
+- **Wertebereich:** 1-99
+- **Erfassungsfrequenz:** 1x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ### Ernährungsempfehlungen
+- **Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
 
-Fleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen, Zink und B-Vitaminen. Nach den Empfehlungen der österreichischen Ernährungspyramide sollten wöchentlich maximal 3 Portionen davon konsumiert werden.
+Eine Portion entspricht: 
+
+| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
+| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
+| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
 
 **Scoring-Algorithmus:** nicht zutreffend
 
