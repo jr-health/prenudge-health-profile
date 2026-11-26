@@ -273,25 +273,33 @@ Dieser Gesundheitsindikator zeigt auf,
 
 **Beschreibung für Fachpersonal:**
 
-Das **Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.
+Dieser Gesundheitsindikator zeigt...
 
-- **Niedrigeres WHR:** relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).
-- **Höheres WHR:** relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).
-- Besonders **viszerales Bauchfett** steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.
+"Das Hüft-Taille-Verhältnis (WHR, Waist-to-Hip Ratio**)** beschreibt die Verteilung des Körperfetts zwischen Bauch/Taille und Hüfte.
 
-**Population:** Erwachsene
+- Niedrigeres WHR: relativ mehr Fett im Hüft-/Gesäßbereich („birnenförmige“ Fettverteilung).
+- Höheres WHR: relativ mehr Fett im Bauchbereich („apfelförmige“ Fettverteilung).
+- Besonders viszerales Bauchfett steht physiologisch stärker mit metabolischen Risiken wie Insulinresistenz und kardiovaskulären Erkrankungen in Verbindung als subkutanes Fett an Hüfte und Oberschenkeln.
+
+**Empfehlung**
+
+Frauen: <0,85
+Männer <0,90
+
+**Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Taille-Hüft-Verhältnis
 - **Wertebereich:** Ergebnisse des Verhältnisses: 0 bis 3
 - **Erfassungsfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- Frauen: <0,85;  ≥0,85 
-Männer <0,90; ≥0,90
+- Frauen: ideal >0,80; moderates Risiko 0,80-0,85; erhöhtes Risiko >0,85
+Männer: ideal >0,90; moderates Risiko 0,90-0,99; erhöhtes Risiko >1,00
 
 **Scoring-Algorithmus:** Taillienumfang (cm)/Hüftumfang (cm)
 
