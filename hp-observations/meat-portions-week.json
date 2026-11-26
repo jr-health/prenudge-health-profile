@@ -6,8 +6,8 @@
     "title": "Fleisch (Portionen/Woche)",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "description": "",
-    "citizen-info": "## Allgemein\n\nFleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).",
+    "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fleisch abgefragt.",
+    "citizen-info": "**Allgemein:** Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).\n\n**Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.\n\nEine Portion entspricht: \n\n| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |\n| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |\n| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |\n\nMeeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.\n\nFleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).",
     "verified-health-links": [
       {
         "title": "Ernährungsempfehlungen: Fleisch und Fisch",
@@ -23,16 +23,18 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Frage nach den österreichischen Ernährungsempfehlungen",
-        "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie in einer typischen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 bis 5 Portionen pro Woche 5) 6 oder mehr Portionen pro Woche",
-        "unit": "Portionen/Woche\n1 Portion = siehe unten",
-        "data-format": "kategoriell",
+        "licence-required": false,
+        "licence-link": "",
+        "specific-questions": "**„Wie viele Portionen Fleisch oder Wurst essen Sie in einer typischen Woche?“** 1 Portion entspricht der Größe Ihres Handtellers\n\n_Antwortmöglichkeiten:_ \\_Portionen/Woche",
+        "unit": "Portionen Fleisch oder Wurst pro Woche",
+        "data-format": "ganze Zahl (halbe Portionen werden aufgerundet",
         "data-type": "",
-        "range-of-vales": "1-5",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "range-of-vales": "1-99",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [
           {
-            "specific-norm": "### Ernährungsempfehlungen\n\nFleisch enthält hochwertiges Eiweiß und ist ein wichtiger Lieferant von Eisen, Zink und B-Vitaminen. Nach den Empfehlungen der österreichischen Ernährungspyramide sollten wöchentlich maximal 3 Portionen davon konsumiert werden."
+            "specific-norm": "**Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.\n\nEine Portion entspricht: \n\n| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |\n| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |\n| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |"
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
@@ -97,13 +99,15 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "1-5",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "range-of-vales": "1-99",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
         "sources": [
           {
