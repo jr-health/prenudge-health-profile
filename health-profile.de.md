@@ -391,26 +391,50 @@ Wählen Sie dabei aus der Vielfalt an Getreidesorten und bevorzugen Sie die Voll
 
 ### Milchprodukte (Portionen/Tag)
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Obst abgefragt.
+
+**Definition: "**Milch und Milchprodukte enthalten hochwertiges Eiweiß. Zudem enthalten sie zahlreiche wichtige Vitamine, wie Vitamin A, B2 und Vitamin B12, und Mineralstoffe, vor allem Calcium und Jod. Milch und Milchprodukte haben neben der Nährstoffversorgung auch eine Bedeutung für die Prävention verschiedener ernährungsmitbedingter Erkrankungen. So sind Milch und Milchprodukte als Calciumquelle für den Aufbau und den Erhalt der Knochenmasse von Bedeutung." [https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-milchprodukte1.html](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-milchprodukte1.html)
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich **2 Portionen Milch und Milchprodukte**. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.
+Milch und Milchprodukte liefern reichlich Calcium, Vitamin B12, Eiweiß, Jod und Vitamin B2. Konsumieren Sie täglich 2 Portionen Milch und Milchprodukte. Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind je 1 Portion „weiße“ Milchprodukte (z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse) und 1 Portion „gelbe“ Milchprodukte (= Käse). 1 Portion Milch/Milchprodukte entspricht einem Glas/Becher mit 150-200 ml bzw. 2 handflächengroßen dünnen Scheiben Käse.
 
 Pflanzendrinks stellen keinen gleichwertigen Ersatz für Kuhmilch dar, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten (z. B. Sojadrinks) auf ungesüßte Produkte mit zugesetztem Calcium, Vitamin B12 und Vitamin B2 zurückgreifen.
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Datenformat:** kategoriell
-- **Wertebereich:** 1-5
-- **Erfassungsfrequenz:** 1x pro Jahr
+- **Einheit:** Portionen Milchprodukte pro Tag
+- **Datenformat:** ganze Zahl (bei halber Portionsgröße aufrunden)
+- **Wertebereich:** 1-99
+- **Erfassungsfrequenz:** alle 6 Monate
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- **2 Portionen Milch und Milchprodukte/Tag**
+- "Konsumieren Sie Milch und Milchprodukte täglich: Empfohlen werden
+
+- täglich 2 Portionen für eine Ernährung mit Fisch und Fleisch oder 
+- täglich 3 Portionen für eine Ernährung ohne Fisch und Fleisch.
+
+Bevorzugen Sie fettärmere und ungesüßte Produkte. Ideal sind:
+
+- Bei Ernährung mit Fisch und Fleisch 1 Portion „weiße“ Milchprodukte – z.B. Milch, Joghurt, Topfen, Buttermilch, Hüttenkäse – und 1 Portion „gelbe“ Milchprodukte, d.h. Käse.
+- Bei Ernährung ohne Fisch und Fleisch 2 Portionen „weiße“ Milchprodukte und 1 Portion „gelbe“ Milchprodukte.
+
+Eine Portion entspricht: 
+
+| Milch | 1 Glas | 150 - 200 ml |
+| Joghurt | 1 Glas | 150 - 200 g |
+| Hüttenkäse | 1 Faust | 150 - 200 g |
+| Käse | 2 handflächengroße dünne Scheiben | 50 - 60 g |
+
+Pflanzendrinks sind kein gleichwertiger Ersatz für Kuhmilch, da sie unterschiedliche Nährstoffgehalte aufweisen. Wer weniger Milch und Joghurt konsumiert, sollte bei pflanzlichen Produkten, z.B. Sojadrinks, auf ungesüßte Produkte mit zugesetztem [Calcium](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/mengenelemente/calcium.html), [Vitamin B12](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine/vitamin-b12.html) und [Vitamin B2](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine/vitamin-b2.html) zurückgreifen."
 
 **Scoring-Algorithmus:** nicht zutreffend
 

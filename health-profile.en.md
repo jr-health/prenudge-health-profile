@@ -265,8 +265,8 @@ Optional: alle 3 Monate
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 1-5
-- **Acquisition Frequency:** 1x pro Jahr
+- **Range of Values:** 1-99
+- **Acquisition Frequency:** alle 6 Monate
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
