@@ -1982,6 +1982,8 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 ### Meldung von Symptomen oder Veränderungen an Fachkräfte
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)

@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T10:10:43.205020+00:00",
+  "generated": "2026-11-27T10:11:52.191319+00:00",
   "scope": "combined",
-  "commit": "57f9870f616527c5b78d5202819bc967ac636309",
+  "commit": "4a507deffa27766a327799d811c4b2b97431c33c",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -6953,12 +6953,14 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -6977,7 +6979,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
+                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)\n\nSandra: noch alles ausständig"
               },
               "en": {
                 "template": "observation",
@@ -6994,6 +6996,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -7011,7 +7015,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
+                "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)\n\nSandra: noch alles ausständig"
               }
             }
           ]
