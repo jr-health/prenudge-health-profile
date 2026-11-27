@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T09:58:18.640189+00:00",
+  "generated": "2026-11-27T10:00:55.210352+00:00",
   "scope": "combined",
-  "commit": "301a0efae753410a7e75850edffbf2ff5b3e3a62",
+  "commit": "b82ca6432e627df36429f11e3c79e0ed89cc3754",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -6334,25 +6334,27 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Frage aus einem validierte Fragebogen",
-                    "specific-questions": "**Haben Sie in den letzten 3 bis 6 Monaten ungewollt Gewicht verloren?** _Haben Sie bemerkt, dass Ihre Kleidung, Ihr Gürtel oder Ihr Ehering spürbar weiter geworden sind?_ (Dies ist der klassische Indikator für eine subjektive Wahrnehmung, wenn keine Waage vorhanden ist).\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ",
+                    "licence-required": false,
+                    "licence-link": "",
+                    "specific-questions": "**Haben Sie in den letzten 3 bis 6 Monaten ungewollt Gewicht verloren?** Haben Sie bemerkt, dass Ihre Kleidung, Ihr Gürtel oder Ihr Ehering spürbar weiter geworden sind? \n\n_Antwortmöglichkeiten:_ 1) Nein; 2)Ja \n\nLiteratur: MNA; SNAQ",
                     "unit": "",
                     "data-format": "dichotom",
                     "data-type": "",
                     "range-of-vales": "ja/ oder Nein",
-                    "acquisition-frequency": "alle 6 Monate",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [
                       {
-                        "specific-norm": ""
+                        "specific-norm": "es wird kein ungewollter Verlust des Körpergewichtes empfohlen"
                       }
                     ],
-                    "scoring-algorithm": "",
+                    "scoring-algorithm": "nicht zutreffend",
                     "sources": [
                       {
                         "source-description": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
@@ -6399,7 +6401,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Beschreibung offen"
               },
               "en": {
                 "template": "observation",
@@ -6416,13 +6418,15 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "ja/ oder Nein",
-                    "acquisition-frequency": "alle 6 Monate",
-                    "recommended-monitoring-frequency": "",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
                     "sources": [
                       {
@@ -6470,7 +6474,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Beschreibung offen"
               }
             }
           ]
