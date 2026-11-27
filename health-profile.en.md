@@ -674,7 +674,6 @@ Optional: alle 3 Monate
 | System | Code | Display |
 |---|---|---|
 | http://snomed.info/sct | 229070002 | Stretching exercises |
-| http://snomed.info/sct | 386293009 | Balance exercises |
 
 ### Muscle-strengthening exercises (units/week)
 

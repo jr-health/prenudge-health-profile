@@ -29,7 +29,7 @@ _Version: 0.1.25-test | Generiert: 2026-11-27_
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Gehen (Schritte/Tag)](#gehen-schrittetag)
-  - [Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)](#beweglichkeits--und-gleichgewichtstraining-einheitenwoche)
+  - [Beweglichkeitstraining (Einheiten/Woche)](#beweglichkeitstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
 - [Psychosoziale Faktoren](#psychosoziale-faktoren)
@@ -1340,16 +1340,13 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 |---|---|---|
 | http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
 
-### Beweglichkeits- und Gleichgewichtstraining (Einheiten/Woche)
+### Beweglichkeitstraining (Einheiten/Woche)
 
 **Population:** erwachsene Allgemeinbevölkerung
-Gleichgewichtstraining wird für ältere Erwachsene (ab 65 Jahren) empfohlen
 
 **Information für Bevölkerung:**
 
-Beweglichkeitstraining
-
-"Beweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.
+**Definition:** "Beweglichkeitstraining dient dem Erhalt oder der Verbesserung des Bewegungsspielraumes in einem oder mehreren Gelenken. Wesentlichen Einfluss auf die Beweglichkeit haben die Elastizität der Muskeln und des Bindegewebes sowie Bau und Funktionszustand der Gelenke. Auch die Entspannungsfähigkeit der Muskulatur – also ihre Fähigkeit, sich über die Ruhelänge hinaus zu dehnen – spielt eine wesentliche Rolle. Jegliche Form von Beweglichkeitstraining soll über die gesamte schmerzfrei erreichbare maximale Bewegungsreichweite durchgeführt werden. Eine ruhige Atmung kann die Entspannungsfähigkeit der Muskulatur unterstützen. Da die Beweglichkeit stark sowohl von der Körpertemperatur als auch der Umgebungstemperatur abhängig ist, soll Beweglichkeitstraining stets in aufgewärmtem Zustand und bei kaltem Wetter nach Möglichkeit nicht im Freien erfolgen.
 
 In Kombination mit dem Krafttraining eingesetzt, kann Beweglichkeitstraining einen wertvollen Beitrag zur Beseitigung muskulärer Dysbalancen liefern, die oftmals Folgeerscheinungen einseitiger Belastungen in Beruf, Haushalt und Freizeit sind.
 
@@ -1359,21 +1356,9 @@ Bei der aktiv dynamischen Methode werden die Extremitäten schwunghaft – jedoc
 
 Bei der aktiv statischen Methode werden die Gelenke durch eigene Muskelkraft – sprich durch Anspannen der muskulären Gegenspieler – an der individuellen Beweglichkeitsgrenze für 10 bis 20 Sekunden gehalten. Diese Dehnmethode ist eine Kombination aus Beweglichkeitstraining und Kräftigungstraining.
 
-Bei der passiv statischen Methode, auch bekannt als „Stretching“, wird unter Zuhilfenahme des eigenen Körpergewichtes, Partnerhilfe oder anderer Hilfsmittel bis zur individuellen Beweglichkeitsgrenze für 20 bis 60 Sekunden gedehnt. Durch diese Dehnmethode kommt es zu einer spannungsreduzierenden Wirkung auf die Muskulatur. Die Methode eignet sich zur allgemeinen Verbesserung der Beweglichkeit, zur schnelleren Regeneration nach sportlichen Aktivitäten, zur körperlichen und mentalen Entspannung und zur Beseitigung muskulärer Verspannungen.
+Bei der passiv statischen Methode, auch bekannt als „Stretching“, wird unter Zuhilfenahme des eigenen Körpergewichtes, Partnerhilfe oder anderer Hilfsmittel bis zur individuellen Beweglichkeitsgrenze für 20 bis 60 Sekunden gedehnt. Durch diese Dehnmethode kommt es zu einer spannungsreduzierenden Wirkung auf die Muskulatur. Die Methode eignet sich zur allgemeinen Verbesserung der Beweglichkeit, zur schnelleren Regeneration nach sportlichen Aktivitäten, zur körperlichen und mentalen Entspannung und zur Beseitigung muskulärer Verspannungen. Passiv dynamische Methoden werden im Gesundheitssport nicht empfohlen, weil sie sehr rasch zu Überbelastungen und Verletzungen führen können.
 
-Passiv dynamische Methoden werden im Gesundheitssport nicht empfohlen, weil sie sehr rasch zu Überbelastungen und Verletzungen führen können.
-
-Aktivitätsniveau
-
-Um das individuelle Aktivitätsniveau einer Person zu beschreiben, wird der Umfang ausdauerorientierter Bewegung pro Woche (Wochenumfang) – z.B. in Minuten pro Woche – herangezogen. Es werden vier Kategorien unterschieden.
-
-Beweglichkeitstraining wofür?
-
-Beweglichkeit ist eine Fitnesskomponente neben Ausdauer, Kraft, Schnelligkeit und Koordination. Viele alltägliche Aktivitäten erfordern ein höheres Maß an Beweglichkeit (z.B. Schuhe anziehen, Körperpflege, Autofahren usw.). Um die Beweglichkeit zu erhöhen, eignen sich Gymnastik- und Dehnungsübungen. Beweglichkeitsübungen sind eine sinnvolle Ergänzung zu einem Bewegungsprogramm, auch wenn diese keine nachgewiesenen positiven Wirkungen auf die Gesundheit oder die Verletzungsprophylaxe haben. Der Zeitaufwand für ein Beweglichkeitstraining kann nicht für die Erreichung der Bewegungsempfehlungen (Ausdauer und Kraft) miteingerechnet werden.
-
-Wofür sind Gleichgewichtsübungen gut?
-
-Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht."
+**Beweglichkeitstraining wofür?** Beweglichkeit ist eine Fitnesskomponente neben Ausdauer, Kraft, Schnelligkeit und Koordination. Viele alltägliche Aktivitäten erfordern ein höheres Maß an Beweglichkeit (z.B. Schuhe anziehen, Körperpflege, Autofahren usw.). Um die Beweglichkeit zu erhöhen, eignen sich Gymnastik- und Dehnungsübungen. Beweglichkeitsübungen sind eine sinnvolle Ergänzung zu einem Bewegungsprogramm, auch wenn diese keine nachgewiesenen positiven Wirkungen auf die Gesundheit oder die Verletzungsprophylaxe haben. Der Zeitaufwand für ein Beweglichkeitstraining kann nicht für die Erreichung der Bewegungsempfehlungen (Ausdauer und Kraft) miteingerechnet werden."
 
 #### Messinstrumente
 
@@ -1400,7 +1385,6 @@ Optional: alle 3 Monate
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://snomed.info/sct | 229070002 | Stretching exercises |
-| http://snomed.info/sct | 386293009 | Balance exercises |
 
 ### Muskelkräftigende Übungen (Einheiten/Woche)
 
