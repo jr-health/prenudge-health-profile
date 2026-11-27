@@ -751,23 +751,51 @@ Planen Sie Hülsenfrüchte mindestens dreimal pro Woche in den Speiseplan ein. E
 
 Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fleisch abgefragt.
 
+**Allgemein:** Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher Einhaltung der Kühlkette.
+
+**Inhaltsstoffe**
+
+- **Eiweiß:** Für wichtige Körperfunktionen wie Muskeln, Haut, Haare, Hormone und das Immunsystem unerlässlich.
+- **Vitamine:** z. B. Vitamin B₁ , Vitamin B₁₂
+- **Mineralstoffe:** z. B. Selen, Zink und Eisen
+- **Hohe Gehalte an Cholesterin, Purinen und gesättigten Fettsäuren:** Ein übermäßiger Konsum von rotem und verarbeitetem Fleisch (z. B. Wurstwaren) kann das Risiko für bestimmte Krebserkrankungen sowie für Diabetes und Herz-Kreislauf-Erkrankungen erhöhen. ((ernährungsempfehlung.at))
+
+**Gut zu wissen**
+
+- Tierisches Eiweiß kann besser in körpereigenes Eiweiß umgewandelt werden als pflanzliches Eiweiß.
+- Durch geschickte Kombination innerhalb einer Mahlzeit oder die Aufnahme über den Tag verteilt kann auch bei pflanzlichen Lebensmitteln eine gute Eiweißqualität erreicht werden wie z. B. bei Linsensuppe mit Vollkornbrot oder Folienerdäpfeln mit Kräutertopfen. (ernährungsempfehlung.at)
+
+**Tipps**
+
+- Fleischspeisen sollten Sie öfter durch leichte Fischgerichte, bunte Gemüsegerichte und Speisen aus Hülsenfrüchten ersetzen.
+- Wenn Sie auf Meeresfisch verzichten, nehmen Sie zusätzlich einen Esslöffel Rapsöl pro Tag zu sich.
+- Bevorzugen Sie beim Einkauf Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Eine Hilfestellung bieten dabei einschlägige Empfehlungen von Umweltorganisationen (z. B. jene des WWF-Fischratgebers).
+- Durch den Verzehr von Meeresfischen, insbesondere großen Raubfischen wie Schwertfisch oder Thunfisch, nehmen wir Quecksilber auf. Wir Menschen können eine gewisse Menge Quecksilber aufnehmen, ohne dass unsere Gesundheit geschädigt wird. Die Europäische Behörde für Lebensmittelsicherheit (EFSA) hat für Quecksilber eine tolerierbare wöchentliche Aufnahme festgelegt. Wie viel Fisch Sie bedenkenlos essen können, können Sie ganz leicht mit unserem Quecksilber-Rechner herausfinden. Babys, Kleinkinder, Schwangere, Stillende und Frauen mit Kinderwunsch sollten auf jedoch auf diese Raubfische ganz verzichten. (ernährungsempfehlung.at)
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-**Allgemein:** Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher [Einhaltung der Kühlkette](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen).
+**Allgemein:** Fleisch ist ein wertvolles Lebensmittel und wird zwar auf einem sehr hohen Sicherheitsstandard hergestellt, ist aber meist nicht „absolut“ frei von Mikroorganismen, außer z. B. in sterilisierten Gebinden wie Konservendosen oder nach Bestrahlung (dieses Verfahren ist in Europa aber meist nicht gestattet). Rohes Fleisch ist ein sensibles Lebensmittel und enthält an der Oberfläche immer geringe Mengen an Mikroorganismen. Gerade in den Sommermonaten fördern die hohen Temperaturen die Vermehrung dieser Keime und können ein Gesundheitsrisiko darstellen. Besonders wichtig ist daher Einhaltung der Kühlkette.
 
-**Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+**Inhaltsstoffe**
 
-Eine Portion entspricht: 
+- **Eiweiß:** Für wichtige Körperfunktionen wie Muskeln, Haut, Haare, Hormone und das Immunsystem unerlässlich.
+- **Vitamine:** z. B. Vitamin B₁ , Vitamin B₁₂
+- **Mineralstoffe:** z. B. Selen, Zink und Eisen
+- **Hohe Gehalte an Cholesterin, Purinen und gesättigten Fettsäuren:** Ein übermäßiger Konsum von rotem und verarbeitetem Fleisch (z. B. Wurstwaren) kann das Risiko für bestimmte Krebserkrankungen sowie für Diabetes und Herz-Kreislauf-Erkrankungen erhöhen. ((ernährungsempfehlung.at))
 
-| Fisch | 1 handtellergroßes, fingerdickes Stück | 130 - 150 g |
-| Fleisch | 1 handtellergroßes, fingerdickes Stück | 150 g |
-| Wurst | bis zu 3 handtellergroße, dünne Scheiben | 150 g |
+**Gut zu wissen**
 
-Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
+- Tierisches Eiweiß kann besser in körpereigenes Eiweiß umgewandelt werden als pflanzliches Eiweiß.
+- Durch geschickte Kombination innerhalb einer Mahlzeit oder die Aufnahme über den Tag verteilt kann auch bei pflanzlichen Lebensmitteln eine gute Eiweißqualität erreicht werden wie z. B. bei Linsensuppe mit Vollkornbrot oder Folienerdäpfeln mit Kräutertopfen. (ernährungsempfehlung.at)
 
-Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/eisen.html) und [Vitamine der B-Gruppe](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/wasserloesliche-vitamine.html) sowie [Selen](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/selen.html) und [Zink](https://www.gesundheit.gv.at/leben/ernaehrung/vitamine-mineralstoffe/spurenelemente/zink.html).
+**Tipps**
+
+- Fleischspeisen sollten Sie öfter durch leichte Fischgerichte, bunte Gemüsegerichte und Speisen aus Hülsenfrüchten ersetzen.
+- Wenn Sie auf Meeresfisch verzichten, nehmen Sie zusätzlich einen Esslöffel Rapsöl pro Tag zu sich.
+- Bevorzugen Sie beim Einkauf Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Eine Hilfestellung bieten dabei einschlägige Empfehlungen von Umweltorganisationen (z. B. jene des WWF-Fischratgebers).
+- Durch den Verzehr von Meeresfischen, insbesondere großen Raubfischen wie Schwertfisch oder Thunfisch, nehmen wir Quecksilber auf. Wir Menschen können eine gewisse Menge Quecksilber aufnehmen, ohne dass unsere Gesundheit geschädigt wird. Die Europäische Behörde für Lebensmittelsicherheit (EFSA) hat für Quecksilber eine tolerierbare wöchentliche Aufnahme festgelegt. Wie viel Fisch Sie bedenkenlos essen können, können Sie ganz leicht mit unserem Quecksilber-Rechner herausfinden. Babys, Kleinkinder, Schwangere, Stillende und Frauen mit Kinderwunsch sollten auf jedoch auf diese Raubfische ganz verzichten. (ernährungsempfehlung.at)
 
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
@@ -784,7 +812,11 @@ Fleisch enthält hochwertiges Eiweiß, [Eisen](https://www.gesundheit.gv.at/lebe
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- **Empfehlungen:** Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+- **Empfehlungen:** "Wenn Sie sich mit Fisch und Fleisch ernähren: Essen Sie pro Woche 1 Portion Fisch und 1 Portion Fleisch. Wahlweise können Sie pro Woche zusätzlich 1 Portion Fisch oder Fleisch essen. Wenn Sie Fleisch essen, bevorzugen Sie mageres Fleisch (oder magere Wurst). Rotes Fleisch (z.B. Rind, Schwein, Lamm) und Wurstwaren eher seltener essen.
+
+Meeresfisch versorgt Sie mit Jod, fettreicher Meeresfisch liefert wertvolle Omega-3-Fettsäuren. Wählen Sie Fisch aus nachhaltiger Fischerei bzw. nachhaltig betriebenen Aquakulturen. Heimische Süßwasserfische wie Forelle und Karpfen liefern ähnliche Omega-3-Fettsäuregehalte wie fettarme Meeresfische und haben zudem noch den Vorteil von regionaler Frische und kurzen Transportwegen. Sollten Sie auf Meeresfisch verzichten, essen Sie zusätzlich 1 EL Rapsöl/Tag.
+
+Fleisch enthält hochwertiges Eiweiß, Eisen und Vitamine der B-Gruppe sowie Selen und Zink.
 
 Eine Portion entspricht: 
 
