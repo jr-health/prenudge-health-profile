@@ -1953,10 +1953,16 @@ The second transformation method converts domain scores to a 0-100 scale.
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Datenformat:** kategoriell
+- **Lizenz erforderlich:** Ja
+- **Einheit:** score
+- **Datenformat:** kategoriell + scire
+- **Wertebereich:** 3-15
 - **Erfassungsfrequenz:** jährlich
+- **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** Punkte werden addiert
 
 **Quellen:**
 - [Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.](Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.)

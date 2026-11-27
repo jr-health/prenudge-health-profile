@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T10:00:55.210352+00:00",
+  "generated": "2026-11-27T10:10:43.205020+00:00",
   "scope": "combined",
-  "commit": "b82ca6432e627df36429f11e3c79e0ed89cc3754",
+  "commit": "57f9870f616527c5b78d5202819bc967ac636309",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -6789,15 +6789,17 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Brief Health Literacy Screener",
-                    "specific-questions": "Health Literacy Screener, 3 Fragen\n\n1. **Probleme beim Lesen von Krankenhausunterlagen:**\n    - _Wie oft haben Sie Probleme, wenn Ihnen medizinische Merkblätter oder Krankenhausunterlagen ausgehändigt werden?_\n2. **Hilfe beim Lesen von Material:**\n    - _Wie oft müssen Sie sich von anderen helfen lassen, wenn Sie Krankenhaus- oder Arztformulare lesen?_\n3. **Selbstvertrauen beim Ausfüllen von Formularen:**\n    - _Wie sicher fühlen Sie sich, wenn Sie medizinische Formulare alleine ausfüllen müssen?_",
-                    "unit": "",
-                    "data-format": "kategoriell",
+                    "licence-required": true,
+                    "licence-link": "",
+                    "specific-questions": "**Probleme beim Lesen von Krankenhausunterlagen:** Wie oft haben Sie Probleme, wenn Ihnen medizinische Merkblätter oder Krankenhausunterlagen ausgehändigt werden?\n\n_Antwortmöglichkeit:_ 1 (immer) – 2 (oft) – 3 (manchmal) – 4 (gelegentlich) – 5 (nie)\n\n**Hilfe beim Lesen von Material:** Wie oft müssen Sie sich von anderen helfen lassen, wenn Sie Krankenhaus- oder Arztformulare lesen?\n\n_Antwortmöglichkeit:_ 1 (immer) – 2 (oft) – 3 (manchmal) – 4 (gelegentlich) – 5 (nie)\n\n**Selbstvertrauen beim Ausfüllen von Formularen:** Wie sicher fühlen Sie sich, wenn Sie medizinische Formulare alleine ausfüllen müssen?\n\n_Antwortmöglichkeit:_ 1 (überhaupt nicht) – 2 (ein wenig) – 3 (etwas) – 4 (ziemlich) – 5 (äußerst)\n\n***",
+                    "unit": "score",
+                    "data-format": "kategoriell + scire",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "3-15",
                     "acquisition-frequency": "jährlich",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
-                    "scoring-algorithm": "",
+                    "scoring-algorithm": "Punkte werden addiert",
                     "sources": [
                       {
                         "source-description": "Chew, L. D., Bradley, K. A., & Boyko, E. J. (2004). Brief questions to identify patients with inadequate health literacy. Family Medicine, 36(8), 588–594.",
@@ -6854,7 +6856,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Sandra: Beschreibung noch ausständig; nicht auf Deutsch validiert (Forward, Backward Translation wäre notwendig)"
               },
               "en": {
                 "template": "observation",
@@ -6871,13 +6873,15 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": true,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
+                    "range-of-vales": "3-15",
                     "acquisition-frequency": "jährlich",
-                    "recommended-monitoring-frequency": "",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
                     "sources": [
                       {
@@ -6935,7 +6939,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Sandra: Beschreibung noch ausständig; nicht auf Deutsch validiert (Forward, Backward Translation wäre notwendig)"
               }
             },
             {

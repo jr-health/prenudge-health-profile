@@ -1045,7 +1045,10 @@ max: 20 (Transformiert 100)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Licence Required:** Yes
+- **Range of Values:** 3-15
 - **Acquisition Frequency:** jährlich
+- **Recommended Monitoring Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
