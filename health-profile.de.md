@@ -842,7 +842,48 @@ Eine Portion entspricht: 
 
 **Beschreibung für Fachpersonal:**
 
-Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.
+Bei diesem Gesundheitsindikator werden die aufgenommen Mengen an alkoholfreien, ungesüßten Getränken abgefragt. 
+
+**Allgemein:** Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.
+
+**Gut zu wissen**
+
+- "Ausreichend zu trinken ist lebensnotwendig. Wasser hat viele wichtige Aufgaben im Körper. Trinken Sie daher regelmäßig über den Tag verteilt. An heißen Tagen oder bei viel Bewegung brauchen Sie mehr Flüssigkeit.
+- Wenig zu trinken kann zu Kopfschmerzen, Schwindel oder Müdigkeit führen und die Leistungsfähigkeit mindern. Ein Durstgefühl deutet bereits auf einen Flüssigkeitsmangel hin. Daher sollte bereits getrunken werden, bevor ein Durstgefühl auftritt, am besten Wasser."  ([https://ernaehrungsempfehlung.at/empfehlungen/getraenke/](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/))
+
+**Tipps**
+
+- Der regelmäßige Konsum von Mineralwässern kann einen Beitrag zur Zufuhr von Mineralstoffen und Spurenelementen leisten, ohne dabei Energie zu liefern. Mineralwässer mit einem Calciumgehalt von >150 mg/l werden als calciumhaltig bezeichnet und können zur Versorgung mit diesem Nährstoff beitragen.
+- In Kräuter- und Früchtetees können auch Vitamine und Mineralstoffe enthalten sein – im Gegensatz zu schwarzem und grünem Tee beinhalten sie keine anregenden Inhaltsstoffe wie Koffein (Ausnahme: Matetee).
+- Kräuter- sowie Grün- und Schwarztee können mit Pyrrolizidinalkaloiden verunreinigt sein und sind bei längerer Aufnahme gesundheitlich bedenklich. Auch wenn kein akutes Gesundheitsrisiko besteht, sollten Kräutertees abwechselnd mit anderen Getränken konsumiert werden und hauptsächlich Trinkwasser zur Deckung des täglichen Flüssigkeitsbedarfs verwendet werden.
+- Als Durstlöscher eignen sich zudem mit Wasser verdünnte Obst- und Gemüsesäfte (im Verhältnis 1 Teil Saft zu 3 Teilen Wasser) – sie liefern neben Wasser ebenfalls Vitamine und Spurenelemente.
+- Reine Fruchtsäfte zählen aufgrund ihres Energiegehalts nicht zu den optimalen Durstlöschern." ([https://ernaehrungsempfehlung.at/empfehlungen/getraenke/](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/))
+
+**Population:** erwachsene Allgemeinbevölkerung
+
+**Information für Bevölkerung:**
+
+**Allgemein:** Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüssigkeit über Nieren, Darm, Haut und die Lunge durch das Atmen ausscheidet. Zur Deckung des Flüssigkeitsbedarfes sollten hauptsächlich ungesüßte Getränke verwendet werden. Dazu zählen Leitungswasser, das in Österreich in einwandfreier Qualität und ausreichender Menge zur Verfügung steht, sowie Mineralwasser und ungesüßte Kräuter- und Früchtetees.
+
+**Was zählt**
+
+- "Wasser: Trinken Sie täglich mindestens 1,5 Liter, bevorzugt Wasser.
+- Tee: Sie können auch zu anderen alkoholfreien, kalorienarmen Getränke wie ungezuckerte Früchte- oder Kräutertees greifen.
+- Kaffee: Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen insgesamt pro Tag) können Teil einer gesunden Ernährung sein.
+- Limonade: Zuckergesüßte Getränke sind als Durstlöscher nicht geeignet. Sie haben meist viele Kalorien und können zur Entstehung von Übergewicht beitragen."[https://ernaehrungsempfehlung.at/empfehlungen/getraenke/](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/)
+
+**Gut zu wissen**
+
+- "Ausreichend zu trinken ist lebensnotwendig. Wasser hat viele wichtige Aufgaben im Körper. Trinken Sie daher regelmäßig über den Tag verteilt. An heißen Tagen oder bei viel Bewegung brauchen Sie mehr Flüssigkeit.
+- Wenig zu trinken kann zu Kopfschmerzen, Schwindel oder Müdigkeit führen und die Leistungsfähigkeit mindern. Ein Durstgefühl deutet bereits auf einen Flüssigkeitsmangel hin. Daher sollte bereits getrunken werden, bevor ein Durstgefühl auftritt, am besten Wasser."  ([https://ernaehrungsempfehlung.at/empfehlungen/getraenke/](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/))
+
+**Tipps**
+
+- Der regelmäßige Konsum von Mineralwässern kann einen Beitrag zur Zufuhr von Mineralstoffen und Spurenelementen leisten, ohne dabei Energie zu liefern. Mineralwässer mit einem Calciumgehalt von >150 mg/l werden als calciumhaltig bezeichnet und können zur Versorgung mit diesem Nährstoff beitragen.
+- In Kräuter- und Früchtetees können auch Vitamine und Mineralstoffe enthalten sein – im Gegensatz zu schwarzem und grünem Tee beinhalten sie keine anregenden Inhaltsstoffe wie Koffein (Ausnahme: Matetee).
+- Kräuter- sowie Grün- und Schwarztee können mit Pyrrolizidinalkaloiden verunreinigt sein und sind bei längerer Aufnahme gesundheitlich bedenklich. Auch wenn kein akutes Gesundheitsrisiko besteht, sollten Kräutertees abwechselnd mit anderen Getränken konsumiert werden und hauptsächlich Trinkwasser zur Deckung des täglichen Flüssigkeitsbedarfs verwendet werden.
+- Als Durstlöscher eignen sich zudem mit Wasser verdünnte Obst- und Gemüsesäfte (im Verhältnis 1 Teil Saft zu 3 Teilen Wasser) – sie liefern neben Wasser ebenfalls Vitamine und Spurenelemente.
+- Reine Fruchtsäfte zählen aufgrund ihres Energiegehalts nicht zu den optimalen Durstlöschern." ([https://ernaehrungsempfehlung.at/empfehlungen/getraenke/](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/))
 
 #### Messinstrumente
 
@@ -851,21 +892,14 @@ Flüssigkeit ist für den Körper lebensnotwendig, da der Körper ständig Flüs
 - **Datenformat:** auf eine Kommastelle genau (ganze und halbe)
 - **Wertebereich:** > 0 bis 40
 - **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Alkoholfreie Getränke: Empfohlene Menge
+- **Empfohlene Menge** Trinken Sie täglich mindestens 1,5 Liter Flüssigkeit. Eine Portion entspricht 250 ml bzw. 1 Glas mit 1/4 Liter Flüssigkeit. ([Österreichische Ernährungsempfehlungen](https://www.gesundheit.gv.at/linkresolution/link/68499 "Öffnet in einem neuen Fenster")).
 
-Trinken Sie täglich **mindestens 1,5 Liter Flüssigkeit.**
-
-Eine Portion entspricht 250 ml bzw. 1 Glas mit 1/4 Liter Flüssigkeit.
-
-Quelle: [Österreichische Ernährungsempfehlungen](https://www.gesundheit.gv.at/linkresolution/link/68499 "Öffnet in einem neuen Fenster") (AGES).
-
-## Welche Getränke sind geeignet?
-
-Am besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke wie ungezuckerte Früchte- oder Kräutertees. Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen pro Tag) können Teil einer gesunden Ernährung sein.
+**Welche Getränke sind geeignet?:** Am besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke wie ungezuckerte Früchte- oder Kräutertees. Schwarzer Tee oder Kaffee in Maßen (bis zu vier Tassen pro Tag) können Teil einer gesunden Ernährung sein.
 
 **So können Sie Getränke in den Alltag einbauen:**
 
@@ -874,12 +908,13 @@ Am besten eignen sich Wasser oder andere alkoholfreie, kalorienarme Getränke w
 
 Obst und Gemüse essen, denn diese enthalten ebenfalls Flüssigkeit. Dennoch sollten zusätzlich in jedem Fall mindestens 1,5 Liter pro Tag in Form von Getränken konsumiert werden.
 
-## Hinweis
+**Hinweis:** Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Broschüre „[Ernährung. Gesundheit für alle](https://www.gesundheit.gv.at/linkresolution/link/39227 "Öffnet in einem neuen Fenster")“ des Fonds Gesundes Österreich.
 
-Näheres zu den österreichischen Ernährungsempfehlungen finden Sie in der Broschüre „[Ernährung. Gesundheit für alle](https://www.gesundheit.gv.at/linkresolution/link/39227 "Öffnet in einem neuen Fenster")“ des Fonds Gesundes Österreich.
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-getraenke.html
+- [Österreichische Ernährungsempfehlung https://ernaehrungsempfehlung.at/empfehlungen/getraenke/[Accessed 27.11.2026].](https://ernaehrungsempfehlung.at/empfehlungen/getraenke/)
 
 **Terminologiecodes:**
 
