@@ -9,12 +9,14 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
@@ -33,7 +35,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
+    "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)\n\nSandra: noch alles ausständig"
   },
   "en": {
     "template": "observation",
@@ -50,6 +52,8 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
@@ -67,6 +71,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)"
+    "discussion": "ist abhängig was wir mit den Symptomen tun (muss noch geklärt werden)\n\nSandra: noch alles ausständig"
   }
 }
