@@ -2043,17 +2043,11 @@ The second transformation method converts domain scores to a 0-100 scale.
 
 **Information für Bevölkerung:**
 
-**"Definition**
+**"Definition:** Als Blutzucker bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.
 
-Als **Blutzucker** bezeichnet man die Konzentration von [Glukose](https://flexikon.doccheck.com/de/Glukose) im [Blut](https://flexikon.doccheck.com/de/Blut). Der Blutzuckerwert kann in mg/dl oder mmol/l angegeben werden.
+**Nomenklatur:**  Da die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.
 
-**Nomenklatur**
-
-Da die Bestimmung der Glukose im Labor im [Blutserum](https://flexikon.doccheck.com/de/Blutserum) erfolgt, kann man auch von Serumglukose sprechen. Dieser Begriff hat sich in der klinischen Alltagssprache jedoch nicht durchgesetzt.
-
-**Einteilung**
-
-In Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:
+**Einteilung:** In Abhängigkeit vom Zeitpunkt der Messung unterscheidet man:
 
 | [Nüchternblutzucker](https://flexikon.doccheck.com/de/N%C3%BCchternblutzucker) | [Blutentnahme](https://flexikon.doccheck.com/de/Blutentnahme)morgens *vor* der ersten Nahrungsaufnahme nach mindestens achtstündiger[Nahrungskarenz](https://flexikon.doccheck.com/de/Nahrungskarenz)(*Nüchternglukose*) |
 | [Präprandialer](https://flexikon.doccheck.com/de/Pr%C3%A4prandial)Blutzucker | Blutentnahme *vor* einer beliebigen Mahlzeit |
