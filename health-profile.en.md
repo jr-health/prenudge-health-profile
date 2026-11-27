@@ -1,6 +1,6 @@
 # PreNUDGE Health Profile — Catalogue
 
-_Version: 0.1.25-test | Generated: 2026-11-26_
+_Version: 0.1.25-test | Generated: 2026-11-27_
 
 ---
 
@@ -323,8 +323,9 @@ Homepage geht grad nicht soll von dem kopiert werden.
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 1-5
-- **Acquisition Frequency:** alle 6 Monate
+- **Range of Values:** 1-99
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
@@ -1801,5 +1802,6 @@ _Changes since version v0.1.25-test:_
 
 | Date | Author |
 |---|---|
+| 2026-11-27 | shaide79 |
 | 2026-11-26 | shaide79 |
 | 2026-11-24 | Theresa Weitlaner |

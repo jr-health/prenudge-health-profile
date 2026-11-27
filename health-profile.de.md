@@ -1,6 +1,6 @@
 # PreNUDGE Gesundheitsprofil — Katalog
 
-_Version: 0.1.25-test | Generiert: 2026-11-26_
+_Version: 0.1.25-test | Generiert: 2026-11-27_
 
 ---
 
@@ -523,6 +523,12 @@ Bei Cholesterin handelt es sich um eine fettähnliche Substanz, die Bestandteil 
 
 ### Fisch (Portionen/Woche)
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fisch abgefragt.
+
+**Definition:** "Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen."
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
@@ -535,22 +541,20 @@ Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasse
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Einheit:** Portionen/Woche 1 Portion = siehe unten
-- **Datenformat:** kategoriell
-- **Wertebereich:** 1-5
-- **Erfassungsfrequenz:** alle 6 Monate
+- **Einheit:** Portionen Fisch Woche
+- **Datenformat:** ganze Zahl, halbe Portionen werden aufgerundet
+- **Wertebereich:** 1-99
+- **Erfassungsfrequenz:** 1x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- ## Ernährungsempfehlungen
+- **Ernährungsempfehlungen:** Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
 
-Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
+Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden. Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.
 
-Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden.
-Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.
-
-## Tipps für Einkauf & Verzehr
+**Tipps für Einkauf & Verzehr**
 
 - Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).
 - Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.
@@ -3030,5 +3034,6 @@ _Änderungen seit Version v0.1.25-test:_
 
 | Datum | Bearbeiter |
 |---|---|
+| 2026-11-27 | shaide79 |
 | 2026-11-26 | shaide79 |
 | 2026-11-24 | Theresa Weitlaner |
