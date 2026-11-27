@@ -6,7 +6,7 @@
     "title": "Fisch (Portionen/Woche)",
     "category": "nutrition",
     "dimension": "dietary-pattern",
-    "description": "",
+    "description": "Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fisch abgefragt.\n\n**Definition:** \"Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.\"",
     "citizen-info": "Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.",
     "verified-health-links": [
       {
@@ -23,16 +23,18 @@
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Frage die die Österreichischen Ernährungsempfehlungen abfragt",
-        "specific-questions": "**„Wie viele Portionen Fisch essen Sie in einer typischen Woche?“** (Hinweis: 1 Portion entspricht der Größe Ihres Handtellers)\n\nAntwortmöglichkeiten: 1) 0 Portionen; 2) 1 Portion pro Woche; 3) 2 Portionen pro Woche; 4) 3 oder mehr Portionen pro Woche",
-        "unit": "Portionen/Woche\n1 Portion = siehe unten",
-        "data-format": "kategoriell",
+        "licence-required": false,
+        "licence-link": "",
+        "specific-questions": "**„Wie viele Portionen Fisch essen Sie in einer typischen Woche?“** (1 Portion entspricht der Größe Ihres Handtellers)\n\n_Antwortmöglichkeiten:_ \\_ Portionen/Woche",
+        "unit": "Portionen Fisch Woche",
+        "data-format": "ganze Zahl, halbe Portionen werden aufgerundet",
         "data-type": "",
-        "range-of-vales": "1-5",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "range-of-vales": "1-99",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [
           {
-            "specific-norm": "## Ernährungsempfehlungen\n\nFisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.\n\nNach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden.\nÜbermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.\n\n## Tipps für Einkauf & Verzehr\n\n- Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).\n- Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.\n- Auf Tracking-Möglichkeiten und Kennzeichnungen achten.\n- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.\n- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.\n- Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.\n- Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.\n- Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.\n- Haben Sie Fadenwürmer im Fisch gefunden, dann wenden Sie sich an die Lebensmittelaufsicht Ihres Bundeslandes und reklamieren Sie das Produkt im Handel."
+            "specific-norm": "**Ernährungsempfehlungen:** Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.\n\nNach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden. Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.\n\n**Tipps für Einkauf & Verzehr**\n\n- Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).\n- Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.\n- Auf Tracking-Möglichkeiten und Kennzeichnungen achten.\n- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.\n- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.\n- Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.\n- Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.\n- Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.\n- Haben Sie Fadenwürmer im Fisch gefunden, dann wenden Sie sich an die Lebensmittelaufsicht Ihres Bundeslandes und reklamieren Sie das Produkt im Handel."
           }
         ],
         "scoring-algorithm": "nicht zutreffend",
@@ -67,7 +69,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Mirna: Hab die Info von der AGES eingefügt"
+    "discussion": ""
   },
   "en": {
     "template": "observation",
@@ -92,13 +94,15 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
         "data-type": "",
-        "range-of-vales": "1-5",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "range-of-vales": "1-99",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "Optimum: alle 3 Monate",
         "norms": [],
         "sources": [
           {
@@ -131,6 +135,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "@Mirna: Hab die Info von der AGES eingefügt"
+    "discussion": ""
   }
 }
