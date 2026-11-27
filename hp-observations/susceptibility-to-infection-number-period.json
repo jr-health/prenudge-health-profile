@@ -9,12 +9,14 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
@@ -44,7 +46,7 @@
         "app-providers": []
       }
     ],
-    "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun"
+    "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun\n\nSandra: Beschreibung offen\n\nnoch alles offen, noch kein Fragebogen ausgesucht"
   },
   "en": {
     "template": "observation",
@@ -61,6 +63,8 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
@@ -89,6 +93,6 @@
         "app-providers": []
       }
     ],
-    "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun"
+    "discussion": "Diskussion mit Franz bleibt noch offen;  wird am 22.10 zwischen Thomas und Franz entschieden ob es drinnen bleibt; auch abhängig davon was wir mit dem Symptom \"Husten\" tun\n\nSandra: Beschreibung offen\n\nnoch alles offen, noch kein Fragebogen ausgesucht"
   }
 }
