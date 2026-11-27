@@ -29,6 +29,7 @@ _Version: 0.1.25-test | Generiert: 2026-11-27_
 - [Körperliche Aktivität](#korperliche-aktivitat)
   - [Moderate und intensive ausdauerorientierte Aktivität (Minuten/Woche)](#moderate-und-intensive-ausdauerorientierte-aktivitat-minutenwoche)
   - [Gehen (Schritte/Tag)](#gehen-schrittetag)
+  - [Gleichgewichtstraining](#gleichgewichtstraining)
   - [Beweglichkeitstraining (Einheiten/Woche)](#beweglichkeitstraining-einheitenwoche)
   - [Muskelkräftigende Übungen (Einheiten/Woche)](#muskelkraftigende-ubungen-einheitenwoche)
   - [Sitzzeit (Stunden/Tag)](#sitzzeit-stundentag)
@@ -1339,6 +1340,43 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 | System | Code | Bezeichnung |
 |---|---|---|
 | http://loinc.org | 41950-7 | Number of steps in 24 hour, Measured |
+
+### Gleichgewichtstraining
+
+**Beschreibung für Fachpersonal:**
+
+**Wofür sind Gleichgewichtsübungen gut?** Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.
+
+**Population:** ältere Erwachsene (ab 65 Jahren)
+
+**Information für Bevölkerung:**
+
+**Wofür sind Gleichgewichtsübungen gut?** Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.
+
+#### Messinstrumente
+
+**Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** Anzahl der Tage/Woche
+- **Datenformat:** ganze Zahl
+- **Wertebereich:** 0-7
+- **Erfassungsfrequenz:** Minimum: 2x pro Jahr
+- **Empfohlene Monitoringfrequenz:** Optional: alle 3 Monate
+- **FHIR IG Status:** draft
+- **Sunburst-Chart Status:** draft
+
+**Spezifische Normen:**
+- Im Rahmen des wöchentlichen Bewegungsumfanges soll vielseitig trainiert werden, indem Aktivitäten zur Verbesserung von Kraft, Ausdauer, Beweglichkeit sowie des Gleichgewichts durchgeführt werden.
+
+**Scoring-Algorithmus:** nicht zutreffend
+
+**Quellen:**
+- [•	Fonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf — https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf](https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf)
+
+**Terminologiecodes:**
+
+| System | Code | Bezeichnung |
+|---|---|---|
+| http://snomed.info/sct | 386293009 | Balance exercises |
 
 ### Beweglichkeitstraining (Einheiten/Woche)
 

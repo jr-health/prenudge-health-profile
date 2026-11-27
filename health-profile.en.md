@@ -29,6 +29,7 @@ _Version: 0.1.25-test | Generated: 2026-11-27_
 - [Physical Activity](#physical-activity)
   - [Moderate and vigorous endurance-oriented activity (minutes/week)](#moderate-and-vigorous-endurance-oriented-activity-minutesweek)
   - [Walking (steps/day)](#walking-stepsday)
+  - [balance-training](#balance-training)
   - [Flexibility and balance training (units/week)](#flexibility-and-balance-training-unitsweek)
   - [Muscle-strengthening exercises (units/week)](#muscle-strengthening-exercises-unitsweek)
   - [Sitting time (hours/day)](#sitting-time-hoursday)
@@ -653,6 +654,26 @@ Ein valider Tag mindestens 8 Stunden Tragezeit pro Tag
 | System | Code | Display |
 |---|---|---|
 | http://loinc.org | 41950-7 |  |
+
+### balance-training
+
+#### Measurement Instruments
+
+**Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 0-7
+- **Acquisition Frequency:** Minimum: 2x pro Jahr
+- **Recommended Monitoring Frequency:** Optional: alle 3 Monate
+- **FHIR IG Status:** draft
+- **Sunburst Chart Status:** draft
+
+**Sources:**
+- https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf
+
+**Terminology Codes:**
+
+| System | Code | Display |
+|---|---|---|
+| http://snomed.info/sct | 386293009 |  |
 
 ### Flexibility and balance training (units/week)
 
