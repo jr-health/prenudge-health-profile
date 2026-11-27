@@ -1758,11 +1758,19 @@ Dieser Indikator soll sie dabei unterstützen, Ihren aktuellen emotionalen Zusta
 
 ### Müdigkeit
 
+**Population:** erwachsene Allgemeinbevölkerung
+
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Einheit:** kategoriell
+- **Wertebereich:** 1-4
+- **Erfassungsfrequenz:** 1x pro Jahr
+- **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Terminologiecodes:**
 

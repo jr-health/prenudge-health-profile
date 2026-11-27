@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T09:51:28.227647+00:00",
+  "generated": "2026-11-27T09:55:03.118534+00:00",
   "scope": "combined",
-  "commit": "c23267d9fc60f5655c38ff45dcb442883e793a69",
+  "commit": "a8c2f8ce355c7309101498bda08b36ef16a0c1da",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -5735,21 +5735,23 @@
                 "description": "",
                 "citizen-info": "",
                 "verified-health-links": [],
-                "population": "",
+                "population": "erwachsene Allgemeinbevölkerung",
                 "disease-association": [],
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
-                    "device": "",
-                    "specific-questions": "Vom Athis; 2026: Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch folgende Beschwerden beeinträchtigt? Müdigkeit oder das Gefühl, wenig Energie\n\nAntwortmöglichkeit: – Nie [1]; An manchen Tagen [2]; An mehr als der Hälfte der Tage; Beinahe jeden Tag [4]",
-                    "unit": "",
+                    "device": "Athis; 2026",
+                    "licence-required": false,
+                    "licence-link": "",
+                    "specific-questions": "**Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch folgende Beschwerden beeinträchtigt? Müdigkeit oder das Gefühl, wenig Energie**\n\n_Antwortmöglichkeit:_ 1) Nie; 2) An manchen Tagen; 3) An mehr als der Hälfte der Tage; 4) Beinahe jeden Tag",
+                    "unit": "kategoriell",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "range-of-vales": "1-4",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
-                    "scoring-algorithm": "",
+                    "scoring-algorithm": "nicht zutreffend",
                     "sources": [],
                     "terminology-codes": [
                       {
@@ -5800,7 +5802,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
+                "discussion": "Sandra: Beschreibung ausständig"
               },
               "en": {
                 "template": "observation",
@@ -5817,13 +5819,15 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "",
-                    "acquisition-frequency": "",
-                    "recommended-monitoring-frequency": "",
+                    "range-of-vales": "1-4",
+                    "acquisition-frequency": "1x pro Jahr",
+                    "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
                     "sources": [],
                     "terminology-codes": [
@@ -5875,7 +5879,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Müdigkeit bleibt, Frage aus dem ATHIS genommen\n\nSonstige Optionen: Fatigue Schweregrad-Skala (FSS) – _Für allgemeine Erschöpfung;_ Epworth Schläfrigkeitsskala (ESS) – _Der Standard für Tagesmüdigkeit_"
+                "discussion": "Sandra: Beschreibung ausständig"
               }
             }
           ]

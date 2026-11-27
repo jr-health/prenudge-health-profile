@@ -904,6 +904,9 @@ max: 24 Stunden
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Range of Values:** 1-4
+- **Acquisition Frequency:** 1x pro Jahr
+- **Recommended Monitoring Frequency:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
