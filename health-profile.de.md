@@ -2392,15 +2392,19 @@ Der Impfplan Österreich 2026/2027, Version 1.0 wurde in enger Zusammenarbeit d
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
+- **Lizenz erforderlich:** Ja — [Lizenz / Genehmigung anfordern](ePROVIDE-Plattform des Mapi Research Trust.)
+- **Einheit:** kategoriell + Score
 - **Wertebereich:** Für den Gesamtscore: 13-65 Punkte
 - **Empfohlene Monitoringfrequenz:** 2x pro Jahr
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- -  **13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.
-- **28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.
-- **42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern.
+- **13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.
+
+**28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.
+
+**42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern.
 
 **Scoring-Algorithmus:** Punkte zusammenzählen
 

@@ -1303,6 +1303,7 @@ Diastolisch: 0-500
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
+- **Licence Required:** Yes — [Request licence / permission](ePROVIDE-Plattform des Mapi Research Trust.)
 - **Range of Values:** Für den Gesamtscore: 13-65 Punkte
 - **Recommended Monitoring Frequency:** 2x pro Jahr
 - **FHIR IG Status:** draft

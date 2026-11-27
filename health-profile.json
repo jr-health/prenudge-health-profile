@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T10:21:56.766857+00:00",
+  "generated": "2026-11-27T10:28:33.251503+00:00",
   "scope": "combined",
-  "commit": "26aea36384e237f87c03493f184983df1bd56046",
+  "commit": "8b2f2d364160c610aa47ce6c25097fd864322472",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -8505,8 +8505,10 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Sleep Hygiene Index (SHI)",
-                    "specific-questions": "Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n**1.Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n2. **Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n3. **Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n4. **Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n5. **Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n6. **Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n7. **Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n8. **Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.**\n\n  Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n9. **Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n10. **Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Polster, zu viel oder zu wenig Decken).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n11. **Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)ie\n\n12. **Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)\n\n13. **Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege**\n\n Antwortmöglichkeiten: ☐ immer(5) ☐ häufig (4) ☐ manchmal (3) ☐ selten (2) ☐ nie (1)",
-                    "unit": "",
+                    "licence-required": true,
+                    "licence-link": "ePROVIDE-Plattform des Mapi Research Trust.",
+                    "specific-questions": "Im Folgenden finden Sie eine Reihe von Aussagen, mit denen Sie Ihre Schlafgewohnheiten beschreiben. Es gibt kein richtig oder falsch. Verbringen Sie nicht zu viel Zeit mit einer Antwort.\n\n**Ich mache tagsüber Nickerchen, die zwei Stunden oder länger dauern.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich gehe von Tag zu Tag zu unterschiedlichen Zeiten ins Bett.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich stehe von Tag zu Tag zu unterschiedlichen Zeiten auf.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich treibe in der Stunde vor dem Schlafengehen so viel Sport, dass ich schwitze.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Zwei- bis dreimal pro Woche bleibe ich länger im Bett als ich sollte.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich konsumiere Alkohol, Tabak oder Koffein 4 Stunden vor dem Schlafengehen.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich mache etwas vor dem Schlafengehen, das mich wieder aktiviert (z. B. Videospiele spielen, im Internet surfen oder putzen).**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich gehe mit einem Gefühl von Stress, Wut, Aufregung oder Nervosität ins Bett.**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich benutze mein Bett für andere Dinge als Schlafen oder Sex (zum Beispiel: Fernsehen, Lesen, Essen oder Lernen).**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich schlafe in einem unbequemen Bett (zum Beispiel: schlechte Matratze oder Polster, zu viel oder zu wenig Decken).**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich schlafe in einem unbequemen Schlafzimmer (zum Beispiel: zu hell, zu stickig, zu heiß, zu kalt oder zu laut).**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich erledige wichtige Aufgaben vor dem Schlafengehen (z. B. Rechnungen bezahlen, Termine planen oder lernen).**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)\n\n**Ich denke nach, plane oder mache mir Sorgen, wenn ich im Bett liege**\n\n _Antwortmöglichkeiten:_ immer(5); häufig (4); manchmal (3); selten (2); nie (1)",
+                    "unit": "kategoriell + Score",
                     "data-format": "",
                     "data-type": "",
                     "range-of-vales": "Für den Gesamtscore: 13-65 Punkte",
@@ -8514,7 +8516,7 @@
                     "recommended-monitoring-frequency": "2x pro Jahr",
                     "norms": [
                       {
-                        "specific-norm": "-  **13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.\n- **28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.\n- **42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern."
+                        "specific-norm": "**13 bis 27 Punkte | Gute Schlafhygiene:** Ihre Gewohnheiten und Ihre Schlafumgebung unterstützen einen gesunden Schlaf optimal. Schlafprobleme haben bei Ihnen vermutlich andere Ursachen als Ihr Verhalten.\n\n**28 bis 41 Punkte | Mäßige Schlafhygiene:** Sie haben einige Gewohnheiten, die Ihren Schlaf stören. Hier lohnt es sich, genauer hinzusehen und gezielte Veränderungen vorzunehmen.\n\n**42 bis 65 Punkte | Schlechte Schlafhygiene:** Ihr Verhalten im Alltag und vor dem Zubettgehen beeinträchtigt Ihren Schlaf stark. Eine Umstellung dieser Gewohnheiten kann Ihre Schlafqualität spürbar verbessern."
                       }
                     ],
                     "scoring-algorithm": "Punkte zusammenzählen",
@@ -8539,7 +8541,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "validierte Version gibt es momentan nicht. Wir haben aber eine SHIFT2Health eine Forward-Backward-Translation machen lassen"
+                "discussion": " Sandra: Beschreibung ausständig; Forward-Backward-Translation bereits erledigt und eingegeben; Lizenzpflichtig"
               },
               "en": {
                 "template": "observation",
@@ -8556,6 +8558,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": true,
+                    "licence-link": "ePROVIDE-Plattform des Mapi Research Trust.",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -8585,7 +8589,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "validierte Version gibt es momentan nicht. Wir haben aber eine SHIFT2Health eine Forward-Backward-Translation machen lassen"
+                "discussion": " Sandra: Beschreibung ausständig; Forward-Backward-Translation bereits erledigt und eingegeben; Lizenzpflichtig"
               }
             }
           ]
