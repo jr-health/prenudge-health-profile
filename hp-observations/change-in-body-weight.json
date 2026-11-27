@@ -9,25 +9,27 @@
     "description": "",
     "citizen-info": "",
     "verified-health-links": [],
-    "population": "",
+    "population": "erwachsene Allgemeinbevölkerung",
     "disease-association": [],
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
         "device": "Frage aus einem validierte Fragebogen",
-        "specific-questions": "**Haben Sie in den letzten 3 bis 6 Monaten ungewollt Gewicht verloren?** _Haben Sie bemerkt, dass Ihre Kleidung, Ihr Gürtel oder Ihr Ehering spürbar weiter geworden sind?_ (Dies ist der klassische Indikator für eine subjektive Wahrnehmung, wenn keine Waage vorhanden ist).\n\n☐ Nein\n☐ Ja \n\nLiteratur: MNA; SNAQ",
+        "licence-required": false,
+        "licence-link": "",
+        "specific-questions": "**Haben Sie in den letzten 3 bis 6 Monaten ungewollt Gewicht verloren?** Haben Sie bemerkt, dass Ihre Kleidung, Ihr Gürtel oder Ihr Ehering spürbar weiter geworden sind? \n\n_Antwortmöglichkeiten:_ 1) Nein; 2)Ja \n\nLiteratur: MNA; SNAQ",
         "unit": "",
         "data-format": "dichotom",
         "data-type": "",
         "range-of-vales": "ja/ oder Nein",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "alle 6 Monate",
         "norms": [
           {
-            "specific-norm": ""
+            "specific-norm": "es wird kein ungewollter Verlust des Körpergewichtes empfohlen"
           }
         ],
-        "scoring-algorithm": "",
+        "scoring-algorithm": "nicht zutreffend",
         "sources": [
           {
             "source-description": "Detsky AS, McLaughlin JR, Baker JP, Johnston N, Whittaker S, Mendelson RA, Jeejeebhoy KN. What is subjective global assessment of nutritional status? JPEN J Parenter Enteral Nutr. 1987 Jan-Feb;11(1):8-13. doi: 10.1177/014860718701100108. PMID: 3820522.",
@@ -74,7 +76,7 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Beschreibung offen"
   },
   "en": {
     "template": "observation",
@@ -91,13 +93,15 @@
     "measurement-instrument": [
       {
         "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
         "specific-questions": "",
         "unit": "",
         "data-format": "",
         "data-type": "",
         "range-of-vales": "ja/ oder Nein",
-        "acquisition-frequency": "alle 6 Monate",
-        "recommended-monitoring-frequency": "",
+        "acquisition-frequency": "1x pro Jahr",
+        "recommended-monitoring-frequency": "alle 6 Monate",
         "norms": [],
         "sources": [
           {
@@ -145,6 +149,6 @@
         "app-providers": []
       }
     ],
-    "discussion": ""
+    "discussion": "Beschreibung offen"
   }
 }
