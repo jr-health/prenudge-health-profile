@@ -662,26 +662,63 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 ### Hülsenfrüchte (Portionen/Woche)
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Hülsenfrüchte abgefragt.
+
+**Definition:** "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. 
+
+**Empfehlungen:** Sie sollten mindestens 3-mal pro Woche am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück)."
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. Sie sollten mindestens **3-mal pro Woche** am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück).
+**Definition:** "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. 
+
+**Inhaltsstoffe**
+
+- **"Eiweiße:** Enthalten essentielle Aminosäuren. Diese sind für wichtige Körperfunktionen wie Muskeln, Haut, Haare, Hormone und das Immunsystem unerlässlich.
+- **Komplexe Kohlenhydrate**
+- **Vitamine**
+- **Mineralstoffe**
+- **Sekundäre Pflanzenstoffe**
+- **Ballaststoffe:** Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht." (ernährungsempfehlung.at)
+
+**Gut zu wissen**
+
+- "Hülsenfrüchte (z. B. Erbsen, Linsen, Bohnen, Sojabohnen, Kichererbsen, Lupinen) zählen neben Getreide zu den wichtigsten pflanzlichen Eiweißlieferanten.
+- Auch Tofu, Tempeh und texturiertes Sojaeiweiß (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten." (ernährungsempfehlung.at)
+
+**Tipps**
+
+- "Nicht gekocht sind Hülsenfrüchte ungenießbar und unverdaulich. Damit sie bekömmlich werden, müssen sie zuvor gegart werden.
+- Vor dem Kochen werden Hülsenfrüchte in reichlich Wasser eingeweicht (am besten über Nacht), anschließend abgeseiht und in frischem Wasser weichgekocht. Geschälte kleine (gelbe oder rote) Linsen müssen nicht eingeweicht werden, sie haben eine relativ kurze Garzeit.
+- Hülsenfrüchte wie Erbsen, Linsen und Bohnen eignen sich hervorragend für Salate, Suppen, Eintöpfe, Laibchen sowie als Beilage oder Aufstriche." (ernährungsempfehlung.at)
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Datenformat:** kategoriell
-- **Wertebereich:** alle 6 Monate
-- **Erfassungsfrequenz:** Optimum: alle 3 Monate
+- **Einheit:** Portionen Hülsenfrüchte pro Woche
+- **Datenformat:** ganze Zahl
+- **Wertebereich:** 1-99
+- **Erfassungsfrequenz:** alle 6 Monate
+- **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- **3-mal pro Woche** am Speiseplan stehe
+- **Bei einer vegetarischen Ernährung:** Essen Sie wöchentlich 4 Portionen Hülsenfrüchte und daraus hergestellte Produkte.
+
+**Wenn Sie Fisch und Fleisch essen**: Konsumieren Sie wöchentlich 3 Portionen Hülsenfrüchte und daraus hergestellte Produkte. (ernährungsempfehlung.at)
+
+Planen Sie Hülsenfrüchte mindestens dreimal pro Woche in den Speiseplan ein. Eine Portion Hülsenfrüchte entspricht einer geballten Faust (gekocht ca. 125 g). Eine Portion Tofu oder Tempeh sind rund 80 g (= ein handtellergroßes, fingerdickes Stück). Bei einer vegetarischen Ernährung werden Hülsenfrüchte mindestens viermal pro Woche empfohlen.
+
+**Scoring-Algorithmus:** nicht zutreffend
 
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+- [Österreichische Ernährungsempfehlungen - Hüsenfrüchte. [Accessed 27.11.2026].](https://ernaehrungsempfehlung.at/empfehlungen/huelsenfruechte/)
 
 **Terminologiecodes:**
 

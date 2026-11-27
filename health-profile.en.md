@@ -381,13 +381,15 @@ DH4: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** alle 6 Monate
-- **Acquisition Frequency:** Optimum: alle 3 Monate
+- **Range of Values:** 1-99
+- **Acquisition Frequency:** alle 6 Monate
+- **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst Chart Status:** draft
 
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+- https://ernaehrungsempfehlung.at/empfehlungen/huelsenfruechte/
 
 **Terminology Codes:**
 
