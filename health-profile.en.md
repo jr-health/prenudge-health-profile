@@ -332,6 +332,7 @@ Homepage geht grad nicht soll von dem kopiert werden.
 **Sources:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch
+- AGES. Availalbe: [https://ernaehrungsempfehlung.at/wichtig-zu-wissen/] [Accessed 27.11.2026]
 
 **Terminology Codes:**
 

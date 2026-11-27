@@ -533,7 +533,7 @@ Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Fisch abgef
 
 **Information für Bevölkerung:**
 
-Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie [Rückstände und Kontaminanten](https://www.ages.at/mensch/ernaehrung-lebensmittel/rueckstaende-kontaminanten-von-a-bis-z) z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen.
+"Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasser- und Meeresfische stellen jedoch eine in hygienischer Sicht sensible Warengruppe dar. Durch Hygienemängel können sich krankheitserregende Keime vermehren. Weitere Gesundheitsrisiken stellen Parasiten sowie Rückstände und Kontaminanten z. B. Schwermetalle, Tierarzneimittel, Pestizide dar. Der Verzehr von bestimmten Buttermakrelen (u.a. in Sushi-Gerichten) kann bei empfindlichen Personen schwere Verdauungsstörungen auslösen."
 
 **Verifizierte Gesundheitsinformation:**
 - [Ernährungsempfehlungen: Fleisch und Fisch](https://ernaehrungsempfehlung.at/empfehlungen/fleisch-und-fisch/)
@@ -550,7 +550,7 @@ Fisch ist ein sehr wertvolles Lebensmittel. Frische und tiefgekühlte Süßwasse
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- **Ernährungsempfehlungen:** Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
+- **Ernährungsempfehlungen:** "Fisch ist ein sehr wertvolles Lebensmittel und enthält viele wichtige Inhaltsstoffe wie Eiweiß, Vitamin D und Jod. Fettreicher Seefisch, wie beispielsweise Lachs und Hering, aber auch Forellen sind Quellen wertvoller Omega-3-Fettsäuren. Von diesen Omega-3-Fettsäuren sind zwei besonders wichtig: Docosahexaensäure (DHA) und Eicosapentaensäure (EPA). Sie tragen zur normalen Herzfunktion sowie zu einem normalen Blutdruck bei. DHA trägt weiters zur Erhaltung einer normalen Augen- und Gehirnfunktion bei und sollte deshalb einen fixen Bestandteil im Speiseplan haben.
 
 Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Woche eine Portion Fisch (entspricht einem Stück ca. so groß wie ein Handteller und so dick wie ein Finger) gegessen werden. Übermäßiger Konsum von Raubfischen wie Thunfisch, Schwertfisch, Heilbutt und Hecht sollten von Kleinkindern Schwangeren, Stillenden und Frauen mit Kinderwunsch vermieden werden, da diese Fische manchmal erhöhte Gehalte an Quecksilber aufweisen.
 
@@ -559,8 +559,8 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 - Wenn möglich, auf regionale Produkte zurückgreifen: Fisch aus Österreich (Binnenfischerei, Aquakultur/Teichwirtschaft) bevorzugen (Forellen, Karpfen, Saibling, Wels…).
 - Wenn Fisch aus Meeresfischerei gewünscht ist: zertifizierte Fischereien bevorzugen; die am besten regulierten Fischereien sind in der EU. Hier können Sie auf Fanggebiete im Nordostatlantik (FAO 27) und Mittelmeer (FAO 37) achten.
 - Auf Tracking-Möglichkeiten und Kennzeichnungen achten.
-- Zum Ressourcenschutz [Listen von gefährdeten Fischarten](https://fischratgeber.wwf.at/) beachten.
-- Beim [Einkauf und Transport](https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/sicher-kochen) auf die Einhaltung der Kühlkette achten.
+- Zum Ressourcenschutz Listen von gefährdeten Fischarten beachten.
+- Beim Einkauf und Transport auf die Einhaltung der Kühlkette achten.
 - Vor dem Verzehr das Verbrauchsdatum kontrollieren, nach Ablauf nicht mehr essen.
 - Fisch in Sushi-Qualität muss tiefgefroren worden sein. Wenn Sie selbst Sushi zubereiten, fragen Sie beim Fisch-Kauf nach. Wenn Unklarheit besteht, sollte der Fisch vor der Zubereitung selbst tiefgefroren werden (mindestens -20 °C für 24h). Auch wer daheim einen frischen Fisch nach traditioneller Art in Salz oder Marinade einlegen möchte, sollte ihn zuvor unbedingt einfrieren.
 - Parasiten werden auch bei Erhitzung verlässlich abgetötet, bei 70 °C.
@@ -571,6 +571,7 @@ Nach den Vorgaben der österreichischen Ernährungspyramide sollte einmal pro Wo
 **Quellen:**
 - https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide/ernaehrungspyramide-fleisch-fisch-eier.html#fisch-fleisch-wurst-empfohlene-portionsgroessen
 - [AGES. Fisch unter der Lupe. https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch](https://www.ages.at/mensch/ernaehrung-lebensmittel/lebensmittelinformationen/fisch)
+- [Österreichische Ernährungsempfehlungen](AGES. Availalbe: [https://ernaehrungsempfehlung.at/wichtig-zu-wissen/] [Accessed 27.11.2026])
 
 **Terminologiecodes:**
 
