@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T09:42:01.250292+00:00",
+  "generated": "2026-11-27T09:45:42.100090+00:00",
   "scope": "combined",
-  "commit": "c5ebca19e76ea5558a9d30d8fda158ca5ea13546",
+  "commit": "4de35b3ef2d85c0d21978c8928f37e5283e2f89f",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -4782,7 +4782,7 @@
                 "title": "Diskriminierung im Gesundheitssystem",
                 "category": "psychosocial-factors",
                 "dimension": "access-to-care",
-                "description": "",
+                "description": "Bei diesem Gesundheitsindikator werden....",
                 "citizen-info": "",
                 "verified-health-links": [],
                 "population": "erwachsene Allgemeinbevölkerung",
@@ -4791,7 +4791,9 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Diskriminierung im Gesundheitssystem -Survey on Health Care Access and Experiences -",
-                    "specific-questions": "**1) Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\nAntwortmöglichkeiten: Ja, nein\n\n**2) Wenn ja, dann bitte auswählen (Mehrfachnennungen möglich).**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine der genannten Erfahrungen\n\nModifiziert nach: [https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
+                    "licence-required": false,
+                    "licence-link": "",
+                    "specific-questions": "**Haben Sie in den letzten 12 Monaten in einer Gesundheitseinrichtung aufgrund eines der folgenden Merkmale das Gefühl gehabt, diskriminiert worden zu sein?**\n\n_Antwortmöglichkeiten:_ Ja, nein\n\n**Wenn ja, dann bitte auswählen (Mehrfachnennungen möglich).**\n\n☐ Ihrer ethnischen Zugehörigkeit, Herkunft oder Kultur\n☐ Ihres Geschlechts\n☐ Ihres Alters\n☐ Ihres Körpergewichts\n☐ Ihrer Religion\n☐ Ihrer Sprache\n☐ Ihrer sexuellen Orientierung\n☐ einer körperlichen Behinderung\n☐ Ihres sozioökonomischen Status\n☐ einer psychischen Erkrankung\n☐ Ihres Lebensstils\n☐ Ihrer Überzeugungen\n☐ eines anderen Merkmals: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine der genannten Erfahrungen\n\nModifiziert nach: [https://www.statcan.gc.ca/en/survey/household/5391](https://www.statcan.gc.ca/en/survey/household/5391)",
                     "unit": "",
                     "data-format": "dichotom\nkategoriell (mit Mehrfachnennung)",
                     "data-type": "",
@@ -4841,7 +4843,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Sandra: \n\n1\\) Beschreibung ausständig; \n\n2\\) Da müssten wir eine Forward und Backward translation machen"
               },
               "en": {
                 "template": "observation",
@@ -4858,6 +4860,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -4908,6 +4912,8 @@
                   },
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -4925,7 +4931,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": ""
+                "discussion": "Sandra: \n\n1\\) Beschreibung ausständig; \n\n2\\) Da müssten wir eine Forward und Backward translation machen"
               }
             }
           ]

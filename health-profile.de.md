@@ -1584,6 +1584,10 @@ max: 24 Stunden
 
 ### Diskriminierung im Gesundheitssystem
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden....
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 #### Messinstrumente
