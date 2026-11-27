@@ -666,9 +666,27 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 Bei diesem Gesundheitsindikator werden die konsumierten Portionen an Hülsenfrüchte abgefragt.
 
-**Definition:** "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten. 
+**Definition:** "Hülsenfrüchte (Linsen, Bohnen, Kichererbsen, Erbsen, Sojabohnen, Lupinen) liefern Eiweiß und enthalten neben Vitaminen und Mineralstoffen viele Ballaststoffe. Auch Tofu, Tempeh und texturiertes Sojaprotein (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten."
 
-**Empfehlungen:** Sie sollten mindestens 3-mal pro Woche am Speiseplan stehen. 1 Portion Hülsenfrüchte entspricht einer Faust (gekocht ca. 125 g). 1 Portion Tofu oder Tempeh sind rund 80 g (= 1 handtellergroßes, fingerdickes Stück)."
+**Inhaltsstoffe**
+
+- **"Eiweiße:** Enthalten essentielle Aminosäuren. Diese sind für wichtige Körperfunktionen wie Muskeln, Haut, Haare, Hormone und das Immunsystem unerlässlich.
+- **Komplexe Kohlenhydrate**
+- **Vitamine**
+- **Mineralstoffe**
+- **Sekundäre Pflanzenstoffe**
+- **Ballaststoffe:** Helfen bei der Verdauung und regen die Darmtätigkeit an. Auf diese Weise verhindern sie Verstopfung und Darmerkrankungen. Sie können sogar dazu beitragen, den Cholesterinspiegel zu senken. Ballaststoffe fördern außerdem das Sättigungsgefühl und unterstützen ein gesundes Körpergewicht." (ernährungsempfehlung.at)
+
+**Gut zu wissen**
+
+- "Hülsenfrüchte (z. B. Erbsen, Linsen, Bohnen, Sojabohnen, Kichererbsen, Lupinen) zählen neben Getreide zu den wichtigsten pflanzlichen Eiweißlieferanten.
+- Auch Tofu, Tempeh und texturiertes Sojaeiweiß (Sojaschnetzel, -granulat) sind gute Eiweißlieferanten." (ernährungsempfehlung.at)
+
+**Tipps**
+
+- "Nicht gekocht sind Hülsenfrüchte ungenießbar und unverdaulich. Damit sie bekömmlich werden, müssen sie zuvor gegart werden.
+- Vor dem Kochen werden Hülsenfrüchte in reichlich Wasser eingeweicht (am besten über Nacht), anschließend abgeseiht und in frischem Wasser weichgekocht. Geschälte kleine (gelbe oder rote) Linsen müssen nicht eingeweicht werden, sie haben eine relativ kurze Garzeit.
+- Hülsenfrüchte wie Erbsen, Linsen und Bohnen eignen sich hervorragend für Salate, Suppen, Eintöpfe, Laibchen sowie als Beilage oder Aufstriche." (ernährungsempfehlung.at)
 
 **Population:** erwachsene Allgemeinbevölkerung
 
