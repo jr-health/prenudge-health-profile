@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T09:45:42.100090+00:00",
+  "generated": "2026-11-27T09:51:28.227647+00:00",
   "scope": "combined",
-  "commit": "4de35b3ef2d85c0d21978c8928f37e5283e2f89f",
+  "commit": "c23267d9fc60f5655c38ff45dcb442883e793a69",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -5121,16 +5121,18 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Brief Resilience Scale",
-                    "specific-questions": "**1) Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**2) Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**3) Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**4) Es fällt mir schwer zur Normalität zurückzukehren, wenn etwas Schlimmes passiert ist.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**5) Normalerweise überstehe ich schwierige Zeiten ohne größere Probleme.**\n\n> Antwortmöglichkeit: **1** (trifft überhaupt nicht zu) bis **5** (trifft voll zu) oder analog Likert\n\n**6) Ich brauche tendenziell lange, um über Rückschläge in meinem Leben hinwegzukommen.**\n\n> Antwortmöglichkeit: 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert",
+                    "licence-required": false,
+                    "licence-link": "",
+                    "specific-questions": "**Ich neige dazu, mich nach schwierigen Zeiten schnell zu erholen.**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert\n\n**Es fällt mir schwer, stressige Situationen durchzustehen. _(wird umgepolt)_**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert\n\n**Ich brauche nicht viel Zeit, um mich von einem stressigen Ereignis zu erholen.**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert\n\n**Es fällt mir schwer zur Normalität zurückzukehren, wenn etwas Schlimmes passiert ist.**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert\n\n**Normalerweise überstehe ich schwierige Zeiten ohne größere Probleme.**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert\n\n**Ich brauche tendenziell lange, um über Rückschläge in meinem Leben hinwegzukommen.**\n\n_Antwortmöglichkeit:_ 1 (trifft überhaupt nicht zu) bis 5 (trifft voll zu) oder analog Likert",
                     "unit": "",
                     "data-format": "Kategoriel",
                     "data-type": "",
-                    "range-of-vales": "jeder wert kann 1-5 sein",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "jeder Wert kann 1-5 sein",
+                    "acquisition-frequency": "1mal pro Jahr",
                     "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [
                       {
-                        "specific-norm": "Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden"
+                        "specific-norm": "**Gesamtwert**: \n\n- 1,00 und 2,99 niedrige Resilienz \n-  3,00 bis 4,30 als normal \n- 4,31 bis 5,00 als hoch"
                       }
                     ],
                     "scoring-algorithm": "Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.",
@@ -5195,7 +5197,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Die DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
+                "discussion": "Sandra:\n\n1\\) Beschreibung ausständig\n\n2\\) ist auf deutsch vorhanden (hier ist nichts mehr notwendig)"
               },
               "en": {
                 "template": "observation",
@@ -5212,12 +5214,14 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
                     "data-type": "",
-                    "range-of-vales": "jeder wert kann 1-5 sein",
-                    "acquisition-frequency": "",
+                    "range-of-vales": "jeder Wert kann 1-5 sein",
+                    "acquisition-frequency": "1mal pro Jahr",
                     "recommended-monitoring-frequency": "alle 6 Monate",
                     "norms": [],
                     "sources": [
@@ -5281,7 +5285,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Die DGE empfiehlt die Brief Resilience Scale (BRS) (6 Items, Wertebereich von 1 – 30, < 3,0 markiert eine reduzierte Resilienz)"
+                "discussion": "Sandra:\n\n1\\) Beschreibung ausständig\n\n2\\) ist auf deutsch vorhanden (hier ist nichts mehr notwendig)"
               }
             }
           ]

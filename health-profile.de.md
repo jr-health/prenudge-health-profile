@@ -1666,13 +1666,18 @@ Dieser Gesundheitsindikator erfasst die (chronische) Stressbelastung der Persone
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
 - **Datenformat:** Kategoriel
-- **Wertebereich:** jeder wert kann 1-5 sein
+- **Wertebereich:** jeder Wert kann 1-5 sein
+- **Erfassungsfrequenz:** 1mal pro Jahr
 - **Empfohlene Monitoringfrequenz:** alle 6 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- Ein Gesamtwert zwischen 1,00 und 2,99 deutet auf eine niedrige Resilienz hin, während Werte von 3,00 bis 4,30 als normal und Werte von 4,31 bis 5,00 als hoch eingestuft werden
+- **Gesamtwert**: 
+
+- 1,00 und 2,99 niedrige Resilienz 
+-  3,00 bis 4,30 als normal 
+- 4,31 bis 5,00 als hoch
 
 **Scoring-Algorithmus:** Zur Auswertung werden die negativ formulierten Items (2, 4 und 6) invertiert und anschließend der Mittelwert aller sechs Items gebildet.
 
