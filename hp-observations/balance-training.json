@@ -1,0 +1,104 @@
+{
+  "de": {
+    "template": "observation",
+    "key": "balance-training",
+    "dataset-scope": "Extension",
+    "title": "Gleichgewichtstraining",
+    "category": "physical-activity",
+    "dimension": "flexibility-and-balance",
+    "description": "**Wofür sind Gleichgewichtsübungen gut?** Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.",
+    "citizen-info": "**Wofür sind Gleichgewichtsübungen gut?** Alte Menschen haben ein erhöhtes Sturzrisiko, wenn sie schon einmal gestürzt sind oder beim Gehen Schwierigkeiten haben. Daher sollen ältere und alte Menschen regelmäßig körperlich aktiv sein und koordinative Übungen, zu denen auch Gleichgewichtsübungen gehören, durchführen. Beispiele für Gleichgewichtsübungen sind: Auf Zehenspitzen gehen, auf den Fersen gehen, Übungen auf einem Wackelbrett (für fitte ältere Menschen) oder Übungen auf einem Bein stehend. Generell verbessert die Kräftigung der Rücken-, Bauch- und Beinmuskulatur durch die Erhöhung der Rumpfstabilität auch das Gleichgewicht.",
+    "verified-health-links": [],
+    "population": "ältere Erwachsene (ab 65 Jahren)",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "device": "",
+        "licence-required": false,
+        "licence-link": "",
+        "specific-questions": "**An wie vielen Tagen pro Woche führen Sie üblicherweise Übungen zur Verbesserung Ihres Gleichgewichts durch?**\n\n_Antwortmöglichkeit:_ \\_Anzahl der Tage pro Woche",
+        "unit": "Anzahl der Tage/Woche",
+        "data-format": "ganze Zahl",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "Minimum: 2x pro Jahr",
+        "recommended-monitoring-frequency": "Optional: alle 3 Monate",
+        "norms": [
+          {
+            "specific-norm": "Im Rahmen des wöchentlichen Bewegungsumfanges soll vielseitig trainiert werden, indem Aktivitäten zur Verbesserung von Kraft, Ausdauer, Beweglichkeit sowie des Gleichgewichts durchgeführt werden."
+          }
+        ],
+        "scoring-algorithm": "nicht zutreffend",
+        "sources": [
+          {
+            "source-description": "•\tFonds Gesundes Österreich. (2020). Wissensband 17: Österreichische Bewegungsempfehlungen. Gesundheit Österreich GmbH. https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf — https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386293009",
+            "display": "Balance exercises"
+          }
+        ],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  },
+  "en": {
+    "template": "observation",
+    "key": "balance-training",
+    "dataset-scope": "Extension",
+    "title": "balance-training",
+    "category": "physical-activity",
+    "dimension": "flexibility-and-balance",
+    "description": "",
+    "citizen-info": "",
+    "verified-health-links": [],
+    "population": "",
+    "disease-association": [],
+    "measurement-instrument": [
+      {
+        "source-type": "Questionnaire · manual (self-reported)",
+        "licence-required": false,
+        "licence-link": "",
+        "specific-questions": "",
+        "unit": "",
+        "data-format": "",
+        "data-type": "",
+        "range-of-vales": "0-7",
+        "acquisition-frequency": "Minimum: 2x pro Jahr",
+        "recommended-monitoring-frequency": "Optional: alle 3 Monate",
+        "norms": [],
+        "sources": [
+          {
+            "source-description": "",
+            "system": "https://fgoe.org/sites/fgoe.org/files/2020-06/WB17_bewegungsempfehlungen_bfrei.pdf",
+            "reference": "[Author]. [Year]. [Title] [Online]. Available: [URL] [Accessed DD.MM.YYYY].\n[Author] [Year]. [Title]. [Place]: [Publisher]."
+          }
+        ],
+        "terminology-codes": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "386293009",
+            "display": ""
+          }
+        ],
+        "pn-fhir-ig-link": "",
+        "pn-fhir-ig-status": "draft",
+        "vis-status": "draft",
+        "qualification": "",
+        "app-providers": []
+      }
+    ],
+    "discussion": ""
+  }
+}
