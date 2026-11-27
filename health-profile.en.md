@@ -482,7 +482,7 @@ DH2: 1-99 (bei halben Portionen aufrunden)
 #### Measurement Instruments
 
 **Measurement Instrument 1** — Questionnaire · manual (self-reported)
-- **Range of Values:** 1-4
+- **Range of Values:** 1-99
 - **Acquisition Frequency:** 1x pro Jahr
 - **Recommended Monitoring Frequency:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
@@ -490,6 +490,7 @@ DH2: 1-99 (bei halben Portionen aufrunden)
 
 **Sources:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+- https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/
 
 **Terminology Codes:**
 

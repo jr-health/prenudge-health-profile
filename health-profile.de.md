@@ -990,38 +990,86 @@ Man könnte die durchschnittlichen Portionen pro Tag berechnen.
 
 ### Öle/Fette/Nüsse/Samen (Portionen/Tag)
 
+**Beschreibung für Fachpersonal:**
+
+Bei diesem Gesundheitsindikator werden die konsumierten Mengen an Öle, Fette, Nüsse Samen pro Tag abgefragt.
+
+**Allgemein:** In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.
+
+**Inhaltsstoffe:** 
+
+- Vitamin E Wichtig für den Zellschutz und das Immunsystem.
+- Omega-6- und Omega-3-Fettsäuren
+
+**Gut zu wissen**
+
+- "Fett übernimmt viele wichtige Aufgaben im Körper. Es ist Träger fettlöslicher Vitamine und Lieferant essenzieller (= lebensnotwendiger) Fettsäuren. Fett ist aber auch ein bedeutender Energielieferant und trägt bei einer überhöhten Zufuhr zur Entstehung von Übergewicht bei.
+- Pflanzliche Öle, Nüsse und Samen enthalten wertvolle Fettsäuren.
+- Das Risiko für Herz-Kreislauf-Erkrankungen lässt sich senken, wenn weniger gesättigte Fettsäuren konsumiert werden.
+- Eine hohe Zufuhr gesättigter Fettsäuren kann sich ungünstig auf die Blutfettwerte auswirken. Sie können zu einem erhöhten LDL-Cholesterinspiegel führen. Gesättigte Fettsäuren sind vor allem in tierischen Lebensmitteln wie z. B. Butter, Schmalz, Fleisch, Wurstwaren, Käse oder Schlagobers, aber auch in Kokosfett enthalten." ([https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/](https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/))
+
+**Tipps**
+
+- "Nehmen Sie für Salatdressings einen Esslöffel, um die Menge des Öls zu dosieren. Als Alternative eignen sich auch Joghurtdressings sehr gut.
+- Achten Sie auf fettarme Zubereitungsmethoden wie z. B. Dünsten, Dampfgaren, Grillen statt Frittieren oder Panieren.
+- Streichen Sie anstatt Butter und Margarine Senf, Kräutertopfen oder Ajvar (Paprikapaste) auf das Brot.
+- Soßen müssen nicht fett sein. Pürieren Sie z. B. gegartes Gemüse oder Hülsenfrüchte." ([https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/](https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/))
+
 **Population:** erwachsene Allgemeinbevölkerung
 
 **Information für Bevölkerung:**
 
-In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.
+ei diesem Gesundheitsindikator werden die konsumierten Mengen an Öle, Fette, Nüsse Samen pro Tag abgefragt.
+
+**Allgemein:** In Fetten und Ölen sind gesättigte, ungesättigte und essenzielle mehrfach ungesättigte Fettsäuren sowie Vitamin E enthalten. Bei der Auswahl von Fetten sollte unbedingt Qualität vor Menge gelten. Die Fettqualität wird im Wesentlichen durch die enthaltenen Fettsäuren bestimmt. Pflanzliche Öle sowie Nüsse und Samen enthalten wertvolle, ungesättigte Fettsäuren und fettlösliche Vitamine. Weniger empfehlenswerte gesättigte Fettsäuren sind insbesondere in tierischen Fetten enthalten. Aber auch Kokos- und Palmfett enthalten viele gesättigte Fettsäuren. Gesättigte Fettsäuren sollten maximal ein Drittel der als Fett zugeführten Energie darstellen.
+
+**Inhaltsstoffe:** 
+
+- Vitamin E Wichtig für den Zellschutz und das Immunsystem.
+- Omega-6- und Omega-3-Fettsäuren
+
+**Gut zu wissen**
+
+- "Fett übernimmt viele wichtige Aufgaben im Körper. Es ist Träger fettlöslicher Vitamine und Lieferant essenzieller (= lebensnotwendiger) Fettsäuren. Fett ist aber auch ein bedeutender Energielieferant und trägt bei einer überhöhten Zufuhr zur Entstehung von Übergewicht bei.
+- Pflanzliche Öle, Nüsse und Samen enthalten wertvolle Fettsäuren.
+- Das Risiko für Herz-Kreislauf-Erkrankungen lässt sich senken, wenn weniger gesättigte Fettsäuren konsumiert werden.
+- Eine hohe Zufuhr gesättigter Fettsäuren kann sich ungünstig auf die Blutfettwerte auswirken. Sie können zu einem erhöhten LDL-Cholesterinspiegel führen. Gesättigte Fettsäuren sind vor allem in tierischen Lebensmitteln wie z. B. Butter, Schmalz, Fleisch, Wurstwaren, Käse oder Schlagobers, aber auch in Kokosfett enthalten." ([https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/](https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/))
+
+**Tipps**
+
+- "Nehmen Sie für Salatdressings einen Esslöffel, um die Menge des Öls zu dosieren. Als Alternative eignen sich auch Joghurtdressings sehr gut.
+- Achten Sie auf fettarme Zubereitungsmethoden wie z. B. Dünsten, Dampfgaren, Grillen statt Frittieren oder Panieren.
+- Streichen Sie anstatt Butter und Margarine Senf, Kräutertopfen oder Ajvar (Paprikapaste) auf das Brot.
+- Soßen müssen nicht fett sein. Pürieren Sie z. B. gegartes Gemüse oder Hülsenfrüchte." ([https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/](https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/))
 
 #### Messinstrumente
 
 **Messinstrument 1** — Questionnaire · manual (self-reported)
-- **Datenformat:** kategoriell 1-4
-- **Wertebereich:** 1-4
+- **Einheit:** Portionen Ölen, Nüssen oder Samen /Tag
+- **Datenformat:** ganze Zahl, halbe Portionen werden aufgerundet
+- **Wertebereich:** 1-99
 - **Erfassungsfrequenz:** 1x pro Jahr
 - **Empfohlene Monitoringfrequenz:** Optimum: alle 3 Monate
 - **FHIR IG Status:** draft
 - **Sunburst-Chart Status:** draft
 
 **Spezifische Normen:**
-- Die Ernährungsempfehlungen auf einen Blick zeigt die [Österreichischen Ernährungspyramide](https://www.gesundheit.gv.at/leben/ernaehrung/info/oesterreichische-ernaehrungspyramide.html "Öffnet im selben Fenster"). Es gibt sie in zwei Varianten: mit Fisch und Fleisch, ohne Fisch und Fleisch.
+- **Empfehlungen:** "Die Ernährungsempfehlungen auf einen Blick zeigt die Österreichischen Ernährungspyramide. Es gibt sie in zwei Varianten: mit Fisch und Fleisch, ohne Fisch und Fleisch.
 
-Pflanzliche Öle, Nüsse und Samen sollten **täglich** in moderaten Mengen konsumiert werden: **rund 2 Portionen. Eine Portion entspricht:**
+Pflanzliche Öle, Nüsse und Samen sollten täglich in moderaten Mengen konsumiert werden: rund 2 Portionen. Eine Portion entspricht:
 
 | Fette und Öle | 1 - 2 Esslöffel | 10 - 25 g |
 | Nüsse, Samen | 2 Esslöffel | ca. 25 g |
 
 Streich-, Back- und Bratfette wie Butter, Margarine oder Schmalz und fettreiche Milchprodukte, wie Schlagobers, Sauerrahm, Crème Fraîche, sparsam verwenden. Achten Sie auf fettarme Zubereitungsmethoden, z.B. dünsten, dampfgaren, grillen statt frittieren oder panieren.
 
-Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3-reiche pflanzliche Produkte, z.B. Rapsöl, Leinöl, Walnüsse und daraus hergestellte Öle, gegenüber jenen mit einem hohen Gehalt an Omega-6-Fettsäuren, z.B. Sonnenblumenöl oder Maiskeimöl.
+Insbesondere bei einer Ernährung ohne Fisch und Fleisch: Bevorzugen Sie Omega-3-reiche pflanzliche Produkte, z.B. Rapsöl, Leinöl, Walnüsse und daraus hergestellte Öle, gegenüber jenen mit einem hohen Gehalt an Omega-6-Fettsäuren, z.B. Sonnenblumenöl oder Maiskeimöl."
 
 **Scoring-Algorithmus:** nicht zutreffen
 
 **Quellen:**
 - https://www.ages.at/mensch/ernaehrung-lebensmittel/ernaehrungsempfehlungen/oesterreichische-ernaehrungsempfehlungen
+- [Österreichische Ernährungsempfehlung](https://ernaehrungsempfehlung.at/empfehlungen/oele-fette-nuesse-und-samen/)
 
 **Terminologiecodes:**
 
