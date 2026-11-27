@@ -1,8 +1,8 @@
 {
   "version": "0.1.25-test",
-  "generated": "2026-11-27T10:11:52.191319+00:00",
+  "generated": "2026-11-27T10:13:28.949407+00:00",
   "scope": "combined",
-  "commit": "4a507deffa27766a327799d811c4b2b97431c33c",
+  "commit": "a8d23b9d383a488f6a5b6397d5b950da47d8a858",
   "activity": {
     "since": "v0.1.25-test",
     "entries": [
@@ -7061,6 +7061,8 @@
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
                     "device": "Patient-Reported Adverse Drug Event Questionnaire",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "**Welche Nebenwirkungen haben Sie bei der Einnahme Ihrer Medikamente bemerkt?**\n_Bitte wählen Sie alle zutreffenden Antworten aus._\n\n☐ Übelkeit oder Erbrechen\n☐ Durchfall oder Verstopfung\n☐ Bauchschmerzen oder andere Magen-Darm-Beschwerden\n☐ Schwindel oder Benommenheit\n☐ Kopfschmerzen\n☐ Müdigkeit oder Schläfrigkeit\n☐ Schlafstörungen\n☐ Konzentrations- oder Gedächtnisprobleme\n☐ Hautausschlag oder Juckreiz\n☐ Schwitzen\n☐ Herzklopfen oder andere Herz-Kreislauf-Beschwerden\n☐ Atembeschwerden\n☐ Appetitveränderungen\n☐ Ungewollte Gewichtszunahme\n☐ Ungewollter Gewichtsverlust\n☐ Muskel- oder Gelenkschmerzen\n☐ Sexuelle Beschwerden\n☐ Probleme beim Wasserlassen\n☐ Stimmungsschwankungen oder andere psychische Beschwerden\n☐ Andere Nebenwirkung, nämlich: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n☐ Keine Nebenwirkungen bemerkt",
                     "unit": "multiple Antwortmöglichkeit möglich",
                     "data-format": "kategoriell",
@@ -7221,7 +7223,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
+                "discussion": "Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\nSandra: Beschreibung ausständig; nicht auf Deutsch validiert (Forward, Backward Translation wäre notwendig)"
               },
               "en": {
                 "template": "observation",
@@ -7238,6 +7240,8 @@
                 "measurement-instrument": [
                   {
                     "source-type": "Questionnaire · manual (self-reported)",
+                    "licence-required": false,
+                    "licence-link": "",
                     "specific-questions": "",
                     "unit": "",
                     "data-format": "",
@@ -7397,7 +7401,7 @@
                     "app-providers": []
                   }
                 ],
-                "discussion": "Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus"
+                "discussion": "Wenn es einen Medikationsplan (z.B. über ELGA) gibt, Überprüfung ob dieser eingehalten wird.\n\nErinnerung an Überprüfung des Impfstatus\n\nSandra: Beschreibung ausständig; nicht auf Deutsch validiert (Forward, Backward Translation wäre notwendig)"
               }
             }
           ]
